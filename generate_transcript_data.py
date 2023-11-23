@@ -6,6 +6,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.tag import pos_tag
 
+
 def remove_stopwords_and_pos(text):
     stop_words = set(stopwords.words('english'))
     words = word_tokenize(text)
@@ -18,6 +19,7 @@ def remove_stopwords_and_pos(text):
     filtered_words = [word for word, pos in pos_tags if pos not in ('DT', 'IN')]
     return filtered_words
 
+
 def count_filtered_words(file_path):
     # Read the content of the file
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -28,6 +30,7 @@ def count_filtered_words(file_path):
     # Remove stopwords and certain parts of speech
     return Counter(remove_stopwords_and_pos(text))
 
+
 def display(list_of_word_freq, num_of_top_words_to_show, num_videos_parsed):
     sorted_freq = sorted(list_of_word_freq, key=lambda x: x[1], reverse=True)
 
@@ -36,7 +39,12 @@ def display(list_of_word_freq, num_of_top_words_to_show, num_videos_parsed):
 
     plt.figure(figsize=(12, 8))
     bar_width = 0.6  # Adjust the width of the bars
-    plt.bar(range(len(words)), frequencies, width=bar_width, tick_label=words, color='skyblue')
+    bars = plt.bar(range(len(words)), frequencies, width=bar_width, tick_label=words, color='skyblue')
+
+    # Add the number inside each bar with vertically centered text
+    for bar, freq in zip(bars, frequencies):
+        plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() / 2, str(freq),
+                 fontsize=10, ha='center', va='center', rotation='vertical')
 
     # Increase font size of text on bars
     plt.xticks(rotation=45, ha='right', fontsize=12)
@@ -49,7 +57,6 @@ def display(list_of_word_freq, num_of_top_words_to_show, num_videos_parsed):
     plt.tight_layout()
     plt.subplots_adjust(bottom=0.2)  # Adjust the bottom margin
     plt.show()
-
 
 
 def main():
