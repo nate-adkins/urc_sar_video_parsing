@@ -1,0 +1,137 @@
+we are the sooner Rover team an
+interdisciplinary team of Engineers and
+scientists from the University of
+Oklahoma focused on training Outreach
+and Innovative design and we are excited
+to present Remy this year's Rover the
+Rover communicates with mission control
+over a 2.4 gigahertz antenna capable of
+transmitting over a kilometer through
+obstructions an Nvidia Jetson Powers a
+flexible video streaming program that
+allows the operator to quickly
+reconfigure the display for the current
+Mission custom control programs allow an
+operator to rapidly switch modes of
+operation on the Rover a microcontroller
+in the e-box receives UDP packets and
+then writes pwm to each wheel for speed
+control each wheel contains an
+independent power system to provide
+sufficient charge for each mission in
+the fine manipulation Mission the
+operator must perform precise movements
+using cameras and control UI to complete
+each task necessitating minimal latency
+in order to achieve this the arm uses
+multiple microcontrollers to split
+computation it receives Control Data
+through UDP packets from mission control
+and then converts it to can to
+communicate data throughout the arm
+while mitigating high frequency noise
+inverse kinematics allow the user to
+manipulate multiple motors
+simultaneously while PID is used to
+ensure the arm functions as the user
+commands when load is applied the
+combined use of these algorithms
+provides a very intuitive and responsive
+control scheme making fine manipulation
+much easier than previous years this
+year we focused on improving reliability
+and precision from the base up the arm
+rests on a widened base platform and is
+driven via sprocket this allows for
+greater stability to improve operator
+control while still delivering the
+necessary power to rotate the arm and
+any payload a series of two linear
+actuators provides reach and strength to
+move the bicep and forearm members
+an updated pitch Drive utilizes chain to
+move the wrist up and down in small
+increments the pitch motion is also used
+to interact with switches
+finally the wrist is made up of several
+sub-assemblies the 360 degree drive and
+reinforced slippering assembly allows
+the Rover to rotate continuously without
+damaging wires to assist in tasks such
+as turning the Allen key and positioning
+the claw pinches with opposing acne
+screws that hold objects along the
+central axis spanning over 14
+centimeters the claw can easily grasp
+tools handles and ropes
+forever payloads that require less
+Precision hooks mounted on the forearm
+allow the Rover to lift and carry any
+object with a handle Remy's unique
+marzocard design allows it to navigate
+difficult terrain with ease each axle of
+the chassis is able to rotate
+independently enabling Remy to Traverse
+obstacle courses smoothly by maintaining
+constant contact with the ground the
+large conical Wheels allow for
+self-contained Electronics while the
+fins allow the Rover to climb over large
+obstacles the chassis low center of
+gravity enables Remy to safely Ascend
+and descend steep inclines the wheel
+fins and grousers add traction to assist
+in navigating various inclines and
+combined with the strength of Remy's arm
+effector we are able to tow a rope under
+a variety of circumstances the science
+package intestine methods have been
+redesigned to meet the requirements of
+this year's Mission a forward mounted
+camera array allows the operator to view
+the side and samples the care sale has
+been redesigned to hold the new sample
+containers that can be utilized for both
+chemical and microscopic analyzes
+regolith is collected through the vacuum
+system and deposited into the sample
+containers on a rotating care cell
+a USB microscope has been installed and
+calibrated for maximum Effectiveness in
+analyzing regolith or soil samples for
+the presence or absence of extant life
+a linear actuator allows the operator to
+adjust the focal distance of the camera
+for maximum focus on the samples using
+gnss the Rover is capable of calculating
+its distance and bearing to a given set
+of latitude and longitude coordinates
+using a PID algorithm the Rover adjusts
+its path along the way to the
+destination when within three meters of
+the coordinates the river flushes its
+LEDs green to detect a rook attacks Rumi
+utilizes a 150 degree field of view
+huddly go camera using a combination of
+the opencv aruco library and a custom
+instance of the YOLO detection model
+trained with a dark net for aruku
+markers Remy can gauge the distance and
+angle to any Roku tag within a frame
+while on track to a set of coordinates
+Remy will actively search for ruko
+markers when a marker is detected Remy
+will align itself with the sensor of the
+tag while on track to a destination the
+Rover uses a PID algorithm to adjust its
+heading with the center of the marker
+from this perspective one can see how
+Remy is capable of traversing through
+gate posts by finding both markers and
+then calculating the point between them
+Remy can ascertain its distance and
+heading to that point then Traverse
+through the gate Remy is The Sooner
+Rover team's fastest strongest and most
+capable Rover yet and we can't wait for
+the University Rover challenge 2023

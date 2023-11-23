@@ -1,0 +1,100 @@
+Hi, we are Toronto MetRobotics formerly 
+known as R3. After competing in the  
+University Rover Challenge in 2022, we 
+have taken the valuable lessons learned  
+to redesign and optimize our Rover 
+to perform at its best in URC 2023.
+This year our mechanical team focused on 
+lightening the overall weight of our Rover  
+to meet competition requirements. Our wheels 
+consist of lighter 3D-printed PETG rims with  
+increased impact resistance and are in-house 
+molded polyurethane tires provide additional  
+traction and shock absorption for 
+navigating over uneven terrain.  
+Our drivetrain has been enhanced with durable 
+aluminum motor mounts and a 25:1 planetary  
+gearbox that offers more torque. The chassis was 
+redesigned and restructured to maximize space  
+and modularity. Our double lambda rocker bogie 
+suspension now also features motor driver mounts.  
+A five degree of freedom arm was implemented to 
+offer a wider range of motion and articulation.  
+Our new claw design allows us to complete all 
+equipment servicing tasks such as opening drawers  
+and pressing buttons with an integrated hex key 
+pointer. Additionally, higher gear reduction and  
+non-back drivable joints were incorporated to 
+provide position control and reduce backlash.
+Our Rover communicates with the base station 
+via 2.4 GHz frequency band. Additionally,  
+a standard Gamepad controller is used to control 
+both the drivetrain and arm manipulation. Critical  
+improvements have been made to our control system 
+to better assist the operator in completing  
+competition tasks. Firstly, an improved PID 
+controller was developed to ensure better  
+motor stabilization and reliability. A new inverse 
+kinematics-based software and firmware solution  
+has been developed for the new arm, ensuring 
+intuitive, accurate, and reliable control.  
+This year we have simplified the camera systems 
+to allow the operator to smoothly connect to and  
+interact with the onboard camera systems through 
+a GUI. For the autonomous navigation mission,  
+the ROS2 framework has been used to ensure 
+reliable communication between our Rover  
+and the base station. Our onboard GNSS-Aided 
+Internal Navigation system allows the Rover  
+to traverse towards desired coordinates 
+quickly and within the 2-meter geofence  
+tolerance using custom navigational 
+algorithms. Our Rover then performs  
+a tailored search pattern and OpenCV is used 
+to detect AR tags and perform localization.
+Our electrical system is being redeveloped to 
+improve the robustness and efficiency of a Rover.  
+Off-the-shelf Lithium Polymer batteries will 
+be replaced with custom lithium-ion battery  
+packs which are currently in development. Safety 
+has been our top priority due to the volatile  
+nature of these batteries. We have implemented an 
+advanced battery management system that supports  
+precise cell balancing as well as over-temperature 
+protection and enable and disabling mechanism for  
+various failure modes. 18650s were used to test 
+their power distribution system and a 30 cell  
+pack of 21700s will be implemented to double 
+our energy capacity for competition this year.  
+Multi-purpose motherboards were designed with 
+custom buck converters to handle high current  
+draws for the motors. The science mission will 
+be approached from two perspectives. Firstly,  
+soil samples will be tested for the presence 
+of lipids through our life detection protocol  
+and secondly, we will determine whether the soil 
+has the potential to support life, through the  
+detection of key ions and soil metrics.
+Our improved soil collection system,  
+deposits the sample into a two-way vibratory 
+splitter which allocates half the sample to  
+the lipid test and half to the ion test. After 
+agitation, a series of four different IM probes  
+will be used to detect the concentrations of 
+hydrogen, calcium, potassium, and ammonium in  
+each sample. Simultaneously, the other half 
+of the soil sample is mixed with detergents,  
+a peristaltic pump system then transfers a precise 
+amount of the liquid into a Nile blue solution to  
+determine the presence of lipids by standing red 
+or purple. Finally, the color of the solution is  
+analyzed using an onboard spectrophotometer. For 
+geological analysis, a robust, high definition  
+camera is used to observe key metrics such as 
+striation, color, and coarseness. The potential  
+specimen is then identified using our searchable 
+database. Our team is committed to continually  
+testing our new Rover systems in preparation 
+for competition, and we are grateful for the  
+immense support from all of our sponsors. Thank 
+you for watching our system acceptance review!

@@ -1,0 +1,100 @@
+hi my name is Connor Castle I'm with the
+Western University Mountaineer robotics
+team we would like to introduce our
+robot floor to the University Rover
+challenge
+the Mountaineer drivetrain sub-teams
+objective was to provide a stable
+platform to carry all tasks related
+payloads during the URC competition
+prevention of deflection and vibration
+while maintaining traction and mobility
+where the main challenge is while
+addressing the objectives the drivetrain
+was designed with a streamlined system
+containing a differential bogie a
+reinforced chassis and an integral wheel
+hub design the wheel ups featured 3d
+printed components to reduce weight
+while allowing for transference of
+torque the wheels themselves are
+polyurethane with treads designed to
+enhance trash the Mountaineer
+manipulative sub team has been focused
+on developing an effective manipulator
+capable of achieving all objective set
+in both the extreme retrieval and
+equipment servicing missions to complete
+such tasks to the time requirements such
+as structural rigidity both capabilities
+and manipulatives except dexterity were
+account afford to develop of a
+competitive mission-ready manipulator
+utilizing six degrees of freedom and
+inverse kinematics the mountaineer
+manipulator has the ability to complete
+tasks in an accurate fashion meanwhile
+enabling the user to have ample control
+over the manipulators at the position
+this includes utilizing three three
+linear servos and for dynamics of servos
+for an end effector that has a flexible
+positioning capabilities in addition a
+custom base plate and track design was
+designed to improve structural rigidity
+my electronic sub team provides the
+necessary structure for programming and
+communications of the river system since
+commercial electronic devices require
+different voltage levels and chi limits
+the system requires a Power Distribution
+architecture capable of converting the
+battery voltage to the necessary
+voltages of those devices the
+communication sub team works on
+transmission of data from the base
+station to the railroad the system is a
+2.4 gigahertz line that is powered by
+ubiquity m2 rockets on the base station
+side we use in 90-degrees sector antenna
+on the rover we have an omnidirectional
+antenna we have done reliability testing
+on the system and we have found that the
+system works up to 1.5 miles and has a
+maximum throughput of 87 megabits per
+second but the autonomous traversal
+tasks the Mountaineer programming sub
+team has developed capabilities to
+navigate GPS waypoints search for tennis
+balls and avoid obstacles and untrue
+versatile terrain to facilitate Waypoint
+navigation a GPS based path planner will
+generate a waypoint that the given
+tennis ball coordinate along the way to
+the Waypoint if any obstacles are
+detected in the path of the river the
+river will enter the hazard avoidance
+State
+tennis-ball detection is performed to
+using a tensor flow approach as well as
+a basic object detection algorithm the
+opencv based object recognition
+algorithm can quickly detect the tennis
+ball based on shape and color under
+ideal conditions the strength of the
+tensor flow approach is the ability to
+train the neural net to detect the
+tennis world under a wide variety of
+conditions the mountaineer science sub
+team led efforts to determine the most
+effective method of identifying
+potential cache locations while abiding
+by the no spill policy a tiller agitates
+the ground to collect subsurface soil
+and bring onboard sensors into contact
+with the sample brief vectors of
+electrical conductivity moisture content
+pH levels and temperature are recorded
+for each soil sample some sites may be
+sampled several times to further support
+the signs of life in the area

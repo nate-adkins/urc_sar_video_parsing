@@ -1,0 +1,125 @@
+hi we are the PCs at Berger team we are
+from Poland and we represent the
+Technical University of Jehovah and the
+Faculty of medical engineering and
+computer science we have a lot of
+experience in construction robbers the
+latest design is the sixth Rover built
+by our team the team has 12 members of
+which six joined us through recruitment
+and participated in the project process
+the team is organized into specialized
+departments mechanics electronics IT
+professionals science team and PR
+departments we are proud that we
+represent you our new construction in
+September we started a project called
+modernity free the new vehicle is
+designed to carry out the toughest of
+field tasks we have worked hard all year
+on our project always striving for the
+highest reliability and quality system
+of testing samples is based on lateral
+Tator with sample tubes digital
+spectrophotometer and further tests
+which proved that spectral analysis was
+done correctly to ensure the best
+results of the tests samples are
+filtered accordingly to remove all
+remaining contaminations and the liquid
+solution is transported to quartz cadets
+in order to perform a spectral analysis
+at Waveland 260 nanometer and 280
+nanometer to detect DNA RNA proteins and
+enzymes the fully proof that the testing
+of sample was done correctly with
+additional tests as Fehlings tests in
+order to distinguish aldehyde group
+ATP test to the terminal microbial
+activity pH test at pure test for
+protein detection given tests are used
+to get reputable and reliable results
+all of our tests are color metric
+modernity free is a compact design
+it weighs 48 kilograms and it's full
+dimensions are 1800 by 1150 millimeters
+and 1150 by 1100
+fifteen others during rain it has large
+14-inch pre-printed wheels and achieves
+a top speed of 1200 meters per hour
+the vehicle is powered by three lithium
+polymer batteries which power a model
+our electronic architecture and a lock
+for 120 minutes of operation the vehicle
+is equipped with an emergency stop that
+disconnects the power supply directional
+antennas from the base of operations are
+automatically directed towards near over
+which has an antenna mast or
+stabilization system in our axis program
+activities / monitors through seven high
+resolution IP cameras the ability to
+move cameras using several mechanisms
+allows you to better assess the
+situation around there over the
+redesigned suspension has a low center
+of gravity that allows their / to
+navigate Stern slopes exceeding 45
+degrees the rocker-bogie system spreads
+the forces and started to individual
+wheels allowing making off-road
+obstacles easier to overcome their over
+is equipped with a manipulator arm that
+has 6 degrees of freedom is optimized
+for mobility and precision and can live
+up to 8 kilograms the specially
+developed manipulator controller is very
+intuitive and with the use of inter
+semantics reduces the time needed to
+perform operations the manipulators
+first can make complex movements such as
+flip switches unscrew items
+operate a keyboard or specify the
+dimensions of the object being raised
+the manipulator has a new assembly and
+the disassembly system which allows for
+us very easy and quick maintenance and
+deployment the rover manager application
+we created allows commands underthings
+visualization of the magnetic position
+vehicle orientation in the veldt
+Rico of their over route travel software
+controls signal quality the taking
+instability and if needed retire action
+data to the appropriate band the new
+autonomy system is based on the next
+come onboard computer and free camera
+which provide vision of death and
+standard camera image it is done by the
+tensorflow
+library from Google implemented sensors
+such as a GPS accelerometer and compass
+with stereo camera others identify
+uneven terrain and impossible obstacles
+we had a convenient panel that allows
+you to quickly enter GPS coordinates
+points between stages and displaying the
+current position of her over on the map
+the neural network has been trained to
+search for a Arcos repeatedly improved
+with a variety of learning data trying
+to predict every possible perspective
+view when they're over reaches its
+destination and it meets the
+requirements for given stage it signals
+the end tests are a very important part
+of the project we have tested our system
+extensively on modular level and as an
+assemblage unit we are in the process of
+conducting system and validation tests
+we carry out tests in that simulate
+scenarios such as overloads emergencies
+and random events at this stage
+operators gain experience and learn
+control system
+you

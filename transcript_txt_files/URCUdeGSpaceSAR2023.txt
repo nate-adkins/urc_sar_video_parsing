@@ -1,0 +1,96 @@
+hi we are the space team and we are
+excited to show you our rubber in
+wikimina
+our dish suspension inspired by our
+employee system provides a very
+stability for the robber without a
+typical structure ready for high demands
+and Byron terrains with Association of
+six motorized wheels for an optimal
+assembly up for difficulty range the
+rubber performance is optimized for
+requirements of each Mission
+the new chassis design improved the
+assembly process introducing and modular
+system this allows a better word
+distribution and practical changes
+between each mission
+in addition we improve the manufacturing
+process thanks to a sponsorship of
+product case
+in the new Power model a lithium ion
+battery Arrangement was specifically
+designed for the needs of the system
+these batteries can provide a large
+amount of energy in a compact package
+which is particularly important for the
+Rover or space and the way are limited
+for remote operation and communication
+we use a 2.4 GS Wi-Fi connection we have
+opener optional antenna every aspect of
+the system control can be remotely
+operated and monetarily
+in the autonomous navigation team we
+decided to use an approach to path
+planning via graph traversal algorithms
+optimized with the method of time the
+elastic band
+with the help of a set camera we map the
+environment for layer obstacle detection
+for the location and orientation a GPS
+and a six axis ime sensor are used for
+testing we develop a simulation in
+gazebo and created a model for the
+rubber some objects were also placed to
+simulate a trick environment for the
+Rover to move around
+this way we can test the navigation
+system and thought planning algorithm in
+this simulation we also test the
+location and detection of our Rook
+attacks
+now a robotic arm is a 5 degrees of
+freedom anthropomorphic manipulator at
+the top of the wrist we use an IP camera
+that monitors the movements of the
+gripper the three finger design allows
+to press buttons activate switches and
+pickup tools with higher Precision in
+addition we Implement a hook that is
+capable of lifting anchored objects is
+lifting 5 kilograms compared to last
+year the design had considerable changes
+that allow us to optimize assembly and
+develop a demonic arm thanks to
+implementation of the AQ Motors these
+actors of a compact design lightweight
+and high torque for the children and
+elbow the motors were coupled to a
+cyclone transmission with 111 reduction
+for the control operation of the r a
+robust embedded system with Cam protocol
+was implemented which marked the
+heuristic signals to angular velocities
+and calculates the PID control
+this year we will be using a 3-axis rail
+system with the connector modes that
+constitutes all Laboratory
+we collect soil samples using a platform
+equipped which shows that can recollect
+10 grams of soils and evenly distributed
+inside a deposit platform
+this deposit platform consists of an
+array of capsules where the soil will be
+placed there a ph and colorimetary
+Analysis will be career
+the reactants are indicators with the
+Terminator running material and be
+moleculars as amino acid nucleic acids
+and carbohydrates
+the rubber will be equipped with gas
+detecting sensors hydrogen potential
+sensors archaeological database
+this laboratory is prepared to analyze
+up to six different soil samples while
+abodeing cross-contamination
+[Music]

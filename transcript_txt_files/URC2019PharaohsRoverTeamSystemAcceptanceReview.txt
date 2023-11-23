@@ -1,0 +1,103 @@
+The Pharaohs team of the Military Technical College consists of four groups
+Mechanical group
+Electrical group
+Science group
+and Management and Logistics group
+We take into consideration the
+team requirement skills and the members
+development and their ability of doing
+tasks, in the shown figures we see the
+number of skills required from the team
+member how he was, how he is
+and the development of each member
+We fabricated
+our 17 kilogram chassis from five
+millimeter Aluminum sheet, this is
+designed to be assembled like Lego
+without any welding depending on
+interference of metal
+The body is made of Aluminum frame covered with Artelon
+Double sheet boogie is used to achieve high
+strength per unit weight
+depending on the area moment of inertia Theory
+Wheels are centered under the boogie to eliminate torsional stress
+and in-wheel motor mounting ensures its safety
+simulation shows the rocker boogie with
+torsional bar allow the rover to climb a
+vertical distance of 40 centimeters and
+drop 70 centimeters
+Easy disassembly allows us to pack the rover
+in a small package for easy transportation
+Manufacturing is being done in our
+colleges workshop using CNC water jet machine
+Our six degree of freedom
+robotic arm is a distinguished by being
+lightweight, simple in design, easy to
+manufacture and modular
+it consists of small parts assembled in a way that
+makes it reconfigurable to control its workspace
+Our gripper is designed to be
+adaptive in order to hold things with
+different shapes and sizes
+Rover control system consists of two
+main subsystems, low level controller
+which is connected directly to the
+physical layer and high level control
+which handles navigation and path
+planning
+While ROS integrates the two subsystems
+For system wiring high power
+is separated from
+the low power for the safety of the system
+a PCB is used to
+connect between the micro-controller and motor drivers
+For rover control a PID
+controller is used to maintain rover
+heading even in case of failure of any
+of the motors
+Control system is designed with fault tolerance consideration
+which
+enables bypassing some of its components
+in case of failure at expense of some
+functionalities
+Our navigation process consists of global and local planning systems
+the global planning system is used to estimate the distance
+and the angle between the rover and the target
+providing an output heading command for
+the low PID heading controller
+by shortest paths algorithm
+while the local
+system is used for avoiding the
+obstacles by direction weighting
+algorithm, since it finds the best
+direction relative to the rover's
+position, so it's independent to the error from the INS
+Antenna tracking is used
+to improve the communication range and
+by testing we achieve the range of 1.5
+kilometers with low latency
+as for the control station we can control the rover
+using any web-connected device
+which provides flexible and rapid startup
+and also provides the driver with feedback of entire system
+we are currently
+testing the Rovers capabilities to
+achieve the competition tasks
+Since all tests must be on board we
+depended on experiments that change
+the color of the reagents so we decided to
+get our sample in the form of solution
+starting with carbohydrates using
+Benedict reagent
+and Protein using  Biuret reagent
+and starch using iodine
+Our study of rocks gives us clear
+indication about the existence of
+current or extinct life
+we are also using a variety of sensors like
+conductivity, humidity, temperature, pH and moisture
+Respecting non-spell policy our
+science box is designed to allow us to
+make a solution and disperse it in all
+test tubes
+and is also equipped with a mini microscope

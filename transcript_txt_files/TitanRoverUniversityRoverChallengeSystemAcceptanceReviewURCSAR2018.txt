@@ -1,0 +1,140 @@
+hi I'm Justin MacGregor the president
+and project lead for Titan Rover Titan
+Rover is a two-part organization an
+educational club and a URC design team
+with overlap between the two
+the club's purpose is to inspire
+students to reach higher in space
+exploration and STEM education by using
+our past you RC Rovers and robotics
+demonstrations the design team sets out
+to design and manufacture a complete
+Rover for the you RC we now have two
+years of competition behind us and have
+learned some valuable lessons along the
+way
+last year we developed Atlas from the
+ground up this gave us a robust
+mechanical platform to work with and we
+decided to make it evokes on the areas
+of opportunity we found through the
+analysis of our past performance I am
+proud to introduce to you Calypso based
+on the Atlas platform beyond the lessons
+we learned from last year's competition
+we decided to put the mechanical system
+through a series of rigorous tests to
+determine key locations for weight
+reduction to increase Rover
+functionality testing provided valuable
+information verifying that our system is
+robust enough to tackle any difficult
+terrain that is feature that competition
+dual brush DC motors are mounted into
+each custom hub assembly in order to
+shield them from rocks the tires have a
+custom tread design in order to increase
+our traversal abilities across sand dirt
+as well as steep slopes
+we have prototypes and are currently
+testing a semi-active suspension system
+which allows us to change the ride
+height and suspension settings at any
+time using software provided by our
+sponsor all team we are designing a PCB
+that will shut off any subsystem that is
+showing too much current in addition we
+have a fiscal kill switch with dual
+circuit control using an internal
+solenoid this allows us to physically
+cut all power to the Roper as well as
+send a remote command to depower the
+mobility system in the event of an
+undesired movement the robotic arm is
+designed for both form and function it
+features five degrees of freedom and
+utilizes carbon fiber limb that act as
+structural members while acting as an
+internal channel for all cabling and
+drive systems feedback is designed into
+every joint of the robotic arm to enable
+real-time position of the arm and allow
+the use of inverse kinematics the
+gripper can accommodate a vast array of
+objects using specialized gripper tips
+to maximize the points of contact on
+mini standard and oddly shaped objects
+their gripper can be filled swapped for
+other types of in effectors if needed
+the major joints and components of the
+arm have been designed with
+manufacturability and weight reduction
+in mind quick release connectors for
+electrical and mechanical connections
+allow for easy serviceability during
+assembly and maintenance during the
+autonomous task the Rovers in the
+leverage the onboard processing cores in
+Nvidia's jets and tx2 we are utilizing
+both the GPU and the arm processes
+around the computer vision system we
+have built a custom model in tensorflow
+for the tennis ball detection using
+machine learning the model has
+accurately identified the tennis ball up
+to 16 feet away
+our navigation platform is based on a
+simultaneous localization and mapping
+model within the robotic operating
+system our sensors will construct an
+environment in which the rover will
+operate after reaching the provided GPS
+point a mathematical algorithm will
+create a search pattern based off of
+known system and vision constraints this
+will include any prior obstacles that
+the rover has encountered and add it to
+the slam model or sensor package uses a
+two-dimensional lighter unit a
+centimeter accurate GNSS and an IMU
+these components allow us to
+continuously update our position with an
+R slam model the lighter is mapping the
+terrain while the GNSS is localizing the
+position by choosing Python in a module
+design pattern were able to seamlessly
+integrate these sensors to conduct unit
+testing and authenticate software
+verification and validation this year's
+science system we have refocused our
+efforts on collecting a suitable sample
+for our life detection assays this
+involves designing a hollow stem auger
+that is able to collect and store a
+sample down to a depth of 10 inches
+while preserving relative superposition
+in addition our suite of sensors
+measures atmospheric variables such as
+barometric pressure air temperature and
+humidity UV radiation wind speed and co2
+abundance our in citrus oil probe
+measures soil moisture and subsurface
+temperature our custom user interface
+logs and graphs the data from the
+sensors both onboard and back at the
+base station as well as records photos
+and video through our various camera
+systems our biochemical lab analysis
+consists of several tests to directly
+observe biologic organisms slide
+staining and UV spectroscopy will give
+us information on cell morphology cell
+component structure presence of genetic
+material and endospore production we
+will characterize the samples chemical
+environment using pH testing and cation
+anion identification Titan Rover
+continues to push the boundaries through
+rigorous testing and constant refinement
+thanks for watching I'll see you in Utah
+you

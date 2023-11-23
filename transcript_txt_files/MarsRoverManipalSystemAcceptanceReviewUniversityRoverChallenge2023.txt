@@ -1,0 +1,153 @@
+foreign
+[Music]
+for the University Rover challenge 2023.
+the team comprises of 46 undergraduate
+students segregated in different
+subsystems based on their specialization
+in their respective Fields our team's
+social Outreach is primarily emphasized
+on improving access and equity in
+education empowering young minds and
+making a positive impact on the society
+these efforts are Central to our work at
+mrm and we remain committed to making a
+meaningful difference each and every day
+this year we focus primarily on
+designing and fabricating a 6D of
+robotic manipulator and made further
+announcements to a novel track system
+the update right system features petg
+and tp3 printed views which reduce
+weight and provide design flexibility
+the wheel comprises a three-quarter
+floating assembly featuring revamped
+motor casings and multi-stage Battery
+gearboxes our custom fiber suspension
+delivers optimal ground conformability
+the reconfigurable torsion spring
+assemblies allow for variation in Spring
+constants ensuring wheel to ground
+contact Additionally the suspension can
+be articulated to fit into required
+Dimensions the space stream chassis is
+manufactured using aluminum tube to
+maximize rigidity providing a sturdy
+amount for auxiliary robot modules the
+robotic arm features a soil base
+comprising a worm gearbox iteratively
+designed to minimize backlash and
+prevent back Drive the link of the arms
+are powered by coaxial home assemblies
+allowing for reduced rotation movement
+of inertia and increased range of motion
+that enables Towing during traversal the
+end effector consists of a lead screw
+based gripper powered by viable
+differential that facilitates which
+enroll motion for extreme delivery
+Mission the water vessel has been tested
+at multiple sites consisting of Rocky
+fields and Sandy slopes private training
+involves speaking of pillows of varying
+specifications and delivering them to
+specified locations accompanied by
+remote truck analysis using a GUI to
+keep the robotic arm in a stable
+configuration during traversal this year
+we customized our software stack that
+allows seamless switching between drive
+mode and reach mode a six-do of robotic
+arm system has been upgraded to 3r
+inverse kinematics using Imus that
+significantly improve accuracy and
+precision within its workspace the
+Sensor Fusion algorithm calculates the
+end effector's position allowing us to
+set soft limits to avoid a state of
+Singularity the motor on each joint are
+controlled by a PID algorithm to achieve
+the desired angular values and end
+position adding encoders to the End
+effector Motors has given us great
+control over the bevel gear differential
+we have practiced typing commands on the
+keyboard toggling switches inserting a
+memory stick into a USB slot operating a
+joystick tightening Allen head Fasteners
+and inserting a cache container into a
+tight fitting drones to increase our
+performance in the equipment servicing
+Mission a Rover incorporates custom PCB
+models that can be stacked reducing
+space requirements and improving Cable
+Management we switch to the esp32
+microcontroller for its high clock
+frequency reducing communication stack
+overhead on the main application
+processor a kill switch is strategically
+placed on the Rover for immediate
+emergency shutdown of all Rover
+operations for the science Mission we
+have implemented four chemical assays to
+detect the presence of extinct and
+extract life the updated science module
+features a new lead screw based auger to
+collect soil samples while avoiding
+cross-contamination the auger is covered
+with the support lead that has eliminate
+any aestheticity in rotation
+improvements include the integration of
+walls to prevent contamination between
+compartments and a guide for the
+peristaltic pump tubes to deliver
+chemicals the tree houses a detachable
+container that can be closed using the
+over to facilitate sample retrieval this
+year we have implemented a fluorometer
+to perform fluorescence-based assays for
+biomarker detection we test for
+carbonates to signify extreme life we
+have also added a test for labile carbon
+and a protein assay to test for extant
+life our road also houses a sensor Suite
+consisting of seven sensors for
+habitability analysis the spectral
+sensor is used to analyze the chemical
+composition of the soil the microscope
+allows for a close examination of the
+rocks to identify textures and Crystal
+structures a custom log database has now
+been integrated to a CNN for more
+accurate identification we have
+developed a GUI using piqt to receive
+and visualize sensor data at the base
+station Ross framework is used to
+transmit image feed while always is used
+for visualization for the autonomous
+machine a Jetson Annex and a Raspberry
+Pi act as onboard processing units the
+Z2 stereo camera and the lidar are used
+for perception differential GPS has been
+implemented by setting up an anti-rip
+server to transmit rtcm messages between
+the GPS sensors on the base station and
+the Rover localization uses fuel sensor
+data from the Z2 3D lidar and the IMU
+obtained using an unscented carbon
+filter for smooth operation and robust
+obstacle avoidance a custom sigmoid
+controller has been developed for
+different autonomous States aruco tags
+are detected on stereo images using the
+perspective endpoints algorithm for
+accurate pose estimation post and gate
+traversal is achieved by localizing the
+Rover on the map the base station and
+the Rover use sector and omnidirectional
+antennas that operate on 2.4 gigahertz
+to send commands and receive feedback
+and 5 gigahertz to receive the video
+feed from the Rover the Rover can
+operate up to one kilometer in line of
+sight and 800 meters in non-line of
+sight conditions

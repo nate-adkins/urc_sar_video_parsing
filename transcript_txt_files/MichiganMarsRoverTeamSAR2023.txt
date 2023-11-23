@@ -1,0 +1,132 @@
+[Music]
+hi we're the Michigan Mars Rover team
+and we're proud to introduce you to our
+2023 Rover we learned a lot at
+competition last year and our team of
+over 100 members is working to implement
+these lessons to build our best Rover
+yet I'll go over builds upon successful
+components of past drawers while
+improving identified failure points
+we've iterated Upon A welded aluminum
+chassis with the rockabogi suspension
+and have improved our custom drive
+gearboxes to optimize Mass our 3D
+printed Wheels have been tested and
+iterated to improve traction this allows
+to go over to maneuver through a rock
+garden and climb slopes up to 45 degrees
+we've upgraded our sixth degree of
+Freedom robotic arm to use brushless
+motors with our cyclotal gearboxes these
+gearboxes have been redesigned this year
+to work with these new Motors and
+optimize strength and control allowing
+the arm to easily carry loads up to 10
+kilograms the end effect is capable of
+Performing precise servicing procedures
+and grasping object up to 5 inches wide
+our wrist now uses a slip ring for wire
+management allowing for infinite
+rotation and ease of operation in
+addition inverse kinematics allows the
+operator to quickly move the end
+effector to a precise orientation
+emphasis this year we have built a
+separate sample acquisition arm to
+efficiently pick up soil and observe
+both Rock and soil samples this arm has
+three degrees of freedom and is able to
+precisely maneuver a scoop microscope
+and high resolution camera for rock
+investigation we have two deposit points
+for soil one is at our science Carousel
+which rotates to provide a separate set
+of tests for each of three samples
+the other deposit site leads to our
+sample cache and custom Ramen
+spectrometer where one sample of
+particular interest will be deposited
+our sample cache closes securely with a
+gear mechanism and can easily be removed
+to hand to the judges within the science
+Carousel chemical tests are observed
+through cameras and sensors to search
+for signs of amino acids chlorophyll and
+lipids additionally our custom Raman
+spectrometer analyzes soil for kerogene
+and carotenoids between the sample
+acquisition arm and science Carousel our
+Rover can efficiently analyze up to
+three soil samples and nine rocks for
+the science Mission our electrical
+system has been upgraded with a focus on
+accessibility and efficiency we have
+designed custom brush motor controllers
+to seamlessly fit in with other systems
+an MCU board combines control of science
+systems and all brushed motors on board
+the Rover in addition we have also made
+stm32 development boards which allow
+systems to be integrated off Rover
+custom converters and a fuse board power
+onboard devices with protection from
+over current our new brushless motor
+controllers are mounted on the robotic
+arm which simplifies wiring and enables
+the use of both relative and absolute
+encoders a 36 volt battery provides more
+than two and a half hours of continuous
+operation and an accessible push button
+e-stop allows us to shut off the Rover
+at a moment's notice our communication
+system utilizes 900 megahertz and 2.4
+gigahertz to maximize both range and
+data throughput from the Rover through
+our testing we have determined the
+optimal system for each missions
+challenges of no line of sight or
+elevation changes we've overhauled our
+autonomous navigation system into a
+microservice architecture built on Robot
+Operating System we've also implemented
+an extensive regression testing protocol
+against the Gazebo simulation
+environment a zed stereo camera is used
+for detecting and estimating the pose of
+AR tags while a localization
+microservice keeps track of the Rover's
+absolute pose by fusing IMU and
+real-time kinematic GPS data in an
+extended common filter we maintain an
+additional localization frame computed
+using visual odometry that is locally
+accurate for situations such as driving
+through the gate perception and odometry
+information is processed in a state
+machine to make navigation decisions and
+complete the autonomy Mission the
+navigation State machine now includes
+various failure recovery mechanisms
+including backtracking when sensor
+signatures indicate an obstruction this
+year we again focused on early
+integration and testing to ensure robust
+designs we have continued to use
+development board to separate our core
+Rover systems for testing in parallel
+additionally we have been able to use
+last year's Rover Rosie to test our
+autonomous navigation system we are
+prioritizing mock missions and Operator
+Practice again this year to develop and
+optimize competition strategy we use our
+mock Lander as well as our University's
+robot playground and Mars yard to test
+our Rover and URC light conditions
+we are excited to show you our new Rover
+and confident in our ability to succeed
+at the 2023 University River challenge
+thank you for your consideration
+[Applause]
+[Music]

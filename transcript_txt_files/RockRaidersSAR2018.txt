@@ -1,0 +1,131 @@
+hi I'm Sam today I'm proud to present to
+you our Rover team the RPI rock raiders
+one and a half years ago we created this
+interdisciplinary team of engineers and
+scientists to create and design a rover
+for the University Rover challenge we
+work out of a lab here in our paison
+Center for automation technologies and
+systems we're a mechanical electrical
+software and science sub teams are
+working hard to create innovative and
+unique technologies to integrate into
+our Rovers here's a brief overview of
+what we've come up with so far the
+mechanical subsystem consists of the
+chassis the drive system and the arm the
+chassis provides a durable enclosure for
+the electrical subsystem and the
+suspension and drive allow for mobility
+over difficult terrain rover's chassis
+is constructed primarily from 80/20
+aluminum beams provide a durable and
+modular frame the rectangular
+cross-section provides ample space for
+electronics and other equipment the
+rover's drive system is a four wheel
+drive with independent motors suspension
+is also independently articulated
+turning is achieved through differential
+torque the rover is currently undergoing
+a refit to replace its classic wheels
+with superior aluminum wheels for
+indesign graciously manufactured by
+proto case these wheels should allow for
+more effective travel over difficult
+terrain
+for the manipulation challenge two arms
+are used to accomplish a wide range of
+tasks our modular chassis allows us to
+quickly swap arms by manipulation of
+tools and equipment is done with the six
+degree freedom kunavaram
+it's lightweight construction and
+extremely precise motion is a good fit
+for small-scale tasks that require
+highly accurate position these tasks
+include moving and using tools as well
+as pressing buttons such as those that
+may be found on a keyboard for
+heavy-duty tasks we have constructed a
+second arm powered by linear actuators
+this arms high strength and durability
+make it a good fit for lifting tasks
+such as retrieving large samples with a
+maximum capacity of over 20 pounds the
+equipment for the science tasks can also
+be mounted to the end of this arm the
+brain of the rover is the AI MV 274
+motherboard which is powered through a
+Pico PSU board in a 12 volt regulator
+the motherboard interprets data sent
+through the ubiquity M 900 to control
+the rover visual data transfer motor
+driver communication and encoder
+feedback are also facilitated by the
+rover an Arduino Uno microcontroller
+converts analog signals from the sensors
+to digital signals which are sent
+serially to the motherboard
+communications with the rover occur over
+to you B to D radio transceivers the
+module on the chassis has
+omnidirectional antenna so we don't have
+to worry about on board orientation well
+the base station antenna here is
+powerful enough for several kilometers
+of range providing superior penetration
+through solid objects on the 900
+megahertz band for when the rover leaves
+line-of-sight using this bi-directional
+point-to-point bridge we can send
+commands from the base station to the
+rover as well as sending back data and
+video feed to power all this a 12 volt
+lithium-ion battery provides nearly a
+thousand watt hours to allow for
+extended use of the competition of
+course safety both for the hardware and
+ourselves was a paramount consideration
+in the design so the battery is in
+series with a 100 amp circuit breaker
+and an emergency stop relay in case of
+rapid discharge of the battery for
+further magic smoke prevention each
+individual component is also placed in
+series with the smaller circuit breaker
+according to its nominal rating there
+fit a science sub team we're using the
+Ross framework to control the rover and
+the base station our code for graphical
+user interface communication and sensor
+reading all interface with the modular
+Ross system we have also created a
+simulation to test inverse kinematics of
+our manipulators we have used it to
+verify the functionality of our
+manipulated design for the autonomous
+traversal task we have created a
+computer vision neural network to detect
+tennis balls
+it is a Ross compatible convolutional
+neural network that can be trained to
+search for any type of image it uses the
+lasagne library or neural network base
+and OpenCV to read images the goal of
+the science team is to search the field
+for sites that show potential of
+supporting microbial life an on-board
+panoramic camera will be used to search
+for 10 tulip channels which is evidence
+of water flow once a site has been
+selected an auger will be used to
+extract in-store soil samples for sample
+analysis our plan is to use a high
+resolution camera to search for well
+rounded pebbles and well sorted layers
+which is a result of water flow for the
+lab analysis we plan on using a pH probe
+on a sample a lower pH suggests the
+presence of life processes such as
+respiration

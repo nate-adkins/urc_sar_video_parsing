@@ -1,0 +1,84 @@
+We are the Rose-Hulman Rover Robotics Team comprised of
+undergraduate students with engineering backgrounds.
+This year the team focused on furthering developments with our new
+rover’s system, along with refining our subsystems from the previous rover.
+To complete this, we have maintained a sub-team structure including
+electrical, mechanical, software and science sub-teams that allow us to
+approach the various challenges to rover development as we improve
+our capabilities for each of the URC missions.
+The rover is mainly controlled by an Nvidia Jetson Nano development board
+with complementary control modules for distinct parts of the electrical system. 
+The Arm is primarily its own system being controlled by a teensy 4.1
+microcontroller which controls an off-the-shelf motor controller.
+Additionally, there is a reintroduced science control unit,
+which is newly put onto the rover.
+The base station and rover both use M2 titanium bullet transceivers.
+A high gain 2.4 GHz parabolic dish antenna is used for the base station to
+communicate with the rover.
+The rover uses an omnidirectional dipole antenna.
+The only new component to the communication system is a passive POE
+injector which provides power and data to the transceivers.
+The battery system consists of four 3.2V Lithium-Ion Phosphate cells
+in series, with a 72 Ah output.
+The software architecture for this year’s rover leverages progress
+from previous developments, especially for autonomous navigation.
+We incorporated ROS with modularized subsystems for
+Simultaneous Localization and Mapping, global positioning, and
+navigation and planning.
+We use an IMU, depth camera, and tracking camera to achieve effective
+mapping and obstacle detection with an
+appearance-based mapping algorithm.
+Additionally, we extend the visual-inertial odometry algorithm to estimate
+the rover’s real-time position and trajectory.
+We continue to test the rover’s autonomous navigation capabilities in
+outdoor environments along with improving the onboard and base station
+processing of data for more efficient completion of the mission.   
+This year, the main focus for target tracking has been to improve our
+detection of tags via image classification.
+We continue to use OpenCV with a new addition of PyTorch to detect tags
+and then calculate the position of the tag relative to the rover.
+The relative position is then converted into latitude and
+longitude coordinates using data from our localization stack.
+Finally, these coordinates are sent to the autonomous navigation system
+as a waypoint objective.
+All movement control is then handled
+by the autonomous navigation system.
+This year the mechanical sub-team has focused primarily on
+the weight reduction and streamlining of the rover.
+We are taking all the components from the old chassis and putting them
+onto a newly fabricated chassis, and rocker-bogey system.
+This new frame significantly reduced the overall volume and
+weight of the rover, while still maintaining the required space
+for all the sub-systems.
+Additionally, it provides the same integrity
+afforded by the previous chassis.
+Our 3D printed wheels are composed of discs made of PETG
+and rings made of TPU.
+This ensures that the wheels would have enough rigidity
+to maintain its shape while under pressure
+while still being pliable enough to accommodate varying terrain. 
+The 3D printed wheels are a vast improvement over our previous wheels,
+which were unable to provide the capabilities we desired on sand.  
+A majority of the work needed for
+a minimally working arm was done last year,  
+leaving our efforts currently focused on functional testing
+and improvement of dexterity.
+We now have a 6-DOF robotic arm, with an interchangeable end effector.
+3D printed parts are constrained to structurally integral areas,
+and we plan to have improved visual capabilities by mounting cameras
+not only on the arm, but offset from the arm to improve depth perception.
+The science mission this year has put a lot of effort into building a
+mechanism to bring soil to the rover.
+The science package will be attached to the front of the rover in place
+of the arm for completing the science missions.
+We have developed an auger screw to extract soil with the support of
+an elevator mechanism allowing easy access to the ground as well
+as the ability to come to the level with the rest of the science package.
+The collected sample will then be transported into a test tube turntable
+via slide-system inside the main science package,
+where the sample will be analyzed.
+To detect the presence of life, we will be using UV VIS Spectroscopy
+to detect the presence of the amino acids Tryptophan and Tyrosine,
+which have an absorption maximum of around 280 nanometers.
+In addition, the science package will also be equipped with
+multiple sensors and cameras to detect habitability and the surroundings.

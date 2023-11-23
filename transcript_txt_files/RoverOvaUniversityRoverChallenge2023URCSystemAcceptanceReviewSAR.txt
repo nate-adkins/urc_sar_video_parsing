@@ -1,0 +1,137 @@
+[Music]
+hello we are team roverova from vsb
+Technical University of ostrova Czech
+Republic we are pleased to present our
+Rover for the University Rover challenge
+2023 after an eventful year of upgrades
+and testing we are ready to compete in
+the challenging missions in the middle
+of the Utah desert in this video we will
+show you our current approach to the
+competition tasks
+the extreme delivery Mission provides a
+challenging experience for the Rover and
+its operators the Rover's suspension is
+a sturdy averaging rocker mechanism that
+can overcome 30 centimeter obstacles
+without problems the wheels have
+integrated Hub motors with planetary
+gearboxes and flexible 3D printed tires
+this combination provides necessary
+torque traction and compliance to drive
+through a variety of obstacles like logs
+rocks planks or boxes the wheels have
+enough power to drive the robot into
+steep slopes up to 45 degrees
+the wheels are also capable of
+independent steering allowing the Rover
+to drive in multiple different modes
+once our Rover reaches the objects for
+retrieval it can grasp them using its
+manipulator small objects like hand
+tools can be transported directly in the
+end effector or stored in a side mounted
+container module larger objects up to 5
+kilograms can be lifted and carried the
+collected objects will then be delivered
+to a specified location
+there are two Lithium Polymer batteries
+powering the Rover a 4S for The Logical
+circuit and a6s for powering all Motors
+both are designed to last about 2 hours
+of driving around in the case of any
+unexpected Behavior the stop button can
+be pressed which Cuts all power from
+both batteries
+the autonomous navigation is implemented
+through Ros the standard move base
+package was customized for our needs to
+work with our Rover geometry and to
+perform the search for goal posts and
+Gates the localization relies on the
+fusion of visual and IMU odometry from
+Z2 camera wheel odometry and data from
+GPS module the navigation algorithm is
+running on the Rover itself and does not
+rely on the wireless connection to the
+operator station right now we are in the
+process of testing different search
+strategies and simulations and real
+field conditions once the Rover reaches
+the desired coordinates it will begin a
+search strategy to find the goal post
+attempt to drive near it and display its
+current state with the lights on its
+mast
+the equipment servicing mission is where
+we focus on our manipulator it has six
+degrees of freedom it uses motors with a
+combination of spur worm or cycloidal
+gearboxes to perform its functions and
+many of the parts are manufactured with
+3D printing including the cyclotal
+gearboxes on the second and third joints
+the manipulator is remotely controlled
+by a custom operator panel the panel
+allows three different modes of
+controlling the manipulator there is a
+scaled down replica of the manipulator
+for direct tele operation a mode for
+running to save positions or
+pre-programmed trajectories and an
+inverse kinematics mode for precise
+control in individual directions either
+through buttons or with a 6dof mouse and
+just like that switches knobs buttons
+doors keyboards drawers screws USB ports
+and joysticks all can be manipulated
+intuitively
+the communications between the Rover and
+the operator are taken very seriously
+therefore there is an emphasis on
+redundancy we can control all systems
+and get feedback data through Wi-Fi
+router with an omnidirectional antenna
+in the combination with the directional
+antenna on the operator station provides
+up to one kilometer connection the
+critical systems can also be controlled
+with an RC transmitter through a 900
+megahertz link this provides control of
+up to several kilometers a redundancy of
+visual feedback is achieved with several
+fpv analog cameras and transmitters on
+5.8 gigahertz The crucial data like
+views from the end effector is thus
+doubled the redundancy in our
+Communications allows us to drive the
+Rover on Wi-Fi only or completely
+without Wi-Fi
+for the science Mission an additional
+laboratory module is mounted on the
+Rover this module is equipped with a
+variety of environmental sensors and
+mechanisms to analyze samples of soil
+once the Rover reaches the sampling
+location it uses the manipulator with
+the scooping end effector to collect a
+soul sample the soil sample is then
+loaded to the module through a hopper
+mechanism the mechanism deposits
+specified volume of soil into vials and
+dumps the excess soil out of the module
+samples are stored in vials on a
+rotating Carousel the vials are filled
+with chemicals that react with the soil
+sample the module can perform multiple
+proof reactions at the same time while
+observing the outcome with a camera it
+can even heat the samples if necessary
+thanks to this analysis we will be able
+to support a hypothesis of extinct or
+extant life we will continue testing our
+system and rehearsing the missions in
+order to be ready for anything the
+competition will throw our way team
+Rover Rover is looking forward to
+meeting you in Utah

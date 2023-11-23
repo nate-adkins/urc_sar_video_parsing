@@ -1,0 +1,108 @@
+hello my name is Pawel w'iskey and i act
+as an adviser to the impulse student
+research club at the kilts a University
+of Technology mentioned the several
+years the club has been involved in
+designing and building mass Rovers for
+international competitions in this short
+film you'll see the team working on a
+new Rover hi I'm Christoph I'm the team
+leader and in the current project I'm in
+charge of the autonomous Traverse
+attract the team has 14 members working
+in five subgroups using the experience
+and knowledge gathered over the last few
+years we have developed a new Rover to
+enter the University Rover challenge
+2018 six degrees of freedom uses high
+quality strain wave gary as the harmonic
+drives can generate high torque the
+manipulator is able to lift objects
+weighing more than five kilograms the
+PID based controller allows the robots
+to perform high-precision operations for
+example precision placement the
+manipulator is controlled using the
+inverse kinematic approach which ensures
+fast and easy load handling or even
+keyboard operation the gripper is
+capable of picking up objects of various
+shapes and sizes and weights as well as
+precisely operating small hand tools for
+the past year we have focused much of
+our attention on the autonomous
+navigation system we have improved the
+rover position subsystem by using
+readings from the drives the compass the
+accelerometer and the differential GPS
+systems the vehicle is able to replay
+its route on the basis of the recorded
+track or autonomously navigated to reach
+a predetermined coordinates a failure of
+a sensor for a loss a GPS signal will
+not affect the reverse operations the
+vision subsistence a unique solution to
+determine the positions of markers on
+the map so that a new route to the most
+probable distance
+can be created when the markers are out
+of sight for instance behind an obstacle
+when the rover operates autonomously it
+sends a visual signal when it approaches
+and detects a marker on a route it sends
+a message to the base station the
+operation of autonomous navigation
+system is observed by analyzing
+real-time telemetry data shown on the
+screen for example a map of GPS
+coordinates the layout of the markers
+found all the route covered in system of
+your visit with a special vision system
+and an algorithm for detecting objects
+for example tennis there over is able to
+follow a route indicated by such markers
+the full HD cameras attached to their
+over provide information on the textures
+of shapes and colors all objects
+recorded even very simple in size this
+makes it easy to differentiate between
+similar objects in the set and recognize
+the right moment reading instructions
+from a display or a small sign will not
+be a problem either the rover is
+equipped with special containers for
+carrying multiple items at a time I
+think 300 millimeter diameter wheels
+talkin over 200 Newton meters applied to
+their Obachan easily with standard till
+245 degrees
+suspension at a low center of gravity it
+is able to climb over one meter high
+vertical high
+I'm confident my role is to carry out
+tests to find if there is has been life
+in soil sample the rover will collect
+samples and conduct in situ tests
+autonomous the sterile conditions to
+provide information logical chemical and
+organic properties of the soul it will
+then be possible to determine the
+environment in which the cells
+during an apk test the levels of
+nitrogen phosphorus and potassium will
+be measured to specify the school ganic
+compounds or microorganisms all
+experiments carried out will be observed
+through a high resolution the soil
+temperature and moisture will be
+measured in a core drill hole using
+special senses filled laboratories will
+perform the same experiments to verify
+the results obtained by the rover Eureka
+as you can slow educator over wears to
+constantly develop improvement tests and
+this takes time and a hard work now that
+the robot is almost ready all we know is
+a little luck
+[Music]
+you

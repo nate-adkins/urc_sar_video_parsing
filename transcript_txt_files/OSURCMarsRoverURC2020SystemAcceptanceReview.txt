@@ -1,0 +1,129 @@
+the Oregon state Mars rover team is
+proud to exhibit our most advanced
+capable and reliable Rover to date we
+have further developed and refined our
+systems to tackle this year's you RC
+competition tasks for the equipment
+servicing tasks our Rover will be
+outfitted with a six degree of freedom
+arm and grasping and defector our arm
+has encoders and strain wave gearboxes
+at each joint to bread accurate
+positional feedback and reduce backlash
+a camera distance sensor laser and force
+sensor integrated into the gripper
+relays situational data back to the base
+station the gripper in the arm will be
+controlled as part of a larger rs-485
+communication network running a custom
+reliable signal protocol based on Modbus
+we've practice on equipment servicing
+mock-ups to ensure our team is
+competition-ready
+our arm can lift and transport heavy
+objects as well as manipulate handles
+and joysticks our grip or geometry keeps
+the fingertips parallel throughout the
+entire grasping range allow me to
+perform precise actions such as
+tightening a screw flipping switches and
+plugging in the USB stick to further
+improve the robots capability and
+dexterous tasks we're developing inverse
+kinematics allowing the operator to
+focus on the position of the gripper in
+3d space instead of positioning each
+joint individually our modified
+rocker-bogie geometry maximizes the
+number of wheels in contact with drive
+surfaces to ensure the rover can
+surmount uneven terrain and large
+obstacles the low pressure pneumatic
+wheels and custom rubber tread increased
+traction and conform to ruff typography
+an IMU in the electronics box provides
+pitch and roll positions to the
+operators to ensure the rover is
+operating in a safe orientation we have
+three cameras with active resolution
+adjustment based on available bandwidth
+located on the tower at the front of the
+chassis and underneath the e box to
+provide multiple perspectives of the
+Rovers environment our ubiquity rocket
+m2 radio has been tested at ranges over
+one kilometer with line-of-sight and up
+to 800 meters non line of sight allowing
+us to relate critical systems
+information remotely to our base station
+in its full competition configuration
+the rover can drive over harsh terrain
+and operate the arm even in challenging
+positions
+our Rover uses RGB dslam and dual
+extended Kalman filtering for
+transforming and fusing odometry sources
+for autonomous navigation is equipped
+with a Zed stereoscopic camera for
+visual odometry an IMU for absolute
+orientation the GPS for locational
+accuracy and encoders for real odometry
+these devices are currently being
+integrated to work cohesively to provide
+the necessary odometry data for Waypoint
+navigation obstacle detection and object
+avoidance waypoints are initially
+entered from the base station and are
+then buffered for global path planning
+hours EDD can detect and track AR tags
+from up to 6.6 meters away it can
+generate a point cloud and occupancy
+grid for obstacles up to ten metres away
+our science mechanism performs in situ
+tests to determine the habitability and
+presence of life at numerous locations
+the mechanism shown is in the first
+version and will be fully tested by
+competition the sensor array contains a
+soil health probe pH probe microscope
+and spectrometer used to analyze sample
+locations the sensor array is attached
+to a linear motion system descending to
+allow soil penetration during testing a
+wire brush is used to disrupt the soil
+and a vacuum obtains and deposits the
+soil into a central reservoir the soil
+is measured and delivered in two divided
+cups through a rotary feeder valve
+attached to a continuous rotation servo
+unused soil is disposed of in a waste
+bin limiting cross-contamination between
+samples and the environment after soil
+collection the cups are rotated to a
+live feed fpv camera where burette and
+lugol's iodine solution are added
+through a solenoid controlled system
+lugol's iodine and burette solution
+identify starches and proteins which are
+primary building blocks in humans and
+other biotic organisms after the
+experiments are conducted the main point
+and shoot camera is used to capture the
+color concentration of the solutions
+which identified the presence of life
+atmospheric data observed from wind dust
+UV radiation air quality and temperature
+sensors supplements the experimental
+data data from the geologic and
+atmospheric sensors along
+with the biological experiments at each
+of the sites is transmitted to the base
+station and combined into a point based
+algorithm this algorithm determines
+biologic life presence as well as
+habitability for each location these new
+features will be further tested and
+approved in the coming months we look
+forward to challenging ourselves at URC
+2020
+you

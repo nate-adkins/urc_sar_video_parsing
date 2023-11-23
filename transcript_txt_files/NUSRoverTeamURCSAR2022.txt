@@ -1,0 +1,154 @@
+[Music]
+hi we are the nus robert team from the
+national university of singapore and we
+are a group of 28 students from stem
+backgrounds developing our rover's new
+opportunity
+2022 marks our third attempt at the
+university rover challenge and we have
+been working hard at refining and
+improving our previous year's designs
+our key subsystems include chassis
+mobility science robotic arm navigation
+communications as well as electrical
+control perhaps the most significant
+design change has been made to the
+rover's chassis this year we opted for
+an aluminium truss chassis which is
+strong serviceable and streamlined
+compared to our biggest carbon fiber
+base plate design which we found
+difficult to simulate and work with the
+truss chassis is entirely composed of
+aluminium two zero to zero extrusions
+connected by aluminium brackets this use
+of aluminium extrusions allows for great
+modularity and ease of assembly for our
+chassis especially concerning our
+detachable global arm and science
+package moreover the aluminum x regions
+are lightweight have a high strength to
+weight ratio and fva results of our
+simplified model show deflections within
+an acceptable range which is below 1000
+of the extrusion limit as specified by
+the manufacturer
+the mobility system of the rover is
+comprised of a wheel subassembly rocker
+bogie suspension and differential joint
+connecting the suspension to the chassis
+the rocker movie suspension was chosen
+to ensure that the chassis remains
+parallel to the ground at all times the
+suspension is designed such that the
+rover can traverse objects up to 30
+centimeters in height without
+compromising the stability of the system
+brushless dc motors were chosen since
+they can provide high torque at a low
+rpm the wheels on your opportunity are
+made from durable puncture resistant
+rubber which allows us to adjust the
+pressure within the wheels based on the
+terrain the rover is steered using a six
+wheel differential drive mechanism and
+the control input customer joystick or
+the autonomous control our science panel
+consists of three units the collection
+unit extraction unit and analysis unit
+the collection unit consists of a scoop
+that is lowered raised and moved towards
+the extraction and analysis units by a
+linearly actuated platform there is also
+an ultrasonic sensor to monitor the
+scoop's clearance from the ground and
+the camera mounted closely to the scoop
+to monitor the sample volume the
+extraction unit x-ray accent isolates
+the potential biomolecules from the soil
+substrate for further analysis by their
+collection the solar samples are
+sonicated to formalize and then filtered
+using a 0.2 micron filter the analysis
+unit consists of a carousel of 30
+disposable classic qubits allowing us to
+test samples from from six sides with
+five different assays the qubit of
+interest will be subjected to the
+spectrophotometer laser and sensor to
+reduce its composition the entire
+assembly will be housed in a light group
+package to eliminate interference from
+potential light sources during
+spectroscopic analysis we designed the
+six degrees of freedom watercolor to
+allow for almost human light
+articulation and eliminate singularities
+to enable the arm motion five servos and
+the stepper motor are used the stepper
+motor is used in the base where maximum
+torque is needed whereas servos are used
+at all the other joints
+at key joints harmonic drives are
+utilized to amplify output torque while
+minimizing size and weight of the drives
+they also help reduce backlash which is
+important when maneuvering tight spaces
+to enable precise control inverse and
+forward kinematics and path planning
+algorithms are implemented
+our anti-vector is a simple two-pronged
+gripper a camera is placed on the end
+defector to help the operator gain a
+detailed view of the tasks and thus
+operate the armor probability the
+navigation system utilizes depth cameras
+an imu and a gnss module to perform
+various navigation tasks such as
+localization and path planning
+for localization and automation we've
+used sensor data using two ekf nodes one
+for local and another for the global
+frame of reference as for path planning
+we make use of real-time
+appearance-based mapping or rtecmap
+which is an rgb slam approach to create
+a 3d point cloud of the environment and
+the 2d occupancy grid
+the communication system uses a 2.4
+gigahertz link the base station is
+equipped with a ubiquiti air max sector
+antenna on a rotational mount and the
+rover uses an omnidirectional antenna
+both antennae are connected to ubiquiti
+rocket m2s which are 2x2 mimo radios the
+rubber and the base station communicate
+via ubiquity's time division multiple
+access airmax protocol
+the communication is done using data
+packets which have been standardized
+based on the commands that need to be
+sent to the rover and the feedback
+coming into the base station the final
+step is the visualization of data at the
+base station this is done via a
+user-friendly console consisting of a
+gui to send commands and new data
+transmitted from the rover
+to support the robot's mechanical and
+software capabilities we have designed a
+robust electrical system the rover is
+powered by two 12v command batteries
+along with dc-dc converters to provide
+the range of voltages required by the
+components the electronics box is
+organized for easy troubleshooting we
+are using an l-shaped design with a
+detachable cover for easy accessibility
+for heat ventilation we have added holes
+in the back of the box and we will also
+be using fans attached to the cover
+in addition the box also has an
+emergency buttons to stop all operations
+we also have an led strip to indicate
+the mode of operation of the rover

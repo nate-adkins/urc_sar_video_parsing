@@ -1,0 +1,97 @@
+The IIT Bombay Mars Rover Project is a
+student technical initiative to build working prototypes of rovers
+having all terrain traversing capability
+The primary aim of the team this year was to build a more robust design
+While learning from our experiences in URC 2018
+and explore more creative, tech-savvy solutions to the challenges identified in the project
+ 
+Having identified
+certain inefficiencies of differential steer
+and challenges with precise arm control in last year's design
+This year's iteration aims to improve upon these
+by having an independent steer
+and a robotic arm primarily motioned via actuators
+The four wheeled rocker-bogie suspension system provides superior traversal
+over the extremely uneven surfaces
+It's primary advantage is it's obstacle climbing capability
+which has proven to be effective in traversing over big rocks in our field trials
+4 wheel independent steer facilitates steering of the rover according to
+either ackerman, independent and differential steer modes
+This gives us the liberty to choose
+either of the steering schemes as per the terrain and also helps the software team
+in developing improved algorithms for obstacle avoidance
+A custom built aluminum wheel hub mitigates motor damage from uneven terrain
+and allows for wheels of various profiles to be tested independently
+We are in the process of
+prototyping different wheel profiles for improved traction
+With the motive of improving control precision and operability
+the 6 DoF robotic arm design
+consists of linear actuators as far as possible
+The arm elbow link is designed in a bent shape to increase the strength of the link
+and also accommodate all the actuators
+The robotic arm has an open truss design to minimise weight w/o compromising on strength
+We have opted for a 3 finger gripper for a better grasping
+rotation and manipulation of various objects
+To ease the base station operability  and accurate positioning
+a laser and depth camera has also been mounted
+Our soil collection assembly
+consists of a 4 bar mechanism along with a 2 jaw
+3d printed  soil collector to collect the dry soil sample
+in water filled container
+Bio-sensors have been directly embedded in the soil collector
+for preliminary soil analysis
+We have also used an ATP counter
+to detect viable cells. The soil solution is taken onto a
+cotton swab and mixed with provided chemicals, and then it is
+placed inside the ATP counter
+This year's Electronics and Software subsystem has focused
+on two critical aspects base station operability
+and working closely in tandem with the mechanical subsystem.
+We have an Intel NUC as our main on-board computer,
+alongwith RPis and arduinos. The circuit has been schemed out
+neatly in a completely detachable box, with a kill-switch
+and battery-voltage monitoring LED.
+The Ruckus P300 comm. modules boast 1 km of nLOS operation
+and have been tested multiple times to affirm the same.
+To mitigate against adverse communication blackouts
+we predict sharply decreasing trends in Signal Strength
+via time series prediction algorithms
+We visualize the feedback of encoders of arm motors and actuators
+and the mounted depth camera
+via rover's URDF in RViz
+This allows for a complete description
+of both the arm and the 3-D environment in it's vicinity
+thus leveraging an extra dimension as compared to conventional video feedback
+at the base station
+We have also developed a Django based web GUI
+for controlling various components of the robotic arm
+along with virtual joysticks to control the rover drive and steer.
+For the autonomous task, a turn table assembly allows for
+a 360 degree scan for ball detection
+and also isolated the smartphone IMU from
+electronic interference from motors
+For level 3 autonomy, we utilize the GPS and IMU feedback from a self developed android app.
+For ease of testing and visualization
+we have developed another android app which provides target GPS coordinates
+and also visualizes the rover's current pose.
+We leverage an iterative algorithm which corrects for
+heading offsets when going from one GPS point to another.
+We get laser-scan data from a ydlidar onboard
+and we detect the obstacles in rover trajectory via clustering of the laser scan data
+using the obstacle detector package.
+the turn table assembly takes multiple pictures by rotating
+approximately 20 degrees between each click.
+A deep learning based classification algorithm gives the most probable
+picture, to which the rover aligns
+The rover then moves forward until a distance of less than 2 meters
+from the ball is inferred from the increasing pixel size of the detected ball
+The rover subsystems have been designed, implemented and executed
+with an eye for improved performance
+in competition conditions
+This has been corroborated by the competent performance of the rover in numerous field trials
+Over the few next months, we plan on further improving
+and evaluating both the rover design
+as well as execution of tasks from the valuable inputs we have gained
+from our field trials
+We are hence confident of a good show in URC 2019
+ 

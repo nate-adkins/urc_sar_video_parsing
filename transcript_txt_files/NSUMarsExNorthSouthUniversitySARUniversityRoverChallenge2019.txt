@@ -1,0 +1,103 @@
+[Music]
+NSM r6
+the Mars server team of north of the
+university is participating in
+university rover challenge 2019 for the
+very first time considering the
+experience the team gathered in Indian
+Robertson's 2019 the team is divided
+into five sections
+those are mechanical electrical software
+corporate and science where team of
+twenty dedicated people with experience
+of two years on robot but this is the
+first time we are participating in pure
+C which is a you step forward for us and
+we want to tackle it strong
+in our four-wheeler over the first
+problem that we encountered is with the
+suspension system and finally we decided
+to go with the SMP system which is the
+surface mobility platform system while
+designing the prototype we tried out
+differential gear system rocker-bogie
+system and a few other suspension
+systems and considering all the aspects
+the SMP system performed most
+effectively we have designed custom-made
+wheels for the rover which are eight
+inches in diameter and five inches in
+width
+we used our one inch rubber grips on the
+wheels which primarily acts as a better
+contact with the ground and secondarily
+acts as a shock absorber for DC gear
+motors have been used which are
+customized by our electrical team to
+make the motors more capable to perform
+the tests in any circumstances each
+motor has a torque of 245 Newton meter
+requires 12 volts of voltage and 12 of
+current in no-load and 5 amps in full
+load to operate the electrical team
+designed a circuit which supplies a
+constant current to evenly control the
+speed and torque of the motors the team
+has designed custom-made PCBs to
+minimize the circuit size BTS 796 0b are
+used to control the actuators and the
+motors we're using two microcontrollers
+want to control the arm and the other to
+control the wheels while working with
+the rover body we had to consider a lot
+of aspects which includes the body
+weight height and strength we used metal
+bars to build the rover body and
+fabricated in individual parts of the
+rover in our workshop one of the most
+challenging parts when building a rover
+is designing its arm we have had to go
+throughout a series of trial and errors
+to perfect the arm and its movements the
+arm is made by 1.5 millimeters stainless
+steel sheets it comprises of four
+detachable parts three of three for the
+movement which are controlled by three
+actuators and one for the gripping
+mechanism which is controlled by a DC
+Guillermo
+the arm has a total freedom of 60
+degrees on the horizontal axis and can
+reach up to a height of 1.5 meters from
+the ground the rover can lift weights up
+to 5 kgs the software team is working
+overtime on the GPS and compass based
+algorithm for tackling the autonomous
+tasks we're using an ultrasonic sensor
+and image processing for obstacle
+avoiding an obstacle detection for the
+science task we designed an onboard
+testing and off word testing system
+after collecting the soil from the
+ground the rover analyzes and tests the
+soil and sends back the test results to
+the control center the collected soil is
+brought back to the base station for
+further examination by comparing the
+onboard and off-board results we can get
+an accurate measurement of the pH level
+water content and the electrolytic
+measurements of the soil for the field
+test we took the rover to Busan the
+residential area where we did some test
+runs on uneven landscape to check our
+suspension system and it worked out
+better than we expected the main ground
+tests that we did are testing our
+suspension system the gripping system
+video transmission and communication
+as IRC 2019 was our first Rover
+competition we learned from the mistakes
+and overcame those mistakes to stand in
+a better position
+[Music]

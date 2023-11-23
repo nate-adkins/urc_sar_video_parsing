@@ -1,0 +1,145 @@
+[Music]
+we are the rose holmen rover robotics
+team comprised of undergraduate students
+with engineering backgrounds as this
+year's team captain of the rose holmen
+rover robotics team one of my top
+priorities was ensuring members remained
+safe by following your school's covet
+guidelines
+masks were required at all in-person
+gatherings with a workspace capacity
+implemented online messaging through
+microsoft teams was used to coordinate
+different subgroups of the team
+[Music]
+the processing power of our rover is
+supplied by nvidia jetson nano with
+auxiliary real-time control units for
+the independent modules on the rover
+this year we have added a custom control
+pcb for the arm unit and reintroduced
+the science control unit to the rover
+due to their performance in last year's
+competition we have decided to keep our
+2.4 gigahertz communication points with
+a motorized directional base antenna and
+an omnidirectional rover antenna we will
+also be retaining our 72 amp hour
+lithium ion phosphate battery units for
+this year
+[Music]
+we build our software architecture on
+top of rods with modularized subsystems
+focusing on specific functionalities our
+software covers various operations the
+rover requires running from control and
+communication to perception and planning
+this year we design a more robust
+autonomous system containing three
+modules for simultaneous localization
+and mapping will use an appearance-based
+mapping algorithm to build the
+surrounding environment using data from
+depth camera the visual inertia odometry
+algorithm is used to estimate the
+rover's real-time position and
+trajectory using the input from cameras
+and imu we conduct a sensor fusion on
+gps coordinates and imu data using an
+extended common filter for global
+position estimation we perform a star
+path planning for navigation to find a
+globally optimal path the optimizer
+trajectory from the global path is
+generated using a timed elastic band
+planner that complies with kino dynamic
+constraints
+[Music]
+this year the main goal for target
+tracking has been integration with the
+autonomous navigation system
+we have moved away from treating
+movement control and target tracking and
+autonomous navigation as separate tasks
+our target tracking system uses opencv
+to detect tags then calculate the
+position of the tag relative to the to
+the rover relative position is then
+converted into latitude and longitude
+coordinates using data from our
+localization stack finally these
+coordinates are sent to the autonomous
+navigation system as a waypoint
+objective all the movement control is
+then handled by the autonomous
+navigation system
+[Music]
+to correct issues we experienced with
+stability last year we've designed a new
+chassis and suspension for this year's
+competition we used our previous
+experience with rocker bogie suspension
+to design a more rigid and stable
+platform using square tubing the new
+chassis allows us to optimize our layout
+for accessibility and repairability the
+new chassis and differential bar are
+also much lighter and more compact we've
+been able to use those weight savings to
+upgrade other rover subsystems
+[Music]
+in a continued effort to improve the
+wheels we decided to redesign them
+entirely our past experiments with
+polyurethane casting were unsatisfactory
+leading us to consider 3d printed wheels
+consisting of distinct layered tpu
+plates
+these plates increase the flexibility of
+each wheel allowing us to customize them
+for specialized terrain additionally the
+hexagonal design reduces the overall
+weight while also maintaining the
+integrity required to support the rest
+of the rover
+[Music]
+this year we have a dedicated group of
+seniors working on redesigning the
+robotic arm the new robotic arm builds
+on the key points of failure from last
+year's arm design we now have a six
+degree of freedom robotic arm with an
+interchangeable and defector 3d printed
+parts are constrained in non-structural
+areas and we have improved on visual
+capabilities by mounting cameras not
+only on the arm but offset from the arm
+to improve depth perception
+[Music]
+with the removal of the science test
+during last year's urc competition the
+rose home and science team did not get
+to finish building and test an onboard
+science package so we will be
+implementing the same soul analysis test
+for this year the robotic arm will be
+swapped out with the planned science
+package for the science mission this
+year we have redesigned our soil
+extraction system to logan lower an
+auger screw to extract soil from the
+ground and push the soil up to the main
+package the collected sample would then
+be transported via a moving slide system
+into a test tube turntable inside the
+main science package a fully enclosed
+high-powered laser and a spectrometer
+will be used to conduct laser-induced
+spectroscopy for elemental analysis an
+attached visible microscope will be used
+for visual inspection of rock samples
+and terrain while on-board sensors will
+check for environmental factors such as
+humidity air quality and hydrogen
+you

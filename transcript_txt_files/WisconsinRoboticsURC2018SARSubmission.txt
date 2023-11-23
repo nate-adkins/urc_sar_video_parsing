@@ -1,0 +1,142 @@
+[Music]
+we're Wisconsin robotics at the
+University of wisconsin-madison this is
+our 2018 URC roburt ascent mark to the
+scent mark 2 is an improved and freshly
+built iteration of our previous Rover
+scent
+the team has maintained the successful
+core concepts of ascent while improving
+system capability and reliability we're
+using a rocker-bogie system with an
+adjustable wheel base and ride height
+this will allow our Rover to adapt to
+any terrain scenario in a matter of
+seconds currently we are using a wheel
+design familiar to the team an in wheel
+motor is surrounded by a Kevlar shell
+this is mounted two aluminum's books
+which support the entire wheel currently
+the mark 2 utilizes the robotic arm the
+mark one used in URC 2017 this is to
+allow for immediate testing of control
+systems and general other functionality
+while developing and testing a new
+design in parallel the mark 1 arm
+offers the required functionality
+incorporating a belt driven system and a
+linear actuator at the shoulder joint
+the mark 2 arm improves upon the concept
+by removing the use of all belts and
+focusing on efficient usage of actuators
+a sixth degree of freedom which we plan
+to use during the equipment servicing
+task is in development it places the
+entire arm on a set of linear rails to
+allow for simple rotation of the crank
+shaft the manipulator is an improved
+version of the design we used last year
+it is also equipped with a magnetic
+solenoid to give us an adequate pecking
+motion when using the keyboard in the
+equipment servicing task we will combine
+all of these features with inverse
+kinematics for quick and efficient arm
+control the embedded system of mark 2
+has been dramatically overhauled the
+focus on reliability and recovery the
+computer radio microcontrollers and IP
+cameras communicate over Ethernet which
+allows their over to recover from
+intermittent link failures due to
+vibrations or false the custom arm and
+drive microcontrollers have integrated
+Ethernet and power regulation systems
+and use the industry proven free Artist
+TCP stack for communication with the
+other systems for communication with the
+base station the team is using two
+off-the-shelf commercial radio systems
+at 900 megahertz and 2.4 gigahertz these
+systems have proven to meet the range in
+line-of-sight constraints of URC
+motor control is done with ion motion
+control Robo claws for our high level
+software control stack
+you're using Ross the popular
+open-source robotics frame with Ross
+allows for decentralized communication
+between all of the rover's components
+including autonomy drive control and the
+base station for the mark 2's autonomous
+software we have divided the stack into
+two portions navigation for general
+terrain traversal and obstacle avoidance
+in computer vision for detecting the
+tennis ball at the gate the navigation
+portion will take us close enough to the
+gate by using GPS coordinates and the
+vision portion will detect the tennis
+ball at the gate and take us to within 2
+meters of it we have taken a slam based
+approach for navigation and obstacle
+avoidance slam or simultaneous
+localization and mapping allows us to
+build a map of everything that we've
+seen using a depth camera and put
+ourselves inside of that map by using
+GPS coordinates we can set the
+autonomous systems goal to be the
+supplied GPS coordinates of the gate
+provision we will be using machine
+learning to detect tennis balls rather
+than using a simple computer vision
+masking approach once the tennis ball
+has been detected we will use depth data
+to navigate to within 2 meters and send
+back success to the base station to
+accomplish these approaches we will be
+using a stereo labs said to case stereo
+camera our on-board computer is an
+Nvidia jetson TX to the TX 2 has a
+discrete GPU intended for onboard AI
+processing which will be able to handle
+all of our computational needs lastly we
+will be using an inertial sense meu I&S
+for accurate GPS and IMU data to aid in
+our navigation both autonomous and
+teleoperated to test our autonomous
+software we are utilizing gazebo the
+simulation platform supported by Ross
+additionally we are using an iRobot
+create - to test our slam
+implementations on a small-scale robot
+before running slam on the mark - to
+obtain the soil sample for the science
+test a collection tool would be attached
+to the end of mark - his arm his servo
+up at a door while I was to empty the
+chamber when needed so we can cycle
+unwanted soil through the chamber until
+we reached the required depth with the
+auger we can then close this door to
+hold the sample in both can be emptied
+into a container on the rover chassis we
+will study the soil using a temperature
+and humidity
+and an improved microscopic imager which
+provides an image of the tested side
+soil at 375 times magnification in the
+laboratory we'll be using a fertility
+probe to measure nitrogen phosphorus
+potassium and pH a conductivity sensor
+to measure the salinity of the soil and
+a variety of chemical tests to determine
+the presence of macromolecules essential
+to microbial life a scent mark 2 is a
+direct representation of Wisconsin
+robotics Ezard system design and use a
+competitive experience with the
+improvements will make room a we're
+excited to deliver an even more
+outstanding system at USC 2018

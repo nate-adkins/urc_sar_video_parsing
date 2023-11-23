@@ -1,0 +1,133 @@
+hi welcome to yonder dynamics last year
+our Rover Procyon remained far from
+perfect but it was a great stepping
+stone to better things this year
+we have fully redesigned our Rover from
+the ground up with the competition tasks
+in mind we are excited to show you what
+our new Rover can do this year we are
+designing a robust drilling mechanism
+that will efficiently extract and cache
+the soil first a 12-volt mini track
+linear actuator will apply maximum
+pressure for our long narrow drill auger
+the sample carousel will cycle through
+six chambers one for each sampling site
+it will also house all the components
+necessary to carry out our soil analysis
+with the elimination of the lab portion
+in this year's competition
+we have poured our efforts into
+developing an impressive onboard
+analysis suite to look for extant life
+we are employing a microbiological assay
+that analyzes bacterial growth in a
+sample in the carousel water nutrient
+agar and our simple we'll mix together
+in a controlled environment our Arduino
+controlled turbidimeter x' will monitor
+the total suspended particles in the
+mixture over a given time interval we
+will then compare the data to models of
+bacterial growth under similar
+conditions which we will develop with
+the aid of dr. Brian bish for extinct
+life based on the work of Darnell at all
+we'll use Raman spectroscopy to detect
+the presence of cellular ferrata noids
+that are present in some radar resistant
+extremophiles that's all for science now
+over to Isabella for motions
+during the design process the motions
+team made sure to integrate our systems
+by collaborating communicating closely
+and hitting our deadlines we use
+SolidWorks for CAD and Google Drive file
+stream to manage our data across a
+relatively large team of about 40 people
+compared to last year UCSD and Qualcomm
+have provided us with substantially more
+resources for machining our parts so all
+of our components will be machined to
+substantially higher specifications than
+before we're depending on the drivetrain
+and Tracy's reliability off-road ability
+and precise movement for every task in
+the competition
+the suspension worked well last year so
+we use that design as a foundation to
+improve upon we completely redesigned
+the chassis out of carbon fiber and
+aluminum tubing the back two wheels
+shock absorption system was also
+redesigned with improved range of motion
+and the wheel system uses flexible
+material in innovative ways we have
+tested a few iterations of the wheel and
+suspension prototypes so far further
+improving our design we're using the arm
+for the extreme retrieval and delivery
+and the equipment servicing tasks they
+have completely redesigned the arm out
+of carbon fiber tubes and aluminum end
+blocks making its main axes cable driven
+from the base with a wrist being driven
+by a differential gearbox we hope to be
+able to easily lift over five kilograms
+and have a large degree of precision we
+plan to have the Rovers initial
+iteration functional approximately three
+months before the event we will then
+focus on testing the rover in an
+environment with similar conditions to
+the URC we will also run the arm through
+a series of tests resembling those it
+will face in the university
+[Music]
+the software team has designed a diverse
+software stack to address the unique
+challenges put forth by the University
+Rover challenge our lowest level systems
+run on a de zero nano development board
+which connects our core systems via
+ethernet to an altaira cyclone 5 FPGA
+for fast precise motor control and
+encoder handling to run our autonomous
+systems we use the NVIDIA Xavier which
+is equipped with the GPU powerful enough
+to run our autonomous algorithms
+following our on-site testing at URC
+2018 we've built upon our existing
+autonomous systems with general
+improvements to a controls and path
+creation we have also designed a search
+system that utilizes incomplete
+information to help speed up our search
+and we have upgraded our tennis ball
+detection to make it light invariant
+however we don't just want computers and
+computer like people to drive the rover
+instead we want to make it accessible
+our control panel is a web app that
+allows nearly any device to be used as
+ground control
+[Music]
+boxes for each subsystem these boxes
+will contain our own in-house design
+PCBs protecting them from dust and dirt
+during transport and competition this
+will allow for easier connectivity
+between subsystems of the rover a
+reduction of messy wire nests and a
+streamlined debugging process after
+constructing a power budget based
+primarily on motor choices we have
+decided to use five fifty two hundred
+million power 11.1 volt batteries for
+for the drivetrain arm and onboard
+sensors and one dedicated to the brains
+of our Rover we have high hopes of what
+our Rover is capable of for the URC
+thanks for watching and we hope to see
+you in Utah
+[Music]

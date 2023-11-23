@@ -1,0 +1,121 @@
+pratik Scorpio is a part of scientific
+society of wealth that is based at first
+at University of Science and Technology
+the team is supervised by professor to
+gene scheme there are 23 members of the
+team all divided into four technical
+groups the team has access to workshops
+where we manufacture simple components
+parts that require more complex work are
+done off-site by external companies
+[Music]
+the Scorpio Rover is made mostly of
+aluminium and polyamide that ensures low
+weight of the construction and has the
+modular design the modules are connected
+via LAN and canvas to communicate with
+Rover the team uses 900 megahertz and
+2.4 gigahertz AIA sampans
+IP booters implemented as Network
+redundancy the base of the construction
+is the driving unit powered by four BLDC
+motors each being stirred by a
+professional automotive controller the
+module is as a base for electronics like
+rotors motor control system power base
+an on-board computer evita Jetson txt
+the rover is controlled by a user
+preview application and multi processing
+control application of Jetson using
+robot operatic framework allowed us to
+design modular architecture and data
+sharing via tcp/ip and UDP
+[Music]
+the robotic arm was designed to
+accommodate for those tasks with added
+pressure on precision of its movement
+this was done by incorporating 6xl
+design and absolute encoders that record
+the position the arm has its individual
+controlling system that operates motor
+and encoders as well as ultrasound and
+power measuring sensors the robotic arm
+has two replaceable end effectors that I
+use depending on the weight load and
+precision needed for the task there are
+three modes of the arm control one of
+them is reverse kinematics in 3d
+coordinate system with six degrees of
+freedom
+additionally the most favorable
+trajectory of the end effector can be
+designed in user application in order to
+optimize the task completion we
+incorporate an algorithm solving the
+Traveling Salesman problem in our
+approach of the autonomous task we use
+several devices to determine the
+position and orientation of the robot
+this include an original PCB with GPS
+that was doubled to ensure signal
+averaging and redundancy a leader like
+v3 cameras and ultrasound sensors for
+Terron orientation we are using our OS
+navigation stack additionally data
+collected from leaders and ultrasound
+sensors we would translate it into high
+density point cloud that will allow for
+avoidance of obstacles a neural network
+will be incorporated for the bore
+recognition
+the science section is conducting and
+developing the environmental analysis
+with respect to the life presents and
+sustainment a vast majority of data is
+measured on board over a variety of
+sensors provide us with environmental
+parameters temperature and humidity of
+both soil and environment atmospheric
+pressure and particulate matter
+concentration to name a few this set of
+data allow to describe the ambient in
+terms of habitability samples are being
+collected by a soil sampling device
+capable of storing multiple probes at
+once from the depth after 20 centimeters
+the collected material is analyzed with
+respect to geology and life sciences
+establishing the morphology of the rock
+and soil samples gives us important
+information about the foundation of the
+area and potential mineral deposits
+furthermore we measure the radiation
+level the magnetics of stability of the
+sample for the presence of any anomalies
+in our chemical laboratory analysis we
+assess the pH conductivity and the
+levels of elements such as nitrogen
+phosphorus and potassium we also aim to
+find important biological components in
+the soul such as saccharides and
+proteins we are prototyping a variety of
+DIY equipment such as the UV v's and
+x-ray fluorescence spectrometers Geiger
+counter or DNA concentration meter the
+UV spectrometer lets us determine the
+presence of compound active in the
+ultraviolet and visible spectral range
+such as transition metal complexes our
+custom XRF spectrometer lets us detect
+and measure the abundance of the
+elements present in the sample
+considering the usage of the x-ray our
+main concern is safety we seal the
+instrument in the lead container to
+prevent radiation from coming out our
+research give us background for
+obtaining a comprehensive environmental
+profile and using it to overcome life
+science challenges
+[Music]
+[Music]

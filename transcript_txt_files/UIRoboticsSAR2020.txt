@@ -1,0 +1,140 @@
+we are the University of Iowa of
+robotics club over the last year we
+brought together a diverse group of
+students to design and build our new
+rover fueled by our knowledge and
+contacts gained from participating in
+the Canadian International Rover
+challenge during August to 2019 we've
+brought on promising new members to aid
+in overhauling the entire Rover from
+mechanics to control and we believe this
+is positioned us to be a competitive
+team for this year's University Rover
+challenge a previous chassis had an
+extruded aluminum frame with two rockers
+and four wheels warp drive at the sea
+IRC we experienced a lack of precise
+maneuverability traction and impact
+resistance so this year we developed a
+new six wheel three rocker suspension
+drivetrain Russian DC motors power six
+ten inch diameter carbon fiber wheels
+which were formed in-house using 3d
+printed molds with rubber treads for
+traction motor housings are made of
+water jetted 6061 aluminum plates
+affixed to rockers made of square
+carbon-fiber tubing for adequate impact
+resistant the frame is made of hand
+welded sixteenth inch square aluminum
+tubing to provide sufficient strength
+without being too heavy bearings on the
+frame allow for free rotation of the
+rockers we designed a modular
+electronics box with stacked plates that
+can be removed using sliding rails to
+allow for easy access and more space
+housed in our systems boxes our Jetson
+this year we've switched over to using
+an Nvidia Jetson tx2 is our central
+hardware component allowing us to run
+all program execution and communication
+through one module it uses an i2c
+connector to control up to sixteen PWM
+signals which then control our
+sabertooth motor controllers the jetsons
+also useful in deploying computer vision
+for autonomous traversal and gate
+recognition when combined with our intel
+realsense camera which is equipped with
+an inertial measurement unit and stereo
+depth perception to communicate with our
+rover we'll use an off-the-shelf a
+channel fpv transmitter receiver pair
+designed for video transmission it
+operates in the 900 megahertz range and
+can switch frequencies remotely simple
+commands are sent received using baofeng
+uv5 our transceivers and real-time
+driving is controlled with a free sky
+Tyrannis did
+telemetry radio system to navigate will
+use a GPS sensor to provide the primary
+path algorithm with enough data to get
+the depth camera into range of the goal
+the camera will continuously update our
+path and maneuver around obstacles when
+in range the our CNN will localize the
+goal and steer the rover accordingly our
+autonomous scripts are written in Python
+with Karis tensorflow and various other
+robotics specific packages Carris is
+used to train the RCN and to localize
+and recognize objects from various
+images taken by our camera for the rest
+of the software side the different
+functions of our robot are controlled by
+a network of Ross nodes written mostly
+in Python data enters the network from
+scripts managing a GPS unit camera and
+remote control inputs from our
+communication system from there ross
+publishes the remote control input to
+our wheel arm and hand nodes our newly
+designed arm will be mounted low and on
+the front of our chassis two 30 inch
+carbon-fiber tubing lengths will provide
+our over with plenty reach and six
+degrees of freedom gives our arm great
+versatility the prisms at the middle and
+base joints will be made from cnc
+aluminum and they'll use encoded DC
+motors with 2701 worm gear drive the
+wrist uses differential gearing via
+three bevel gears driven by two DC
+motors a parallel gripper driven by a DC
+motor connects to water jetted aluminum
+grippers when swapped with the parallel
+gripper we use a 3/4 inch stubby
+wood-boring bit and decided to bazaar
+drill the sharpened tube we'll have a
+ring that forces the sample out of the
+tube when the drills were first falling
+soil samples from the drill on board
+tests will be conducted to determine the
+presence of life first the soil sample
+will be deposited on a dish and immersed
+in distilled water then soil particles
+will be filtered out of the water soil
+solution and separated into test tubes
+where reagent will be added for
+biomolecules will be tested for complex
+carbohydrates simple sugars proteins and
+lipids an onboard camera will take a
+picture of our test tubes for our
+science team to analyze mounted on the
+side of our over will be our 3d printed
+kits to prevent spills and
+cross-contamination
+in the coming months the chassis team or
+replace our aluminum rockers with
+carbon-fiber tubing add rubber tread to
+our wheels and complete the electronics
+enclosure the arm team will assemble the
+wrist and an CNC prisms with the carbon
+fiber tubing systems team will implement
+our long-range wireless communications
+into Ross apply autonomous terrain
+traversal with drive control and create
+a GUI to simplify Rover operation
+lastly the science team will test our
+for biomarker essays and we'll combine
+the test kits with the rover for field
+testing we'll be testing and integrating
+all of our Rover subsystems and
+competition like scenarios such as by
+creating an our manipulation board in a
+terrain traversal challenge course we
+are the University of Iowa robotics club
+thanks for watching

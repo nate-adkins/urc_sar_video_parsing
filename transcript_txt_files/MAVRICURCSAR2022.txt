@@ -1,0 +1,114 @@
+Hello, the iowa state university rover team mavric 
+is excited to introduce you to our new rover  
+scarab our team comprises of 13 members 
+split up into two sub-teams systems and  
+mechanical all working together to bring you 
+the mavric team's most advanced rover to date  
+our new rover is based on a triple bogey 
+suspension system with four corner steering motors  
+this allows us to effectively maneuver over 
+rough terrain and steep inclines all while  
+swiftly steering around any unfavorable obstacles 
+the carbon fiber reinforced 3d printed suspension  
+members allow for compliance for any hard impacts 
+while remaining rigid enough to carry our rover  
+our attached robotic arm is also 
+the most versatile we've built yet  
+offering 5 degrees of freedom a belt driven 
+elbow joint and hot swappable end effectors  
+the arm also stores a deployable hook 
+to assist in any heavy lifting loads  
+over the past year the mechanical team has worked 
+hard to develop and test our new robotic arm  
+we have developed this arm to have very fine 
+motor control allowing us to do high precision  
+tasks such as typing on a keyboard undoing door 
+latches and plugging in a usb thumb drive as you  
+are seeing here we use a servo to actuate the end 
+effector grippers and the wrist is driven by a  
+pair of 12 volt 23 rpm motors the elbow is driven 
+by a 550 series motor with a worm gear drivetrain  
+and a pair of belts for smooth and stable 
+actuation the entire arm system has integrated  
+encoders that allow for the inverse kinematics to 
+be implemented for ease of control we also have a  
+design for a powered allen wrench to be mounted in 
+parallel with the rover forearm which will allow  
+us to easily loosen the captive screw the arm has 
+been proven to perform a wide array of dexterity  
+tasks pertaining to the equipment servicing 
+mission as you have just witnessed our arm is also  
+far from frail in addition to the end effector 
+we have a deployable hook for heavy lifting  
+hook makes it easy for us to pick up a test 
+mass of over five kilograms and the 775 series  
+motor on a worm gear powertrain supplies ample 
+strength for lifting furthermore our normal  
+end effector is fully capable of picking up a 
+rope and dragging this weight across the floor  
+along with picking and placing a mallet although 
+this works we are currently looking into designing  
+and implementing an additional end effector 
+with increased grip strength and jaw width for  
+use during the extreme retrieval delivery task the 
+mavric science system detects extant signs of life  
+through atp luminometry and extinct signs of life 
+via careful visual inspection the science system  
+onboard scarab currently allows for up to five 
+samples to be tested but is easily expanded as  
+most parts are 3d printed the end effector 
+attachment allows us to grasp the sample  
+plates easily and place them into soil or rub a 
+foam covered plate onto a rock sample the dust  
+and soil covered plates are then stored into a 
+holder from the bottom up removing any concerns  
+of cross contamination a swab is then picked 
+up from the swab holder which is not pictured  
+that will attach to the front right corner of the 
+rover the sample is then swapped using our arm  
+and the soiled swab is reinserted into its test 
+tube our system will then pick up the swab place  
+it into the luminometer and a servo will actuate 
+the buttons and the sample will be analyzed the  
+luminometer will return a value and we are able to 
+definitively say that any rlu value over 5 has atp  
+present and thus extant signs of life present we 
+are currently working on an end effector attached  
+hammer solution with zooming functionality to 
+closely observe samples for signs of extinct life
+systems team has been researching coding and 
+implementing different systems to complete  
+competition missions our steer motors allow us 
+to maneuver the rover using the two main driving  
+modes point steering and bank steering when the 
+rover is point steering it is turning on a single  
+point and follows an arc path around a point when 
+bank steering we can also individually control  
+each drive and steer motor from the base station 
+our base station sends commands and receives data  
+from the rover using tcp sockets and displays 
+all the information we need to control the rover  
+including control accesses buttons data 
+displays and a map to help with navigation  
+from the base station the rover uses multiple 
+ip cameras including a dome camera on the mast  
+the autonomous system consists of four 
+different programs the main state machine  
+pathing object detection and waypoint 
+post detection object detection uses  
+our realsense depth camera to identify obstacles 
+that the rover would want to avoid waypoint post  
+detection detects the aruco tags on the waypoint 
+post using computer vision with the realsense and  
+mass camera pathing takes in all the data 
+from the two detection programs and gives  
+a path for the main state machine to follow and 
+the state machine controls the rover's movements  
+to follow the path given to it it has different 
+states for following either a straight path  
+or an arched path and save for when it reaches a 
+waypoint a waypoint post or the end of a mission  
+the autonomous system use the gps and imu 
+to get the rover's position and heading
+thank you for your consideration and 
+we look forward to seeing you in Utah

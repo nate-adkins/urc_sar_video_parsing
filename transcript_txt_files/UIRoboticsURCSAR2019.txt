@@ -1,0 +1,131 @@
+we're the University of Iowa Robotics
+Club we've been working on this Rover
+for about a year and a half our team's
+broken down into three sections
+mechanical science and systems the
+wheels are equipped with positives which
+are coupled to the motor shaft transmit
+torque attached to each wheel via tons
+of El Sistema motor
+allowing for accurate rotation on either
+side of the robot the suspension system
+is connected through a differential mark
+so when one side raises the other side
+will compensate to keep the chassis
+level the frame consists of 20 20
+extruder will come in the slots of the
+extrusion plastic composite plates were
+fitted with weather stripping to protect
+the system's devices from exile debris
+another primary focus of the mechanical
+team this year with the design and
+implementation of the robotic arm for
+our over the task of heavy object
+lifting we first started by calculating
+forces using five kilogram maximum then
+we used water jet aluminum plates on the
+sides using an oval shape for proper
+load distribution we's had to use
+stepper motors as opposed to DC motors
+or linear actuators as they would be
+more accurate and like be able to
+precisely manipulate objects very
+competition design a stepper driven and
+six degrees of freedom with this hand
+will be able to do many tasks including
+picking up small objects such as
+screwdrivers moving switches
+we made use of any 3d printed parts in
+our design for our lightweight for the
+design flexibility a normal feature of
+our arm is a skirt tensioning 3d printed
+motor mounts these allow us to quickly
+easily make the belts that drive the
+joints we utilize inverse kinematics and
+pertinent turnaround imposition also a
+CNN coated intensive was used to assist
+this model through optical
+identification of department
+these methods are correlated together
+it's you to be in office or the soil
+retrieval process we wanted an
+attachment to brush the soil
+3d printed brush adapters that operate
+on the arm in addition to that there
+will be a tube that collects the soil
+for enforcement
+once a sample is collected inside of the
+chamber we were able to analyze it for
+means of rava spectroscopy which looks
+at a variety of different pods that can
+be present in the sample as well as we
+are able to analyze the three use of
+staining methods and coalescence that
+are currently used in biochemical
+research such as gram staining for a
+Titan or a variety different amino acids
+and on top of all of that we have a
+separate station which is actually a
+weather station that seems to measure
+barometric pressure wind speed humidity
+UV light intensity as well as
+temperature we use our OS robotics
+operating system in C C++ and Python
+also tensorflow is used through issue
+MATLAB is used to coordinate multiple
+sensors together we test our code on an
+introvert ensuring the efficiency of our
+team by allowing them to work on the
+main Rover as they need our program
+using GPS coordinates and athletes to
+squirt nets on top it recognizes
+insurance
+ehh assassination check-in correcting a
+suppose in autonomous the robot will
+determine the location of the meeting
+through a pass party the GUI is broken
+down into three different portions the
+business and put different core
+components into the robot the general
+and Pacific coordinates depending on how
+far along into the economy traversal we
+are as for the science portion we use
+the GUI to interact with the different
+instruments on the robot to get
+telemetry data back from the science
+instruments and to interact with them to
+use them to collect soil samples or the
+tele operationally we use it to get to
+Luigi data back from the robot as well
+as upgrade different paths that we would
+not want to before controller for
+communications our Rover uses am radios
+with automatic frequency and encryption
+switching for sending over simple
+commands real-time Rover control and
+camera feeds are fed through a blade RF
+software-defined radio system built in
+Python the rover will be powered by six
+lipo batteries in parallel and 14
+usually power the controllers for the
+motors there will be four stepper motors
+or DC meters there were also be PCB
+designs current power distribution
+computers
+well the University of Iowa or brightest
+clubs made a lot of progress with last
+year we've a plan for the next two
+months to interfere were able to create
+the highest level in competition the
+chemical team will manufacture the Armen
+implement inverse pneumatic system the
+science team will combine their
+instrumentation with Newham teams
+champion arm the systems team will work
+on software-defined radio for enhanced
+motor control and the autonomous team
+will develop a PAC money algorithm
+utilizing ultrasonic sensors we are uija
+robotics
+thanks for watching
+[Music]

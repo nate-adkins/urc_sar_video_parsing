@@ -1,0 +1,89 @@
+hi my name is Ben McHugh I am the NIU
+Mars Rover president uh here at Rover
+we're very excited to be presenting to
+you our Rover we've been working on it
+for the past year or so uh building a
+new chassis and a new arm design and
+just reworking everything because our
+previous designs have happened is great
+so we hope that you are excited as we
+are to see what we have in store for you
+hello I am Chris English the
+manufacturing team lead I've been
+working with Philip to take the parts
+that his team has to design and bring
+them into the real world we do this
+through a a combination of additive
+manufacturing and old-fashioned
+Machining a lot of our parts are going
+to be water jetted this year but this
+will be complemented by a large majority
+of the arm being 3D printed we have
+chosen have G due to its thermal
+resistance allowing us to put it into
+more stress situation than we would for
+other types of additive manufacturing
+materials
+hi I'm the mechanical design team lead
+at Philip Tomic this semester we were
+focused on the design of our arm we just
+completed this design it has six degrees
+of freedom is made of aluminum and 3D
+printed components at each joint there
+is a Nema 17 motor which drives a
+cycloid over reducer to increase its um
+its ability to lift and maneuver the
+gripper is
+swappable so that the science team can
+use their excavator in place of the
+gripper
+the science test module will use a
+modular tool attach the mechanical arm
+as an efficient way to collect soil from
+the environment
+once collected this way will be
+deposited into a tray in our analysis
+unit
+the soil will then move through a track
+where it will be mixed with water and
+tested for key organic compounds such as
+ammonia and phosphate
+the soil solution will then be safely
+stored in a waste collection unit on
+board the Rover
+the science test unit is also equipped
+with a small onboard computer from
+fidgets which will collect relevant
+environmental data such as temperature
+and humidity this allows to better
+assess the habitability of a given
+environment
+this year on the computer science team
+we have put a lot of effort into
+simplifying our software stack to make
+it more resilient and maintainable some
+of this work has been on an in-house
+communication system that prioritizes
+Fail-Safe conditions while also ensuring
+quick responsiveness to controls for
+navigation and manipulation
+another area of Interest has been
+transitioning to an inverse kinematics
+model for controlling the manipulator
+taking input from our 3D mouse and
+calculating the angles required for the
+arm
+hello I'm Alejandro I'm one Electro team
+leads
+one of the things we do here in lushwood
+team is we take care of the electrical
+system now with the electrical system
+includes is knowing that how much power
+are electronics and motors are consuming
+and we distributed it accordingly
+through our fuse box
+alongside this we program an Arduino to
+control Motors on our Rover to drive it
+and also control LEDs to change colors
+based on the drive commands given to the
+Arduino wireless link

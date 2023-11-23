@@ -1,0 +1,153 @@
+hi I'm Meg I am this year is Rover chief
+technical officer for the Queen space
+engineering team from Kingston Canada
+our team is made up of sixty students
+with into four major subjects mechanical
+electrical software and scientific
+payload this year we focus on many
+projects for the design of a mission
+ready Rover for USC 2020 the mechanical
+goals this year were to increase the
+override height design the pneumatic
+wheels and optimize the electrical
+storage box we redesigned the
+differential rocker suspension system to
+increase the ride height allowing for
+smooth reversal of a rough terrain which
+will help during a string retrieval task
+the team employed finite element
+analysis and topology optimization
+techniques to reduce weight while
+keeping the same structural integrity
+under maximum loads steering away from
+pneumatic tires a new 3d printed design
+with for dozens of iterations to design
+alcohol abs particular hopes and
+flexible thermoplastic polyurethane
+printed tires the ABF's Cubs have been
+printed with 30% infill to optimize the
+strength to weight ratio while they had
+outside TPU tires engineering
+flexibility with a tread design that can
+absorb shocks and creep into rough
+surfaces the our modifications this year
+included grip a redesigned to better
+accommodate with the geometry of tools
+as well as the addition of the rotor
+ball testing an iteration of the rippers
+ongoing to optimize for the tasks
+required and equipment servicing
+including pushing buttons and switches
+opening latches and using tools based on
+past performance the gearing ratio of
+the arm joints has been realized to
+ensure adequate strength in all
+positions and eliminate dead zones the
+end effector for the science test was
+optimized from last year to better
+incorporate sensors and collect more
+samples for analysis the electrical
+storage box has been modified since last
+year with the addition of a second shelf
+to improve cable management and
+increased cooling to key electrical
+components the focus for the electrical
+system this year was to overhaul our
+power distribution network gain crease
+efficiency and reliability a new dual
+battery switching system has been
+designed using high power transistors
+this system uses voltage and current
+modders to provide diagnostic data which
+both aids and determining the optimal
+point to switch the batteries and in
+help into identify system failures
+during competition our new power system
+has an overall efficiency of 92%
+compared to the 40% provided by
+years when the regulator's cue sets
+communication system uses 2.4 gigahertz
+antenna which gives adequate tella
+operation distance up to one kilometer
+newly added this year is a communication
+loss behavior safety system that stops
+the rover in the event of loss of
+communication during an operation
+preventing loss of control the Palin
+team's focus has been on overhauling of
+our onboard Institute chemical micro
+reactor for life detection and the
+creation of custom on-board embedded
+sensor system to determine environmental
+have ability we chose to focus on two
+main molecules to detect within the soil
+samples as indicators of extinct or
+extended life the Biot reagent will test
+for proteins in that soil which will be
+indicative of extend life the potassium
+dichromate indicator will test for
+lipids within the soil which are
+indicative of extinct life the indicator
+will change color dependent on the
+presence or absence of chosen
+biomolecules which will be analyzed by
+an onboard spectrometer
+combined these results will characterize
+the soil based on proteins and lipids
+additionally the ph probe will be used
+to confirm findings and the suitability
+of each soil to host life the micro
+reactor is the housing for the chemical
+tests this is fully automated and has
+built upon last year's design with
+modifications to minimize sample
+contamination the dumping sieve ensures
+that debris is cleared from the sieve
+after the necessary particles have
+traveled in their respective flow paths
+these parallel paths ensure that
+indicators do not interfere with the
+results of each other this system is
+also capable of flushing between samples
+to again minimize contamination the
+habitability of the environment will be
+characterized by custom suite of
+electronic sensors to detect temperature
+air pressure humidity UV light dust
+methane and radiation the methane
+sir will be used in conjunction with the
+micro reactor for additional soil
+habitability data these will describe
+the environment the rover is exposed to
+and humid suitability can be interpreted
+from these results establishing reliable
+testing platforms has been an important
+goal for this year's software team this
+is recon which is a gazebo to simulate
+the robot offering system and a
+miniature Rover for physical system
+testing the mini Rover has also allowed
+for testing of the electrical systems
+for efficiency and heat dissipation the
+software team is focused on developing
+the custom path planning algorithm for
+the rover object avoidance systems that
+uses an inertial measurement unit live
+out multiple GPS units and ultrasonic
+sensors to autonomously navigate unknown
+terrain the success of this algorithm is
+heavily reliant on accurate GPS
+coordinates so an extended Kalman filter
+has been implemented to improve rover
+localization the new search algorithm
+uses an optimized outside and radial
+search and onboard cameras to find a
+archives ultrasonic sensors are placed
+on the threatened science series blind
+spots and LED strips of the chasings are
+used to indicate the karmis operation
+and successful object detection with the
+strong focus on reliable operation and
+competition readiness you set is
+confident that this is our best Rover
+again

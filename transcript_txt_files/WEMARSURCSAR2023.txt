@@ -1,0 +1,81 @@
+foreign
+[Music]
+mobile Advanced robotics Society or
+weedmars for short a team of dedicated
+engineering students from different
+backgrounds have different experiences
+our design is a six wheel rocker Pokey
+system in order to have more flexibility
+and mobility in rougher terrain the
+wheels Happy chose it to be compact
+durable and high friction using built-in
+Motors so that there won't be any
+external Motors exposed to the elements
+while having rubber Wheels in order to
+have enough friction to maneuver around
+designed to be compact strong and
+modular so that different parts can put
+in and Replacements are very easily
+implemented into the system
+the frames are constructed using resin
+cast carbon fiber in order to increase
+strength and resistance
+finally in order to ensure that our
+delicate parts of our system are
+protected we use Apollo chassis in order
+to be able to thread any and all wires
+throughout the Rover
+or increase maintainability and
+Effectiveness we've decided to go for a
+decentralized architecture for our
+electrical system
+a Raspberry Pi was selected as the
+primary controller as it is high in
+processing ability easy to use and is
+very robust
+using esp32 my controllers we are able
+to control many different pistols such
+as cameras GPS system inertia
+measurements and Battery management
+for the power of battery management
+system we use a Lithium Polymer battery
+of 10 000 milliamps and a monitoring
+chip consisting of Texas Instruments
+brand this allows us to check the state
+of charge battery health temperature
+voltage and current discharge rate
+by having these information we are able
+to ensure that our battery and power
+system is functioning well
+these information are also connected
+back to the Raspberry Pi
+finally we have chosen the esp32 cameras
+in order to allow for our operators to
+have a good sense of their surrounding
+without sacrificing too much on
+processing power and increasing too much
+load on our system in order to improve
+the quality of life of our operators and
+to show that they have enough
+information to Traverse the terrain
+safely we used GPS tracking through
+Google Maps API and pubnub live location
+to produce a live location of the Rover
+on the map
+the GPS module on or Rover will
+communicate to the Raspberry Pi and pass
+on the information needed onto the
+localized mobile Mission Control
+ARP ladder sensor is used in order to
+allow for our operators to have a top 10
+view of any potential obstacle this is
+done by having several benchmarks
+created beforehand in order to allow our
+Rover to have the necessary knowledge to
+understand what is and what is it a
+potential obstacle these are all taken
+from the Royal Oak Peak Arduino Library
+thank you for watching this video we're
+looking forward to going to the URC this
+year
+we all hope you have a wonderful day

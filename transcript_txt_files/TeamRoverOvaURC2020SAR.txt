@@ -1,0 +1,64 @@
+hi my name is the response time the
+leader of the student team over about in
+the Technical University of Ottawa in
+Czech Republic our team of 12 students
+is preparing a rover for the University
+Rover challenge 2020 our team is divided
+in four sections administrative
+mechanical design electronics and
+programming our over platform is made of
+aluminium and 3d printed plastic parts
+we focus on robustness and versatility
+in entering wheels with integrated
+motors can rotate around vertical axis
+which allows us to drive in any
+direction parallel suspension and
+connecting lever makes a self-balancing
+platform which levels the body while
+moving over obstacles the science task
+is very challenging for us when the
+technical life presents is a complicated
+task even in our laboratory did you take
+it onboard the rover we are focused on
+the most important condition for it
+which is water so we are going to
+measure humidity of the soil and the pH
+and these containers
+you accomplished the navigation task we
+need to figure out the best way to
+localize it over in the completion arena
+for this we use the combine information
+from GPS the auto metric from the robots
+wheels we track the tags placed in the
+environment using the cameras on the
+rover but the robot you work with the
+control panel views object detection we
+also have several predefined arm
+position configurations for quick
+actions the arm has five degrees of
+freedom and it's designed to provide us
+with a maximum movement the interface at
+the end of the arm is designed for a
+quick replacement of the effectors
+control on the arm assault either by
+inverse kinematics or master slave
+control panel
+[Music]
+since the last version we have upgraded
+communication with all systems we solve
+this problem by removing Raspberry Pi
+and converting function to Arduino using
+I to see busses I to see communication
+bus helps us to receive instruction from
+control system easier our team already
+has experience with the european of a
+challenge in placed fifth on the
+european of the challenge 2018 that will
+manage to reached third place last year
+looking over challenge 2019 we are
+looking forward to test our lower and
+the skills of our team members of this
+year's University Rover challenge
+[Music]
+you
+[Music]

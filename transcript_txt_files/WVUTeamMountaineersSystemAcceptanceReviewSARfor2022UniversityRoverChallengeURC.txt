@@ -1,0 +1,131 @@
+hello we're team mountaineers from west
+virginia university and we're proud to
+present our newest rover design and
+demonstrate readiness for the 2022
+university rover challenge
+meet astro the semi-autonomous system
+for traversal and research operations
+throughout astros design process we
+utilized a systems engineering approach
+experienced from previous designs and
+student efforts from a variety of
+technical backgrounds
+for stability and rigidity astro's
+chassis plate is supported by a
+differential double bogey system in-hub
+wheel mounts are paired with 3d printed
+tires to control the wheel to terrain
+interaction so astro can climb steeper
+slopes and navigate rougher terrain
+[Music]
+the chassis plate allows multiple
+mission payloads to be quickly
+interchanged supporting custom solutions
+for each mission
+our communications sub-team implements a
+long-range communication system using
+the 2.4 gigahertz band that delivers
+command information to astro and returns
+data from the payloads to the base
+station's gui
+our gui was made to support individual
+mission requirements to improve the
+robustness of the communication system
+over long distances only the data
+requested by the operators is
+transmitted over the radio link for
+increased redundancy and reliability the
+communication system features an
+automated system to orient the base
+station's directional antenna to face
+the rover throughout a mission a
+secondary 900 megahertz radio also
+serves as a backup communication link in
+non-line-of-sight situations
+for the extreme retrieval and delivery
+mission our design is focused on
+reliability strength and flexibility
+safety checks such as self-calibration
+limited joint angles and data link
+redundancy were added to the physical
+electrical and communication systems
+also the system's emphasis on simplistic
+design limits failure points using
+cycloidal gearboxes with 420-1 gear
+reduction ratios the arm is capable of
+lifting objects greater than the maximum
+competition weight at full extension the
+horizontal cylindrical workspace allows
+operator flexibility in rover alignment
+while still being able to reach the
+objects a compliant clamping end
+effector allows the operator to grab
+irregularly shaped objects ease of
+operation is aided by a flexible control
+scheme which can transition between
+inverse kinematics and joint control
+for the equipment surfacing mission
+precision and ease of control were
+prioritized the parallel scarab
+manipulator arm mounted on a lead screw
+driven linear lift allows in-plane
+precision movement decoupled from the
+vertical movements the parallel scara
+arm moves the manipulator center of mass
+towards the linear lift to decrease the
+cantilevered load reducing deflection
+and oscillation
+inverse kinematics allow intuitive
+operator control of the manipulator
+astro's end effector combines a solenoid
+used to precisely push buttons and type
+on the keyboard a hexagonal bit driver
+used to screw in fasteners and a gripper
+used to manipulate the joystick drawer
+and usb flash drive throughout the
+mission
+for the autonomous navigation mission
+focus was placed on accurate
+localization long-range marker detection
+and reliable obstacle avoidance astro
+uses a pixhawk flight control unit to
+combine gps inertial and magnetometer
+measurements for a localization solution
+tested to one meter acura astro uses
+four cameras that can detect a route go
+markers reliably up to six meters away
+to reach waypoints a cost map generated
+from 3d lidar data is used to detect
+obstacles in the local environment if a
+waypoint is reached without detecting a
+marker a square spiral search pattern is
+planned and executed the science package
+uses a number of chemical tests as well
+as visual observations to determine the
+presence of extinct or extant life
+phalanx solution detects carbohydrates
+and the catalase test finds oxidizing
+enzymes both of which can identify signs
+of accident life finally petrovsky's
+test is used to detect proteins
+suggesting either extinct or accident
+life
+a visual light spectrometer and internal
+camera observe the reactions
+to reduce the possibility of
+cross-contamination a vacuum system
+consisting of four separate vacuum tubes
+is used to transport samples of soil
+into an on-board laboratory peristaltic
+pumps distribute the reagents to the
+cuvettes and the sample centrifuge then
+separates the particulates so that more
+accurate readings can be made by the
+spectrometer
+a microscopic imager attached to the
+linear lift is used to observe the grain
+structure of rocks which provides
+insight into the geological history of
+an area team mountaineers is excited and
+ready for competition in utah this
+summer

@@ -1,0 +1,164 @@
+[Music]
+hello we are team liad of says v8 from
+mellow institute of technology india
+we're a group of 30 undergraduate
+students hailing from different domains
+of engineering with an aim of building
+and testing russian robot prototypes
+our team is further subdivided into
+seven subgames namely the chases and
+suspension science autonomous robotic
+arm pcb pdp gcs and the management we
+now present to you our rover vr 4.0 for
+the uic 2022 to provide additional to
+assist the rover in traversing the rug
+delays polyurethane wheat wheels and
+used which have lightweight and low
+pressure characteristics the dye is low
+pressure act as a supplement to the
+suspension system by absorbing a portion
+of shock waves near the traversal to
+mount the motor inside the wheel hub
+itself we used a custom build hub that
+ensures the compact design of the robot
+versus the rover in traversing complex
+and uneven bearings a modified double
+measurement suspension has been designed
+control arms and dampers provide an
+initial joint angle for both the control
+arms concerning the chassis in an
+overload condition which depends on the
+rover's weight wheel configuration and
+the center of mass of the road ground
+clearance of 230 millimeters is provided
+to make sure that the rover maintains a
+proper stability with an aid from the
+damper spring the robotic arm designed
+for urc 2022 built on the existing model
+of the arm featuring a redesigned
+gripper at the risk with the jack screw
+mechanism for more precise and intricate
+maneuverability required for the
+equipment and service emissions the arm
+has been fabricated using four dc motors
+and two layer actuators providing the
+arm with 60 degrees of freedom and
+enables for a higher load value capacity
+and backlash prevention in addition to
+these improvements the forearm and
+shoulder movement is made more supple
+with the introduction of layer actuators
+into the design in accordance with the
+competition tasks the robotic arm has
+been simulated in always and gazebo
+using a custom gain movement package
+generated using the vocal
+motion and trajectory planning has
+successfully been implemented using the
+moving promotion planning framework the
+urdf model of the arm has been required
+from this respective cap file made using
+solidworks with the assistance of a
+third-party software point cloud
+generation has been used to map and
+determine the coordinates of the object
+to be inspected with the gripper in
+addition to imu adxl and mpu sensors to
+provide closed loop feedback this year
+the electrical team's focus has been on
+revamping the system for increased
+modularity reliability and safety 3d
+modeling and printed circuit boards have
+been implemented for streamlining
+control and making our systems compact
+and organized higher power demands of
+any maintenance and extreme retail
+ability can be met using an
+implementation of the power distribution
+board integrated cooling fans over
+voltage and reverse productive
+protection has been used with the
+drivers to prevent overheating and
+failure of the drive system emergency
+kill switches have also been installed
+in case of unexpected system failures we
+are using full lipo batteries to power
+various subsystems of our robot arm
+cortex based stm32 microcontroller is
+responsible for precise remote control
+the custom active monitoring system has
+been interfaced with the stm to delay
+back the battery status feedback based
+control system using the optical encoder
+has been implemented for seamless steady
+operation
+among zui pli and web interface the
+lighter one is more easy to use and
+efficient we have enhanced our wave ui
+to increase readability and efficacy
+every subsystem has custom electronic
+circuits to control and receive data
+from it our control system receives
+feedback from every critical component
+to ensure all the module is working fine
+our video 3 system has been augmented by
+two it cameras which include as a racy
+compression of full hd video systems
+giving us better quality while
+minimizing the neutral condition to view
+larger area and get better understanding
+of the surrounding we have used pan and
+filter functionality the communication
+between the rover and the base station
+uses 2.4 gigahertz frequency event the
+sector and only directional antenna
+needs better communication between the
+rover and the lesser station the science
+plan focuses on performing in c2
+analysis using a variety of techniques
+to search for various biomarkers of life
+this year we extensively redesigned the
+soil tank the sample processing will be
+done in two stages a customized auger is
+utilized to collect and transmit soil to
+a custom-made pallet it is then
+subjected to an area of sensors attached
+to the sliding board in the first level
+for ph temperature carbon dioxide and
+thermal imaging to detect heat
+signatures of organisms at the second
+level chemical analysis is done to
+quantitatively detect biomolecules such
+as nitrogen phosphorus and starch
+digital microscopy is used to assess
+soil properties such as particle size
+texture and water retention capacity it
+is also used to search for endolytic
+light forms to distinguish between
+extant and extinct life a customized
+on-board spectrophotometer with a
+spectral sensor is used to detect the
+presence of atomic elements and organic
+compounds from the spectral output
+autonomous subsystem is mainly split
+into navigation and search for the
+navigation of the rover to all kinds of
+terrain we've made use of multiple sets
+of used data which includes the rtk gnss
+that gives us up to centimeter precise
+localization along with the imu sensor
+and the kinect sensors
+we've also made use of two monocular ip
+cameras that gives us the depth image of
+the arrange the rover is in which is
+then used to obtain the point cloud of
+the teresa this is then used in
+integration with ross's navigation stack
+to obtain the obstacle cost map for the
+rover the custom gui is used to specify
+multiple waypoints to the rover and upon
+reaching the coordinate the rover enters
+into spinal search mode to detect the er
+markers or to pass through the gates
+this is done in integration with ross's
+albar package

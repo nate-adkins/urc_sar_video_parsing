@@ -1,0 +1,4 @@
+matplotlib
+nltk
+youtube_transcript_api
+youtube_dl

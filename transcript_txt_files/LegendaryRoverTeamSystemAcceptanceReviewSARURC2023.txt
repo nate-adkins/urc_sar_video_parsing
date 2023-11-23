@@ -1,0 +1,95 @@
+for this year's competition are a
+manipulator features 6 degrees of
+freedom which allows it to carry out
+necessary tasks it is powered by DC
+brush motors the new version of the
+manipulator features a new design which
+is made from three millimeters thick
+aluminum we have also replaced its main
+gearbox which is responsible for
+movement of the upper stage our new
+design features a wider range of
+operation and smaller weight the new
+robotic arm allows you to easily switch
+between two different tools mounted on
+the tip of the manipulator allowing it
+to perform different tasks the standard
+gripper is designed to catch objects
+weighing up to 5 kilograms but it can
+also perform more precise operations
+such as inserting a plug into a wall
+the science task creeper helps us
+collect soil samples for the lab module
+on board the Rover the control signal
+for the models is produced on a Common
+Board which minimizes the space required
+a program created in C can modify the
+rotation speed and direction of the arms
+and calculates a proper Duty Cycles to
+make it easier to implement variable
+speed operation the control signals of
+the device are sent to the model drivers
+which then individually controls every
+motor the user can select the
+appropriate position of the upper arm or
+rotation of the whole arm by controlling
+the joystick
+[Music]
+[Music]
+repeat
+[Music]
+[Music]
+um
+[Music]
+our electronic system is controlled via
+an application deployed on gnu Linux
+system Teemo version of the application
+allows user to observe parameters such
+as GPS coordinates the states of
+unirover circuit board and angle values
+obtained from IMU sensor operator is
+able to save current coordinates with a
+use of set home button if necessary
+operator can hit emergency stop to make
+Rover return back to the previously
+saved coordinates LED indicators are
+informing the user whether Rover is
+controlled manually or autonomously in
+manual mode Drive is controlled via
+joystick desktop application is reading
+it and sending proper messages via radio
+Trans Receiver to the vehicle computer
+on board of the vehicle is receiving
+messages and sending instruction via USB
+interface to electronic boards
+responsible for low level functions
+Rover is able to avoid obstacles using
+leader sensor and fuzzy regulator for
+the science task our team has created
+the lab module consisting of the main
+apparatus and four separate subsystems
+where each of them is using different
+research method before the soil sample
+is collected and during the collection
+process pictures are taken using
+microscope and Camera the collected
+sample is stored in the upper part of
+the main apparatus and then it is
+transferred using gravity to three
+separate containers once the samples are
+placed in the respected Chambers on the
+Rover stack a series of tests is
+performed using individual test methods
+like pH measurements chemical analysis
+and color metric analysis simultaneous
+execution of the tests allows for a
+shorter measurement times which
+translates into greater efficiency in
+addition based on the results obtained
+our team is able to determine with high
+degree of accuracy whether there is or
+was the presence of life forms in the
+collected sample good design and high
+quality manufacturing ensure durability
+of the main apparatus and provides the
+high efficiency to the entire lab module

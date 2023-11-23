@@ -1,0 +1,137 @@
+[Music]
+thank you
+yes hi my name is Laura I'm the leader
+of the impulse team from the Celta
+University of Technology we've long been
+involved in designing and building Mars
+rovers and we've participated in several
+International competitions with some
+success we are a team of 15 divided into
+five sub teams it's responsible for
+different aspects of the current project
+using the experience and knowledge
+gathered during the previous URC events
+we've improved our Rover according to
+the requirements set for this year's
+competition
+science desk is to find out if there is
+or has ever been life and soil sampled
+in cedu all the experiments conducted by
+the revolver will be observed in real
+time for a high resolution onboard
+camera equipped with a high
+magnification zoom lens system the Rover
+will collect surface soil autonomously
+under sterile conditions then the
+material will be analyzed
+luminometrically by measuring its
+bioluminescence which is the ability of
+living organisms to emit light the
+testing will involve the use of
+alumidester and swabs containing the
+necessary reagents this is a safe method
+of solar analysis posing no risk of a
+chemical spill
+an NPK test will also be carried out to
+measure the levels of nitrogen
+phosphorus and potassium in the soil
+sample to identify organic compounds or
+microorganisms potentially present on
+the site the Rover's onboard laboratory
+is designed to sample surface material
+and operate the lumit tester and the
+syringes with reagents for the mpk test
+our Mars Rover has 300 millimeter Wheels
+each receiving a maximum torque of over
+180 newton meters which allowed the
+vehicle to Traverse challenging terrain
+such as loose rocks Boulders and soft
+sand
+with a flexible suspension and a low
+center of gravity Rover can cope with
+slopes tilting up to 60 degrees
+the full HD onboard cameras help the
+operator see differences in color and
+pattern to be able to select the right
+object from a set of similar objects
+even small in size the cameras are also
+well suited to read messages on a
+display or a small sign
+the Rover uses a GPS based system to
+accurately reach a designated point we
+have also developed an application to
+visualize the Rovers wrapped on the
+computer screen
+the sixth degree of Freedom manipulator
+is driven by brush DC motors integrated
+with strain wave gears the use of PID
+controllers high torque and a special
+gripper allows for fast and precise
+handling of various objects
+the manipulator offers a high degree of
+application flexibility it is able to
+lift objects more than 5 kilograms in
+weight and it can easily perform precise
+tasks such as activating switches
+operating a keyboard or driving screws
+with a hand screwdriver the
+manipulator's control system employs
+inverse kinematic algorithms the
+semi-automatic mode of operation is
+useful for more demanding tasks ensuring
+they are done with greater ease and
+speed
+there's a set of analog cameras
+responsible for delivering real-time
+images from the site with little or no
+lag at all
+for this year's competition we've
+improved the autonomous navigation
+system which consists of the vision and
+positioning subsystems the positioning
+system uses readings from the drives the
+compass the accelerometer and the
+differential GPS
+we've developed a special application
+with the map of the site to be used for
+planning the Rover's route based on GPS
+coordinates and for including
+information on the position of AR tag
+markers and obstacles detected on the
+way
+all the data are sent to the robot so
+that they can follow the desired route
+with high Precision the vision system is
+equipped with free full HD cameras as
+ADD stereo camera and an Nvidia module
+where we've implemented an AR tag
+detection and recognition algorithm to
+determine the Rover's precise position
+and orientation relative to a physical
+marker
+the Rover uses two methods to detect
+obstacles one involves using 3D Point
+clouds from the stereo camera and a
+euclidean clustering algorithm the order
+is a lighter based method employing an
+a-star search algorithm
+the telemetric data the layout of the AR
+tag markers and the robots route are all
+visualized on the screen the Rover's
+onboard systems will produce visual
+signs and transmit messages to the base
+station to provide information about
+autonomous navigation or task completion
+as you can see building a Mars Rover
+means tweaking the mechanical structure
+and testing the algorithms endlessly
+that's why we need to keep on developing
+our skills and knowledge projects like
+this take a lot of commitment and many
+hours of hard work but they are an
+opportunity to broaden our Horizons and
+exchange experience internationally with
+the best teams from all over the world
+so now what we need is just luck
+[Music]
+[Music]

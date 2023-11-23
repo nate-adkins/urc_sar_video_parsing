@@ -1,0 +1,127 @@
+[Applause]
+hi my name is maja Adam Kiev economic
+elite as a Stanford University Maserati
+this is our first and what we hope will
+be many entries into the university
+rubber challenge our team is divided
+into four different sub teams
+mechanical engineering Electrical
+Engineering computer science and
+scientific analysis I am Christina Lee
+and I'm the mechanical lead for the Mars
+rover project the rover was designed on
+mainly sheet pieces so we can make
+laser-cut doron prototypes early on the
+water check cut aluminum sheet metal
+that were TIG welding together for the
+final product throughout the design
+cycle FPA analysis and optimization
+software were used on all parts to
+minimize weight while ensuring that all
+components have a safety factor of three
+or above our four wheeled rocker
+suspension allows us to achieve higher
+torque outputs lower weight and greater
+mechanical simplicity we're using
+powerful DC brushless hub motors
+allowing us to drive up 45-degree slopes
+we use custom-designed 3d printed wheels
+purposely picking the xxx filament to be
+grippy and flexible they slightly
+conform to the ground surface giving us
+more grip on hard rocky surfaces and
+more surface area on soft sandy surfaces
+our double layered chassis as it
+designated space for every electronic
+component and removable panel so we can
+swap out components easily additionally
+the top can be easily attached for more
+extensive system repairs our 5 degree of
+freedom arm used a counterbalance system
+decrease the load on our belts employee
+transmission systems
+[Music]
+the arm is entirely detachable so we can
+remove it for the autonomous traversal
+task and reduce weight our preferred is
+reconfigurable two two three and six
+finger operations so we can adapt it for
+the different tasks two fingers separate
+panels and three fingers to use tools
+like a screwdriver concentric wait for
+the science cache task we have an auger
+to collect the soil sample and release
+into containers on the chassis for
+onboard analysis the simplicity of the
+system keeps its end effector
+lightweight my name is Shai Chuck and
+I'm the electronics leave the Shepherd
+harbor team in addition to the sense of
+word being used for scientific analysis
+we're also working on our power
+distribution board which will eliminate
+messy wiring and improve reliability the
+design features in latching and failsafe
+II stopped as well as uses social off
+power on over current events we are
+working with another student group to
+develop a long-range radio which will
+allow for us to maintain low bandwidth
+communications even an out of line of
+sight we understand the difficulties of
+running electronics in the desert this
+is why we are doing extensive Thermal
+simulations of the boards and sharing
+our recorders are properly cooled and
+sealed from dust and addition to
+conformal coating all over upwards all
+of our connectors are key and have a
+positive retention mechanisms hi I'm
+Victoria and I'm Rachel and we're the cs
+coedes for the team
+our main onboard computers the Jetson
+tx2 which runs the robot operating
+system tools all Rover subsystems with
+the enormous task we will be using
+visual Dom tree from a stereo vision
+camera system combined with GPS using a
+Coleman filter to position ourselves on
+a map in addition to being able to track
+tennis balls using traditional methods
+we are using deep learning for image
+segmentation to identify and localize
+obstacles like loose sand that wouldn't
+be detected by traditional systems but
+are still difficult for the rover to
+traverse to run these models we are
+using custom open-source brought
+packages I built while working at Nvidia
+we are currently working on inverse
+kinematics but we're already practicing
+for competition tests using direct
+control of each joint
+for precise an intuitive operation we
+are also experimenting with the master
+slave system for our mural we use a
+commercial off-the-shelf 2.4 gigahertz
+antenna system from maximum reliability
+and through play I'm Nikolai and I'm the
+science lead for the Mars rovers game we
+will be doing preliminary analysis using
+the onboard cameras to look for signs of
+water in the Martian landscape we will
+be taking measurements of conductivity
+humidity and temperature using solid
+state archives finally we will be using
+fluorescent dyes to distinguish between
+nucleic acids and other molecules this
+has advantage of being a more selective
+and sensitive method that we can do in
+the allocated time we have a robot
+nearing completion from here on out we
+found the focus on the interview
+liability the panic person your
+checklist is DeMatha keep testing
+everything we were proud of how far we
+come this year and are excited compete
+in the university Ruhr challenge

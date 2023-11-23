@@ -1,0 +1,136 @@
+our three competes and revised
+competitions all over the world and
+we're very excited to come back to you
+RC for a second year after experiencing
+the terrain and traction conditions in
+Utah we got back to the drawing board
+focusing on higher speed lower weight
+and increased controllability for all
+our subsystems our chassis and
+drivetrain team has worked hard this
+year to reduce the weight of the rover
+take advantage of new manufacturing
+methods and improved terrain traversal
+last year's Rover proved to be
+critically close to the weight limit so
+this year a smaller Rover was designed
+to drastically reduce the weight of
+suspension components to further reduce
+weight the core loads of the rover such
+as the robotic arm and the batteries
+have been moved to much closer to the
+center of the chassis and a carbon-fiber
+outer shell is being manufactured to
+house the electronics in an ultra
+lightweight way to improve our terrain
+traversal the suspension geometry has
+been modified to make obstacle clearance
+easier and several prototypes of wheel
+treads have been tried to greatly
+increase the amount of traction the
+rover has with a suspension carbon fiber
+tubes have largely replaced welded
+aluminum and carbon fiber embedded 3d
+printing has been used to produce the
+joints between them the arm team this
+year is taking a new approach to design
+focusing on simplicity for the least
+possible weight we've built a scar style
+arm instead of the traditional five or
+six degree of freedom robotic arm the
+scar design offers more rigidity and
+less backlash it also features a z-axis
+a vertical movement that helps our augur
+for the science tasks for fast and
+precise drilling or with over 35 pounds
+of force to smaller arm segments move to
+cover a horizontal flat plane just large
+enough to type on a keyboard with the
+use of a camera mounted inside of our
+forefinger gripper this makes it simple
+for drivers to navigate and interact
+with unfamiliar objects this setup
+simplifies programming and by applying
+cartesian based inverse kinematics we
+have 100% automated the on rover science
+tasks as well as other simple parking
+and generic movements this year the
+controls team designed a highly
+extensible and reliable control system
+to focus on superior control experience
+for all teleoperated systems we've
+implemented a new control architecture
+to Bentley utilize Ross control allowing
+us to have a modular control system at
+every level including hardware and
+software Ross control allows us to
+accurately simulate all the systems on
+the rover in real time letting us
+quickly prototype in iterate all of our
+high-level control algorithms without
+the cost of damaging the rover due to
+the nature of the URC competition our
+new Rover utilizes an hundred megahertz
+for its capabilities and
+non line-of-sight situations all
+critical communications including
+teleoperated commands and primary camera
+feeds are operating in this frequency we
+pair this with 2.4 gigahertz for all
+auxilary camera views and non crucial
+data for the autonomous tasks we use a
+combination of real-time appearance base
+slam and move base for autonomous path
+planning our system primarily uses input
+from our custom stereo cameras to do its
+own path planning but also allows for
+operators to do high-level planning in
+general path indication in addition we
+have designed redundant autonomous
+systems utilizing GPS and IMU data
+should the primary system fail for the
+science task we developed an arm
+attachment and automated console capable
+housing 15 sensors that simultaneously
+collect and send data back to the base
+station this is a huge improvement from
+last year when we only had three sensors
+this year were monitoring soil for
+hydrogen carbon nitrogen oxygen
+phosphorus sulfur and radiation levels
+additionally we're measuring electrical
+conductivity redox potential dust
+particle density pH temperature humidity
+wind velocity pressure and altitude our
+biological tests are all simultaneously
+performed at the command station we have
+expanded our assay to include DNA RNA
+and protein extractions are novel
+shotgun like molecular biology protocols
+use affinity differentials to
+sequentially hone into our
+macromolecules of interest this way we
+can use spectrophotometry to quantify
+each step and calculate the UVC to 60 to
+80 ratios our tests fit within the safe
+10-minute mark leaving enough time for
+replications for the geology task we've
+developed image analysis algorithms
+using open CV capable of differentiating
+soil layers and soil samples under a
+microscope we're confident that using
+our physical chemical and biological
+tests will allow us to give a strong
+assessment of extraterrestrial life on
+Mars we are extremely confident that we
+will perform well at you our c18 our
+focus on reliability and weight has
+yielded a robot that is over 12 kilos
+under weight with our heavier testing
+frame in the coming weeks the team will
+be finishing our carbon fiber shell and
+our
+after which we will begin a rigorous
+testing plan good luck and we hope to
+see you in Utah
+[Music]

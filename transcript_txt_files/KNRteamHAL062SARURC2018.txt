@@ -1,0 +1,112 @@
+our team is a part of university
+robotics association knr which operates
+at the Faculty of power and aeronautical
+engineering and the Warsaw University of
+Technology our main focus is to design
+and build highly advanced robots after
+several years of carrying out successful
+projects such as load balancing robots
+autonomous car and electronics for
+Hyperloop pod we decided to raise the
+bar and use our experience in mobile
+robotics to design a rover for you RC
+competition our Rover is designed as a
+multi-purpose modular robot based on
+agile and robust mobile platform which
+can be equipped with wide range of
+modules that enable it to perform
+various tasks we mounted our
+construction on a rocker-bogie
+suspension perfect for traversing
+demanding terrain we were focused on
+reducing the weight of the vehicle and
+that influenced our choice of materials
+as primary structural materials for a
+robot
+we chose ABS 3d prints combined with
+aluminum sheet metal which led to
+durable and lightweight structure
+moreover 3d prints act not only as
+structural elements but also guarantee
+dust and waterproof enclosure for all
+major components
+[Music]
+the wheels are substantial elements of
+Hamas Rover they have to provide
+reliable traction dumping and durability
+while maintaining low weight having many
+years of experience with mobile robotics
+we decided to create our own tailor-made
+electronics based on stm32
+microcontrollers onboard system is
+divided into independent fully
+functional modules which communicate
+with each other via canvas that
+guarantee not only failure free
+operation but also easy replacement of
+modules all subsystems are controlled by
+mainboard it communicates with the
+operator by a 2.4 gigahertz wireless
+bridge based on industrial class Wi-Fi
+routers this structure of main onboard
+systems was earlier thoroughly tested on
+a prototype of our Rover in order to
+ensure safety of our construction it has
+been equipped with diagnostic utilities
+monitoring all vital components of the
+Rover our power management system allows
+us to independently cut off power from
+individual subsystems that gives us an
+ability to shut down high-power circuit
+without disabling logic a useful feature
+during testing as well as in case of any
+failure to ensure safety with lipo
+battery operation special battery
+management system was developed which
+monitors every cell voltage and
+temperature
+[Music]
+although our mobile platform is
+versatile its capabilities are limited
+to traversing and exploring terrain to
+widen the scope of its possibilities a
+six degree of freedom manipulator
+capable of lifting up to five kilograms
+could be attached to a river using fast
+mounting system in order to allow the
+operator to focus on perform tasks
+inverse kinematics control system was
+implemented which enables us to operate
+in tool based coordinate system on top
+of the manipulator sits a two-finger
+adaptive gripper that can handle objects
+of any shape hardness or size for the
+science tasks in place of the
+manipulator we mount the science module
+designed to collect samples using
+drilling platform at the selected site
+of sampling we will measure the
+subsurface temperature moisture and pH
+of the soil onboard cameras will capture
+the stratigraphic profile thanks to an
+oblong slit in our drilling bed the lab
+analysis consists of detecting nitrate
+potassium and phosphate ions in the
+collected sample in order to detect life
+we shall perform an ATP detection test
+due to the complexity of autonomous
+traversal tasks we decided to split it
+into three smaller subsystems the first
+element is processing the video faith
+using deep neural network to determine
+difficulty of the terrain as well as to
+spot hazardous obstacles the second one
+is to detect markers tennis balls using
+OpenCV framework the last element is to
+find the best route based on GPS
+coordinates inertial navigation system
+and with the support of data collected
+during previous tasks relying on Landsat
+images we are able to predefined
+difficult areas we can wait to test our
+construction rgu RC

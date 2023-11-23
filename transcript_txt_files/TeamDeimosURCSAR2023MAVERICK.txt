@@ -1,0 +1,154 @@
+hi we are team diamonds a team of 15
+University students from IIT Mandi based
+in Himachal Pradesh India we learned
+from our past experience at URC 2022 and
+improved Upon Our Rover the team is
+divided into four subsections which
+consist of mechanical electronics and
+communication software and autonomy and
+Life Sciences the Rover was made in a
+span of six months due to covet
+situation in India and logistic ratios
+we are proud to present you our latest
+over Maverick
+the chassis of her over this year builds
+upon the previously designed single
+frame chassis made out of aluminum
+extrusions which provide great
+modularity and make it easy for us to
+attach various other subsystems like the
+electronics box and the robotic arm
+assembly the single frame is supported
+by the highly versatile and ubiquitous
+rocker Boogie suspension system The
+Rocker Boogie mechanism uses a cast iron
+reinforced acrylic differential bar
+which provides great strength while
+reducing weight the suspension system
+lets the Rover climb over rocks twice
+the size of the wheels and easily
+Traverse slopes up to 45 degree we are
+using balloon Wheels which connect to
+the planetary gear DC motors through
+custom designed aluminum couplers since
+we are using differential drive to
+maneuver the Rover the motors directly
+attach the chassis through our newly
+designed motor mount this year we have
+rejected our previous caram and designed
+a new articulated arm with six degree of
+Freedom the arm features two linear
+actuators and encoder motors for precise
+manipulation with the help of which the
+arm is able to lift up to 5 kgs we have
+made custom grippers for various Stars
+the heavy duty gripper is used to lift
+and carry heavy weights while the
+Precision repair is used for tasks such
+as pressing keyboard and operating
+switches high top Motors are used along
+with the position control and smaller
+stepping for precise actues we have used
+a 6 degree of Freedom IMF offer getting
+real-time orientation of grip the IP
+camera assists the operator interior
+while another camera and air gripper
+helps in precise position we chose
+Nvidia dats and Nano for controlling
+other subsystems this is assisted by
+Raspberry Pi and stm32 boards for low
+level control for navigation and
+orientation 9 degree of Freedom ime
+sensor is used along with GPS all Rover
+is powered by 6s LiPo battery pack to
+satisfy different subsystems of the
+power the communication between the
+Rover and the base station is done by
+rocket AC light in 5.8 gigahertz band
+and one omnidirectional antenna mounted
+on the Rover and one directional sector
+antenna at the base station to ensure
+non-line of sight communication up to
+one kilometer custom pcbs are designed
+such that each motor gets an independent
+signal and power source from all the
+s1032 boards which communicate gets a
+nano by I Square C protocol main main
+power board features inductive and
+capacitory circuitry to remove any kind
+of inductive spikes and high frequency
+noises for every load researchable fuse
+provided to prevent any kind of circular
+damage thereby preventing the problem to
+change the fuse repeatedly voltage and
+current sensor are also used in more to
+monitor power States additionally
+thermistors are used to check thermal
+data from each PCB iron P series is
+designed for in a more compact way for
+easy servicing the software team aimed
+to develop an easy to use GUI for tele
+operating the Rover from the base
+station and monitoring subsystem
+throughout various machines we are using
+Nvidia Orem for enhanced processing of
+heavy data such as Point clouds and
+autonomous machines as part of
+autonomous traversal we developed an
+algorithm that uses visual automatic IMU
+and GPS data to localize the Rover we
+have used a global EKF of using GPS IMU
+and Visually automatic data while
+another local EKF note uses IMU and
+wheel automation Adept data is used for
+ATA map slam we are using the Ross
+navigation stack for path planning and
+obstacle avoidance a separate node is
+being used to publish GPS waypoints as
+per requirements on the autonomous
+Mission Ross State machine is used to
+track machine both the map of the
+environment and the part of the whole
+are updated dynamically when the Rover
+is close to the gold location AR tag
+detection is used for planning and
+serving to the gold location once the
+Rover reached the goal location the
+status is updated using the onboard LED
+for controlling the robotic arm we have
+used the movie trots package the depth
+camera is utilized to create a local map
+of the workspace and this map is
+integrated to plan a collision free
+trajectory the life science module this
+year is three back to enable real-time
+examination of the environmental factors
+that support life the Rover has onboard
+sensors to determine atmospheric
+parameters the soil NPK sensor is used
+which involves accurate measurement of
+the level of nitrogen phosphorus and
+potassium in the soil PH sensor is used
+to measure the acidity or basicity of
+the soil the Rover also has a model
+which stores the reagents for bioret and
+s5bs saved items for checking the
+presence of protein and DNA respectively
+temperatures and humidity in the
+atmosphere and moisture in the soil are
+measured by their respective sensors as
+these factors play a very important role
+in presence of Life anemometer is also
+used to measure wind speed which helps
+in understanding the broader
+environmental context in which life can
+exist gas sensors are used to detect
+Gases such as carbon dioxide oxygen
+ozone and ammonia for real-time Rock
+detection a deep learning model has been
+built which has the ability to detect
+different kinds of rock using
+convolutional neural network analyzing
+the soil's texture using digital
+microscope also helps in great in the
+support of life

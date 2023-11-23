@@ -1,0 +1,138 @@
+hi my name is Michael Mendoza I'm the
+president of trippy robotics
+representing the University of
+Washington Bothell as a new team
+competing in the URC this year we are
+excited to showcase our designs that we
+have developed in the past several
+months here's a look at our new Rover
+theater
+hello my name is Riley oblander and I am
+the vice president and technical
+director for trickfire robotics
+our Rover is powered by 36 volts which
+are provided by three 36 volt batteries
+those batteries are connected to our
+power system
+through a solenoid that is controlled by
+the emergency stop switch the emergency
+stop switch when pressed will stop all
+current from flowing from the batteries
+into the other systems
+those 36 volts are also converted down
+to 12 volts through our buck converter
+this Buck converter is used to provide
+the 12 volts to our Nvidia Jetson Oren
+which is the main computer and brain for
+our Rover it's computer controls all of
+the complex calculations like our
+inverse kinematics the Nvidia Jetson
+Oren is connected to a can FD bus from
+its onboard cam controller through our
+exterior can transceiver our
+communication subsystem utilizes a five
+gigahertz Wi-Fi link through two
+directional antennas that are actively
+steered in order to point at each other
+the Rover is constantly checking its GPS
+position and since the ground station
+has a known location that does not move
+they are able to point at each other as
+that information is shared back to the
+base station
+this allows us to have the maximum
+length budget in order to maintain our
+connection over a maximum of two
+kilometers the communications antenna
+can also be raised and lowered in order
+to increase the height of our antenna
+motors for our Rover are mostly brushes
+DC motors
+these motors are driven by a modius
+field oriented control brushless PC
+motor controller these motor controllers
+monitor precise position and velocity of
+the rotor which allows it to commutate
+the rotor in the most efficient way to
+provide the most torque at both low and
+high speeds
+the motors we use to move the Rover are
+originally designed for uses and
+Commercial hoverboards are internal Hub
+Builders we designed and 3D printed our
+own tires out of TPU thermoplastic
+having deeper Treads which are better
+for gravel and sand which is the kind of
+environments that our Rover will be
+traversing hello my name is simpon guo I
+am the mechanical technical director of
+the trick fire team responsible for all
+mechanical aspects of the robot our
+robot system is equipped with a
+custom-made 3D printer gripper designed
+to provide a high level of adability the
+gripper incorporates two servo motor
+that enable it to adjust its grip
+between two and four fingers making it
+possible to hold various objects the two
+finger mode is specially designed for
+small objects such as USB tools and
+handles while the four finger mode is
+ideal for gripping object with irregular
+shapes this unique design and
+flexibility of our gripper will allow
+our robotic arm system to perform a wide
+range of tasks
+hello everyone my name is rizwan Ahmed
+and I'm part of the mechanical team at
+trick for robotics for the material
+selection of the arm we are using 6061
+T6 aluminum as well as PLA and G 3D
+printed material for the main structure
+of the arm we will use aluminum due to
+its stiffness and its durability
+components such as the joints and
+supporting structure of the arm will be
+made of aluminum in order to maintain a
+high tolerance and Precision in movement
+the rest of the armor will be made of 3D
+printed material in order to reduce
+weight while still keeping a level of
+rigidity
+our Rover utilizes a rubber bogey
+suspension with a differential bar the
+differential bar allows The Rocker bogey
+system chin to conform itself to the
+terrain with which the Rover is
+traversing
+well there I'm Vlad and I'm the
+principal software engineer for check
+fire automatics in our code base we
+utilize the robotic Library Ross too
+specifically erostia humble since the
+last two supports python much better
+than last one we are able to develop and
+prototype features on a much faster
+scale
+for the general design of the code we
+have strided to have a minimally coupled
+code base allowing for modularization of
+different subsystems on the Rover this
+gives the capability to have different
+software developers work on different
+subsystems of the hover without having
+to depend on each other's work for the
+autonomous Mission we will utilize a
+quadcopter drone
+this quadcopter drone will navigate to
+the location given by the gnss position
+it will then perform a search routine in
+order to locate any aruko markers and
+then determine whether or not it needs
+to land at the location land next to the
+post travel through the gate before
+landing
+once it completes that task it will move
+on to the next set of coordinates or
+return to the base station if it has
+achieved all of its objectives

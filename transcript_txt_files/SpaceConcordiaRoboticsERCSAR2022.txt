@@ -1,0 +1,116 @@
+the space concordia robotics division is
+a multi-disciplinary group of
+undergraduate and graduate students from
+concordia university in montreal canada
+within our team we have sub teams that
+handle different responsibilities for
+each aspect of the project
+the following image shows our team
+structure
+in addition we are participating in the
+european rover challenge because we
+believe there is valuable experience and
+knowledge to gain within each respective
+sub team competing with others puts the
+team in an environment that forces us to
+ensure our systems meet requirements and
+are reliable enough to complete the
+tasks within the scope of the
+competition
+the rover uses a custom-made power
+distribution system that interfaces with
+the batteries and distributes power to
+the rest of the system
+it has firmware that actively monitors
+and can cut power to components with
+irregular behavior the rover is also
+coupled with high level operator
+software that displays electrical status
+for each motor and overall system with a
+soft emergency stop for cutting power to
+motors and other electrical components
+within this high-level software there
+are video feeds and sensor feedback to
+assist the operators
+this allows for manual control of the
+rover either with playstation 4
+controllers or keyboard controls
+a big aspect of the safety system is the
+inclusion of a physical hard emergency
+stop that instantly cuts power to the
+rover in its entirety the electrical
+system of the rover is designed to
+safely deliver power to actuators and
+obtain sensor values and consists of the
+batteries two pds power distribution
+system devices the main board motor
+drivers and the arm sensors the reverse
+triple boogie suspension has proven
+effective in the past and has been
+enhanced this year with cnc machines
+links to increase its stability
+the mobile platform's height has also
+been further reduced to lower the center
+of gravity of the rover increasing its
+stability over a steep terrain
+[Music]
+so
+the manipulator has five degrees of
+freedom with compliant digits that allow
+it to grip around objects
+improving its grip strength without
+causing damage or marring the items the
+arm has also undergone a complete
+redesign with new gearboxes and arm
+pivots that were designed to reduce
+backlash and improve maintenance
+the new arm is also considerably more
+modular allowing us to change out the
+gearboxes under a minute if needed and
+allowing for more devices to be added
+such as our absolute encoders the dlp
+near scan nano or our upcoming libs
+fiber mount the arm is also optimized to
+reduce weight with topologically
+optimized plates
+and better use of material netting a 1.2
+kilogram reduction in weight the
+absolute encoders allowed us to
+implement inverse kinematics which
+considerably improve the dexterity of
+our arm
+allows us to perform complicated
+manipulation of equipment this is in
+addition to our more powerful motors
+which allow the arm to move faster while
+lifting the same load
+the rover makes use of an oster 3d lidar
+and z2 depth sensing camera in order to
+map terrain and localize itself within
+its environment water cooling was also
+added to the lidar base to improve
+thermals increasing its accuracy
+the rover is also coupled with ar tag
+detection for helping operators and our
+autonomous navigation system navigate
+the competition grounds
+to test the hypothesis beep will
+navigate the mars yard with a webcam
+allowing the team to monitor the site
+for interesting geological features
+during this process the images are
+compared to the created excel database
+of physical and chemical characteristics
+of various known rock and mineral
+samples for identification
+in addition beep will measure the levels
+of nitrogen and phosphorus in soil with
+the npk test and will analyze the water
+content of the rocks with the near
+infrared spectrometer mounted on the arm
+of the rover the level of acidity and
+alkalinity of the soil will get
+determined with aph probe the
+consistency of this results will lead to
+an evaluation of the hypothesis
+you

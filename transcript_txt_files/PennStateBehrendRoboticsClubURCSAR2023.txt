@@ -1,0 +1,133 @@
+hi I'm Adam this is the baron robotics
+Club submission for 2023's URC system
+acceptance review video
+when we started designing the gearboxes
+we already had our wheel diameter and
+our motor selected so from here we could
+back out the ideal gear ratio of 27-1
+and we also knew that we wanted a
+standard set of gearbox instead of a
+reverted or planetary gearbox so that
+way we could remove our motor from the
+ground and get maximum ground clearance
+so with this in mind we started looking
+for gearboxes and we saw all the
+commercially available boxes were just
+heavy and expensive so this prompted us
+to buy gear stock and we bought a soft
+steel gear stock so that way we could
+cut it and machine it to the size we
+want unfortunately this steel had a low
+fatigue life and low strength so what we
+did to solve that is once the gears were
+machined and sized correctly we case
+hardened them with a pack carburizing
+process which gave us a tough ductal
+core and a hard exterior to withstand
+the wearing of the gears that's what led
+to our final design of the gearbox which
+not only gave us the torque ratio that
+we wanted and a
+slim profile with the case harden but it
+also removes the gearbox as far away
+from the center of the wheel as possible
+to achieve maximum ground clearance
+a lot of thought went to the wheel
+design for our Rover we knew we wanted a
+large wheel that would allow our Rover
+to easily climb the terrain of the
+desert we also wanted a wheel that could
+absorb the impact in case the Rover were
+to fall off a small ledge
+our first wheel design used ABS plastic
+this wheel design was 3D printed and is
+the proper size for our Rover this wheel
+also does a good job of transmitting the
+torque from the center shaft to the
+outside of the wheel however when we did
+an impact test by putting a metal bar
+through the center of the wheel and then
+dropping at a half meter with 50 pounds
+of load it failed at this point we
+wanted to modify our design and for
+impact by using ansys we were able to
+simulate drops from different heights
+this led us to believe that our original
+wheel design had needed modified and our
+material Choice also needed to change
+this led us to our second wheel which
+uses a concentric hexagon pattern as
+well as TPU material to allow a large
+amount of impact resistance as well as
+Conformity to the environment we're
+still working out the torque transfer
+issues with this new wheel but we plan
+to use a metal plate to transfer Torque
+from the hex draft to bolts within the
+wheel
+for our robotic arm we chose to use a
+granular jamming gripper this type of
+gripper has a porous material on the
+inside and whenever you apply a vacuum
+to this it's able to morph around any
+object that is available to to it and
+then
+pick it up then for our arm instead of
+going with bigger Motors everywhere we
+chose to go with these smaller Motors
+and use a cyclotal drive which is able
+to be back driven it has low backlash
+which means that that we can better
+actually figure out whenever we are in
+contact with a object and it gives us a
+very large torque ratio which is great
+for these small motors
+to test for life we plan to perform
+enzyme testing on soil samples we chose
+to test the enzyme catalase due to the
+fact that it can be found in all living
+organisms after collecting a soil sample
+we will add hydrogen peroxide to the
+test tube because the reaction between
+catalase and hydrogen peroxide is
+exothermic if catalase is present in the
+sample there will be a measurable change
+in temperature
+the test tubes are stored in a Geneva
+Drive and once the drive makes a full
+rotation the test tubes will be capped
+to prevent contamination
+for our control system we are planning
+to use a Nvidia Jetson board powered by
+rositude so far we've made progress
+simulating the robot in gazebo as well
+as driving a few of the motors when it
+comes to the electrical design of our
+robot we realize we need a custom
+battery pack to power our Rover we're
+using 21700 lithium cells in conjunction
+with a BMS to properly provide the
+current needed to derive all voters on
+the robot
+to contain all of our Electronics we
+plan to design a sheet metal box that
+will house all the motor controllers and
+control Electronics the Box will have
+two sections the behind the noise
+brushless motors will be separated from
+the High Fidelity wireless communication
+equipment motor control is being done
+with vesk 6 motor controllers as well as
+o Drive Pro motor controllers all the
+motor controllers will be placed around
+the outside edge of the box so that
+their heat can be dissipated to the
+outside environment
+the Bear nervatics Club participates in
+several Outreach events annually we
+teach our robotics themed Girl Scout
+badge and volunteer at the first Lego
+League competition hosted on campus this
+year we volunteered at a local Vex event
+and ran a table out of steam fair for
+local elementary school students

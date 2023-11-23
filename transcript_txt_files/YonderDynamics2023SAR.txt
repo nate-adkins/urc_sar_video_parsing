@@ -1,0 +1,155 @@
+hello and welcome to the Yonder Dynamics
+systems acceptance review for the 2023
+University Rover challenge Yonder
+Dynamics is a student-run engineering
+project team at UC San Diego and we are
+excited to present lethargy our Rover
+for the 2023 URC lethargy features a
+newly developed drivetrain science
+module and numerous other improvements
+which have enhanced our Rover's
+preparedness for all four URC missions
+after an extensive research process we
+chose to implement a new differential
+bar based rocker bogey suspension system
+on our Rover our design of The Rocker
+Boogie is simple light and robust to a
+variety of loading conditions our Rover
+body features a TIG welding construction
+and electrical enclosure integrated into
+the chassis frame this design ensures a
+low center of gravity for the Rover and
+robustness throughout the differential
+bar linkage allowing for easy traversal
+over rough terrain and steep inclines a
+Rover features a 5-axis arm that is
+stable strong and has a large range of
+motion
+the arm uses a differential wrist and a
+swappable 3D printed hand modules
+allowing for quick reconfiguration of
+the arm between missions
+these features allow our arm to easily
+manipulate the wide variety of objects
+necessary for the extreme retrieval
+Mission while maintaining the Precision
+needed for equipment servicing tasks
+to improve our Rover's competency for
+the equipment servicing Mission we
+iterated Upon Our Arms Control software
+operators can now seamlessly switch
+between control modes that best suit
+each individual task course movements
+can be performed using a closed loop
+joint by joint control regime while fine
+Cartesian motions can be performed by
+switching into the inverse kinematics
+mode our software also features motion
+profiling of the arm to automate common
+motions such as stowing the arm during
+extended driving periods as well as
+collecting and depositing soil in our
+science module
+we have also developed an inverse
+kinematics model for a new delta type
+arm attachment which will allow our
+Rover to type on our keyboard or insert
+thumb drives even faster and more
+precisely
+our proven path planning and GPS system
+can guide the Rover during the
+autonomous mission to within a three
+meter radius of provided GPS points
+which are inputted and monitored through
+our web interface recently we
+robustified the system by adding a
+stereo camera to detect obstacles and
+furnished a new algorithm to reroute on
+the Fly this feature along with our
+redesigned chassis that enables us to
+consistently navigate to the provided
+GPS planes even in challenging
+conditions upon arrival at the GPS point
+our Rover is capable of searching for
+Roco tags using our redesigned elaborate
+State machine once found the new Sensor
+Fusion technique locks onto the detected
+article attack and tracks it over
+obstructions our newly designed
+electrical system has been Consolidated
+using custom pcbs which manage power
+distribution communication and control
+of the arm and science modules we've
+also upgraded our emergency stop system
+to be Fail-Safe and even easier to
+activate in case of any problems our new
+compact driver station features an
+uninterruptible power supply that allows
+for a seamless transition between Mains
+powered and battery-powered operation
+all the required antennas and
+electronics can be operated from inside
+a portable case which can quickly be set
+up into our long-range broadcast station
+our primary Communications are through a
+high bandwidth 5.8 gigahertz system that
+can transmit multiple high quality low
+latency video streams simultaneously at
+distances up to one kilometer
+we also utilize a backup 900 megahertz
+Lora system which allows us to continue
+operating when line of sight is lost
+during the science Mission each of the
+soil samples are collected twice using
+the science attachment for our hand the
+first portion of soil for each sample is
+deposited into one of six sealable and
+easily removable containers of which we
+select one to provide to the judges
+following the mission
+second portion of soil is deposited into
+our science module which can analyze six
+separate samples after automatically
+measuring and depositing soil into four
+separate cuvettes on a rotating Carousel
+the cuvettes are individually stirred to
+mix the soil with reagents pre-loaded
+into each cuvette the cuvettes can then
+be measured over the duration of the
+mission using our custom-built
+spectrometry system our detection head
+is based around a micro-rama design and
+uses a 532 nanometer laser diode for
+excitation and a microscope objective
+for collection the collected light is
+fed into a CCD spectrometer through a
+multi-mode fiber yielding Spectra with a
+resolution of 5 inverse centimeters over
+a bandwidth from 600 to 4000 inverse
+centimeters which is ideal for detecting
+indicators of extinct life such as
+kerogene and carotenoids the same
+spectroscopic head can also be used for
+multiple other fluorescence and
+transmission spectroscopy measurements
+using a white LED we are able to collect
+transmission Spectra that can capture
+minute color changes in a pre-loaded pH
+indicator yielding precise pH
+measurements for determining the
+habitability of the soil
+we also pre-load fluorescent stains such
+as Now red and dappy in separate
+cuvettes which are excited by the 532
+nanometer Laser Source and a separate
+395 nanometer UV Source respectively we
+have thoroughly characterized the
+sensitivity of our fluorometry system
+when used with these labels and our
+on-rover system can detect
+concentrations as low as 3 micrograms of
+cell material and 100 milligrams of soil
+thank you for watching and we hope to
+see you at the 2023 URC
+is
+foreign

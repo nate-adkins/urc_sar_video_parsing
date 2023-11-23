@@ -1,0 +1,76 @@
+Hello, we are Project Scorpio, part of Scientific Society OFF-ROAD,
+based at Wroclaw of University of Science and Technology
+Right now, we have 29 members from multiple disciplines.
+Our workflow is divided into 4 departments – mechanical, electronic, software and science.
+Each department is responsible for different aspect of our rover.
+Scorpio X rover is based on simplified rocker-boogie suspension,
+connected with differential beam.
+Main body of the rover is made using lightweight materials
+such as aluminium or polyamide.
+Our driving module features all-wheel drive and special kind of Cordura tires.
+As for the robotic arm it has 6 degrees of freedom
+and it can lift up to 5 kg on maximum extension.
+Robotic arm can take soil samples by exchanging tips of the gripper.
+Driving module is equipped with kill switch that cuts power from batteries in case of emergency.
+Every PCB has overvoltage, overcurrent and undervoltage protection as well as overvoltage clamping.
+Vision systems consist of 5 cameras
+First of them is our navigation camera
+– it is capable of rotating in 2 degrees of freedom.
+Second camera has ultrawide lens and is mounted on the front of the rover.
+Third camera is a Stereo Camera mounted on a second mast.
+Fourth and Fifth cameras are mounted on the end of robotic arm.
+We use 2 types of communication buses in our rover.
+First of them is Ethernet -
+connection link between our base and rover.
+CAN bus serves as main data link within the rover.
+It connects our main computer – Nvidia Jetson TX2 with every submodule.
+To connect with the base, we use 2,4 GHz and 900 MHz frequencies.
+Software is divided into independent fault tolerant modules
+which can exchange information via our message broker by TCP/IP protocol.
+Navigation module is responsible for processing telemetry data from GPS, IMU and visual odometry.
+Robotic arm control system allows us to implement many types of control in task or configuration space.
+We use web application onboard the rover which collects all data,
+for example: sensors, position or drive parameters.
+We can present results in form of charts, tables and reports, generated in real time.
+To tackle with a science task,
+we provide our rover with numerous of sensors and DIY devices,
+that allow us to conduct chemical analysis.
+All data are measured onboard the rover.
+Results are analysed in our base, to characterise ambient environment.
+Sensors capable of constantly measuring environmental parameters like
+temperature, UV-index, humidity are located on the mast.
+Soils samples are placed with robotic arm, in special rotary container -
+Universal Land Exploration Platform - ULEP
+Thanks to that, we are able to separate samples, from different sites.
+Some chambers containing chemicals, necessary to characterise the soil.
+ULEP is completely isolated, any chemicals or water used onboard are safe and will not split on the ground.
+Sensors capable of measuring soil parameters,
+such as pH, humidity, microscope and spectroscope are placed on another,
+descending rotor, which analyse each sample in ULEP.
+Our rover can cross extreme terrain, thanks to suspension system,
+, very low centre of mass and exceptional tires made from Cordura.
+Our rover can overcome obstacles up to diameter of the wheel
+and vertical cliffs up to 1m.
+In order to help with controlling the rover and speed up target finding,
+we designed augmented reality system.
+Every task target has its own marker on navbar and self-orientating map.
+We made some improvements to our robotic arm from last year.
+We redesigned electronic boards to make them cheaper and more robust.
+We use combination of worm
+and harmonic gear reducers to maximise precision and stiffness of whole construction.
+We achieved that with use of very light and durable materials
+such as carbon fibre tubes, aluminium and PET-G.
+Gripper gives us satisfactory grip strength and precision.
+.  In order to complete all necessary sub-tasks,
+we decided to mount Allen hex key
+and small linear solenoid on the end of effector.
+For precise typing and operating joystick, we will incorporate 3D inverse kinematics.
+Main sensors used in Autonomous Traversal Task is stereo camera,
+differential GPS and inertial measurement unit.
+. Based on depth map from stereo vision,
+we create visualization of real terrain.
+Based on rover forward kinematics and terrain map
+we implemented high-fidelity traversability analysis algorithm
+and path planning based on A*.
+To estimate wheel slip we use differences between wheel odometry
+and visual/inertial odometry.

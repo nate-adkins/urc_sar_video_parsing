@@ -1,0 +1,125 @@
+[Music]
+hello everyone we are aib robotic crew
+welcome to the system exceptions review
+of urc 2022 this is our over cyan
+since 2016 we have been successfully
+participating in the university robot
+challenge this year a total of 15 team
+members are working in different teams
+such as electrical mechanical and
+software to make our robot from scratch
+maintaining safety during this pandemic
+we are very glad to let you know that
+our rover is made by following all the
+guidelines provided by urc2022
+and in this video we will be
+demonstrating a few basic operations of
+the rover
+chases of the four wheel rover has been
+made compact to maintain balance and
+absorb high impact the octagonal box
+shaped chases can house all the
+necessary components in modular form the
+design was made by the cad designing
+software and simulated before building
+the prototype
+custom made springs are used in each
+individual wheelbase to stabilize the
+rover each wheel can be moved
+individually and are supported by three
+individual bars the wheels tires and
+motor shaft can withstand enormous
+amount of torque provided by the motors
+the design of the robotic arm includes
+six degrees of freedom and the arm is
+divided into four parts base shoulder
+elbow joint and wrist joint and infinite
+rotation of 360 degree makes it easier
+for the claw and arm to manage
+complicated tasks such as flipping
+switches push buttons
+opening door knobs typing keyboard more
+precisely it uses two fingers to grip
+the object and it can easily lift 5 kgs
+for equipment servicing mission we have
+been testing and improving our hand
+design to complete all the mission tasks
+all circuits were designed and
+fabricated using pcb designing softwares
+the main objective of electrical team
+was to make the body more compatible and
+compact the electrical system has been
+made modular and can be replaced within
+a few minutes 24 volt lithium polymer
+batteries are used as power source every
+input has been protected by protection
+circuits led indicators has been used to
+indicate various states of operation a
+kill switch has been installed with the
+main power supply to shut down all the
+operations immediately in case of
+emergency
+this year for the purpose of
+communication a nano station titled
+rocket m2 was used to build an access
+point at the base station and a 2.4
+gigahertz omnidirectional antenna
+connected to a bullet m2 at the rover
+was used to receive the signal
+transmitted from the access point the
+system can flawlessly connect with each
+other within the range of five kilometer
+for the autonomous navigation gy271
+compass and gy neo 6mb2 gps module was
+used to navigate different gps
+coordinates the rover navigates itself
+to three designated coordinates where
+the final point is considered as the
+area where the arco tags can be found rp
+lidar a1 sensor was used to detect and
+avoid obstacles on the rover's
+travel cell path
+a distinctive image processing algorithm
+was built using opencv to detect
+arrogance with utmost precision and
+distance scaling between the rover and
+the tags
+following the algorithm the integrated
+camera can successfully detect arc
+attacks and measure distance within a
+range of 10 to 15 meters
+the camera used for the detection
+operation were calibrated manually by
+another algorithm developed by that
+software team which used a charcoal
+board consists of 40 blocks of four
+square centimeter images the data found
+from the detection process are then
+processed by the main system which
+configures the motors to be driven by
+themselves
+for the science mission to find the
+presence of extinct extent and no life
+in the soil and rock samples we have
+designed our science box for the soil
+grabbing system we have used drilling
+mechanism
+in the science caching system we have
+detected biomolecules by chemical tests
+a custom-made spectrophotometer has been
+used to extract the data from the given
+sample a data set of 2000 plus images
+was created of eight different rock
+samples and then a cnn model was
+developed using mobile net v2 obtaining
+transfer learning with 99.6 train
+accuracy and 84.3 percent test accuracy
+in the upcoming days we are planning to
+rigorously test the rover for final
+challenges we also have demonstrated our
+work in different platforms and plan to
+share our story to the younger
+generations to grow more interest with
+warm wishes to all other teams and the
+university officials we want to thank
+you for watching our video

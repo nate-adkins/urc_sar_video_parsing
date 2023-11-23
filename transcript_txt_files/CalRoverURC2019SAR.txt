@@ -1,0 +1,140 @@
+my name is Philip Downey and I'm the
+technical lead for Cal Rover in Berkeley
+California over the past nine months our
+team has been hard at work to design
+build and test our Rover for the
+University Rover challenge 2019 and
+we're excited to share our progress our
+team is divided into five sub teams
+drive and suspension manipulator arm
+electronics and embedded systems science
+tasks and front end our drive and
+suspension system is made up of a
+modular t-slot chassis a rocker-bogie
+type suspension and a six wheels for
+style omnidirectional drive the
+rocker-bogie design is inspired by
+NASA's Curiosity rover and allows our
+vehicle to effectively traverse rugged
+terrain from boulder fields to packed
+soil to loose gravel the top of the to
+rockers are connected via Center axle
+and top differential linkage which
+ensures that the chassis maintains the
+average of the two rocker angles at the
+lower terminus of the carbon fiber
+suspension members are a total of six
+wheel modules which provide the power to
+handle challenging environments the
+wheels are driven by a DC brushed
+planetary gearbox through a timing belt
+to help absorb shock loads and the
+custom cleated aluminum treads provide
+excellent traction on a variety of
+terrains the differentiating factor of
+our drive system is the capability to
+command the wheel angle and speed of
+each module uniquely this system allows
+us to strafe in any direction rotate in
+place with no wheel slippage or rotate
+and translate simultaneously vehicle
+level dexterity greatly expands the
+maneuverability of our Rover especially
+on the challenging terrain found in the
+desert the Armada Rover is a five degree
+of freedom limb which is used for object
+manipulation with a modular and effector
+that is interchangeable for the various
+competition tasks individual joints are
+geared down sufficiently to lift the
+five kilogram maximum competition
+payload well being fast enough to
+complete nimble manipulation tasks the
+usable workspace of the arm extends 360
+degrees about the vertical axis which
+allows us to stow the arm during transit
+as well as place objects in the
+collection tray additionally in of
+following the modularity design paradigm
+of the rover as a whole the end effector
+is designed to be easily switched out
+for different tasks or the arm can be
+removed entirely for missions which do
+not depend on it in parallel with arm
+fabrication our software team has been
+implementing their control strategies on
+ask or bought five degree of freedom
+in the campus embedded systems lab this
+way they're able to verify it feedback
+strategies in parallel to our prototype
+and begin to implement the inverse
+kinematics solver on Hardware much more
+intuitive control can be derived from
+the six degree of freedom CAD mouse
+input then from a typical individual
+joint angle input our operators have
+been practicing with his arm and can
+deftly complete the competition tasks
+system control is maintained by a series
+of microcontrollers all containing FPGA
+chips which implements elements of
+multitasking and real-time programming
+high level control wireless
+communications a path planning slam and
+manipulator arm eye calculations are
+performed by a National Instruments Maya
+Rio lower-level motor control data
+collection and system monitoring is
+completed on four Cypress P Sauk 5 LP
+microcontrollers these embedded devices
+along with differential GNSS I am you
+and science test sensor suite make up
+the computational architecture of our
+Rover in addition five Robo claw motor
+controllers are utilized for PID
+feedback control of the drive and arm
+motors which are powered by a pair of
+fourteen point eight volt lipo batteries
+to communicate with the operator console
+telemetry data and tella operation
+commands are sent over the 900 megahertz
+band while live video feeds are sent in
+the 2.4 gigahertz range the embedded
+systems architecture onboard the rover
+ensures that data is consistently
+communicated to the operator console
+while the user commands are executed our
+science task system has been designed to
+look for past and present sign of life
+in the soil at a predetermined area of
+interest we first captured a visual
+imagery of the surrounding landscape
+which may bear indicators of water flow
+then we bore a hole in the soil with a
+3/4 auger bit and collect a sample to
+our onboard co2 sensor to measure soil
+respiration finally we collect data from
+temperature humidity soil moisture and
+pH sensors as additional indicators of
+extinct or extant microbial life this
+timestamp data along with the GNSS
+coordinate is then transmitted back to
+the operator console for future analysis
+following the science mission our team
+will evaluate the data and
+optimal location for a more thorough
+science cache mission our gooeys
+programmed in LabVIEW and presents to
+the operator all relevant Rover
+telemetry and sends user commands to the
+vehicle for navigation joystick inputs
+are mapped to linear and angular
+velocity commands for the vehicle and
+arm controls are input using a six
+degree of freedom and navigator mouse
+also Rover information such as GNSS
+position vehicle state camera feeds
+science tasks readouts and system
+warnings are shown on the screen on
+behalf of color over we would like to
+thank you for your consideration

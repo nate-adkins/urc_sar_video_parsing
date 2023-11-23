@@ -1,0 +1,146 @@
+foreign
+[Music]
+Rover teams system acceptance review for
+the 2023 competition year we are excited
+to show our progress and Innovation this
+year and are proud to present our 2023
+Rover generosity our Rover's name came
+from an elementary student's submission
+through our Engineers week Rover naming
+contest our six different sub teams
+redesigned the Rover based on extensive
+research and lessons learned from the
+previous years our rocker bogey
+suspension system is made from quarter
+inch aluminum plate which topology
+optimized before being cut on our CNC
+water jet before being welded into its
+final geometry the wheels you see here
+are 3D printed from TPU to provide shock
+absorption and allow us to design custom
+tread patterns these wheels are mounted
+to our planetary gearboxes which provide
+a seven to one gear ratio this year we
+implemented temperature monitoring in
+our gearboxes to prevent us from
+overloading our Motors these systems
+allow generosity to remain stiff and
+Traverse with ease the electrical team
+is responsible for getting power and
+communication throughout the Rover our
+pcbs are custom made designed by us and
+then hand soldered each PCB is
+specifically designed to meet the needs
+of the different sub teams utilizing the
+new Teensy 4.1 microcontroller platform
+to control individual subsystems our
+electrical system can handle more
+complex computations and faster
+communication
+our custom power supply board converts
+power from the battery into a 5 volt 5
+amp line and a 12 volt 12 amp line for
+the rest of the circuitry and the Rover
+our electrical system is capable of
+monitoring temperature of the battery as
+well as the voltage and current of the
+battery 12 volt and 5 volt lines to
+identify any issues with an additional
+focus on safety this year all of our
+boards have fuses to prevent damage in
+the event of Motors going bad or a
+shortage anywhere on the Rover
+our e-stop button paired with a battery
+fuse shuts off the Rover immediately in
+case of problems or battery short
+with brand new vesque motor controllers
+individually assigned to each Drive
+motor our Rover is now easier to control
+and functions more fluidly while driving
+the hrei team designed a six degree of
+Freedom robotic arm capable of
+completing the equipment servicing and
+the extreme retrieval and delivery
+missions this year custom Tech total
+gearboxes were designed under CNC
+enabling a compact and refined arm the
+main body of the arm was created from
+Square aluminum Extrusion maximizing the
+strength and enabling easy wire routing
+the end effector is connected to the arm
+by a generative design stainless steel
+3D printed bracket and a slipping allows
+for continuous 360 degree rotation the
+wrist joint utilizes a worm gear and a
+custom housing enabling accurate
+positioning with minimal weight of the
+wrist joint our end effector is a
+parallelogram based design with an
+integrated hex key for turning the screw
+the arm is controlled using inverse
+kinematics to allow for easy operator
+control environmental analysis team is
+tasked with perfectly identifying
+extinct or extended traces of life based
+on an extreme testing plan the team
+created a vacuum system for a sample
+collection and developed a test and
+Suite consisting of a rotating dirt
+Carousel for efficient testing in the
+array of sensors for scientific
+examination
+a microscope with a narrow lens LED lit
+Barrel can detect evidence or
+physiochemical alterations on the Rock
+which are proof of growing bacteria
+communities we also use peristoxic pumps
+and silicon tubing to direct the
+potassium fluids into the appropriate
+cutouts below with a layer of acrylic
+and more watertight seal around our
+science module this year our software
+team has made massive strides from years
+past our team has two onboard computers
+two Raspberry Pi's running python code
+the team uses flutter a cross-platform
+app framework to create our dashboard
+giving many members the capability to
+run it from their computers flutter uses
+material design which helps us create a
+clean user-friendly interface the
+dashboard utilizes model view view model
+architecture that consists of four main
+layers a data layer a layer for the
+hardware code a layer for the logic
+model and a layer for the UI
+for autonomy the Rover determines its
+current GPS coordinates and Compass
+orientation it uses a 2d grid from a
+bird's eye perspective where X is
+measured by longitude and Y by latitude
+we utilize the a-star algorithm to
+create a path from the current position
+to a scroll position while taking
+obstacles into account when a new
+obstacle is found we rerun the algorithm
+to generate A New Path
+together we created a modular Rover that
+showcases our Custom Manufacturing
+capabilities and can compete in each
+Mission with enhanced user experience
+all systems underwent and will continue
+to undergo strict testing to ensure all
+designs meet our engineering and Mission
+requirements followed by full system
+testing to ensure full functionality of
+our complex designs to keep preparing
+for the competitions in Utah generosity
+and our operators will continue to
+undergo trainings to ensure each
+remission can be completed with ease and
+high Precision we are excited to compete
+in this year's University Rover
+Challenge and are proud of how far we've
+come thank you very much for your time
+and we can't wait to see you in Utah
+[Music]

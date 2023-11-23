@@ -1,0 +1,140 @@
+hello and welcome this is the Q set 2018
+you are cease our submission one of the
+mechanical teams major projects this
+year has been the complete redesign of
+our chassis the new design features a
+c-shaped structure which provides an
+ideal balance between weight versatility
+and functionality one of the key
+features of the new chassis is the
+adjustable rocker style suspension this
+enables the rover to glide smoothly over
+rough terrain the linear actuator at the
+back adjusts the pitch of the entire
+chassis allowing remote control over the
+suspension system and improving traction
+and control another benefit of the C
+shape is that it prevents the mounted
+arm and the science foot to easily reach
+well below the rover increasing the
+degrees of motion available and
+permitting custom placement along the
+length of the body the new chassis is
+significantly lighter than the previous
+model even with all its new features to
+complement the new chassis a science
+foot digger and redesigned arm have been
+constructed to complete the mechanical
+design the new arm is lighter longer and
+stronger and allows for easier use of
+absolute position encoders the science
+foot is faster more effective and easier
+to use than last year's backhoe style of
+digger this digger work similar to a
+bucket wheel or chainsaw based trencher
+it digs down to 10 centimeters by
+pitching down and once the sticker is
+digging at an appropriate depth the
+sample storage carousel can be activated
+to capture the sample and seal it this
+year on the electrical team we focused
+on controls and data handling to
+complement the new arm absolute
+non-volatile position encoders have been
+placed along the arm to enable a fully
+integrated Xyz control system secondly
+an anti-skid algorithm has been added to
+the wheel control system to improve
+rover handling in loose terrain the
+addition of these new control systems is
+part of the team's goal to implement a
+user-friendly robust and reliable way to
+interact with the rover to complement
+these improvements the team has moved
+from a singular Raspberry Pi to
+distributed network of three raspberry
+PI's this allows each subsystem to be
+run independently significantly
+improving the modularity of the rover
+and allowing full systems to be swapped
+out with ease furthermore having
+multiple PI's has enabled our software
+team to develop and implement a
+multi-camera fee
+system vastly improving the operators
+situational awareness a specialized
+control system is under development for
+the autonomous task which incorporates a
+lidar array to aid in object avoidance
+the 16 element array can measure
+discrete distances up to 50 meters
+distributed over 45 degrees horizontally
+the control system continuously analyzes
+the environment in front of the rover
+and proactively adapts the rover's
+trajectory while maintaining its
+absolute heading the control system uses
+both lidar and GPS data which is fed
+into a vector-based
+algorithm that will steer the rover
+around any obstacles while traversing
+towards its destination as the rover
+approaches the final Waypoint marker a
+custom trained neural network is
+activated to scan for tennis balls in
+the surrounding area image processing is
+handled on an Nvidia Jetson board
+specially designed for rapid image
+processing of concurrent video streams
+the multi stream detection allows for
+multi camera feed confirmation thus
+creating high levels of confidence in
+our detections the neural network
+provides significantly improved and more
+robust solution over a previous color
+detection algorithm whose main failing
+was caused by sensitivity to different
+lighting conditions improving and
+expanding upon the experiment
+successfully completed at URC 2016
+research has been conducted on the
+geology of both Mars and Utah as well as
+past Mars missions and their findings
+Mars 2020 was a large research project
+and experiments and sensors were
+selected to align with this missions
+objectives the rover is equipped with a
+suite of sensors to characterize the
+local geology and environment this
+includes an anemometer and sensors for
+temperature pressure co2 concentration
+and humidity in addition a probe will
+test for electrical conductivity
+subsurface temperature dielectric
+permittivity and volumetric water
+content for characterization of the soil
+this year at dust sensor and
+magnetometer have been added to the
+rover to provide insight into the
+Martian dynamo geology and climate the
+team continues to work on implementing
+emission spectroscopy onboard the rover
+for mineral identification
+back in the lab mineral identification
+will be carried out using an optical
+microscope soil samples will be tested
+for polyatomic ions such as carbonates
+nitrates and phosphates with indicator
+strip
+providing information on geochemical
+activity carbonates will also be
+identified by acetic acid as they are
+important in determining the presence of
+past surface water in addition sugars
+proteins and lipids will be tested as
+indicators of biological activity
+polarimetry measurements we use to
+assess whether organics are biological
+in nature as a further test for life
+thank you for viewing our application we
+hope to see in Utah

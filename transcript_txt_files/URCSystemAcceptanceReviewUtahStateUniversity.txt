@@ -1,0 +1,136 @@
+[Music]
+[Applause]
+[Music]
+[Applause]
+we are the Utah State University Aggie
+Rover exploration systems team during
+the past five months our team went
+through the conceptual preliminary and
+critical design phases to design and
+construct a rover for the Mars society's
+2019 University Rover challenge to
+prepare for the competition we divided
+our team of 25 plus students into
+communications and science navigation
+power and drive and manipulation sub
+teams the four primary sub teams are
+supported by electrical and mechanical
+systems engineering teams in the
+fundraising team the communications team
+is responsible for the successful
+exchange of command telemetry and video
+signals between the base station and the
+rover four cameras on the rover transmit
+analog video signal to the command
+station where we can view the video on a
+TV screen a Raspberry Pi of the base
+station sends commands to another
+Raspberry Pi onboard the rover the
+commands are then routed where they need
+to go using robot operating system or
+Ross as we were setting up the telemetry
+radios we were having issues dropping
+parts of messages disabling error
+handling software built into the
+transceivers fix the issues we were
+having the navigation team focuses on
+teleoperation and autonomous navigation
+for teleoperation ross is used to send
+joystick commands to Jetson TX to
+electronic speed controllers receive the
+messages to drive the rover a GUI
+provides visual feedback for the rover
+operators for autonomous navigation the
+rover tracks is positioned and
+orientation with the GPS aided initial
+navigation system a stereo camera
+creates a point cloud from the
+surrounding terrain the rover uses the
+point cloud to build a 3d model of its
+environment in order to create a cost
+map breaking the terrain into a grid
+with each division being assigned a
+number indicating the terrain roughness
+for the rover's path planning software
+we will implement the a-star search
+algorithm which will return the optimal
+path from the start and stop locations
+on the grid the rover will use open CV
+functions to find circular objects as
+far as 4.5 metres away extra circles are
+filtered
+with custom software we still need to
+sync the live camera images with the
+opencv software which will be achieved
+with a Ross node we decided to use for
+lithium polymer batteries and battery
+eliminator circuits to step down the
+voltage for individual subsystem
+components safety components prevent
+current overdraw and allow for quick
+disabling of the rover in an emergency
+the rover uses the rocker-bogie
+suspension method to traverse obstacles
+up to six inches in height we designed
+the rocker-bogie and rover body in
+SolidWorks and use SolidWorks topology
+studies to achieve a unique cut out
+design and SolidWorks FAA simulations to
+create a design with a minimum safety
+factor of two at the assumed the worst
+case scenario static analysis determine
+the center of gravity to be no greater
+than fifteen inches from the ground to
+avoid tipping at inclines up to 45
+degrees the drive motors output
+significant torque to overcome inclines
+of this grade to provide maximum
+traction and ability to traverse and we
+selected ten inch polyurethane beach
+winds the manipulation team is
+responsible for the robotic arm in its
+control the robotic arm has six degrees
+of freedom and can lift ten kilograms at
+a one-meter extension a camera mounted
+near the end manipulator provides visual
+feedback for precise positioning the
+robotic arm is equipped with three
+servos and three linear actuators the
+motors each have internal feedback to
+control position that accurately using
+pulse width modulation the arm is
+controlled using four degree of freedom
+inverse kinematics implemented on Ross
+on a controller the Tube joysticks
+direct the inverse kinematics in the
+vertical and horizontal planes of motion
+and the buttons controlled the wrist and
+clock to complete the science mission
+we'll be using a custom-designed Raman
+spectrometer to search for signs of life
+via fiber-optic probe attached to the
+rover's manipulator arm collected
+spectra will be stored in the rover
+computer system and compared to a
+spectral database to determine the
+presence of biomarkers the main
+biomarkers will be searching for our
+carotenoids carotenoids are pigments
+produced by plants and microorganisms
+that serve as protections against UV
+radiation these can only be produced
+biologically and so any presence of them
+in our samples will indicate the
+presence of extinct or extant life
+through careful planning over the next
+three months
+our team will complete the build of the
+Raman spectrometer implement our path
+planning algorithms
+complete integration testing and perform
+necessary training to be
+competition-ready before the end of May
+we think our sponsors for their generous
+support and look for the Utah state's
+first appearance aur see
+[Music]

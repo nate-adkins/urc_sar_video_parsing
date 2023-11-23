@@ -1,0 +1,89 @@
+Greetings! we are team Technocrats Robotics from 
+Vellore Institute of Technology Chennai India.
+I am Sriram Kannan the Rover lead of the team.
+We present to you Marty our Rover for the University Rover Challenge of 2023.
+It is the first generation Mars Exploration Rover made for traversing the surface of the red planet and detecting signs 
+of life.
+We have four departments working on the R&D of the rover following the requirements of the competition, namely electrical, mechanical software and science.
+Hi, this is Shashank leading the mechanical department.
+Our rover features a 5 DOF articulated robotic arm which can lift weights up to 7 kilos and which can be controlled using multiple linear actuators and motors.
+The arm is equipped with parallel grippers the fingers of which are made of a deformable material which will make the gripping easier  
+and therefore significantly increase the ability to pick up objects of different shapes and sizes.  
+We have also attached an Allen key to the end of a controlling shaft allowing the arm to perform screwdriver tasks during equipment servicing.
+The rover's chassis has a rectangle profile and is constructed using a sliding Square Channel, allowing us to make the robot modular.
+This lets us decide between the modes while performing the task.
+We have chosen four wheels differential wheel drive to attain greater efficiency with a minimum number of wheels
+while also providing improvised suspension.
+The Rover uses balloon wheels that adjust to surface contours offering superior traction,
+shock absorption and high torque motors to navigate through diverse terrains with ease.
+Hi, I am Parthiv leading the electrical department.
+Every circuit board used in the Rover is made in-house 
+customized and designed for its maximum efficiency.
+Our Rover is equipped with features to ensure safety and reliability including backup power circuits,
+an inbuilt kill switch and a BMS circuit.
+The backup power circuits prevent data corruption or 
+damage during power loss,
+while the kill switch stops the rover's processes in emergencies.
+The BMS circuit optimizes the battery life and performance of the rover.
+The modular design allows for easy customization and swapping of modules
+making the Rover adaptable to different missions and terrains.
+Our Rover power distribution board regulates the power supply to its components
+including single-board computers microcontrollers, motors, sensors and science module
+ensuring each one receives safe and appropriate power.
+Our Rover and the base station communicate using long-range 
+wireless ubiquity antennas
+with a sectoral and omnidirectional antenna respectively. 
+A control and coordination circuit in the Rover
+allows us to switch between science and arm modes, enabling us
+to collect and analyze samples with the science module
+or manipulate objects with the arm.
+Hi, I'm Gokul H leading the software team.
+Our autonomous navigation approach uses visible aruco markers
+and GPS coordinates to dynamically set goals for the Rover.
+We use real-time appearance-based mapping 
+for online map generation and localization.
+The real sense camera together with the wheel encoders 
+and IMU
+provide the data needed for the SLAM algorithm.
+The Rover calculates a path to reach 
+the goal and generates a cost map.
+If the path planning fails or the destination is reached
+a new objective is set using the current GPS coordinates.
+Our 5 DOF robotic arm used the open-source MoveIt
+framework for motion planning
+and is simulated in gazebo for pick-and-place operations
+with lightweight tools and samples.
+The arm also has a two-finger gripper
+capable of opening drawers and flipping switches. 
+We have defined a collision matrix to
+check for self-collisions among specific 
+groups of links and joints for safe task execution.  
+The base station operator can operate the 
+arm remotely with a joystick integrated with  
+RViz and view real-time footage from 
+the gripper camera using RTSP protocol. 
+Encoding is done on the Jetson using GStreamer 
+to reduce CPU load and reduce bandwidth usage.  
+Successful simulation of the arm operations 
+in gazebo gives us confidence for real-life implementation.
+Hi this is Jayant Dadheech leading the science team
+The aim of our science mission is to detect the presence of any life form
+collected by the sample on the Rover. Each soil sample collected
+will be placed into four different test tubes 
+where the reagents are already present.
+To check the presence of extant life we test for the following 
+contents in the sample
+nucleic acid, proteins and carbohydrates .
+Any change in color
+from blue to green or yellow within 3 minutes of heating indicates
+a positive Benedict test implying the 
+presence of carbohydrates.
+The Ninhydrin test is used to check for presence of amino acid
+in the given sample 
+The amino acid reacts with the chemical reagent ninhydrin to form an intermediate hydrindantin.
+Therefore the acid undergoes degradation through a series of
+ chemical reactions to give specific results.  
+ For identifying the presence of extinct life, we have designed 
+a custom Raman spectrometer to analyze and  
+identify the different components of magnetites 
+carbonates and phosphates present in the sample

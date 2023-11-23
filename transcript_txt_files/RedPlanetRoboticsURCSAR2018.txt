@@ -1,0 +1,138 @@
+hello we are red planet robotics and
+we're really excited to be the first
+virginia tech team to enter the
+university rover challenge our 12 team
+members are situated across four
+different sub teams the mechanical team
+the electrical team the software team
+and the science team
+we're super proud of what we've done and
+we're really excited to show it off here
+we go through our arm we focused on a
+simple lightweight design to achieve our
+lightweight design we use carbon fiber
+tubes for the majority of the structure
+for actuation we're using linear
+actuators for the main parts of the arm
+and Dyna mixels for risks we have
+continuous rotation our end effector
+uses a simple clamp with a 3d printed
+compliant insert for maximum gripping of
+odd shaped objects for our wheels we
+went with a NASA inspired design we use
+a super elastic nickel titanium alloy it
+can go up to ten percent strain without
+plastic Reformation this gives us a
+durable yet compliant wheel for a grip
+on the exterior but we have chainmail
+which also gives us some structure we
+were inspired by a novel Swiss design
+for our suspension the design allows for
+the ability to traverse large obstacles
+while maintaining maximum ground contact
+the suspension consists of two parallel
+bogies on either side of the chassis
+with a spring-loaded four bar linkage in
+the front and the rear suspension is
+fixed the chassis our main power system
+can be divided up into two main elements
+the battery packs in the battery
+management system for our packs we
+decided to use LG MJ one 18 650 cells
+held together with frozen caps our packs
+are being monitored by a Narayan jr.
+battery management system this device
+will gather data from voltage tap lines
+thermistors and a current sensor and
+will safely monitor our packs charge and
+discharge cycles it will also
+communicate a plethora of battery data
+to our central computer via canvas we
+have designed and manufactured three
+printed circuit boards for unused on a
+rover our first is our power board which
+has four board mount DC to DC converters
+on it the power various subsystems on
+the robot the second is our motherboard
+which serves as a hat to a Raspberry Pi
+3 this board is in charge of basic rover
+health it interfaces a can bus converter
+from our our pint or battery management
+system at its thermal management for hot
+spots on the rover and it interfaces to
+our third board the peripheral important
+our peripheral board utilizes a pic32
+microprocessor to receive data from our
+gas sensors and mini spectrometers it
+also controls the dynamical servers
+stepper motors and linear actuators
+incorporated in our arm design the
+peripheral board also receives commands
+from a Raspberry Pi through a UART
+connection from the motherboard
+science package contains several
+environmental sensors as well as a
+spectrometer the environmental and
+atmospheric sensors include a volatile
+organic compound sensor a carbon dioxide
+sensor and a UV and a UV radiation
+sensor the spectrometer is a Hama - mini
+spectrometer with a tungsten halogen
+light source it can detect wavelengths
+into the near IR region and will be used
+for soil component identification as far
+as off Rover analysis a Gram stain will
+be performed to find biological evidence
+annex RF or x-ray fluorescence
+spectroscopy will be used to analyze
+rock compositions more thoroughly for
+sensors we're using a GPS IMU and stereo
+camera these will let us tell where we
+are in the field gain state information
+of our Rover and detect obstacles that
+are in our way to integrate all this
+together we have chosen to use Ross and
+open CB this allows us to utilize
+already written and tested software to
+use the information from our GPS and IMU
+and put it into an extended Kalman
+filter and be able to control actuators
+and motors simply we are using open CB
+during the autonomy challenge to be able
+to track tennis balls to reach our goal
+we were then able to focus on piecing
+together the software system as a whole
+for the base station it is running a
+bunch of and uses Ross to display the
+information coming back from the rover
+its plays video feed rover location on
+an offline map server and state
+information to help operate the rover
+effectively we also wrote a custom
+graphical user interface which displays
+the current state of our Ross nodes
+allowing for quick and easy debugging we
+have already tested our software on an
+existing robot platform this allowed the
+team to be able to work in parallel with
+mechanical development and verify our
+controller and communication system
+operated correctly coming into this
+competition we realized that
+Communications is one of the most
+important aspects of our design we spent
+a large portion of our research looking
+into different communication systems and
+decided to test a 5.8 and a 900
+megahertz ubiquity system after testing
+we've realized the 900 megahertz system
+outperformed the 5.8 in both range and
+reliability we also decided to pick
+circular polarized antennas for the
+ability to reject multipath interference
+when we have
+non-line of sight range with the rover
+we'd like to thank our sponsors and our
+advisors for helping us get this far
+we're excited to be a part of the
+competition thank you

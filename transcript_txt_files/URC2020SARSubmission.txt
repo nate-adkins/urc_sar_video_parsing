@@ -1,0 +1,123 @@
+you
+for the body we decided to go with a six
+wheel rocker-bogie design and we won
+with this because of the simplicity and
+because of the maneuverability we get
+from this design the wheels we decided
+to print ours using a flexible TPU and
+that basically will allow us to if we
+get any type of puncture the wheel will
+still remain its structure so we are
+splitting up this arm into three
+distinct separate categories so the
+first category will be the skeleton of
+the arm so this is going to include the
+arm ligaments the turntable and the
+general structure of the arm so the
+prototype of the arm will be fashioned
+out of mostly aluminum tubing this is
+going to be because it has a large
+strength to weight ratio second category
+of the arm is going to be the attachment
+of the arm so we are going to be
+developing a system to allow us to swap
+out different heads for different
+missions each mission will have one
+distinct head including one for the
+quickest servicing mission they'll be
+able to flip switches and perform
+precise movements one for the extreme
+retrieval mission which will be able to
+lift and drag larger objects and for the
+science mission we will we have in one
+that will allow us to take samples of
+dirt as needed
+to complete the autonomous mission we
+are using every tool at our team's
+disposal we are creating custom software
+to interface with all of our
+environmental sensors including MP use
+GPS and stereoscopic cameras for object
+detection because our environmental
+sensors can often be very noisy we are
+creating a custom common filtering
+algorithm which allows our Rover to use
+its current speed position and sensor
+data to create a model of its position
+and velocity that's much more accurate
+than the model created by simply using
+GPS alone
+an industrial-grade 2.4 gigahertz
+transceiver connected to an
+omnidirectional antenna will be attached
+to the rover to provide robust video
+transfer channels communication between
+the rover and control will be conducted
+over the 900 megahertz band using XP Pro
+modules
+our objective is to communicate with the
+rover and to do this we will be using
+two discrete frequency bands the 900
+megahertz and the 2.4 gigahertz for
+lower bitrate to mission-critical serial
+communication with the rover we will be
+using them that the 900 megahertz band
+and using this band for the
+bi-directional communication with the
+rover as opposed to the 2.4 gigahertz
+band has the advantage of providing us a
+more reliable datalink for
+mission-critical command execution as
+this lower frequency RF band has better
+object penetration in terms or in the
+case of no line-of-sight and it's less
+prone to general general attenuation and
+for higher bitrate communication and the
+2.4 gigahertz band will be employed and
+this band will be used to establish a
+unidirectional Rover to command station
+video link that will transfer video feed
+from one of the six cameras on the rover
+to the command station for processing
+and a decision-making
+we've chosen to work in the robot
+operating system framework abbreviated
+Ross it's a great framework to work in
+provides high modularity and provides a
+lot of built-in support for what we're
+doing
+Ross allows us to develop in both Python
+and C which provides the flexibility for
+the individual teams to develop their
+components independently it also
+provides a framework to communicate
+between the individual components and
+stitch them together in a way that makes
+sense for a project soil sample test the
+team has decided to look for DNA samples
+from the soil to locate these samples
+we're going to use two chemicals the DNA
+lysate will break open cell membranes to
+expose nucleic acids after a brief time
+within an Arduino powered centrifuge
+atheneum bromide will be added to the
+solution to stain the certain DNA
+strains the mechanical arm will be used
+to maneuver around the chemicals that we
+need to be placed into the centrifuge
+for the rock sample test
+we'll use a programmable microscope to
+zoom in close to the surface of the rock
+at at that level we should be able to
+see microbes on that surface
+as a first-year team I've been very
+impressed with our team's ability to
+make a rover given the short amount of
+time we only received funding in
+November of last year and here it is
+mid-february and we have a working Rover
+together and I'm really confident that
+if any first-year team is going to be
+able to make it to this competition it's
+going to be our team
+you

@@ -1,0 +1,133 @@
+[Music]
+hello and welcome to the university of
+ottawa mars rover team 2022 systems
+acceptance review
+our team is composed of 18 passionate
+students ranging from all different
+fields of science and engineering
+this year we tested and improved various
+systems from our rover such as the
+chassis and the suspension and we built
+from scratch a new robotic arm
+now why did we spend six months
+designing and building a prototype mars
+rover why do humans build rovers at all
+for science our rover's life detection
+module consists of a vacuum chamber
+together soil sample via an extended
+tube and delivers the samples in our
+retaining units each set of beakers
+holds a mixture of reactants such as
+dmso and bleach and also distilled water
+the soil samples are delivered to the
+beakers and then incorporated to the
+mixture thanks to our rotary system
+the presence of soil organic matter is
+detected by a reaction with bleach that
+produces bubbles when it comes to
+measuring the microorganism activity
+that is made possible by evaluating the
+increase in temperature of the dmso that
+reduces to dms for the rock samples they
+are analyzed through our cameras that we
+place in front of the rover the raw data
+is then collected by our temperature
+sensors and the cameras and is sent back
+to the base station
+our communication setup is powered by
+two
+megahertz radios for stable
+communication that doesn't require line
+of sight our rover systems are driven by
+the robot operating system also known as
+ross and it runs on a raspberry pi which
+is situated on our rover this means that
+our software is designed modularly in
+nodes and makes it much easier to
+maintain our drive system is also
+powered by the same pi and we can drive
+the rover using a game pad we've decided
+to put much more focus in making sure
+our foundational systems are really
+really solid at the expense of some of
+our autonomous capabilities as such our
+current plans for the rover's autonomous
+systems involve feeding our local
+localization info from the kalman filter
+into our tab map with data from a real
+sense stereo camera then using this
+information along with our system that
+reads are you code tags to determine our
+path and drive it autonomously our
+kalman filter is fed from our gps and
+our imu to determine a much more stable
+position this positioning info is used
+for autonomous missions along with our
+extreme retrieval mission to retrieve
+objects our new robotic arm utilizes two
+linear actuators and four stepper motors
+to provide our arm five degrees of
+freedom
+this year's design allows the arm to
+perform dexterous tasks for equipment
+servicing a belt drive system is located
+at the base of the arm which allows our
+arm to perform in high torque
+applications while providing 360 degrees
+of rotation
+two linear actuators are mounted at the
+back of the arm to optimize the range of
+motion
+our compliant end effector which mainly
+consists of 3d printed carbon fiber
+infused nylon uses a warm gear mechanism
+to control the movement of three fingers
+this mechanism allows the end effector
+to pick up objects with simple or
+complex geometry by fully closing the
+end effector buttons can be pressed with
+high precision by using the tip of the
+fingers
+in addition our end effector offers
+overdrive protection and ensures we grip
+objects with the same force every time
+the arm operates as an open loop system
+using a joystick and input video feed
+this enables us to have precise movement
+and operation based on the intuition of
+the operator
+the robotic arm is supported by an 80 20
+extruded aluminum frame distributing the
+loads throughout the chassis and onto
+the suspension our suspension is made
+from carbon fiber tubes and 3d printed
+connectors made out of carbon fiber
+infused nylon this allows us to minimize
+the weight of the chassis while
+maximizing strength
+like all successful mars rovers our
+system uses a six wheel rocker bogey
+suspension maximizing stability over
+difficult terrain by always ensuring six
+points of contact with the ground
+our drive train allows for smooth
+traversal over obstacles while
+maintaining one meter per second speed
+this allows completion of navigation and
+time challenges in a timely manner
+our iconic orange wheels are
+manufactured from casting polyurethane
+in a 3d printed mold meeting our
+specifications for weight traction and
+durability
+this summer we had the opportunity to
+test our rover at the canadian space
+agency's mars yard simulating the
+challenging mars-like terrain we will
+face at the competition our testing
+proves we are ready for the university
+rover challenge on behalf of the entire
+eur rover team thank you for your
+consideration and we hope to see you
+soon
+you

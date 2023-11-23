@@ -1,0 +1,150 @@
+here at parks and robotics we reassess
+the challenge from ground up and work
+diligently to synthesize an overall
+system for your seat we use our
+extensive experience from the past of
+competitions to create the scenarios
+that our true analog GRC settings we
+conducted major changes to each
+subsystem of keeping and improving what
+worked well from last year we are proud
+to present our most reliable and
+competition-ready Rover today this year
+the mechanical team has worked hard to
+reduce weight improve all-terrain
+capability and make controlling they are
+more intuitive our unique SCARA arm
+design has been changed to a cylindrical
+configuration it uses a linear axis in
+place of one of the rotational joints by
+having a linear axis on the end of the
+arm instead of a rotational one the
+operator can intuitively move the end
+effector relative to their own point of
+view this allows the operator to easily
+manipulate the controls during the
+equipment servicing tasks as well as
+pick up objects easily journeyextreme of
+fuel like the Pescara configuration a
+cylindrical configuration uses a
+vertical axis which is useful for
+drilling operations during the science
+tests our other major focus this year
+has been the wheels the wheels that were
+previously used for rigid and
+transmitted far too much force into the
+rest of the suspension as well they lack
+the traction required to effectively
+traverse the obstacles in the extreme
+retrieval tasks to solve these problems
+our members have been working hard on
+several prototypes of highly deformable
+wheels using methods such as flexible 3d
+printing and casting rubber tires these
+methods have resulted in a marked
+improvement in ride smoothness and a
+drastic reduction in forces seen by the
+rest of the suspension you BOTS as well
+the traction provided by the rubbery
+materials allows the wheels to climb
+large obstacles like those found in the
+extreme retrieval task taking full
+advantage of our unique double land of
+suspension design the chassis of the
+rover has been completely redesigned to
+be much smaller thanks to the new more
+compact controls architecture it still
+uses a core load-bearing frame but with
+a much smaller and lighter outer shell
+for housing all the electronic
+components the smaller size allows other
+components especially the arm to be much
+more compact and stable during operation
+this year we have gone with a modular
+peer-to-peer basis control system for
+long-range communications we utilize a
+combination of 900 megahertz and 2.4
+gigahertz
+radios connected in parallel this allows
+elements of our control system
+the hot spot between links providing
+fallbacks in case of catastrophic com
+sauce this ensures a reliability of
+track commands while maintaining the
+ability to send large amounts of death
+our cameras utilize a little peppery
+WebRTC transport systems which transmits
+a tested six counties simultaneously
+over current communication system web
+RTC breaks connections provide us with
+low latency fees in addition to high
+levels of encoding this should give the
+driver up and over the complete picture
+of what is going on without saturating
+the current Rover throat limits further
+work is being done to add overlays and
+visualizations of over our movements
+compasses and IV data to the camera
+feeds to continue to give the driver a
+quick visual reference this year our
+park system has been custom designed to
+offer reduced weight and added
+electrical safety features for the
+autonomous tasks our team has taken an
+agile development approach by first
+setting goals for the development of
+simple autonomous processes we'll start
+with the water and fight system that
+utilize a mixture of GPS and vision
+based systems to identify and find
+waypoints we are currently testing this
+system that we'll be focusing on
+perfecting and improving upon it over
+the next few months additionally we have
+created a separate test platform to
+protect the autonomous operations this
+allows us to reserve the main Rover for
+direct testing well he's in the
+secondary platform for all autonomous
+operations with the size mission being
+moved entirely onto the rover the
+science team had to alter our approach
+after investigating several life
+detection tests including our rapid DNA
+RNA and protein extractions we decided
+to go with highly sensitive ATP test ATP
+is found ubiquitously among living
+organisms and is responsible for
+facilitating essential non spontaneous
+biochemical reactions our soil samples
+are deposited into a solution of cell
+lysis buffer and bioluminescent
+reactants
+if microbiota are present is ATP readily
+reacts to emit photons a calibrated
+optical sensor tells us if this reaction
+occurs
+indicating the presence of microbiota in
+the soil we opted for a modular carousel
+like science console design capable of
+completely isolating up to six soil
+samples our augers also act as a
+high-speed vortex to adequately mix soil
+samples with our bio luminescent
+solution to further prevent cross
+contamination of our
+samples we designed a seamless mechanism
+to replace used boring augers with
+sterilized ones between soil
+acquisitions our focus on modularity and
+simplicity has yielded huge dividends
+when it comes to system integration and
+testing already this year's drivetrain
+has more Drive hours than all of our
+previous Rovers combined and we plan to
+continue testing to fine-tune
+communication and autonomous
+capabilities we are very confident we
+will perform well at URC 2019 and we
+look forward to seeing you there
+[Music]

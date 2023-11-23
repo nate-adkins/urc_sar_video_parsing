@@ -1,0 +1,111 @@
+We are OzU Rover Team from Özyeğin University 
+in Istanbul, Turkey! Our team was established in  
+2014 as the first rover team in Turkey, and have 
+been building Mars Rover prototypes since 2014.  
+Our team consists of 4 sub-teams which 
+are ‘Locomotion&Autonomy’, ‘Robotic Arm’,  
+‘Public Relations’ and ‘Science’. And I would like 
+to introduce our fifth-generation rover prototype  
+'Peace’ . This year, we aimed to develop our 
+locomotion and autonomous systems by designing  
+and implementing new algorithms which include 
+synchronous motor driving using Talon SRX’s.  
+Thanks to CAN BUS line, crucial data such as 
+temperature, voltage, velocity and current  
+values of the motors can be tracked from control 
+station simultaneously via custom made GUI.  
+he rover is stabilized throughout traversal using 
+our differential mechanism. the Rover was created  
+in such a way that it could be folded and moved 
+effortlessly. To investigate the rover's dynamic  
+behavior, a multibody dynamics simulation was 
+used. For the communication between control  
+station and the rover, we use TP Link antenna on 
+control station and mikrotik (microtick) antenna  
+on the rover, which allow us to send and receive 
+signals even with kilometers of separation.  
+In order to get live stream view from around 
+the rover, 5 IP cameras which are strategically  
+placed on the rover are used. In case of an 
+emergency, the rover also was equipped with  
+an emergency stop button. When the button 
+is pressed, the rover immediately stops.  
+To increase the efficiency of the 
+rover, the energy system was changed.  
+Lithium ion batteries have been used instead 
+of lithium polymer batteries. New Battery  
+Management System was designed by the rover's 
+maximum energy consumption. Also, a new Battery  
+Management System is used with an implemented CAN 
+line for reliable data and to check and regulate  
+the rover’s energy consumption. In our autonomous 
+system, we have developed a custom-made algorithm  
+called Gate Approach System which utilizes 
+RGB-D camera data to perform AR tag detection.  
+In order to perform object avoidance, realsense’s 
+depth data is converted to point clouds which  
+are going to be used in euclidean clustering 
+to detect and avoid obstacles successfully.  
+This year, we focused on developing a new 6 DOF 
+robotic arm and a new end effector design. RVIZ  
+simulation environment lets us establish Forward 
+kinematics control over the arm. Then via Move-it,  
+we also established Inverse kinematics control 
+over the arm and demonstrated it to new members.  
+We used aluminum, castermid and PLA 
+parts during the arm production.  
+Pulley system and gear reducers are used to 
+provide power transmission and increase torque  
+throughout the robotic arm. The DC motors 
+are controlled through in-house made Armduino  
+control boards. Each Armduino can control the 
+motor current with an integrated motor driver,  
+can read motor encoder and can 
+switch the state of the motor brake.  
+The servos on the arm are controlled with ROS 
+through serial communication with the Jetson TX2. 
+...combining torque and precision, in order 
+to be able to lift heavy weights comfortably  
+and perform panel operations with precision.
+Thanks to the yaw, roll and pitch movements 
+that the end effector can do panel tasks such as  
+switching & pressing buttons & adjusting Voltage 
+using potentiometer can be easily performed.
+…and objects such as screwdrivers 
+can be easily held.Thus,  
+the desired objects can be 
+delivered to the designated areas.
+The three main purposes of the science mechanism 
+are to collect soil samples, analyze them,  
+and collect environmental data. The new science 
+system has achieved an overall improvement.  
+Weighing in at five and a half kilograms, as 
+opposed to the previous system's ten kilograms.  
+A mechanism on the soil collection shovel is 
+able to descend and rise linearly to capture  
+and transfer samples to test tubes. After that, 
+a revolving plate where test tubes are located  
+rotates to place samples in the spectrometer for 
+analysis. Environmental data such as Temperature,  
+humidity, Carbon Monoxide, Methane, Nitrogen, and 
+Potassium are also gathered by sensors that were  
+positioned throughout the system We used potassium 
+iodide to determine presence of carbohydrates  
+and methylene Orange for pH level determination. 
+For protein indication we have decided to use  
+the Bradford test since it is a simple and 
+accurate spectroscopic analytical approach  
+for determining the protein content of a solution. 
+in the spectrometer, the absorption of many  
+protein-containing solutions is greatest in the 
+UV-visible range(280-595 nm). At each wavelength,  
+the spectrometer we built measures how much 
+light is absorbed, transmitted, or reflected  
+by the sample. The beam enters the prism, goes 
+through the sample and then lands on the sensor.  
+The wavelength value that reaches the peak in 
+the graph is used to define the protein. Science  
+System mechanism can be controlled by our custom 
+made GUI that allows user to operate the system  
+and simultaneously observe significant data coming 
+from the onboard science laboratory sensors.

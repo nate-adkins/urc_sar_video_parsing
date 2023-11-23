@@ -1,0 +1,152 @@
+welcome to the Binghamton University
+Rover teams system acceptance review
+we're excited to show our progress and
+innovation this year and are proud to
+present a 2020 Rover progression a
+rover's name came from a kid submission
+through our engine news week Rover
+naming contest a team consists of 25
+Hydra News subdivided into four
+different sub teams mechanical
+electrical software and physical task
+and analysis also known as PT a
+four-hour drive we use the six wheel
+triple rocker suspension that creates a
+firm balanced base for extremely tough
+terrain we use the powerful and
+inexpensive embedded motors found in
+hover boards to ascend steep slopes
+climb over obstacles and move quickly on
+flat ground hoverboard wheels alone
+would not be sufficient to traverse
+uneven terrain so the tires were
+extended with custom machined spokes and
+sand Trax tires these airless tires act
+as shock absorbers further over allowing
+it to safely travel over rocky surfaces
+large tires along with the center of
+gravity below the frame provides a
+stable base that is difficult to topple
+for the chassis we settled on a design
+that provides a highly customizable
+frame with ease of repair in mind the
+chassis is made of aluminum extrusions
+bolted together with custom manufactured
+brackets all readily available materials
+make these parts easy to manufacture and
+replace the electronics are protected by
+a lightweight acrylic enclosure to
+protect them from the elements and to
+easily spot any issues in wiring without
+taking it apart our arm has six degrees
+of freedom and was based around the
+design of an excavator arm due to their
+robustness and capability to lift and
+carry loads of different mass its limbs
+are made of lightweight anodized
+aluminum with an extra khemphone coating
+that we had machine by proto case the
+extra coating protects the arm from
+harsh environments and extends its
+lifespan the arm moves using the
+extension and retraction of a pair of
+linear actuators one controlling each
+limb the rotation of the arm is handled
+by a stepper motor placed 90 degrees
+under the chassis that turns a bevel
+gear a gear on the arm base catches on
+the motor gear to spend the entire arm
+the gripper uses three separate motors
+to precisely move with three degrees of
+freedom the motor controlling the
+fingers has a gear that hits a rack and
+pinion on each finger to clamp down an
+object
+they have a rubberized coating to stick
+to objects there is also a flexing
+element to the fingers to allow for
+further tightening on objects the wrist
+motor can adjust the angle of the
+gripper and align the axis of the hex
+key with the axis of the gripper
+rotation motor which allows it to spin
+the auger will collector and dispense
+soil samples into the to testing beakers
+on the testing array our sensors are
+then lowered into the beakers which are
+maneuvered via the rack and pinion
+system as they move the dirt sample in
+front will have its temperature and
+moisture measured while the lagging
+beaker is checked for methane emissions
+which would indicate extant life the
+beakers are then sealed at the stopper
+and are treated with water and hydrogen
+peroxide respectively as the reaction
+between dirt and the hydrogen peroxide
+takes place releasing co2 and creating
+free hydrogen ions the co2 sensor by the
+pump will detect any co2 emissions
+indicating extant life if there were no
+co2 emissions but a high concentration
+of h+ ions in the water mixture this
+indicates extinct life finally both
+beakers will individually have their pH
+taken by a pH sensor at the end of the
+array we developed a custom end-to-end
+software system in order to maximize
+reliability and performance a custom
+command interface readily provides the
+rover operator with responsive controls
+and relevant information about current
+Rover status a custom network protocol
+allows for ultra-low latency
+communication between base station and
+Rover endpoints our onboard system was
+built to be robust all Rover subsystems
+are continually monitored for failure
+and connection is automatically
+re-established if lost in addition the
+drive and arm subsystems utilize safety
+timeouts to protect the rover and its
+environment our onboard subsystems
+communicate using I squared C which
+ensures consistent message time in order
+to ease the development of autonomy path
+planning algorithms a simulator was
+created the ability to simulate sensor
+input and monitor algorithm behavior in
+a contained feedback rich environment
+enables a rapid write test debug cycle
+our autonomous navigation system
+utilizes an occupancy grid and vector
+field based approach although waypoints
+can be pre-programmed by the operator
+the rover is able to detect and avoid
+obstacles using an onboard lidar sensor
+in addition an accurate GPS module
+provides location and heading
+information finally an open-source
+augmented reality library is used to
+detect markers and determine their
+distance and offset from the rover our
+goals this year were to create a rover
+that is modular and rope
+just allowing for easier change-outs
+between competition missions and the
+ability to construct each system
+individually allowing for a faster build
+process with the rover being more robust
+in last year we will be better prepared
+for the terrain at the Mars desert
+Research Station and competition tasks
+since the rover is modular we were able
+to test all systems individually before
+placing them on the rover on behalf of
+the Binghamton University Rover team we
+are very excited to compete in the 2020
+University Rover challenge we're proud
+of how far we've come this year and we
+hope to see you in Utah the Binghamton
+University Rover team thanks our
+sponsors for making all this possible

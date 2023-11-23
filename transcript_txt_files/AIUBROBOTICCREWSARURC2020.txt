@@ -1,0 +1,118 @@
+[Music]
+I myself am the gambler some think if
+you know favorite April 22 you a
+variable object or aims to their of the
+river by adding new features that will
+deliver your service we are divided a
+team to 11 members for whirring
+electrical science mechanical and
+software all team members have worked
+hard to develop an exhibit in the world
+and we are really proud to present our
+rover for us initially each part of the
+rover's design and simulation was
+updated from previous era solid work to
+make the rover more efficient this year
+the drive system features six will
+rocker-bogie suspension system that
+provides traversal over the extremely
+uneven surfaces it's primarily advantage
+is its obstacle climbing capability over
+big rocks
+we have rigorously tested our over under
+extreme conditions such as slopes steeps
+ignition and teachers the six degrees of
+freedom articulated robotic manipulator
+controlled by three actuators which
+helps in both quick and precise movement
+since e-learning has been used to shape
+the rover as well as its hand in its
+optimal form our Rover fits perfectly in
+1.2 cubic meter box as required for the
+competition this year the claw has been
+upgraded from three fingers to two
+fingers so that it can have a good grip
+and can pick heavy objects easily while
+conducting different tasks our Rover can
+easily move in places with final control
+and have less strain on itself due to
+its six degree of freedom manipulator
+moreover our Rover can push buttons with
+ease and can turn the switches on and
+off it can also hold objects of any
+shapes and sizes and can lift loads up
+to ten cages with the help of its claw
+our Rover has the ability to undo
+latches
+it can also type on keyboard for this
+we're using a handmade string actuator
+and a laser pointer which is aligned
+with it so that our Rover can press the
+keyboard with more precision
+[Music]
+in addition our Rover has a hex driver a
+test with his claw which can be
+controlled promptly by the operator all
+these features make our Rover unique and
+perfect for all the tasks of viewers a
+twenty20 this year we have also created
+a whole new electrical system that is
+more reliable and detachable it will be
+able to conduct higher turns we
+protected against surges and the heat
+will be dissipated from the system more
+effectively to anuses are used instead
+of one to increase the reliability for
+controlling the rover as well as taking
+a say camera feed we have also focused
+on creating a custom-made PC board to
+protect the rover from over-voltage a
+short circuit for emergency we have used
+MCB
+FQ switch and for excessive images fuses
+have been used into the DC and new rules
+science team focuses on detection of
+extent 18 and no life last year dealing
+mechanisms inside the science caching
+system for who is Hugh's vibration occur
+and our chemical is peeled but this year
+science caching system is compact an
+auger is Southside the science caching
+system and transported to the top of the
+rover using an actuator the testing
+systems contents are rotating soil
+collector the collected sample is mixed
+with water and chemicals a
+spectrophotometer has been used to
+extract the exit data from the given
+sample and to analyze the rock minerals
+composition from the rock the team also
+research for several environmental
+aspects that affects the soil
+habitability temperature and moisture
+atmospheric analysis has been conducted
+by using several sensors such as gas and
+pH sensor 2.4 gigahertz omnidirectional
+antenna is used for communication
+between the base station and the robot
+with 20 megahertz channels the system is
+capable of communicate within a two
+kilometre radius socket programming is
+used for passing the commands and IP
+cameras are used for video feed CCR
+software team have focused on developing
+an algorithm for autonomous traversal
+image processing and computer vision
+algorithm have been used for airtec
+detection and obstacle detection in our
+OS our Rover can able to detect a attack
+by using camera from 5 meter distance
+robotics GPS distance from coordinate as
+input from the busy station during an
+autonomous traversal and robot confuses
+assigned tasks with the help of GPS
+compass and light a sensor will also
+have used LED negatives
+[Music]
+thank you for watching good luck to all
+other things

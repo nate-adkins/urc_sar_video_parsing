@@ -1,0 +1,101 @@
+Hi, we are the GTU Rover team from 
+Gebze Technical University in Turkey.  
+My name is Emre and I am the team leader. Based 
+on the previous experiences from the last year,  
+the new rover has been designed and manufactured 
+to tackle URC competition tasks. The sub-systems  
+were analyzed in simulations and tested on 
+each task to ensure all the requirements are  
+met. After eight months of hard work, we're 
+proud to introduce our next-generation Rover.
+ 
+At the earliest stage of system design, durability 
+and reliability have been considered. Sheet  
+metal body is mounted on a linked rocker system. 
+Aluminium linkage allows the wheels to actively  
+conform to the terrain producing a more efficient 
+drive. The wheel assembly consists of two main  
+parts, the 3D printed rim, and the motor housing 
+parts. The pneumatic tires absorb shocks caused  
+by falls thus preventing the electronic parts on 
+the rover from being damaged and also improve the  
+traction. Powerful geared DC motors are used to 
+help the rover climb steeper slopes in the extreme  
+retrieval and delivery mission. To interact 
+with mechanical and software parts of the rover,  
+we have developed our next-generation electrical 
+system. Custom design PCBs let us easy integration  
+and plug the cables. For ensuring the safety 
+of the rover, two emergency kill switches  
+are installed. The communication system operates 
+in the 2.4GHz band along with an omni-directional  
+antenna on the rover and a sector antenna at the 
+base station. The communication system is capable  
+of data and real-time video transmission. In case 
+of any connection loss, the back-up module will be  
+activated. A 6 degrees of freedom robotic arm was 
+developed to have manipulation capabilities. For  
+high kinematic reachability, rotational actuators 
+are used in all axes. In the first four axes, worm  
+gear mechanisms with geared DC motors are used to 
+prevent back drive and provide required torques.  
+The robot arm works precisely enough to manipulate 
+the elements on the panel. A belt-driven  
+differential wrist mechanism ensures better motion 
+in the 5th and 6th axes. With the high-torque  
+joints, the robotic arm is strong enough to 
+lift five-kilogram payload at full extension.  
+The control system and interface allows to operate 
+the arm by inverse kinematics and switch between  
+forward kinematics when needed. Spherical wrist 
+design enables the Arm to flip the switches and  
+type on the keyboard smoothly. You can press on 
+the desired buttons and tighten after inserting  
+the hex key to the screw. For the arm's motor 
+driving, Roboclaw motor drivers with integrated  
+PID controllers were chosen. Incremental 
+encoders are used to read motor positions.
+To perform autonomous navigation mission, the 
+ros navigation stack was used. Point cloud data  
+from the zed stereo camera is downsampled with 
+a voxel grid filter. The obtained cloud is used  
+to generate the local map and a 2D lidar 
+sensor is used to generate the global map.  
+After the maps are created, A* algorithm is 
+used to compute global path and to compute  
+local trajectory, timed-elastic-band approach is 
+implemented. Zed stereo camera and OpenCV library  
+are used to be able to approach the gates and 
+posts with detection of the ARUCO tags. To pass  
+through the gates, we have developed an algorithm 
+that can find the position of the middle point of  
+the gates in real-time. In this way, we are able 
+to give direction to the rover. The interface  
+is a web-based React application providing 
+mission control and data visualization.  
+There are customizable layouts according to the 
+mission. They allow remotely monitor system state,  
+streaming camera feed, monitoring of the sensors, 
+publishing waypoints, robotic arm joint states,  
+and control. The science team designs different 
+types of life detection analyses and integrates  
+them on board. Three separate scoops are 
+linearly actuated to collect soil samples without  
+cross-contamination. After that, the collected 
+samples are transferred through plastic pipes  
+to the test tubes in the FTIR spectrometer. We 
+prepared our samples to mimic martian soil and  
+with them, we optimized ATP and DNA detection 
+assays to get the best result. With a custom  
+Fourier transform infrared spectrometer, we aim to 
+analyze the type of molecular bonds in the sample,  
+to detect the presence of biosignature 
+molecules. The team aims to identify traces  
+on the rock surface and determine if it's 
+related to life or a rock's mineralogical  
+property. A deep learning-based algorithm 
+was developed to have a match between the  
+rock images from the cameras and the dataset 
+created by the team. A set of sensors were  
+integrated to observe the environment and evaluate 
+the test results from soil analysis correctly.

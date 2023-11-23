@@ -1,0 +1,151 @@
+[Music]
+hello my name is kitty is kuzey
+president of the university of michigan
+mars rover team and i'm excited to
+welcome you to the 2019 system
+acceptance review for the university
+rover challenge this year's rover builds
+on our prior successes while introducing
+changes based on lessons learned in past
+competitions in this review will
+showcase the mechanical electrical
+science and software capabilities of our
+system additionally wheel detail are
+completed and planned testing to ensure
+full system readiness in May the
+mechanical foundation of the rover is
+composed of the chassis and mobility
+subsystems the carbon fiber chassis is
+divided into modular sections for quick
+reconfiguration between missions our
+differential bar has a pivot at either
+side to reduce the bending moment seen
+in the bar its length is adjustable to
+ensure the chassis is level with the
+ground at all times
+the entire Rover is supported by
+adjustable shocks which interface with a
+linkage system to absorb both downward
+and frontal impact we chose a ride
+height of 18 inches and a wheel diameter
+of 12 inches to surmount large obstacles
+this year we have revamped both the
+design and control scheme of our robotic
+arm our 40 inch 7 degree of freedom arm
+is composed of carbon fiber tube
+sections in controlled using inverse
+kinematics for fluid user-friendly
+operation the end effector can open up
+to six inches using a lead screw to
+provide substantial grip strength and
+precise tool positioning two
+intersecting laser pointers aid the
+operator in position the solenoid to
+type on a keyboard
+additionally Phillips and hex head
+screwdriver bits can be swapped remotely
+to screw in a bowl the electrical system
+controls power and logic signals for all
+components on the rover our custom power
+distribution system ensures that each
+mission can be completed with a 544 watt
+hour lipo battery the Nvidia Jetson tx2
+was chosen as the main onboard computer
+to process all sensor information and
+enable rapid autonomous decisions from
+testing with our 900 megahertz radios we
+have shown that communication between
+the base station and the rover is
+maintained over operating distances of
+350 meters or with line-of-sight
+obstruction we have developed a
+comprehensive Rover operation suite to
+enable smooth and user focused
+teleoperated control through a graphical
+user interface rover operators have easy
+access to the Rovers position and Orient
+on the map a live camera stream from one
+of eight onboard cameras and other
+important diagnostic readings from the
+river
+the interface and control schemes are
+quickly adaptable for different
+operations such as switching between
+inverse and forward kinematic control of
+theorem our autonomous navigation system
+utilizes a state machine to map its
+current state Adamo tree and computer
+vision data to an action and a new state
+the system obtains accurate odometry by
+feeding input from a nine axis IMU gps
+and wheel encoders into a custom sensor
+fusion algorithm we use a stereo camera
+to identify tennis-ball candidates in
+view using color and depth data
+candidates are confirmed by a learned
+model for high reliability tennis ball
+detection the depth data from the stereo
+camera is also utilized by obstacle
+detection the autonomous navigation
+system has been tested extensively in a
+custom-built simulator as well as on a
+fiscal course of GPS waypoints and
+tennis balls for the autonomous mission
+to prepare for the extreme retrieval and
+delivery mission we have mapped out a 1
+kilometre course at a test facility that
+includes a rock garden and objects that
+we expect to retrieve in the field for
+our operators to become more adept at
+arm control in the equipment servicing
+mission we have designed and constructed
+a mock lander with all components
+described in the rules for the science
+mission we have developed a suite of
+instrumentation and biochemical assays
+to determine the presence or absence of
+life a 3-axis instrument positioner
+bounce below the chassis for precise
+pointing of a high-resolution digital
+microscope and a custom-built Raman
+spectrometer at rocks of interest for
+Institue analysis without significant
+alteration the microscope images sites
+in search of gross morphologies
+indicative of fossilized or living
+microbial communities while the Raman
+spectrometer uses a 532 nanometer laser
+to detect chemical compounds associated
+with organic matter and organisms the
+next element of our life detection
+strategy targets biomolecules and
+biomarkers and soil samples the sampling
+system features two identical drill and
+vacuum mechanisms to transport particles
+to sterilize boxes each isolated to
+prevent cross-contamination the boxes
+house tests for DNA with fluorescence
+imaging protein with Fiats reagent and
+ammonia with indicator strips all of
+which can be monitored live from the
+base station these tests allow us to
+detect biomolecules and biomarkers
+associated with life we have validated
+these methodologies by testing on
+sterilized rock and soil samples as well
+as fossilized bacterial colonies
+Utah desert soil at this point in the
+season we have completed manufacturing
+assembly and initial full system testing
+between now and competition we'll
+practice each mission extensively at an
+outdoor test facility under competition
+like time constraints and scoring
+schemes we are thrilled with our team's
+continuing progress and confident that
+our Rover will be competitive in the
+2019 University Rover challenge on
+behalf of the Michigan Mars rover team
+thank you for your consideration and go
+blue
+[Music]

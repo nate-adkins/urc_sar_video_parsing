@@ -1,0 +1,120 @@
+[Music]
+[Music]
+we embarrasses a Robotics Club based out
+of Western University this year our team
+has nearly doubled up to 40 active
+members working on the rover this has
+allowed us to increase the difficulty
+and scope of the projects were working
+on to do this we've divided our team up
+into four different groups being
+software science electrical and
+mechanical my team is developing
+computer vision and autonomous
+navigation software we're using the Ross
+framework for a project which loves us
+display each separate task and do a
+different Ross node so they can run
+concurrently the computer vision
+algorithms have been implemented with
+open CV on a stereoscopic camera which
+will allow the rover to locate the
+tennis balls on top of the goalposts in
+3d space the path planning we
+implemented an algorithm that it takes a
+3d mesh generated fluid camera and
+calculates Traverse ability heuristics
+allowing the rover to find the best path
+towards the goal
+everything will be run on a Nvidia
+Jetson px 1 which will allow everything
+to be run in real time the goal of the
+science sub team is to determine the
+likelihood that the soil can support
+microbial life using geological context
+and data from on or over and in lab
+analysis a scoop attachment for a
+manipulator will take 10 centimeters
+below the soil and collect samples
+temperature and pH probes are fixed on
+the end to take NC 2 measurements the
+soil sample will be carried into the
+onboard lab which is equipped with a
+grinder that refines the sample and
+drops a soil into to easily remove
+one compartment will mix the soil with
+water and two-page provo record
+measurements the other will be sealed
+and removed for later analysis in the
+lab a variety of techniques are used to
+obtain important information about the
+soil composition of microbiology
+chemical reactions color charts and
+polarized light microscopy is used to
+determine the mineral composition and
+nutrient levels an optical microscope
+will also be used to obtain direct
+counts of bacteria within the sample the
+electrical team has developed a system
+that incorporates safety efficiency and
+protection there are two lithium cell
+batteries that provide power to the
+rover the numerous motors on the rover
+used victor speed controllers that are
+connected to our power distribution
+panel this panel is also directly
+connected with the robots main
+communication system the robo reel the
+Robo Rio allows for multiple analog and
+digital sensors in a compact and
+regulated space the onward science
+experimentation systems various sensors
+are all connected to the Robo Rio and
+the voltage regulator module to ensure
+that all the electrical components are
+protected there's an acrylic casing
+around the entire electrical panel this
+cover is the largest circuit elements
+and most importantly keeps the battery
+protected from any debris or moving
+objects The Weavers worker consists of a
+six wheeled rocker-bogie system
+supporting the central each wheel has a
+motor contained internally to protect it
+from debris and obstacles the rover can
+climb over obstacles of 42 centimeters
+in height and can navigate slopes with a
+45 degree incline the platform is kept
+leveled by a differential system and
+holds the manipulator at the front and
+the controls in the rear the manipulator
+arm has 6 degrees of freedom plus 2
+swappable end effectors a gripper and
+bucket additionally the arm can hold a
+mass up to 3 kilograms at full extension
+the rover was initially constructed with
+aluminum which makes it robust but heavy
+since the rover has already been
+constructed the mechanical team this
+year is focusing on ways to lighten the
+rover we have already started to swap
+some components with carbon fiber and
+non essential parts with plastics
+[Music]
+[Music]
+we will continue to improve our Rover in
+the future in addition to changing some
+parts of the rover with carbon fiber
+parts our science and software teams are
+continuing to test new designs we will
+be designing and building a drill and
+attempting to make our own mass
+spectrometer to better address the
+science portion of the competition
+finally we will be improving our
+navigation system to make it more robust
+and able to better navigate the terrain
+our team looks forward to the future and
+the improvement of our Rover we would
+like to thank our sponsors for their
+contribution thank you for watching

@@ -1,0 +1,142 @@
+[Music]
+pushing the levels of innovation and
+exploration our passion for technology
+and was for Discovery drivers to design
+Cutting Edge Rovers and tackle the
+toughest challenges to looking at
+robotics get ready to witness the future
+of space exploration your team and
+bishop's U.S Rover delicate
+[Music]
+coming to traversal we are going with a
+more robust rocker Boogie mechanism than
+our previous we have further optimized
+our Rover's traversing capabilities by
+including more obstacle parameters in
+simulations a major problem we had was
+that of camber which we have observed
+tested and now corrected the chassis has
+been stiffened to reduce the flexure The
+Rocker bogey components have been
+reinforced and also the differential
+mounts have been redesigned for better
+load transmission and to lower the
+associated play while traversing also we
+decided to lower the bending Movement by
+reducing the length of what was
+effectively a cantilever
+we solve for the inverse kinematics in
+real time using our custom ik package
+that outputs required joint angles for
+the three joints of a manipulator
+these output joint angles are realized
+using PID controllers with the help of
+feedback from encoders which are inbuilt
+in our Motors
+the manipulator is a 5 degree of Freedom
+articulated arm with a versatile gripper
+the entire arm has been revamped
+considered in the shortcomings and
+advantages of the previous designs worm
+gas are being used at the shoulder and
+elbow joints owing to the non-back
+drivability and the much larger range of
+motion that they provide compared to the
+previously used linear actuators also to
+reduce the time required to assemble the
+Rover the arm is made to be modular and
+can easily be mounted or detached base
+rotation of the arm consists of a series
+of Spur Gears chosen to ensure an
+optimal torque and RPM balance aluminum
+links have been used and by laser
+cutting weight has been drastically
+reduced extensive stress analysis has
+been done to maximize strength and
+stiffness of the links
+foreign
+grip pitch and roll motion the gripping
+mechanism consists of two parallel four
+bar systems which are actuated using a
+worm Game Gear system in turn consists
+of two worm wheels and one worm
+this prevents the back drivability of
+the gripper fingers and ensures that the
+gripper can grip masses up to 6 kgs the
+roll motion is achieved by meshed Spur
+Gears
+[Music]
+a central electronic box has been
+designed with custom-made pcbs for Drive
+arm and science modules Nvidia Jackson
+Xavier acts as a CPU Roma's motor
+drivers are managed by stm32 blue pill
+and last 25 Eco microcontrollers cross
+needle i2c and cam techniques have been
+used 2.4 gigahertz frequency
+communication is done using liquidy
+rocket and two routers with 15 DBS
+sector antenna the base station and 13
+DBI omnidirectional Lantern on the Rover
+linked to the Judson via SSH power
+module 224 volt Depot batteries Rene
+based power distribution board with buck
+converters reverse voltage protection
+due to vac Emma octo couplers under
+voltage protection and fill switch
+mechanism to cover up active confidence
+in an emergency has been employed
+special PCB with voltage current and
+temperature sensors publishing data from
+Jetson to custom-made guis design
+the sign setup consists of the soil
+collection mechanism and an onboard
+laboratory to collect soil samples a
+scoop attached to the end of a robotic
+arm drops them into a collector box with
+two compartments one of which creates a
+solution for testing while the other
+preserves the original soil submersible
+water pumps and pneumatic pipes control
+the flow of the solution from The
+Collector box to the test tubes in the
+onboard science lab and cuvettes in the
+spectrometer setup our live detection
+strategy involves testing for reducing
+sugars lipids ammonia and calcium
+carbonate changes in the test tubes are
+observed using three analog cameras are
+UV with spectrometer setup uses a
+rotating mechanism for the 2s to test
+samples from multiple sites for proteins
+and carotenoids
+the onboard sensors measure various
+environmental and subsurface factors
+we use a microscope with an adjustable
+Focus to examine the physical attributes
+of soil rocks and possible fossils
+we can predict the conditions that led
+to their formation using our database
+we have built a custom GUI which
+illuminates the requirement for manually
+entry commands to determine it uses
+others to visualize the manipulator
+status provides camera feed from the
+cameras on the Rover ensuring that the
+operator is completely available around
+the overthrow divisions we are using an
+intern real since D415 stereo camera for
+obtaining visual odometry Point flow
+data and for arugo Market detection
+adapt to Monte Carlo localization is
+used with lidar to get a post estimate
+of our Rover all our automatic data is
+used using an extended cabin filter for
+more effective localization
+a drone was built using the F450
+quadcopter frame as a base Raspberry Pi
+model 4B and pixel 2.4.8 form the fly
+computer and control of the system
+inspector for software you are using
+drone kit python library to achieve
+autonomous strength

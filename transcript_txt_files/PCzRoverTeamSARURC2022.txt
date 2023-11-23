@@ -1,0 +1,143 @@
+hey
+we are the pcc rover team from poland
+and we are proud to present you this
+year's rover
+we are the students of the chancellor
+university of technology at the faculty
+of mechanical engineering and computer
+science
+the last year brought us many challenges
+that we had to deal with
+due to pandemics we had to work remotely
+therefore we focused our activities on
+those that did not require direct
+contact despite the difficulties and
+contacts we have worked hard to ensure
+that our project fully reflects our
+development and skills
+we know how important it is to transfer
+knowledge and valuable experience
+therefore we have recruited 20
+enthusiastic new team members
+our rover modernity free in the most
+complex configuration does not exceed
+48.5 kilograms of weight
+its dimensions are 1800 millimeters by
+1150 millimeters by
+1195 millimeters we used six 14 inch
+wheels printed in a 3d printer
+which are also light and allow efficient
+driving on sandy rocky and gravel
+grounds
+our vehicle has a lower level of gravity
+which allows it to drive steadily even
+on a 45 inch inclined terrain
+the rover is able to reach a speed of 12
+miles per hour which equals 18
+kilometers per hour
+it is powered by three lithium polymer
+batteries
+they are a source of energy ensuring up
+to 120 minutes of continuous operation
+all rover actions can be stopped with a
+mounted emergency power cutoff switch
+which is mounted in an easily accessible
+place on the rover casing
+directional antennas at the base of
+operations are automatically directed
+towards the rover which has an antenna
+mask with stabilization system in all
+axes
+the vision in the field is provided by
+five high resolution ip cameras and two
+stereoscopic cameras located in critical
+places on the rover
+all of them are controlled by a server
+mechanism we have refined the
+manipulator control system to reach the
+maximum precision and control the rover
+is equipped with a manipulator arm that
+has six degrees of freedom and consists
+of three members
+our streamlined structure is able to
+lift objects up to nine kilograms we
+have got our implementation of the
+fabric inverse kinematics system for
+quick response of the system to operate
+the comments
+our improvement of the inverse
+kinematics is done by using
+accelerometers installed on each member
+the specially developed controller
+facilitates the work with the
+manipulator using combination inverse
+kinematics algorithm and the
+interpretation of human movements
+it performs complex movements designed
+to mimic humans when operating items
+such as switches knobs keyboards and
+sockets
+the manipulator has a new assembly and
+disassembly system which allows us for
+very easy and quick maintenance and
+deployment the control panel developed
+by our team fully meets our requirements
+not satisfied with ready-made solutions
+its basic functions includes controlling
+each component on the rover visualizing
+the position of the manipulator
+visualizing vehicle orientation in the
+field saving road travels and managing
+the autonomy subsystem based on the next
+com onboard computer with the 3dz camera
+we upgraded our software for autonomous
+navigation mission the combined robot
+operating system with convolutional
+neural networks in python based on
+tensorflow library while travels to gps
+waypoints our new system analyzes the
+area to detect obstacles depth from
+camera and imu data help detecting
+obstacles
+rover all the time is keeping detected
+obstacles under control and searching
+for free path 3d camera with opencv
+library is also being used for detecting
+ar tags
+rover signalizes autonomous operation
+and successful arrival at the post
+through led indicator
+we would like to demonstrate our project
+for the science mission which has been
+upgraded and redesigned this year we
+concentrate on colometrical and spectral
+analysis of the soil material for this
+purpose we designed two new systems of
+soil collection using the solidworks
+software
+they provide complex solution for soil
+distribution basing on a rotating
+revolver containing test tubes and
+equipped with all the necessary items
+spectrophotometer lightning and ip
+camera the soil is collected using
+mechanical claws and mixed with clean
+water which is infiltrated to obtain a
+clear solution and avoid clogging the
+pipes
+the solution is then transferred to
+particular sets of test tubes filled
+previously with all necessary chemical
+reagents for calimetrical reactions
+the spectral analysis is conducted using
+special cuvettes every difference in
+expected values indicates that some
+other particles are present in the water
+possibly biomolecules
+the spectral analysis is particularly
+important in terms of determining extant
+and extinct life calometrical tests will
+be contacted in the test tubes they will
+allow us to detect amino acids and
+proteins all results will be watched
+remotely by the team members

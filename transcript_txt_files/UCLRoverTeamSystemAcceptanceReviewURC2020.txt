@@ -1,0 +1,134 @@
+we are you see a letter an
+interdisciplinary activity when
+University College lower this year we
+have a new workspace and YouTube
+structure we have expanded our team to
+over 14 members which are divided into
+chassis robotic arm science cache
+control autonomy and metals from
+previous years experiences at Peapod we
+have completely redesigned our browser
+to be smarter and more sustainable after
+many hours of hard work we are proud to
+announce positive for University of Iowa
+challenge 2011 our Rover has been
+designed with a higher level of
+functionality maintainability modularity
+and retain ability than ever before this
+allows for future development of
+subsystems and incorporation of
+instrumentation without having to start
+from ground up the timeline will
+schedule taking into account associated
+risk cost and time restrictions with a
+project with a systems target set out
+based on our team's resources team
+structure and our predecessors
+experiences all subsystems are designed
+developed tested and approved upon
+concurrently at a subsystem level this
+is done so by 8s ports which simulate
+competition tasks a Shasti utilizes
+multiple aluminium extrusions which are
+then connected via angle brackets what
+this allows us is to easily accommodate
+different subsystems and move them in
+order to achieve a desired position of
+the center of mass this design also
+gives us complete modularity in a sense
+that we can disassemble or assemble the
+chassis at any given time
+our current representative attends a
+previous suspension while enhances
+pension is being assembled we are using
+a modified rocker-bogie suspension
+system that incorporates swivel steering
+and suspension exactly through rotate
+which are done by shock absorbers
+this allows us to take impacts on jobs
+and at the same time restrict toppling
+the rover's drive system is composed of
+truckstop brushless DC motors
+thirty two thousand rpm with maximum
+gearbox is very reduction ratio of
+seventy-four to one this ensures that
+the rower can run at a maximum speed of
+two meters per second at any given task
+there are pressure pneumatic wheels with
+added treads enables max transmission of
+torque without slipping
+they also damped vibration preventing
+damage to onboard electronics design of
+a robotic arm focuses on having the
+capabilities to perform all the required
+tasks in the competition for being as
+lightweight as possible
+using three millimeter laser-cut and for
+the aluminum the structure is both rigid
+and light weariness practical of the arm
+uses linear actuators to use the design
+geometry and its favour thus reducing
+the force required and the weights in
+other places with design uses geared
+steppers to limit the effect of a dusty
+environment into further fiber movements
+or joints used slewing rings the 3d
+printed gripper as I mentioned to carry
+biggest competition items while also
+being capable of intricate tasks such as
+typing forearm as a whole can lift up to
+five kilograms with a safety factor of
+two and can reach around the board over
+the rover communicates with gun control
+station across three separated radio
+links over two frequency bands chosen to
+a long line of sight operation and a
+high downlink for Friday then connects
+to the Nvidia Jackson's tx2 module which
+allow us to use robot operating system
+and move in motion planning framework to
+achieve real-time control of the robotic
+arm and science cache traction control
+is available on all rails and steerable
+rails give us more precise control on
+the road
+particularly on rough terrain the rover
+uses an autonomous planner running
+optical system at the GPS location we
+use the front-facing camera with a deaf
+and optical object recognition algorithm
+through the use of OpenCV to detect the
+AR tag and autonomously move to a
+proposal in order to detect obstacle
+along the path a series of
+automotive-grade and radar might use
+operating a77 technical facts these
+sensors are available to detect target
+of 0.5 meters whereas yes while
+traveling it up to 70 miles per hour and
+ranges of up to 80 meters for the
+science - Vinnie around ads will be used
+to lower and raise the science cut
+relative to the road being so this is
+top of the my drilling conditions an
+organ will be used to dig so from the
+ground the soil things called in a
+thesis located at the bottom of a
+science cache both the vertical motion
+of the water and the sand cache itself
+will be driven by a Reedsburg the main
+goal of the science - is the determine
+the status of life accidents extinct or
+presence using units absorption
+spectroscopy will be targeting specific
+bio signatures such as DNA proteins and
+isolates their combined presence or
+absence will give is an excellent
+indication as to the status of life at
+designated sites specific chemicals will
+allow us to highlight the signal
+associated with the various bio
+signatures in addition to this who'll be
+using a variety of throws give us an
+understanding or composition of the soil
+you

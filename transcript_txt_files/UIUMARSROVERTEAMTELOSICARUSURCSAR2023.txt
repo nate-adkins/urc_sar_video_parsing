@@ -1,0 +1,156 @@
+[Music]
+hi we present Telos the brand new Rover
+of uiu masterova team for the system
+acceptance review of URC 2023 our
+multidisciplinary team of 28 members
+from diverse backgrounds has been
+working rigorously to develop Telus with
+a significant upgrade of its ancestor
+Maven constructed with six sub teams we
+have developed reliable and modular
+subsystems with adequate quality
+assurance over the last 6 months using
+last year's experience visiting the mdrs
+we've alerted Telos thoroughly in
+competition like environments to achieve
+Readiness for this year's competition we
+revamped the chassis subsystem with our
+newly designed Wheels to ensure maximum
+suspension and Traction in the
+competition terrain the wheels are
+completely 3D printed using a
+combination of flexible Auto Parts
+encircling the rigid inner honeycomb
+structure we conducted rigorous tests to
+ensure its durability in different
+circumstances rocker bogey suspension
+with a rear differential bar mechanism
+along with a spring tensioner
+significantly improved the stability of
+Telos ensuring space maximization we
+integrated a server driven steering
+mechanism for enhanced maneuverability
+allowing the to move sideways and pivot
+on a single point to evaluate Telos for
+the extreme retrieval and delivery
+Mission we have designed multiple
+courses that include terrain and object
+similar to what we experienced last year
+such as traversing over a variety of
+rocks grassy Fields sand surfaces Rocky
+areas Steep inclines and vertical drops
+the arm of the Rover is also capable of
+quick and easy manipulation of both
+heavy and light objects like Towing and
+lifting a 7kg payload with rope picking
+up a small object such as a screwdriver
+hammer and various shapes of Rock
+After experiencing challenges with our
+previous belt pulling mechanism we have
+upgraded to an improved
+semi-differential wrist mechanism with a
+one is to threes to 9 Gale reduction
+ratio 6 degrees of freedom arm is
+capable of opening a drawer and
+inserting a cache in it
+moreover it can perform sophisticated
+tasks like inserting a USB drive
+handling an electrical socket push
+buttons flip switches turning a knob
+typing on a keyboard and tightening a
+screw our enhanced end deflector allows
+the arm to pick up objects having
+various geometrical shapes at micro
+Precision regardless of the fragility of
+the objects
+we evaluated the arm thoroughly on a
+configurable Lander to achieve
+competition Readiness in the equipment
+servicing Mission this year the
+autonomous navigation system is
+redesigned with a vision-based path
+planning algorithm with a data-driven
+error offset module to improve GPS
+navigation using our Jetson NX custom
+board we have developed an object
+detection algorithm and a deep learning
+model to clearly identify obstacles and
+Traverse most off-road terrains without
+getting stuck using our input from z2i
+cloud points Telus make strategic path
+planning decisions to Traverse toruko
+markers and Nimble Shadow crickets with
+our customized Argo tag detection model
+specializing in detecting markers from
+more than 20 meters distance on reaching
+a GPS location the model takes over as
+the Rover moves in a circular motion on
+detection of a marker it moves to a
+three meters vicinity to complete the
+navigation we have also developed an
+informative dashboard to display
+real-time updates on our journey in
+addition we developed Icarus an
+autonomous multicopter unmanned aerial
+vehicle to accompany the Telos on the
+autonomous Mission it is capable of
+landing on various surfaces beside GPS
+navigation it can also detect oracotech
+from a 15 meter distance and can create
+a strategic path to the Target location
+we have implemented a modular circuit
+design allowing fast swapping of faulty
+components we developed lithium
+and better provided operational time
+frame of two hours our internal system
+monitoring unit and hybrid cooling
+mechanism ensure optimal internal
+temperature a kill switch has been
+implemented for the Emergency stop of
+the Rover to achieve real-time data
+transmission we use a 1.4 gigahertz
+directional and omnidirectional antenna
+on the base station to communicate up to
+2.5 kilometers with the Rover the easier
+for the scientific explosion subsystem
+we evaluated amino acids lipids
+carbohydrates and chlorophyll to
+classify the soil samples into three
+Clauses extend extinct and no presence
+of life our three degree of Freedom
+subsystem can collect and evaluate up to
+four soil samples learning from past
+experiences we prevented cross
+contamination by adding a linear funnel
+motion toward the sample storage
+qualitative color changes are streamed
+back to the base station as the input to
+our multiple biomolecule detection based
+algorithm USB microscope feedback and
+micro volatile organic compound sensors
+are utilized to detect an extend rock
+sample we also developed a pipeline of
+binary classifiers to classify the rock
+sample into igneous and fossilitis
+classes our neoliberal custom Raman
+spectrometer provides us with the
+spectral analysis of collected samples
+several moctas have been conducted to
+validate the efficiency of our developed
+algorithm and subsystem robustness we
+evaluated Telos in various competition
+like environments to ensure solid
+preparation of the controllers and
+system level fault testing without
+thorough preparation we are confident in
+our ability to perform well and Achieve
+success in the competition our branding
+team is working relentlessly to inspire
+the next march generation of Bangladesh
+through multiple workshops we are also
+launching a gaming application where
+users can add components with their own
+creativity to play with our Rover best
+wishes to all the participating team and
+hope to see you all in Thanksgiving this
+summer

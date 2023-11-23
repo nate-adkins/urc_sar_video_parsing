@@ -1,0 +1,133 @@
+Astra a project of uah's space Hardware
+Club is proud to present our 2023 Rover
+and its ability to climb over rocks lift
+heavy objects navigate autonomously
+detect signs of life and much more our
+team of 40 plus students has worked
+tirelessly since our competition in 2022
+to improve the Rover's performance
+the core Rover module consisting of a
+welded aluminum chassis suspension and
+drivetrain supports all three Rover
+configurations with the newly developed
+carbon fiber suspension and inline
+drivetrain system the Rover has seen an
+increase in traversing performance
+the trapezoidal suspension geometry
+increases the ground clearance allowing
+the Rover to successfully drive over
+more hazardous obstacles the drivetrain
+system uses neo550 brushless motors
+integrated with the 64-1 planetary
+gearbox providing each wheel with a
+stall torque of 62 newton meters this is
+a major increase compared to last year's
+system allowing the Rover to drive over
+curbs and climb vertical faces
+with access to the University's machine
+shop our mechanical team was able to
+manufacture high quality components such
+as our rocker pivot housings gearbox
+housings and Chassis members
+during the 2022's competition we
+identified that the wheels required more
+traction to be effective in the
+operational Terrain to address this a
+larger diameter composite wheel with a
+carbon fiber Rim is being developed for
+the Rover new wheel design consists of
+two carbon fiber discs bonded together
+at their centers to create a rim a
+compliant tread sleeve printed from TPU
+bonds the disc to create the wheel the
+wheels integrate to the Rover using a
+wheel hub insert that attaches to the
+gearboxes a subscale wheel has been
+built to prove out the fabrication
+processes no issues were identified
+during the prototyping phase and where
+you're in process of manufacturing
+full-scale wheels that will be finished
+prior to competition
+the arm module consists of the six
+degrees of freedom arm housing for
+electronics and an independent power
+supply
+its assembly is composed from carbon
+fiber Composites to Titanium Metals
+which provides a lightweight but strong
+structure that supports lifting and
+dragging of loads greater than 5
+kilograms the movement is managed by
+three linear actuators which control the
+extension of the arm and three Servo
+Motors that rotate the end effector
+using a bevel gear system
+this configuration allows the arm to
+reach a distance of 1.9 meters and can
+grasp objects up to 5.4 centimeters wide
+a TPU grip surface on the end effector
+allows us to securely grasp objects
+critical for equipment servicing tasks
+the core Rover sub module is controlled
+by an Nvidia Judson Xavier NX the Jetson
+hosts the Roth software stack that
+handles command and message passing
+between the various Rover sub modules
+and the base station furthermore the
+Jetson is equipped with a Hardware video
+encoder that allows her real-time
+compression of video streams from the
+onboard Rover Chaffee cameras
+the arm and biosensor submodules are
+each equipped with a Raspberry Pi to
+provide Roth integration high level
+communication and video stream relaying
+capabilities TNT microcontrollers are
+used to directly interface with
+low-level Hardware on each sub-module
+the Rover is equipped with a 2.4
+gigahertz Wi-Fi radio that relays
+ethernet packets between the base
+station and Rover enabling high
+bandwidth communication
+this year's Rover software augments last
+year's Waypoint navigation system by
+adding the ability to detect the
+presence and location of a Roku tax in a
+video stream which will enable the Rover
+to search and navigate to and through
+them
+the biosensor for this year's
+competition has been designed to intake
+six different soil samples from six
+different soil sites the linear actuator
+on the front of the module moves the
+tubes from the retracted driving
+position into their extended down
+position once the tube is lined up for
+taking in soil the cyclonic separator
+and fan system intakes the soil and
+dispenses the sample into individual
+sample collection tubes
+small measuring cup converts to an
+imprecise amount of collected sample
+into a precise amount by volume there
+are 18 sample collection tubes on our
+Carousel allowing for three separate
+samples from each soil site to be
+collected
+two of these samples will be
+experimented on with both a BCA reagent
+and with test strips a third sample will
+be collected for potential handoff to
+the judges each test tube's lid will be
+closed to prevent spilling when handing
+off to the judges our internal cameras
+view color metric changes for both our
+BCA and test strip and we visually
+interpret the results to determine which
+soil is the most promising to support
+life
+thank you for your consideration and we
+hope to see you in Utah this summer

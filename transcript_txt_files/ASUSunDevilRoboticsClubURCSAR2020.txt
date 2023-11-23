@@ -1,0 +1,144 @@
+we are slender Robotics Club at Arizona
+State University
+our club is separated into five sub
+teams each with a different focus for a
+rover the software sub team focuses on
+the integration of our components with
+Ross melodic to ensure seamless
+communication between software and
+hardware we have designed our rover to
+use light art for distance and terrain
+estimates camera for detecting the
+autonomous traversal mission goals and
+for human driver use GPS for velocity
+position and orientation calculations
+and additional sensors to achieve the
+requirements of each new RC mission we
+currently have drive capabilities in
+addition to GPS lidar camera and AR tag
+tracking capabilities we are in the
+process of developing testing and
+merging more code to bring in more
+functionality in the future we will
+integrate advanced path planning radio
+command functionality and finalize our
+control systems the mechanical sub team
+is centered around creating a robust
+mobile platform for the rover the
+aluminum square tubing frame and water
+jet cut aluminum legs are lightweight
+and can be completely assembled with
+simple hand tools on site the
+rocker-bogie suspension system enables
+the rover to tackle difficult terrain
+without the need for complex suspension
+mechanisms this system ensures that all
+six wheels remain in contact with the
+ground at all times the length of the
+rocker-bogie system are coupled to the
+body through a differential gearbox
+allowing the two sides of the drivetrain
+to rotate independently of the body
+while keeping the body upright this
+mechanism is in the process of being
+upgraded to a differential bar for the
+competition
+to eliminate the backlash inherent in a
+geared system and create a smoother ride
+the chassis utilizes four brushless DC
+motors large pneumatic wheels and chain
+drive helped isolate these motors from
+any potential shocks the base might
+receive while crossing uneven ground the
+manipulator is a five degree of freedom
+armed with powerful geared stepper
+motors directly coupled to each joint
+although this inherently increases the
+weight on each joint and thus the torque
+required the direct actuation minimizes
+backlash and other extraneous movements
+this is imperative for an equipment
+servicing mission where precise
+manipulation is required while the
+powerful steppers will offer large
+load-bearing capabilities rated for over
+five kilograms for the extreme retrieval
+and delivery mission operation of the
+arm is soon Xbox one controller allowed
+for intuitive control and a compact and
+familiar
+package currently we have implemented a
+purge link control scheme when s input
+curve till offer precise low-speed
+movements as well as high-speed
+traversing moves we are currently
+working on a control scheme based on
+inverse kinematics of the end effector
+making the intended implants from the
+operator more natural versus a per joint
+control scheme the jaws for a gripper
+were designed with a group to maximize
+the fingers ability to conform to the
+object the two jaws were 3d printed so
+we were able to easily add two curves
+for increasing contact area with the
+gripped object we're in the process of
+implementing direct trajectory planning
+and collision detection with MATLAB
+robotic system toolbox to automate and
+simplify complex moves we're also
+designing a modulation system to attach
+a variety of tool heads to our end
+effector our system for the biology
+mission will include several mechanisms
+to help detect the presence of life a
+microscope environment sensors a slow
+collection system and a Raman
+spectrometer our microscope will be used
+to compare collected samples to known
+minerals which form only in the presence
+of life in addition our microscope will
+look for any potential micro fossils
+present on the rock samples which could
+indicate extinct life our environmental
+sensors include UV air temperature and
+pressure sensors they will allow us to
+compare the environment to the UV
+radiation range and liquid presents
+necessary for life in order to detect
+life which may exist below the soil
+surface we will use a soil collection
+system which consists of a drill a soil
+and a soil holding compartment the
+sample can then be analyzed through
+Raman spectroscopy using a Raman
+spectrometer we will obtain a spectrum
+of light that can be compared in an
+organic spectral database this will tell
+us the molecules that are present in the
+sample our Rover is powered by a single
+44 volt lithium-ion battery power is
+distributed through a panel of circuit
+breakers designed to protect components
+from unexpected over current conditions
+or power instability DC step-down
+converter supply regulated voltage to
+any components which run on less than 44
+volts our drive base is controlled by
+two dual channel Robotech brand motor
+drivers and the arm is operated with
+four stepper drivers networked to an
+Arduino do a in NVIDIA Jetson nano acts
+as the brain of the rover and it
+communicates with the base station via
+2.4 gigahertz out
+wireless antenna all components are
+housed within a well-ventilated
+weatherproof case a removable top panel
+allows for fast battery swapping and
+easy access to all drive based
+components a separate housing is being
+designed for the arm and all others
+modular subtask components we're looking
+forward to seeing all of our hard work
+pay off at URC see you in Utah

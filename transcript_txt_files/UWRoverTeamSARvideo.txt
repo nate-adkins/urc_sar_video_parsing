@@ -1,0 +1,97 @@
+[Music]
+hello everyone my name is Mattie Bertha
+and the leader and chief designer of the
+University of Warsaw Robert II and I
+would like to introduce you to our 2019
+thrower and terrors to hunters to is
+based on our last year's construction
+which we have utilized at the URC we
+feel this over design was very good to
+run out of time to fully test all the
+features implement some important
+additions we have decided to keep the
+mobility system with no major changes as
+it performed well last year we are using
+the popular 50 centimeter will ease the
+mix with powerful brushless DC motors
+not inside the tires are slightly under
+inflated insured better ground contact
+and smooth passage over uneven obstacles
+advanced motor controls enable accurate
+speed a lesson in precise positioning
+when needed one of the most important
+components of our machine is a strong
+durable and multi-purpose arm it's a
+reliable solution proven in the previous
+competitions with some incremental
+improvements the arm is capable of heavy
+lifting as well as more precise
+manipulation its power allows the rover
+to manipulate objects with a mass of 15
+kilograms and to lift the entire vehicle
+if needed the claws deform elastically
+when grasping irregular shapes in order
+to increase the holding strength for
+this year we are also developing an
+additional mini arm which will operate
+alongside the main one
+during the equipment servicing task it
+is designed solely to dexterous
+operations
+using keyboard or small switches
+[Music]
+our robber will be equipped with an
+advanced science subsystem we have made
+two major improvements in this area
+firstly we have developed a sample
+collection system which will work with
+every soil type secondly our scientific
+team got strengthed by a brand new Astra
+biological section our job is to prepare
+a set of experiments that would identify
+organic compounds associated with life
+and if possible life itself in terms of
+the former we will try to detect such
+molecules as proteins sugars nucleic
+acids free amine residues free
+phosphoric acid methane hydrogen sulfide
+and ammonia in terms of life detection
+however we will perform growing microbes
+on a petri dish and microscopic
+observations of course just like last
+year we will also perform a set of
+geological tests including soil
+temperature humidity pH radioactivity
+and presence of carbonates
+[Music]
+we are making big changes to our
+electronics instead of high of the
+integrated monolithic system we have now
+opted for multiple smaller specialized
+models robustness of the connection was
+vastly improved by switching from the
+SPI to canvas Nvidia Justin TX to
+replace Raspberry Pi as our main control
+module while the old 80 mega micro
+controllers were replaced by STM 30 days
+long distance control occurs over
+ubiquity Rockets at 2.4 gigahertz at 900
+megahertz operating redundantly our
+software represents a further
+development of the previous version
+multiple improvements are being made
+chiefly to improve variability of the
+autonomous mode and ease of operation
+during the manipulation tasks who the
+more we've moved our cart from C++
+Triton speeding up the development of
+the high level software last year with
+debuted in University rovol challenge
+this year we want to win it we believe
+that our heart walk and unyielding
+determination will enable us to do so
+see you in user
+[Music]
+[Applause]
+[Music]
+[Applause]

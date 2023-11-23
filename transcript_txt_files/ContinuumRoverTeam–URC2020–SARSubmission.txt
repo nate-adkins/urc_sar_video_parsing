@@ -1,0 +1,117 @@
+hi we are the continuum Rover team from
+the University of Rostov
+in this SAR submission we would like to
+show details about our Rover a left to
+our rover is built on a base that has
+been field-tested in many competitions
+but introduces changes based on lessons
+learned from competitions prototyping
+and testing our field tested chassis is
+made from aluminium and carbon fiber
+powerful motors combined with low center
+of mass give us the ability to
+effortlessly climb steep terrain firstly
+PID controllers give us precise control
+of a position and velocity of the wheels
+[Music]
+before we will rock a suspension ensures
+that at least three wheels are always
+touching the ground this enables us
+travel on a very challenging and uneven
+ground without losing traction the 5
+degree of freedom manipulator has been
+designed to lift weights of up to six
+kilograms with maximum reach of one
+meter while weighing less and than 12
+kilograms the arm is controlled by six
+independent DC motors that transmit
+torque through planetary gears and belt
+transmissions thanks precise encoders we
+can use inverse kinematics for ant
+effective control make use of trajectory
+planning algorithms and displayed live
+visualization of the manipulators
+position
+we have developed many custom PCBs
+including to Power Distribution boards
+the first one delivering power to high
+current devices and the second one
+delivering power to all computers and
+networking systems science boards camera
+system and other devices all of the
+peripherals are connected to the main
+computer using a canvas as a transport
+layer and our only Ruby protocol as an
+application layer
+Ruby gives us the same abstraction layer
+over all of the peripherals automatic
+GUI generation and fast development to
+expand our vision capabilities we
+developed custom pan tilt zoom focus
+camera modules the camera features
+include pan and tilt axes that enable us
+to see in all directions
+triple zoom adjustable focus and
+switchable infrared filter we are using
+2.4 gigahertz and 900 megahertz for
+transmission between the rover and the
+base in the US we should have full
+communication on a range of up to one
+kilometer Wi-Fi connection allows us to
+stream high-quality footage from the
+rover without any noticeable lag and
+with lot of bandwidth left for control
+commands our directional antenna can
+follow the rover to ensure the
+connection is always available thanks to
+the use of my critic Reuters we can
+reuse some specific traffic like video
+stream to a selected communication
+channel all of our high-level software
+is based on the robots operating system
+our main computer is nvidia json TX 2
+the user interfaces for the Power
+Distribution boards give us precise
+power consumption statistics and they
+can be used to remotely restart any
+component of the rover our software for
+autonomous navigation utilities can
+filter to calculate the robust position
+by combining different odometry sources
+a stereoscopic camera is used to detect
+obstacles audiometry and the occupancy
+map are then used to plan a collision
+free path to the destination point that
+can be executive by local planner which
+gives appropriate velocity commands to
+the rover's control software
+the onboard cameras can detect air
+attacks from a distance of up to 10
+meters a special algorithm has been
+developed to complete the legs on the
+autonomous navigation tasks gazebo
+simulation allows us to test many
+features of our software without the
+need of interaction with the real
+hardware the simulated Rover runs the
+same set of controllers as the real one
+which makes it compatible with the rest
+of our software a wide range of
+open-source plugins gives us the
+possibility to test different setups of
+cameras and sensors mounted on the robot
+the simulation environment can even be
+used to test the robust behavior in
+masses gravitational force for the
+science task we will conduct some non
+hazardous chemical experiments on the
+soil samples that will test for the
+presence of proteins nitrogen potassium
+phosphorus and calcium these experiments
+will help us determine the existence of
+past or present life we will also
+perform different sensor measurements
+such as light intensity air quality and
+temperature they will let us determine
+if the conditions are favorable for
+living organisms

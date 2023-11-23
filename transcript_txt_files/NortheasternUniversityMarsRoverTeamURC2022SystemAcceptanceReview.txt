@@ -1,0 +1,122 @@
+Hello there. We’re the Northeastern University 
+Mars Rover team, and we’re excited to compete in  
+this year’s University Rover Challenge. Over the 
+past 5 months, we’ve worked hard on all aspects of  
+our system, and we’re finally ready to share 
+with you our 2022 Mars Rover: Watney Mark 3.
+Watney’s foundation begins with the chassis 
+and mobility system. Our tried-and-true  
+rocker-bogie design is made from lightweight 
+aluminum with a carbon-fiber bar differential,  
+which has been further validated this year through 
+FEA simulation and testing over rough terrain.  
+Each wheel contains a high torque motor,  
+allowing the rover to climb up a 45-degree 
+slope with only 3 wheels on the ground.
+To improve the serviceability and modularity of 
+our rover, we’ve made extensive use of 3D printed  
+parts. Using lessons from our previous 
+wheels, we applied long-duration static  
+load testing to seven separate models 
+before settling on a finalized design.  
+These new wheels were printed using a flexible 
+filament, capable of conforming to the terrain  
+for better traction. We also upgraded our 
+wheel hub assembly from epoxied shafts to  
+set screw hubs and interface plates, 
+allowing us to easily swap wheels.
+Lastly, we added a new modular 
+storage compartment to the chassis.
+This allows us to stow payloads during traversal,
+reducing stress on the robotic arm 
+during long-distance equipment delivery.
+This year, we’ve created a completely new 6 DoF 
+arm. Our new design uses a heterogenous-torque  
+motor setup to reduce strain on joints further 
+along the arm, as well as off-axis motors near the  
+base of the arm to lower its center of mass. This 
+increases our lifting capacity to 6kg of weight at  
+0.9m away, compared to last year’s reach of 0.7m. 
+Our end-effector features a differential wrist to  
+maximize torque uniaxially and a twin lead screw 
+gripper with a common interface that allows us  
+to swap in specialized 3D printed hands for 
+each challenge. We’ve validated our arm through  
+multiple design reviews, FEA analyses, and initial 
+testing with a mock equipment servicing lander.
+Our rover is controlled by 7 new iterations 
+of our fully-custom PCBs. All boards are  
+controlled by STM32 microcontrollers, 
+which interface with all of our sensors,  
+motor drivers, battery management 
+systems, and our main on-board computer.  
+This year, we’ve upgraded our boards to support 
+the industry-standard CAN protocol. This allows  
+them to communicate on a single shared bus, saving 
+cable mass and improving future scalability.
+To maximize room for on-board science, all 
+boards have identical mounting holes for  
+vertical stacking. We’ve also added 
+redundancy for our critical sensors  
+to reduce the possibility of a mission-ending 
+failure. Lastly, we added a new base-station PCB,  
+equipped with two on-board GPSs to 
+allow for differential positioning.
+This year, we are integrating and 
+refining our life detection array.  
+Instead of collecting soil samples 
+via a vacuum tube—which presented  
+special challenges due to low 
+Martian atmospheric density—we  
+will leverage the flexibility of our new arm to 
+deliver samples to the testing array via a scoop.
+Once soil is delivered to the hopper, a 
+near infrared spectrometer will be lowered  
+to test the soil for the carbon-carbon and 
+carbon-nitrogen bonds. We also plan to add  
+a 1000x magnification digital microscope 
+to investigate rock samples for fossils.
+After NIR analysis, the sample will be 
+released into a tube and mixed with water.  
+The resulting slurry is filtered and 
+passed over paper test strips for nitrites,  
+proteins, glucose, and fatty acids. 
+This information will allow us to  
+draw conclusions about the presence 
+of life, either extinct or extant.
+To enhance our autonomous and operator 
+assistance capabilities, we’ve further  
+developed our navigation software. Using 3D point 
+cloud data from a ZED 2i stereoscopic camera,  
+we generate a real-time map of the environment 
+and associated obstacle avoidance cost map,  
+with ultrasonic sensors providing 
+a secondary always-on-watchdog.  
+This visual odometry is then fused with an 
+on-board 9-axis IMU using an Extended Kalman  
+Filter, and globally localized using differential 
+GPS, providing us with sub-meter accuracy.
+To improve on the limited visibility we 
+encountered during the 2021 competition,  
+we’ve also deployed 10 conventional 
+cameras on-board the rover,  
+including three with dual-axis pan/tilt motors. 
+This allows us to detect ARUCO markers at any  
+position around the rover while providing 
+operators with live, low-latency video feeds.
+Control for all systems is handled 
+via our new React-based UI framework.  
+Compared to our previous Qt-based system, our 
+library of smaller flexible components has  
+vastly improved the versatility and modularity 
+of our interface. This enabled us to quickly  
+test and implement new components, including an 
+advanced waypoint-based path-planning interface.
+To date, we have finished manufacturing 
+and testing for all of our subsystems.  
+Over the coming months, we’ll continue 
+validating and tuning our operator  
+interfaces through multiple mock competition runs.  
+We are highly confident that we will have a 
+fully integrated and tested rover come June.
+SEE YOU IN UTAH!

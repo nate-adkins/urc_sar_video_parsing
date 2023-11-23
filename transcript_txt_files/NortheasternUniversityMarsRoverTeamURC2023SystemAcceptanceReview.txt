@@ -1,0 +1,142 @@
+Hello there. We’re the Northeastern 
+University Mars Rover team,  
+and we’re thrilled to compete in this 
+year’s University Rover Challenge.  
+We’re proud to share with you our 
+2023 Mars Rover: Watney, Mark 4.
+Our new 5052 aluminum chassis improves 
+serviceability for onboard electronics  
+and increases stability, reducing chassis rocking 
+and lowering the center of mass. Our rocker-bogie  
+suspension and carbon fiber differential bar 
+can reliably traverse sloped and rough terrain.
+To refine our tried and true 3D printed wheels,  
+we’ve added fatigue testing and thermal 
+modeling to our existing static FEA.  
+Our wheels are printed out of TPU on low-cost 
+FDM printers, enabling a fast design cycle and  
+extensive physical testing. Our curved spoke 
+design is flexible enough to easily traverse  
+rough terrain and durable enough to support 
+our rover through many miles of driving.
+We’ve also run thermal simulations to ensure our  
+batteries will remain under 60 degrees 
+Celsius while mounted on the chassis.
+This year we focused on improving the grip 
+and lifting capacity of our arm. We held onto  
+our heterogenous-torque motors setup and 
+off-axis motors near the base of the arm,  
+which reduced strain on joints further 
+along the arm and lowered its center  
+of mass. In order to reduce the load 
+on the lower axes during traversal,  
+we introduced a mechanism to lock the motor 
+shaft, allowing for unpowered position holding.
+We also overhauled the differential 
+wrist by using pulleys to move the  
+motors further up the arm, increasing the 
+mechanical advantage at the wrist by 200%.  
+Finally, we designed an all new 3 finger claw. 
+Each finger has two degrees of freedom to grip a  
+greater range of objects, with interchangeable 
+fingertips to enable soil collection.
+All of these changes have been validated 
+through multiple design reviews,  
+FEA analyses, and initial testing 
+with a mock equipment servicing lander
+In addition to inverse kinematics, we’ve 
+devised a novel method of control using  
+a scaled-down model. Iterated from last year’s 
+concept, this controller relays its position,  
+“puppetting” the rover while providing 
+operators with intuitive manipulation  
+and unprecedented dexterity. The BLDC motors on 
+the model arm also allow it to hold its position  
+and can provide haptic feedback if the arm 
+onboard the rover collides with an object.
+Our rover is controlled by new iterations of our 
+fully-custom PCBs. All boards are controlled by  
+STM32 microcontrollers, which interface 
+with all of our sensors, motor drivers,  
+battery management systems, and our updated 
+on-board computer, the Nvidia Orin. We’ve  
+continued using our custom CAN protocol for 
+inter-board communication, after successfully  
+switching from UART last year. We’ve also 
+maintained uniform PCB sizing to enable stacking.
+Each PCB has been revised and simulated 
+in LTspice to ensure proper function and  
+reliability for better performance this 
+year. Using the information gained from  
+simulation as well as the issues we 
+faced last year, we are confident that  
+our new electrical system is robust and 
+ready for integration ahead of schedule.
+Because the previous year’s arm faced 
+challenges collecting soil during competition,  
+we’ve designed a claw to lift samples into 
+a funnel leading to a splitter. At one end,  
+a peristaltic pump transfers water that mixes 
+with the soil and runs over paper test strips  
+testing for proteins, glucose, and fatty acids. 
+At the other is a vial with luciferase reagent  
+that luminesces if the soil contains ATP. This 
+luminescence is detected by a custom luminometer.
+Through our intuitive user interface, our 
+team can reference sensor readings and camera  
+images of the test strips to draw conclusions 
+about the presence of extant or extinct life.
+Our team is also compiling a database of rocks,  
+allowing us to classify samples with the 
+help of statistical machine-learning models.
+We’ve developed a custom RTSP-based server to 
+stream video from the 10 cameras on our rover,  
+allowing streams to be paused and resized 
+dynamically. Our testing showed only 208  
+ms of latency, even with 50% packet loss 
+and only 1 Mbps of bandwidth. This ensures  
+we can stream all cameras at 1.25 km using our 
+directional and omnidirectional 2.4 GHz radios.
+We’ve redesigned our command and control 
+interface based on operator feedback. This  
+includes the addition of realtime sensor 
+readouts, support for multiple monitors,  
+a redesigned path-planning interface, 
+and safety watchdog indicators. These  
+are displayed alongside our cameras 
+to enable precise teleoperation.
+The rover achieves absolute localization by 
+fusing odometry from a ZED 2i stereoscopic camera,  
+differential GPS, and 9-axis IMU with 
+dual extended Kalman filters. The ZED  
+is further used to detect large obstacles 
+and uneven terrain, building up a costmap  
+of the rover’s environment for more reliable 
+navigation to GNSS waypoints. ARUCO detection  
+works on multiple cameras across the rover, 
+preventing the fiducials from going unseen.
+This year NURover is working with 
+Northeastern’s UAV club to tackle  
+the autonomous challenge from 
+the sky as well as the ground.
+We’ve developed a fully-functional wooden 
+prototype quadcopter - allowing for rapid  
+iteration and fail-fast testing before 
+manufacturing the final drone out of carbon fiber.  
+This prototype has successfully demonstrated 
+GPS waypoint missions of up to a kilometer.
+While iterating the propulsion and battery 
+systems to provide longer flight time,  
+we’ve been working on the advanced autonomy and 
+ArUco detection in simulation. We currently are on  
+track to implement these algorithms on 
+a Raspberry Pi in our next prototype,  
+with full autonomous mission 
+functionality by mid-March.
+Our team has finished manufacturing and testing 
+for all of our subsystems. Over the coming months,  
+we’ll continue validating our designs through 
+integration testing and mock competition runs  
+with local URC teams. We're confident we'll have 
+a fully functional and robust rover come June.
+SEE YOU IN UTAH!

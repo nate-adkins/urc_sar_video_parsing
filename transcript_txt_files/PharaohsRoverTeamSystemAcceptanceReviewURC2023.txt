@@ -1,0 +1,62 @@
+We are the PHARAOHS team of the Military Technical College, 
+and we are ready to compete in URC  
+2023 with our enhanced rover (The PHARAOHS Rover). Our team consists of undergrad Engineers 
+and divided into 4 main groups 
+Mechanical, Electrical, Science, Navigation.
+For the chassis we used aluminum due to its low 
+weight and relatively high strength in addition  
+to 3d printed parts and acrylic material 
+to finish manufacturing of the rover. 
+our rover s suspension system is rocker bogie suspension which has proven mobility application, 
+The suspension assures that the 4 wheels  are touching the ground all the time. 
+The 4x4 Modified rocker bogie system is included to provide chassis stability and  high maneuverability
+We took in consideration the rovers weight as it weighs under 50kg and fits in a 1.2 m^3 box 
+To overcome different types of rough terrains we designed a new 3d printed airless tires. 
+After many iterations we found that 
+the design structure honey comb is  
+suitable for our needs due to its high 
+strength, low weight and good stiffness.
+For the robotic arm we are using linear actuator  
+due to its high torque to weight ratio, 
+easy control and easy fabrication.   
+The linear actuator is attached to aluminum profile with a steel base which rotate  
+360 degrees with a DC motor connected to worm gearbox which have high gear ratio and safety lock  
+so that it provides 6 degrees of freedom. For this year we designed a gripper, we use servo motor with  
+spur gears to transmit the motion and multiple the torque to achieve the tasks easily and rapid. 
+And a PCB for simple connection and easy wiring.
+electrical system in this year is more 
+reliable, we have created the whole  
+system feeded with 24-volt battery that 
+is protected with many safety components  
+such as relays, circuit breakers and fuse 
+boxes for protection from over current or  
+short circuit and we also use manual kill 
+switches for more safety. To improve the  
+electrical system this year, we have made a two large PCBs to minimize complex wiring.  
+The first one is used for feeding the power to all components with the required power,  
+and another one is used for controlling the motors and collecting the feedback data from the motors
+For making the control system robust we used the intel NUC computer as the primary master  
+that communicates via serial bus with the microcontroller, Arduino is our central  
+microcontroller that communicates with motor driver and encoder to provide PID control over the  
+motors and the arm which is done by controlling the servo motor and the linear actuator.
+Our external communication is based 
+on 2.4Ghz Wi-Fi and 900 MHz RF  
+along with 5.8 GHz RFD video link 
+While internal communication done through Ethernet, serials, and USB connections 
+We implemented a video server which supports up to 6 cameras with bit rate of 5 Mbits per second
+For the autonomous task we upgraded our system to operate with ros2 with a localization system  
+that is done through sensor fusion between LIDAR, GPS, vector NAV and stereo vision,  
+where obstacles are detected using LIDAR, the rover is then visualized on google maps to ensure  
+the rover maintains its path, 
+we calibrated our camera for AR detection,
+with vector nav to determine Odometry and best path planning
+ We started to use drone in indoor training
+to drive it manually by giving it 
+coordinate to take off and land on rover 
+our work this year is to study a specified 
+region, using chemical reactions and sensors 
+in the beginning we use a Giger counter 
+to detect any radioactive element activity  
+then we start to search about any vital 
+activates done by any living organisms  
+using digital microscope after that we use our sensors and conduct our chemical reactions

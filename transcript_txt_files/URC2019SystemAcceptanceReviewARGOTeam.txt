@@ -1,0 +1,123 @@
+hello my name is Anitha Bukovsky and I
+am the leader of the Argo team from
+Bialystok University of Technology our
+team is divided into five sub teams
+which allows us to develop any part of
+the rover at the same time each sub team
+has its own leader to help organize the
+work effectively the mechanical sub team
+is responsible for the development of
+the Rovers car body robotic arm antennas
+system and all other equipment the
+electronics team is designing onboard
+circuitry taking care of Rovers
+communication cameras and power supply
+programmers designed out nose systems on
+board and command centre software the
+science team is responsible for research
+on both sensors and all equipment
+development for science tasking the peer
+and administration section take care of
+the team's finances presentations and
+contacting sponsors our university
+granted us an unlimited access to all
+equipment in the machinery park and
+provided us with our own laboratory this
+year we built a robot with an
+all-terrain suspension based on a
+rocker-bogie mechanism which also
+lifting each will up to 40 centimeters
+high while the rest of the wheels touch
+the ground we are using custom-made
+integrated hub oils which built-in
+motors covered from the environment
+lightweight and durable chase's is made
+of welded aluminum profiles the
+differential mechanism allows
+independent swing arm action this
+approach allows us to achieve a smooth
+movement of the car body over the
+obstacles and provided the third point
+of support for the frame we also use
+potentiometers to read and go from
+suspension joints we decided to develop
+a five degrees of freedom robotic arm
+equipped with oppresses actuator driving
+first joint but drive on second joint
+and powerful servo motors on end
+effector allowed to precise operation
+with used inverse kinematics algorithm
+the implementation of encoders and
+narrows calculations to inverse
+kinematics we are using cloud
+measurement on robotic arm actuators to
+prevent exist forces to not damage some
+panel
+we created two types of grippers two
+finger parallel gripper and universal
+finger grip all with custom shaped
+adaptive fingers the two finger gripper
+is simple and suitable for many
+applications the second free finger grip
+is perfect for picking up delicate items
+with precision and adopt better tuned on
+flat surfaces the autonomous drive
+system is based on a droid single board
+computer and communicates with the main
+module over the LAN network our video
+recognition algorithm is based on open
+CV and tensorflow libraries we are using
+IP cameras which allows us to transmit
+the video from all of them at the same
+time the common Center application is
+created in Python language it's the user
+friend a platoon with a console
+graphical interface this solution is
+characterized by low resource
+consumption and speed of operation each
+key function of the program has a
+separate process that purely processes
+the necessary information collects data
+sends comments and renders the image
+from the camera's common center software
+consists of a set of screens with a view
+from all cameras and the visualization
+of the rover in two views mine
+180-degrees camera provides us with a
+wide view from the field our Rover is
+equipped with a multi-layer safety
+system main power distribution board
+consists of a power relays which can be
+switched off by the industrial-grade
+emergency button placed in easily
+accessible place hitting the button
+immediately cuts off the power supply
+roben eternal system is based on one
+communication module which receives
+steering data transmits telemetry and
+keeps communication with robot
+components every motor controller in
+Rover is designed by us controllers are
+performing speed regulation with
+advanced functions like acceleration
+control or current control eternal stink
+network uses can bus physical layer with
+our own protocol to communicate the
+Ethernet network uses power over
+ethernet we use special power over
+ethernet DC converters to power cameras
+with different supply voltage the
+mainstreaming communication channel is
+performed by subtle sideline easy
+cameras and Rover configuration uses
+ubiquity rocket m2 access points thanks
+to serial over IP modules and Power over
+Ethernet injectors base mast is
+connected to base station only with one
+Ethernet cable sensitive in cooperation
+with mechanics is creating a prototype
+of a special mobile laboratory dedicated
+in the science task we perform the test
+all the time to find the best way to
+determine the life existence of the MDRS
+see you soon at USC 2019

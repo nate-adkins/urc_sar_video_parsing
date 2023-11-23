@@ -1,0 +1,144 @@
+hi and welcome to UCO roller
+[Music]
+leaving our wearable suspension behind
+we went to a motorsport great carbon
+fiber rocker Boogie suspension achieving
+significant weight savings our Roku
+Boogie is the only versatile but it also
+ensures other Motors are protected
+thanks to the robust model holders which
+eliminate the chance of Auto spinning
+since the retire grip and processed
+machine intolerances our sixth wheels
+are the same trusted low pressure tires
+which work their necessary dumping to
+the system allowing Terror to inaugurate
+through a difficult terrain whilst
+maintaining high levels of grip the
+remote control driving operations are
+performed through 900 megahertz of
+frequency using ibus communication
+protocols and allow for precise control
+things are embedded speed reduction
+control is done in Vector space Link in
+our speed controls the complexity and
+active function allowing for easy
+conversion within human and computer
+control the science cache of the mini
+lap which has mechanical and chemical
+s in order to detect the presence of
+organic life this explained to two
+aspects when the Rover is over the
+design location the drill section here
+activates and retrieves soil sample and
+deposits it into the testing ration over
+here
+the testing Trails placed on a linear
+rail which will help it move underneath
+an array of sensors to measure the
+sample's acidity temperature and
+humidity
+then it will progressively move under
+five burets containing organic solvents
+to extract the organic material
+and the soil will then be discarded
+the sample will then be sent for
+analysis under the onboard spectrometer
+this year the UCL Rover is equipped with
+a new modular 5 degree of Freedom
+robotic arm which is driven by three DC
+motors once the promoter and a linear
+actuator each joint is equipped with an
+individual PID controller ensuring the
+size position control with minimal error
+within 0.1 degrees of the desired
+position the joystick interface
+facilities accurate control of the arm
+and is capable of switching between
+controlling and Cartesian and Joint
+spaces providing operator with a
+seamless and intuitive control
+experience
+real-time control using the joystick
+allows all required competition tasks to
+be performed with ease Additionally the
+incorporation with their inverse
+kinematics algorithm enables rapid
+movement of the end effector to its
+desired position and orientation
+major weight savings have been achieved
+by using carbon fiber tubes rather than
+the aluminum plates from last year we
+have strategically shifted a large
+portion of the weight of the arm towards
+the elbow so that the linear motor at
+the base takes most of the load
+the other linear motor from last year
+has been replaced by a DC motor combined
+with a cycloidal gearbox again saving
+weight
+the 19 to 1 reduction cycloidal Drive
+was manufactured in-house with CNC
+machined aluminum parts
+3D printed parts were used where finite
+element analysis deemed the loads low
+enough to do so Type 4 m is controlled
+by motor Mountain on top of the elbow
+bracket allowing the 350 degree range of
+motion
+an inner tube is inside of this forearm
+providing the movement transmission from
+the DC motor located behind the elbow to
+the wrist pitch this reduced the load
+towards the end effector thereby
+improving the effectiveness of our elbow
+joints the gripper is also presented
+with an improved design a set of bevel
+gears was installed to enable a 180
+degree range of motion for the wrist
+pitch tripling the dexterity of this
+joints compared to last year
+the autonomous system for the broke our
+goal is to navigate globally in 3D space
+between the target GPS coordinates it
+would in the local absorb obstacles
+before we discuss how the navigation
+works it's worth to mention the mapping
+we use firstly we have a global map
+which is constructed by analyzing the
+gradients from the satellite imagery
+secondly we have the logo map which is
+constructed by running the slam and
+switching RGB Point clouds that are
+extracted with onboard that that camera
+we use GPS to notify the location of the
+robot but we also fuse the local map we
+obtain in real time and the pre-loaded
+global map to reduce the uncertainty of
+GPS only localization
+the fuse map alongside the reading
+uncertainty is available to other nodes
+and acts as a single source of Truth for
+path planning to navigate the between
+the points we initially use a global
+planner to identify the trajectory then
+the local planner that given the cost
+map and the trajectory outputs the
+precise commands to the driving system
+as a backbone forward navigation stack
+we use Vox snap but we have extended
+with custom trained reinforcement
+learning algorithm that evaluates the
+risk behind each trajectory taking
+account the certainty of the fuse map
+the specific to Rainbow driving and the
+labs time in route finally we're using
+the folks lab to assess and intervene in
+the Rover made decision in real time UCL
+Rover uses different means of protection
+fuses sensors relays in conjunction with
+a kill switch then the distribution
+system to ensure that the roller
+operates in a safe Manner and when
+required is able to safely seize
+operation

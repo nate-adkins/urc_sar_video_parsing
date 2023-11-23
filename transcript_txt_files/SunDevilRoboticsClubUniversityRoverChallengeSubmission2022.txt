@@ -1,0 +1,136 @@
+[Music]
+we are cinderella robotics club at
+arizona state university based in tempe
+arizona usa
+i know i speak for all of our members
+when i say how excited we are to share
+our progress with you this year please
+keep watching to see clips and info from
+each of our five urc-focused sub teams
+the mechanical sub team is centered
+around creating a robust mobile platform
+for the rover the simple square frame
+and round legs are lightweight and can
+be completely assembled with simple hand
+tools the rocker bogey suspension system
+enables the rover to tackle difficult
+terrain ensuring that all six wheels
+remain in contact with the ground at all
+times and the sturdy roll cage protects
+all of the vital electronics and keeps
+out dust
+the legs of the rocker bogey system are
+coupled to the body through a passive
+differential bar allowing the two sides
+of the drivetrain to rotate
+independently of the body while keeping
+the body upright the chassis utilizes
+six powerful bldc hub motors with custom
+3d printed tpu tires that feature a
+compliant open cell design the tire
+design is easily replaceable and it
+isolates the chassis from any shocks it
+might receive while crossing uneven
+terrain
+this year our electrical sub team has
+worked on reviewing and updating all
+documentation of our systems we
+completed an in-depth analysis to make
+sure that our electrical systems are
+able to supply sufficient power to all
+other systems using this analysis we
+developed battery and motor
+specifications
+our rover is powered by 48 volt lithium
+ion battery power is distributed through
+various dc step-down converters that
+supply regulated voltage to components
+that run on 12 or 24 volts we also
+utilize fuses and circuit breakers to
+protect our components from any
+unexpected effects of over-current
+our team is using o-drive motor
+controllers for our arm and driveways
+brushless motors we will be interfacing
+with our motor controllers using can bus
+serial communications to simplify
+electrical connections and power
+distribution to our microcontrollers we
+are using a custom pcb that we call the
+compute stack our design is well
+protected and it is easy to access and
+replace electrical components if needed
+the robotic arm has six degrees of
+freedom for full manipulability and his
+joints are actuated by combinations of
+brushless dc motors brushed servos and a
+linear actuator this combination of
+different types of motors is optimized
+for each load to minimize the added
+weight while having a smaller motor
+footprint but maintaining enough torque
+to lift to five kilogram payload this
+also limits backlash and extraneous
+movement which is imperative for the
+equipment servicing mission where
+precise manipulation is required the rom
+is operated through a xbox one
+controller allowing for intuitive
+control in a compact and familiar
+package arm uses ros movement to read it
+read the desired workspace linear and
+angular velocity commands from the
+controller and performs inverse
+kinematics collision detection and
+singularity avoidance these calculations
+are performed in real time to determine
+the desired joint space configuration at
+each time step the information is then
+sent to 10c 3.2 microcontroller which
+provides low level joint position
+commands to the motors
+this year we've been working on
+integrating various data into our path
+planning algorithms including point
+cloud data from our z2 camera gps data
+and a cost map created from elevation
+data using our own software for live
+video feedback we decided to use esp32
+cam camera modules which will stream
+directly into our control station via
+wi-fi allowing us to monitor terrain
+hazards and arm movements
+we're also in the process of creating
+software to maintain the best possible
+wireless connection between our rover
+and base station by adjusting the angle
+of both antennas automatically
+our subsystem for the biology mission
+will rely mainly on a raman spectrometer
+built by our team using resources from
+the open source open raman project with
+additional data coming from our onboard
+cameras our spectrometer will be used to
+compare collected samples to known
+samples which only form the presence of
+life in order to obtain samples from the
+ground we will use a vacuum once on
+board the rover the sample can be
+analyzed via raman spectroscopy in a
+test tube contained in our sample
+carousel using a raman spectrometer we
+will obtain a spectrum of light that can
+be compared in an organic spectral
+database this will tell us the compounds
+that are present in the sample and we
+can compare this to life-supporting
+compounds to determine the presence and
+status of life on mars
+thanks so much for taking the time to
+view all of our hard work just like
+every year we put in our all and we made
+great strides we hope this is clear to
+the judges at urc and we look forward to
+hopefully touching down in utah
+[Music]
+you

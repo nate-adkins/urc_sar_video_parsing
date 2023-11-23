@@ -1,0 +1,88 @@
+for the electrical team we're primarily
+focused on the drive control and the arm
+control
+this year for the drive control we're
+using 24 volt dc motors as well as the
+talon srx motor controllers along with
+an arduino mega in order to control our
+rover and in order to control the drive
+control for the arm we're using
+nema 23 stepper motors as well as the
+dm542t stepper motor controllers as well
+as an arduino uno in order to control
+the arm and its movement
+the programming team works together to
+develop necessary programs and packages
+for ros or the robotic operating system
+which is the foundation of our code on
+board the rover we have an nvidia jetson
+nano which alongside an array of sensors
+handles important processes for
+autonomous navigation such as computer
+vision and simultaneous localization and
+mapping over a pair of ubiquity rocket
+m2 antennas this board talks to our base
+station machine where we send out
+controls receive data and monitor our
+systems over a custom gui
+in order to increase our ability to
+adapt to changing conditions with the
+pandemic we began diving deeper into
+robot simulation this year using a
+platform called webots using the
+simulator will enable us to prototype
+our code more efficiently and safely
+both in person and from home simulation
+will also be an important part of
+developing the inverse kinematics that
+will control the arm mechanism this past
+year the mechanical team has overhauled
+many components of the rover including
+the chassis rocker bogey and the
+manipulator the chassis of the rover has
+been redesigned using knowledge and
+experience gained from ad astra
+this year the chassis sports a frame
+made from t-slot aluminum extrusion to
+provide a solid structure for the
+manipulator and science module to be
+mounted to the chassis is being kept
+level through the use of a bar
+differential just like in previous years
+our rover mounted on the rocker bulky is
+the drive system which consists of six
+chain driven wheels
+these wheels have been 3d printed out of
+a flexible material called tpu meaning
+our wheels consist only of a single part
+instead of being a complex assembly like
+in years past this year we have fully
+redesigned our manipulator
+the intent behind this was to reduce the
+amount of play in the end effector our
+manipulator has six degrees of freedom
+many of which are being driven through a
+timing pulley or lead screw allowing for
+the precise positioning of the arm the
+end effector design is modified four bar
+mechanism driven by a lead screw and
+features semi-flexible grip printed at a
+tpu
+the science test module features a
+pulley driven auger system which will
+collect soil samples from a site of
+interest
+the soil is deposited into a collection
+tray where it will be mixed with water
+and analyzed for key organic compounds
+such as sulfate nitrate and ammonia as
+well as for ph
+once analyzed the soil solution is
+safely stored in a waste collection unit
+onboard the rover
+in addition the module is capable of
+detecting environmental readings such as
+temperature humidity and atmospheric
+pressure allowing us to better
+understand the habitability of a test
+site

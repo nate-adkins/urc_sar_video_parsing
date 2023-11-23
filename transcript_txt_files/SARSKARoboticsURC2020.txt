@@ -1,0 +1,121 @@
+[Music]
+[Applause]
+[Music]
+we are members of scare abadox part of
+space association of also University of
+Technology and for the past year we were
+hard at work developing and improving a
+mass rubber series the team consists of
+33 mostly undergraduate engineering
+students divided into four sub teams
+mechanics software and autonomy
+electronics and science work is
+conducted on weekly meetings and
+platforms such as discard trail and geet
+provide seamless collaboration on all
+levels depending on state to the project
+our work is summarized monthly on
+progress meetings or build tests from
+the beginning of the design process
+simplicity low mass and robustness were
+key factors this is why we used
+following the construction of aluminum
+frame and rockers as well as model our
+PVC
+electronics enclosure motors hidden
+within each of the custom wheels
+combined with a simple suspension of our
+own design allow us to keep a low center
+of mass and high clearance to easily
+manage rough terrain and steep slopes
+the 5 stage manipulator is capable of
+reaching over 1.5 meters and lifting up
+to 5 kilograms its movements are
+registered by a set of encoders which
+will be used in the implementation of
+inverse kinematics a mock-up panel for
+tests and mission simulation was created
+we design tools dedicated for different
+competition tasks such as turning screws
+and typing on a keyboard they are
+transported in a special container on
+the rovers mobile platform all design
+was aided by a usage of software such as
+SolidWorks ANSYS workbench and MATLAB
+most parts were manufactured in our
+workshop equipped with basic tools and
+3d printers tasks that required greater
+precision or specialized tooling were
+ordered in private companies the rubber
+softwood consists of two main parts the
+first one that we call a roller saw runs
+on the on-board computer and control of
+the roller
+the other part provides a rover controls
+interface that creates an intuitive
+environment for the operators it allows
+for precise movements of platform
+manipulator and cameras
+during various tests we developed a
+cameras layout that gives the operator a
+good spatial orientation over the last
+year we decided to upgrade our autonomy
+system and implement it using the robot
+operating system as a part of its design
+we prepared graphs showing the exact
+structure of the rows nodes it consists
+of our system uses data from encoders a
+gyroscope and a GPS sensor to perform
+the autonomous traversal tasks together
+with a given landmark and the shortest
+path search algorithm the system will
+calculate the quickest route to the
+destination we have also implemented
+ultrasonic sensors and a stereo metric
+camera to be able to avoid and maneuver
+around obstacles the air packs are
+detected with the help of deep neural
+networks that categorize detected punch
+angles as opposed to a traditional image
+processing approach the electronic and
+communication systems were designed with
+modularity scalability and redundancy in
+mind the rover is powered by leaking ion
+batteries a kill switch separates all
+power sources by contactors in main
+power and logic circuits series is
+controlled by two Nvidia Jason computers
+communicating in ground station using
+2.4 and 5 gigahertz of the shelf Wi-Fi
+communication systems to achieve
+redundancy and best possible reliability
+we have tested our communication system
+in the field and it's performance meets
+our needs
+the onboard devices are controlled by
+Arduino microcontrollers and vendors in
+custom circuit boards currently we are
+in the process of implementing stm32
+powered boats any container has been
+designed for the new electronics it
+consists of two modules one for the
+power system and one detachable
+containing all the rover logic bolts
+science module includes onboard
+laboratory with for liquid texts that
+detect characteristic particles of
+extant and extinct
+life-forms the science model is fully
+integrated with the rover after the
+lifting of the drilling device we can
+lower a sensor arm into the drilled hole
+to measure temperature and moisture of
+the sampling place we are able to store
+and analyze up to four samples the
+chemical composition of the rock samples
+can be determined by the use of
+diffractive optical spectra scope as we
+use hazardous chemicals safety
+especially the no spill policies our
+biggest priority so the injection device
+is very precise and hermetic

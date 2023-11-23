@@ -1,0 +1,149 @@
+hi I'm Rose aunt Ella president and
+Protestant for tire roller
+giant Rover is a URC focused design team
+and educational club based out of
+California State University Fullerton
+educational Club then was older Rover
+platforms in an effort to inspire future
+generations of scientists and engineers
+the design team sets out to design
+prototype and manufacture a competitor
+over for you RC after reflecting upon
+their past performance at you RC 2019
+tenth roller design team has challenged
+itself to redesign the robotics mobility
+and science subsystems I am proud to
+introduce Kronos the robotic arm was
+designed prioritizing functionality and
+manufacturability it features five
+degrees of freedom and CNC machine
+extruded aluminum tubing for structural
+members a separate motor coupled with
+the lead screw and two guard rails
+drives a vertical translation of the
+robotic arm while two other geared
+stepper motors drive two rotational
+joints to achieve rotation and the XY
+and Lexi planes a prismatic joint is
+used to extend and retract and adaptive
+to finger and effector a modular two
+finger adaptive end effector was
+designed to facilitate both clasping and
+encompassing of objects of interest our
+robotic arm can carry payloads of up to
+five kilograms of mass has the ability
+to touch the floor and reach up to
+service our Lander pull on a rope with
+the payload attached flip switches type
+on the keyboard and tying a captive
+screw
+this year the electrical system has the
+advantage of being highly modular with
+our components installed into removable
+aluminum housings the conductive housing
+acts as a Faraday cage protecting our
+sensitive Hardware from the harmful
+electromagnetic interference the
+Mobility sub team is responsible for the
+chassis drivetrain and suspension the
+mechanical foundation on the rover
+platform is space frame chassis was
+design so hood all sets of components
+while withstanding the static and
+dynamic loading conditions experienced
+during your seat competition tests the
+unique octagon little geometry of the
+spacer and chassis extensive platforms
+will base without exciting like the
+chassis it also establishes the wheels
+as the first point of contact in the
+event of collision with obstacles while
+transversion difficulty range we've
+reduced the side of the chassis till out
+for the entire rover to fit within a 1.2
+year
+I won't communicate without
+disassembling Saviour to ensure smooth
+operation from the base station we've
+incorporated a pan tilt camera system
+mounted on our antenna mast
+we have also overlaid IMU data on our
+camera feed for navigation through rough
+terrain for that we use a 4 33 megahertz
+and dual band mobile antenna which has
+given us approximately 1.6 kilometers in
+range through heavy interference on
+campus our base antenna uses IMU and GPS
+data to continuously track the position
+of the rover and maintain line-of-sight
+our autonomous system was designed using
+multiple test platforms to allow us to
+test anytime anywhere we use I'm use a
+centimeter accurate GNSS a 2d lidar a
+range finder and a stereo camera our
+stereo camera is used to track the AR
+tag as well as to provide depth
+perception
+perform 3d mapping functions our custom
+best first search algorithm continuously
+routes our path as new obstacles are
+encountered it uses light our odometry
+and point cloud data to adjust the speed
+and direction of their over we generate
+a concentric circles with waypoint lists
+two metres apart after a post is found
+the rotor rotates in place approximately
+two meters in both directions to search
+for the second post once located the
+rover centers itself two metres away
+from the gate and drives one metre past
+the post this year's science
+configuration will deploy an excavating
+arm into sites of interest for the
+extraction of soil the collected sample
+is then released into the soil
+distribution model where it will be
+incrementally dispersed for each
+experiment the rover will assess
+extracted samples by using microscopy
+and ion exchange chromatography for the
+detection of microorganisms microscopic
+imaging will allow for the visual
+verification of single-celled and
+multicellular organisms along with the
+potential of identifying convergent
+evolutionary characteristics that
+parallel the morphology of
+microorganisms found on Mars like
+environments to those found on earth by
+running the sample through an ionic
+exchange chromatography column any
+partly charged protein sample will be
+stuck to the beads and then subsequently
+be analyzed for the absorbance in order
+to be compared to naturally occurring
+protein complexes and their absorption
+spectra following the chromatography at
+the puree acid will provide a
+significant color change due to the
+chemical react
+of proteins with the puree reagent our
+Rover has been outfitted with
+qualitative tests for detecting life
+similar to that on earth by adding
+hydrogen peroxide to sediment samples
+the technique that is normally used in
+labs to remove unwanted organic content
+without damaging the sediment grains it
+is possible to detect catalase catalase
+is an enzyme that is found in nearly all
+living organisms that horns a protective
+barrier against oxygen for
+close-quarters analysis of geological
+samples the iron features a
+high-resolution camera at its extremity
+tight Rover stands ready with a
+rigorously tested platform we look
+forward to seeing you in Utah
+[Music]
+you

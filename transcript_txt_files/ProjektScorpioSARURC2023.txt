@@ -1,0 +1,128 @@
+hi we are project Scorpio and we are
+part of the off-road Student Association
+at rotsworth University of Science and
+Technology we come from different
+universities and consist of five
+different departments mechanics
+Electronics software marketing and
+Science in order to organize and store
+our project we use software such as
+Discord for communication Eagle for
+electronics design SolidWorks for
+mechanical design GitHub for software
+cooperation and click up for task
+distribution Scorpio 7 has a dependent
+four-wheel rocker suspension system
+Rockers are connected by two triangular
+levers linked by a beam it can cross
+extreme terrain such as obstacles up to
+the diameter of the wheel a very low
+Center of mass allows us to overcome
+steep angles up to 45 degrees driving
+module features all-wheel drive with
+bldc motors which help the Rover climb
+slopes in the extreme retrieval and
+delivery mission
+to provide good traction we use custom
+tires made with Cordura fabric
+the driving module is equipped with a
+visible kill switch that cuts all the
+power in case of emergency
+the robotic arm has six degrees of
+freedom it's designed with the use of
+planetary and harmonic gear reducers to
+maximize precision and stiffness it has
+a maximum range of 1.2 meter and can
+lift up to 5 kilograms on maximal
+extension grip is moved by lead screws
+give a satisfactory grip strength to
+complete all necessary tasks we will
+mount a hex key at the effector
+for keyboard typing we use special
+preset move to avoid repeating same
+characters during typing
+to minimize chance of collision we have
+created Rover 3D visualization as well
+as a widget calculating distance to the
+nearest obstacle
+as main construction materials we used
+carbon fiber aluminum and pet G to
+provide necessary strength to mass ratio
+for comfort of our operators and better
+spatial visualization of robotic arm
+without visual input we have
+Incorporated widget allowing us to see
+current manipulator position in relation
+to Rover core
+for faster movement of manipulator into
+determined positions we developed
+presets for default drive and excavation
+modes
+for precise typing and moving objects we
+have Incorporated 3D inverse kinematics
+and special task specific presets of
+robotic arm
+for better calibration of PID parameters
+of each joint our team Incorporated
+absolute encoded data of each joint
+it also makes it possible to calibrate
+the robotic arm position with our
+software
+for the faster change from the robotic
+arms gripper to the Digger our team
+constructed a quick disconnect
+foreign
+system is based on 2.4 gigahertz Air Max
+technology suitable for long-range
+applications
+tcpip protocol is used to send data
+between two radios
+consist of five cameras Drive camera
+navigation camera with two degrees of
+freedom two stereo cameras for autonomy
+tasks and measuring distance and
+mannequin with view on the gripper
+our Rover is powered by 22.2 voltage
+Lithium Polymer battery pack with total
+capacity of 18 ampere hours
+every PCB made by us has over voltage
+over current and reverse polarity
+protection
+as our main computer we use Nvidia
+Jetson agx orange supported by Raspberry
+Pi to connect every computer camera and
+other heavy traffic modules we use an
+Ethernet link other modules such as the
+robotic arm drive gnss and science use
+can bust to provide robust communication
+widgets in our custom app allow us a
+quick diagnostic of an issue and speed
+up fixing process
+for autonomous navigation we utilized
+slam principles our software detects
+obstacles and updates the terrain map in
+real time
+path planning algorithms take constantly
+updating Maps into consideration leading
+us safely towards the goal Point AR tags
+can also be detected and their
+coordinates can be put on a map
+we can navigate to any of the detected
+AR tags
+to complete the science task we've
+designed a module that will be mounted
+in the front Mast of the Scorpio Rover
+our planned analysis consists of using a
+Roman spectrometer of our own design
+spectral data received from this
+scientific instrument will be crucial
+for examining the chemical composition
+of the sample the science module also
+has a microscope to give us the
+possibility of examining the soil on a
+micro scale it allows us to find
+potential sightings of bacterial
+activity in the collected sample
+[Music]
+foreign
+[Music]

@@ -1,0 +1,144 @@
+team inferno dtu is a group of 40 highly
+motivated undergraduate students from
+delhi technological university india for
+better management the team has been
+divided into five sub
+namely mechanical electrical software
+science and culture overcoming the
+impediments of previous iterations this
+year we are proud to present our latest
+rover novus
+os is equipped with a double rocker
+suspension which provides better
+mobility than the conventional rocker
+boogie suspension to ensure maximum
+contact between the wheels and the
+surface at all times
+novus is equipped with a custom double
+locker suspension that provides better
+mobility than the conventional rocker
+bogey suspension ensuring maximum
+contact between the wheels and the
+surface at all times considering the
+spatial constraints a bar differential
+mechanism has been pivoted at the base
+near the center of mass for better
+stability and control this theory of
+design and fabricated custom wheels
+consisting of a layer of acrylic sheet
+followed by rubber foam and a final
+layering of traits for better traction
+control it helps surpass obstacles up to
+30 centimeter high we have designed a 6
+degree of freedom robotic manipulator
+that is equipped with a carbon fiber
+links providing high strength to weight
+ratio worm gears are housing gearboxes
+preventing them from disengaging further
+the linear actuators have been finalized
+so as to provide better mobility of the
+arm
+the embedded subsystems of novus have
+been designed to maximize efficiency and
+compactness
+a modular electrical box has been
+manufactured to provide easy access to
+all the electrical components and also
+robustness to all the electrical
+connections
+the intelligently selected kill switch
+mechanisms provide with a foolproof
+safety system for the whole electrical
+and electronic subsystem the custom
+designed pcb bring modularity to the
+oral system by eliminating the
+possibility of connection failure due to
+the movement of the arm and optimizing
+the merit of the fire two lithium
+polymer batteries or 16000 mh east
+boasts up to the 90 minutes of runtime
+to successfully establish connection
+between the jetson nano and the
+microcontrollers the raw serial library
+has been used the joystick has been
+mapped for smooth rover control the ros
+navigation stack has been used in
+conjunction with our priority-based
+algorithms to provide autonomous
+traversal capabilities to the rover the
+ros navigation stack receives obstacle
+detection data the air tech detection is
+being done using airlock package which
+is lost package and according
+instructions is being passed to the
+rover when the air tag is detected the
+rover moves on to the next given gps
+coordinate the inverse kinematics model
+is being used in which ros framework
+move it is used to allow final movements
+in the robotic arm for maneuvering and
+repairing tasks there are three usb
+webcams mounted on the arm which are
+providing live camera feed on the base
+station for controlling using joystick
+the rover's orientation and precise
+location on difficult terrain are
+provided by imu and gps the encoded
+ticks from motor encoders are utilized
+to provide odometry data for the
+construction of a 2d cost map using
+mathematical equation
+the waypoints recorded from the
+combination of gps and imu are passed to
+move base node for the completion of
+autonomous navigation missions kinect is
+being used for depth sensing for
+creating a 3d cost map helping us in
+obstacle avoidance and path planning to
+reach the goal
+the science task aims to perform and
+analyze a given sample of soil using a
+plethora of chemical tests and sensors
+in order to detect the presence and
+absence of them
+our module is powerful enough to detect
+the presence or absence of biomarkers in
+real time our test includes a
+spectrophotometer analysis of soil as
+well as thermal imaging and ir scanning
+to examine soil structure and
+composition
+the biggest challenge with these
+missions is the need for rapid results
+that determine whether or not life
+exists keeping these requirements in
+mind we have selected chemical tests to
+examine molecules such as starch
+sulfates lipids dna and ammonia to
+determine whether or not basic life
+exists a microscope of high resolution
+is also used to detect earthworms and
+closely examine the soil texture
+novus is outfitted with gas sensors such
+as co2 co methane and oxygen since light
+carbon molecules are volatile and are
+likely to be present in any life form
+the tests are also backed up by ph
+analysis which will help us to see the
+overall habitability of the soil
+novus testing strategy is divided into
+three phases pre-production
+post-production and optimization
+we used simulation softwares like ansys
+proteus and gazebo to optimize our
+design throughout the pre-manufacturing
+stage we employed the rover's subsystems
+independently for post manufacturing
+testing and evaluated them in a
+simulated environment at our college
+facility
+by employing novus in all conceivable
+urc missions as part of the optimization
+process we were able to reduce the
+discrepancies between design and
+practicality

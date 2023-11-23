@@ -1,0 +1,135 @@
+welcome to the Oh yer over team and the
+rover which we hope to take to
+competition in Utah the oh you has a
+mass society and 30 members of the oh
+you Rover team mostly undergraduate
+engineering students with some
+postgraduate students in fields of space
+science the Open University is a unique
+educational institution offering the
+opportunities for study later in life
+and a really cost-effective way to earn
+a degree as a young person - in addition
+the Open University is one of Europe's
+leading space science research centres
+involved in major European Space Agency
+missions from the famous rosetta mission
+to land on a comet like the Beagle 2
+mission to Mars
+2x a Mars which will see the first
+European Rover on Mars so in our first
+year of trying to compete in URC we
+wanted to make some of the mechanical
+things as straightforward as possible so
+we're using extruded aluminium for the
+frame of the rover which makes it easy
+to go through rapid iterations and to
+make some modular sections as well we've
+got four brushless DC motors powering
+the propulsion the wheels are 30
+centimeters in diameter are quite large
+and we had to come up with some kind of
+customer solution for tread they are
+foam filled so there's no inflation but
+yet they're soft enough to deform around
+objects such as rocks and covered in
+rubber and plastic we tested various
+types of wheels in the Mars yard and
+over Hard Rock's hard basalt rocks and
+the initial wheels that we had didn't
+work so well they were too hard so these
+wheels are softer and allow us to
+navigate over hard rocks the suspension
+it made with gas struts so that the
+wheels remain flat as they're navigating
+obstacles so the roller must perform
+complex tasks are set out in the
+competition rules so to make sure that
+we can be successfully and complete all
+the tasks we built out comprehensive
+software stack so this ensures that we
+can control the rover remotely
+manipulate the arm and the gripper
+control significant equipment take
+remote imagery and drive live video
+feeds we have also equipped the rollaway
+4 cameras for still imagery and two
+video cameras for live video feeds to
+make sure that we get all the data to
+our base station we have a provision for
+radio communication which goes over four
+frequencies to four video feeds and two
+for uplink and
+communication so the heart of the rover
+will be a Raspberry Pi 3 and this will
+be powered by a 12-volt battery with a
+DC to DC converter these 12-volt
+batteries will power the PI and all of
+the scientific instruments and all of
+these instruments will be able to
+complete the task for us we also have a
+custom electronics box made by proto
+case our sponsors who've kindly given us
+$2,000 of funding and this will house
+all of our electronics and protect them
+from the dust and potential rain we
+finally have a manual kill switch on the
+rover and this kill switch will be able
+to stop the rover in its tracks in case
+of any potential damage
+we've put lots of thoughts in sight
+acquisition and assessment the panorama
+image at a distance of 20 meters will
+show sufficient detail to really
+determine the stratigraphic column and
+using the same camera at a distance of
+less than 20 centimeters will enable us
+to make a good guess at the grain size
+and the minerals present and from that
+the history of water when society is
+acquired the rover will use an auger to
+drill to a depth of at least 10
+centimeters discarding soil from the
+first drill soil from beneath 10
+centimeters will be collected and
+channeled into the sample containers
+containment in the carousel the rover
+will be able to carry out a pH test and
+carbonate test in situ and the
+subsequent samples will be retained
+unsealed and returned to the lab one of
+the tasks for the competition is known
+as the equipment servicing task this
+task requires a robotic arm which we've
+made custom this robotic arm has
+multiple degrees of freedom including 4
+actuators and 2 DC motors this will
+allow us to be very flexible with our on
+and 2 minute manipulate objects such as
+free drivers draws and trades the
+robotic arm is currently being machined
+and ready for competition the final
+iteration will have less material making
+it lighter but the same design utilizing
+linear actuators a lever system which
+minimizes the length of actuators
+required our differential to achieve the
+final two degrees of freedom and end
+effectors with the reader over 1 meter
+the powerful arm can lift objects with 5
+kilos and place them in a collection
+tray where we use
+extreme retrieval tasks Robo has the
+ability to retain GPS coordinates and
+protocols for obstacle detection and
+avoidance using Python and OpenCV we
+created a program for object detection
+using the rope as peripheral cameras an
+image will be received by the robot and
+transmitted through the function if was
+detected the rover will return a
+confirmation message of the detection as
+well as an annotated image of the
+detected object
+[Music]
+[Music]

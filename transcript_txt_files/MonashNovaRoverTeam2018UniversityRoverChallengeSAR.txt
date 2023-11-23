@@ -1,0 +1,131 @@
+[Applause]
+good night welcome
+[Music]
+we're a newly formed team from Monash
+University Melbourne Australia over the
+past year our team has been hard at work
+designing two Rovers a prototype and a
+competition robot the prototype was used
+to trial different mechanical and
+electrical systems which have since been
+successfully implemented in a final
+robot the Rovers drive system uses a
+simple double wishbone design with
+thousand springs which allows the rover
+to maintain maximum wheel contact with
+the ground ever on motor fields or soft
+sand by mounting a wheel on a blue house
+using three depended will centers
+we're able to protect the motive against
+any rocks or degrees the rover my
+account is during the competition this
+year we're employing our very own custom
+designed to access Holliston volga
+enabling the subsurface collection of
+soil samples up to a depth of 20
+centimeters this allows us to medically
+seal caches onboard the rover and then
+measure in situ temperature moisture and
+dielectric permittivity once we bring
+the samples back to base we will then
+conduct a barrage of Biochemistry
+analysis looking at presence of
+carbohydrates lipids peptides and
+sulfates included into this will be a
+Gram stain microscopy and a pee stain
+solution looking at the presence of
+nucleic acids will be employing a Raman
+spectrometer ATR need for red
+spectrometer and fluorescence microscopy
+to analyze the presence of any minerals
+that might form under flugel conditions
+or bio signatures relevant to the search
+for life on Mars the robotic arm is
+designed to provide a highly flexible
+and dexterous solution including five
+degrees of freedom the arm can be
+positioned in any orientation
+surrounding the rover the main lifting
+force in this arm comes from two
+independent
+900 Newton linear actuators with
+modifiable linkages to provide
+trade-offs between force and joint
+flexibility when screw gear motors are
+used to provide precise positioning and
+a continuous rotation joint allows the
+core end-effector to rotate infinitely
+the claw end effector has been developed
+around a modified v bar linkage and
+allows birth position and angling of the
+core joint this allows an encompassing
+grip on circular objects with three
+contact points as well as orthogonal
+gripping of flat faced objects from 30
+ampere will peak discharge to arm
+actuation feedback from each motor was
+critical for monitoring
+power consumption position and a stem
+our autonomous traversal system each
+major actuator has current senses to
+provide remote feedback as well as fuses
+voltage regulators ensuring constant
+power across the whole system our system
+relies on the ability rocket m5 which
+operates on a 5.8 gigahertz transmission
+as a primary communication system this
+covers the 360 camera feed system
+feedback and control with low latency
+and minimal interference as a
+contingency plan will also be
+implementing a 900 megahertz
+transmission system to be incorporated
+as the failsafe we're using the robot
+operating system for our software suite
+and what this allows us to do is develop
+all of our programs and functions
+independently how different sub teams
+can work on these by themselves and then
+test their programs with various inputs
+for our situational awareness of the
+rover we're implementing a 360 camera
+and an array of webcams
+and we're accessing these via a unity
+interface this allows us to use VR
+technology such as the oculus rift to
+connect to this and provide an immersive
+environment for the user our unity
+interface also implements a GPS map
+which shows the location of the base
+station along with the location of the
+rover at any point in time so to control
+that robot arm we are implementing an
+inertial controller with force feedback
+this will allow a robot arm in the
+end-effector
+to track the pose of the operators hand
+our autonomous navigation procedure is
+broken up into three layers the highest
+level is a analysis of a premade height
+map of the area we look at all of the
+GPS locations within a grid over the map
+we look at the slopes at each point and
+then we generate a route between
+the starting point and the finish point
+taking the lowest slope at any stage
+then we move to the second layer which
+is the lidar the lidar mounted to the
+front of the rover looks at the local
+geometry what's the obstacles Rock
+Hills has anything in the way it finds a
+way to move around it to return to the
+original planned route and for the third
+layer we need to find this thing
+the rover engages in a search pattern it
+moves around until it locates the tennis
+ball and then once it has it will
+maintain the position of the tennis ball
+within its field of view and move
+towards it until reaching a certain
+distance at which point the rover will
+stop

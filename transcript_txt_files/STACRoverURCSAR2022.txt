@@ -1,0 +1,114 @@
+hello my name is michael sanchez and i
+am the team lead for the rover project
+at space technologies at cal
+this year our team consists of 16
+members whose majors range from
+mechanical engineering and computer
+science to biology and physics
+given that this is stack's first time
+participating in the university rover
+challenge and that we did not previously
+have a physical rover
+our main focus since last semester has
+been the rapid design and prototyping of
+a thoughtfully engineered rover that we
+feel will be fit for the field test
+while so early in the integration
+process we have begun the progress of
+testing many of our mission critical
+components and have been developing the
+control and command system while waiting
+for the rest of our parts to arrive
+our first iteration is a scaled down
+version of our rover which allows us to
+develop the controls needed for the
+extreme retrieval and autonomous
+navigation missions
+our next iteration will include the
+fully machined body and proper
+suspension system hi i'm ritu parmesh a
+sophomore studying electrical
+engineering and computer science i'm the
+team software lead and we have been
+working on implementing controls for the
+rover and autonomous navigation using
+simultaneous localization and mapping
+algorithms
+our current design of the control system
+sends the user input either through a
+joystick or keyboard control
+to a microprocessor and converts it to
+motor commands for the robotic arm and
+drive motors it also transmits the
+camera view back to the operator so that
+they can see their surroundings while
+driving remotely
+the rover uses pid control loops for
+precise movement and error adjustment as
+well as an inverse kinematics framework
+for operating the 4 degrees of freedom
+robotic arm
+our autonomous navigation uses an
+extended kalman filter that combines
+input from the gps imu
+wheel encoders and stereo camera to
+perform slant
+we test our controls and navigation
+algorithms in the simulator and we'll
+continue to test
+our code
+my name is sean assar i am the
+mechanical lead for ai rover at space
+technologies at cal
+and how we have prepared for this
+competition is by taking the mission and
+objectives for this challenge and
+basically reverse engineering to create
+the most optimal design for the job
+we have designed a rocker bogey system
+that acts as the main suspension
+for the rover while keeping the dynamic
+movements of the chassis at an all-time
+low
+speaking of the chassis we use 5052
+aluminum to create a lightweight yet
+strong body to house our components
+the arm was designed
+with carbon fiber to pick up objects up
+to five kilograms while not tipping the
+rover or compromising the mission and
+our wheels are a flexible honeycomb
+design that are going to be 3d printed
+at jacobs hall
+and in essence they're going to act as a
+second suspension system because they're
+going to absorb some of the shock along
+with the rocker bowie suspension here we
+have a cat drawing of the chassis
+and as you can see the triangular
+cutouts
+as we talked about in the
+report so these are there to pretty much
+cut weight off
+along with aesthetics
+along with
+cooling
+of any hardware components that are
+housed inside
+and this top plate
+also comes off and it's also covered um
+on this side
+here is the rocker bogey suspension so
+three wheels will be
+um mounted on this and this is one of
+two so in total six wheels
+and this will act as the suspension
+here is the
+housing for the camera module
+we actually have this 3d printed
+and in our prototype
+and then here is the wheel now the
+honeycomb design
+once again will act as a second
+suspension
+bye

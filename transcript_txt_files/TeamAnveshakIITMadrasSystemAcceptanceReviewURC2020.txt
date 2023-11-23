@@ -1,0 +1,86 @@
+We are Team Anveshak, a group of 
+20+ passionate students from IIT Madras,
+whose vision is to create a 
+state of the art Mars rover.
+After a strong performance
+with Caesar in URC 2019,
+we present this year's
+contender - Dark Knight. 
+Inspired by Caesar, the core subsystems have been 
+retained with a healthy dose of optimisation and improvements. 
+The mechanical module set out with the main goal 
+of optimising to attain a higher degree of precision.
+To achieve this, each mechanism was extensively 
+analysed and its performance judged.
+For traversing rugged terrain, the rocker-bogie 
+system was redesigned from the ground up.
+We modelled the system in MATLAB and 
+designed it to perform well in bumpy terrain.
+The rocker and bogie links are made of custom fabricated carbon fibre
+for its strength to weight advantages.
+The entire motor was shifted within the wheels for increased safety. 
+To reduce the weight and maximum load, the bar differential
+was redesigned to couple with the rocker-bogie at an angle.
+In order to enhance modularity, 
+the chassis framework has been implemented
+to switch from Science to Manipulator mode and back.
+Our 5 Degree of Freedom articulated manipulator is robust
+and capable of performing a variety of tasks.
+We have re-engineered several of the couplings
+to reduce undesirable vibrations that make control difficult.
+To further improve its capability,
+we performed workspace calculations and increased the link lengths.
+The end effector now reaches 38 cm below
+and up to 1.1 metre above the mount point of the arm.
+We have experimented with an adjustable worm 
+gearbox to improve meshing of the gears. 
+We have implemented an end-effector with 
+both encompassing and pinching grips
+to grasp a large variety of objects with ease.
+It is an underactuated 5 bar mechanism with mechanical constraints
+to activate pinching grip when a tip to object criteria is met.
+The entire circuitry, powered by two 24V lipo batteries,
+is housed in a modular electronics box.
+The Jetson Nano forms the core of all the computations on the rover.
+It interfaces with two networks of STM’s that 
+communicate over an I2C and a CAN bus.
+The shift to CAN bus for the manipulator 
+reduced noise in the communication.
+The PCB’s were custom designed to enable 
+modularity in operations for easy assembly and debugging.
+Four cameras are placed at optimum positions for different operations
+like picking up, servicing and traversal.
+Feed from any two selected cameras provide 
+realtime view of the surroundings of the rover.
+In addition, our ROS-based GUI allows us to easily setup,
+monitor and debug the rover’s operation.
+Our communication setup consists of a 
+directional antenna at the base station
+and an omnidirectional antenna mounted 
+on the rover operating at 2.4 GHz.
+The setup is capable of communicating over a distance of  1 km,
+even in the absence of a line of sight.  
+For the autonomous task, a control algorithm is implemented
+to continuously align the rover towards the destination direction
+based on the data from an IMU sensor and a GPS module.
+The ROS wrapper of Alvar is used for the AR tag detection
+and a search algorithm based on spiral 
+navigation is in its testing phase.
+A stereo camera which gives a 3D map of the 
+surroundings is used for obstacle avoidance.
+The science setup consists of two parts -
+the onboard laboratory and the soil collection mechanism.
+The soil collection module is a 2 degree of freedom open chain system
+which digs into the soil using a scooper and deposits it to the lab
+via combined motion of the scooper and a linear actuator.
+To support our initial tests of proteins and lipids, 
+tests for carbonates and ammonia 
+were added to differentiate between the soil samples accurately.
+Data from the temperature, pressure, humidity and luminosity sensors
+help us determine if physical conditions are 
+conducive for the existence of life.
+The microscope onboard with adjustable 
+focus is used to determine the physical attributes
+such as colour and texture of the soil and rocks.
+Cameras placed at different positions of the laboratory
+provide a live feed of all the operations taking place.

@@ -1,0 +1,143 @@
+we are team Pegasus from the University
+of Southampton and this is our Mars
+rover in this systems acceptance review
+video for the University Rover challenge
+we will outline how we hope to be the
+UK's first successful engines to the you
+RC in Utah this summer our chassis is
+built around aluminium experts offer a
+sturdy frame the adaptability needed to
+alter our Rover between competition
+tasks our suspension system is based
+around the rock iboga design and it's
+built from curved stainless steel plates
+and aluminium bracing making it a strong
+and lightweight design with enough
+clearance to tackle the obstacles that
+we found at Utah the rocker-bogie design
+relies on differential form before bevel
+gears this allows the rover to keep all
+six wheels on the ground
+while tackling obstacles on the extreme
+retrieval task or maintaining a level
+chassis our wheel design which is
+currently being manufactured with the
+help of protocol consists of an
+aluminium spiral spoke and rim with
+rubber Krauss's industrial partners
+Airbus defense in the space
+I felt us optimizer designed to grouses
+or give our Rover increased traction on
+the sand and loose soil we will need to
+traverse in Utah testing on hard
+surfaces and while the new wheels being
+manufactured the rover is equipped with
+modified go-kart wheels with specially
+designed 3d printed wheel hubs that
+offer a modular design that will allow
+us to easily swap between the two sets
+of wheels
+we've designed a five degree of freedom
+arm and wrist assembly that will give us
+the strength and dexterity needed for
+the extreme retrieval and equipment
+servicing tasks three linear actuators
+control the angle of your linkages while
+the rotating base allows the whole arm
+to turn through 360 degrees our wrist
+design allows us to control the
+orientation of the gripper to precisely
+manipulate objects and our 3d printed
+gripper is a multi-purpose four bar
+linkage design that will allow us to
+pick up and move objects and extreme
+retrieval and equipment servicing tasks
+we have tested our grip on a three
+degree of freedom prototype arm which
+allowed us to test our control software
+and range of motion our new arm has
+significant weight savings with improved
+range of motion and increased dexterity
+for communications we have installed a
+long distance Wi-Fi antenna on both the
+rover and the base station we have
+calculates our communication systems
+will provide us around 40 megabits a
+second of data transfer more and
+sufficient for video streaming across
+all tasks safety is a critical part of
+electronic systems which includes
+overcurrent protection and a lipo
+battery alarm this will warn us against
+potential battery on our function and
+over discharge to ensure your lectrons
+main safe for all time we are using a
+module electronic system to enable parts
+to be tested separately this will
+accelerate the design process and allow
+us to quickly change focus between tasks
+we are using the ross framework as it
+offers many pre-built packages and
+greatly simplifies data transfer between
+the rover and the base station the
+autonomous traversal tasks are over
+we'll use an extended Kalman filter
+fusing sensor data from the onboard
+accelerometer gps unit and wheel
+encoders along with visual odometry from
+the cameras we will use this and depth
+sensing from our front mounted Kinect
+camera for simultaneous localization and
+mapping using pre-built ross package
+once we near our goal we use OpenCV to
+identify the tennis ball marker at the
+end position and determine its distance
+from our rover to test our sensor fusion
+techniques and bottomless navigation in
+a safe environment we have developed a
+simulation of our Rover and gazebo this
+simulation has been verified with
+physical testing traversing difficult
+terrain we're looking for signs of life
+in the science tasks it's practical to
+look for optimal conditions this means
+looking for evidence of liquid water
+such as channels and valleys once a
+promising site has been selected context
+and a stratigraphic profile will be
+captured using onboard cameras and earth
+orgo will be used to collect the sample
+from below the surface this will be
+stored in a sterile sealed plastic
+container for transport to the base
+station onboard testing consists of a
+soil probe with sensors for temperature
+moisture and pH at the base station the
+sample will be tested for biomarker
+macromolecules such as proteins and
+lipids
+using staining and fluorescence
+microscopy lipids are more resistant to
+degradation the nucleic acids and
+proteins so more likely to be preserved
+commercial test kits will be used to
+identify nitrates phosphates and
+potassium
+in the sample and hydrochloric acid we
+use the test for carbonate which can be
+signed the historic liquid water we have
+been extensively testing our Rover and
+its components over the last year we
+have built rigs to destructively test a
+prototype differential and wheel hub
+this will ensure these crucial
+components can withstand the forces
+required to compete in the URC our
+testing plan culminates in taking our
+robot to Airbus's Mars yard the testing
+facility of the ExoMars Rover developed
+by the European Space Agency this is a
+great opportunity to fully showcase our
+Rovers capabilities in a
+state-of-the-art facility thank you for
+watching we are team Pegasus

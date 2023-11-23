@@ -1,0 +1,126 @@
+we are aj space systems from krakow
+poland our team consists of 23 students
+from various fields from mechanics to
+geology
+a rogue karma is a product of five years
+of development and learning
+one of its unique features is high
+modularity which allows us to build test
+and integrate entire subsystems without
+suspending the rover's operability the
+rover suspension is a rocker design made
+of aluminium alloys and composite
+materials
+each wheel can be independently steered
+which allows us to control the rovers
+very precisely
+including rotating in place driving in
+arcs sideways and diagonally the wheels
+were printed from tpu which provides
+them along with their honeycomb
+structure with properties perfect for
+rough terrain
+the new 6 degrees of freedom manipulator
+features harmonic gears bldc motors and
+a decentralized control system ik
+algorithms greatly speed up its
+operation
+the new more ergonomical and powerful
+robotic reaper is in an advanced stage
+of development
+the previously used proven in battle
+5dof arm is still being maintained and
+improved
+and can be easily leveraged in case the
+new arm fails
+the rover and arm can be controlled at
+the same time with two standard gamepads
+independently controlled turning points
+oil asked to quickly reposition entire
+rover to reach different elements on the
+servicing panel the team has prepared a
+mock-up panel where operators are timed
+on completing a series of tasks such as
+placing objects in a drawer or typing on
+a keyboard it also allows us to
+fine-tune the position of cameras used
+during these tasks
+a 3d printed rack system allows us to
+instantly replace batteries and easily
+monitor their condition
+similar mountings for pcbs make the most
+crucial electronic boards easily
+accessible and improves heat management
+each pcb has its own backup tested and
+ready to be mounted in case of an
+emergency the rover has been fitted with
+an easily accessible red emergency
+button which physically breaks
+connections to the batteries completely
+and instantly shutting off power
+the new ground station application makes
+it possible to control each
+functionality of the rover visualize its
+states and instantly change between
+various driving modes making ground
+station as a web app allows us to run it
+on almost every device and drastically
+increases speed of development
+our autonomous system is based on ros
+packages that were adjusted and modified
+to outdoor environments we test the
+autonomous traversal in a variety of
+difficult real-life environments to make
+sure that our system works irrespective
+of terrain type or weather and lighting
+conditions we also make extensive use of
+gazebo simulations
+a continuous integration system
+significantly speeds up development by
+reporting most bugs before the software
+is deployed on durable
+the localization algorithm is based on
+imu and gps rtk which ensures up to five
+centimeter accuracy
+data from the sensors is then merged by
+extended kalman filter
+for mapping purposes we use an ir based
+stereo camera to generate a slow
+sensitive cost map
+fast and robust computer vision
+algorithms are used for detecting and
+localizing arugula
+during science tasks soy samples are
+collected with dedicated scoop and
+defector and placed in sea level
+containers
+the army movement is automated in order
+to save time
+soil solution is then prepared and
+exposed to a series of chemical tests
+which can detect the presence of various
+biomarkers
+a wide angle panorama of the sampling
+site is easily captured thanks to the
+rover's ability to turn in place
+for inspecting rock sandals an ultra
+zoom camera is mounted on the gripper
+both camera and the onboard lab are
+easily detachable to save mass during
+other missions
+all of the rover's subsystems have been
+thoroughly tested before integration
+while regular test drives allow
+operators to perfect their skills well
+before finals in utah
+each year we take part in numerous
+science fairs and organize a scientific
+conference on space mining
+last all we also organized our own
+two-day workshop on roles for
+underground students
+none of this would be possible without
+support from our university ministry of
+education and science and private
+sponsors
+thank you see you in space

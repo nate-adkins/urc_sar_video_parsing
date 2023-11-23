@@ -1,0 +1,144 @@
+Brigham Young University's 2019 Rover
+has been reimagined with a unique in
+robust design purpose-built to excel at
+missions with improved mobility
+durability and autonomy our
+multidisciplinary team of 40 students
+comes from nine engineering and science
+disciplines and spent this year focused
+on learning and improving from our past
+challenges our team has never been more
+confident
+weighing in at 49 kilograms in 120
+centimetres square the rover can be
+configured for any mission in under ten
+minutes the electrical system is powered
+by 12 lithium polymer batteries a custom
+PCB keeps the electrical system simple
+and serviceable and can be interrupted
+with an external kill switch we also
+implemented a method for cycling the
+power to individual subsystems such as
+individual wheel controllers to account
+for unexpected failures in the field
+the rover uses a 900 megahertz
+omnidirectional vertically polarized
+antenna to communicate with the base
+station the base station uses a three
+meter vertically and horizontally
+polarized directional antenna we
+developed a system for this antenna that
+automatically optimizes antenna
+direction for strongest signal enabling
+line-of-sight and obstructed
+communication at distances of over one
+kilometer this year the science sub team
+created a new science module to meet the
+revised mission requirements our first
+life detection method involves powerful
+cameras and microscopes the primary
+microscope uses 1,000 times
+magnification and allows us to visually
+identify pollen spores and other large
+single-cell life-forms optical filters
+added to a pair of cameras take
+advantage of spectral reflections from
+chlorophyll to identify where
+photosynthesis is taking place
+biochemists and geologists on our team
+also use live feeds from these optical
+instruments to recognize signs of life
+extinct or extant that less strained
+eyes might miss our second method is a
+spectral instrument that detects flavin
+adenine dinucleotide or FA d an electron
+acceptor ubiquitous and known life this
+non-invasive technique can identify even
+the small amounts of fa d present in
+crypto biotic crusts our final method
+uses a collection of growth chambers
+soil samples are inserted into each gas
+tight chamber with YPD nutrient broth
+and a highly sensitive co2 sensor when
+organisms metabolize changes in co2
+concentrate
+are detected because the chambers are
+gas-tight the risk of a spill is low all
+instruments are calibrated with a series
+of standards developed in conjunction
+with PhD biologists our redesign chassis
+features a true rocker-bogie system a
+lowered center of gravity makes it
+possible for our rover to ascend
+inclines in excess of 45 degrees the
+differential bar spanning the two
+rockers redistributes forces while on
+uneven ground for better traction and
+control a redesigned custom tread
+creates consistent ground contact to
+prevent bouncing while keeping deep
+pockets for gravel and sand terrain
+independent wheel control also helps
+provide slip control on steep terrain
+this redesigned system provides better
+traction torque balance and speed so
+that obstacles can be tackled quickly
+and efficiently it also provides over 60
+minutes of runtime and a travel distance
+of over two kilometers the rover can be
+outfitted with a robotic arm for
+manipulating objects the strong
+lightweight arm has 6 degrees of freedom
+and is mathematically optimized for
+maximum range of motion the arm can lift
+a 5 kilogram mass when fully extended
+directing the rover to perform quick and
+precise movements is intuitive with our
+newly implemented inverse kinematic
+control the wrist compact bevel gearbox
+can execute complex motions including
+placing objects turning a screw typing
+on a keyboard or operating a joystick or
+crank despite taking first place in the
+autonomous terrain traversal tasks last
+year we've improved our approach by
+accounting for weaknesses we identified
+this includes tripling our field of view
+to 210 degrees identifying and
+traversing steep and rough terrain and
+distinguishing between traversable and
+impassable objects our Rover is equipped
+with an efficient way point management
+system allowing Rover operators to
+quickly input gps waypoints between legs
+of a task using the Google tensor flow
+library we generated a neural network
+trained on images representative of the
+Mars desert Research Station this neural
+network analyzes our camera feeds for
+accurate identification and localization
+of competition markers up to 20 metres
+away the rover uses an advanced
+algorithm to determine impassable
+terrain the algorithm combines data from
+the onboard lidar with depth and
+environmental surface normal readings
+distinguishing between obstacles and
+passable terrain a
+during algorithm tracks the pitch enroll
+angle of the rover as it nears the
+tipping threshold the rover sets an
+alternative way point to continue to
+ascend the incline
+when targets are identified the rover
+establishes a final Waypoint and
+maintains visual contact with the tennis
+ball once within 2 metres the rover
+signals completion the callous
+iterations our Rover has seen and
+thousands of hours spent makes BYU the
+most ready for this year's University
+Rover challenge we've ever been we are
+excited to represent BYU and demonstrate
+the new Rover at this year's URC
+competition

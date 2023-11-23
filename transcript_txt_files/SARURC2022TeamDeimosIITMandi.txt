@@ -1,0 +1,118 @@
+Hello all we are the team Deimos of IIT Mandi 
+and here we present you the first version  
+of our university rover challenge prototype 
+to realize this project a team of 30 people  
+subdivided in four different departments 
+have been working for months these five  
+teams include mechanical electronics software 
+biological science and management to deal with  
+the uneven terrain and provide enough stability 
+we have used a rocker bogey suspension system  
+the current design allows our rover to climb up 
+rocks with 1.5 to 2 times the diameter of the  
+wheels and to overcome an incline of 45 degrees 
+for steering we are using a differential turning  
+gear dc motors are used to power the balloon 
+wheels the motors are connected directly to the  
+wheels and which enable the differential turning 
+The aluminium extrusion have been used as material  
+for the chassis which allows easy assembly repair 
+and change in chassis design if necessary for the  
+robotic arm we have used a modified 6 degree of 
+freedom scara arm the arm is powered by stepper  
+motors and belt drives the vertical movement of 
+the limb is done by a lead screw mechanism which  
+allows precise and accurate linear movement the 
+end effector are kept interchangeable a scoop and  
+factor for collecting soil samples the equipment 
+servicing end factor design includes a 2 degree of  
+freedom wrist with a gripper the ip cameras will 
+be used in the end effector for the robotic arm  
+and for assistive vision of the rover we have 
+used intel realsense d455 rgbd camera as the  
+main vision of our rover which is mounted on a 
+360 degree rotating pole as a central unit we  
+chose nvidia jetson nano and for controlling other 
+subsystems we chose raspberry pi and stm32 boards  
+for navigation and orientation the 9 degree 
+of freedom imu sensor is used with gps  
+intermodal communication is done through a 
+network switch connected to communication module  
+along with this I2C and pwm is 
+used for intra model communication  
+custom pcbs are designed for various 
+subsystems the power system is divided  
+into power distribution system and power 
+management system to power five subsystems  
+drivetrain communication manipulator rover core 
+and science modules a 24 volt lipo battery pack  
+equipped with a custom monitoring system is used 
+to establish the communication between the rover  
+and the base station we are using obiquity rocket 
+ac light operating in the 5.8 gigahertz band one  
+omnidirectional antenna mounted on the rover and 
+one directional sector antenna at the base station  
+the software team aimed to develop an easy to 
+use gui for teleoperating the rover from the base  
+as a part of autonomous traversal we developed an 
+algorithm which uses a combination of odometry imu  
+and gps data to localize the rover the depth 
+data is used to map the environment and the  
+RRT* algorithm combined with an obstacle avoidance 
+algorithm is used for automated traversal both the  
+map of the environment and the part to the goal 
+are updated dynamically when the rover is close to  
+the goal location we track the provided AR tag for 
+planning and efficient part to the goal location  
+for controlling the robotic arm we use the moveit 
+ROS package the depth camera is utilized to create  
+a local map of the workspace and this map is 
+integrated with moveit to plan a collision free  
+trajectory live video stream from the arm camera 
+is used to assist the teleoperator for controlling  
+the arm to detect the presence of existing 
+or extinct life forms we have decided to go  
+with two tests first one is the cyber safe gel 
+staining which will basically be going to identify  
+the presence of either dna or protein we used 
+an imaging system in the lab we have created a  
+similar mechanism to perform the task then the 
+other test biuret test will differentiate the  
+between the proteins and dna we are also using a 
+thermal camera to detect any temperature changes  
+all these tests will be on board onboard sensors 
+and cameras provide necessary data on which ml  
+models are used to make inferences we used a 
+ph sensor to measure the amount of alkalinity  
+or acidity of soil solution moisture sensor 
+to detect the amount of water in soil which  
+affects the biological processes a uv rays 
+detector was used to find the amount uv rays  
+a soil npk sensor to direct amount of 
+nitrogen phosphorous and potassium in  
+the soil an anemometer to measure the wind speed 
+a spectral sensor for the spectroscopic analysis  
+of the soil and for the physical properties 
+of rocks such as absorbance and reflectance  
+the thermal camera will also be used to detect 
+life as the temperature of most life forms will  
+be higher than the surrounding temperature for 
+detecting life forms we have built a ml model  
+for rock classification we have built a custom 
+cnn which is trained completely from scratch  
+the model does a three-class classification into 
+one of three one of the three categories igneous  
+sedimentary and metamorphic the model is giving 
+an f1 score of 0.72 on testing data each team  
+is being guided by our team leader and has also 
+been assigned some mentors who give their inputs  
+from time to time COVID-19 impacted the team in 
+several ways the delay delivery timings difficulty  
+in accessing labs increasing communication gaps 
+etc all modules have been tested separately and  
+the team has started integration of the rover it 
+took months of effort dedication time curiosity  
+enthusiasm and zest for the team to reach where 
+it stands today we are all set to complete our  
+rover in the given time constraints thank you 
+for your consideration on behalf of team Deimos

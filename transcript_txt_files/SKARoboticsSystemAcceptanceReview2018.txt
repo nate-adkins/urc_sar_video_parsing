@@ -1,0 +1,111 @@
+[Music]
+hi we are asking a robotics from Warsaw
+University of Technology this is system
+acceptance review for University Rover
+challenge 2018 our team consists of 30
+students and majority of them are
+undergraduates we divide ourselves into
+five sub teams each one has several
+students and one leader who coordinates
+teams work teams have their own
+responsibilities which are discussed
+during workshops every week in a result
+who got shipped great flow in
+communication and understanding between
+particular subsystems our major
+assumptions for mobile platform were
+small weight and quite small size we
+wanted to build it on a square plant
+which is going to ensure stability and
+much space for manipulator now we are on
+the right lines to achieve all of these
+currently construction weights about 40
+kilograms and main dimensions are
+similar to counterweight the manipulator
+we designed an aluminum tail which is
+going to hold a video camera and enable
+operator to see more around the rover as
+faithful electronics is a box made of
+very light artificial materials and
+wheels are smaller than in our previous
+construction in order to design a
+robotic car we needed to consider many
+requirements like loads movement
+precision and environment of work under
+fire requirements was a simply position
+control for this we use a few observed
+encoders for our robotic arms we chose
+two electric motors which gives for
+greater load capacity and two linear
+actuators for greater movement precision
+some of the elements of our design are
+made by additive manufacturing
+it helped us to create parts with
+complicated geometry before we built
+final robotica we have run many fel
+simulations to optimize the design for
+enough mechanical strength and for
+minimal mass we also built a simply
+would order to attract arms kinematic we
+are sure that our robotic arm will be
+able to complete all tasks during USC
+competition the brain of our Rover is
+main computer raspberry pi it's
+responsible for communication of motors
+sensors stream from cameras and many
+other tasks we also have an additional
+high-power computer Nvidia deadzone to
+process image data during autonomous
+tasks many of our devices like motor
+drivers and sensors were tailored to our
+needs
+they are modular which allows us to
+quickly replace them depending on the
+task or in case of malfunction
+everything is powered by two groups of
+lithium-ion battery packs separately for
+computers or sensors
+and promoters to communicate between
+grant station and Rover we used to
+industrial access point per rating on
+2.4 gigahertz frequency band software in
+the rubber is written in C++ we have Qt
+framework main console is responsible
+for rocker management and stirring block
+strong important information about the
+rocker in autonomy we use GPS
+coordinates software which determines
+Jesus using stereo vision and algorithm
+which tracks poles using particle filter
+in a navigation app we can monitor
+Roberts position and optimize its path
+our head-up display lets us truck
+sensors readings and video stream
+advanced special application for science
+task monitors drill position video
+stream is easily controlled with the
+main console
+during sample extraction the drilling
+system is being clobbered at a steady
+pace drilling into the soil up to a
+depth of 25 centimeters 3d printed
+container can store two separate samples
+and is operated by servomechanism
+letting us open it after the drill
+reaches the depth of 10 centimeters
+after collection the platform is lifted
+up to its original position and the arm
+and that with temperature and soil
+moisture sensors is lowered the whole
+part is then lowered again so that the
+sensors can enter the hole and path and
+perform subsurface measurements next the
+soil sample taken by the drilling system
+is being dissolved in water then it is
+transferred to the test tubes after
+adding the indicators a color reaction
+takes place which indicates the pH value
+and presence of the studied elements
+phosphorus nitrogen and carbon which can
+be detected by human eye
+[Music]

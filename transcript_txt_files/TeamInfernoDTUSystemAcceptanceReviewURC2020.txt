@@ -1,0 +1,102 @@
+Team Inferno DTU is a group of 28 motivated undergraduate students
+belonging to various engineering backgrounds
+from Delhi Technological University, India.
+Since our inception in 2013
+our sole objective has been innovation.
+We developed our University's first ever Mars Rover Prototype in 2019.
+ 
+We take immense pride in introducing
+our latest prototype- XLR8
+Our team
+is categorised into 6 sub- departments.
+Mechanical, Electrical, Software, Embedded, Science and Corporate.
+ 
+Categorisation of the team into various departments
+enabled us to adapt the bottom-up
+project management approach and help each department to work simultaneously while handling the issues encountered efficiently.
+ 
+Our drive system consists of a 6-wheeled
+drive with a modified rocker-bogie suspension
+with 4 point hinge which provides better chassis stability
+ 
+than the classical rocker-bogie suspension which we used in our previous iteration.
+We used a differential bar
+to connect the two rockers instead of bevel gear differential.
+We have solved our previous shortcomings in the robotic arm
+by replacing spur gears in the swivel base with self locking worm gear.
+The arm
+is designed so as to provide serviceability at extreme angles.
+The light weight gripper assembly has been manufactured using in-house techniques.
+We have used nylon and mild steel
+spur gears in the gripper assembly for the motion of the wrist joints.
+It uses a lead screw principle for the motion of the jaws
+The jaws are designed considering the
+various servicing tasks provided by the University Rover Challenge.
+The gripper is capable of grabbing objects upto 12cm wide.
+ 
+This year electrical system have been developed
+considering both power impediments of the subsystem and
+the requirements of the run time of the competition.
+Two parallel connected 10000mAh lithium polymer batteries
+have been used giving run time of 90 minutes.
+various buck converters of
+20A and 9A and battery eliminator circuits
+have been used to provide different DC voltage levels.
+Labelled XT60 connectors for all connections have been used
+to ensure quick and fault-free assembly
+of our electrical subsystem. A kill switch
+that is clearly visible and accessible at all times
+is also provided to completely cutoff the battery power
+and shutdown the rover.
+Modular electrical box has been manufactured using laser cutting
+to enable easy access and provide robustness to the electrical connections.
+ 
+ 
+XLR8's embedded system's have been designed to
+maximise the efficiency and compactness.
+The Jetson TX2 development kit is at the heart of the rover.
+It is responsible for processing all the data
+and commanding the microcontrollers. ARM based STM32 boards
+STM32 boards and AVR based Arduino Mega boards
+have been used in all the subsystems. Custom-made PCBs
+have been manufactured
+to provide easy connections between the microcontroller boards and
+motor drivers and the sensors. Considering
+the requirements and to achieve latency-free
+high speed communication between the rover and base
+station we have used the 5.8Ghz band.
+In the robotic arm 5 DOF
+inverse kinematics
+has been implemented in top
+down orientation for operator friendly interface for
+accurate manipulation of objects in the surrounding.
+The closed-loop system provides a precision
+of 5mm along each axis.
+The autonomous navigation
+and traversal has been done by using ROS Navigation stack
+together with our self made priority based algorithm.
+An android based
+application is used to receive the GPS and IMU data
+from the Android mobile phone.
+This data subscribed by the ROS Navigation Stack.
+After reaching in the 3m radius of the given coordinates
+our algorithm starts the object searching and detection.
+When the AR Tag is detected the rover moves on
+to the next given GPS coordinate.
+Science Module is
+primarily designed  adhering to all the decisive tasks
+required to successfully detect the presence of extinct or extant
+or no life existence. Our module is capable enough
+to perform an in-situ analysis in order to detect the
+presence or absence of bio markers.
+Our module is coupled with a 20 cm mild steel drill connected
+with a high torque motor to collect samples from different strata of soil. Our tests encompass
+a spectrophotometer analysis of soil thermal imaging and
+IR scanning to inspect soil structure and composition.
+Chemical tests are conducted onboard
+to examine biomolecules like carbon, ATP, DNA
+and ammonia in order to deduce if elementary life is present.
+Our rover is equipped with gas sensors like methane
+CO2 and moisture sensors. The tests
+are supported with pH analysis TDS analysis
+and visual scanning of the rocks.

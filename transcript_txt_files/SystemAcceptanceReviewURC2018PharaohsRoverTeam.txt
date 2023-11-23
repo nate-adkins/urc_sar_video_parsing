@@ -1,0 +1,75 @@
+The Pharaohs team consists of three
+sections mechanical, electrical, and science
+The mechanical team, electrical team, 
+science team. One of our management
+considerations this year was focusing on
+the development of the team
+The tally on the left shows each member
+skill level from day one. A training
+program is developed and implemented
+then the member skills are shown again
+at the end of the year. In this summary
+red shows the required number of members
+determined by the team leaders yellow
+and blue show the number of members with
+that skill level
+Before manufacturing the chassis
+performance was tested using Gazebu
+simulation
+Problems identified in the simulation
+such as continuous rotation of the bogie
+were solved beforehand in this case
+using mechanical Stoppers saving us time
+and money the required torque was
+calculated and treads were manufactured
+to generate the required traction for
+the rover. A six degrees of freedom
+robotic arm was manufactured at the Arab Organization for Industrialization and
+the gripper was manufactured internally
+using our 3d printer
+The Web API allows the rover to be
+easily controlled using any web-enabled
+device provides the up-to-date status of
+the rover subsystems and allows the
+rover to be station independent. All
+communication between the control system
+and the rover are over IP, we use Wi-Fi
+boosters to enhance the communication
+link and selecting the best commercial
+communication system. Here we see a live
+simulation of Gazebo
+that is controlled first using a
+joystick and then by manipulating a
+prototype arm. Autonomous control uses
+data from several standard sources as
+well as satellite pictures that produce
+an occupancy grid which helps the rover
+with path planning. Once a global path is
+set image processing to detect obstacles
+is used to develop subpaths. After
+arrival at the target location image
+processing is further used to find the
+gate indicator and approach it the
+rover's power levels are monitored
+throughout the operation to avoid any
+unplanned behavior
+We are currently testing the rover's
+capabilities to achieve the URC's
+required tasks
+For the in lab experiment this year we
+will be testing for DNA and RNA using
+the two tests shown here as well as
+other biomarkers that would indicate
+whether life exists
+In this controlled experiment we see the
+result of two samples one with and the
+other without s DPA solution. We improved
+our understanding of the different types
+of rocks by collecting a large database
+of rock properties. Our mechanical team
+developed the shovel in order to achieve
+the soil depth required barrying in mind
+the no spill policy our science box has
+a capacity of six onboard wet tests its
+sensors allow for the collection of soil
+and environmental readings

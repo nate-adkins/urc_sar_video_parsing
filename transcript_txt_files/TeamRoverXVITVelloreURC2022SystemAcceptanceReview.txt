@@ -1,0 +1,152 @@
+[Music]
+greetings we are team rover x from vit
+valor and we are elected to present our
+system acceptance review for university
+rover challenge 2022
+fueled with ambition to explore beyond
+the possible this year the team decided
+to redesign the rover based on the
+lessons learned from past experiences
+and we are proud to present our rover
+for the season atom with the pandemic
+continuing to affect the team we
+developed an efficient remote workflow
+to overcome the challenges of the rover
+development we took advantage of the
+fact that our members were distributed
+across five cities as we accordingly
+distributed the work to progress
+parallelly this year we've built a
+modular over chassis that uses v-slot
+links enabling easy assembly and
+disassembly with the aim to improve
+accessibility and to reduce weight the
+rover is capable of traversing a wide
+range of terrain as a double rocket
+system coupled with a bar differential
+that helps mainly low center of gravity
+and achieve proper mobility this
+configuration maintains proper wave
+distribution and ensure sufficient
+ground contact at all times
+for better precision and control during
+tasks a completely new arm with 6
+degrees of freedom has been designed and
+manufactured custom manufactured worm
+gears at all joints increase stability
+providing zero backlash with high
+reduction ratios
+each joint includes a motor with a high
+resolution encoder for accurate velocity
+and position control
+during traversal the arm retracts
+completely to minimize veer and
+vibrations the end effector uses worm
+gears to drive the fingers that are
+designed to pick up payloads up to 10
+kgs our major focus this year was
+towards greater efficiency and high
+level of integration among various
+subsystems on the rover while
+maintaining the ease of debugging to
+achieve this we have revamped a power
+distribution board to ensure emi
+protection and passive cooling all the
+systems on the rover are powered through
+two lithium polymer batteries power to
+all the motors can be interrupted using
+a kill switch the heart of electrical
+system is stm32 development board making
+the control pcb extremely compact raw
+serial protocol is used to establish
+fast and reliable communication between
+stm and jetson the software for motor
+control is written in embedded c in a
+task oriented manner for efficient
+resource management and multitasking
+the software team focuses on the core
+aspects of computation communication and
+command and media justin nano is our
+main computing system while a
+combination of directional and only
+directional antenna ensures seamless
+communication our custom ui gives the
+operator the desired degree of control
+and feedback inverse kinematics with the
+rrt motion planner is used to control
+the manipulator we decided to retain a
+core system since it is proven to
+operate reliably at competition missions
+with this season's focus being to test
+and ensure that this reliability
+continues with the new rover
+this decision was also motivated by our
+goal of improving our autonomous system
+our workflow of doing extensive design
+and testing and simulation followed by
+verification on our menu board allowed
+the team to continue making progress
+from their homes in this pandemic
+situation
+enhancements to our calvin filter-based
+sensor fusion module were done to comply
+with this season's stricter requirements
+on localization
+our global path planner accepts gps wave
+points through map fills and plans an
+optimal route to the goal while the
+local planner uses a steedal camera
+generated octo map for obstacle
+avoidance ar tags at posts and gates are
+successfully detected with this
+functionality tested on our main
+we plan to verify and optimize the
+software on the rover after the sr this
+year the science department has
+completely redesigned the sample caching
+subsystem which uses an auger and a
+screw conveyor to collect and distribute
+the soil sample the carousel stores the
+collected soil for further testing and
+prevents cross contamination
+expanding on testing our mini wet
+chemistry lab conducts region-based
+qualitative experiments to look for
+possible biosignatures in rocks and soil
+we focus on essential inorganic
+molecules like carbonates and nitrates
+which indicate the presence of extinct
+life and liquid water while the npk test
+checks for the quality of the given soil
+sample we also test for some of the
+complex hydrocarbons which if found
+might indicate the presence of extent
+life one of the most significant
+additions to the science subsystem is
+raman spectrometer which provides
+accurate compositional analysis of the
+rock samples to aid in detection of
+novel substances atmospheric sensors
+provide information about various
+biosignature gases and volatile organics
+present in the atmosphere the weather
+monitoring station collects data about
+atmospheric temperature pressure
+humidity radiation wind speed and
+direction
+ds18 probe is used to measure soil
+temperature while ph and moisture are
+estimated using hdml models hence
+through weather and atmospheric analysis
+soil testing and petrological studies we
+can infer the overall sustainability of
+environment to harbor life as we look
+forward to physically collaborating
+again we plan to concentrate our efforts
+towards the integration of the various
+subsystems we worked on remotely we then
+aim to optimize our systems through
+testing by simulating task specific
+scenarios preparing the rover and the
+team to give its best at urc 2022
+[Music]

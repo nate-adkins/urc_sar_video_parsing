@@ -1,0 +1,136 @@
+hello we are the Iowa State University
+Grover team Maverick we're
+our arm has seen significant Improvement
+since last year in its Precision of
+movement the armed shoulder pan axis is
+supported by an igus blue bearing that
+supports a 3 000 Newton Dynamic radial
+loading this is now driven with a belt
+system that increases our gear ratio to
+526 allowing for slower rotation and
+reducing the height of the assembly
+overall together these provide a smooth
+and precise action the shoulder pitch
+now runs on an 8 000 to 1 direct drive
+gearbox from a 10 000 RPM brushless
+motor the massive gear reduction in
+direct drive give the arm an ample
+strength to lift 5 kilograms of mass and
+minimize the backlash of the system the
+elbow is a time-tested worm gear
+assembly
+the wrist uses two small high torque
+Motors to actuate the rotation in pinch
+and the slip ring has been implemented
+our previously Deployable hook has been
+upgraded to a new static of the
+increases precision and control when
+attempting to lift caches
+the Rover is able to maneuver up to the
+cache position the hook underneath the
+handle and then lift weights up to 5
+kilograms this works in combination with
+different end effectors allowing us to
+maximize efficiency by tailoring the
+manipulator to the submission specific
+tasks for example our extreme retrieval
+and delivery end Factor uses an offset
+hooked grip to allow easy rope pickup it
+is also wide enough to allow larger
+items like a water bottle tool handles
+and other rounded objects be picked up
+and securely helped our suspension
+members have been redesigned to more
+reliably hold up to the adverse train we
+found in competition
+they are now constructed of G10
+fiberglass composite members and carbon
+fiber petg joinery this redesign has a
+focus on repairability and reusability
+the majority of each suspension members
+parts are interchangeable and identical
+from each other decreasing the need for
+Unique spare parts at competition our
+custom 10-inch TPU Wheels aim to
+increase the ground clearance of our
+motor enclosures to prevent clipping
+obstacles passing underneath the Rover
+these wheels enable navigating through
+Rock sand and gravel based trains and
+different weather conditions while
+maintaining their integrity better than
+our previous 8-inch design
+also been working on the new drivetrain
+with an electrical and software upgrade
+in the form of Spark Max escs Neo 550
+bltc mode
+by using internally encoded bldc Motors
+we are able to precisely control the
+rotational velocity by modulating the
+power sent to each wheel individually
+based on feedback we call this linear
+velocity our autonomous system takes
+data from multiple sensors such as the
+GPS IMU and cameras to calculate the
+geodesic path between the current
+position and the next waveform
+autonomous State machine gives the Rover
+several options for navigating its
+such as Idle turn towards Waypoint drive
+towards Waypoint and Bank towards weapon
+drive towards Waypoint function allows
+the Rover to self-correct while
+traveling which is another Advantage the
+new drivetrain provides for us
+our custom control Library allows us to
+choose between several different modes
+when positioning the rover go for it
+the Maverick science system utilizes ATP
+illuminometry protein detection and
+careful visual inspection to indicate
+potential signs of extant extinct and no
+life
+the arm component allows us to easily
+Place sample plates into the soil the
+dust and soil covered plates can then be
+retrieved and swapped a swap is then
+grabbed from its folder and wiped across
+the sample plate to accumulate minute
+debris the soil swab is reinserted into
+its test tube our system will then
+transfer to the swab and place it into
+the luminometer before it will be
+analyzed the luminometer will return
+value and when indefinitively say that
+any rlu over 10 has 18p presence and
+thus there are signs of extant life
+a near identical process will be
+repeated for tests with protein however
+the luminometer will not be needed a
+visual inspection from our cameras will
+suffice to determine whether or not
+proteins are present in the sample based
+on the color of the solution in the swap
+a purple color is produced using bright
+reaction
+how about we I'll try to splice it there
+a purple color is produced using a
+was pronounced I can't figure out it's
+some French word yep
+keep forgetting how it's pronounced
+urine
+okay
+sure
+a purple color is produced using a buret
+reaction when proteins are present
+multiple high definition cameras are on
+board the Rover with zooming
+functionality to closely observe Rock
+and soil samples for signs of extinct
+life
+after a conclusion is made on which
+sample is likely to be seen
+scientifically significant a not
+pictured infector will collect a sample
+which will
+stored on the Rover

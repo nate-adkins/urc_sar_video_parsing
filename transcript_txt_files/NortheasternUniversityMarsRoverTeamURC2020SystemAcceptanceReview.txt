@@ -1,0 +1,121 @@
+[Music]
+hi we're the northeastern university
+Mars rover team and we're excited to
+compete in this year's University Rover
+challenge we learned a lot from our
+first year competition and building on
+our successes and failures we've
+completed a ground-up redesign of our
+Rover we are proud to present this
+year's Rover Watney mark to
+[Music]
+all projects start with a strong
+foundation our chassis and mobility
+system is built around a custom bar
+differential rocker-bogie with a focus
+on all-terrain navigation and stability
+each of our six wheels are individually
+driven by a high torque motor giving us
+the ability to climb a 45-degree slope
+with only three wheels on the ground we
+have finalized are designed for custom
+3d printed wheels with a honeycomb core
+and we are currently working on
+manufacturing
+[Music]
+on top of its chassis Watney carries a
+fully custom robotic arm our arm is
+comprised of six angled carbon-fiber
+housing supporting a parallel grip end
+effector the arm is complete with five
+degrees of freedom including 720 degrees
+of end-effector rotation each joint is
+driven by a smart servo actuator with an
+added planetary gearbox allowing for
+high torque output at each joint our
+gripper uses a dual rack and pinion
+design to actuate two fingers in
+parallel the fingers are padded with a
+flexible rubber and have a tested
+lifting capacity of five kilograms
+[Music]
+in order to practice the competition
+tasks the equipment servicing Lander has
+been simulated using a custom test board
+[Music]
+to control and power their over we
+assigned six custom boards using 32-bit
+SCM microcontrollers these boards
+communicate with our GPS IMU
+ultrasonic temperature and Barry
+management sensors used in i2c they also
+contain customer driver circuits that
+have undergone a rigorous testing these
+allow us to collect encoded feedback and
+current sense data which is then
+processed and sent to an Nvidia Judson
+TX to over Ross serial a communication
+system uses 2.4 gigahertz base ubiquity
+IP radios we've paired these radios with
+dipole antennas for short range and a
+yoggi directional antenna for long-range
+communication our testing is shown we
+can maintain contact up to 1.5
+kilometers with combined transmit and
+receive rates of 18.9 and 17.3 megabits
+per second at 1 kilometer our approach
+to the scientists or redundant assays an
+ear and fret spectrometer or NIR and a
+suite of colorimetric tests the NIR is
+lowered using a custom linkage and
+through it we can look for carbon carbon
+and carbon nitrogen bonding which allows
+for the identification of life as well
+as differentiation between extinct bark
+steps after the nir scan samples are
+collected through a novel vacuum system
+which has been tested on materials with
+diameters up to 5 millimeters between
+tests a vibration motors help to empty
+the tubing reducing cross-contamination
+between sites analytes are then
+extracted from the samples using water
+and measured using the colorimetric
+tests giving further support to
+conclusions from the NIR data going
+forward we will be performing full
+competition run throughs using blinded
+samples the software development process
+for Watney started with the needs of our
+operator we've designed a custom UI that
+allows for versatile control of all
+facets of the rover a fully custom
+telemetry system allows users to easily
+monitor vital rover information
+including battery cell level current
+draw across all motors real-time GPS
+location and for camera shoots we put a
+strong emphasis on simulation and
+testing developing custom simulation
+environments that mimic those in
+competition this has enabled us to
+develop an inverse kinematic solution
+for our armed operations
+and fine-tune our two-part autonomous
+ISM our autonomous system includes an
+always-on watchdog they use as
+ultrasonic sensors current sensors and
+lidar data to actively protect the rover
+during all challenges we also take
+advantage of computer vision EKF
+localization and mapping running on an
+Nvidia Jetson tx2 this enables us to
+successfully navigate to our goal detect
+a artex
+and avoid obstacles in the process at
+this point in the year we have completed
+manufacturing and initial testing in the
+coming months we'll be continually
+testing including two full competition
+runners we are highly confident we have
+a highly capable Rover come back

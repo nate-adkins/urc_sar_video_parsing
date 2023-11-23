@@ -1,0 +1,134 @@
+Greetings.
+We are known as Project Scorpio and we are
+part of the OFF-ROAD student association at
+the Wrocław University of Science and Technology.
+We come from different universities and consist
+of six different departments: mechanical,
+electronical, software, PR, finance and science.
+Scorpio 7 has a dependent four wheel rocker
+suspension system.
+Rockers are connected by two triangular levers
+linked by a beam.
+This solution increases stiffness and stability
+of the whole suspension.
+Thanks to that, it can cross extreme terrain,
+such as obstacles up to diameter of the wheel
+(~30 cm) and vertical cliffs up to 1m.
+Very low centre of mass allows us to overcome
+steep angles up to 45 degrees.
+Driving module features all-wheel drive with
+BLDC motors which help the rover climb slopes
+in the extreme retrieval and delivery mission.
+To provide good traction, we use special tires
+made with Cordura fabric.
+We are also experimenting with flexible 3D
+printed materials and polyurethane rubber
+casting.
+Robotic arm has 6 degrees of freedom.
+It’s designed with use of worm and harmonic
+gear reducers in order to maximise precision
+and stiffness.
+It has a maximum range of 1,2 m and can lift
+up to 5 kg on maximal extension.
+As main construction materials we used carbon
+fibre, aluminium and PET-G, to provide necessary
+strength to mass ratio.
+We also reduced its mass by about 1 kg through
+re-designing some of the aluminium parts.
+Grippers moved by lead screw gives us satisfactory
+grip strength.
+In order to complete all necessary tasks,
+we will mount a hex key and linear solenoid
+at the effector.
+For precise typing and operating joystick,
+we are incorporating 3D inverse kinematics.
+Our rover is powered by 6S Li-pol batteries,
+connected to other modules by 24V bus.
+Driving module is equipped with a visible
+kill switch that cuts power from batteries
+in case of emergency.
+Every PCB made by us has: overvoltage, overcurrent
+and reverse polarity protection.
+As our main computer, we use Nvidia Jetson
+TX2 with multiple auxiliary minicomputers
+in the form of Raspberry Pi.
+To connect every computer, camera and other
+heavy traffic modules, we use an ethernet
+link.
+Other modules, such as robotic arm, drive,
+GNSS and science use CAN bus to provide robust
+communication.
+Our communication system is based on 2.4GHz
+AirMax technology suitable for long range
+applications.
+Vision systems consist of 4 cameras, each
+one fulfilling a different purpose.
+First one is our navigation camera – it
+is capable of rotating in 2 degrees of freedom.
+Second camera has an ultrawide lens and is
+mounted on the front of the rover.
+Third camera is a Stereo Camera mounted on
+a mast.
+Last camera is mounted on the gripper allowing
+us to effectively operate the robotic arm.
+Our systems were completely redesigned from
+the ground up over the past year.
+To make it more modular and easy to develop,
+we decided to use Robot Operating System as
+a base for our work.
+Onboard sensors like ZED stereo camera, GNSS
+and Inertial Measurement Unit in combination
+with extended Kallman filter give us precise
+location of the rover during each task.
+To operate the rover we developed a custom
+app with widgets for most important rover
+modules.
+Our software team has also created an accurate
+representation of our rover in a simulation
+environment using Gazebo to easily test autonomy
+algorithms and other software solutions.
+Robotic arm uses move_it package to implement
+3D inverse kinematics.
+It let’s us precisely control movements
+of the end effector in Equipment Servicing
+Mission.
+For the Autonomous Navigation we utilised
+ROS Navigation Stack in tandem with our own
+solutions.
+To indicate operation mode we attached a bright
+LED at the back of the rover.
+To provide training for our operators we organised
+our own internal competition mirroring URC
+tasks.
+Our rover is equipped with many sensors: temperature,
+humidity and pH, but the most important are
+nitrogen, potassium and phosphorus sensors.
+They allow us to measure content of mentioned
+elements in soil in order to choose the best
+places to take samples from.
+To complete the science task, we’ve designed
+a module mounted in the robotic arm’s place.
+Its made of soil composition sensor, as well
+as a self-developed Raman spectrometer.
+Module is designed to test soil below the
+rover without taking physical samples.
+For now the robotic arm’s gripper is also
+capable of taking soil samples and putting
+them in the previous version of science module
+-ULEP.
+Our planned analysis consists of using a Raman
+spectrometer.
+Spectral data received from this device will
+be crucial for examining the composition of
+the sample.
+Our team will be looking for Raman shifts
+characteristic for compounds such as amino
+acids, which will state the presence of life.
+At this moment our spectrometer is still under
+development.
+Science module also has a microscope to give
+us the possibility of examining soil.
+It allows us to find microfossils, which may
+state the presence of life in the past.
+All data collection from sensors is done by
+our web app to make it easy to view and analyse.

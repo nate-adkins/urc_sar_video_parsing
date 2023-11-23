@@ -1,0 +1,155 @@
+since the end of URC 2022 the Mars rover
+design team at Missouri s t has been
+hard at work researching and refining
+both our novel and Legacy systems so
+that through a combination of
+computer-aided design finite element
+analysis bench tests and task
+simulations we will be able to meet all
+competition requirements the Mars over
+design team is proud to present our 11th
+Rover Helios
+[Music]
+thank you
+[Music]
+Helios features the signals overhaul
+this year a managed network switch runs
+900 megahertz 2.4 and 5.8 gigahertz
+bands simultaneously a Jetson Xavier
+streams up to eight parallel camera
+feeds over UDP while GPS has improved
+through a differential positioning
+system
+a custom 8s 8B lithium-ion battery with
+current sensing and active filtering
+capabilities powers of 14 PCB
+distributed architecture to interact
+with the Rover mrdt has written a custom
+GUI application in which operators are
+able to see and easily switch between
+camera views monitor the Rover's
+location on a map position the rotating
+signal stack and view diagnostic data
+sent from the Rover these systems
+provide operators with an insight into
+the River State while an attachments
+manager displays results from the
+science hardware and allows precise
+control of the arm
+Helios features key modifications to our
+Legacy Manta suspension greatly reducing
+weight design and Manufacturing
+complexity while maintaining similar
+performance
+featuring a structural composite frame
+carbon Kevlar wheels and a modular
+auxiliary mounting system our Rover is
+capable of withstanding a one meter
+vertical drop and full speed Collision
+Helios can reliably produce a Max torque
+of 13.2 newton meters a max speed of 6
+meters per second and Traverse a Max
+incline of 45 degrees paired with a
+6-axis robotic arm our Rover has the
+ability to locate Pull lift and carry a
+large range of tools and objects while
+traversing Sandy Rocky and uneven
+terrain our camera and gimbal system
+allows base station to view the state of
+all systems during the missions while
+providing greater viewing angles during
+operation
+Helios is new 6-axis robotic arm gives
+it the fine control strength and range
+of motion required to successfully
+complete the equipment servicing task an
+inverse kinematic PID control scheme
+actuating through custom h-bridge motor
+controllers and brush DC motors enables
+fine control of each joints a new
+combined and the factor design is both
+simpler and lighter while maintaining
+the ability to lift a 5 kilogram weight
+open drawers and cabinets tighten the
+hex bolt type on a keyboard operate a
+joystick and insert a USB stick cameras
+on the forearm and gripper provide
+Optical feedback and depth perception
+inside the base station while a camera
+on the back of the Rover provides an
+alternate viewing angle of the arm's
+relative position
+for the autonomy Mission Helios utilizes
+a differential GPS for precise
+point-to-point navigation during
+navigation the Rover utilizes our new
+triclops camera layout to stitch
+together images from a z2i stereo camera
+and two 180 degree side cameras to
+create a larger field of view two
+asynchronous computer vision algorithms
+allow the Rover to autonomously navigate
+to its goal the first algorithm detects
+AR tags using opencv's aruka Library the
+second allows us to avoid obstacles seen
+in the Zed's 3D Point Cloud using a
+custom trained YOLO model and an a-star
+Pathfinder upon successfully reaching a
+GPS Waypoint our Rover will enter into a
+search pattern State and spiral outward
+until the air attacks are found the
+Rover will then enter a new navigation
+routine to either approach a single
+marker or maneuver through a gate
+completion of the test will then be
+indicated using the LED panel on the
+back of the Rover utilizing old Rovers
+in the wiibots robot simulator each new
+feature goes through a rigorous amount
+of bench and field tests before a final
+review and ultimate push to Dev
+our redesigned science Gantry system now
+utilizes carbon composite tubes to
+reduce the weight by 33 while improving
+rigidity to analyze soil samples we
+lower our updated instrument array into
+each sample site
+house and electroplated casing our new
+custom 4ometer uses six UV LEDs and an
+optic system to induce fluorescence for
+the detection of Life receiving between
+330 and 600 nanometers amino acids and
+carbohydrates can be detected it is
+paired with a microscope capable of 400
+times magnification allowing us to see
+sediment grains within the soil sample
+finally gas sensors allow us to measure
+the carbon and nitrogen biological
+Cycles in action
+Helios is also able to run a series of
+chemical tests along with its
+instruments using a multiplexing water
+distribution system driven by a
+peristaltic pump our latest chemical
+Suite utilizes the nihydrin and
+Benedict's test to look for amino acids
+and reducing sugars in our soil samples
+after analysis is complete a soil cash
+box allows us to collect up to 10 grams
+of material with the highest scientific
+value for future analysis
+the creation of an r d division has
+enabled our team to explore more
+ambitious ideas and processes while
+maintaining our ability to address
+issues identified during previous URC
+missions we have placed a heavy emphasis
+on structural composite components
+spectroscopy methods electroplating
+techniques and brushless manipulators to
+incorporate into future designs thank
+you for your consideration the Mars
+River design team looks forward to
+competing at the University Rover
+challenge this June
+[Music]

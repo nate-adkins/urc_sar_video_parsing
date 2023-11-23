@@ -1,0 +1,130 @@
+hi we are team Quantum Robotics and we
+are proud to present our 2023 system
+acceptance review for the University
+rubber challenge
+this season we focused on improving a
+rubber core systems and our plan to
+successfully accomplish the competition
+missions
+we implemented a differential suspension
+system inspired by our keyboard This
+Arrangement allows the robot to maintain
+its Wheels in contact with the ground
+while passing through irregular terrains
+such as inflamed planes Rock science and
+fragile extractors without compromising
+the Integrity of any subsystem
+the newly designed TPU Wheels gives
+outstanding traction and flexibility in
+addition the improved mechanical design
+based on bearings is the assembly
+process and focuses on protecting the
+motor from critical Collision
+the rubber has a complete control power
+system that allows us to monitor the
+main voltage and the current given to
+each component all secure with dedicated
+fuses product Twitter to ensure the
+Integrity of the components we
+incorporate a thermal circuit breaker
+that limits the given current up to 120
+amperes as a kill switch we design our
+own pcbs in order to improve the
+component management Samsung wiring and
+to connect interfaces used for some
+devices this allow us to fully trust the
+connection therefore the communication
+protocols as well as to reduce the size
+of the electronic components we also
+connect a PSA card to increase in the
+USB 3.0 ports
+we have been working with two
+interactional antennas using the 900
+megahertz frequency take it advantage of
+its long range and the performance of
+the memo system antennas in our test we
+managed to establish communication up to
+800 meters away
+our base station is confirmed by three
+main computers in which we are able to
+visualized to real-time cameras GPS
+navigation and some metrics such as
+velocity GPS
+position battery status and power
+consumption
+for autonomous navigation we implemented
+the navigation
+camera with the immune sensors and the
+GPS automate resources
+we also used a certainly camera to
+publish license measurements to avoid
+local objects detected
+once the robot reaches the gnss
+coordinate it will perform different
+actions depending on the type of the
+goal if there is no Air Attack the robot
+will stop and turn the Matrix into a
+green blinking color
+otherwise the robot will turn around its
+own axis it coordinates that create a
+mesh pattern
+until our custom AR detector detects a
+new arugota
+for the final part the robot will
+approach the tag and in case the target
+type is a gate it will surround yaruko
+so that it eventually passes through the
+gates
+the robot optimizes the time it spends
+on a mission by running prim's algorithm
+over the coordinates to find the optimal
+pad between them and calculating the
+mesh coordinates that optimize the time
+that robot spends looking for attack
+we designed the five degrees of freedom
+robotic arm that allows us to fulfill
+tasks such as operating a joystick or
+pressing some buttons or writing on a
+keyboard as well as a carrying heavy
+objects as a 5 kilogram payload we
+designed two kinds of repair one for
+precision tasks and one for the harder
+tests that require heavy lifting the one
+of precision has an inner silicon
+structure that deforms to correctly grab
+the material we are assigned
+the planetary gearboxes and worm gear
+mechanisms in our arm allow us to
+provide high efficiency payload
+furthermore they are implemented with a
+cam protocol which provide us with
+feedback from sensors to apply as closed
+looped position controller we perform a
+forward and inverse kinematics for a
+robotic arm that can be controlled by a
+graphic interface combined with a
+teleoperated control which allows us to
+move the end tool effector to a specific
+specific positions
+we also have a 2d arm visualizer to
+verify the position of each joint of the
+arm with this we achieved a practical
+and efficient way to perform all the
+manipulation tasks we chose a
+calorimetric based analysis technique
+for a live detection method for this
+mechanical system collects a soil sample
+to be directly disposed in test tubes
+pre-loaded with several reagents that
+will change color when detecting any of
+the formula molecules produced by
+non-living organisms proteins lipids
+protosaccharides and carbohydrates
+in order to obtain a clear picture of
+the resulting color the mixture goes to
+a centrifugation process where the
+supernatural color is analyzed by a
+programmable color light frequency
+converter module further on the results
+will be re-evaluated by the base station
+foreign

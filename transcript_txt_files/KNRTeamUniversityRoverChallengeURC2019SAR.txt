@@ -1,0 +1,82 @@
+[Music]
+we are a part of university robotics
+association K&R which operates at the
+Faculty of power and aeronautical
+engineering at the Warsaw University of
+Technology the main focus of our
+association is to design and build
+highly advanced robots for international
+competitions including an autonomous car
+a humanoid robot and many smaller mobile
+robots last year we managed to qualify
+for you RC finals at our very first
+attempt we have gained a lot of
+experience lands some very important
+lessons and now we are proud to say that
+we are ready for the USC 2019 our Rover
+is designed as a modular robot based on
+an agile and robust mobile platform we
+chose a rocker-bogie suspension which
+has proven to be more than suitable for
+traversing demanding terrain at you RC
+competition
+[Music]
+for almost two years we have been
+developing our own wheels looking for
+the best solution to provide both
+traction and damping for this year's
+edition we have prepared yet another
+iteration of our design our wheels are
+going to be made of lightweight
+polyethylene foam combined with durable
+rim from aluminum and 3d prints the
+tread has been designed specifically for
+rocker-bogie suspension to allow better
+turning
+[Music]
+to improve cooling and accessibility we
+have redesigned our chasis it now has an
+air tunnel equipped with fans to allow
+better airflow through engine drivers we
+have also created whole new electronics
+system that is more reliable it will be
+able to conduct higher currents be
+protected against surges and the heat
+will be dissipated from the system more
+effectively to compete at extreme
+delivery and retrieval as well as
+equipment servicing missions are over
+uses a six degree of freedom manipulator
+capable of lifting up to five kilograms
+with inverse kinematics implemented the
+team has been redesigning components in
+order to make it lighter stiffer and
+more precise
+[Music]
+for our science module we have decided
+to use a rotating brush instead of a
+drill to collect a surface sample
+collected sample is mixed with water and
+then using a system of water pumps pipes
+and valves our filtrate is split between
+several colorimetric tests that detect
+peptide bindings nucleate acids and
+carbohydrates to obtain better accuracy
+in color observers we are going to use a
+photo spectrometer of our own
+construction in order to accomplish the
+autonomous Traverse emission Arava will
+go to the given GPS coordinates and
+start searching the niba area for marker
+location information is acquired from
+GPS and IMU to ensure safety of our
+Rover we use Landsat images to
+predefined no-go zones for marker
+detection we have decided to use OpenCV
+followed by deep neural networks about
+that we use lidar for close proximity
+obstacle avoidance
+[Music]
+we cannot wait to participate again see
+you at the URC
+[Music]

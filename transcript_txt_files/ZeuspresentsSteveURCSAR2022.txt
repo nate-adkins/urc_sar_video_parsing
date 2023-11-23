@@ -1,0 +1,143 @@
+team zeus from university of sherbrooke
+in quebec canada presents steve this
+year's submission to the university
+rover challenge
+the team is composed of ten members
+three of which are studying in
+electrical engineering and seven in
+robotics engineering the robot is the
+evolution of zeus's submission to the
+canadian international rover challenge
+in which it took first place in the 2021
+event the rover is mainly constructed in
+aluminum and hollow carbon fiber tubing
+allowing it to be very sturdy while
+staying as lightweight as possible
+it uses a rocker bogey system to help
+overcome obstacles while ensuring the
+wheels are maintaining contact with the
+ground even on rough terrain the wheels
+are a custom 3d printed design made of
+tpu their honeycomb structure allows an
+elastic deformation to help gain
+traction on solid obstacles while
+absorbing shock and minimizing weight
+they can ensure a lot of wear and tear
+with their solid and thick outer shell
+in the extreme situation where one would
+break down the wheels are easily
+serviceable with their screws exposed
+ready to be swapped out
+the rover currently uses a 2.4 gigahertz
+dual antenna system
+testing has determined that even without
+direct line of sight the rover can still
+communicate for one kilometer
+the base station uses a directional
+antenna which is rotated towards the
+rover using its gps coordinates and the
+signal strength feedback
+furthermore the antenna can be easily
+transported with its own onboard battery
+allowing us to control the rover from
+virtually any environment in a variety
+of situations
+to assist in different missions the
+robot is equipped with multiple on-board
+cameras to localize itself detect
+arugula codes and give visibility to the
+operator
+a zed stereo camera gives us access to
+visual odometry helping to avoid
+obstacles
+in addition to the cameras the rover
+uses a dual rtk gps system during its
+autonomous tasks to get its global
+positioning at the centimeter level and
+a 9-axis imu allows it to get its global
+orientation in relation to the magnetic
+north
+those odometry sources are fused
+together using an extended kalman filter
+a jetson xavier nx is used to process
+the data and then using the a-star
+algorithm plan the optimal path to reach
+the goal
+the local path is calculated using a
+dynamic window approach algorithm to
+avoid short range obstacles
+the robot is powered using a 16 000 mah
+four cell lithium polymer battery pack
+through testing it has been determined
+that a single battery pack is enough to
+power the rover for up to three hours
+even in the cold canadian weather a
+custom-built pcb is used to monitor and
+balance the battery cells to ensure that
+performance is always maximized
+a lightweight and robust robotic arm was
+built using carbon fiber hockey sticks
+generously given to us by the montreal
+canadiens
+it has five degrees of freedom as well
+as a two finger gripper from robotic a
+local company a custom case has been
+printed to remove unnecessary weight
+from the effector
+linear actuators are used for elbow and
+shoulder movements providing enough
+strength to lift 5 kilogram objects
+the arm has a range of 1.32 meters from
+its base allowing it to reach both the
+ground and targets located at a 1.5
+meter level
+it can pick up objects and rotate itself
+to store items on the rover's back for
+easy delivery
+the gripper is not only able to pick up
+a range of differently shaped objects
+but also to maintain high torque while
+doing so
+dc motors on the worm gear assembly
+allow the arm to have two degrees of
+rotation on the wrist it is dexterous
+enough to manipulate an allen key and
+type on a keyboard
+a camera mounted near the gripper allows
+the operator to locate the end
+effector's position more accurately
+while the other one on the shoulder
+gives a better idea of the task at hand
+the science module will be located at
+the center of the robot underneath its
+electrical box it uses an archimedes
+screw which can be lowered to the ground
+for picking up samples a carousel
+powered by a stepper motor indexes up to
+eight different samples while
+maintaining memory of their position and
+scientific results
+different kinds of sterile and
+fertilized dirt are used to test the
+scientific process as well as the
+mechanical system
+a collection cycle is simple loosely
+packed soil is gathered from the ground
+by moving a worm screw and the
+archimedes group brings it up into a
+funnel that will deposit it into its
+corresponding valve into carousel
+avoiding cross-contamination
+the carousel then rotates to allow our
+multiple sensors to access the samples
+and to determine whether there is
+extinct extent or no life within the
+soil
+to find signs of life on rocks a uv
+camera will be used to detect for signs
+of lichen or other living organisms
+thank you for your time and
+consideration team zeus is very excited
+to bring steve to utah and we are
+looking forward to seeing all of you
+there

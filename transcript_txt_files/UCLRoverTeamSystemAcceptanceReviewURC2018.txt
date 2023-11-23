@@ -1,0 +1,103 @@
+[Music]
+great moments are born from great
+opportunities at the UCL rover team we
+have been working tirelessly since last
+September to seize the opportunity to
+compete in the University Rover
+challenge we have pushed the limits of
+our knowledge to create the first ever
+Mars rover in the history of UCL the
+suspension of the rover consists of a
+modified rocker-bogie mechanism the two
+shock absorbers integrated within a
+differential bar to minimize the dynamic
+loads we expect to face in the USC
+competition tasks the chassis has been
+designed in two sections with the front
+end designed to accommodate the robotic
+arm and a rear bay to house all
+electronics and hardware in a safe and
+protective environment for the power and
+drive system we are using six lithium
+polymer batteries delivering power to
+six brushless DC motors the high current
+supplied would be perfect for rover
+during a competition were faced with
+rough terrains for the control system we
+developed a in-house channel switching
+technique which allows us to control the
+multiple subsystems with minimal
+disruptions multiple microcontrollers
+are used to ensure the effectiveness of
+the system and of the entire Rover
+[Music]
+autonomous system uses robotic operating
+system with GPS navigation obstacle
+boarders and tennis ball detection
+functions firstly we obtain the current
+and desired GPS coordinates from GPS
+interface and send them to her lover
+once the rover has received this
+coordinates
+Aaron know his location navigate a cell
+to the desired location along the way of
+traveling to the desired location the
+rover will avoid obstacles through war
+zones such as LOM and common theatres
+collected from depth camera we have
+offset the light of depth camera to
+black and white because the strong
+sunlight in the competition creates many
+morons once the rover arrives at the
+desired location I will turn around
+until it detects the tennis balls
+through cafe debris and tries to worse
+to it until it stops at a safe distance
+our arm has five degrees of freedom with
+the load-bearing joints being controlled
+by worm gears and stepper motors we
+chose stepper motors for four out of
+five joints coupled with a worm drive
+system as they provide good holding
+position and high gearing ratio inverse
+kinematics model have been embedded into
+the control system to precisely point
+the end effector to the desired location
+durability of joints and links have been
+checked using finite element analysis
+and gears have been specially designed
+to extend the loads the arm can easily
+be the assemble you are not needed to
+lighten the rover and make it more
+modern
+you
+[Music]
+in term of science cash tax the aims for
+these tasks are to determine the
+potential of sustaining microbial life
+GOG of the site and microbes life
+detection these are done by Rover
+science testing and laboratory tests our
+Rover science testing involves the use
+of temperature and soil moisture sensors
+that will be attached to the dream and
+microscopic images to determine the soil
+structure for e33 our site selection
+criteria is mud cracks or surfaces with
+the least number of rocks and evidence
+of past water activity meanwhile our lab
+tests consist of soy pH test elemental
+chemical test and lipid emotion tests as
+our plant biological life detection sa
+the science module will be attachment to
+a special housing which holds both the
+drill and the census we will be using an
+auger to collect this sample which will
+be held in a carbon fiber container
+before getting transferred into the
+airtight containers on board the rover
+for further testing the housing will
+then switch to the sensor module to be
+inserted into the hole dark earlier to
+gather the respective data from the
+census for analysis

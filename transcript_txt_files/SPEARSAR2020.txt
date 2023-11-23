@@ -1,0 +1,128 @@
+we are a space exploration Alberta
+robotics and we are proud to present our
+rover case to the URC we are based out
+of the University of Alberta and our
+group is composed of 40 students across
+many disciplines divided into five sub
+teams controls autonomy mechanical
+science and administration this past
+August we have the opportunity to
+compete against and learn from a strong
+field of international Rover teams at
+the Canadian International Rover
+challenge this experience in addition to
+significant testing efforts allowed us
+to identify a number of weaknesses in
+our robotic platform building off of
+this knowledge the Spear team has been
+working hard over the past year to
+strengthen all of the rover's subsystems
+in preparation for USC 2024 the controls
+team our main focus was improving
+electronic system maintainability and
+repair ability we adopted a new tray
+design for each system in the rover with
+few connections between the trays and
+making them easy to remove and service
+the system was simplified reducing the
+different types of boards and making
+replacements much easier as well we're
+now using gbos a real-time operating
+system to control the firmware ensuring
+more consistent timing and interfacing
+this year the autonomy team has focused
+on improving the autonomous navigation
+of the rover as well as the control and
+diagnostic interfaces at the base
+station during autonomous and manual
+operation case is localized by fusing
+visual odometry to sensor inputs from
+wheel encoders and IMU and a GPS sensor
+rover Diagnostics are sent back to the
+base station where they can be monitored
+in real-time during autonomous traversal
+we detect obstacles using art time maps
+point cloud obstacle segmentation and
+use the Ross navigation staff to avoid
+them we mirror the state machine
+controlling the rover back to the base
+station which gives us feedback about
+cases actions while being robust against
+network connection issues with its four
+independently controllable motorized
+wheels cases drive system is able to
+make extremely tight skid steer terms
+allowing for great mobility and agility
+this is
+pension system includes both inflated
+rubber tires and mountain bike shocks
+for two levels of shock absorbers to
+allow the rover maximum stability over
+rough terrain and the ability to climb
+over large debris our arm features five
+degrees of freedom including a unique
+differential system that controls the
+wrist as well as a linear actuator that
+allows the arm to carry heavy loads our
+custom hand was designed to easily grab
+and lock around objects up to 5
+centimeters in diameter as well as to
+hold and operate hand tools such as
+screwdrivers the hand was 3d printed
+using both rigid and flexible materials
+which allow it to securely grasp objects
+we wanted our designed to be as
+adaptable as possible the t groove
+aluminum frame allows us to readjust the
+positions of components including the
+legs antenna and soil system to ensure
+the robot can complete tasks as
+efficiently as possible the soil system
+consists of three scooping mechanisms
+which allow for sufficient soil to be
+deposited on the rover in independent
+containment units avoiding cross
+contamination the samples are dropped
+into a mixing device to optimize the
+accuracy of the onboard experiments
+results the science team is developing
+experiments that will give us immediate
+results on the presence of life on the
+terrain for qualitative data we will
+have a camera on the outside of the
+rover to differentiate between areas of
+so to test and to identify biological
+activities such as soil camping and
+desert varnish alongside the extraction
+of a core sample will allow for the
+identification of fossil segments a
+probe will be attached to the arm to
+test for conductivity salinity and pH
+that can be used to assess habitat
+quality of the soil on the rover we will
+have a wide variety of tests including
+definitely mean for DNA presence
+ninhydrin for nitrates
+Lugo's for saccharides bio-rad for
+proteins and effervescence for calcite
+shelled marine organisms we are also in
+the process of building a surface
+enhanced Raman spectrum
+for more quantitative data case builds
+upon our experience over the past two
+years of competing and is more prepared
+than ever to tackle the challenges
+presented by the URC from the improved
+drive system increased electronics
+modularity and simplicity and enhanced
+communication capabilities this design
+is a huge step forwards for our team at
+competition it will be able to handle
+the rough terrain manipulate controls
+use tools and detect signs of potential
+life all contained within our rugged
+design Speer has taken significant
+strides over the past year we are ready
+to take on the University Rover
+challenge
+[Music]

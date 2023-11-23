@@ -1,0 +1,166 @@
+[Music]
+hello my name is Michelle Gaynor
+president of the University of Michigan
+Mars rover team and welcome to our 2020
+system acceptance review our team has
+been hard at work redesigning our Rover
+systems to increase its capabilities in
+each mission in this video we will
+showcase features that will strengthen
+our performance at the University Rover
+challenge this year's Rover was
+developed with the focus on durability
+and reliability a carbon fiber chassis
+provides a strong lightweight foundation
+high stress points are reinforced with
+structural inserts and a modular design
+facilitates smooth configuration changes
+between missions the mobility system has
+been revamped with more powerful and
+brushless DC wheel motors which will
+help the rover climb steeper slopes in
+the extreme retrieval and delivery
+mission the suspension is optimized for
+driving forward to better absorb frontal
+impacts
+additionally the wheels are 3d printed
+from flexible polymer to enhance the
+rover's compliance and traction when
+traversing desert terrain this year six
+degree of freedom of audit common
+features in-house cycloidal
+transmissions which increase and
+effective precision and reduce overall
+mass the linear actuator on the shoulder
+pitch joint ensures that the robotic arm
+is strong enough to tow and lift a five
+kilogram payload with the rope a two
+degree of freedom gimbal camera provides
+an adjustable view during a bottle arm
+operation to test the rover for the
+extreme retrieval and delivery mission
+we have designed multiple courses which
+include terrain and objects similar to
+what we expect to see at competition we
+have automated that operation of the
+robotic arm to officially complete
+competition objectives in the equipment
+servicing mission our inverse kinematics
+based control scheme now includes an
+orientation mode allowing the operator
+to command the end effectors orientation
+and location of the robotic arm using
+our kinematic model we calculate a
+torque feed forward term to augment our
+existing high frequency feedback
+controller thereby ensuring smooth
+operation of the arm our end effector
+uses a lead screw to grip objects up to
+three and a half inches wide with
+strength and precision intersecting
+lasers guide the operator to line up a
+hex key for tightening a screw and
+typing on a keyboard rover operators
+will practice controlling the arm using
+open loop and motion planning algorithms
+on a configurable Lander for the
+redesigned autonomous navigation mission
+we've upgraded our navigation
+localization and computer vision
+software the Rover makes safe and
+strategic path planning decisions to
+traverse GPS waypoints using odometry
+and computer vision data localization is
+performed using GPS sensors and a nine
+ímu this year we developed common and
+magic filters to increase the precision
+and reliability of this data we also
+augmented our navigation state machine
+to include gate detection and computer
+vision assisted gate traversal a
+stereoscopic camera is used to identify
+the IDs and distances of a our tags
+relative to the rover so that the state
+machine can determine the directionality
+and center of the gate the rover aligns
+itself precisely between the two posts
+and passes through the gate in the
+correct direction the computer vision
+software also detects potential
+obstacles as small as 20 centimeters up
+to 5 metres away when the rover detects
+an obstacle a safe alternative routes a
+next Waypoint is identified and executed
+we have developed tests courses that
+imitate this mission as well as an
+idealized simulator to test our
+navigation algorithms year-round to
+support our Rovers mechanical and
+software updates we have completely
+overhauled its electrical system we
+built a 10 Series lithium-ion battery
+pack using 18 650 cells to provide 36
+volts to the rover additionally we
+incorporated brushless DC motor drivers
+which enable precise control of the
+wheels for a reliable communication the
+rover is equipped with a 900 megahertz
+radio and linearly polarized antennas
+the radio communicates with a three
+meter base station antenna from up to
+one kilometer away we also built an
+autonomously at a playable radio
+repeater for long-range missions the
+repeater is made up of four patch
+antennas mounted on a tetrahedral
+structure the device is deployed by a
+burn wire release mechanism to ensure
+constant omnidirectional communication
+after deployment we've designed a suite
+of scientific instrumentation to analyze
+both soil and rock samples for evidence
+of life a three degree of freedom
+sampling system collects soil with
+sterilized interchangeable end effectors
+which are replaced in between sites to
+prevent cross contamination each sample
+is deposited into one of four isolated
+enclosures including three identical
+Suites of chemical tests and one Raman
+spectrometer the chemical tests are
+equipped to detect bio molecules
+including photosynthetic chlorophyll
+using a special sensor ammonia using
+color indicator strips and amino acids
+using ninhydrin solution the results of
+all chemical tests are streamed back to
+the base station for immediate
+evaluation the second iteration of our
+custom-built 650 nanometers Raman
+spectrometer is designed to detect
+karagin and carotenoids in a sample a
+microscope and reflection spectrometer
+permanently mounted to the end-effector
+to analyze rock samples institute the
+microscope images sites that may contain
+gross morphologies indicative of
+fossilized or living microbial
+while the reflectance spectrometer
+searches for mineral evidence of life
+such as limestone or diatomaceous earth
+the sample acquisition and analysis
+process will be tested on a course with
+marked soil and rock samples from
+southern Utah our efforts in the final
+months before competition will emphasize
+full system verification and operator
+practice we will conduct a series of
+mock missions under the same constraints
+that we expect at competition our
+performance in these missions as well as
+past competitions will be used to
+develop competition strategy we are
+confident in our ability to succeed at
+the University Rover challenge on behalf
+of the Michigan Mars rover team thank
+you for your consideration and go blue

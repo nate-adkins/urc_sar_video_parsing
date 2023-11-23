@@ -1,0 +1,115 @@
+[Music] Hi, we're IITB Mars Rover Team, 
+an undergraduate student team of over 40 
+space enthusiasts dedicated to the
+design and development of Mars Rover prototypes. Following our learnings from previous competitions, we are  
+thrilled to unveil our 2023 rover. This year the 
+team has aimed to go a notch above and beyond  
+all our previous iterations. From introducing 
+seven degrees of freedom in the robotic arm  
+setting up a bi-channel communication Network 
+and developing a completely independent onboard  
+bio assembly subsystem, we have introduced 
+upgrades across all subsystems. The current  
+suspension is lightweight Rocker-Boogie design 
+with a six-wheel drive. The suspension links are  
+cut from square aluminum alloy pipes and provide 
+a robust base for extreme terrain traversal in  
+obstacle climbing. The suspension parameters have 
+been optimized for transfer slope traversal of  
+up to 40 degrees with a novel fourbar mechanism 
+that attaches to the chassis externally. The drive  
+uses skid steering for seamless operation and 
+sharp corners and cramped spaces. Improving upon  
+last year's iteration, this year we have incorporated chevron shaped grousers and light-weight chassis.
+The wheel design has a custom built aluminum 
+wheel hub with a rim made using sheet  
+metal bending process. The wheel hub assembly is
+based on a hex shaft motor that is coupled to the wheel
+hub using a hex coupler. The spokes have been 
+designed to increase the compliance of the wheels.  
+After extensive research we have completely 
+revamped the robotic arm, introducing a 7 degree  
+of freedom design for better maneuverability. Linear 
+actuators and worm gear drive has been used  
+to reduce backlash, improve precision of the end 
+effector and meet raw requirements to lift heavy  
+weight objects up to 5 kgs. The end effector uses 
+a jaw mechanism designed to enhance load bearing  
+and gripping of heavy objects having various 
+shapes and sizes. A linear actuator is used for  
+precise control of the wrist improving on the 
+previous iteration of the arm. Elbow rotation  
+has been added to create a spherical workspace 
+for the end effector. To solve the problem of  
+wire wind up in the end effector, we have added a 
+slip ring on the gripper for continuous rotation.  
+For the current version we completely redesigned 
+the bio-assembly system which included modifying  
+the test and adding separate soil collection 
+mechanism. Our custom soil collection arm has  
+three degrees of freedom with a gripper built to 
+carefully collect soil samples. The arm is mounted  
+with temperature humidity and methane sensors. 
+Additionally pH of the soil is tested post  
+collection. The soil sample is then transported 
+to one of the test modules. The prototype shown  
+has two test modules and one site for collection 
+of an uncontaminated sample for further analysis,  
+which will be extended to accommodate two more 
+test modules. Each of the four individual modules  
+is capable of testing for pH, protein, existence 
+of life and classification of life as extinct or  
+extant. We have trained a Convolutional Neural 
+Network to identify and classify rock samples.  
+A custom Raman spectrometer with a turntable 
+Mount holding the different samples finalizes  
+the mineral present. The hardware subsystem 
+has focused on a compact and efficient design  
+of rover mobility, biosystem operation and 
+easy debugging. Our main onboard processor is  
+the Intel NUC supported by an RPI 4B Plus for 
+additional rover controls. All onboard electronics  
+sit in a neatly housed fully detachable Elec Box 
+coupled to the Rover with aviation grade  
+connectors. The entire rover runs on a 12 Volt 
+rail, down converted for specific components  
+powered by a Lithium-Ion battery pack via a 
+kill switch. To reduce communication blackouts,  
+we have implemented a dual band communication 
+system using a Ruckus p300 and Rocket M2 module.  
+Ongoing field trials have shown promising 
+results with reliable non-LOS communication  
+of over 1 kilometer. To ease rover operation, 
+we have implemented a Django based web GUI  
+for consolidated rover controls and visual 
+feedback. A fully mobile pre-configured base  
+station enables a quick setup time of less than 
+10 minutes and reduces chances of manual errors.
+After winning Excellence award in Autonomous 
+Operation into two consecutive International Rover  
+Challenges, this year's autonomous subsystem 
+focuses on improving reliability and moving  
+towards the level four autonomy. For effective 
+traversal, rover utilizes GPS data provided  
+by sensors on an Android device using a custom 
+built APK. With use of an onboard LIDAR sensor  
+and Intel Realsense stereo camera an occupancy 
+grid is created using RTABMap which helps in  
+obstacle avoidance and path planning. The rover 
+obtains IMU data from the app for pose estimation  
+and feedback from the wheels for closed loop 
+velocity control which helps the rover to pass  
+through a gate and a single post. To search 
+for the Aruco markers we have implemented 
+quad-spinning strategy. The rover recursively performs 
+360 degree rotations to search for AR tags on the  
+sides of a square. To detect AR tags we use OpenCV 
+along with querying point cloud data to obtain its  
+position. We have extensively tested robot autonomy 
+on Gazebo simulations and multiple on-field trials.
+We have spent months preparing for the 
+competition and in the upcoming days  
+we will be performing extensive field trials 
+in the competition-simulated environment and  
+hence are confident of a good show in URC' 23. 
+This sums up our video submission for URC' 23.

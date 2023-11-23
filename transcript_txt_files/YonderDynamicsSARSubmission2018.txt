@@ -1,0 +1,86 @@
+last year we built a rover it was far
+from perfect but it got us to use up and
+we named it courage this year things are
+a little bit different we've redesigned
+everything from the ground up for the
+challenges of the URC and the rugged
+terrain of the MDRS and mine our drive
+system is a modified rocker-bogie with
+adjustable front wheel geometry and a
+spring and damper shock absorption
+system to adapt to varied terrain it's
+six brushless DC motors at 71 to 1 gear
+ratio will provide temple torque to
+scale steep incline the rover is
+currently equipped with wheelies tires
+we are also working on three custom tire
+designs incorporating carbon fiber
+molded polycarbonate and resin cast
+polyurethane rubber
+[Music]
+our chassis incorporates the network of
+beams inspired by a mammals vertebrae
+the long central columns and branches
+distribute loads throughout the system
+so that the rubber can be no torsion and
+resist bending we're using a plane our
+design to be both space efficient and
+lightweight which will facilitate
+maneuverability to the competition tasks
+we've selected structural fiberglass
+engineering plastics and 3d printed
+parts as our materials
+our Rovers arm has 5 degrees of freedom
+with two 200 pound force linear
+actuators for strength and two sets of
+planetary gear systems for the wrist and
+entire arm based rotation we've used
+simulation analysis to ensure the
+strength and structure of the arm isn't
+compromised the arm motors can lift up
+to 5 kilograms even at the weakest
+angles and the arm is removable so that
+it can be exchanged for the science
+payload system polyurethane filament is
+used to 3d print flexible fingers of the
+hand so it couldn't hold around most
+objects but still have the rigidity to
+hold its own shape our Rovers part by 22
+a higher lithium-ion polymer battery we
+have calculated a run time of two hours
+over three kilometers in a worst-case
+scenario our wheels are manipulator
+controlled with an Arduino mega and nano
+respectively and we are designing PCBs
+for those microcontrollers and all our
+motive drivers the microcontroller board
+allows the Nano to be swapped out for
+another to match the manipulator
+attached to the rover while the motor
+driver boards will drive clean wire
+management simplified it buggy and
+reduce electromagnetic interference our
+brushless DC wheeled motors were chosen
+for their low weight low power
+consumption and high stall torque and
+consideration of the extreme retrieval
+and delivery tests we plan on using to
+ubiquity rocket reviews at 5 gigahertz
+to communicate with the rumen a MIMO
+omni antenna on the rover and a sector
+antenna at the base station gives
+Rangers exceeding one kilometer and high
+data transfer rates the brains of our
+Rover are Nvidia Jetson px 2 and
+Raspberry Pi 3 which are networked to
+act as a single system using Ross the
+Nvidia Jetson has a powerful GPU that
+gives us the ability to drive
+autonomously using cutting-edge
+environment mapping and navigation
+techniques to actively plan routes that
+avoid obstacles the Raspberry Pi then
+interprets these paths using a testament
+of the rover's position and directs our
+suite of Arduino is to follow its
+commands

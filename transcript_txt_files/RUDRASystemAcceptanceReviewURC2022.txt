@@ -1,0 +1,52 @@
+Hello! We are Team RUDRA the official Mars Rover Team of SRM. Our team has been performing against
+ the top performers of URC since 2013 and we aspire to learn and improve our system by many folds. Our team 
+comprises 5 interdisciplinary domains namely mechanical, electronics, corporate, developers and science 
+This year's main focus was to improve the manipulator for better manoeuvrability and a more
+ precise and reliable autonomous system.
+The rover weighs only 45 kgs with all equipment on board.
+The chassis frame is made up of hollow aluminium box channels supported by a 4-wheel drive with
+independent suspensions. The 12-inch wheels with a wider base provide enough traction to the rover.
+They are driven by Brushed DC motors coupled with a planetary gearbox which helps to transfer
+The largest possible torque in the most compact form.The forearm of the manipulator will be made  
+of aluminium box channels, supported by a hind arm made of 2 aluminium square channels. The Arm 
+ is actuated by 2 cycloidal drives as an improvement to our previous year’s design. This configuration
+provides an increased work volume envelope, improving rigidity and precision
+as it can stop at specific angles. The ARM to Chassis turntable joint has been made modular
+making the manipulator an independent system and coupled with the end-effector provides five degrees of freedom.
+A separate modular arm actuated by linear actuators is assisted by an Auger which can
+penetrate even hard soil and collect samples up to 15cm deep. This is enclosed by a custom 3D 
+printed case containing the physio-chemical & gas sensors. To employ and modernize our previous year’s electronic  
+subsystem we have added several upgrades. The primary Master on board is the jetson tx2 communicating via serial 
+bus with the two dual-channel sabertooth motor drivers controlling four 24 volt banebot
+geared DC motors for driving the rover. To reduce the complexity of the system, the drive and 
+the manipulator module have been kept separate controlled by the STM32F discovery onboard
+microcontroller. Our newly designed custom PCB provides the “Plug and play” feature to reduce effort. A combination 
+of four and five-cell lipo batteries are being used to power the Rover regulated by an array of buck-boost
+dc with dc converters moreover every subsystem 
+including the actuator has and feedback system  
+to provide features to perform inverse kinematics and to run system-check status. For the communication, we are
+using a 2.4 GHz spectrum that is coupled with an Omni-directional antenna at the access point and  
+direction sector antenna at the base station which gives us a range of 1.2 kilometers with
+low latency. We are using a 1.2 and a 5.8 GHz transmitter for the analog feed of the cameras.
+The Science Domain is dedicated to making the rover equipped with the science payload that
+consists of instruments and assays to determine the absence or presence of either extinct
+or extant life. The collection of the samples, from a minimum of three sites, will be done using an auger 
+mechanism and transferred equally with the help of funnels into the respective Falcon Tubes present
+in a centrifuge setup. The samples are analysed using the Catalase and Anthrone test which will
+serve the purpose of determining the presence of life. The arm of the auger consists of multiple
+gas and physiochemical sensors to detect the gases like Hydrogen Sulfide, Carbon Dioxide and
+Ammonia released while drilling the soil. These gasses are major by-products of various metabolic
+processes, hence indicating microbial activity and habitability. 
+A digital microscope is attached with our rover which provides a magnified live feed of the rocks
+to analyze their structural features, indicating the presence of minerals/major element oxides,
+stromatolites, microfossils and kerogen. 
+Robot Operating System - ROS is used to build
+the software side of the rover making it modular with the use of services making the Drive system reliable is
+and tested in previous competitions. The rover was simulated In the Gazebo simulator on various
+terrains to optimize its path planning algorithms and other aspects. The rover is supported by a closed-loop
+feedback system to help catch errors and adapt the rover dynamically.For the autonomous task,  
+highly optimized and well-tested packages are used to detect the AR tags after the rover
+localizes itself with the given GNSS coordinates using a differential GNSS system to calculate
+the accurate position. We plan to use Moveit Motion planning framework to solve the inverse
+and forward kinematics problems of our manipulator, testing it in simulation for optimal performance.
+ 

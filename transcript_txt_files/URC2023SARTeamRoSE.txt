@@ -1,0 +1,143 @@
+foreign
+Hawaii's first and only Rover team and
+I'm proud to present the 2023 Rose Rover
+this year our team of 40 members have
+been working hard to implement the
+lessons learned from last year's design
+to bring you this year's Rose Rover
+the mechanical team has learned a lot
+from last year we have completely
+redesigned and manufactured our new
+Rover it consists of four main
+subsystems the aluminum chassis rocker
+bogey suspension five degree of Freedom
+arm and vice group end effector the
+suspension's track width is larger than
+the wheelbase which allows our Rover to
+turn with ease to ensure our Rover can
+Traverse the Rocky and Sandy terrain we
+have developed 3D printable Wheels
+featuring a honeycomb's book design and
+grousers this allows elasticity
+information which improves traction on
+Rocky and Sandy surfaces a rocker Bowie
+design features a damper connected to
+the rocker to reduce shock while driving
+over obstacles wheel assemblies in the
+bogey feature a double Wishbone
+suspension system to reduce shock and
+ensure traction while driving over
+obstacles a 360 degree gimbal camera
+mounted to the antenna allows the
+operator to view the Rover's immediate
+surroundings our 5 degree of Freedom arm
+houses most of the motors in the
+shoulder reducing mass in the arm while
+supplying sufficient torque to lift
+objects up to 5 kilograms customized
+battery packs will be manufactured
+utilizing lithium ion cells additionally
+power distribution boards will be
+designed to supply 12 and 5 volt routes
+for onboard Electronics finally an
+electronic kill switch will be readily
+available at the exterior of the Rover
+for emergency situations taking
+influence from last year's design team
+Rose implements a sturdy aluminum 5
+degree of Freedom arm capable of both
+performing missions reliably and with
+low risk in order to meet the differing
+requirements of each Mission we've
+implemented a modular arm with two end
+effectors cater to the needs of their
+missions the vice grip underfectures
+main feature is as a platform for
+modular attachments including collecting
+soil with excavator buckets Flexio grip
+pads for manipulating controls and an
+allen key that takes a advantage of the
+rotating lead screw the worm and wheel
+end effector features a tried and tested
+method of actuation with a significantly
+more powerful motor inset grip pattern
+and wide Archer traversal allows for
+secure handling of containers and heavy
+rocks with Ross on the movement motion
+planning framework the arm and end
+effector can be controlled to designated
+goal poses using inverse key pneumatics
+to calculate the motion of each
+individual joint the payload system was
+designed for our science Mission which
+is split into three different housings
+for three different liquid assays
+ay the funnel will separate the soil
+into three test tubes where the blue
+tubing will distribute the soil into its
+respective test tube the housings are
+fully enclosed to contain any liquid
+chemicals from spilling and reduce the
+amount of sunlight from altering the
+results three pre-filled liquid assays
+will be used and viewed with a Raspberry
+Pi camera such that the operator can
+interpret the results and ethelium
+bromide solution with a UV light will be
+utilized to identify the presence or
+absence of nucleic acid the comasi stain
+will be used to identify the presence or
+absence of proteins and a distilled
+vinegar solution with magnets will be
+used to identify the presence or absence
+of minerals and inorganics
+from the video footage you'll be able to
+draw conclusion and make a hypothesis
+which sample is extinct extent or
+absence of Life the guidance navigation
+and control scheme is responsible for
+all software and Communications both on
+board the Rover and the ground stations
+unlike last year the GNC team now
+leverages Docker containerization for an
+operator-friendly modular approach to
+Mission ready and configurable software
+we also use a gigabit Ethernet switch so
+our internal Communications can handle
+high-capacity data more reliably our
+autonomous navigation stack is powered
+by Ross melodic a zed mini provides
+Point cloud data from two rectified
+stereo cameras as well as integrated
+visual odometry we also use a zf9r with
+an extended common filter to provide a
+Rover with high resolution Global
+localization data for obstacle detection
+we utilize the package our tab map for
+dense mapping and move base for path
+planning our gate detection makes use of
+the Oracle detect package our ground
+stationed user interface team has built
+a web application out of react and
+node.js to support the operator during
+All Phases of the competition the app is
+able to control the teleoperation of the
+mobile base and the arm as well as the
+receive live video feeds and sensor data
+from our onboard sensors the app is also
+designed for fine-grained monitoring of
+all parts of the Rover system including
+but not limited to Communications
+sensing hardware and controls this year
+team Rose has taken a more systems
+engineering based approach for Mission
+competence we are undergoing the
+verification and validation process to
+ensure that our Rover system has the
+correct designs to complete all
+objectives for each Mission while we are
+a new team we have participated in
+rigorous design reviews and testing and
+we are confident in our abilities to
+compete at the 2023 University Rover
+challenge mahalo

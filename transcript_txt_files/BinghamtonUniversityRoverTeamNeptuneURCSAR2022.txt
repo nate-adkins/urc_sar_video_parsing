@@ -1,0 +1,152 @@
+[Music]
+university rover teams system acceptance
+review for the 2022 competition year we
+are excited to show off our products and
+innovation this year and are proud to
+present our 2022 rover neptune
+our rover's name came from an elementary
+student submission through our engineers
+week rover naming contest
+with the restraints of copa19 we began
+our year with virtual recruitment and
+trainings but after successful trainings
+and onboarding of over 50 members this
+year we focus on the in-person
+transition to have a safe groundbreaking
+and productive year
+our six different sub teams redesigned
+the entire river based on extensive
+research as well as lessons learned from
+the previous year our team capitalized
+on binghamton university's state of the
+art fabrication lab which includes
+things such as
+water jet cutting and advanced 3d
+printing the chassis was manufactured
+in-house to exact specifications to
+accurately implement the many finite
+element analysis optimized components
+wires are managed neatly within the
+waterjet cut aluminum members to route
+needed cables to each wheel the rocker
+bogey design
+and enhanced differential bar allows for
+improved terrain maneuverability giving
+neptune the ability to climb over
+obstacles in the utah desert
+to further give neptune to climbing
+abilities custom tpu 3d printed wheels
+provide traction are non-pneumatic and
+will soften any impact that will occur
+the output of the brushless dc motors is
+put
+through to our custom made carbon fiber
+nylon 3d printed herringbone planetary
+gearboxes to allow adequate torque
+to support the capabilities of the rover
+we designed a robust system that
+emphasized custom printed circuit boards
+and standardized parts all finalized
+pcbs will check to ensure the
+appropriate voltages and signals can be
+found on each pin all subsystems are
+controlled by a teensy 4.1
+microcontroller that receives controlled
+area network or can bus
+packets from the central raspberry pi 4.
+for standardization all custom pcbs use
+jst xh and molex minifit jr connectors
+allowing for a fluent transition between
+the human robot environment interaction
+and environmental analysis system
+complete the extreme retrieval and
+delivery mission and the equipment
+servicing mission the hrei team designed
+a six degree of freedom arm this arm
+contains aluminum r bands that were
+optimized using finite element analysis
+to yield a high strength weight ratio
+the arm's joints are driven by nema 23
+stepper motors three of which are
+coupled to custom designed planetary
+gearboxes that use herringbone style
+gears these gearboxes are 3d printed
+with engineering-grade nylon material
+that is mixed with carbon fiber strands
+this year the hrei team also chose to
+use timing belts to drive the joints as
+this allows the team to strategically
+place the motors to create a lower
+center of gravity
+resulting in a more stable design
+utilizing timing belts also allows the
+team to use one of our stepper motors as
+a cantilever for the upper armbands
+which significantly reduces the gear
+ratios required to move our elbow joint
+the arm is also equipped with our
+parallelogram fingertip gripper which
+was designed to keep the fingertips
+perpendicular to impending objects to
+increase grip strength this gripper also
+contains a 5 16 inch hex key which
+allows us to easily manipulate switches
+and buttons and interact with keyboards
+and screws to improve the operating
+experience and maximize our remote
+control capability the software team
+completely overhauled systems from
+previous years
+the base station uses glfw and
+minimalistic gui framework nanogui to
+create a responsive and engaging user
+experience
+our design maximizes runtime flexibility
+and does not rely on constant system
+configurations sensor gauges video
+streams and other tasks
+widgets are contained in modular windows
+allowing users to customize and adapt
+the layout without editing any code
+the new network library uses features
+like vectored i o to reduce latency and
+required bandwidth a noticeable
+improvement from last year's design
+the rover and base station communication
+system handles environments with low
+bandwidth or high packet loss
+environmental analysis team work to
+implement proper testing methods to
+distinguish between extant existent and
+extent life
+after the augur has collected and
+dispensed the dirt samples the test and
+suite is lowered for testing to begin
+for our first test uses co2 and ph
+sensors to determine their respective
+levels every red test and lipid test
+strips are used to detect proteins and
+lipid bonds with a changing color
+indicating presence in the sample
+we also use a methane sensor and a
+temperature sensor as well as an osep
+sensor which measures temperature
+moisture and humidity in the soil we use
+peristalsic pumps and silicon tubing to
+direct the test and fluids into the
+appropriate cutouts below
+with a layer of acrylic with a
+watertight seal around our science
+module
+after accumulating results from multiple
+tests we can form a conclusion on the
+presence or absence of life
+to keep preparing for competitions in
+utah neptune and our operators will
+continue undergoing trainings to ensure
+each mission can be completed with ease
+and high precision we are excited to
+compete in this year's urc and are proud
+of how far we've come thank you for your
+time and we can't wait to see you in
+utah

@@ -1,0 +1,137 @@
+G'day, welcome to Monash Nova Rover. We're a student team based at Monash
+University in Melbourne, Australia
+comprised of 60 students from
+engineering, science, IT, design and
+commerce backgrounds. This year we've
+completely redesigned our chassis body
+to improve accessibility and minimize
+weight. At only 36 kilograms it provides
+rapid access to critical systems and can
+alternate between arm and science
+payloads within 10 minutes. Our novel
+double-bogey suspension features an
+interchangeable differential bar
+providing stability on any incline with
+any payload. In-house designed and
+fabricated CAN bus motor drivers operate
+the wheels and arm joints, with a modular
+design and high current capacity. The
+new distribution board contains six
+motor drivers, condensing the drive
+system while allowing for in-situ
+repair and diagnostics. An updated eight
+cell LiFePO battery unit monitors cell
+voltages, current and temperature, with
+improved safety shut down switch. A new
+GUI features a cluster of G-streamer
+video feeds which can be changed on the
+fly, providing the operator with critical
+information from the rover. 5.8 gigahertz
+and 900 megahertz radios provide large
+bandwidth and lossless control enabling
+a reliable connection over obstacles and
+distances of one kilometer.
+To overcome the difficult terrain in 
+extreme retrieval the chassis team has
+redesigned the drive system. Our flexible
+custom 3D printed wheels improve
+traction and dampening. As a single
+component they reduce complexity, are
+light weight and are quickly
+interchangeable. In 2019, the gearboxes
+were an area of weakness, and so this
+year we've upgraded to stronger and more
+reliable VEX pro models. We've developed
+a new gimbal camera allowing for
+improved and complete control over our
+field of view supporting the rapid
+identification and tracking of objects
+during competition tasks. New custom
+cycloidal gear boxes driven by the
+high-powered Maxon motors now enable the
+robotic arm to have very low backlash
+and high gear reduction in a small and
+lightweight package. The new gearboxes
+provide full rotary range of motion at
+each joint, granting longer reach and
+easier manipulation of objects. The
+rotary joints allow the arm to be safely
+stowed increasing the stability of the
+rover when carrying heavy loads between
+task checkpoints in uneven terrain.
+To achieve the precision and dexterity
+required for the equipment servicing
+task, our new tubular arm structure
+provides excellent rigidity in all
+directions, while our custom cycloidal
+gear boxes provide a stable platform for
+precise control of the end effector. Each
+joints motor includes a high-resolution
+quadrature encoder allowing high
+accuracy velocity control. 14-bit
+resolvers on all joints provide reliable
+position data without needing a homing
+procedure. Together they allow the
+operator to control the arm velocity in
+Cartesian space using inverse kinematics,
+simplifying control during linear
+movements such as opening drawers. We've constructed a full scale replica of the
+2019 equipment servicing rocket
+enabling accurate assessments of arm
+performance and realistic simulated
+operator training. The two-finger
+equipment servicing end-effector allows
+for the manipulation of objects of
+various geometries facilitating
+interaction with switchers and joysticks
+The wide opening of the jaw can also
+grasp large objects such as the cache
+container directly.
+To improve on our previous pitfalls in
+the autonomous task, we're using the
+Gazebo simulator to test our algorithms
+before deploying them on board our
+primary computer - the Nvidia Jetson TX2,
+built for advanced graphical processing.
+The rover first applies an Extended
+Kalman Filter to fuse data from onboard
+odometry data, GPS and IMU sensors
+greatly improving accuracy of rover
+positioning. A 360 degree LIDAR then
+generates a point cloud which is fed
+into FAST-SLAM 2, an algorithm which
+simultaneously provides high accuracy
+localization and mapping of the rover
+and surrounding features. The A-Star
+pathfinding algorithm then finds an
+efficient path to the checkpoint and
+also navigates around obstacles. Finally
+the detection of AR tags will be done
+with a stereo camera supporting their
+identification of markers and gates. To
+notify judges completion of task stages
+an LED strip has been integrated to the
+rear of the rover.
+The 2020 scientific
+payload 'Joey' is capable of acquiring up
+to four unique samples during the science
+task. Several positioning sensors allow
+fine control over the volume of regolith
+collected. An independently actuating
+microscope with dynamic control of
+exposure, brightness and focal length
+will also allow high-resolution imaging. Once samples are acquired two biochemical
+assays and a purpose-built photospectrometer will perform in-situ life detection.
+Proteins and enzyme activity
+will be investigated allowing the team
+to determine the presence of life in
+samples, and distinguish between extinct
+and extant. 'Joey' will also monitor a
+range of environmental variables further
+supporting habitability investigations. Geological analysis is enabled by images
+from the microscope, which will allow
+grain size and shape of rock and soil to
+be identified even in varying test conditions.
+Finally, a mineralogical database has
+been integrated into the rover's GUI to
+streamline this process.

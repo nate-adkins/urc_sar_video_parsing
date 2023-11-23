@@ -1,0 +1,51 @@
+Team Rudra has been participating in the university rover challenge since 2013
+Currently the team consists of 35 students from various engineering disciplines working on the intricacies of each system
+This year the team has a special focus on incorporating new and innovative designs to tackle the URC problem statement
+Attributing to the years of experience the team has established a fully functioning lab with state-of-the-art equipment
+The rover has undergone a massive overhaul in each key area to achieve better performance on the field
+for the extreme retrieval task
+We have developed a four-wheel drive system with a differential mechanism which provides better stability to the chassis
+This makes it adaptable to challenging terrain by keeping the system relative to the ground and wheels in contact for uninterrupted traction
+The 24-volt high Torque DC motors transmit power through a bevel gear mechanism which diverts the load from the motor shaft to the bogey
+This protects the motor shaft from stresses and safeguards the motor from excessive load
+The astronaut assistance box is a hopper shaped tool bin with the sliding base actuated using a rack and pinion mechanism
+for dropping tools
+High discharge lipo batteries are coupled with an array of boost converters current sensors and relays to make the power system efficient
+compact and fail safe
+We are using products from ubiquity networks as our prime communication system
+Operating at 2.4 gigahertz coupled with high gain antennas to provide a range of 2 kilometres for control
+This range is optimized using antenna tracking algorithms to obtain maximum strength in communication. The robotic arm is the parallel four bar mechanism
+operated by Electric linear and rotary actuators
+The wrist engages 3 servo motors in a closed compact fashion
+Designed meticulously to put minimum load on each of the motors
+The designed orientation imparts six degrees of freedom to the arm
+The gripper uses a DC motor through a Lead-screw mechanism for simple and effective operation
+The arm is capable of performing tasks like turning screws and knobs flipping switches and opening drawers with ease
+In addition to this the arm can lift and carry loads of up to 5 kgs
+Custom PCBs are designed to make all connections plug and play and decreasing system's complexity
+inverse kinematics is being used to achieve semi-autonomy in the ARM
+The arm is capable of positioning itself to given three-dimensional coordinate which helps us perform the tasks with higher precision
+IP cameras have been mounted for detailed view of each part of the rover during the task
+The feed is transmitted using the 900 megahertz to 1.2 gigahertz frequency band
+The coding domain of team Rudra has made great improvements since its inception in 2013
+With every new challenge we have made advances in making the system better faster and more reliable
+The rover now boasts an Nvidia jetson tx2 as the backbone of the system
+It is used as a system master and carries out the major computation tasks for the rover like tennis ball detection for the autonomous leg
+We are using robust Ethernet modules with UDP for inter communication within the rover over synchronous serial
+communication protocols to put the system on a single unified network
+The system is robust enough to switch between manual and autonomous mode using telemetry
+For object detection in the autonomous task, we are using deep learning with tensorflow and OpenCV
+The Nvidia jetson is connected to the rover mounted camera and is used to detect the tennis ball
+It uses a single short detector as a convolutional model for the object detection
+We have added a live stream feature which gives us an uninterrupted feed from a camera mounted on the rover via UDP connection
+The rover also uses a GPS module with an inbuilt compass to navigate during the autonomous task
+The control system for the rover features a clean intuitive and responsive GUI, which is used to monitor the rover traversing on the field
+The aim of a mars mission is not only to detect life but also to distinguish between
+extinct and extent life. The arm is equipped with 2 end-effectors, a
+microscope and an auger for the examination of samples the auger drills the surface for the collection of soil and
+Transfers it to the bio box enclosing a spectrometer setup for the chemical analysis to detect the presence of molecular biosignatures
+For visual examination of rocks a live video feed from the microscope is used to identify various biogenic
+morphological features
+Which are signs of existence of endolithic life. In addition to these we use several
+MQ series gas sensors to detect the levels of certain biomarker gases in the atmosphere
+A custom GUI has been created to monitor all the data

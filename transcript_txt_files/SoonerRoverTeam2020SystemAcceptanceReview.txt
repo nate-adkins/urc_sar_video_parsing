@@ -1,0 +1,111 @@
+we are the Sooner river team we are a
+team of over 30 engineers and scientist
+who are committed to designing building
+and testing a rover of the highest
+caliber as the University of Oklahoma
+showcase team we share our work and our
+mission with hundreds of prospective
+engineers each year as we push them to
+pursue stem
+the mirrored arm system lets the user
+easily make complex motions with high
+precision it was designed to make fine
+manipulation faster and more responsive
+in real time
+obstacle rotary encoders have extremely
+high resolution meaning the rover arm
+has very accurate tracking
+the arm as an independent module from
+the rest of the rover which makes it
+very easy to swap out for the science
+package or autonomous sensors
+using conductive slip rings the clock
+can rotate continuously around its axle
+which is great for turning knobs and
+screws
+you
+position sensors on each joint give the
+arms positioning high repeatability an
+algorithm monitors the speed and
+position each joint is moving at to move
+consistently and not overshoot his
+target here we are able to type sir Oh
+you
+the end-effector is able to tightly grip
+tools and the system is precise enough
+to pinpoint small targets we are
+effectively able to switch between hex
+keys screwdrivers and other kinds of
+tools quickly
+you
+the belt-driven joints of the arm make
+it more powerful and allow for fly
+manipulation creating an ideal balance
+of strength and accuracy the arm is very
+durable thanks to the CNC aluminum
+construction and belt drive under a lot
+of force the belt will slip before the
+gears in the motor break the large
+motors maker arm capable of lifting over
+five kilograms with his rear hooks
+the science package consists of a drill
+vacuum and carousel used to collect
+regular samples the drill agitates the
+regolith so it can be vacuumed up by the
+cyclonic separator the regolith is
+deposited in one of four pre-loaded test
+tubes containing hydrogen peroxide and
+tested for organics by monitoring the
+reaction
+no reaction between the sample and
+peroxide indicates no organics while
+organics are indicated by an
+effervescent reaction between each
+sample site the vacuum system is purged
+and the carousel rotates to the next
+tube
+you
+here the rover is driving to a set of
+GPS coordinates that we gave it fully
+autonomously the rover is driving using
+MPI D algorithm to steer using the
+desired heading as a set point in the
+current heading from the onboard GPS as
+the process variable and this algorithm
+as the rover is driving towards GPS
+coordinates is looking for the air
+tagged ads at the end of the lake using
+a variety of different filters so I can
+see the air tagged in any lighting
+without calibration once it sees the air
+tagged the river switches from driving
+to the GPS coordinates to track the air
+tag and using the same PID algorithm but
+using the air tags heading as a new set
+point once it is driven within three
+metres of the air tag the river stops
+and the LEDs turned green while the
+referee stopped emission controls enters
+a new list of GPS coordinates for the
+rover to drive to and once it is given
+the signal the river turns LEDs red and
+continues on its way
+the Mars akkad design allows our Rover
+to maintain balance and control
+throughout the extreme traversal tasks
+the 12-inch diameter wheels provide a
+low center of gravity with a chassis
+that prevents high centering of the
+rover while rubber grousers give that a
+Sarah traction for the rubber to drive
+over steep inclines of both rock and
+soft dirt as you can see here the rover
+can drive over a field of concrete and
+rebar without failure in other testing
+scenarios the rover is able to traverse
+inclines of up to 45 degrees here at the
+scenario routine we've put in a lot of
+hard work and made a lot of great
+improvements to our design thank you for
+viewing our submission to the University
+Rover challenge

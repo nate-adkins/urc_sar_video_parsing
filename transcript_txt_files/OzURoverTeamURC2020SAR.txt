@@ -1,0 +1,79 @@
+Hello! We are Ozyegin University Rover Team
+from Istanbul, Turkey. We have been
+building rover prototypes since 2014.
+Our team has undergraduate students from
+different departments, forming an
+interdisciplinary working environment.
+The team consists of five sub-teams :
+locomotion, manipulation, autonomy, science
+and management. This year we worked hard
+to develop our sixth-generation rover.
+After doing a lot of research, we decided
+to use a differential mechanism with
+four wheels. The system is stronger and
+lighter than other systems. It can be
+easily folded for carrying. Tyres are made of rubber for long
+distance travel with minimal skid on the
+terrain. Four different tyre prototypes
+were produced to achieve the most
+suitable wheel design.
+ 
+In order to analyze the dynamic behavior
+of the rover, a multi-body dynamic
+simulation was conducted. We decided on
+the optimum parameters of the design
+before manufacturing started.
+Speed controllers with integrated PID
+controller and CANBUS communication
+protocol were used to drive the
+locomotion motors. Our main processor
+board Jetson TX2 transmits CAN message
+to speed controllers according to
+drivers input command. Our rover has a
+five degrees of freedom manipulator with
+two-fingered gripper. Pitch, roll rotation
+and gripping motions are actuated by two
+servos and the stepper motor
+ 
+A linear motor was attached on the top
+of the end-effector
+to press keyboard keys during the
+servicing mission. A custom PCB was
+designed to control the arm motor. Control of the arm is done in cartesian
+space with the help of inverse kinematic
+calculations. Joints' angles are
+calculated for each configuration given
+by the joystick input.
+The base station communicates with the
+rover, using an omnidirectional antenna
+and the wireless router. Lithium-polymer batteries are used to
+power the rover.
+ 
+We used multiple steps to provide safety
+to our robot. The activity indicator
+shows the current states of the robot.
+Rover has an emergency button. Once pressed,
+the rover stops working immediately.
+The rover has a unique onboard science
+laboratory that can collect samples with
+a drill. Using the collected soil
+samples, potassium, phosphorus, nitrate
+concentration can be approximated and
+the pH value of the water can be
+measured. Rover has equipped with a
+carbon monoxide, temperature, humidity
+sensors, an anemometer, UV light intensity meter, and the barometric pressure sensor.
+With the collected data, our science team
+can predict if there was any extinct or
+extant life or comment on the livability
+of the environment. For the rock analysis we
+use sensitive microscope to see
+fossilized or living microbial
+communities
+During autonomous traversal, our
+rover gathers odometry information from
+three different sources encoders, ZED
+stereo camera, and GPS. Using the onboard
+stereo depth camera, the rover can avoid
+barriers.
+Hope to see you in Utah! :)

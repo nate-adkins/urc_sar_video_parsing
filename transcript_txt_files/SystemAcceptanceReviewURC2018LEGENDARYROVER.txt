@@ -1,0 +1,66 @@
+The rover parts has been produced using
+advanced manufacturing technologies
+like CNC metalworking, milling, turning and water jet cutting.
+For evaluation of new design, changes to
+the 3D printing has been used in the rapid-prototyping process.
+Moreover innovative composite casting has been used for critical rover parts.
+The frame is crucial part of the whole vehicle.
+To prepare the rover for the
+dynamic load which occurs in motion
+the buckle-resistant trapeze-shape profiles has been used.
+The legendary VI vehicle is driven by four independently suspended wheels.
+The independent suspension arms system assures that even rapid, dynamic movement,
+like turning in place or changing direction while driving will not cause loss of grip
+nor affect rover cruising abilities, which
+is common issue of the competitive
+rocker-bogie suspension type.
+Thanks to design changes and immediate testing by
+rapid prototyping we achieved higher
+ground clearance with better stability
+of the platform which allows rover to
+attack even steeper slopes with no risk of felling over.
+The robotic arm has six
+degrees of freedom
+and thanks to worm and planetary gear
+combination it provides more than six
+kilograms of lifting ability.
+Independent DC motors with encoders give the
+ability to control joints in closed loop
+system using PID controller.
+The heaviest manipulator parts - gearmotors are placed
+as low as possible to improve
+manipulator stability and to lower the
+vehicle center of mass.
+Wheels are bigger and wider than those on previous Legendary vehicles.
+All wheels are manufactured in new technology involving composite materials.
+Whole structure of each wheel is designed to absorb shock and to improve traction.
+We will carry out physicochemical analysis of soil by determining its temperature, pH, salinity, conductivity and humidity.
+Also we will perform rapid colorimetric strip tests to estimate quality of the soil.
+To determine presence of life we won't use microbial tests
+due to assumptions for example aerobic or anerobic bacteria.
+We will perform tests for
+the basis of life - proteins and levels of ATP.
+These tests are much more comprehensive
+when it comes to life detection.
+The new PC software is based on reliable core system that we are continuously
+improving to speed it up by threads synchronization mechanism optimization and overall enhancements.
+Internal data streams were rewritten.
+New user interface has been forged for all new equipments and autonomous system.
+We added new map handling which is going to help operator to successfully complete the mission.
+Our autonomous system is based on Nvidia Jetson TX2 board - computer crafted especially for such systems.
+Solution is based mainly on our own code written in Python.
+Main part of the system is navigation that use GPS, IMU, computer vision system and LIDAR.
+The main purpose of the LIDAR is to detect natural obstacles and make it possible to avoid them.
+We use GPS to approximate rover’s and marker’s localization,
+but the real position is detected by computer vision algorithms.
+When marker is detected we reach it and than signalize it
+- this and every other behavior is defined in our ‘DecisionEngine’ module.
+The heart of rover is built using STM32 microcontrollers
+The main module uses Discovery development board inserted into PCB board which we have designed.
+This is a powerful 32bit F4 microcontroller.
+All of the data is transferred by this board to other modules.
+The same unit is used in independent manipulator board.
+Taking everything into consideration we decided to take same forceful steps to organize teamwork and put the tasks in appropriate order.
+Flowchart and Gantt chart which have been prepared at planning stages we applied and successfully executed.
+Our the newest method of organization helps us follow the dates of tasks realization
+and supervise subteams results.

@@ -1,0 +1,108 @@
+the frame and the suspension are a
+high-risk element the frame has to be
+rigid and that's why we use thicker
+aluminium profiles increasing the safety
+factor the independent suspension system
+allows the rover to drive through rough
+terrain at high speeds what can be said
+about the commonly used rocker-bogie
+suspension we designed the new
+manipulator mechanism which allows for
+the same torque as a mechanical actuator
+while reducing the weight of the rover
+our drill is an innovative prototype
+based on oil drilling devices
+we created two types of unique wheels
+the first one is stiff and durable which
+is an advantage on wet terrain the
+second one is soft and suitable for a
+rocky site thanks to the elastic spokes
+we were able to reduce the weight
+the most unique electronic system in the
+rover is a radio modem which has a very
+large signal range
+the heart of the river is built using
+stm32 microcontrollers the main module
+uses a discovery development board
+inserted into a PCB board which we have
+designed this is a powerful 32-bit F for
+microcontroller all of the data is
+transferred by this ball to the other
+modules the same unit is used on an
+independent manipulated board there are
+several absolute encoders made by us and
+mounted on the manipulator which
+increase the movement precision and
+improve their inverse kinematic system
+the rover is sealed with a joystick and
+the robotic arm is controlled with the
+gamepad
+the remote control and autonomous mode
+are both controlled with our own
+application written by our IT sub team
+for the autonomous task we are using an
+Nvidia Jetson tx2 although this is not
+the most up-to-date generation of
+Jetsons development board it is still
+powerful enough for our needs we are
+using our own unique decision engine for
+the path finding algorithm who are using
+a 2d scanner mounted at the very front
+of the rover four obstacle detection and
+avoidance it can detect obstacles within
+a 5 meter radius our team is split into
+sub teams and works in the same way as a
+regular company we use management tools
+such as Trello crowd or Gantt chart
+thanks to these tools we are able to
+systematically check our progress the
+system which we have been using helps us
+in meeting our goals and deadlines
+legendary Rover 7 easily handles driving
+up slopes can lift heavy objects and
+carry out precise tasks like using a
+screwdriver our experience has been used
+to optimize the rover and complete the
+URC tasks our tennis ball recognition
+algorithm is based on the tensor flow
+neural network the second part of the
+image recognition task will be the
+invention and development of a more
+accurate and stable algorithm which
+detects the marker with a higher
+probability
+we have tested the properties of metals
+composites and plastics proper materials
+have been applied to the different parts
+of the driving system we have designed
+two different wheels the first rule is
+rigid and has a rubber tire after a
+terrain test which ends the design to a
+more elastic one the most crucial part
+of the second wheel are the elastic
+spokes the wheels retain their initial
+shape despite the large number of work
+cycles
+we have improved the design of our
+gripper which allows us to perform very
+precise tasks
+we're conducting extensive tests for the
+autonomous systems we have a pre tested
+navigation system and are currently
+working on debugging and improving
+obstacle detection and avoidance
+algorithms the obstacle detection module
+is also capable of stopping the rover in
+emergency cases for example when the
+obstacles are too close as you can see
+two lamps are mounted at the rear of the
+rover
+they are dynamically signalizing the
+autonomous system state the initial soil
+examination will be performed on board
+by the rover's integral instruments the
+onboard test includes physicochemical
+analysis of soil by checking its
+temperature acidity or basicity salinity
+conductivity and humidity
+you

@@ -1,0 +1,156 @@
+hi there we're the queen space
+engineering team from queens university
+in kingston ontario welcome to our
+systems acceptance review video for urc
+2022 during this year's design cycle our
+team has done some incredible work in
+increasing the reliability and
+functionality of all of our rover
+subsystems during this video we will
+show the amazing work that the team has
+accomplished over the past year and
+demonstrate our readiness for the
+missions at urc 2022
+in the 2022 season the big focus for the
+mechanical team was taking the
+theoretical designs for the new arm
+system that was developed remotely in
+2021 and making these designs a reality
+a new wide angle camera rig with
+motorized 360 degree capacity swivel
+mount has been designed this year and
+allows for greater visibility of the
+surrounding area of the rover this
+camera system will add significantly
+useful telemetry during extreme
+retrieval and delivery mission
+a physical locking clip has been
+designed to restrict the backwards
+movement of this camera system during
+the autonomous navigation mission
+the scoop system responsible for a
+collection of soil samples during the
+science mission has been redesigned to
+eliminate faults from the previous year
+with these changes the scoop is stronger
+and reliability of the system has been
+improved to go along with last season's
+newly redesigned chassis a new modular
+chassis management system has been
+developed this system involves a matrix
+of screw threads embedded in plastic
+which will allow for quick changes of
+the mounting of all electronic parts in
+the chassis
+the third and current generation of
+airless tires feature higher proportions
+of tpu to abs wider tires and larger
+overall diameter our software system was
+upgraded from ubuntu 16 with ross
+kinetic to ubuntu 18 with harass melodic
+additionally we upgraded our main
+onboard computer to the jetson nx xavier
+which is smaller leaving more space in
+the chassis and has improved computing
+power and density to better support our
+autonomous challenge tech the autonomous
+system was completely redesigned with a
+new autonomous controller to improve
+system robustness and a new search
+algorithm that applies a probabilistic
+approach to classic search and rescue
+techniques the new algorithm aims to
+increase the efficiency of recognizing
+targets in the autonomous challenge and
+includes a robust decision chain which
+will repeat the search from the opposite
+direction if the target has not yet been
+identified software arm control systems
+were updated and the pid tuned to
+support the new arm design the new arm
+control system includes the design of a
+custom servo driver for wrist motion and
+feedback the software team is also
+supporting the addition of new payload
+sensors by integrating them into the
+current ros node structure lastly in
+preparation for drone implementation
+during the next design cycle we have
+created a gazebo drone simulation to
+model the drone control dynamics problem
+this year the electrical team has
+designed a custom fuse box that will
+improve the robustness of our electrical
+cp system it will protect our motors and
+batteries from being damaged at high
+load by causing the motors to disconnect
+if they are drawing too much power to
+improve the arm system we are adding
+limit switches to the pan and shoulder
+motors of our arm these switches are
+triggered by arm over extension and will
+flag a total freeze at the arm in the
+arm control software this year we have
+also continued to improve the battery
+monitor and battery swapper circuits
+upgrading them to meet our current
+electrical needs and prevent the
+overheating that we observed in testing
+as part of this update we will be
+introducing a second e-stop button to
+the system this one will be used only to
+cut power to our motors allowing us to
+maintain communication with the rover
+and perform any necessary debugs without
+having to restart and reconfigure the
+system
+our communication system uses ubiquity
+rockets on a 2.4 gigahertz frequency
+band and allows for sufficient tele
+operation giving us a range of up to one
+kilometer
+this system was updated to facilitate
+the integration of our new main computer
+this year we've completely overhauled
+the payload detection process our
+process can now accurately identify life
+and soil and distinguish between
+extinctive state life
+during competition we will be performing
+three wet chemical tests on each soil
+sample the buyer test for protein the
+p-test for potash testing for extinct
+and extent life individually and a test
+research the pandemic has made getting
+lab space difficult so we have developed
+eight backup tests spanning seven
+different types of macromolecules
+all tests have color dependent
+indicators and will be viewed with the
+raspberry pi cam to verify positive or
+negative test results
+this year the payload reactor has also
+been modified to allow more space for
+mechanical tests
+geological identification will be done
+via flow charts there are two flow
+charts that we have developed one for
+rock notification and one for solar
+identification
+this year we have added several specific
+geological
+charts to further distinguish between
+specific rock types the soil samples
+will be viewed through a uv vis
+spectrometer where we will look for
+peaks distinguishing between different
+chemical bonds specifically we'll be
+looking
+within the fingerprint range for co c
+double bond and cc bonds we'll also be
+looking for shapes similar to specific
+proteins in terms of identifying more
+specific molecules
+with all the work that our team has done
+over the past year we are confident in
+our ability to succeed at urc 2022

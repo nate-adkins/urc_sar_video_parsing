@@ -1,0 +1,137 @@
+[Applause]
+[Music]
+I'm Pat Durham and I'm the president of
+the Northern Illinois University Mars
+rover team this year with our 20 members
+we completely redesigned our Rover with
+the knowledge gained from PICUs Martius
+the new Rover ad astra which is Latin
+for two stars was put together by our
+eight subgroups now they're going to
+talk about how they put their project
+together the chassis was redesigned this
+year in order to allow more space to add
+internal components as well as simplify
+how those components are mounted a bar
+differential is used similar to previous
+years to keep the rover level the
+previous design of the rocker-bogie was
+made from steel which while structurally
+strong ended up adding a lot of weight
+to the rover so this year we redesigned
+it using carbon-fiber tubing supported
+by aluminum plates and insearch which
+ended up dropping the weight
+significantly we designed a six degree
+of freedom robotic manipulator that
+utilizes two linear actuators for heavy
+lifting it's capable of 360-degree
+rotation and up to 50 inches of reach
+we're using 3d printed gears to mate
+with encoders for orientation of VR for
+the arm we are integrating a control
+system that allows the end effector to
+translate through world coordinates as
+well as allow it to orient itself among
+Cartesian axes to do this we use inverse
+velocity kinematics and dynamics it's
+all for each of the motors and Euler
+velocity in real-time the purpose of
+this is to facilitate the manual control
+of the robotic arm as well as make the
+overall motion of the robotic arm
+intuitive our new gripper design
+implements a lightweight the 4-bar
+linkage it is driven directly with a
+geared motor to a lead screw that allows
+for minimal feedback under high torque
+scenarios for the design of the actual
+wrist itself we opted to use a dual
+motor system which in doing so allows us
+to handle higher torques and different
+loading scenarios utilizing a dual motor
+system for the manipulator and wrist
+itself we are able to go for more
+lighter design so we opted for a belt
+driven system this will
+for the design to be much lighter and
+possibly more robust compared to a more
+traditional geared manipulator system to
+more evenly support the load of the
+rover the real mounting mechanism was
+created where the wheel is supported on
+both sides the motors are mounted above
+the rocker-bogie away from potential
+obstructions on the ground and I train
+driven down using custom sprockets
+the wheels are redesigned this year to
+be 3d printed out of TP which is
+thermoplastic polyurethane which is a
+flexible plastic this was done to reduce
+the number of parts required to put the
+wheel together down to one which is
+significantly less than what it was in
+previous years the science Nash team
+opted to use an auger for digging a hole
+into the ground and then using that same
+hole we are then able to plunge sensors
+into it and use that to collect data for
+possible eye protection the purpose of
+the science task is to determine whether
+extinct or accident life exists to do
+this we will insert an auger into the
+wrist the auger will then drill 6 inches
+into the soil the wrist will rotate 180
+degrees and release a linear actuator
+containing various sensors into the soil
+these sensors will test the vitality of
+the soil the temperature the relative
+humidity the salinity the pH levels the
+near infrared sensor will be used to
+determine whether essential elements of
+life exist in the soil in order to
+access the capabilities of the rover
+while the PDC B was in development a
+test bench composed of X and Arduino
+mega a TX 2 & 3 24 volt lipo batteries
+were utilized we're using six Talon SRX
+ESC s for drive motor control these
+utilize PWM signals in order to
+communicate with the power distribution
+and control board our team is developing
+a custom platform powered by the arm
+cortex-m four known as marks the
+multi-purpose autonomous robotic control
+system marks as a six layer custom
+circuit board designed assembled and
+tested by our team our team has just
+started assembling marks in our initial
+test and is going great board is
+extremely versatile and at the heart of
+the rover the board handles data
+acquisition for the rover's various
+sensors and it's capable of handling any
+future instrumentation that's needed
+Mark's is also responsible for power
+regulation
+distribution and monitoring to provide
+power to the motors sensors and other
+devices on the rover and ensure
+everything is working as designs along
+with the dedicated team of program
+I've actually developed at the code for
+our over like a lot of URC teams we use
+the robotic operating system as a
+foundation for most of our code along
+with that we develop a lot of code
+in-house and actually use OpenCV
+algorithms for our computer vision team
+alongside that we have the hardware
+portion which uses an nvidia jetson tx2
+and the intel realsense camera something
+I'm really proud of is we've actually
+developed a tiny prototype of the rover
+that we develop our code on alongside
+the manufacturing and development of the
+main world
+[Music]

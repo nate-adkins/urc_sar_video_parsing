@@ -1,0 +1,100 @@
+the suspension system consists of a
+multi-link suspension of our own
+production the suspension has been
+designed tested and constantly improved
+the front upper swing arms are heavier
+and stronger than the rear upper ones
+and each lower swing arm is heavier and
+stronger than its corresponding upper
+one this provides a better way to
+strength ratio every multi arm is
+assisted by a spring shock absorber two
+types of Springs are available for use
+soft perfect for hard rock climbing Hart
+adapted for driving on a flat ground the
+drive unit consists of four independent
+engines one for each wheel
+two operators are required to control
+the rover we use a gamepad to control
+the manipulator and joystick to drive
+the rover we can observe three cameras
+simultaneously and eight cameras provide
+good visibility of the environment
+in the new version of the manipulator we
+focused mainly on reduction of backlash
+in the whole construction increasing
+precision of movement and functionality
+to achieve this we slightly altered the
+shape of the arm and choose different
+gears for the six degrees of freedom to
+rotate manipulator
+we used helical gear based on
+construction of a tooth treif for the
+lower arm of the manipulator we will use
+a two-stage cycloidal gear box which was
+made by us to move the upper part of the
+manipulator we decided to use a proven
+solution of mechanical servo motors
+powered by light gear motors most parts
+of the manipulator were made of
+duralumin which is light and durable
+Ally we use 3d printers to create
+prototypes as well as functional parts
+of the rover every part of the rover is
+designed using CAD software printed by
+us or manufactured by the companies we
+work with before being field tested if
+the part passes all the tests it is
+implemented into the rover we also use
+CAD software to check the functionality
+of all our new mechanism as well as for
+stress simulation the algorithm which
+are currently being implemented are able
+to detect and decode a attacks they also
+estimate each attack position and an
+approximate distance the cameras used
+during the autonomous task are located
+on a special handle it allows the rover
+to peek over low Hills without the need
+of for additional relocation the
+autonomous program is a unique
+functionality of ours it has been
+developed by our IT section over the
+past two years
+we are currently implementing
+differential buses between models to
+increase Rover versality thanks to this
+we can modify the rover depending on the
+task
+satella radio modem allows for a working
+ranch
+up to one kilometer a new kind of
+batteries ensure a satisfying working
+life each of the five electronics
+sections have their own supply to
+increase reliability to ensure proper
+communications of ideas we host two
+weekly meetings during these meetings we
+discuss our new designs and try to solve
+the problems we have encountered we also
+use platters like Trello to improve our
+cooperations biological research
+consists of two swab tests the first one
+is a test to detect the presence of
+proteins it detects a minimum of twenty
+micrograms of proteins in ten minutes
+one minute detects a minimum of 80
+micrograms of proteins this is a
+colorimetric test where yellow indicates
+no proteins and green indicates positive
+results
+the second test determines viability it
+consists of ATP ADP a MP measurement the
+analyzes takes several minutes a swab
+test containing the luciferase enzyme
+will be used for this purpose the
+luminometer used in the study has a
+reactivity from 10 to 15 times higher
+than standard luminometer due to this
+detection of a MP
+you

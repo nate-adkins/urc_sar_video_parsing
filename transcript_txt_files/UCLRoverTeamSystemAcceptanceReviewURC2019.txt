@@ -1,0 +1,132 @@
+my name is Constantine and I'm excited
+to announce the 2019 UCL Mars rover we
+are a new team interdisciplinary
+undergraduates from mechanical and
+electrical engineering computer science
+and Natural Sciences this year we have
+expanded our team to 22 members as well
+as the diversity of stem background we
+have worked hard on developing a new
+robot arm science gasps and the new
+autonomous system and control system the
+team is divided into Sigma teams that
+are aligned with the tasks of the
+competition with its 15 tackling
+specific challenges our suspension uses
+a rocker-bogie mechanism which involves
+a shock absorber through differential
+bar this allows us to meet dynamic load
+requirements by the URC tasks the arm
+and drill to be housed securely within
+the chassis both during operation and
+emotion our current wheels are made of
+fiberglass crimson strips provide enough
+traction and suspension while remaining
+lightweight we are also currently
+experimenting with balloon tires as an
+alternative this year for a new robotic
+arm design we are using a system of
+linear actuators and motors which
+enabled us to have five degrees of
+freedom for our robotic arm with the use
+of our custom aluminum sheets and 3d
+printed parts they're able to get a net
+weight of 9.5 kilograms which is an
+almost 25 percent improvement to last
+year's decide for the gripper mechanism
+this year we are using screw system
+which not only enables us to have better
+reliability but also enables us to
+maintain better accuracy for the system
+our body found this year has to perform
+many challenges such as lifting 5 kg
+weights with the handle diameters of 5
+centimeters tightening and loosening
+screws with a screwdriver typing on
+keyboard etc we have optimized a gripper
+and arm design to ensure the best
+results in all these challenges the
+implementation of the robotic arm
+control system is completed in two
+stages through first use Adreno to
+ensure we have a robust power and drive
+system for the motors and actually this
+and the robotic arm with earth
+reconnected leads on to an MVP adjacent
+EXO module where we were able to use
+robot operating system and move eight
+motion planning framework to achieve
+real-time control
+of the robotic arm with six degrees of
+freedom Musial Mars rover uses an
+autonomous planner running on the
+pixhawk system based on the i0 thermal
+package an extended Kalman filter is
+used to combine position estimates from
+the inertial measurement unit and GPS
+receiver we subsequently informed
+slammed planner running to avoid
+obstacles on the way to achieve PS
+location at the GPS location we then
+turn on said camera which uses a depth
+detection algorithm and optical object
+recognition using Yolo neural net in
+order to detect tennis ball and move
+towards the final endpoint in order to
+detect obstacles along the route a
+series of automotive-grade radars
+operating the 77 gigahertz band are used
+these sensors are able to detect a
+target of 0.5 meters squared
+RCS approximately the size of a toddler
+whilst traveling at up to 70 miles an
+hour at ranges of updates and meters the
+rover communicates with ground control
+station across three separate radio
+links main telemetry link is provided on
+a 433 megahertz channel this is used to
+relay all the major telemetry data from
+the rover to the ground control station
+as well as to pass waypoints and other
+commands directly to the idler over
+system for our science system we decided
+to use a nificant mechanism because of
+the accuracy of the ova when we dig
+underneath the ground to collect soil
+the oberg collect samples of soil which
+then passes through the filter and is
+mixed with solvents before dropping
+Internet tests use these test tubes are
+placed in a rotating plate where on one
+side a spectrometer is used and on the
+other side dyes can be added we hope to
+find other materials like limestone or
+structures like fossils that indicate
+past or present life the soil analysis
+starts with basic tasks like pH humidity
+connectivity and temperature these tests
+are imported to look at the chances of
+tiny life but also for a main test new
+field lights for country here we will
+look for structures in the absorption
+spectrum that indicate life like nad
+carotenoids and flavonoids we will also
+use some fluorescent dyes for
+nucleotides
+paths and wonders indicates enzyme at 60
+we have showcased the rubber at various
+events our level University
+to load student and teachers on the
+opening event of the Unison student
+central with illustrated our robber
+which has impressed Avengers with the
+innovation within the UC a rocker chick
+uh no mechanical engineering Knights our
+robot has performed by offering a flower
+to the gene of mechanical engineering
+department the rubber has had a good
+influence on promoting engineering
+innovation and creativity our College
+[Music]
+you
+[Music]

@@ -1,0 +1,105 @@
+[Music]
+space Concordia's robotics division is a
+multidisciplinary group of students from
+Concordia University in Montreal Canada
+[Music]
+we are excited to unveil our newest
+Rover Astro
+[Music]
+the team used a wide variety of process
+to manufacture the role conventional
+mills and lathes were used for most
+custom parts
+CNC machines were used for more
+complicated geometries finally laser
+cutting was used for the plates the
+suspension is composed of three rotating
+bogies this removes the need of a
+differential and is proven to be more
+effective than other variants
+[Music]
+the wheel has been designed to allow the
+mortar to be enclosed within for
+protection
+it contains polyurethane Beach tires due
+to their performance in sandy terrain
+the aerospace robotics laboratory and
+Concordia University has proven to be an
+invaluable resource in testing the
+wheels traction capabilities the arm has
+five degrees of freedom and is made with
+aluminum plates for ease of
+manufacturing and assembly
+[Music]
+it features warm gears to retain its
+position of not driven and timing belts
+are also used to reduce torque
+requirements the gripper has 360-degree
+rolling motion many different gripper
+geometries have been tested and the
+two-finger parallel mechanism was chosen
+stepper motors are used for accuracy
+while servo motors are favorite for the
+gripper to reduce weight
+the battery consists of 56 lithium-ion
+cells it should be powered to all
+onboard components the power
+distribution system allows of tracking
+of currents and temperature values a
+battery management system monitors
+voltage values within the battery pack
+all electronics are within an enclosure
+that allows for easy sliding of
+components into place it has integrated
+dust and sand protection as well as
+temperature regulation
+RF communications use a digital radio
+module with MIMO functionality on the
+900 megahertz band paired with a
+high-performance dual polarity yagi
+antenna and two perpendicularly
+positioned Omni antennas on the roll the
+current setup facilitates
+high-definition video feed and the
+exchange of other feedback information
+and control instruction
+[Music]
+ground controls allow the operator to
+view information such as rover pan and
+tilt GPS camera feed as well as other
+health and performance stats of onboard
+systems
+[Music]
+the rover is controlled either on a web
+interface or with the physical
+controller
+[Music]
+on board motor controls are closed-loop
+and programmed on teensy 3.6 command and
+encoder data are transferred between the
+rover and base station over the Ross
+Network for the autonomous traversal
+task Collider allows for mapping of up
+to 25 meters of the terrain
+moreover OpenCV is used for tennis ball
+detection
+[Music]
+the rover analyzed for two distinct
+biomarkers nitrates and lipids for
+nitrate Ocasio solution acts as
+extraction solvent and grease reagent is
+indicated for nitrate a kcl solution
+acts as extraction solvent and grease
+reagent is indicator
+an auger in a parse cam mechanism drills
+in places soil in two separate test
+tubes the drill allows for storage of up
+to 12 soil samples and moves their
+locations with a limit switch in motor
+combination once in the test tube a
+custom-made spectrophotometer will
+identify the presence of selected
+biomarkers in the soil
+[Music]
+you
+[Music]

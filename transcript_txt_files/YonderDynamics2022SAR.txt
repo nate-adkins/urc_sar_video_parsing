@@ -1,0 +1,157 @@
+hello and welcome to the yonder dynamic
+systems acceptance review for the 2022
+university rover challenge yonder
+dynamics is a student-run engineering
+project team at uc san diego and we are
+proud to present complacency our
+substantially upgraded rover for the
+2022 urc season we have focused this
+season on iterating our previous rover
+design to improve its capabilities
+reliability and ease of use this year
+the mechanical sub team has overhauled
+the design of the three primary joints
+on the arm in response to the
+limitations of previous design
+iterations the new arm has a vastly
+improved range of motion and stability
+these changes have enabled the arm to
+reach positions previously mechanically
+impossible and give the arm sufficient
+flexibility to be used for its diverse
+range of necessary functions likewise
+the improved stability of this arm has
+allowed for greater precision in the
+fine control of the major joints an
+aspect of performance crucial to the
+equipment surfacing mission the new arm
+was designed to be compatible with our
+team's differential wrist from previous
+years swappable 3d printed hand modules
+are used at the end of the wrist
+allowing for quick reconfiguration of
+the arm between the equipment servicing
+and science missions the modularity of
+the hand also allows for rapid iteration
+of hand designs enabling experimentation
+of a variety of finger shapes for the
+different missions the drivetrain of the
+rover is centered around a modified
+rocker bogey system with one fifth scale
+rc shock absorbers to allow traversal of
+steep and rocky slopes each rubber tire
+is powered by a geared down 775 pro
+motor with new 3d printed hubs allowing
+the rover to get through sandy and rocky
+terrain through collaboration between
+the mechanical and science sub teams the
+science subsystem has been substantially
+simplified rather than using a dedicated
+sample collection module a simple scoop
+attachment has been designed for the arm
+collected samples can be deposited into
+one of four sample cups using a rotating
+carousel in the analysis module
+each cup is pre-loaded with a bg-11
+cyanobacteria nutrient broth that has
+demonstrated favorable conditions for
+microbial growth
+extant life can then be detected by
+analyzing turbidity values over time for
+a characteristic growth curve
+the analysis module houses a ccd
+spectrometer along with a reconfigurable
+laser diode-based illumination system
+this optical system has been designed to
+perform fluorescence measurements and
+rama spectroscopy
+making it flexible for a variety of
+experiments currently we use
+beta-carotene as an indicator of extinct
+life as any viable martian organisms
+would likely have developed
+radiation-shielding carotenoid biofilms
+to protect from the high amounts of
+radiation on the martian surface
+additionally beta-carotene has a
+distinct raman signature making it ideal
+for detection using our simple optical
+system
+drivers of the rover interact with an
+easy-to-use web interface that is served
+directly off the rover this allows any
+member to control the rover and monitor
+the onboard systems with only their
+browsers our software stack is built
+with docker allowing members to
+contribute and test remotely with
+confidence
+thanks to this simple approach to remote
+testing major advances have been made to
+the rover's autonomous functions the
+rover can now autonomously localize
+itself and plan a smooth route following
+any sequence of gps points
+an onboard stereo camera is used to
+navigate around obstacles
+after reaching the vicinity of an ar
+attack we use the rt star algorithm to
+explore the area
+as for detecting the ar tags we use a
+lightweight yellow model trained over
+100 000 real and augmented images
+we have also implemented real-time
+inverse kinematics to control the
+rover's arm
+after developing the inverse kinematics
+model remotely using gazebo simulations
+the closed-loop kinematic control
+algorithm was implemented at a firmware
+level
+allowing for closed loop updates to
+occur hundreds of times per second
+the smooth and precise arm movement has
+massively improved our rover's
+capability to perform equipment
+servicing tasks
+this year's electrical system is the
+result of a complete overhaul to
+separate rover subsystems into fully
+functional independent components by
+encapsulating the arm and science
+modules into units with a standard power
+and communication interface all rover
+subsystems can be tested independently
+from the rover and redesigns can be
+implemented without any changes to the
+main rover's electronics
+to realize this encapsulated design we
+have implemented protocase electrical
+enclosures across our rover these
+enclosures make the rover's wiring much
+more organized and substantially more
+weather resistant throughout the
+electrical system we have designed and
+implemented custom pcbs to consolidate
+and improve the reliability of sensitive
+control circuitry these pcbs feature
+microcontroller sockets that enable
+quick swapping of damaged daughter
+boards
+the boards perform tasks such as cell by
+cell battery monitoring servo voltage
+regulation encoder reading and led
+driving we have also constructed a
+compact driver station from the ground
+up that can be packed into a single
+waterproof case the driver station uses
+a directional five gigahertz antenna
+which can reliably communicate with the
+rover from up to one kilometer away the
+driver station can also be powered using
+either an internal battery or external
+power supply enabling testing in a
+variety of environments thank you for
+watching and we hope to see you at the
+2022 urc
+you

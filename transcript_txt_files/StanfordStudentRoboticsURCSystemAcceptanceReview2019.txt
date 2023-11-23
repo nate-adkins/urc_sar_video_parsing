@@ -1,0 +1,118 @@
+Stanford University student robotics is
+proud to present our 2019 Mars rover
+we've been working hard to improve on
+lessons learned from our first
+competition and we're excited to show
+your progress our team composed of half
+freshman and half upperclassmen as
+subdivided by subsystem drive arm and
+science which allows for tighter
+integration between the mechanical
+electrical and software designs this
+year's drive bass uses a six wheel
+rocker suspension design for handling
+the extreme competition terrain during
+last year's competition our Rover
+flipped during the first task to fix
+this we experimented with several
+designs and settled on this wheelbase
+and rocket geometry which are optimized
+to have a virtual point of rotation
+below the ground and a low center of
+mass powerful readily available hub
+motors allow us to climb steep slopes
+and over obstacles nylon chains provide
+traction on slippery terrain and
+inflated wheels absorb the shock of
+drops the chassis is made of aluminum
+extrusion bolted together with custom
+water jet brackets the easily source
+materials make parts quick to
+manufacture and replace for the
+equipment servicing tasks our River uses
+six degree of freedom Skara arm the
+scarer design allows us to move in plane
+with finer control and less strain on
+our motors our robot is fully operable
+using a single gamepad meaning even a
+solo operator can practice driving the
+robot given predominantly vertical loads
+we increase strength on the z axis while
+keeping the overall weight of the arm
+down our end effector uses a lead screw
+for a strong non back drivable grip the
+fingers will be swappable for soil
+sampling tearing heavy objects and fine
+manipulation last year we struggled with
+slop and inaccuracy in our arm joints to
+fix this we constructed our joints by
+clamping thrust bearings with the
+shoulder bolts allowing for extremely
+low play for intuitive control the arm
+uses a custom inverse kinematics model
+that precisely controls the end effector
+position and gracefully handle
+singularities we also have many
+adjustable camera views low-latency
+camera
+provide fluid responsive feedback in a
+high-res pan tilt zoom camera allows
+precision teleoperation we also have an
+e-stop
+in case the rover causes trouble we are
+using fluorescence microscopy with
+modular filters light sources and floor
+force detective life in soil using
+fluorescence microscopy allows for
+unparalleled sensitivity while alone for
+detection of many different biomarkers
+to maneuver the soil into a position
+where it can be assayed we are using a
+spinning apparatus after soil is added
+using a mechanical arm the entire system
+spins rapidly to move solid dirt to the
+bottom of the cuvette light passes
+through the sample from an LED on the
+inside of the device to a camera
+opposite presence of a fluorophore will
+cause the sample to fluoresce if a
+biomarker is present sensitivity is
+increased through the use of two
+replaceable filters our proof of concept
+uses sight ox Orange a fluorophore which
+binds specifically to nucleic acids due
+to the adaptability of our system this
+could be easily changed in order to
+detect different organic molecules such
+as proteins or sugars for the autonomy
+task the operator will be able to
+specify multiple waypoints and obstacles
+to avoid on a map interface a path is
+then generated for the rover to follow
+this path will be dynamically modified
+to reroute around obstacles detected by
+the onboard lidar our RTK GPS is able to
+achieve centimeter level accuracy and
+IMU sensor fusion allows us to robustly
+determine orientation finally we use
+computer vision to identify the tennis
+ball overall our system design
+priorities this year have been
+robustness and ease of use our design
+philosophy was to rush to a Minimum
+Viable Rover with rapid prototyping and
+improve issues as they come up we
+believe this leads to a more robust
+final design that addresses features
+essential for competition success each
+subsystem has a hardened linux node
+powered and networked over ethernet
+which communicates over our custom
+lightweight protocol for long-range
+communications we use an off-the-shelf
+2.4 gigahertz antenna system which we
+found to deliver high reliability and
+throughput in last year's competition
+we are proud of how far we've come this
+year and we're excited to compete in the
+University Rover challenge

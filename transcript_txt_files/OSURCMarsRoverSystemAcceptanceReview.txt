@@ -1,0 +1,152 @@
+we are the Oregon State University Mars
+rover team for the past seven months we
+have been researching designing and
+building the next generation Mars rover
+ready to compete in USA 2018
+our team is split into four sub teams
+mechanical electrical software and
+science but I'll work together to create
+a powerful intelligent robot learning
+from our successes and failures from
+last year's competition we have made
+dramatic improvements to all aspects of
+our Rovers design we are largely reusing
+our competition proven chassis from last
+year it retains the six independently
+driven wheels with balloon tires and a
+simple triple bogie suspension system
+that enabled us to successfully navigate
+the variety of terrains encountered
+during the competition tasks our custom
+Prodicus ybox have been designed to fit
+all our electronics in a compact space
+saving weight and leaving more room for
+the arm and navigation Tower the
+navigation tower consists of our radio
+and main camera pan tilt assembly our
+ubiquity radio attaches to the main mast
+with sheet metal and Teflon brackets to
+reduce weight and radio interference the
+main camera pan tilt is elevated to
+allow a wide field of view we are also
+including an additional two cameras on
+the rover one and a pan tilt at the
+front of the chassis and another at the
+rear with the view of the undercarriage
+these will give us an unimpeded view of
+the rover and its surroundings while we
+still have a fully functional backup arm
+from last year we decided that a
+significant redesign was necessary to
+excel a competition our new arm contains
+over 60 custom CNC machine parts and has
+six degrees of freedom that allow it to
+contort to many other wise and retool
+positions saving us valuable time and
+giving us greater flexibility for of the
+arm joints have harmonic drive gearboxes
+which will have minimal backlash high
+torque extreme accuracy absolute
+encoders at each joint give us precise
+feedback on the orientation of the arm
+at all times having learned the
+importance of fine control and rovard
+operator communication from last year we
+designed our new and effector with three
+under actuated fingers as well as force
+and position feedback our end effector
+has a wide grasping range for
+manipulating heavy tools or containers
+in the extreme retrieval and delivery
+tasks while still providing fine control
+to adjust knobs and switches for
+equipment servicing with a wide-angle
+camera embedded in the palm the gripper
+we will have a direct line of sight to
+the objects we interact with for the
+first time in our team's URC history
+Rover software now runs on robot
+operating system
+this move reflects the need for complex
+autonomous decision-making and also
+works harmoniously with the
+decentralized nature of this year's
+electrical systems we're using an Nvidia
+Jetson to host the Ross framework this
+high-performance computer gives us the
+ability to run multiple cameras and
+transfer high bandwidth data to our
+ground station while maintaining a small
+physical footprint and long battery life
+communication with Hardware on the rover
+is primarily being done over Modbus
+using 485 Modbus I'm sure is more
+reliable communication the hardware
+nodes on the rover with a proven
+industrial standard an important
+addition this year is the Zed stereo
+vision camera system which will
+supplement our GPS and I am you with
+obstacle avoidance data during the
+autonomous phase of competition our
+custom ground station software will
+display multiple Rover video feeds
+mapping data arm joint positions rover
+heading system statuses and autonomy
+controls on two monitors while also
+transmitting drive arm and camera
+control data back to the rover this year
+we have implemented a decentralized
+electronic system that moves much of the
+complicated circuitry out of our main
+electronics box into a network of
+interconnected nodes spread across the
+Rover this custom network allows for
+seamless replacement of broken nodes in
+the field keeping us running throughout
+the competition
+our communication system utilizes the
+ubiquity rocket m2 radio for high
+bandwidth reliable communication we have
+tested the ubiquity radios locally
+beyond the ranges that we expect during
+the years you RC competition and they've
+performed extremely well in order to
+increase the reliability of our drive
+system we've designed our own custom
+motor drivers that have a lot of
+overhead built in to prevent failures we
+improved our supply chain by purchasing
+components for more reliable vendors
+which will increase dependability of the
+systems in our Rover we are reusing our
+robust six cell lipo battery from last
+year as a provided sufficient power for
+an entire day of competition to address
+the scientific challenge the river will
+be equipped with a shrouded auger to
+retrieve oil samples several on-board
+probes and an automated sterile sample
+containment device the soil probe will
+measure soil temperature salinity and
+water content both on surface and
+subterranean soil a dust sensor will
+also be used on the rover to evaluate
+field conditions high dust content
+environment poses a risk to verbal
+functionality over a long mission for
+the laboratory portion of this challenge
+two tests are planned the first will use
+in hydrants grade test for the presence
+of amino acids in the soil the hydrent
+organic molecule reacts with amino acids
+to form a purple dye which is easily
+visible in the soil sample the second
+type of tests that will be utilized is a
+garden-variety soil test this will give
+an estimate of how much nitrogen and
+phosphorus burns in the soil as well as
+the pH thank you for considering us for
+this year's URC we can't wait to see you
+in Utah
+[Music]

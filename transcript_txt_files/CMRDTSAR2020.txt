@@ -1,0 +1,119 @@
+hello i am sam deir lead engineer of the
+calven Mars rover design team I am
+thrilled to welcome you to the system
+acceptance review for the 2020
+University Rover challenge our team
+consists of 26 members but across five
+different sub teams programming business
+electrical science and mechanical this
+year we've sought to make our Rover as
+large and reliable as possible in order
+to do this we have invested heavily in
+composites and 3d printing so that we
+can rapidly iterate through designs for
+our final design we developed a
+rocker-bogie suspension that is large
+and durable while also being lightweight
+and effective the suspension includes a
+carbon-fiber differential bar to keep
+the rover level throughout the
+competition this sits our custom laser
+cut chassis which has been optimized to
+be both light and compact while still
+being versatile and sturdy we designed
+modular drive units in order to quickly
+and easily replace any of the six wheel
+units with a spare these use high torque
+brushless motors with custom planetary
+gear sets integrated into our carbon
+fiber wheel hubs for the extreme
+retrieval and the equipment servicing
+tasks we created a 5 degree of freedom
+arm capable of lifting 10 kilograms with
+custom carbon fiber 300 to 1 gear
+reductions our our end effector has a
+built in hex key and is capable of 360
+degree continuous rotation with an
+advanced claw designed to pick up and
+manipulate a wide array of objects for
+the arm this year we wanted to make it
+as stable and robust as possible we use
+large carbon fiber tubes to connect the
+custom 3d printed 300 to one gearboxes
+driven by high torque brushless motors
+these are controlled with both relative
+and integrated absolute encoders for the
+wrist we created a differential capable
+of rotating and tilting the carbon fiber
+cloth which has been specifically
+designed for the equipment servicing
+tasks and is capable of turning a screw
+picking up objects pulling a rope
+lifting cash containers and pushing
+buttons these joins all rest on a
+tarah gear for high-precision rotation
+this year we a completely redesigned the
+rover's electrical system focusing on
+reliability and efficiency
+we have remade our lithium ion battery
+to operate at 24 volts lasting 35 amp
+hours additionally we are working on
+custom PCB battery management system
+that monitors temperature and regulates
+the voltage of the battery our brushless
+motors run off o drive motor controllers
+communicate via serial the brain of the
+rover is an Intel nuke with a Jetson
+Nano as our AI coprocessor for line of
+sight communication we are using a 5
+gigahertz omnidirectional system for non
+line-of-sight teleoperation we are using
+a 433 megahertz radio used with
+point-to-point protocol creating a
+tcp/ip connection for use with our OS
+and our own package structure for non
+line-of-sight video streaming we are
+using a 1.2 gigahertz analog system this
+year the programming teams job has been
+made easier through our tcp/ip based
+communication system it has allowed us
+to seamlessly communicate with our Intel
+nuke wirelessly over an ro s network
+with our base station computer we are
+using Nvidia Jetson nano winning our
+custom inverse kinematics algorithm to
+take the heavy workload of the arms
+motion planning off of the nuke using a
+custom driver for the o drive motor
+controllers combined with the standard
+AR West or stick packages we are able to
+control the rover manually via
+teleoperation using computer vision and
+depth sensing capabilities of our intel
+realsense camera we were able to detect
+the precise locations of AR tags in 3d
+space and will be able to navigate
+between them autonomously all of this is
+also integrated with our GPS navigation
+system and proxy maps to precisely plan
+our routes given GPS coordinates and air
+tag markers this year's science module
+is made up of three different subsystems
+microscope a fluorescence detector and
+spectrometer and a weather station the
+remotely adjusted microscope will be
+able to look for microfossils
+as well as identify certain minerals
+such as apatite and calcite that could
+prove the past existence
+life fluorescence microscopy and
+spectroscopy we'll also be able to
+identify certain minerals that fluoresce
+within our sample as well as certain
+organics that fluoresce
+including proteins our module will also
+include UV temperature and humidity
+sensors that when used with the
+microscope and fluorescence detector
+will further prove the existence of life
+in our sample

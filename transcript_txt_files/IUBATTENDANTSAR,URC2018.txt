@@ -1,0 +1,89 @@
+[Music]
+hello this is team attendant from
+independent university bangladesh
+presenting our attendant version two for
+URC 2018
+[Music]
+precise machining using laser and CNC
+helped us to make robust wheels which
+weighs less than a kilogram each
+[Music]
+after comprehensive study of Terra
+mechanics we chose a peak point for our
+wheel dimension that maintains perfect
+balance between durability speed and
+portability
+[Music]
+we handcrafted a few critical components
+to maintain our design workflow with our
+previous experience in hand we've built
+a tendon version - which boasts more
+compact design and functional
+improvements every single components
+were designed and simulated prior
+fabrication using a combination of
+aluminum and stainless steel we were
+able to build the entire frame and
+counter link suspension which are strong
+but lightweight and of course
+significant weight reduction aids and
+Rovers portability
+a robotic arm comprises six degrees of
+freedom as last time
+[Music]
+but this time the star of the show is
+our implementation of automation by
+inverse kinematics
+[Music]
+a mix of off-the-shelf modules with
+custom-made PCBs drive our Rover
+flawlessly
+[Music]
+for autonomous traversal we have
+upgraded our software mainframe
+significantly with artificial
+intelligence and collision detection
+added to its core we have also improved
+our polynomial path generation algorithm
+for better GPS tracking and navigation
+personís das has been divided into three
+parts
+visual atmospheric and biological apart
+from a comprehensive understanding of
+the soils to dig raphy we have designed
+algorithmic system for an onboard
+analysis of the static graphic profile
+[Music]
+our biological analysis will focus on
+the presence of any form of life found
+in the soil for a practice test we have
+collected samples from the wheels of our
+Rover this is followed by isolation and
+biochemical tests such as methyl red and
+voc prosecutor to categorize microbes
+found for the atmospheric part we are
+testing the UV flux and percentage of
+specific gases present in the air an
+advanced approach to analysis includes
+spectrophotometry to examine the
+concentration of microbial life present
+in our soil sample
+[Music]
+this time again we tested our Rover to
+its full capabilities in our own version
+of Utah which is just five kilometers
+away from our campus
+our strategy and mindset was to set up
+the base station under 15 minutes which
+we achieved with flying colors our 30
+meter long antenna cable and diverse
+antenna allowed us to maintain constant
+radio feed up to 1.2 kilometers without
+line-of-sight
+[Music]
+[Music]
+[Music]
+[Music]
+we have learned from our mistakes while
+competing in the UFC last year rest
+assured we are coming back stronger

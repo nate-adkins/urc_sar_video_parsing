@@ -1,0 +1,105 @@
+[Music]
+and challenge ourselves in the upcoming
+University logo Challenge and for this
+past month we have worked our hardest to
+design and build a Rover that will be
+able to thrive and compete in this world
+premiere robotics competition
+our firm will use a robotic arm with
+five degrees of freedom which allows it
+to freely move in numerous directions to
+ensure that each Mission will be carried
+out properly our robotic arm was
+constructed with an interchangeable and
+effector that will be replaced depending
+on the given Mission the soil sampler is
+equipped with four slipper motor and to
+layer type of equipment
+collecting cell samples expect the
+reflectance of soil samples were
+obtained in the laboratory using ocean
+fiber optics USB 4000 spectrometer this
+is to determine the presence of clay
+organic carbon and nitrogen cation
+exchange capacity pH base saturation
+exchangeable phosphorus potassium
+calcium and magnesium these properties
+include or indicate limiting factors for
+Life the greater or lesser extent and
+determine the kinds of dependent and
+interacting biota in a particular soil
+ecosystem
+extracting using lightweight and robust
+aluminum Extrusion material to ensure
+reliable performance even in challenging
+conditions we have included a
+counterweight balancing mechanism on
+both sides per our Arms This mechanism
+operates like an inverted pendulum using
+sensors to detect changes in the
+vehicle's orientation and shifting its
+way to maintain balance during inclines
+and Southern Maneuvers the wheels that
+have been selected for the University
+rubber challenge are equipped with title
+brush DC motors and constructed from
+rubber material with a chevron pattern
+in thread these features have been
+carefully chosen to ensure the wheels
+can navigate various terrains and
+provide optimal performance in Practical
+terms the PID control algorithm provides
+precise and reliable control over the
+speed of the wheels our software
+development team utilizes Rose to Foxy
+the remotely operate the Rubber and
+perform autonomous navigation tests our
+Rover is first simulated in reboot
+wherein we train our reinforcement
+learning based navigation behavior for
+the autonomous navigation tasks our GUI
+allows us to monitor the Rubber State
+and allows for bottom assisted execution
+of Roadster command we utilize opencv
+with a connect Dev camera for detecting
+and estimating the pulse of AR tag
+localization is done through Fusion of
+IMU and zrtk data in an extended common
+filter an additional localization frame
+is computed using visual automatically
+with artem map in rows 2. in order to
+ensure reliability in terms of range and
+communication stability with maximum
+data flow to the overhead vice versa our
+Opera's communication system uses two
+spectrums both of which use the 900
+megahertz and 2.4 gigahertz license free
+ISF frequency buttons with this
+technology we can adjust a number of
+factors to improve signal propagation in
+the presence of line of sight non-line
+oxide and environmental elevation
+variations our roofer is equipped with
+high performance 29.4 volt battery that
+utilizes multiple battery modules a
+battery management system that balances
+the battery and continues to monitors
+the battery's temperature voltage and
+current levels to ensure Optimal
+Performance the system also provides
+real-time State and charge information
+giving us the ability to monitor power
+usage at all times
+with any of the battery modules our
+isolation energy configuration system
+kicks into gear automatically replacing
+the affected battery module with the
+backup
+this ensures uninterrupted operation
+allowing us to stay focused on achieving
+our mission and objectives without
+having to worry about our issues
+[Applause]
+[Music]
+foreign
+[Music]

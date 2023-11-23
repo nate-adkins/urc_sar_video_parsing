@@ -1,0 +1,84 @@
+my name is Robert and I'm the project
+manager of the Harvard University rubber
+team
+over 20 undergraduates and I have been
+working on a Mars rover for the
+University Rover challenge over the past
+year collectively we have 75 years of
+experience in robotics and to best
+organize our various abilities we split
+into four sub teams Rover design Rover
+II whoever CS and Rover builders now it
+is my pleasure to introduce you to our
+rope instead of the wheels you may
+expect on a rover of this kind we
+decided to give ours weights based on
+the RHex design that was developed at
+Penn and is currently being utilized by
+Boston Dynamics a lot of people ask us
+why we chose legs first legs provide us
+with a greater mobility in climbing and
+maneuvering in all types of terrain
+second the legs that we are using are
+going to be made of carbon fiber and a
+nylon composite which allows them to be
+incredibly strong while also being
+extremely lightweight thirdly the
+natural elasticity of the c-shaped legs
+allows them to absorb a lot of the
+impact as the rover is walking and
+climbing this in turn allows us to
+greatly simplify our chassis to create a
+more durable and elegant design while
+decreasing weight if you take a look at
+our chassis we're using carbon fiber
+tubes with 3d printed joints and carbon
+reinforced panels I'm handing it over to
+John to provide some more details on the
+competition tasks so our Rovers
+comprised many different electrical
+subsystems these include things like the
+sensory caches the motor drivers the
+communications ray the main controllers
+all these are designed to work fully
+autonomously and separately from one
+another to ensure that we have a robust
+framework to build on
+for the autonomous portion of the
+competition we use an ultra precise GPS
+with RTK technology which with the help
+of our GPS ground station Kentucky is
+precise position to sub centimeter level
+accuracy and for obstacle avoidance we
+use a lidar sensor that is continually
+sweeping in 180-degree cone in front of
+the rover with which we can detect any
+insurmountable obstacle within 20 meters
+of the rover alongside these systems and
+our novel drivetrain and light design
+we're really enabled to navigate over
+any sort of harsh terrain without any
+human input and stay incredibly close to
+decide ejector ease for the retrieval
+task you want to ensure that we have the
+proper systems to complete the tasks
+adequately to do this we design our
+system with extremely high torque leg
+motors and incredibly powerful arm
+motors as well that allow us to retrieve
+incredibly large payloads and transport
+them quickly to their destination for
+the equipment servicing tasks similarly
+other tasks you want to make sure we're
+approaching it from the right angle to
+do this we design an extremely dexterous
+robotic arm with six axes of rotational
+freedom with finely controllable servo
+motors with these motors we can have
+very precise movement in the arm and
+switch on or off extremely small levers
+and switches thanks for watching and
+remember for this rover every day is
+like day
+you
+you

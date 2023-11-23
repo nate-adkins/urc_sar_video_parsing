@@ -1,0 +1,120 @@
+[Music]
+you
+Tamura was founded by our seniors five
+years ago in the span of this years we
+have achieved numerous feats some in the
+eyes of public and some in the knowledge
+of team alone in my experience the team
+has grown each year from something what
+it wanted to be to what it has become
+today with the team once consisted of
+just eight members at the start the team
+now fosters 30 students with res a
+conjugation of five different domains
+mechanical electronics coding bio sense
+and corporate the development of Rover
+is divided in four main phases our
+indian planning phase designing phase
+fabrication and integration phase and
+testing and debugging phase the assi
+problem statement has evolved over the
+years and as a result of this our
+approach to designing the rover has
+changed this has brought into play a lot
+of designing parameters along with the
+special focus on systems integration
+this us JC has been approved in
+conception over the last few years the
+mechanism is a three period one
+mechanism which allows the rover to
+dynamically adapt itself to a waiting
+terrain this allows the robot to not
+really navigate carefully over sudden
+inclines but will also have a reduced
+shock compact which would have had a
+tendency damage the onboard electronics
+the chassis has been fabricated using
+high-grade aluminum six zero six three
+the manipulator this year has undergone
+a series of iterations to make it more
+robust and more importantly responsive
+feedback has been implemented by means
+of potentiometers and inbuilt encoders
+so as to get the desired response and
+accuracy the ypr has undergone massive
+development wherein we have made a
+compact Y pair system by bringing into
+line the pitch and roll motions by means
+of bevel gears a universal end effector
+has been designed to tackle all the
+tasks and reduce the time and complexity
+involved in assembly and integration
+[Music]
+the electronics division of our team is
+divided into three sub domains power
+system control system and communication
+we are using six high tot DC motors
+delivering enough torque to the rover
+for traversing through rough terrain and
+steep inclines so the robotic arm we are
+using electric linear actuators and
+servo motors to perform intricate
+operations on the field with precision
+our control system mainly comprises of
+Raspberry Pi already know and high-end
+motor drivers Raspberry Pi is being used
+as the master which further communicates
+with arduino y SPI protocol to come on
+the system since image processing
+involves many complex operations ordered
+is also being used on the rover various
+fpv camera is transmitting life we did
+one point Zika codes have been placed
+strategically on the chassis to monitor
+the surroundings as well as the rover
+[Music]
+this year the rover has seen a major
+shift in control from RC to keyboard the
+use of keyboard aims to ease the control
+of the robot and reduce the setup at the
+ground station we defined last year's gy
+configuration to provide more effective
+control of the rover the join cop it's a
+map to aid the driver with manual
+control we can easily switch between
+autonomous and manual control using a
+key on the keyboard and uploading the
+coordinates of the rover through the
+interface the robot transverses between
+two gates autonomously using GPS and
+compass on the rover once the rover
+reaches within 2 meters of the GPS
+coordinates it detects the gates using
+open CV for any mask over the main
+objective is to analyze whether the
+Martian surface is capable of supporting
+life in order to determinate they have
+devised an array of on and off both
+tests along with its corresponding
+scientific instrument they have split
+our task into three tires time and
+elemental analysis time to biological
+assets
+type 3 and manual specific micro
+Phyllis's we have created a rugged by a
+box reinforced with iron and aluminium
+plates making it impervious to light and
+leaks inside the bio box we have a UV
+visible spectrophotometer
+capable of machining in the 200 to 700
+nanometer range which will be using it
+for the pollutant to analysis in tandem
+with this do you have an array of
+sensors capable of measuring various
+environmental variables such as soil
+temperature pH humidity and also Nino's
+to measure the gaseous compositions
+armed with these tests
+instrument we are ready to tackle the
+Martian environment
+[Music]

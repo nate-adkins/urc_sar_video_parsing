@@ -1,0 +1,132 @@
+we team invasion from IIT Madras started
+in 2015 we are a seventeen member strong
+team built on the shoulders of students
+who have taken part in competitions such
+as a semi design contest and Robocon
+ever since I returned from USA 2017 we
+have been working continuously in our
+endeavor to build a better Rover
+[Music]
+this year we had significant
+modifications in the design of a ruin
+we switched from six to four wheels
+which not only reduce the weight but
+also made the control more responsive in
+computing a steering system allows for a
+greater degree of maneuverability the
+Bayeux differential mechanism shows
+ground contact of all wheels on
+different tenants after experimenting
+with several types of wheels we have
+narrowed down on terrain tasks these
+offer resilience of balloon tires
+interaction of rubber tires transmitting
+the power through belt drive isolates
+the motors from impulsive loads without
+loss in efficiency the precisely
+manufacture components have complemented
+our calculations in aspect of strength
+to meet our intricate fabrication
+requirements we have additionally
+employed several unconventional
+techniques such as EDM we are getting
+laser cutting and rapid prototyping
+[Music]
+[Music]
+the major focus of DCs arm has been on
+efficient redistribution of power
+between two of explosions making each
+joint more powerful than required this
+was done by introducing a coupled
+actuation with the help of a bevel gear
+differential mechanism we have replaced
+the conventional base rotation by
+shoulder rotation which reduces joint
+capacity and weight making the system
+more compact with the vision of more
+delighted in mind we have made the
+entire arm every principal module which
+can be swapped out within seconds the
+end effector is capable of holding
+objects of different shapes and sizes
+combined fingertips ensure a firm grasp
+overcoming mechanical disturbances and
+backlash
+[Music]
+having learned from our previous
+experience the electrical subsystem has
+been designed to be modular and reliable
+we are leveraging the computational
+efficiency of a distributed processing
+architecture which which is between the
+processors for optimized power
+utilization the orderid board serves as
+a high-performance node whereas
+Raspberry Pi handles like the node
+elements like motor controllers sensors
+another circuit boards form of mesh
+network employing a supervisory inter a
+communication protocol for faster and
+secure connections aroer is powered by
+lithium polymer batteries with a power
+distribution system which features in
+grid surge protection and a remotely
+operable kill switch this functions on a
+separate low frequency band
+supplementing the switch on the robot
+[Music]
+what is equipped with four cameras to
+give an integral view of its
+surroundings to 12 DB hominid axial
+antennas on the rover allow you B to D
+radios to communicate wirelessly with
+the Huygens Citroen denied the base
+station from our testing we found the
+solution to be suitable for transmitting
+data and high-quality video stream over
+1.2 kilometers with minimal latency
+further our main company is backed by
+low frequency RF transceiver steward
+have that connection was keeping inter
+platform adaptability in mind cross was
+a choice for the wrong software system
+the manual control of the drive system
+is assisted by type compensation
+algorithms which dynamically character
+over spark for autonomous navigation di
+use in row story navigation stack data
+from GPS leader and multiple I am use
+are fused together for accurate odometry
+and obstacle avoidance computer vision
+algorithms are used for detection of
+physical markers in the vicinity of the
+GPS location and algorithms for
+autonomous navigation are currently
+being tested for all possible scenarios
+of the competition
+[Music]
+our size plan focuses on evaluating the
+collected soil sample for indications of
+supporting microbial life to achieve
+this we have developed article which
+uses a useful mechanism to produce
+coupled linear and rotary motions of the
+drill bit a 3d printed cash container is
+located surrounding the drill bit in
+such a fashion that it is automatically
+sealed on remove from the diggers so as
+to prevent contamination of the
+collected sample we are using SH t10
+sensor to measure both soil temperature
+and humidity on both 0 in addition we
+also have a Geiger counter to measure
+cosmic radiation and a pressure sensor
+to measure the atmospheric pressure for
+the laboratory test we are performing a
+Bradford protein and say hand a grams
+and analysis tool for signs of life we
+are also testing the capacity of soil
+for sustaining life through NPK and pH
+tests to investigate evidence of water
+flow we are conducting this for sediment
+such as calcite sulfates and chlorate

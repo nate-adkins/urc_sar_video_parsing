@@ -1,0 +1,114 @@
+[Music]
+hi I'm Pablo w'iskey and my role is to
+advise the Impuls student team from the
+kilts a University of Technology for
+several years our students have been
+involved in the design and construction
+of mass rubbers to participate in
+international competitions here's a
+video about their current project hello
+my name is Camille I am the leader of
+impulse we are a team of 15 split into
+five groups each responsible for
+different aspects of the project we've
+used our knowledge and experience from
+the last three URC competitions to
+create a new version of our Mars rover
+that meets the requirements set for this
+year's event during the science mission
+there over will analyze soil and rock
+samples to determine the presence or
+absence of life at the site samples will
+be collected autonomously and then
+tested lumina metrically by measuring
+their bioluminescence bioluminescence is
+the ability of living organisms to emit
+light as this approach involves using
+ATP bioluminescence swabs and enemy
+tester it is safe with no risk of a
+chemical spill the onboard analysis
+system is designated not only to collect
+samples but also operate the nume tester
+the system is equipped with sensors to
+measure the atmospheric pressure the
+levels of methane carbon monoxide and UV
+radiation at the site's absolute
+elevation all the tasks performed by the
+rover will be observed in real time
+through a high-resolution camera with
+high magnification zoom lens our Rover
+is able to traverse a variety of
+challenging terrain including loose
+rocks and boulders a sand surface is no
+problem either and it's all thanks to
+the high clearance and flexible
+suspension on 300 millimeter wheels each
+receiving a maximum torque of over 200
+Newton metres with a low center of
+gravity there over can cope with slopes
+tilting up to about 50 degrees
+The Full HD cameras help the operator
+notice differences in color and pattern
+between similar objects even small in
+size messages from the judges detected
+in Sato / easy-to-read there / uses a
+GPS based system to accurately reach a
+designated point in the extreme
+retrieval and delivery mission we'll use
+a specially developed application to
+visualize the rover's route on the
+computer screen the high-precision
+manipulator will be crucial in the
+equipment servicing mission equipped
+with PID controllers it can easily
+perform precise tasks such as activating
+switches or driving screws this six
+degree of freedom manipulator with
+strain wave gears offering high torque
+is able to lift up to five kilos the
+manipulator control system uses inverse
+kinematic algorithms for quick and easy
+manipulation of objects
+keyboard operation is not a problem
+either there's a special grip able to
+handle heavy loads with different shapes
+and precisely operate small simple tools
+such as a wrench or a screwdriver we've
+used analogue cameras turn short no
+delay transmission
+for this year's competition we've
+developed a new autonomous navigation
+system with two subsystems one
+responsible for vision the other for
+positioning the positioning system uses
+readings from the drives of the compass
+the accelerometer and the differential
+GPS we've developed an application with
+ready to use maps to plan routes based
+on GPS coordinates the data sent to the
+robot so that it can follow it and reach
+the designated coordinates with high
+precision the vision system is equipped
+with three full HD cameras and then
+nvidia embedded computing port where
+we've implemented an attack detection
+and recognition algorithm to determine
+the rover's precise position and
+orientation relative to a physical
+marker this information is used to plan
+the robots route to or between
+designated points the autonomous control
+system also employs a simple algorithm
+for reading obstacles there overs
+autonomous traversal is monitored by the
+operator using real-time telemetry
+theta visualized on the screen the data
+displayed an included map with GPS
+coordinates the markers found and the
+the rover's onboard systems would
+produce visual signals and transmit
+messages to provide information about
+autonomous application or task
+completion
+[Music]
+you

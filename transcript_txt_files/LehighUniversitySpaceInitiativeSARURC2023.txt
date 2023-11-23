@@ -1,0 +1,144 @@
+please
+hi we are Lehigh University space
+missionary we are newly formed team from
+Lehigh University in Bethlehem
+Pennsylvania we're excited to introduce
+you to our 2023 World Cup our team has
+25 active members divided into five
+subsystems Drive chassis suspension or
+DCS robotic arm electrical and
+Communications vehicle software and
+science even though this is our first
+Rover our team designed the sixth wheel
+rocker Boogie Driveline system with
+Advanced six degrees of freedom robotic
+arm as well as an efficient science
+module our Rover suspension system
+standard Mission proven rocker Bogey and
+differential system the system is
+constructed from water jetted quarter
+inch aluminum and one-inch carbon fiber
+tubes held together by Steel bolts for
+our chassis we are using 1 16 inch
+aluminum this connects to the suspension
+through a steel differential bar and
+rods within the chassis our mounts
+organizing the various electrical
+components for our Rover for our
+Driveline configuration we chose to use
+six rev Neo brushless DC members these
+motors are connected through sparksmax
+Motors controllers
+the six Motors give us the ability to
+maneuver rugged and uneven Terrain our
+wheels are SLS printed out of nylon
+because of the material and inner design
+of our Wheels we are able to fully
+support the weight of the Rover the
+robotic arm is a six degree of Freedom
+mechanic mechanic system comprising of
+three joints with two Motors at each
+joint all connected by two carbon fiber
+tubes
+starting from the bottom the base
+consists of a custom planetary gear
+s during stationary Planet gears and one
+Sun Gear all driving a rotating ring
+gear connected to the shoulder
+the shoulder has a 3D printed SLA resin
+part that attaches to a brushed motor
+with a 977 to 1 planetary gearbox and
+built-in encoder the following elbow and
+wrist ruins each contain two motors for
+both pitch and roll movement
+connected to the wrist is the end
+effector which is composed of two 3D
+printed grippers attached to a two
+output shaft gearbox that is driven by a
+bring smart 12 volt DC motor one of the
+grippers includes a linear actuator
+allowing for accurate pressing and
+screwing each cripper has a 3D printed
+TPU pad allowing for flexible secure
+clasping of various objects for accurate
+and precise movement of the arm we will
+be implementing inverse kinematics for
+easy user interface controls
+our team has developed a science module
+to search for the presence of life and
+soil by measuring catalysts and enzyme
+found in all aerobic life
+to efficiently gather the samples the
+module is equipped with soil sample
+collecting system featuring swappable
+augers and movement two axes once
+collected the soil is transported to
+erodable Cache used in the series of
+peristaltic pumps ensuring precise and
+reliable transfer in the cachet soil is
+analyzed through a custom Spectra
+photometer and chemical process which
+first adds hydrogen peroxide to solution
+Cobalt bicarbonate is then added to
+inducing color change that can be
+measured by the vector kilometer
+calibration curves have been developed
+in lab to ensure the accuracy of all
+measurements the science module is also
+equipped with high resolution geocham in
+Iraq database which will allow us to
+capture detailed images and valuable
+information about the potential fluid
+we have a 12 volt electrical system
+powering our main Rover Electronics
+which comprise of six Spark Max motor
+controllers which power our Neo
+brushless DC motors for our drivetrain
+we have a separate 24 volt electrical
+system which Powers our robotic arm
+which comprises of four stepper Motors
+two DC motors and the servo
+for Rover computers we have two
+Raspberry Pi's an Nvidia Jetson which
+acts as our main rubber computer all the
+computers are connected over a local
+network and that network is connected to
+our base station through a rocket M2
+radio system which allows us to control
+and command the Rover from up to a
+kilometer away
+as for software we have a system which
+is built on top of Ros as a base for
+architecture and Communications
+we have developed a custom system to
+remotely distribute and recompile all
+over software wirelessly over the
+network at the touch of a button
+the base station uses a UI built in C
+plus with the ability to send commands
+weak back Telemetry and view a live
+camera feed the base station is also
+complete with the system which pings all
+Rover computers and the radio constantly
+to monitor the Network Health into
+typically diagnose problems
+our autonomous system comprises of
+several cameras able to recognize and
+identify ruko tags and a lidar and GPS
+system with these systems we will be
+able to autonomously travel to
+coordinates find posts and go through
+Gates our team is developing an inverse
+kinematic system with movement to
+control our robotic arm this allows for
+the arm to have precise position control
+through extensive testing and Vehicle
+Systems verification we're confident
+that our team will be able to excel
+during the series of absorber challenge
+thank you see you in Utah
+thank you
+[Music]
+[Music]
+foreign
+[Music]

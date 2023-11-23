@@ -1,0 +1,135 @@
+Hello, we are team MIST Mongol Barota from 
+Bangladesh and this year we are back with  
+our highly sophisticated rover, Phoenix 2.0. 
+Welcome to our 2022 System Acceptance Review. 
+After a huge success last year, 
+this year we have a bigger and  
+assorted team of over 60 students who 
+have worked extremely hard to make  
+Phoenix 2.0 significantly different 
+and better than our rover last year.
+Previously, Phoenix weighed 54 kg whereas 
+Phoenix 2.0 weighs 50 kg in total and 42kg  
+in a single mission. The full mechanism of Phoenix 
+2.0 has three parts - the body, arm, and science. 
+Instead of ball joints, this year we used 
+bevel gear which keeps the whole system  
+compact preventing wastage of space.
+Our rocker-bogie is made of stainless  
+steel and the ladder structure has been used for 
+higher strength and stability of the rocker arm.
+Our wheel is made of 3D printed 
+honeycomb structured tires using  
+thermoplastic polyurethane material 
+and custom-made rim using stainless  
+steel that uses a suspension 
+mechanism for shock absorbing. 
+The 2 Degrees of Freedom (DOF) wheel 
+provides stability and flexibility  
+in rotational and steering movement.
+Stepper motor is used along with the  
+dc motor to steer each wheel independently 
+which helps to rotate the rover 360 degrees.
+Phoenix 2.0 has 5 degrees of freedom arm with two 
+links this year Aluminium and Carbon fiber have  
+been used for lighter weight and easier movement.
+Spur gear mechanism with a gear ratio of 5:1 has  
+been used in the arm base for 
+higher torque and viability. 
+Two linear actuators and four steppers have 
+been used in the arm; one in the base and  
+the other three in the end effector that 
+uses a differential bevel gear mechanism. 
+The arm is strong enough to tow and lift a 
+payload over 8 kg in addition to opening a  
+drawer and inserting cache in it, the arm is 
+also capable of performing other sophisticated  
+tasks like handling USB, push switch, 
+tightening of a screw, joystick control,  
+knob and flip switch and typing on a keyboard.
+This year, our end effector uses a worm gear  
+mechanism to grip objects up to 5.12 
+inches wide with strength and precision.
+This year in our autonomous 
+navigation we improved localization,  
+computer vision and navigation capabilities 
+to ensure smoother traversal than last year. 
+Kalman filter fuses the data from the onboard 
+GPS and the integrated IMU in ZED provides  
+proper positioning to gain accurate GNSS.
+A custom script publishes the sensor data  
+in ROS to navigate to the visual markers.
+Simultaneous Localization and Mapping (SLAM) using  
+the combined data from depth-sensing along 
+with the LIDAR and point clouds can detect  
+and avoid any obstacles to the waypoints.
+2D Pose Estimation and Multimarker Detection  
+are combinedly used to identify AR 
+Tags up to 5-10 meters distance. 
+Three LEDs have been integrated in the rover for 
+indicating successful arrival to the destination.
+The prime communication system of Phoenix 
+2.0 uses a 2.4 GHz omnidirectional antenna  
+in both the rover and base station. 
+The effective range of the communication 
+module has been tested to be 1 kilometer  
+and four cameras have been used along with 
+two FPV (First Person View) cameras of 5 GHz.
+The main focus of the electrical subsystems is the  
+control of the rover and integration of 
+core electronics and embedded systems. 
+Enhanced modularity is implemented using various 
+custom PCBs and SolidWorks Electrical 3D,  
+facilitating simulation of real-time 
+electrical wiring of the rover. 
+Besides allowing 120 minutes of operation, 
+Lithium Polymer (LiPo) batteries also  
+power a modular electronic architecture.
+Moreover, our custom power distribution  
+board also prevents issues such as mismatched 
+battery voltages and subsystem level shorts. 
+For emergency stop of the rover, 
+we also have a kill switch.
+In order to minimize complexity, the 5-DOF 
+(Degrees Of Freedom) arm uses a specialized  
+gripper to collect soil samples.
+A testing chamber has been mounted  
+on the back of the rover to detect 
+biomolecules from rock and soil samples. 
+The samples are each deposited 
+into three isolated beakers for the  
+detection of biomolecules with chemical tests.
+This involves carbohydrate using Benedict's  
+Solution, Protein using new Ninhydrin 
+solution and Ammonia using litmus strips. 
+The results are streamed back to the base station 
+for immediate evaluation to feedback as input  
+into our customized algorithm and 
+the samples are classified into  
+Extinct, Extant and No Presence of Life.
+To analyze the rock sample, a USB 
+microscope with the addition of  
+MVOC sensors have been mounted with the end 
+effector to analyze and detect the presence  
+of living microorganisms from rock samples.
+A neural network model with Transfer Learning  
+has been made with our custom 
+dataset of 998 rock samples,  
+predicting the category and identifying 
+fossilized samples with 97.3% accuracy. 
+Moreover, a munsell chart is used 
+to detect the level of total organic  
+carbon present in rock samples.
+A sample acquisition and analysis  
+process is being tested on a course 
+with marked soil and rock samples.
+As the final months are here, we plan to fully 
+focus on practicing a series of mock missions  
+under the same constraints that 
+we expect at the competition. 
+Different conferences and workshops are also being 
+hosted as a part of our educational outreach plan. 
+We believe in our capability and effort. 
+On behalf of MIST Mongol Barota, 
+thank you for your consideration.
+See you in the finals.

@@ -1,0 +1,107 @@
+hi we are odessa space and this is our
+major prototype
+[Music]
+in the current edition we will be using
+a centrifuge as the main instrument to
+mix the samples and the reactants
+we will be using colometric analysis to
+determine the concentration of different
+analytes nitrate nitrates phosphate
+hydrogen amino acids proteins
+carbohydrates etc
+the rubber will be equipped with gas
+detecting sensors as well including
+methane carbon dioxide and benzene
+the laboratory is designed to have an
+almost segmented closure so the sample
+contamination will not be a problem
+the practicality of the test system
+based issues and control points allow
+the program sequences to have greater
+precision at the time of execution
+this makes it much faster and the error
+is lower the laboratory is designed by
+stations in a way that are distributed
+in the independence slots
+[Music]
+the suspension system features
+independent support for each wheel
+it's mainly made up of upper and lower
+different length control arms
+which are strategically attached to the
+chassis of the bottom and sides do the
+motion ratio
+the robot rides on 4 10 diameter inches
+in fire rubber wheels
+this title wheel is lane and had quite
+good traction on rocks in slow and rough
+size since it of raw wheels the gear
+motor for each wheel is mounted directly
+to the shack bearing and is protected by
+the lower arms
+the robotic arm is made of a jointed 5
+degrees of freedom design
+the arm is designed for using two
+competition tasks these include
+equipment servicing and astronaut
+assistance
+the design includes at three degrees of
+freedom grease pitch and roll and a
+gripper at the end
+another zip rubber was added to optimize
+grip when adapting to objects to be
+picked up and move
+the arm is able to perform the required
+operations such as typing on a keyboard
+as well as targeting the screw
+[Music]
+pushing bottoms
+flipping switches
+[Music]
+and inserting a memory usb stick
+in the autonomy team the rover
+geolocation is performed with a gps and
+a set camera
+this will help us to map the environment
+which is described using the method of
+occupancy cells and graph traversal
+algorithms work
+we test the routing algorithms and
+analyze the behavior of a rover when
+given a point b to reach from a point a
+we develop a simulation in gazebo
+modeling the rover and with the help of
+rocks we perform the communication of
+the subsystems
+the rectangular frame shape serves as a
+balanced mountain point for the
+suspension system electrical box and
+other devices such as the antenna
+acrylic border sheet covers all the size
+of the frame as a protective shield from
+those while still allowing airflow the
+assembly of the suspension system is now
+optimal with this new design which
+includes modularity in the frame it now
+uses a jing a sample system the last
+improvement was to regulate the center
+of gravity to its death center
+[Music]
+for a communication and power we ensure
+the wireless connection between devices
+station and the rover by using a high
+power radio for a 2.4 gigahertz
+connection
+with sector and non-directional antennas
+for line of sight communication using
+the tcpip protocol through rosmera
+operative system that allow all the
+boards on the qt1 to be remotely
+controlled enabled of completing each of
+the tasks of the competition
+for the power subdivision we implement a
+12v35 amps lead battery and step up and
+step down converters so that we can
+power the different devices on the
+vehicle
+you

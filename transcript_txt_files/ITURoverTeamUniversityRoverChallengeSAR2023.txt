@@ -1,0 +1,135 @@
+Greetings from Istanbul Technical University,
+This is Feyza, Team Captain of ITU Rover Team.
+ 
+And this year, we've pushed ourselves 
+to create something truly remarkable.
+ 
+The rover's chassis is designed from aluminum 
+sigma profiles, making it more durable and  
+modular. To overcome obstacles and adapt to 
+the terrain, a rocker suspension system with  
+a differential rod has been used. Brushless motors 
+are used for the movement of the rover and these  
+motors are placed in the aluminum hubs of the 
+wheels to protect them from external factors.  
+The height of the rover from the surface is 
+0.3m, including the wheel width is 1m and  
+length is 1.1 meters. For precise control, 
+a steering mechanism that allows each  
+wheel to rotate independently is designed and 
+manufactured as an addition to the rover.
+ 
+The Rover is powered by a 24V lithium-ion 
+battery which we can access the status by  
+an energy monitoring circuit. The main power 
+goes to the two-stage switch and the power  
+distribution board with fuses. The PDBs regulate 
+the required voltage. In the electronics box,  
+we have STM32 based custom made circuits 
+focusing on on-board communication, led,  
+and motor control. The drive system is optimized 
+by PID controlled BLDC motor drivers with magnetic  
+encoders and hall effect sensors. Units 
+handle high-speed serial communication  
+with end-to-end protected message packages.
+2.4 GHz Wi-Fi modules are used to establish  
+long-range communication between the base station 
+and the rover. To achieve more effective and  
+long-range communication, a directional 
+antenna is rotated in accordance with the  
+location of the rover. USB and FPV cameras are 
+strategically placed around the rover to enhance  
+the perception. The simulation created for the 
+tasks in the competition is used to test our  
+algorithms. Problems can therefore be identified 
+in advance. Our new user-centered interface gives  
+complete control over the rover during tests.
+As well as creating a new robotic arm, this year  
+we aim to enhance the old one which uses brushed 
+motors and worm gears with cycloidal gearboxes  
+and a new gripper to prepare it as a backup 
+plan. Also, a complicated 6 degrees of freedom  
+new robotic arm that uses BLDC motors to provide 
+required torque and accurate control with the use  
+of cycloidal gearboxes and belt-driven systems 
+instead of worm gears to minimize backlash.  
+We also developed and reduced last year's 
+cycloidal gearboxes to obtain mini-reducers.  
+For torsional stiffness and lightweight, 
+carbon fiber tube linkages are adopted.
+ 
+High resolution absolute encoders and custom-made 
+BLDC motor drivers provide us with precise PID  
+control. The system's communication is done by 
+robust CAN FD protocol. Also, effective cable  
+management leads to an increase in the flexibility 
+and safety. With our modular single line cable  
+net we can get ready for missions in seconds.
+Our robotic arm is a highly versatile and precise  
+robot that can perform a variety of tasks. It uses 
+inverse kinematic solutions for control, allowing  
+for operation in both cartesian and joint spaces. 
+This allows the arm to turn knobs, switch buttons,  
+handle tools, place objects in drawers with ease. 
+Also, the use of USB cameras makes it easier to  
+operate the arm. To ensure optimum performance, 
+we tested our robotic arm in both real-life  
+scenarios and a simulation environment.
+Planning and control are refined for the driving  
+system. Our SLAM algorithm creates a 3D map using 
+point cloud data obtained with a high frequency  
+IMU and LIDAR. Then, this traversability map is 
+used for path planning. A custom made rover-base  
+differential GNSS solution is used to improve 
+positioning. Thanks to our spiral search and  
+newly developed algorithm, AR Tags are detected 
+from a long distance before the rover approaches.  
+A concurrent state machine actively checks 
+the rover's status and sensors to maintain  
+the autonomous mission of the rover.
+In this year's science system, we used  
+a revolving system with fixed shovel tips for 
+quick soil collection. In addition to being fast,  
+this system prevents contamination thanks to its 
+3 separate shovels. With the customized shovels,  
+we can take the desired amount of soil and dump it 
+wherever we want. At the back, a separate moving  
+system carries our sample containers. This system 
+goes back and forth and rotates around itself,  
+allowing us to choose the container where 
+we will pour the soil we collect.
+ 
+For life detection analysis, proteins 
+which are the building block of cells are  
+examined with the Bradford reagent. Aldehydes 
+involved in metabolic processes are studied  
+with the help of the Schiff's reagent. 
+Besides, two different types of biosensors  
+are prepared to detect glucose, which 
+is the energizing molecule. While the  
+chitosan cryogel-based biosensor is selected 
+for its high binding capacity and stability;  
+the chitosan-whatman paper 
+based one is preferred for 
+ 
+speed and simplicity.
+Unlike last year's plan,  
+the 532nm Raman spectrometer is redesigned 
+with optical lenses to get more efficiency in  
+detecting lipids in soil samples, which 
+are strong indicators of life. Also,  
+we are designing our new visible-near infrared 
+spectrometer with brand-new components to  
+examine a larger range of minerals to 
+interpret the origin of the soil.
+ 
+For the detection of mineral size, types and 
+the composition of the soil is identified  
+by a artificial intelligence with a calibrated 
+microscope. Furthermore atmospheric sensors such  
+as pressure, humidity, temperature, methane, 
+carbondioxide and ammonia sensors are used  
+to study geological conditions along 
+with the moisture and temperature for  
+the soil. After these processes we use all this 
+information to evaluate the habitability of Mars.

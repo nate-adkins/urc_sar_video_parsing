@@ -1,0 +1,156 @@
+[Music]
+aloha the university of quebec is proud
+to present vip team rose's first ever
+system acceptance review for the usc
+2022 competition to compete in the new
+york city team rose has designed a
+six-wheeled rover capable of all
+challenges stated in the 2022 ursc
+rulebook last semester the rover was
+designed fully in cad this semester we
+have built a prototype for our
+competition design
+due to supply chain issues not all parts
+were received before the sar deadline so
+the team used what we had to get the
+prototype rolling our competition rover
+will look more similar to the cad model
+shown
+several components such as the wheels
+and materials shown in this video will
+be further optimized prior to the
+competition
+to overcome the challenging martian
+terrain we decided on a linear bogey
+suspension design the linear bogey
+utilizes a differential bar connected by
+two articulating linkages which keeps
+the rover body level over uneven ground
+our rover is composed of an aluminum
+chassis carbon fiber composite and
+aluminum linkage suspension which
+optimize strength for withstanding
+collisions
+the rover has a low center of gravity to
+ensure that the rover meets its incline
+requirement of 30 degrees
+our low pressure inflatable tires allow
+for conformable service contact with the
+ground to increase traction when
+climbing up steep slopes and traversing
+rough obstacles
+to complete the equipment servicing
+mission we designed a five degree of
+freedom articulated robotic arm with a
+two finger parallel end effector
+featuring a rack and pinion mechanism
+the rack and pinion design directly
+drives the fingers movement and has a
+stronger grip compared to some
+traditional grippers and the longer rack
+allows the end effector to easily grasp
+objects five centimeters long linear
+actuators controlling the shoulder and
+elbow pitch allow the arm to pick up
+objects up to 5 kilograms in mass and
+are more robust to shock loads for the
+extreme retrieval and delivery mission
+the worm gear in the wrist pitch
+provides a high ratio speed reduction to
+increase the provided torque
+these design choices ensure that the arm
+can easily push buttons flip switches
+open drawers undo latches type on a
+keyboard and insert a usb stick
+two cameras will be mounted on the wrist
+of the arm to provide the operator with
+live stereoscopic video feed optimized
+for teleoperation while performing
+dexterous tasks the arm and end effector
+will be printed from abs cf 10 which
+reduces the weight of the arm subsystem
+while maintaining the structural
+properties comparable to 6061 aluminum
+here at the autonomy team we developed
+an autonomous navigation stack to
+traverse the go away points the rover's
+global pose is estimated using an
+extended common filter fused with gps
+and imu data local pose is estimated
+from visual inertial odometry using an
+intel t265 tracking camera powered by
+orb slam 3. the rover's surroundings are
+mapped using an intel d455i depth camera
+and its point cloud data
+using mapping software our rover is able
+to differentiate uneven terrain from
+untraversible obstacles
+using the rover's posed with mapping the
+path planning module uses cost maps to
+generate a feasible path multiple recoil
+tags are detected by the rover's onboard
+camera providing an accurate estimate of
+the tag's pose
+to address our power needs for the rover
+our team has decided to build our own
+electrical power system our power system
+will be utilizing in-house built battery
+packs manufactured from lithium-ion
+cells power conditioning modules will
+provide voltage regulators for separate
+control and motor drive buses for switch
+power applications for our communication
+system we've chosen to operate within
+the 2.4 gigahertz spectrum using an
+ad-hoc point-to-point single-channel
+802.11 wi-fi network to allow for
+bi-directional data transfer with
+sufficient bandwidth for live video
+streaming the operator will control the
+rover using a web app implemented in
+node.js to maximize interface
+flexibility reconfiguration of the
+rover's arm allows for non-invasive
+in-situ analysis of both rock and soil
+samples a high-resolution camera
+provides visualization of macroscopic
+features indicative of life and
+potential surfaces ideal for further
+analysis
+mounted above the camera is a probe head
+sending signals via fiber optic cables
+to our custom-made raman spectrometer
+the collected spectra are used for
+distinct identification of mineral
+compositions and potential biomarkers a
+shovel scoops and deposits soil from
+each site into one of three designated
+chambers where samples will be prepared
+into solutions using high-speed magnetic
+stirrers using multi-channel parasitic
+pumps small sample volumes are injected
+into a compact microfluidic chip that
+can perform rapid chemical analyses
+simultaneously
+paper-based color metric assays are
+embedded into the chip for detecting
+amino acids carbohydrates and ammonia
+the rover's communication system will
+transmit instrumental data to the
+control station to analyze using
+spectral analysis software and image
+processing techniques team rose is a
+first year team proposing to compete in
+the 2022 urc and introduce the
+university of hawaii at manoa to the
+community of competitive robotics put
+together by the mars society our rover
+has been built from the ground up with
+the intent of competing in all
+challenges at the urc though we do not
+have all components that we design for
+due to supply chain issues we are
+confident in our ability to acquire and
+manufacture all remaining components
+within spec of our intended design and
+the time frame of the competition

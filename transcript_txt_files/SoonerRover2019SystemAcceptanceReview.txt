@@ -1,0 +1,81 @@
+[Music]
+hi we are the sooner rover team and we
+have spent the past three years
+designing building and optimizing our
+Mars rover designed and sand we have a
+team of over 45 people across several
+different majors working hard to win the
+2019 University of Louisville challenge
+but beyond machining we have a strong
+focus on outreach the pseudo Rover team
+strives to teach people all agents about
+the importance of exploring Mars and
+about the University Rover challenge
+[Music]
+we have tested every part this program
+first at the component level then as a
+subsystem made up of components and then
+finally as a whole system before moving
+on to integration testing on the rover
+as a whole currently we're on the
+integration phase testing
+[Music]
+in Mission Control the driver controls a
+gimbal and video feed while
+simultaneously being shown GPS
+coordinates for navigation
+we are currently practicing controlling
+the rover without line of sight between
+the rover driver and the rover
+[Music]
+the rover can be controlled over 220
+meters away with obstacles between the
+mission control antenna and the road as
+shown the rover will use its one
+centimeter accurate differential GPS to
+navigate simply to a set GPS coordinates
+are unique Mars akkad design is faster
+than the traditional rocker-bogie setup
+while still being able to traverse
+obstacles on the same order as the
+wheels or larger its low center of
+gravity allows it to climb extreme
+slopes without losing stability
+this year we have given control of each
+individual wheel to the driver to allow
+recovery from the most difficult mishaps
+our hybrid conical wheels are highly
+effective on booster and smooth surfaces
+as seen here in our max slope test our
+new belt driven arm has lower center of
+gravity and uses a hook to lift heavy
+objects of weight 5 kilograms or more by
+using a hook our claw can be designed
+for much more precise delicate
+operations
+[Music]
+our new in defector uses a multiple slip
+ring design that allows for continuous
+rotation empowers the grasping motors in
+our current phase we are machining each
+member to strengthen each member and
+reduce the overall weight our science
+team has developed a test that uses
+hydrogen peroxide to determine the
+presence of either extinct or extant
+life nodes as seen here with a sterile
+Mars desert Research Station simulant
+has no effect while a life containing
+sample releases large amounts of carbon
+dioxide this gives both a visual and
+sensor indication of life we will be
+using a vacuum with a cyclonic separator
+to gather the soil sample into a test
+tube already contained into the actives
+following planetary contamination
+processes although we will also look for
+visual signs of life with our 4k high
+resolution camera
+thank you and we look forward to seeing
+you
+[Music]

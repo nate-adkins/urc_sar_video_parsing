@@ -1,0 +1,92 @@
+We are the IITB Mars Rover Team,
+and have been working on interplanetary rovers
+for the past 6 years. Over the years,
+we have developed a strong understanding of
+all systems of the rover and their interdependencies.
+The current team consists of 25 members
+and is divided into the Mechanical, Electrical
+and bioscience subsystems, in line with the competition tasks.
+This year, we have gone for a complete mechanical overhaul of the rover,
+designing a system that is lighter, more compact and sleeker
+ 
+We have optimized every system thoroughly, and simplicity has been the mantra for this design.
+ 
+The four wheeled double-wishbone suspension system
+is designed for stability and mobility in equal measure
+The wide wheelbase provides stability
+while the spring-damper system allows our rover to climb obstacles upto 30 cm high
+We have gone with differential steer this year to keep the design simple
+ 
+The balloon wheels provide added cushioning
+and also sufficient traction
+We have tested the suspension on all kinds of terrain
+and its performance has bolstered our confidence for URC
+The robotic arm this year consists of an open truss design
+to minimise weight without compromising on strength
+The entire arm weighs 9 kg, while being able to lift objects upto 5 kg
+ 
+The two-finger gripper has 3 degrees of freedom
+and can reach upto a height of 1.4 metre
+thus being able to perform all the competition tasks
+This year’s electronic & software subsystem has been further refined
+to be simpler, modular and easy to debug
+We have interfaced readily available hardware
+instead of reinventing the wheel and designing things from scratch
+Software stack has been developed on ROS, which provides seamless interoperability
+The rover is driven by four 18 Volt DC motors
+controlled by Roboclaw motor drivers
+The motors are primarily run in open loop differential scheme
+For autonomous tasks, closed loop control is achieved by PID control over IMU feedback
+The arm control consists of mixed open and closed loop schemes
+For precise operation, Inverse Kinematics control over actuators
+using feedback from inbuilt potentiometers has been implemented
+At each point live feedback is taken and visualized
+via URDF model on our GUI
+Ruckus networks P300 wireless bridge is used to provide wireless communication
+ 
+The modules feature a powerful 14 dBi internal directional antenna
+and have been tested to provide a range of 1km
+Our Power system has been completely overhauled this year
+We have shifted to more robust custom made li-ion battery pack
+with active Load balancing to ensure healthy operation
+The battery has been tested extensively to provide 1.5 hours of operation
+ 
+We have developed Base Station GUI on RQT
+The GUI currently features dynamic GPS-IMU sensor visualisation
+a URDF model mimicking the rover state
+software switches and multiple camera streams
+We get GPS-IMU readings from a custom developed android app using ROS Java
+ 
+IP Cameras, Go Pro Hero5, and Android Phones
+have been interfaced to provide video stream
+For level 4 autonomy we are using a Xbox one Kinect Sensor
+Using its depth image objects in a certain range are detected via a color mask
+noise is removed by implementing opening and closing morphological operators
+ 
+For ball detection we utilize the color video feed from kinect
+and create a circular contour using a similar algorithm as obstacle detection
+the depth of the ball is then calculated using the radius of the circle
+The science team has researched numerous Mars missions  both past and proposed
+ 
+looking for feasible markers relevant to the search of Martian life
+We will be using a high-resolution camera to generate
+a stratigraphic profile to select the ideal digging site
+Our bioassembly tests the humidity content
+temperature of the soil and ambient pressure
+using on board sensors
+In search for possible biosignatures, a methane sensor is also included
+The soil collection assembly consists of an Archimedes screw mechanism
+ 
+to directly collect soil samples into a detachable container
+thus eliminating the risk of contamination
+In the field laboratory,  we are conducting chemical tests
+for nitrogen, phosphorus and carbonates
+as these are the necessary elements for life
+Also, we are doing biological tests to detect crucial bio-markers
+i.e. bacterial cells and amino acids
+As all our systems are nearly competition ready
+the next 2 months will be spent on thoroughly testing the rover
+We have prepared an extensive testing manual
+and will be testing all the systems of our rover
+in natural as well as simulated environments
+both for the competition and beyond.

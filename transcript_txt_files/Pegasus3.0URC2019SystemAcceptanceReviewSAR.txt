@@ -1,0 +1,136 @@
+hi who are diverse the dumpling Pegasus
+free river team a group of six students
+working to build and improve our 1300
+Rover I'm looking forward to go back and
+compete at the Twain and tu aussi we
+were the first UK team to qualify and
+compete at the University Rover
+challenge building on that experience we
+have changed the rover to improve its
+performance and comply with the new you
+RC requirements for the extreme
+retrieval and delivery mission
+traversing through rough terrain and
+steep slopes is fundamental
+based upon largest Designer experience
+at the competition this year we've
+decided to work on a number of changes
+the team focused on achieving a
+substantial mass reduction while
+increasing the system reliability this
+was done by changing the suspension and
+the chassis design in order to increase
+stability the team has increased the
+rover's track width and wheelbase as
+well as the robots clearance from the
+ground these changes allow the rover to
+traverse steeper slopes and more
+challenging terrain the newly
+implemented differential bar system
+transmits motion from one side of the
+suspension to the other in order to
+maximize real contact with the ground
+last year's plate suspension has been
+replaced with one constructed from
+carbon fibre tubes and graphite
+reinforced nylon SLS 3d printed inserts
+these provide the suspension with the
+required strength and flexibility needed
+while achieving a considerable mass
+reduction to ensure that the
+carbon-fiber tube suspension was a
+suitable choice a compression test was
+performed in a servo hydraulic machine
+this year's chassis is constructed out
+of lightweight welded aluminium
+cassation in order to reduce traction
+losses the team has implemented a direct
+drive system which also provides higher
+torque in order to complete the extreme
+retrieval mission the rover will use its
+five degree of freedom robotic arm which
+is capable of lifting payloads of up to
+six point five kilograms at maximum
+extension flexible rubber on the
+grippers fingers provides additional
+friction the robotic arm is also used in
+the equipment servicing mission the
+cameras attached the robotic arm allow
+for accurate and precise movement of the
+end effector which allows manipulation
+of knobs buttons
+drawers and keyboards
+delivering a stable and reliable
+electronic system that integrates a
+newly designed science package and
+allows for autonomous and teleoperation
+control is the focus for this year to
+complete the teleoperation missions the
+rover is wirelessly networked with the
+base station via two 2.4 gigahertz a
+maximum range of between 700 and 1,000
+meters has been determined during
+testing depending on terrain control
+commands are sent to the rover computer
+which relays them to the rover control
+unit the rover control unit controls
+actuators and motors while reading
+signals from sensors and transmitting
+the data to the rover main computer
+where possible groups of sensors and
+circuits are localized on custom PCBs
+for the science thus we have built a
+camera vision system which uses the
+reflectance properties of the elements
+to identify potential life on rock and
+soil samples science system is attached
+to the end of the robotic arm 12 pairs
+of LEDs that emit light ranging from
+ultraviolet to infrared are used to
+illuminate the samples these are mounted
+on a PCB that is connected to a
+microcontroller spectral graphs are
+obtained from data that is required by a
+calibrated CMOS sensor which detects UV
+visible and infrared light a flexible
+foam enclosure allows us to image in
+completely dark conditions regardless of
+terrain and to accurately detect the
+light reflected from the sample once
+acquired pictures are transmitted to the
+base station for analysis these are used
+to generate a reflectance spectrum graph
+for each pixel in the image to identify
+which compounds are present results are
+compared to a database of the spectra of
+bio and geo markers commonly used as
+live detectors such as sulfates
+carbonates and chlorophyll the
+characteristics of these compounds will
+allow us to detect if life is extant
+extinct or neither for autonomous
+navigation we have developed new ways to
+detect and avoid undesirable terrain
+while also improving the range and
+accuracy of the tennis-ball detector a
+new system to create an obstacle map
+from elevation data and aerial images
+has been developed giving the rover the
+ability to minimize traversal time over
+rough terrain without having to build a
+map during teleoperation
+a far more robust tennis-ball detector
+allows the rover to be resilient to
+noise and ensure that a tennis ball has
+been located at ranges of up to ten
+meters from the rover using a method
+based on multi scale template matching
+GPS rotary encoders an inertial
+measurement unit and a connect v2 sensor
+provide input to an extended Kalman
+filter allowing the rover to predict its
+location with a reduced impact from
+sensor drift similarly to last year the
+rover will be tested in the Airbus Mars
+yard thanks for watching and we hope to
+see you at the UIC

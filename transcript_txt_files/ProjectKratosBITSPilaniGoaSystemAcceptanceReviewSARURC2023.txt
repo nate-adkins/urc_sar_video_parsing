@@ -1,0 +1,156 @@
+foreign
+group of 40 plus students from various
+engineering backgrounds and we are
+extremely proud to present our Rover
+creators Mark 3. project is divided into
+six subsystems mechanical controls arms
+science power and autonomics we have an
+in-house Workshop within our University
+where we perform several mechanical jobs
+such as CNC lathe Etc moreover we also
+have access to a student fabrication lab
+where we have several 3D printers a
+laser cutting machine and a PCB printing
+machine the mechanical subsystem is
+responsible for the design production
+and enhancement of the core Rover arm
+and science system this year we are
+using the new t-slot aluminum JC for
+better modularity which houses the
+electronics box and provides easy access
+to the electronics onboard we have
+reiterated our double Lambda rocker
+Boogie suspension with custom CNC
+machine parts a new averaging mechanism
+has been implemented and has been
+shifted below the chassis for better
+access to electronics box continuing
+with the six-fill differential Drive
+mechanism we are using the 3D printed
+Wheels with a modified honeycomb support
+pattern improving the shop exam browser
+printed on the wheel provide traction on
+loose sand the wheels along with the
+suspension allows the Rover to navigate
+steep slopes up to 40 degrees and even
+stairs we use a combination of 2.4
+gigahertz omnidirectional and sector
+antennas for communication the Rover is
+still evaporated using a joystick at the
+base station which has been tested for a
+non-los range of one kilometer we
+receive multiple video feeds from FPA
+cameras and can seamlessly switch
+between them using a multiplexer the
+required wheel velocities are computed
+on the Jetson using a differential Drive
+model we have implemented a custom
+systems check algorithm to ensure Rover
+Readiness before every mission in case a
+communication loss with the weigh
+station the Rover uses the stereo camera
+and GPS data to retrace its trajectory
+autonomously to reconnect the Rover can
+autonomously Traverse various parts
+using a peer Pursuit controller with the
+PID controller as a fail safe the peer
+pressure controller has been thoroughly
+tested using simulations before
+deploying it on the Rover we employ a
+mix of lithium-ion and live po4
+batteries with integrated BMS and cell
+balancing for the road in external
+battery management system that uses the
+coulomb counting method to calculate the
+efficiency and state of charge of the
+batteries have also been used various
+pcbs with power lines were manufactured
+in-house for each assembly including arm
+drive and science the Rover is tested
+for 90 minutes of cutting as traversal
+using a kill switch we can shut down the
+Rover in case of an emergency our new
+fire degree of Freedom robotic arm is
+tested for all equipment servicing tasks
+with very high accuracy the carbon fiber
+links and two new linear actuators
+provide the capability of Performing
+tasks that have very high load
+requirements up to 6.5 kilograms the
+base rotation mechanism has been
+improved to a cycodile drive from a
+previous spur gear for higher reduction
+higher accuracy with a mechanical
+improvements and new algorithm we can
+extrapolate a two-dimensional inverse
+kinematics to 3D space and position
+alarm accurately this here we have
+focused on building two different
+grippers one for dexterity and Equipment
+servicing and the other for strength in
+extreme retrieval the differential bevel
+gears are redesigned and manufactured
+in-house to help us control roll and
+Pitch motion enabling the Rover to
+perform tasks like flipping switches
+pushing buttons operating your second
+opening drawers focusing on transition
+times a new Rover can completely switch
+from Arm based tasks to autonomous tasks
+well within 2 minutes this year the
+autonomous subsystem has focused on
+localization and mapping of our state
+machine based model the new rtk based
+module ensures reliable and centimeter
+level accurate localization visual
+inertial automatic data from z2i stereo
+camera and gnss data refused to reduce
+the errors further the point cloud data
+from z2i is extracted to create an
+elevation map of the environment which
+is used by our modified install
+algorithm to provide the path with least
+reversibility cost a spiral search
+algorithm is employed for searching the
+AR tags after reaching the fourth gnss
+and subsequent checkpoints the air
+attacks at the last four markers and the
+gates are detected using arauco module
+of the opencv package after detection
+the AR tags are followed using a
+pre-controlled visual surveying
+algorithm finally the gates are
+traversed using similar mechanism and
+reaching the goals is signaled by an LED
+the onboard setup can
+do four different soil samples using a
+scooping mechanism the collected sample
+is directed to custom spectrometer
+following a no spill and no
+contamination policy Bradford and
+chlorophyll tests are performed to check
+the presence of protein and chlorophyll
+respectively their over house is a 3D
+printed enclosure with LEDs and a camera
+used to capture the Rocks the captured
+image is further processed by a CNN
+model that classifies rocks into 10
+different categories the digital
+microscope takes high resolution images
+of the soil and rock samples determining
+soil type and texture provides insight
+into habitability conditions which is
+supported by estimations done using data
+collected from atmospheric sensors
+identification of forces possible green
+stripes carbonate and mineral traces
+would help in classifying extant and
+extinct Life as a part of our
+educational Outreach we train our 150
+University students on necessary topics
+required to create and run a Mass Rover
+from the spool of students we perform
+our recruiting thereby allowing people
+with no past robotics experience to also
+learn and join the project we hope to
+see you at URC 2023

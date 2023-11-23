@@ -1,0 +1,142 @@
+hello we are the Washington State
+University Rover team and this is our
+submission for the University Rover
+competition 2023.
+since our University's last showing at
+the URC we have overhauled our Rover
+completely and have started from scratch
+the Rover has a variety of Integrated
+Systems in order to accomplish the
+challenges of the URC the principle one
+of these is our rocker bogey suspension
+during initial testing we determined
+that a Rover of this size should be able
+to scale a 400 millimeter rectangular
+beam vertically straight from the front
+in order to do this we gave our
+suspension plus or minus 20 degrees of
+tilt operating at a combined 12.8
+efficiency our six Field Drive system is
+capable of hitting speeds of five feet
+per second about an average walking
+speed at torques of 90 newton meters at
+stall this allows us to Traverse any
+obstacle we should come up against even
+allowing us to climb a vertical surface
+our newly designed arm features six
+degrees of freedom and is driven by
+custom in-house machined worm gearboxes
+for ease of servicing the arm can be
+removed with four quick disconnect pins
+our electrical system utilizes
+off-the-shelf components along with
+custom printed circuit boards with a
+modular design components can be easily
+swapped
+cable harnesses allow for a quick
+Detachment of components
+all but one motor controlling the arm is
+mounted at the base and through a series
+of chains and belts motion is
+transmitted throughout the arm with
+carbon fiber tubes lightweight aluminum
+caps and low mounted Motors the arm is
+kept light and agile
+our Rover uses three 12 volt lithium
+iron phosphate batteries wired in
+parallel and with a 30 amp hour charge
+the Rover can comfortably drive for 30
+minutes to an hour depending on Terrain
+the arm is equipped with absolute
+position encoders on every axis to Aid
+in the inverse kinematic model
+the inverse kinematic model and PID
+allows for easy natural movement of the
+arm
+most metal Parts on the Rover have been
+machined by us in-house though our
+current claw prototype is completely
+plastic safe for its gears a metal
+prototype is in the works right now
+the claw also features our custom worm
+gears and ring gears to drive its
+knuckle joints it features compliant
+spring-loaded fingertips to grip a
+variety of surfaces as an effect of the
+worm gear design each claw finger is
+individually a drop-in Dropout component
+the clock can be run with 2 4 and even
+three fingers
+the Rover features a main breaker which
+can cut off power to all Motors in case
+of emergency
+in order to accomplish the variety of
+missions that the Rover must achieve
+during its time at competition we have
+designed a tool change system for the
+end of our arm this allows us to mount a
+basic claw for grasping and pulling
+objectives a auger for soy collection
+and a screwdriver for removing the
+screws on the Lander
+our custom printed circuit board houses
+a microprocessor to handle all gpio
+signals as well as rooting gyroscope GPS
+and Atmospheric sensors
+also on the PCB are pwm drivers and
+motor controllers the microprocessor
+communicates with our Jetson Xavier over
+serial the Jetson handles a bulk of the
+processing of the Rover we have chosen
+to implement the robotic operating
+system also called Ross we have chosen
+to write most of our software in Python
+and Ross allows for the convenient
+implementation of multiple different
+scripts Ross also has built-in
+communication allowing for communication
+between Ross devices our Rover contains
+a Ross device and our base station also
+contains a Ross device for communication
+we are using 2.4 gigahertz and 900
+megahertz antennas to communicate over
+Wi-Fi
+we have video streaming using opencv
+Python scripts that also communicate
+through Ross's connectivity and
+currently supports two streams of video
+one from The Rovers tower cam and one
+from its claw
+in order to carry out the science
+Mission our Rover can be equipped with
+an auger that will dig samples out of
+the ground these samples can be placed
+in a funnel which lead into our science
+module our science module injects test
+chemicals into test tubes that sit on a
+rotating chamber these test chemicals
+test for the presence of protein and
+sugars in the sample these samples get
+rotated in front of a diffraction
+grating photo spectrometer which will
+beam color readings back to our base
+additionally the science module is
+equipped with a USB microscope which can
+send back microscope images of the
+sample we search for microfossils as a
+sign of life
+now that mechanical design has been
+mostly finalized and the basics of the
+code are working we are moving towards
+more advanced objectives these include
+the implementation of Slam simultaneous
+localization and mapping for a Rover so
+it can do obstacle avoidance as well as
+GPS Waypoint navigation we're planning
+on integrating these two very closely so
+as the Rover is navigating to its GPS
+waypoints it will be able to choose the
+path of least resistance on its Journey
+we appreciate your consideration in the
+2023 URC and look forward to competing
+with all the other teams

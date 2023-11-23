@@ -1,0 +1,152 @@
+[Music]
+the Bennington University Rover team
+represents a collaboration of a wide
+variety of disciplines and interests
+together we sought to create a rugged
+Rover design people of meeting all
+possible competition challenges in Paris
+of organization we've utilized
+cross-functional teams to ensure
+collaboration between varied areas of
+expertise we're constantly speaking in
+classes and attending events to attract
+new students and support this year the
+communications team had three main goals
+to improve our system performance at
+longer ranges to reduce the effects of
+noise and to increase the vertical beam
+width of the base station antenna in
+order to address all these issues we
+changed the antenna we were using at the
+base station from an omnidirectional
+antenna to a sectoral antenna with
+higher gain using this new system our
+testing has indicated that our system
+should be able to work at distances of
+over a kilometer meeting our
+requirements we the electrical team have
+organized their efforts into four main
+subsystems power distribution motor
+control battery management and safety
+since the start of our preparations for
+Utah we have designed mounted and tested
+PCBs din rail and to improve our
+high-level organization modularity our
+Rover is powered by three twenty five
+point nine volt batteries whose power is
+allocated according to each sub team's
+needs in five regulated and unregulated
+voltages throughout the rover each
+regulated voltage is produced by DC to
+DC converters which in addition to their
+high efficiency and stable outputs have
+overload and electrical isolation
+features the unregulated voltage
+converter towers are six BLDC motors
+chose us for their durability
+reliability and efficiency to eliminate
+the risk of lifetime reduction caused by
+battery over discharge we designed a
+battery cell measurement hot swap and
+shut off system the cell voltages of
+each battery are read using battery
+management IC and in the case or in
+under the discretion of base station
+operators the batteries can be hot swap
+their shut off one included safety
+feature is surge protection implemented
+with fuses and breakers for each voltage
+level branch of Power Distribution a
+fuse or breaker is placed in series in
+case of an emergency
+a stop switch is placed on the outside
+of the rover for immediate and total
+shut off the suspension was designed to
+maximize stability and reliability while
+at the same time remaining within the
+constraints of our budget time frame and
+manufacturing capability
+the rigid frame is constructed using
+square tube aluminium held together by
+bolts and gusset plates the suspension
+is mounted to the chassis at a single
+rotational point at its center of
+gravity this design allows the rover to
+maintain balance while traveling at a 45
+degree slope which is also capable of
+clearing obstacles up to 1.5 times the
+diameter of the wheels in this year's
+updated design we've built upon our
+original geometry adding explicit
+steering and passive damping in
+comparison to our original design this
+updated suspension allows each wheel to
+turn independently of the others
+providing the operator with a variety of
+options for traversing difficult terrain
+the passive damping system utilizes
+spring and dampers between independently
+moving arms to minimize shock to the
+chassis as the vehicle moves we've also
+prioritized the ability to quickly
+disassemble and replace components
+minimizing troubleshooting time and
+allowing subsequent design teams to
+easily swap out parts of the design that
+they want to reuse each test site will
+be analyzed for its ability to sustain
+life the rover will collect a soil
+sample from each site to test for
+organic carbon through the use of 3%
+hydrogen peroxide soil moisture and pH
+data will also be collected along with
+atmospheric data including temperature
+pressure methane content wind speed and
+humidity all the test results would be
+analyzed together in order to make a
+determination of the likelihood of
+whether or not his site will contain
+life this year I work on the robotic arm
+is focused on solving the competition
+tasks the design chosen for the arm is a
+three degree of freedom system
+consisting of a shoulder elbow and wrist
+each driven by its own stepper motor the
+gripper design consists of two pads with
+a rotating rest allowing it to operate
+tools and flip switches this design is
+currently being tested in the lab to
+verify that it can lift up to 10
+kilograms retrieve objects and operate
+machinery part of our team is currently
+working on an improved design that
+consists of three linear actuators this
+design is currently being prototype and
+will be an efficient alternative by the
+time of the competition the RCS
+navigation challenge is a difficult
+problem due to the low autonomy scores
+and last year's competition developing a
+robust autonomous navigation system
+became a priority for this year's
+our solution utilizes a dual lidar
+sensor configuration the field lidar
+scans for potential obstacles
+surrounding the rover while the focus
+lidar ensures that the rover is able to
+traverse the terrain along a chosen path
+the collected sensor data is utilized in
+a multi-level path planning system a
+high level occupancy grid based
+algorithm guides the rover to its goal
+while a low level verification system
+validates the suggested path and ensures
+that it is a traversable our tennis-ball
+detection system uses several layers of
+filtering and other computer vision
+techniques in order to accurately target
+tennis balls in a wide variety of
+illumination conditions on-site
+calibration will be used in order to
+fine-tune detection in the desert
+environment

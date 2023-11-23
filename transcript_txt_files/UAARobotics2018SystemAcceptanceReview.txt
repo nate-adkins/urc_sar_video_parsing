@@ -1,0 +1,138 @@
+the University of Alaska Anchorage is
+proud to submit our system acceptance
+review video for consideration by the
+University Rover challenge judges panel
+UA a robotics returned to this challenge
+for its second year with the support of
+many local donors and professional
+organizations special thanks goes out to
+Dean Barlow at her College of
+Engineering the University Technology
+Council BP Alaska Airlines Michael baker
+international the aviation technology
+complex and many more corporate and
+private donors UA a robotics divided
+into teams dedicated to each subsystem
+track the competition requirements and
+develop task lists the design phase of
+this project involved performing FBA on
+mechanical structures optimizing the
+electrical system around competition
+parameters and rapid prototyping with 3d
+printing after parts tools and materials
+were purchased we began the build phase
+working through problems and testing
+systems as they came together chassis
+and suspension designs are centered on
+the extreme retrieval tasks the
+rocker-bogie and four-wheel independent
+suspension systems were developed in
+parallel and are being tested to
+determine the most effective design the
+minimal weight of the chassis and
+suspension relative to the
+high-performance brushless DC hub motors
+gives our rover a low center of gravity
+improving stability over all terrain we
+are also expanding our capabilities by
+building components from carbon fiber
+Sanders composite layouts though much of
+our Rover uses 6061 aluminum chosen for
+its strength to weight ratio and
+durability to environmental changes the
+rover uses a set of 900 megahertz
+Ubiquiti radios to carry multiple video
+streams while maintaining maximum
+propagation through obstacles to five
+DVI dipole antennas are mounted high on
+the rover while the base station has a
+120 degree directional antenna with a 13
+decibel gain five cameras facing various
+directions to give drivers sufficient
+visibility at all times these provide a
+close-up of the end effector and
+wide-angle views of the arm and rover to
+operate and monitor the rover we
+developed a custom base station
+application using QT this application
+provides a graphical user interface to
+display the rover status camera feeds
+and navigation data as well as a
+configurable input system that enables
+operation of the rover using a pad
+controllers streaming over the Rovers on
+or cameras is accomplished through
+GStreamer allowing us to transmit up to
+four simultaneous camera feeds at 480p
+for autonomous navigation we utilize the
+Zed stereoscopic camera in conjunction
+with OpenCV to analyze terrain for
+obstacles and identify waypoint markers
+using terrain data gathered from the
+stereo camera and the Rovers on poor GPS
+we developed a path finding system that
+incorporates obstacle avoidance and
+finding the most efficient path between
+waypoints depth sensing and computer
+vision for object recognition allows the
+rover to effectively find and track a
+tennis-balls proximity with high
+precision the arm design drew
+inspiration from a number of industrial
+sources our shoulder is powered by a
+200-pound linear actuator minimizing any
+moment forces in the upper arm while our
+elbow is powered by a three and a half
+foot pound motor and a thirty two one
+worm gear transmission resulting in
+smooth predictable motion and over a
+hundred foot-pounds of available torque
+this design also allows the forearm to
+be offset from the upper arm to gain a
+full 360 degrees of freedom a machined
+aluminum prototype is undergoing testing
+and refinement before the final design
+is built out of carbon fiber this year's
+end effector utilizes two encoded DC
+motors with the L 12 micro linear
+actuator allowing for a six axis range
+of motion with minimal complexity
+structural components will be made of
+CNC mill 6061 aluminum while the low
+stress members will be composed of 3d
+printed ABS the jaws have a range of two
+and a half inches with precision control
+down to nine hundredths of an inch in a
+clamping force of 13 pounds the jaws
+have been modeled so they may be bolted
+onto the sands attachment this
+attachment will house an auger for Sol
+extraction and containment and two
+probes for the science cache task
+this year's Rover has been designed not
+only for traversal based functionality
+but also for scientific analysis it is
+equipped to take readings of barometric
+pressure temperature and relative soil
+humidity at the sample location by
+rotating a camera above the chassis we
+will take a high-definition panoramic
+shot of the surroundings and a camera
+mounted on the end of the arm we'll
+provide detailed imaging of the direct
+sample site through analysis of the
+stratigraphic profile surrounding the
+sample site we'll be able to deduce
+details about the geologic history of
+the area our off-site science experiment
+suite has been streamlined for
+efficiency to meet the time constraints
+in addition to a pH test chemical dyes
+that react with L
+mental compounds in the soil will test
+for nitrogen phosphorus and potassium
+this concludes our 2018 URC SARC middle
+we appreciate your consideration and
+look forward to seeing you at the Mars
+desert Research Station
+you

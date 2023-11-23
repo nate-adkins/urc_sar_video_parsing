@@ -1,0 +1,142 @@
+[Music]
+hi my name is Alexander Quinn and I am
+the President and Project Lead for Titan
+Rover Titan Rover has been a competitive
+URC Rover design team since 2014 and we
+have been recently recognized by
+Congress we are also a
+multi-disciplinary student-run club
+assisting over 60 students from
+engineering computer science and life
+sciences the previous years Titan Rover
+has designed multiple platforms
+including ion Atlas and calypso I would
+proudly like to introduce this year's
+Rover the Theseus our new space stream
+chassis it was fabricated in partnership
+with the Marines of marine aircraft
+Logistics Squadron 39 of Camp Pendleton
+we are developing a partnership program
+to provide transitioning Marines
+exposure to the engineering and computer
+science fields in order to improve
+outcomes for transitioning Marines
+the Rover sits completely within a 1.2
+meter cube box the platform will weigh
+less than 50 kilograms when deployed for
+any Mission and a total mass of all
+fielded Parts is less than 70 kilograms
+there is a red kill switch installed for
+use case of immersion this year we chose
+to implement the rocker bogey design for
+a new suspension system we used a
+separate mounting hub for the bogey arms
+to ensure bogey has a larger freedom of
+rotation to overcome rocks or obstacles
+while traffic the outstanding benefits
+for rocker bogey suspension includes the
+ability to undergo a 60 degree tilt
+while driving over rough terrain due to
+the unique challenges posed by a Mars
+mission this year we evolved to
+non-pneumatic tires which can withstand
+punctures and operate for long periods
+of time without maintenance where the
+middle tires consists of a straight line
+spoke design with a non-directional
+block tread the auto tires consist of a
+diagonal line spoke design with
+directional block tread to assist in the
+tank steering by pushing Terrain in a
+favorite Direction the robotic arm uses
+two linear actuator used to provide our
+primary means for translational movement
+and has the added benefit of having an
+efficient power to weight ratio
+custom-made Hollow carbon fiber tubes
+have been kept in order to provide high
+strength and to allow for wiring to be
+routed through the linkages in addition
+to carbon fiber five aluminum joints
+have been repurposed from last year's
+design to add strength to the connectors
+for the motors the third link in the arm
+uses an external belt driven system
+which lowers the weight of the overall
+system while providing more lifting
+power our 5 bar adaptive gripper will be
+used for the equipment servicing portion
+of the competition the arms Motors are
+accompanied with feedback sensors
+allowing for the real-time tracking of
+the arm's position within its work
+envelope and enabling inverse kinematic
+control our custom 3D printed 5 bar
+gripper has been iterated from the
+previous years torsion springs have been
+added which increase grip strength
+allowing for a grouper to lift more than
+seven kilograms the wrist cannot rotate
+360 degrees and cameras have been added
+to improved precision and fine motor
+control tasks we'll be using a brand new
+stronger 4 bar gripper for the equipment
+servicing Mission which has over 80
+pounds of output force compared to the
+equipment servicing gripper chemical
+assist will consist of the bra and
+hydrogen peroxide test to detect the
+presence of protein and the Catalyst
+enzyme these will imply the presence or
+absence of molecules that could be an
+indicator for Life the bra test uses
+alkaline reagent composed of potassium
+hydroxide and copper sulfate these will
+react with the presence of peptide bonds
+the hydrogen peroxide test is used to
+detect the presence of the catalase
+enzyme if the catalyst is present the
+hydrogen peroxide will react nearly
+immediately and begin bubbling we are
+using a homemade 473 nanometer Ramen
+spectrometer to complete two Signs of
+Life tasks the first Compares Ramen
+signature of samples to known Ramen
+libraries we are currently looking for
+amino acids keratin and carotenoids
+our second science task we will be
+categorizing the complexity of the Raman
+signature of the soil samples to provide
+a probabilistic range of molecular
+complexity of the soil samples we
+hypothesize the samples with a high
+molecular complexity will also provide a
+more complex form of signal
+this year's control team has developed a
+modular system that can easily deploy
+packages for each Rover platform
+we are utilizing the robotic operating
+system and Docker to manage system
+processes and dependencies
+our system goes through various unit
+tests and integration tests before
+implementing on our platform
+our communication system relies on 2.4
+gigahertz and a 433 megahertz for
+communication that exceeds the one
+kilometer requirements we've replaced
+our old lighter with the z2i stereo
+camera we're using a centimeter accurate
+gnss and have implemented a high
+accuracy Sensor Fusion and common
+filters for our two six degree of
+Freedom High amuse our custom
+pathfinding algorithms fill a hexagonal
+area around a given gnss location using
+proven solutions to spherical packing
+problems we've developed additional
+filters using opencv to extend our rooko
+detection through an experimentally
+validated 20 meters we look forward to
+seeing you in Utah and reminding you
+what it means to be a Titan

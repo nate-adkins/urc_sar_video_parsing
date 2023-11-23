@@ -1,0 +1,133 @@
+and conducting onboard tests for my
+signature identification
+improving upon our previous iterations
+performance we designed this year's
+suspension it consists of a traditional
+six wheel locker boogie system along
+with a four bar linkage mechanism
+connecting both rockers the legs are
+made up of hollow aluminum tubes making
+the design light at around seven kilos
+the current suspension system provides
+better stability on rough surfaces has
+higher obstacle climbing capacity lesser
+wheel pressure and power requirements in
+comparison to our previous four wheel
+titration
+the rover uses skid steering mechanism
+for training traversal which was
+preferred over explicit steering due to
+its smaller turn radius requirement and
+simplicity in its implementation current
+designed a custom-built aluminium wheel
+hub has been made the rim is rolled
+using a sheet metal batting process and
+welded with the hub the wheel is coated
+with rubber sheets with rubber strips
+stuck on the top of that to give
+groovings this improves its traction
+over uneven terrain
+for the robotic arm we have opted for a
+6 degree of freedom assembly regular
+simulations of the arm components were
+done using ansys static structural and
+transient simulation which let us choose
+the best materials keeping in mind the
+rover's weight overall strength and
+durability
+wrist joints and gripper mechanism uses
+rotary actuators for increased precision
+and control along with that we have
+chosen a two-fingered gripper with a
+loose mechanism as they do not require a
+braking system to eliminate the back
+driving
+linear actuators drive the elbow and
+shoulder lengths for increased stability
+and load distribution in this iteration
+the links are hollow cylindrical instead
+of a truss system for an even stress
+distribution throughout the components
+robotic arm equipped with digger claws
+is used to collect the soil sample from
+the ground and transfer it to the
+inclined plane at the other edge of the
+chassis a servo rotates two cubits to
+analyze two soil samples independently
+based on the raman effect the
+spectrometer detects the constituent
+elements of the soil sample using a
+laser along with a combination of
+mirrors and gradients an actuator servo
+operates to drop soil sample and reagent
+on the slide exciting and saffron dye
+tests are performed for analysis a 6
+degrees of freedom stewart platform
+helps to drain excess water and focus
+the image for a microscope
+free biosensors are used to measure
+humidity temperature and methane in the
+surrounding an inclined plane and a
+servo is used to test two samples
+independently a pump transfers water to
+the funnel which is mixed with the
+sample and then distributed to
+microscope and spectrometer in past
+experiences this year the hardware
+subsystem has focused on improving
+system reliability and ensuring easy
+quick and smooth setup of the rover and
+basically
+we have an intel nook as the main
+onboard computer powered by an
+independent power supply to protect it
+from the load related voltage
+fluctuations produced by the robocop
+motor drivers the entire system has been
+schemed out neatly in a closed elec box
+with various connectors to enable easy
+roller setup and a power isolating
+cutter switch
+for the base station we have a simple
+root configured rocket module as a
+master communication node and a logitech
+joystick configured to provide full
+rover drive and arm control
+the ruckus p300 module boasts of a one
+kilometer non-line of sight range which
+has been verified via multiple field
+trials to avoid a complete communication
+blackout we have used a time series
+prediction algorithm to predict signal
+strength based on ruckus rssi values
+clearly autonomous and image processing
+subdivision have focused on achieving
+the assigned tasks by the use of ar tag
+detection algorithm integrated with
+level 3 autonomy for the traversal of
+room
+the stereo depth cam intel real sense is
+mounted on the rover to give us the imu
+data in point cloud format the camera
+feed obtain is used to detect ar tags
+using image thresholding and contour
+detection the path planning algorithm
+has a global planner that uses the
+algorithm and the local planner that
+uses dwa both the planners have an
+occupancy grid created by the
+cartographer which also maps the rover
+environment making it a robust slam
+algorithm
+the rover traverses at the given gps
+coordinates autonomously it then detects
+any ar post nearby this puts the lidar
+in action to verify the exact location
+of the coordinates to move into it
+flashes green on passing through the
+post for indicating a successful
+upcoming month we plan on defining our
+design based on the results of our
+finished question
+and this we conclude the submission for
+usc 2022

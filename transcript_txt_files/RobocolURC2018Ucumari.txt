@@ -1,0 +1,107 @@
+hello hundred students of diversity our
+service and this roll call is a multi
+supply team here isn't a Jew 2011 as a
+student with an initiative with a grand
+total of 25 affleck active members
+consisting of mechanical electrical
+engineers as well as a team of
+biologists and scientists based on the
+tested research carried out by previous
+and active members throughout the year
+the Chimera Mars program relies on a
+rocker-bogie traction system with the
+smart chassis the operational systems
+and control devices can be evenly
+distributed as to maintain the rubriz
+overall center of gravity as close to
+his midpoint as possible keeping this in
+mind the complete frame non linkage
+components and non specific operational
+systems have all been designed in
+aluminum due to its lightweight cheap
+costs mark available availability reduce
+oxidation physical properties and
+availability aluminum is the best option
+for a project of this scale also the
+previous Bart differential system has
+been replaced with a new spring held
+contraption that allows Liberty and
+rover movement and stress relief when
+subjected to minor bumps or false
+Pokemon interacts with the world using a
+serial manipulator with six recibir it
+is saturated by five stepper motors and
+1 DC linear actuator the stepper motors
+have single or dual stage velocity
+reduction depending on the necessary
+work of the joint the wrist has a couple
+kinematics for position and rotation
+interchangeable end effectors for the
+different tasks safer the rotary base
+the arm is detachable lowering the
+center of gravity of the Robert rampion
+to almost reversal tests where salary is
+partner your see eternity electronically
+decide to back up the different systems
+in order to carry through the promise
+that may appear at the competition
+at the Central Command in the world
+harassed by three was selected to a
+decimal coordinator the raspberry
+receives information from the base
+station deciding internal instructions
+to the rest of the world it also gives
+us the possibility to process images in
+the robber traded time the base station
+allowing us to send less information to
+the base on the other hand we are using
+open MP commands 7 this camera has a me
+controller on board with bronze and
+Python language being capable of
+crossing images
+on it the Raspberry Pi is also in charge
+of equality GPS data send it to the base
+station via Wi-Fi and using the data
+from the autonomy test in order to reach
+the specific target traction when Utah
+was essential to design a possible a
+scenario for the specific terrain we
+will work in the difficulties variable
+face image of the task in particular the
+autonomous navigation it was decided to
+keep the dish individual motor working
+separately
+this allowed us to send a battalion
+parameters and the rich for the data
+query or decoders a 24 voltage DC with
+very unfair our variables to provide
+appropriate correct word each month we
+have an additional buffer which allows
+us to charge a battery in the common
+station while the role is being used in
+Ithaca
+and tennis worth taking clinical to
+chamber to be tested this was done to
+measure the vibration pattern assuring
+the communication between the control
+base and the rubber the antennas work at
+2.45 gigahertz and five gigahertz this
+gives us the possibility to change the
+frequency depending on the distance from
+the rubber and interference on those
+frequencies hi my name is qu yang we are
+part of the five members from the
+science team of rocket our duty is to
+identify features from the rock samples
+collected by the rover first of all we
+need to determine the soil humidity its
+subservice temperature and the
+conductivity of the sample which are the
+minimum requirements of the university
+of alberta furthermore we'll search for
+other attributes such as mineralogy or
+by indicators which will allow us to
+compute where there are suitable
+conditions for life to be supported or
+developed
+you

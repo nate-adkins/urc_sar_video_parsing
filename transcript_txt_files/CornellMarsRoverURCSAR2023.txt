@@ -1,0 +1,153 @@
+[Music]
+Cornell Mars Rover has worked tirelessly
+over the last seven months to design and
+manufacture our URC ready Rover and we
+are excited to unveil Atlas for the 2023
+competition we have focused on improving
+last year's weaknesses inspiring a
+complete redesign of two subsystems we
+split the Academic Year into a fall
+design phase a winter manufacturing
+phase and a spring testing phase during
+this last phase our six sub teams test
+and make final changes to the Rover to
+prepare for URC
+the arm sub team is responsible for
+building and designing the Rover's
+robotic arm the drive sub team oversees
+the Rover suspension Wheels frame and
+electronics Housing Development the
+electrical sub team developed the
+hardware required to communicate with
+the Rover and power onboard actuators
+and sensors the software sub team
+handles Rover controls path planning
+user interfaces and computer vision the
+astrobiological technology sub team is
+responsible for on-board soil delivery
+and Analysis for the life detection task
+and finally the business of Team manages
+finances web and presentation design and
+Outreach to sponsors and the public
+the arm sub team has focused on testing
+and modifying previous designs primarily
+aiming to improve control and visibility
+absolute Rotary encoders will be
+implemented in each joint to provide
+precise position information for inverse
+kinematics this year the arm uses a
+combination of cycloidal and strain wave
+gearing at the joints two new cameras
+have been added to assist the arm the
+first is the extendo cam which is
+mounted on the side of the frame
+controlled by servos a pan tilt camera
+provides perspective when performing
+tasks
+the second camera is attached directly
+to the parallel end effector coupled
+with a point laser it provides close-up
+views when interacting with the
+environment this year the drive
+subsystem has undergone a redesign to
+better fit the streamlining of our
+suspension system that occurred last
+year
+our 3D printed wheels are lighter and
+more reliable The increased rigidity of
+the tire enables the suspension to
+perform better on slope terrain the
+treads on the four corner wheels are
+tangent to the Rover's turning radius
+allowing for easier Point turning
+the rubber frames footprint is smaller
+in the center of mass of the river has
+been shifted on top of the rocker bogey
+pivot which further increases climb
+performance
+our e-core is smaller than last year but
+now holds over double the number of
+boards
+all the boards Mount to a modular
+removable rack
+the electrical sub team has created a
+variety of pcbs to control all the
+rubber actuators and sensors
+if upgraded our system to use stm32
+microcontrollers allowing for faster
+firmware development we use micros to
+interface with our Software System to
+improve communication reliability
+or upgraded power distribution system
+includes current sensing that allows for
+us to record and understand the rubber's
+power consumption from our 25.9 volt
+battery
+we use 900 megahertz and 5 gigahertz
+transceivers in order to accurately send
+and receive data from our base station
+which can be over two kilometers away
+hard to rebuild the software stack as we
+switch from rocks 1 to Ross 2. this
+change brought many design improvements
+to every subsystem
+to communicate with the electrical sub
+team we leverage drost2 control to
+implement a hardware abstraction layer
+which improved motor precision and code
+maintainability
+our autonomy system is now built on the
+roster navigation stack and we
+re-implemented our search algorithm with
+a behavior treaty which is easier to
+tune
+we are still using inverse kinematics to
+control the arm however this year we
+developed a computer vision algorithm to
+automate parts of the equipment service
+information and perform it faster than
+before
+on the mechanical side we collect soil
+with multiple Scoops to reduce
+cross-contamination we mix the soil with
+a buffer using magnetic stir bars then
+we pump the solution into our analysis
+chamber to analyze the sample with
+spectroscopy
+to detect life and soil we use a
+fluorophore and a fluorometer to measure
+the concentration of cells in the soil
+quantitatively using a variety of
+simulated desert soils which we
+sterilize in an autoclave or inoculate
+with different concentrations of
+bacteria we can test the ability of our
+life detection assay we have a
+collection of assays that can detect
+molecules in the soil like calcium
+carbonate nitrogen phosphorus and more
+as well as other indicators of life
+with a focus on reliability we have a
+rigorous testing plan we divided the
+entire team into four task teams one for
+each URC Mission each task team lead
+develops and executes an incremental
+testing strategy testing different tasks
+within each Mission our testing sessions
+have also enabled us to cross-train team
+members for operations and Rapid Repairs
+of the Rover with many systems being
+modular task teams can test slightly
+different designs to evaluate
+functionality these distinct task teams
+have already started to strategize for
+each task verify reliability and prepare
+us for our two mock competitions where
+the URC missions are completed in a
+single day these allow the competition
+team to practice under time constraining
+conditions to fully prepare for the
+trials of the University Rover challenge
+Atlas and the rest of the team are just
+about ready for competition and we hope
+to see you in Utah

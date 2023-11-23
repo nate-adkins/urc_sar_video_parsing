@@ -1,0 +1,139 @@
+we are Wisconsin robotics
+this is our 2019 rover horizon horizon
+has been designed with a conscious
+effort to optimize performance and power
+usage and motor control while retaining
+previously successful features our drive
+system uses a rocker-bogie design with
+adjustable ride height to allow the
+rover to adapt to any terrain at my face
+this allows the rover to adjust its
+ground clearance for hazardous terrain
+as well as lower center of gravity to
+traverse steep slopes this year we have
+decided to revamp the differential by
+making it perpendicular to the chassis
+our returning wheel design features in
+mule motors driving a kepler tire
+supported by aluminum spokes this design
+is extremely durable and features a
+rubber grouser pattern that enables our
+Rover to maintain traction at all times
+the chassis team has iterated on the
+embedded system used on our previous
+Rover
+focusing on improving reliability and
+adding more complex features the team
+design market controller on board uses
+free yard toss a real-time operating
+system for a dead Hardware for
+controlling Rover hardware and sensors
+for motor control we're using basic
+micro Robo claw motor controllers which
+offer a number of features such as
+built-in PID control for velocity and
+position for long distance communication
+we're using two commercial radio systems
+2.4 gigahertz and 900 megahertz both
+proven to meet the harsh requirements of
+URC the design of horizon six degree of
+freedom arm focuses on maximizing the
+system's precision and minimizing the
+difficulty of operator control to
+accomplish this an inverse kinematics
+software solution with the assistance of
+open rave has been implemented
+abstracting the control of individual
+joints away from the operator in order
+to achieve this type of precision
+electromechanical II the arm uses
+various gear and belt drive supported by
+absolute position feedback with an
+emphasis on efficient motor placement
+and power usage with a clamp style
+manipulator made compact using a worm
+gear drive the arm is more than capable
+of deft accurate manipulate
+the grips is elastomer material is
+compressible so that it will securely
+grasp items of various shapes the wrist
+is able to rotate 180 degrees and we are
+prototyping systems to attach the
+opposite face for specific tasks such as
+the screwdriver to find evidence for
+life each side we will be using a
+two-part system for retrieval and Rock
+analysis our soil collection - involves
+a marker that will be driven into the
+soils using a linear actuator to
+transport oil internalizes tool where
+we'll be attempting to perform a series
+of chemical tests to detect organic
+compound and nutrients that are
+necessary for microbial life for our
+samples we'll be using a microscopic
+imager which provides up to 375 times
+magnification to study their texture and
+coloration we're also experimenting with
+implementing a Raman spectroscopy to
+detect organic compound into rock
+samples which will greatly simplify our
+system while providing detailed
+information we have built a prototype
+and are currently working on to retrieve
+meaningful data from it before
+integrating that into their Rover this
+year the software team decided to
+evaluate and redesign the structure of
+our underlying code using Ross in order
+to improve organization and readability
+we improved our software architecture
+structuring our code based on definitive
+features of the physical Rover because
+of the existing code modularity the
+drive system can pull information from
+multiple sources this includes and
+enables at all times
+driver commands through joysticks or
+autonomous navigation assisted by GPS
+coordinates from an IMU
+this modularity carries over to all
+subsystems of the rover with in the
+autonomous logic we have designed an
+algorithm that searches camera feeds for
+objects that resemble the roundness and
+you of a tennis ball using this
+information we can not only detect goals
+during the autonomy task but also
+provide important feedback and visuals
+to drivers during many of the challenges
+in the cop
+specifically during the autonomous
+navigation task we make use of a Zed
+stereo camera and light our sensor to
+provide detailed information about the
+surrounding area
+utilizing point clouds from the Zed we
+can separate obstacles from the ground
+plane and identify how best to avoid
+them
+additionally the utilization of the
+lidar pointed at an angle allows us to
+detect cliff edges and avoid unexpected
+Falls the processing of this data as
+well as any other onboard logic
+processing is done using an Nvidia
+Jetson tx2 we're taking various
+approaches to simulate our help tests
+for the competition examples include a
+mock surfacing lander and a programmable
+I robot platform this platform allows us
+to test and refine all evasion
+recognition and obstacle avoidance code
+for implementation on the rover we are
+excited to attend the 2019 University
+Rover challenge with our already
+competitive Rover over the upcoming
+months we'll be improving in iterating
+upon our design to ensure complete
+mission success

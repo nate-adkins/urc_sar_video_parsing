@@ -1,0 +1,111 @@
+[Music]
+oddish
+underrated Electrical and Electronics
+Engineering in strength and we also have
+constant from Department of Computer
+Engineering and one is trained from
+development of computer science and
+engineering together we have found it in
+that case the hopes and dreams of
+thousands of displaced from our
+university our domestics mechanical
+universe led by a shorter for electrical
+and software team members under me and
+for sciences q member and asada Musa
+Dagh maybe revert if you have been
+privileged to be a part of university
+over the past three years as we did in
+this images are instant almost adaptive
+and modifying their over design with
+some of the expense that the competition
+site the rocker design has evolved in
+every year I personally am grateful for
+this rich and complex engineering
+experience in my life
+they are they embarked on this huge
+journey with an outreach program for
+high school students on robotics and you
+are see this event marked startup our
+technical operations from the rover
+design on SolidWorks to the members of
+the mechanical team acquiring materials
+and components building and assembling
+the rover body the design schematic on
+SolidWorks was construct
+to select a modified rocker-bogie type
+as the final Rover design
+the simulated outcomes were tested
+multiple times with regards to speed and
+stability provided by the rover
+structure the rover's tolerance and
+response to rough terrains has provided
+incredible results which highlights its
+capabilities for extreme terrain
+traversing the body of the rover
+exhibits a sturdy build with its
+lightweight aluminum base paired with a
+proper center of gravity which is closer
+to the ground in order to prevent the
+rover from toppling the body houses all
+its electrical circuitry in a
+transparent compartment the setup is
+designed so that the battery and the
+power distribution boards are protected
+from overeating by separating them into
+two layers inside the compartment with
+heat proof fire resistant materials the
+rocker-bogie suspension system uses six
+legs which maintains contact with the
+ground at all times during rover
+movement followed by the traction from
+wheels which allows for the rover to
+manipulate through steep inclines on
+rocky and sandy surfaces the testing
+also challenged the rover's ability to
+climb and tilt adapt shocks and bumps on
+uneven ground while maintaining its
+momentum as demonstrated the rover has
+been able to maneuver over and around
+increasingly rough terrains maintaining
+its axis of movement
+[Music]
+you
+[Music]
+the design of the arm of the rover
+allows for six degrees of maneuvering
+space while the wrist is capable of 180
+degrees of rotation the wrist paired
+with the gripper can lift up to about 8
+kgs of load to prepare the arm wrist and
+gripper for the extreme retrieval and
+delivery and equipment servicing tasks
+the flexibility and response of each
+components were put to test by letting
+the rover perform tasks such as fetching
+tools and placing them on a surface
+turning valves and knobs lifting weights
+operating switchboard and opening doors
+[Music]
+the software system onboard the rover
+uses PI as the main server to receive
+commands and send continuous video
+feedback to the base station for
+autonomous traversal the rover is able
+to read GPS coordinates as input and
+processes images and color to navigate
+this year science plan uses temperature
+moisture UV and gas sensors in order to
+conduct onboard analyzes of soil the
+sensors take analog readings directly
+from the soil and passes it to the
+communication system on the rover which
+is transmitted to the base station where
+the data is collected
+after the infusion of the soil heating
+system the relevant tests for detecting
+microbial activity were performed which
+included detection of organic matter in
+soil pH levels of NPK and sulfur with
+the help of a portable spectrophotometer
+[Music]
+you

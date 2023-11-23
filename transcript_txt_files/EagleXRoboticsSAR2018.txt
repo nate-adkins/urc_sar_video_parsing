@@ -1,0 +1,114 @@
+[Music]
+hi my name is Amelia and I'm Lewis and
+we proudly present you our Robert T
+tracks pig tracks consists of a six
+wheel Mars rover with a six degrees of
+freedom manipulator that makes possible
+to deliver a wide variety of objects
+perform equipment servicing tasks and to
+carry out scientific procedures besides
+a strong perception system for
+autonomous navigation t-tracks consists
+on a modified rocker boogie system that
+allows for stable traversal across rough
+terrain without damaging the rover the
+rocker system was divided into two
+individual suspensions with shock
+absorbers to distribute impact more
+effectively in comparison to our
+previous Rover
+[Music]
+they will perform successfully on loose
+soil uneven terrain smooth floors and
+rocky obstacles due to our new wheel
+design that consists of an aluminum and
+rubber tire that increases the contact
+surface and the traction on the terrain
+using the six degrees of freedom of the
+robotic arm the rover can efficiently
+pick up and maneuver a variety of tools
+up to five kilograms in weight if
+necessary the rover can also carry
+multiple objects by placing them on its
+back plus an additional one on the
+end-effector the rover architecture is
+based on a state machine implemented on
+a teensy 3.5 microcontroller it
+communicates to the base station through
+gonna throw net adapter we have tested
+the antennas and obtained perfect
+communication of tradition of 600 metres
+we are currently using Ross to parse all
+Roberts geometry the end effector has
+three degrees of freedom that
+successfully complete all the operations
+stated for the equipment services desk
+[Music]
+the robotic arm can rotate 360 degrees
+and extends to 85 centimeters making the
+moments very simple for complex
+operations such as lifting a catch a
+sample and connecting disconnecting
+power molex connectors in the following
+weeks different designs of wrapping
+tools will be tested to optimise DNF
+factor at the end there is going to be
+implemented and a specific end effector
+for the delivery task and order for the
+equipment
+servicing tasks
+[Music]
+with the interface which lost a roller
+part in real time which way leather use
+for autonomous tasks I tried the
+interface is a reference followed by it
+consists of fire seller meters which tag
+the position and purchases and the
+suspension of anymore the panoramic
+image is obtained by ultimate icing a
+rotational IT camera
+the result is filtered and using
+attendant wall as a reference scale line
+is created to represent the proportion
+in the image the north is represented
+with the data from the magnetometer
+finally a PID controller is implemented
+for each wheel using the encoders as
+feedback lists ensure that when the
+rubber receives a trajectory with a
+specific angular and linear velocity it
+can maintain that path in that enormous
+tax we use a set camera to do the
+simultaneous location and 3d mapping the
+data obtained is processed by Ross
+running in a Jetson tx2 port based on
+the size of the rocks and texture of the
+terrain we obtain a popsicle map a
+navigation tool then interprets a muppet
+area and camera input to plant the best
+path using algorithms like destra to
+travel to the ten GPS and tennis ball
+markets using the objects color and form
+a vision algorithm filters the image to
+identify the technical then using the
+amount of pixels of it the position and
+distance with respect to the rubber is
+obtained are represented in a trading
+model in RVs in order to collect the
+sample releasing a set of instruments
+that can be alternated between a drill a
+temperature and humidity sensor and a
+sample collector that can store and seal
+a sample of soil without danger of
+contamination afterwards
+various tests will be performed to the
+returned sample these experiments
+include pH and humidity measurements as
+well as
+of elements of importance such as carbon
+and calcium a last detection of ATP via
+bioluminescence reaction will be carried
+out to detect the molecule hence the
+person's of life
+[Music]
+you

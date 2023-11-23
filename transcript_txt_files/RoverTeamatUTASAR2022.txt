@@ -1,0 +1,94 @@
+[Music]
+so
+[Music]
+hello
+we are the rover team at the university
+of texas at arlington and we are excited
+to unveil this year's 2022 rover
+this year we've added a degree of
+freedom to the arm to make the arm six
+degrees of freedom in total
+this helps us with flying deeper
+movements the arms joints use worm gears
+to make the joints non-back drivable and
+to reduce backlash
+new joint designs increase the arm's
+lifting capacity to 10 kilograms
+one of the new joints is additively
+manufactured using hp's multi-jet fusion
+process
+the rover arm is manipulated using
+operation space controller that uses the
+computer torque method to control a
+system in a cartesian space matlab
+simulation and animation were performed
+to validate the controller
+for this year's gripper design we
+decided to control it with a joystick
+and also include an absolute encoder to
+track our yaw movement to the claw we
+designed to be able to flip switches and
+push buttons open the door and we also
+have a solenoid and it's in a motor
+embedded that will be able to type in
+the keyboard and tighten the bolt so we
+have a motor for the screwdriver and the
+solenoid acting as a digit
+this year we're recycling our previous
+year's design this is a 4-wheel
+suspension spot off of a traditional
+rocker boogie we use 3d printing to get
+custom wheels and tires that fit our
+needs with the use of nylon tpu we think
+we found a pretty great combination of
+materials that allow us to get
+everything we need out of them and
+finally we're using a paddle wheel style
+tread on the tires this enables us to
+have a lot of control and a high level
+of grip on a variety of surfaces
+the computer driving our rover is a
+jetson tx2 which handles our code
+execution and manages the various
+microcontrollers for all systems on the
+robot
+it is controlled remotely from a base
+station hooked up to a ubiquity rocket
+m2 wifi antenna with the range and power
+to control the rover over long distances
+needed for the competition the wi-fi
+antenna sets up a private network with
+the jetson and handles commands and
+camera streaming during remote operation
+tasks
+autonomous vision is handled by the
+jetson via a zed cam stereo camera
+it has a known fixed length between
+lenses to allow for range finding and
+has native support for point clouds for
+obstacle avoidance and native support
+for qr codes used in ar tag navigation
+tasks
+we are developing a proof-of-life module
+for the science mission that tests a
+soil sample for either extinct or extent
+life
+the module consists of three subsystems
+a drilling system that can dig the soil
+a vacuum system for collecting the soil
+and a sample testing system where the
+accumulated soil is stored in a beaker
+and tested
+we'll be using the protein test and
+lipid test to detect proof of life
+the presence of life in a soil sample
+can be confirmed if there are traces of
+proteins and lipids within the soil
+sample
+the reaction in the transparent
+container will produce a distinctive
+color change which will be captured by
+the mounting camera on the device and
+it'll detect the presence or absence of
+past or present life
+you

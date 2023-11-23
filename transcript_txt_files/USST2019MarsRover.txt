@@ -1,0 +1,96 @@
+hi I'm Daniel Franco I'm the project
+manager for the Mars rover the
+University of Saskatchewan space design
+team is a group of students focused on
+space related projects I'm pleased to
+introduce our 2019 Mars rover for the
+University Rover challenge the USS T has
+about 1500 members splinted three sub
+teams our electrical enclosure is built
+into the rover with the Kevlar lid and
+carbon fiber side panels to protect the
+electronics from the elements such as
+dirt kicked up from the wheels and from
+moisture in the surrounding air all of
+our electrical team members are skilled
+in soldering and constructing the many
+cables and connectors needed for our
+various electrical systems as well we
+also create and design our own printed
+circuit boards by using software such as
+CAI CAD or Eagle for development we have
+two antennas for a rover one running at
+5.8 gigahertz and another at 900
+megahertz for distances of over one
+kilometer for competition and propelling
+our Rover forward our six powerful Maxon
+motors for individual control in each
+wheel by using to wide-angle cameras
+placed back-to-back and an oculus rift
+we are able to see 360 degrees around
+our Rover
+and by using their powerful Nvidia
+Jetson computer custom obstacle
+avoidance software and a Zedd
+stereoscopic camera our Rover can
+autonomously traverse and reach
+waypoints via our swift navigation
+system we use an open-source software
+called open MV for tennis ball
+recognition and our custom-built web UI
+will provide us with easy access to
+important information while in the field
+the arm this year was redesigned while
+relying on some of the concepts we had
+proven with last year's design the arm
+features custom cycloidal gear boxes
+that allow for custom gear reductions to
+meet the torque requirements required
+for lifting a seven kilogram payload it
+is constructed of custom 3d printed
+parts that we design and print in-house
+as well as machined aluminum and carbon
+fiber pieces
+[Music]
+the soft fingers of the gripper will
+allow for maximum grip and full control
+for fine manipulation the grippers wrist
+can also continuously rotate so actions
+such as using a screwdriver are possible
+to do with this year's arm
+the chassis of the rover is built from
+carbon fiber tubes and a Kevlar skid
+plate to protect the rover from impact
+from below our team has become very
+skilled in fabricating our own custom
+carbon fiber pieces for our suspension
+system and various other parts these
+carbon fiber pieces make our Rover light
+yet very strong and resilient to impacts
+[Music]
+for the wheels we use a custom
+polyurethane tread inlaid with carbon
+fibre and Kevlar to maintain the tread
+shape these wheels can climb Hills the
+60-degree slope and also act as shock
+absorbers with our triple bogie
+suspension system our Rover is able to
+tackle just about any terrain we throw
+ad
+[Music]
+our drill has been redesigned from the
+ground up using a two-stage lead screw
+driven design to ensure penetration of
+PAC soils up to a depth of 3 inches the
+hardened steel sleeve ensures that rocks
+will not damage it and our sleeve an
+auger will pull dirt into the cache
+system to be analyzed by our Institute
+science experiment our experiment for
+this rover design consists of an
+infrared reflectance spectroscopy system
+we use a laser diode at 1550 nanometers
+and by measuring the light that's
+readmitted by our sample we can check
+for signs of life in the soil
+thanks

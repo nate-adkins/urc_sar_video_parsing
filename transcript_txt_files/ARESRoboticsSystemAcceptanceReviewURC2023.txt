@@ -1,0 +1,133 @@
+Greetings from Team Ares robotics we are a group 
+of 25 undergraduate students from Netaji Subhas  
+University of Technology and we are proud to 
+present our Rover Chandrashekhar.   
+Mechanical: The mechanical team is responsible for designing, fabricating and assembling various components of  
+the rover to ensure a lightweight durable structure we use aluminum 6063 T6 for  
+every structural component we have installed a 
+customized double rocker suspension system with  
+four wheels that provides optimal stability and 
+extreme traversal capabilities ensuring maximum  
+contact. The rover's chassis features an ultimate 
+stability provider differential bar that offers  
+High ground clearance and minimizes the risk 
+of toppling. Additionally, we use polyurethane  
+balloon tires these tires have a cushioning effect 
+and a skid steering design that provides Superior  
+movability on rough terrain. The five degrees 
+of freedom articulated manipulator is fabricated  
+using laser-cut aluminum linkages it features two 
+actuators and DC motors with encoders implemented  
+with inverse kinematics, it thus provides a higher 
+dexterity and can lift a payload of up to 5 kg.  
+The end effector comprises a lead screw-based 
+gripper for pitch role and gripping action that  
+provides precision and versatility. A Nema 23 
+stepper motor is used for a base rotation that  
+provides 360-degree rotation with the robotic 
+arm. For the extreme retrieval and delivery task  
+GNSS coordinates will be entered into the GUI 
+followed by the ROS2 system starting a course  
+using a global planner to the location, the local planner will make smaller trajectory adjustments  
+for object avoidance thereafter with the help of 
+our arm's gripper, we can collect and deliver the  
+object to the specified location. Electronics: 
+Here we present to you our electronic system  
+which has been designed with a modular approach 
+our system has been divided into six subsystems  
+namely propulsion, Arm Control, science control, 
+main Processing Unit EPS and communication by  
+dividing the system into separate subsystems 
+and placing them into individual boxes we  
+have made debugging and connections easier and 
+faster assembly possible. To drive all of our  
+subsystems we have opted for a high-performance 
+CPU Jetson Xavier which allows us to integrate  
+all the subsystems effectively and ensures Optimal 
+Performance. the 26 V lithium-ion battery is the  
+power source that drives heavy loads whereas the 
+secondary battery is used in the electronic system  
+to ensure that the power supply is reliable and 
+consistent 11 AWG wires have been used to carry  
+high current operations this help us prevent 
+any chances of heating and damage to the system.  
+To ensure smooth and reliable transmission 
+between the Rover and the control station  
+we have equipped it with both the 5.8 GHz 
+TP-link CPE and the 2.4 GHz Binatone CPE,  
+the Binatone CPE with its 12 DBI omnidirectional 
+antenna is the perfect choice for transmitting  
+command signals with remarkable accuracy 
+and speed with a range that extends up to  
+2.4 kilometers we can remotely control the Rover 
+with ease even in the most challenging terrains,  
+to receive real-time video data from the Rover we 
+are utilizing the 5.8 GHz TP-link CPE this system  
+boasts a large bandwidth allowing for seamless and 
+faster communication and streaming. The Rover is  
+also equipped with the kill switch which when 
+triggered will turn off the propulsion system  
+however, the communication system will remain 
+operational. Science: The objective of the science  
+and research team is to focus on the detection of 
+extinct, extant, and no life and to drive it once  
+in the field of human space exploration. To detect 
+the presence of life on mars, we have employed  
+four different biochemical tests on our onboard 
+life detection system which are schiff's test,  
+Sudan 4 test, Molisch test and Bradford test these 
+tests gives us information about the presence  
+of proteins, lipids, carbohydrates which are 
+essential biomarkers of extraterrestrial life. To  
+collect and transport the soil samples we take the help of a science sampling system that comprises  
+of an auger-based drill for loosening the soil 
+which is then transferred to the blender with the  
+help of a blower and a vacuum system thereafter 
+a slurry solution is created in the blender which  
+is then transferred to the test tubes and cuvettes 
+for Chemical Testing. For a more detailed analysis  
+of the samples science team is working to create 
+a custom UV visible spectrophotometer and have  
+created a custom visible spectrophotometer 
+which is powered by a high-voltage Supply  
+and we have tested the spectrum of a warm white 
+LED with the help of it. Along with this a rock  
+sample is collected and transferred to a 
+container attached to a chassis so that  
+it can be brought back to the base station for 
+further testing. To study the various parameters  
+of planetary habitability, we have integrated our 
+Rover with several soil and gas sensors to study  
+the subsurface and atmospheric properties, for this 
+we have Incorporated our Rover with ph, methane,  
+ammonia, moisture, temperature, and atmospheric 
+pressure sensors. To study the distribution of  
+rocks and minerals on mars we have trained data 
+sets of different Rock samples to predict the  
+properties of an unknown sample and to study the 
+pattern of biosignatures with the help of a CNN  
+model for this we have integrated our Rover with 
+a microscope which provides us with the images  
+of the Rock samples. Software: The GUI shows 
+sensor and video data and allows teleoperation  
+and autonomous mode toggling always providing 
+more detail on course maps and trajectories. The  
+Rover uses a ROS2 localization pipeline that 
+estimates its position and orientation using  
+sensor data from an Intel real sense camera for 
+RGB-D data and an IMU for orientation data. The  
+pipeline generates a hypothesis for the Rover's position and orientation using a particle filter or algorithm which are  
+updated using sensor data, the navigation stack 
+then uses the estimated position and orientation  
+information to plan paths and avoid obstacles 
+the global planner generates a path that avoids  
+obstacles by taking into account the rover's 
+constraints and environment's characteristics  
+while the local planner executes the plan 
+in real-time using the Rover sensors to  
+track its position and adjust the trajectory if 
+necessary. We have used the augmented reality  
+library aruco for pose and gate detection which 
+enables us to locate and identify markers in  
+the global route so that the path-planning 
+algorithm can output commands accordingly.

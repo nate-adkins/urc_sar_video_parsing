@@ -1,0 +1,137 @@
+hello my name is shelby tolt and i am
+the team lead of astra a space hardware
+club project presenting our first entry
+to urc as a team of 21 students we are
+proud to present our 2022 rover and the
+culmination of two years of hard work
+our rover's power is provided by two
+lithium polymer batteries with power
+able to be immediately disconnected by
+pulling a clearly marked disconnection
+key the rover's main computer is an
+nvidia jetson xavier nx and a secondary
+pcb uses a teensy 4.1 to handle low
+level functions
+we use ethernet to communicate with
+modules mounted to the rover as well as
+the communication system we use a 2.4
+gigahertz radio for high bandwidth
+transmission and a backup 900 megahertz
+link for dissimilar redundancy
+we have verified communications over a
+range of 500 meters in online of site
+with testing plans to identify operation
+limits
+the ability to manufacture custom parts
+in-house allowed us to create a
+lightweight rocker suspension with
+averaging stabilization that provides
+mobility for traversing difficult
+terrain
+unsprung suspension were identified as
+prime candidates since they provide
+stable and predictable platform for
+robot arm operations on uneven terrain
+compliant wheels 3d printed from
+thermoplastic polyurethane provide shock
+absorption for drops and bumps and allow
+rapid manufacturing
+brushless dc motors with closed loop
+control optimize wheel speed and torque
+via timing belt reduction
+skid steering enables the rover to turn
+in place permitting operation in tight
+quarters the combination of these
+systems allows successful navigation
+across steep slopes rocky terrain and
+loose sand
+five wide angle cameras relay the
+rover's operational picture to the base
+station
+navigation and manipulation feeds are
+presented on base station screens to
+allow for real-time control
+this level of awareness enables rover
+operations beyond line of sight
+the axis robot arm has a composite
+structure of carbon fiber aluminum low
+carbon steel stainless steel and
+titanium
+the lightweight but strong structure
+supports lifting and dragging of loads
+greater than five kilograms
+in order to control the arm we developed
+our own inverse kinematic solver it uses
+the inverse of the arm's jacobian to
+implement resolved rate control which
+has a closed form analytical solution
+and can be easily mapped to controller
+joystick axes
+this offers a significant improvement
+over typical and position inverse
+kinematics allowing intuitive real-time
+operation with a game controller instead
+of a slow plan and execute control
+scheme
+the inverse kinematics can be switched
+between a 3 degree of freedom and 6
+degree of freedom mode on demand
+our arm's 6 axes allow us to effectively
+operate in many orientations and a slip
+ring on the final axis allows continuous
+rotation of our gripper flexible 3d
+printed grip surfaces allow for easy
+manipulation and object retention
+a maximum grasping width of 5.4
+centimeters and the ability to reach
+heights of up to 1.9 meters enables our
+rover to complete every equipment
+servicing task
+our operators are training to
+familiarize themselves with tandem
+operation of the arm and rover base to
+ensure smooth control for the science
+mission our onboard lab uses a vacuum
+with a cyclonic separator to obtain soil
+samples there are three measuring cups
+and funnel sections on the bottom of the
+cyclonic separator one for each expected
+soil site to reduce cross contamination
+the measuring cup converts an imprecise
+amount of collected sample into a
+precise amount by volume the soil is
+added to a cuvette where the onboard lab
+administers a bisenconic acid
+colorimetric test for protein and
+monitors for color changes with a camera
+the presence of protein indicates extant
+life
+we have also developed an absorbent
+spectrometer for identifying chlorophyll
+and a microscope will enable
+identification of miniature fossils in
+the soil for rock samples several
+cameras and a microscope will be used to
+visually identify endolyths hypoliths
+and fossils by evaluating streaks of
+texture and color on the surface of each
+specimen
+autonomous navigation utilizes the
+rover's custom navigation stack to
+target and approach gps waypoints the
+onboard gps provides readings with an
+accuracy of 3 meters meeting competition
+guidelines the rover calculates the
+target heading using the geographic lip
+python package and drives until it
+enters the target zone the z2 depth
+camera will be used to detect obstacles
+in the environment allowing for the
+navigation stack to plan around them
+development is ongoing to detect ar
+attacks in an outdoors environment and
+to use depth camera data to populate a
+local obstacle map
+thank you for your time and we hope to
+see you in utah this summer
+you

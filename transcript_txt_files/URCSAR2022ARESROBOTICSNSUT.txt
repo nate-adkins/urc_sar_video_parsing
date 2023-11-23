@@ -1,0 +1,121 @@
+Greetings from Team Ares Robotics, Our team 
+comprises 80 students from various engineering  
+backgrounds. Despite the challenge caused by 
+COVID 19, we have completely redesigned our  
+previous rover and are proud to present Morpheus. 
+The mechanical team focus to develop a modular lightweight rover with increased robustness and 
+strength.   
+Morpheus is incorporated with a platform frame chassis made up of aluminum 6063 t60 
+gradient square channels to optimize the weight  
+of the rover without compromising on strength. 
+This year we have implemented a four-wheel customized double rocker suspension system 
+that provides optimal stability and extreme  
+traversal capabilities ensuring maximum contact 
+between the wheel and the ground all the time.  
+A bar differential mechanism connects the two 
+lockers which provide ground confirmability,  
+optimal stability, and high mobility allowing 
+Morpheus to climb obstacles up to 0.5 meters  
+and descend at each of 1 meter.  
+The structural and mobility system has been tested through multiple levels with different factors ensuring 
+high strength with extreme traversal capability  
+and impact endurance. The 5 degrees of freedom 
+articulated manipulator fabricated using laser cut  
+aluminum linkages features two actuator and brand 
+DC motors with encoders implemented with inverse  
+kinematics providing high dexterity and can lift 
+a payload up to 6 kg. The end effector comprises a  
+spur gear mechanism and a lead screw-based gripper 
+for patch roll and gripping action that provides  
+precision and versatility. Generative design and 
+topology optimization has been used to design  
+the glove water manipulator. A bomb gear drive 
+provides 360-degree rotation to the robotic arm.  
+We have taken a modular approach by dividing our 
+electronic system into six subsystems placed into  
+separate boxes allowing for easier debugging. 
+A high-performance CPU that is Jetson Xavier is  
+used in order to drive all the subsystems. The 
+connecting ports are integrated with the boxes  
+for easier connections and faster assembly. This 
+year we've implemented a dual battery setup. The  
+26-volt lithium-ion battery powers our propulsion 
+motors,   actuators and pumps while all the sensors,  
+communication systems, and other embedded 
+systems are run on the 16-volt battery.  
+The power connectors are made thick to avoid 
+any heating damage. We used a 5.8 gigahertz  
+tp-link CPE along with a 12 DBI omnidirectional 
+antenna. It allows reliable communication up to  
+500 meters and its huge bandwidth allows for easy 
+video streaming and communication. A V-disparity  
+map-based approach is used to estimate the ground 
+plane. Firstly, a point cloud is generated,  
+and then using the PCL library the surface 
+normal and ground plane estimation is done.  
+We get the obstacles by subtracting the ground 
+plane from the original disparity map, then  
+the obstacle coordinates are triangulated in a 3d 
+point cloud and rather visualize using OpenGL. We  
+use the A-Star algorithm for path planning which 
+uses rover state and dynamic constraints as well  
+we have designed Arduino-driven PCBs which receive 
+data from the sensors. An ITC expander and driver  
+PCBs were also designed to control pumps, walls, and 
+stepper motors. The science up system is involved  
+with the detection of the extinct, extent, and 
+no life. To study the science of life, we perform  
+four different life analyzing tests- Sakaguchi 
+test, Sudan 4 test, Schiff's test, Glucose  
+and protein strip test. The sign sampling system 
+comprises an auger-based drill for loosening the  
+soil, vacuum for its transportation and a blender 
+for slurry formation. Thereafter the chemical  
+tests are performed in the test tube holder which 
+will be analyzed with the help of a color sensor.  
+We have created different data sets of soil 
+and mineral samples and trained CNN models  
+to achieve the task of item extraction 
+for rock textures and biosignatures.  
+The rover is also equipped with a digital 
+microscope which will provide the images  
+to their models. We have integrated several 
+sensors such as PH, methane, ammonia, humidity,  
+moisture, temperature, luminosity, speed to 
+study the subsurface and atmospheric properties  
+as these factors play a critical role in 
+determining planetary habitability.   
+We have implemented the graphical user interface using 
+Electron JS for smoother over control and is  
+being rendered as a local software application 
+required for communication with the rover. It  
+displays important information like motor 
+speeds, camera feeds, and sensor data and  
+provides the option to toggle the autopilot in 
+case manual control is required. 
+The led array lights up to blue indicating manual operation 
+of the rover. A physical relay-based kill switch  
+and an Arduino-based e-switch have been designed 
+for safe operation when triggered the turn-off  
+propulsion system however, the communication 
+system still remains operational. A custom PCB  
+with the help of a Raspberry Pi Pico drives the 
+motors of the robotic arm. All motor drivers were  
+carefully chosen on the basis of the current load 
+requirement. For the autonomous navigation task,  
+we used a stereo IR-based depth module 
+implemented visual-inertial audiometry  
+using continuous slam with depth cameras taking 
+the starting point of the rover as the origin.  
+An extended Kalman filter framework is used to 
+fuse the continuous data consisting of encoder  
+feedback and from the IMU to get the local state 
+of the rover. For post and gate detection, we use  
+the augmented reality library ARUCO which gives 
+us the ability to detect as well as localize the  
+markers in the global path when detected so that 
+the path planning algorithm can generate commands accordingly.
+The business department's role is 
+to increase public outreach, manage sponsorship  
+and organize events. We at ARES robotics would like 
+to thank URC for this opportunity. Thank you.

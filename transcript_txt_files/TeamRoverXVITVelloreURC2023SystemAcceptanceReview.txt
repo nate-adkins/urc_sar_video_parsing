@@ -1,0 +1,133 @@
+greetings from team roverx we're a group of 
+passionate undergraduate students from the  
+Vellore Institute of Technology Building Mars 
+Rover prototypes our team is divided into six  
+departments namely, electrical mechanical Cs 
+and autonomous astrobiology and life sciences  
+management and R&D we are elated to present 
+our system acceptance review for this year's  
+Rover 'Kronos' the mechanical Department focuses 
+on designing manufacturing and assembling core  
+subsystems of the Rover the drive system of the 
+Rover is a double rocker suspension coupled to  
+a modular space frame chassis consisting of 
+v-slot links and aluminum tubes with the aim  
+to improve accessibility and reduce weight the 
+Rover is capable of traversing a wide range of  
+terrain topographies such as Rocky Sandy muddy 
+terrain with steep drops and harsh climbs the  
+ground clearance has been increased to 
+ensure that Rover doesn't collide with  
+obstacles during traversal the double rocker 
+system coupled with a bar differential helps  
+to maintain the center of gravity and Achieve 
+Mobility this configuration maintains proper  
+weight distribution and ensure sufficient 
+ground contact at all times a kill switch  
+onboard the Rover instantly stops all 
+the motion of the Rover ensuring safety  
+for better precision and control during task a 
+completely new robotic arm with six degrees of  
+freedom has been designed and manufactured custom 
+manufactured worm gears at all joints increased  
+stability providing zero backlash with high 
+reduction ratios each joint includes a motor  
+with a high resolution encoded for accurate 
+velocity and position control the end effector  
+uses a worm gear to drive the fingers that are 
+designed to carry out several tasks such as typing  
+on a keyboard with a solenoid added to enable 
+quick and accurate actuation of keys toggling  
+switches plugging a USB stick and picking up loads 
+up to 10 kg with a key installed to fasten screws  
+our computer science team works on the core 
+aspects of Rover's computation communication  
+and control. For communication between the base 
+station and the Rover we use a combination of  
+a sector and omnidirection antenna which 
+has non-line of sight range of 2 kilometer  
+manipulation of the custom robotic arm manual 
+navigation of the Rover and controlling the  
+science of system is achieved by a combination 
+of two game pads we retained our reliable core  
+system and continue working on the autonomous 
+system better feedback and control system we  
+are focusing on each node separately to guarantee 
+the repeatability of each function as of now we  
+have completed the following milestones; creating 
+waypoints and following GPS goals while avoiding  
+obstacles smoothly a square spiral search pattern 
+is used to find and locate ArUco tags and Rover  
+follows transform to autonomously traverse to it 
+successful arrival on a post or gate is marked  
+by a green flashing LED we will continue building 
+the recovery Behavior refining our autonomous  
+navigation and optimizing the software after the 
+SAR the electrical department works towards the  
+Power Electronics drives and control Electronics 
+of the Rover power to the Rovers provided by two  
+24 volt Lithium Polymer batteries with a total run 
+time of about 90 minutes power from the batteries  
+is distributed through a custom power distribution 
+board and a kill switch in combination with the  
+relay is used to kill power in case of emergencies 
+low-level processing motor control loops and their  
+Associated feedback is handled by an stm32 F4 
+microcontroller with code written in embedded C in  
+a task oriented manner a debug port on the Rover 
+uses St's Suite of monitoring software to debug  
+the Rover in real time the science department 
+primarily aims to develop and Implement suitable  
+onboard experiments to determine the presence of 
+extent extent or no life we use an auger and screw  
+conveyer system to collect and distribute soil 
+samples into a wet chemistry lab which caches  
+and analyses the sample with minimal cross 
+contamination reagent-based analysis consists  
+of carefully optimized qualitative tests which 
+detects the presence of important biosignatures  
+in the soil we focus on essential inorganic and 
+organic molecules which will indicate the presence  
+of extinct or external Life by showing positive 
+results in some form of visual indication a  
+custom-made Raman spectrometer is used to perform 
+the accurate compositional analysis of a given  
+rock sample an NPK probe is used to analyze the 
+soil sample for presence of nitrogen phosphorus  
+and potassium which is used to determine the 
+organic content soil quality and its capability  
+to harbour life it also provides us with the soil 
+PH moisture and temperature a digital microscope  
+is used to determine the physical properties 
+of a given sample and aids in the detection of  
+micro fossils and microorganisms that might be 
+present the weather monitoring station onboard  
+the rover is equipped with a suit of sensors that 
+measures the atmospheric composition of various  
+gases of biological significance along with 
+temperature pressure humidity and UV radiation  
+the research and development department focuses 
+on the long-term goals for the various subsystems  
+of the Rover this year we are developing a custom 
+can node for the robotic manipulator to ease the  
+assembly and cabling of various electronics 
+and introduce modularity and assistance for  
+our future Rovers we are designing 3D printed 
+wheels from TPU 95a material with a honeycomb  
+structure lattice optimized for shock absorbance 
+and reduction of weight we are actively working  
+on the unit based approach for noise removal 
+and building the data set for various rocks  
+to optimize the inference of a Spectra obtained 
+from the Raman spectrometer apart from working  
+towards road development the team also believes 
+in inspiring young minds towards space robotics  
+through participating in technological events 
+and conferences despite facing pandemic related  
+setbacks last year and missing out on URC we 
+have spent the past year preparing for this  
+year's competition having gained valuable on-field 
+experience during this year's International Rover  
+challenge the team is now working on optimizing 
+and testing the Rover for the upcoming URC 2023
+thank you

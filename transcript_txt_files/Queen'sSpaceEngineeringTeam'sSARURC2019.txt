@@ -1,0 +1,144 @@
+hello this is the queen space
+engineering teams 2019 systems
+acceptance review submission we are a
+team comprised of purely undergraduate
+students from almost every engineering
+discipline here at Queen's this year we
+have worked hard to dial in our Rover
+from last year while completely
+redesigning certain core Rover systems
+the rover chassis is a differential
+rocker system which allows the runner to
+eastland maneuver over rocks and rough
+terrain the rocker angle of attack is
+kept low which keeps the center of mass
+low to avoid tipping all over control
+code has been completely rewritten and
+runs bras which allows for
+Standardization of the codebase and
+simplification of the integration
+process the arm control code employs PID
+in inverse kinematics which allows the
+arm to track an x and y which is much
+more intuitive to use relative to joint
+by joint control communication system it
+uses a 2.4 gigahertz antenna which gives
+adequate to operation distance with
+range up to a kilometer the basin
+employs in a custom front-end which
+displays driver controls GPS position
+sensor status and rover Diagnostics
+driver sites use multiplex divide
+cameras which allow for many camera
+beats to be used at once this helps with
+the drivers perspective as they interact
+the competition field autonomous
+traversal algorithm uses a GPS and
+compass to drive the rover from one
+point to another for obstacle avoidance
+a lidar distance sensor measures 16
+discrete distances spread of over 45
+degrees horizontally which adjusts the
+distance heading accordingly for the
+machine vision portion of the autonomous
+task we built upon last year's work we
+optimized the color based detection
+algorithm incorporating more detailed
+and robust detection criteria for
+determining the contour of a tennis ball
+these criteria are approximating
+polygonal curves as a measure of
+circularity perimeter length of the
+contour and maximum and minimum contour
+areas this year we have also adapted and
+implemented the open-source
+Yolo v3 object detection algorithm Yolo
+is a trained convolutional neural
+network that generates a bounding box
+around an object that it has been
+trained to recognize it also produces a
+score that signifies the confidence with
+which the net has predicted which type
+of object has been identified and that
+the object is actually contained within
+the bounding box by combining the color
+and neural network detection
+we have a dual confidence detection
+system capable of completing the tasks
+at URC the mechanical team undertook
+multiple design products of the 2019
+year including the complete redesign of
+the wrist and end effector as well as a
+brand new micro reactor subsystem the
+new wrist employs use of a differential
+mechanism to control both to pitch and
+roll at the end effector this combines
+two degrees of freedom into one
+mechanism which reduced overall weight
+as well as internal friction that
+hindered performance last year
+additionally the differential affords
+smoother movement resulting in a higher
+precision and end-effector repeatability
+of roughly 5 millimeters the end
+effector underwent multiple design
+iterations resulting in the use of a
+parallel plate mechanism with customized
+grippers the gripper geometry has been
+optimized to operate in as many possible
+scenarios at URC including opening
+drawers and latches picking up objects
+turning knobs and fasteners and pressing
+buttons the micro reactor features a
+semi-batch system to perform wet
+chemical soil analysis process design
+focused on weight reductions in
+preventing containment loss through
+solvent recovery filters and contactless
+fluid control components such as
+peristaltic pumps and pinch valves
+furthermore the team employed finite
+element analysis and topology
+optimization techniques to reduce weight
+while maximizing the strength and
+performance of various subsystem
+components other projects included
+chassis modifications to improve
+robustness such as a sturdier antenna
+mount and wheel hubs improving
+functionality with easily accessible
+battery compartments and reduce weight
+through redesigned arm mode finally the
+electronic storage box is redesigned to
+improve cooling and increased component
+density the science team has to find a
+light detection in just two Suites and
+tests habitability and biomaterials
+habitability test consists of Institute
+and environmental sensors which will
+indicate what types of life we'd expect
+to see at the sites cameras will be used
+for on-site geological interpretation
+the team has designed a micro reactor
+system for detection of biomaterials in
+soil the micro reactor was iteratively
+optimized taking into consideration the
+electrical mechanical optical and
+fluidic aspects to produce a compact
+low mass and
+we seal design soil will be diluted and
+mixed with a color effect indicator
+before entering a sample cell where a UV
+vis spectrometer will be used to measure
+the concentration of analyte in solution
+tests for organic macromolecules will
+suggest extinct extent or no life
+combining the outcomes of habitability
+and biomaterial will allow the scientist
+on site to predict the extent of life
+i'm each site thank you for watching our
+video
+we'd like to thank our sponsors and
+vista kyouya crota case digi-key
+thorlabs Solid Works and Domino's Pizza
+thank you

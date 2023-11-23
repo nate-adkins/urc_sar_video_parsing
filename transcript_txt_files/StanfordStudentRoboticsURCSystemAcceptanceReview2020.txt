@@ -1,0 +1,138 @@
+[Music]
+Stanford student robotics is proud to
+present our 2020 Rover darf Sandhya's
+iterating from last year's Rover
+Anakin's and Walker we have created darf
+to be sleeker more robust and easier to
+use our team of nine undergraduate
+engineers has been hard at work creating
+Stanford's best Rover to date we believe
+the key to competition success is
+extensive testing and pathological
+conditions and rapid iteration to
+encourage this we have engineered a
+Rover to facilitate frequent convenient
+operation darf can be unpacked from a
+car in minutes and operated without a
+computer camera streams can be viewed on
+any laptop without external hardware
+this allows us to frequently take our
+Rover for walks and adventures
+increasing confidence in our design and
+our ability to operate it powered by six
+hub motors our Rover can drive at over
+20 kilometers per hour and can run for
+an hour on a single charge
+the II stop kills power in case of
+critical functions our custom power
+distribution board prevents issues such
+as mismatched battery voltages and
+subsystem level shorts while watchdog
+timers gracefully handle gaps in
+communication in our modular system each
+Linux node is operated independently
+nodes are powered and connected over
+Ethernet this makes wiring cleaner and
+allows development to happen in parallel
+we have also continued to develop our
+custom communication protocol
+eliminating lingering issues and
+expanding support to facilitate low
+latency communications over ranges
+greater than a kilometer dart this
+outfitted with a 2.4 gigahertz antenna
+which when paired with a directional
+base station performs well even without
+line-of-sight in preparation for the
+extreme retrieval tasks we've made
+crucial improvements to last year's
+design dart sandiest is equipped with
+our novel grasshopper suspension which
+distributes weight away from the lowest
+wheel getting it out of crevices and
+holes this system promotes a gliding
+behavior over both chaotic terrain and
+large obstacles
+we have also worked on improving our
+Rovers treading with a focus on the
+terrain textures present at the MDRS
+such as sand gravel and stone without
+increasing driving vibrations our
+improved camera system allows operators
+to spot well hidden objects without
+sacrificing last year's low latency
+during the autonomy tasks the operator
+utilizes our custom UI to specify
+multiple waypoints and keep out zones
+darfs high-precision GPS and IMU are
+used to follow the path until it reaches
+the final Waypoint and enter search mode
+when the competition marker is seen from
+afar the rover approaches to investigate
+and once a certain has found a correct
+marker it will indicate successful leg
+completion the autonomy system fuses
+data from a range of sources to
+determine if the river is stuck and will
+initiate evasive maneuvers our
+experience and last year's equipment
+servicing tasks demonstrated the
+importance of being able to precisely
+and intuitively control the end effector
+position we are continuing to use our
+competition proven SCARA design now
+focused on improving its implementation
+our z-axis is now driven with the
+redesigned worm gear system allowing for
+increased reliability we have also
+improved the precision of our
+lightweight XY system with the new
+two-stage belting reduction on secondary
+shafts which lessens gearbox backlash
+and allows for better belt tensioning
+without stressing the motors low latency
+chemistry from multiple angles including
+a close-up gripper view and a pen tilt
+overhead read the user with several
+views of the arm this year slimmer
+design allows for easy folding for
+transport which facilitates frequent
+testing women switches on the arm
+allowed to operate without manual
+calibration
+additionally if there are motor on the
+joystick provides the operator with
+force feedback and warns when near
+inverse kinematic singularities this
+year our left detection system centers
+around three primary tests an optical
+microscope for essence microscopy and
+chemical test strips our optical
+microscope is mounted on the chassis of
+the Rev
+samples are taken and placed on slides
+which rotate beneath the microscope
+flesh since microscopy was the key to
+our science design last year we use a
+fluorophore called separate gold which
+brunski nucleic acids and fluoresce is
+only when they are present our own broad
+custom fluorescence microscope can then
+image the sample telling us whether or
+not DNA is present in addition to
+standard for us
+my Cosby we use a lysozyme to break cell
+membranes if the amount of fluorescence
+increases will not I sing agent is added
+that means that there were nucleic acids
+locked inside cells which is clear
+evidence for exit life in the sample we
+are also experimenting with various
+chemical test strips these reveal the
+presence of organic molecules in the
+sample such as lipids or sugars for
+iterative design philosophy and hard
+work with Stanford students robotics
+have created our best Rover to date
+we're consonant and DARS abilities and
+are excited to compete at you RC

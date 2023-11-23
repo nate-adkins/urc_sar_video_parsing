@@ -1,0 +1,48 @@
+Hi my name is Stephen Manchillas
+president of the texas Mars robotics team here at the University of Texas at Arlington. Since last season we have
+continuously been improving our rover by reducing the weight and increasing the dexterity and the modularity of the rover
+this year Arm and Gripper has made some big changes to its design. 'Most significant changed by far is an added link near the wrist.
+Instead of actuating around  the same axis as the first length, it rotates around the axis perpendicular that axis,
+giving us horizontal motion without rotating the shoulder. The second major change is in the gripper design. last year it would not provide optimal angle
+for tasks that require fine motor adjustments but parallel pads are able to grip objects firmer and more accurately than before.
+The circuit box for all the electronics on board will see a large reduction in size and weight.
+along with this, the aluminum tubing used for this year's frame will see 50% reduction weight while still providing the same basic format for components.
+The motor and gearbox combination will see a hefty improvement as well as the motor and gearbox combination is custom-built for our needs this year
+This not only improves an necessary torque and speed requirements but it also allows us
+To ensure a longer lifetime of the motors with less required maintenance. A leg consisting of double-layered
+thermoplastic polyurethane material (or TPU)
+will be used to dampen vibrations throughout the body
+this also allows for proper operation appealing clients on board as well as a more stable camera image while the rover is on the move.
+To further stabilize the electronics on board the circuit box will be mounted on to dampeners.
+This year instead of starting from scratch on our design we made our original design more streamlined more compact and more
+efficient. We started by shortening the entire module by 4-1/2 inches, losing 5 pounds of weight in the process.
+It still performs the same functions and with less length there is less room for torsion and vibrations while drilling.
+Our system has the capability to drill to the desired depth of 10 centimeters,
+test the temperature and moisture of that soil, and then test it for nitrates and phosphorus
+depending on what science team feels will give them the best indication of proof of life.
+All of this happens on board observed by a camera that relays video back to the base station
+In previous years we struggled to keep the electronics modular and easy to access.
+This year all of that has changed.
+We have added quick disconnect pins that go to an entirely modular box that contains the arduino, motor shields, and other control boards.
+This allows the controls team to detach the electronics entirely
+to be worked on separately should anything need to be fixed or changed.
+Our team proposes that life on mars may be identified by analyzing soil samples for bacterial endospores. In times of extreme stress,
+bacterium can produce endospores a dormant and highly resistant cell which can survive
+desiccation, high temperature ,high irradiation, and remain viable for thousands of years.
+We will be using the Schaeffer-Fulton method staining technique to distinguish between vegetative cells and endospores.
+A primary stain using malachite green will be used to stain the endospores.
+Previously, our team attempted to identify life through the sequencing of
+nucleic acids. This year our team opted for a less complicated and more economical testing technique.
+Other improvements this year are in the areas of vehicle safety and power management.
+For vehicle safety we are monitoring the slope of the terrain and using that slope data to control the power to the rover's drive systems
+as well as determine if the slopes of the train exceeds our
+operating parameters. We are also monitoring the
+Rover's surroundings be an array of
+Ultrasonic sensors and using that data to help the rover to navigate around obstacles that are too big for it to drive over.
+For power management we have implemented a remote shutdown function in case it is determined that there is a serious enough issue to warrant it.
+Since last year's performance during the autonomy section, we have learned a lot.
+We have created several upgrades and improvements
+which, improve the accuracy of the navigation system. We have also improved our tracking system
+which can detect tennis balls from around 20 feet away
+Our other improvements include a brand new user interface which helps us to enhance and visualize the surrounding area.
+The new interface includes a 3d visual that displays feedback received from the arm and various others subcomponents.

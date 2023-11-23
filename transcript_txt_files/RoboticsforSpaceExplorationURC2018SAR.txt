@@ -1,0 +1,174 @@
+we are robotics for Space Exploration
+and we're back again to represent the
+University of Toronto at you RC 2018 our
+team consists of over 40 undergraduate
+students and with the help of our new
+sponsors were more excited than ever to
+present you our latest Rover design over
+the past 4 years of your seat we've
+always designed a Rover from scratch to
+create an innovative solution but this
+year we've decided to take a purely
+iterative approach to focused on testing
+right away building off the successful
+design of her Phoenix Rover from last
+year we present to you our latest and
+greatest Rover Phoenix 2.0 our
+mechanical system this year proved to be
+extremely robust to all viewer C tasks
+so we're iterating on the same
+rocker-bogie system with the
+differential bar to maximize the rover
+stability and allow for the chassis to
+remain level with the ground at all
+times
+the rocker-bogie linkages are water jet
+cut out of 2d aluminum profiles and this
+year we've opted to lengthen the rocker
+linkage to allow the rover to survive 1
+meter high drops
+we're also reiterating on our
+polyurethane wheels from our sponsors at
+Town Boulder which are highly successful
+in providing lightweight wheels that can
+conform to given terrain this year we're
+improving the design by using a stickier
+polyurethane resin to allow for even
+more traction for the rover's wheels
+their casings also provides a safe
+enclosure for motors making our drive
+system extremely robust to environmental
+shocks our chassis consists of custom
+aluminum extrusions allowing for easy
+mounting of our arm and science tool
+modules using a laser cutter we've also
+constructed our custom-made acrylic
+battery bait which is vertically
+attached to the rover's main power
+systems this design improvement allows
+for quicker powering of the rover as
+well as space preservation of our
+onboard electronics last year we
+introduced our very own custom printed
+circuit boards using Eagle CAD software
+this year we decided to combine several
+functional components together on each
+PCB to save space and weight in our
+chassis we're also putting a greater
+emphasis on safety using Hall effect
+sensors to monitor our motors current
+draw in real-time and relays to shut off
+each motor remotely from our ground
+station we're working closely with our
+sponsors Fisher and most connectors who
+are providing us we were bust
+plug-and-play connectors to provide easy
+connections between our electronic
+components to improve the testability of
+our rover's electrical systems
+we're also using only one layer of
+electronics which will only include our
+drive power and communication systems
+our software system will be very similar
+to last year we're using a web stack
+namely react and no GS so that our
+different software subsystems can
+in any programming language we've
+switched to use a serial to communicate
+between Arduino microcontrollers and
+this year we've opted to use raspberry
+pi instead of a laptop for all of our
+onboard computations for our economy
+compose video and telemetry is handled
+by a 2.4 gigahertz wireless connection
+between our parabolic dish and the
+rover's antenna for the dew point for
+connection we have a high gain
+directional antenna at the ground
+station that lets us communicate from
+220 kilometers while autonomously track
+through the rover our autonomous system
+is built around both coarse and fine
+grained control the course means GPS
+coordinates of the destination on the
+rover to reach a goal for fine we use a
+relative positioning systems move closer
+to the destination using OpenCV to
+calibrate and reading IP cameras
+intrinsic and extrinsic parameters to
+calculate distance and heading emphasize
+ball or LC using a 3d lidar from
+sponsors it stands for obstacle
+detection so far our system has been
+tested in a simulation environment to
+refine a computer vision path planning
+and path tracking algorithms on last
+year's Rover Phoenix as our testbed our
+rover's arm uses aluminum linkages
+connected in a six degree of freedom
+consideration this year we are using
+high torque lightweight DC motors and
+then ear our traders with rotary
+encoders to control each broad angle of
+our audits high precision using our
+highly successful universe kinetics
+algorithms from last year we are able to
+control the arm intuitively using a six
+degree of freedom tour stick along the
+end effector to quickly move towards a
+desired goal homes our sign systems have
+been overhauled the most this year we
+now have a sub team dedicated solely to
+science making us more prepare than ever
+for the science cash analysis task
+instead of attaching our drills directly
+to our arm we're creating an independent
+science tool that can be mounted
+directly to the rover's chassis building
+off the success of our science suite
+from last year we're reusing the same
+on-site sensors to measure soil moisture
+a variety of gases and temperature all
+for the purpose of gauging the signs of
+bugs our off-site analysis tools will be
+pH sensors the digital microscope to
+detect signs of lichen as well as an
+upgraded DIY spectrometer which will be
+used for measuring chlorophyll
+concentrations in the soil with access
+to a new testing facility at the
+University of Toronto
+we've managed to conduct a comprehensive
+number of unit and system level tests
+that have been tailored specifically to
+the URC 2018 tasks using our old Phoenix
+Rover as a testbed we've successfully
+tested the rover to navigate towards GPS
+coordinates with preparation for the
+autonomous traversal tasks for the
+extreme retrieval tasks we've also
+tested our drive systems new
+rocker-bogie to verify that it is now
+able to survive high drops as well as
+our arm to the flows up to five programs
+moving on to the equipment servicing
+task we've also run extensive load tests
+for dragging them dynamically weighted
+cart systems to verify the arms lateral
+strength
+we've also managed to successfully test
+our new science tools demonstrating that
+it is able to extract soil samples
+deeper than 10 centimeters and compile
+them securely in our collector mechanism
+now that we have successfully completed
+all of our unit and system testing
+Anderson local site we're now ready to
+continue testing and our fully enclosed
+11 millimeter square mars dome at the
+Institute for aerospace studies our site
+selected thank our sponsors for all of
+their support
+we're thrilled to show you what we have
+in store with Phoenix 2.0 and we can't
+wait to compete in the you RC 2018

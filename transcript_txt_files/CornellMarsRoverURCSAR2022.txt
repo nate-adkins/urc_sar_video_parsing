@@ -1,0 +1,170 @@
+cornell mars rover has worked tirelessly
+over the past seven months to design and
+manufacture a urc-ready rover and this
+year we are excited to unveil our new
+rover orion our team is broken into
+eight different sub-teams organized by
+discipline the armed sub-team is
+responsible for building and designing
+the rover's robotic arm the drive sub
+team oversees development of the rover's
+suspension wheels frame and electronics
+housing the electrical sub team is
+responsible for developing the hardware
+required to communicate with the rover
+and power on board actuators and sensors
+the software sub-team handles rover
+controls path planning user interfaces
+and computer vision the astrotech sub
+team is responsible for onboard soil
+delivery and analysis for the science
+task the science sub team designs tests
+and procedures to detect life from soil
+and rock samples the testing sub team is
+responsible for creating system tests to
+ensure the development of a successful
+rover and finally the business sub team
+manages teams finances web and
+presentation design and both public and
+sponsor outreach the academic year is
+split into three development periods a
+fall designing phase a winter
+manufacturing phase and a spring testing
+phase because of state and university
+rules regarding in-person work we have
+had limited access to our lab space
+machine shop and rapid prototyping lab
+as such we are currently finishing up
+manufacturing but we are on schedule to
+finish within the next two weeks
+the focus of the arm sub team this year
+has been to increase dynamic stability
+improve the end effector and provide
+better visual feedback to the operators
+using data from a dynamic model of the
+armada matlab we have standardized our
+customs like total gearboxes cutting the
+number of unique parts in half mass
+optimization has allowed us to make the
+arm about three times stronger than last
+year while being lighter we have
+completely overhauled the end effector
+opting for parallel closing jaws with
+polyurethane interface material these
+changes greatly improve its grip and
+allow us to reliably manipulate all
+types of objects the drives team has
+redesigned our drive train to feature a
+rocker bogey suspension system it forces
+all six wheels to remain in contact with
+the ground at all times so that the
+rover can navigate rocks drops and steep
+slopes we carefully chose high strength
+low mass carbon fiber is the tubing
+material connected with structural epoxy
+at mass optimized aluminum tube unions
+the geometry of the suspension is based
+on a dynamic model created in matlab to
+minimize rollover probability when
+traversing competition terrain our six
+wheels consist of an interlocking rigid
+hub and a flexible urethane outer wheel
+casted in a 3d printed mold they are
+powered by maxon motors that drives like
+coil drive gearboxes we have designed
+and manufactured this year the
+electrical system has redesigned and
+improved the hardwood schema that is
+responsible for controlling and powering
+all the systems on the rover on the
+rover we used omnidirectional 2.4
+gigahertz and 5.8 gigahertz radios to
+manage communication between the rover
+and base station our system utilizes
+both channels to improve communication
+quality in situations where there is
+obstructed line of sight our central
+communication board is the hub between
+controls electrical and software that
+handles sending commands to each board
+and a can bus connects the whole network
+of our pic32 microcontrollers on custom
+boards this year we also improved the
+reliability of our modular motor control
+scheme to run brushless and brushed
+drivers this along with the redesign of
+our consensual communication board
+firmware allows us to support an
+increased number of motors on the rover
+this year the software sub team worked
+on numerous improvements to the previous
+year's rover our autonomy system
+received major updates in its latest
+iteration among them our ar tag
+detection system has been improved to
+more reliably detect ar tags by
+employing a spiral search approach when
+waypoint accuracy is low our inverse
+kinematics implementation allows
+operators to manipulate the arm in a 3d
+rendering of its surroundings we've also
+included some predefined arm macros such
+as a scooping action to further improve
+the arms ease of operability we also
+completely redesigned our graphical user
+interface to enable full control of the
+rover and all its features among its
+many capabilities are rover module
+management autonomous navigation control
+on a map and arm manipulation
+this year astrotech has redesigned our
+onboard soil and rock analysis system
+the rover's scoop transports soil
+samples from the ground to the mixing
+chamber a funnel is used to direct the
+soil from the scoop to be mixed with
+water vibration motors shake dirt off of
+surfaces decreasing the risk of
+contamination in the mixing chamber a
+crankshaft piston mechanism creates a
+soil and water mixture the mixing
+chamber's three isolated sections
+prevent cross-contamination our next
+task is to analyze and perform life
+protection tests we're currently working
+on a new spectroscopy system which we
+hope will replace rgb sensors in the
+observation chamber for both we have
+designed light controlled analysis as
+for rock analysis we have a digital
+microscope and the filter wheel the
+science sub team designs new and
+specific tests to distinguish between
+extinct extant and no-life environments
+by analyzing rock and soil samples
+using colorimetric and spectroscopic
+data we are able to quantitatively
+analyze ph phosphate concentration and
+concentrations of various macromolecules
+in the soil using a 3d printed filter
+wheel the rover photographs rocks and
+through the analysis of its average
+reflectance values allows us to
+determine its mineral composition and
+determine whether the sample came from a
+place with extant extinct or no life we
+also have a digital microscope a
+nitrogen phosphorus and potassium sensor
+and a carbon dioxide sensor with a focus
+on reliability we have a rigorous
+testing plan the team is divided into
+four task teams for testing one for each
+of the urc missions each task team lead
+under the guidance of the testing sub
+team develops and executes an
+incremental testing strategy gradually
+bringing the rover up to full
+functionality orion and the rest of the
+team are just about ready for
+competition and we hope to see you in
+utah

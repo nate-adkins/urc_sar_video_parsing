@@ -1,0 +1,33 @@
+Hi! I am Aleksander Przybyłkowski, coordinator of the Sirius program. 
+We are members of the Student's Space Association which is based at the Faculty of Power and Aeronautical Engineering at Warsaw University of Technology.
+ Our team consists of 24 students from various fields, including, but not limited to aerospace engineering, photonics, chemistry and IT.
+Our Sirius rover is the second rover in our program and has been in active development over the last three years as a successor of the first iteration.
+During the last years we have been testing different team structures. Lately we decided to come back to our roots, dividing work between 4 main teams: Mechanics, Electronics, Software and Science. 
+The Mechanics team is focused on the designing, analyzing and creating parts for the physical performance of the rover.
+ New ideas and solutions are based on the team's experience during previous events and numerous tests performed throughout the years.The new suspension is a subject of the article at the IEEE Aerospace conference.
+New experimental copper beryllium suspension has been developed using FEM optimization. To suit its needs, a new transmission system was created.
+After months of prototyping, field tests and debates over designs, we have developed wheels that perform well in challenging conditions. They allow us to traverse slopes, rocky and sandy terrains, in dry and wet environments.
+ 
+New 3D printed casings for electronic components ensure high accessibility and safety, remaining lightweight, water and dust resistant.
+An emergency red button has been mounted, ensuring fast and easy access, in case of accidents and malfunctions. 
+ 
+Our new control interface is a website built with “vue.js” , hosted on the main computer of the rover. It is centered around a modular drag and drop window system, which allows for great flexibility and expandability. 
+This solution gives us very robust control over the rover and allows us to visualize its state.
+Thanks to a new camera backend, which uses WebRTC, we are able to simultaneously stream video from multiple cameras with automatic compression quality selection.
+The autonomous navigation system facilitates OrbSLAM3 for visual odometry and occupancy map construction. SLAM data is fused with multiple other sources,
+ such as ArUco tag detection, a GNSS module and an IMU, to ensure that the system is resistant to drift and tracking loss.
+A newly implemented inverse kinematics solver and trajectory planner for the manipulator allows for precise, gentle movements of the end effector. 
+We used a simulation to test the system and tune the motor controllers, with hardware realization in the final stages of development.
+The closed-loop control, along with a redesigned gripper, allows for the effective manipulation of various tools or lifting objects weighing up to five kilograms. The arm can pick items from the ground in front of the rover as well as reach heights over 1.5 meters.
+Science module consists of 2 parts:Probing and analysis. For the 1st part we have designed a space vacuum capable of working in a low density atmosphere to  collect the samples which are then transferred to a carousel.
+For the 2nd part we are going to implement peristaltic pumps which are going to deliver chemical reagents to create reactions. We are going to evaluate the status of the presence of life based on the results of the reactions.
+To assist chemical analysis we designed a spectrophotometer to detect presence of elements which occur in the vicinity of life.
+In addition tomograph will collect the volume data about the solid sample based on capacitance and inductance measurements.
+Various programs and applications are used to design, calculate and simulate different aspects of the rover performance. Among the most frequently used ones are
+Solidworks - to design the mechanical elements of the model,
+Ansys Mechanical - to perform Finite Element Method simulations on key custom components
+ and Altium Designer - for designing PCB boards.
+Other solutions, like Discord, GitLab, Microsoft Word, Excel and Teams are used to organize work, generate schedules,  create and assemble documentation
+Each year SKA Robotics participates in various events and robotic challenges, including URC, ERC and and ARC. We. We organize and visit science promoting events.
+ Among the most recent ones are workshops in the Copernicus Science Centre, science fairs at our University, robotic Hackathons and radio interviews.
+All of this is possible thanks to our Faculty, University, Ministry of Education and Science and private Sponsors.

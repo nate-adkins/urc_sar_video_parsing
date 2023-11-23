@@ -1,0 +1,144 @@
+by8 is 2020 Mars rover team has built
+upon our successes from last year by
+optimizing the electrical mechanical and
+software systems of the robot improving
+on last year's weaknesses will help us
+excel in the equipment servicing extreme
+retrieval science and autonomous
+traversal missions we are confident in
+our ability to perform well at 2020s
+Mars rover competition this year's team
+is innovating new designs to build on
+our successes from 2019 due to the high
+performance of last year's chassis we
+kept the design as the foundation of
+this year's remotely operated mobile
+platform our chassis is a rocker-bogie
+system which utilizes a differential bar
+to ensure good wheel to ground contact
+including across uneven terrain slight
+modifications to last year's model
+ensure the chassis can be folded to fit
+within a 1.2 meter square area by using
+integrated pins the system weighs less
+than 50 kilograms in any modular
+configuration and under 70 kilograms as
+a full system the chassis is integrated
+electrical system uses serial
+communication to control six individual
+wheel motors ensuring flexibility and
+control design and robust reset
+abilities in case of individual motor
+failure our Rover also uses a newly
+designed lithium-ion battery pack which
+powers the rover add minimal weight
+costs while providing high-density
+energy the battery is made up of 65
+individual 18 650 cells that in
+conjunction with our onboard voltage
+regulation can power the rover for more
+than two hours of heavy operation for
+safety and resiliency individual cells
+are spot welded together with built-in
+fuses to avoid a complete battery
+failure and sports an external kill
+switch in case of emergency a complete
+redesign of the arm showcases a linear
+actuator that moves the arm in a
+vertical motion allowing the rover to
+easily lift items over 70 kilograms our
+three link arm uses planar motion to
+make tasks such as opening drawers or
+cabinet doors much easier a wrist with
+three motors simplifies difficulties
+presented when reorienting to grasp
+handles or reposition objects the newly
+designed gripper
+uses two linearly actuated fingers to
+perform a variety of tasks the fingers
+are mounted onto a lead screw that
+utilizes both right and left hand
+threads allowing a single motor to
+easily open or close the grip a small
+appendage on the end of the fingers
+allows
+to tighten screws push buttons or type
+on a keyboard with ease
+the arms control system is designed to
+make operation of the arm during tasks
+both intuitive and quick when large
+movements are needed the operator can
+use a software package called move it to
+easily drag the arm to a desired
+position without needing to manage
+individual joints our light our module
+creates 3d models of the environment and
+nearby objects making movement planning
+rapid and safe when more precise
+movements are needed the grippers
+position can be controlled by Cartesian
+commands or joint by joint control this
+year science team has created an
+integrated hardware unit utilizing
+proven tests from last year and a
+promising new procedure tailored to
+correctly identify both extinct and
+extant life and individual samples our
+faad coenzyme test will play a large
+role in the science mission for each
+sample tested under induced lighting
+from onboard the rover we will be able
+to visually detect any f8d present in
+the sample which is an indication of
+living organisms we also perform a co2
+test where we grow cells in the gas
+tight chamber using a soil sample and a
+nutrient broth if we detect changes in
+the carbon dioxide levels this indicates
+the presence of life each individual
+test on this year's science module
+provides unique information regarding
+the possible indication of life by
+monitoring the consistency between
+results we ensure the reliability of our
+data these tests and our knowledgeable
+science team will lead to high success
+in the science tasks improved antenna
+configuration and video hardware
+encoding have vastly improved our
+real-time communication to allow up to
+25 megabits per second at a distance of
+over 2 kilometers even without line of
+sight between the rover and base station
+we use a configurable 900 megahertz
+signal with an 8 megahertz bandwidth
+allowing for simultaneous camera feeds
+without latency a motorised antenna at
+the base station tracks and follows the
+rover to optimize the direction for best
+signal strength with quick setup of the
+base station and rover we can be
+competition ready in under 15 minutes
+our autonomy team is using a real time
+kinematic GPS system which operates on
+the wgs84 standard the library reuse
+allows the base station to send
+correction signals to the rover this
+enables the rover to achieve centimeter
+accuracy allowing reliable navigation to
+any given GPS coordinates our AR tag
+recognition system which includes a
+depth camera and a custom search pattern
+finds AR tags which our rover can
+correctly identify from over 10 metres
+away with a lidar laser rangefinder to
+assist in detecting and avoiding objects
+traversing difficult terrain to
+autonomously reach competition markers
+is no problem an LED light array on the
+back of the rover indicates where their
+operation is autonomous or manual with
+the work and efforts performed this year
+we are confident BYU's 2020 Rover is as
+ready as ever for this year's URC
+competition

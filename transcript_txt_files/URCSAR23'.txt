@@ -1,0 +1,118 @@
+hello everyone my name is Morgan
+fabricatori I am the President of
+Charter robotics here at University of
+New Haven the New Haven robotics team
+has been working day and night to
+provide us a Mars Rover for the
+University Rover competition
+hi my name is Aaron Parker I'm vice
+president of charge for robotics I've
+done a lot of different work on multiple
+parts of the Rover but the main thing
+I've been focusing on is the control
+systems especially Ross and how to
+integrate to all the different
+I've developed different Ross packages
+to work with the open source motor
+controller we're using we're using a
+stereoscopic depth camera to detect
+objects and do slam and mapping and we
+are using a-star as a pathfinding search
+algorithm for when we navigate to a GPS
+coordinate we use a star to find the
+fiducial markers all parts of the rotor
+are fed through Ross which is then fed
+through our wireless connection and it's
+really convenient because we can
+visualize all of these things through
+artists and other GUI software's that
+allow us to know what the Rover thinks
+it's doing and what it's actually doing
+communication system for all over we
+chose the ubiquity walking M2 as our
+base as our modem due to its Simplicity
+in scenario for the antennas we chose a
+omnidirectional antenna on the robo for
+its Simplicity and not quite a rotator
+for the base station we chose patch and
+test due to its Simplicity and alignment
+with the Rover and gives us the about
+six extra six DB of gain over and around
+the directional antenna the entire
+system has about 16b plus your leg
+overhead from our calculate the path
+loss the system was tested at a beach
+with a one kilometer distance between
+the transmission receiver and we got
+about two milliseconds two megabits per
+second which we could do with
+base station we have two three axes
+joysticks which is perfect because we'll
+have six axes for our six degree of
+Freedom arm we'll have full control of
+every joint that will also allow us to
+have a paint drive to control the Rover
+in any situation
+hi my name is Mohammed rahmani and I'm
+part of the drivetrain sub team for the
+Rover for the
+University of New Haven and for the
+drivetrain we need to a number of
+different suspension systems and ended
+up with using the
+rocker bogey system which allows our
+Rover to
+climb obstacles and rocks roughly twice
+the size of its wheel for which we chose
+a nine inch balloon Wheels which have a
+better contact patch a larger contact
+patch and a better weight distribution
+allowing it to
+move through all sorts of soft and rough
+trains that
+the Rover is designed for and we also
+decided to add a differential bar to
+improve its overall drivability and
+stability and the individual wheel drive
+system that we implemented uses the 800
+KV partial SDC motors which are each
+driven with open source vesc drivers
+which are chosen for the reliability and
+the ability for precision smooth
+operation
+so the arm uses linear actuators for the
+boom and Dipper joint because those
+require the most amount of force we can
+get really granular control while have
+you on a horse enough to even lift the
+entire Rover to get to a point where
+we're stuck
+at the end of the wrist using custom 3D
+printed joints we have a linear rail
+with two custom design and 3D printed
+gripper fingers these grouper fingers
+have one stationary and one that moves
+along the rail this design has thick
+walls that allows us to pick up the
+screwdriver and also has a thick back to
+it allowing us to push buttons and flip
+switches
+my name is Alex I'm head of the science
+team for collecting soil we have a screw
+shape Digger that drills into the soil
+and extracts exactly three milliliters
+of regolith that then goes into our four
+stage two vent sampling system stage one
+assemble collection stage two is a
+spectrometer as well as a UV light to
+detect chlorophyll stage three is a
+volatile organic compound sensor which
+smells for life in stage 4
+goes into a home area where we can then
+give the samples to the judges
+for collecting Rock samples we have a
+spectroscope a reflective spectroscope
+as well as a microscope attached to the
+end of the arm which can search for
+extinct as well as extend life
+our

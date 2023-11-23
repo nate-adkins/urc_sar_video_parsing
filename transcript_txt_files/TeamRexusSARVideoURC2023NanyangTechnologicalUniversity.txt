@@ -1,0 +1,117 @@
+hi we're Team rexes and this is our
+Rover for the University Rover challenge
+2023
+team Rex's features mechanical
+electrical autonomous and science
+subsystems working on various projects
+like chassis drivetrain robotic arm
+onboard lab and autonomous navigation
+these are integrated together to solve
+the four problem statements as defined
+by the competition guidelines
+our Rover features a welded aluminum
+tube chassis comprising of push-out
+suspension and custom mount for the
+laboratory and the arm the wheels were
+designed using topographical
+optimization and are a combination of
+PLA and TPU rubber line with a maximum
+traversing angle of 35 degree tested
+custom motor mounts take loading of the
+motor shafts and help in power
+transmission from planetary gearbox to
+the wheels the electric housing features
+removal sliding battery panels actively
+cool using fans with a separate cool
+compartment for the drive chain and
+robotic arm components consists of a 24
+volt brush DC motor in combination of
+the 24 volt 30 ampere battery the Rover
+is controlled by using onboard Raspberry
+Pi's smart motor drivers power the drive
+system with Magnetic absolute encoders
+providing positional and velocity data
+which are used for closed loop PID
+control custom motor driver circuit pcbs
+and a power distribution Network PCB are
+being developed for cleaner and more
+Reliant connections across systems
+onboard Electronics is serial
+communication protocols while the base
+station Rover communication uses RF
+modules at short range and 11 DBI
+omnidirectional antenna in the 2.4
+gigahertz frequency band backed up by
+900 megahertz frequency Lora module
+the fourth degree of Freedom robotic arm
+comprises of two Nema 34s and two Nema
+23 stepper Motors they were chosen due
+to the relatively low cost and high
+control of up to 40 000 steps per
+Revolution
+the aim of the robot is to replicate the
+shoulder the elbow and the wrist of the
+human arm
+links are made of aluminum tubes and the
+joint interfaces are custom machine
+solid aluminum blocks
+we are using planetary gearboxes for the
+Nema Motors on all of the joints as they
+provide minimum backlash
+different end effectors are currently
+under development which allows us to
+turn hex Keys flip switches and actuate
+door handles
+control of the arm can be done both by
+inverse kinematics and also by a
+one-to-one physical twin which Maps its
+position and velocity to that of the
+actual arm
+the science subsystem is equipped with
+multiple instruments and sensors for
+detecting the presence of extinct and
+extant life
+soil is gathered from below the surface
+using a scooper attached to the robotic
+arm of the Rover
+this is fed into a hopper and mixing
+chamber which distributes the soil into
+our two main instruments an absorption
+spectrophotometer and a digital
+microscope
+the spectrophotometer is used for two
+chemical assays which detect the
+microbial enzyme activity and quantify
+the amount of protein present in the
+soil
+peristaltic pumps are used to deliver
+accurate and precise amounts of reagent
+and soil suspension into each sample
+the microscope is used for determining
+the mineral composition of the soil as
+well as identifying any microfossils
+left by extinct life
+the onboard laboratory also has a car
+system which keeps samples from each
+sample site and can dispense a high
+scientific value sample when it is
+chosen
+there are also sensors that measure the
+temperature humidity pressure ambient
+light UV light and soil NPK content
+which are used to assess the
+habitability of each sample type
+the automatically system uses an IMU and
+depth cameras which constantly update a
+cost map the global planner is used to
+find the minimum distance between given
+start and end GPS points while the local
+planner gets the updated cost map and
+produces velocity commands which are
+sent to a move based function which is
+used to move the Rover Kalman filters
+are being used to fuse the automatory
+data we are using a Ros framework to run
+all our packages we are currently
+integrating a lidar sensor as well as a
+gns sensor into our automatic system

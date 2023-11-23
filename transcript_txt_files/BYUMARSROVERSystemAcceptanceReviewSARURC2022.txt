@@ -1,0 +1,151 @@
+[Music]
+the byu 2022 mars rover team has built
+upon the work and successes of past
+teams to develop a rover which fulfills
+all design requirements despite the size
+changes applied to this year's
+competition we elected to keep their
+basic rocker bogey system used in years
+past but in order to fit the rover into
+a 1.2 meter box we implemented a folding
+system for the rover chassis which
+significantly reduces the rover's size
+this is done with the use of an
+off-the-shelf pin and custom designed
+cnc part to create a hinge in both
+chassis arms this change reduces its
+length and a rotating hinge allows the
+chassis arms to fold upwards reducing
+the overall height our system weighs
+less than 50 kilograms in any
+competition configuration and all
+components together weigh less than 70
+kilograms we've used altair software to
+optimize individual components and have
+chosen materials based on strength to
+weight ratios our current rover uses a
+48 volt samsung battery which weighs
+much less than the custom battery pack
+used in previous years we have an
+automatic system that shuts the rover
+down in the event that the voltage of
+the battery drops too low and in the
+case of an emergency we have an external
+estop button
+our rover is fully capable of traversing
+all kinds of terrain from flat level
+ground to steep inclines and around
+large obstacles even negotiating extreme
+angles up to 45 degrees in order to fit
+inside the new size requirements we also
+had to completely redesign our antenna
+as the previous antennas were
+approximately 1.2 meters long by
+themselves fortunately with the new
+antenna our rover has strong
+connectivity even over large distances
+going up to one kilometer away between
+the rover and the base station we use a
+configurable 900 megahertz signal with
+an 8 megahertz bandwidth a motorized
+antenna at the base station will track
+the increase of signal strength to
+optimize connectivity with quick setup
+of the base station and the rover we can
+be competition task ready in less than
+15 minutes thanks to the dedication of
+our team the byu rover is capable of
+autonomously navigating to gps
+coordinates with a 10 centimeter
+accuracy the rover does so by using a
+real-time kinematic gps system which
+operates on the wgs 84 standard our team
+has implemented a ukf to obtain accurate
+position and heading data once at a gps
+waypoint the rover either signals leg
+completion or initiates a search pattern
+to find the ar tag at which point it
+sends a signal to the base station and
+awaits further instructions our team is
+working on implementing optical
+detection on the new system and in the
+event of failure the rover navigates
+back to the last known waypoint our
+robotic arm works in an inverse
+kinematic software package and can be
+controlled joint by joint or in
+cartesian space using inverse kinematic
+methods
+[Music]
+the inverse kinematic methods in
+particular enable easy and intuitive
+control of the arm so the operator can
+move the arm to a designated position
+without needing joint vitrion
+control the joints on the arm allow for
+a range of configurations in the x y
+coordinate plane
+and the wrist joint and a vertical
+linear actuator that we call an elevator
+allows for movement in the z direction
+this makes our arm capable of being able
+to flip switches
+open drawers
+plug in a usb
+pull a rope
+and even to
+type thanks to the robust design of the
+arm which mimics a planar scara arm to
+some extent it can easily lift items
+over 7 kilograms
+given these capabilities the arm can
+perform all of the required manipulation
+tasks for the urc competition
+using last year's design as a basis this
+year's science team has created a robust
+science module that allows for greater
+automation the module uses flavin
+adenine dinucleotide fad buret reagent
+and visual inspection tests to
+accurately identify the presence of
+extinct and extent life in both rock and
+soil samples the fad coenzyme will play
+a large role in the science mission
+under induced lighting of a specific
+wavelength we use powerful microscopes
+to visually detect any fad present in a
+rock or soil sample which is a strong
+indication of extant life the buret test
+takes advantage of the properties of
+light and the solution of buret reagent
+under the presence of peptide bonds in a
+soil sample the reagent will change
+colors and thus absorb different
+frequencies of light which will be
+detected by photoresistors mounted on
+the science module the values received
+from the photoresistors are sent back to
+the base station where we generate
+graphs and use machine learning
+algorithms to make informed decisions
+about the presence of extant life in a
+given sample the fad test combined with
+the burette test gives us a degree of
+accuracy well above 99 percent through
+the use of high-resolution cameras our
+enlisted geological experts are able to
+visually inspect rock samples for
+fossils or extinct life each individual
+test on this year's science module
+provides unique information regarding
+the possibility of life with careful
+in-lab calibration of the sensor suite
+we ensure the reliability of our data
+and verify holistic functionality in
+rigorous bi-monthly mock competitions
+under similar conditions to the real urc
+competition thanks to the frequency and
+detail of our testing methods as well as
+our rigorous design process we are
+confident in our abilities to perform
+well at the urc competition this year

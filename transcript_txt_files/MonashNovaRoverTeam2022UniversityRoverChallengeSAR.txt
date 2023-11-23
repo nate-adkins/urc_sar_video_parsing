@@ -1,0 +1,113 @@
+G'day, we're Monash Nova Rover, a student team 
+from Monash University based in Melbourne,  
+Australia, comprised of 89 students from 
+engineering, IT, design, science and  
+commerce backgrounds. The chassis body has been 
+re-designed to reduce core weight and accommodate  
+larger arm and science payloads. The new body 
+increases space for the electrical system,  
+now featuring board-to-board connectors to 
+allow modular expandability. At the core of  
+the new electrical system is our custom, compact 
+Jetson TX2 carrier board. The board hosts three  
+USB 3.0 ports and has vertical connectors to 
+improve accessibility. With two years of proven  
+application, our custom CAN bus motor drivers 
+allow for effortless PID control of all motors.  
+The new battery unit retains the eight-cell 
+LIFePo structure, with a new e-stop that  
+integrates a coil-activated line contactor 
+to reliability disconnect rover power.  
+Cell voltage and current is continuously 
+monitored and displayed on the integrated LCD.  
+Our entire code base has been re-designed using 
+ROS 2, for improved performance and structure. The  
+new GUI allows operators to view status data from 
+the rover and control rover functionality. The  
+GStreamer framework provides intuitive control of 
+up to eight simultaneous camera views. New Bullet  
+AC radios can operate in both 2.4 and 5 GHz modes, 
+enabling high-bandwidth and reliable signal,  
+mounted on a collapsible mast to 
+meet the new height restrictions.  
+The upgraded robotic arm features two detachable 
+end effectors to meet the unique requirements  
+of the the Equipment Servicing and Extreme 
+Retrieval missions. The two finger end effector  
+includes a linear actuator to accurately press 
+buttons and Hex key to easily tighten screws.  
+The first three joints of the arm comprise 
+of upgraded custom cycloidal gearboxes  
+to improve robustness and reduce backlash with 
+tubular linkages providing torsional rigidity.  
+The new wrist consists of a spherical parallel 
+manipulator that halves the total load experienced  
+by the lower joints compared to the 2021 design, 
+by reducing mass and improving load distribution.  
+Its rigidity improves the positional accuracy of 
+the end effector allowing for fine control during  
+operation. A new modular arm software stack allows 
+for features to be toggled on and off, including  
+inverse kinematics, joint limits and collision 
+detection, for intuitive control of the arm.  
+To ensure the rover can traverse the 
+Extreme Retrieval terrain, we have  
+developed and tested an extensive new range of 
+single-piece 3D printed wheels. The internal  
+spoke geometry has been modified to reduce 
+mass and improve damping on solid obstacles.  
+New curved grousers that match the turning radius 
+have been integrated into the corner wheels  
+to reduce turning resistance whilst improving 
+grip on loose gravel surfaces. Each wheel has  
+independent PID velocity control to aid with 
+slope and obstacle traversal. A 360 degree  
+gimbal camera has been mounted on the mast to 
+provide the operator a wide range of perspectives.  
+Along with the improved robustness of the arm 
+and its joints, a three finger end effector  
+creates an encompassing grip that can securely 
+grasp objects of various sizes and weights.  
+Finally, returning is our proven four-bar bogie 
+suspension system to aid in obstacle traversal.  
+The Autonomous system has been designed for 
+precise rover pose and robust dynamic obstacle  
+avoidance. The new differential GPS system 
+provides centimetre-accurate local positioning.  
+Combined with orientation data from the six-axis 
+IMU, magnetometer and precise wheel odometry,  
+we obtain an accurate six-degree of freedom pose 
+through sensor fusion. A stereo camera generates  
+point-clouds which are transformed into a global 
+occupancy map where 3D path planning algorithms  
+can continually plan safe routes. The rover’s map, 
+planned path and pose are visualised in real time  
+in the base station. The local position of AR tags 
+are tracked to aid precise checkpoint approach,  
+with a spiral search strategy to find tags 
+where approximate coordinates are given.  
+A robust control loop integrates all the core 
+components while monitoring for sensor failures.  
+Finally, autonomous operating 
+modes and stage completion are  
+signalled with the integrated custom LED strip. 
+The scientific payload has seen major improvements 
+in key areas. Our actuating platform and scoops  
+have been redesigned to improve stability and ease 
+of alignment when collecting four unique samples.  
+New, custom designed peristaltic pumps 
+are able to reliably process and deliver  
+consistent quantities of samples to 
+our purpose built photo-spectrometer.  
+Chemical assays will consist of Fluorescein 
+Diacetate and BCA to detect protein and enzymes,  
+indicating the presence of extinct or extant life. 
+Results will be quickly generated, with automated  
+data interpretation from the spectrometer to the 
+user interface. Our microscope provides detailed  
+views of rock samples, which when coupled 
+with environmental sensors provide supporting  
+evidence for life from the local environment.
+Microscope images will be displayed alongside  
+our task specific geological database 
+to aid geological identification.

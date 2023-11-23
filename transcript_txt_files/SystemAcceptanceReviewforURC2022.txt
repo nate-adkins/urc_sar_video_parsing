@@ -1,0 +1,145 @@
+hello we are the university of toronto's
+robotics for space exploration team and
+we are proud to present our 2022 rover
+platform
+this year we focused on improving the
+arm accuracy through an all-new arm
+improving the science payload through
+vigorous research on methodology and
+weight savings on the chassis all around
+new this year is our mapping and
+location capability enabled by a new
+suite of sensors including lidar
+this year's mechanical design focuses on
+durability and robustness while
+minimizing weight and size
+the carbon fiber rocker bogey and
+chassis allows for more efficient
+reversal of uneven terrain by maximizing
+contact of the wheels with the ground
+furthermore the chassis is kept level by
+the differential gearbox as the rocker
+bogies angled
+this year the team also experimented
+with 3d printing thermal polyurethane
+for wheels
+this allows the design of custom infill
+and tread patterns to optimize driving
+on desert terrain
+the wheels are driven by four to one
+gearboxes and brushless motors
+this year our electrical team focused on
+the implementation of three pcbs first
+we have our high power board for power
+distribution motor control it includes a
+circuit to display the battery levels on
+a led bar graph and two relay safety
+circuitry for the voltage rails the
+speed of each motor is controlled
+through six 12-bit dacs and use hall
+effect sensors with an incremental
+encoder to control the drivetrain
+next we have our low power board which
+uses three buck converters to regulate
+our voltage rolls rails with an e-fue
+safety circuit and lastly we have our
+back plane board which consolidates all
+the subsystem pcbs into a single
+physical enclosure to protect them from
+the external environment while also
+being accessible and allowing
+communication via usb
+the robot arm utilizes seven motors to
+achieve six degrees of freedom for
+reaching all areas around the robot
+the gripper uses two parallel four bar
+mechanisms to ensure pressure is
+consistently applied perpendicular to
+the object's its grasping
+and features 3d printed tpu phalanges
+optimized to maximize surface area
+contact with objects
+this year we redesigned the arm with a
+focus on precision and consistency
+all motors are now geared with non-back
+drivable gears either worm or lead screw
+this will reduce the power requirements
+and increase arm stability
+we are also working on making
+simulations of the arm system on gazebo
+which will allow us to prototype and
+test new arm designs and control
+codebase with high precision physics
+simulations before putting them into
+production
+this year science team has two separate
+systems to tackle rock and soul sample
+analysis also sample analysis will be
+done in a light isolated payload in
+which samples are deposited by the rover
+arm into a tested carousel using 3d
+printed single-use scoops to minimize
+cross-contamination our cell sample
+experiments rely on microscopy and
+photonics to examine samples and look
+for fed molecules this is done by
+exciting the sample and using a pmt to
+detect the relative concentrations of
+fad in a test tube
+rock sample analysis on the other hand
+utilizes a tube camera system for rock
+surface microscopy and for ndvi analysis
+which allows us to look for relative
+levels of chlorophyll
+our software team uses ros melodic to
+communicate between subsystems of the
+rover including map camera controls and
+localization
+the rover's drive system is controlled
+through a ps3 controller interface with
+ps3 joy
+this allows us to execute smooth turns
+and have controlled acceleration through
+analog signals
+to ensure our rover can withstand the
+challenges of uneven terrain we have
+created simulations of the entire rover
+on a gazebo that will recognize
+areas where improvement is necessary
+to ideate our drive code on to determine
+the rover's exact position and
+orientation the software team uses a
+customized ros visualization tool which
+will display accurate measurements from
+our imu
+the autonomy subsystem for the rsx 2022
+rover has been designed to be modular
+this has been worked towards through the
+development of several mini rover
+platforms which have been a crucial
+effort allowing ongoing development
+throughout kobit 19. the autonomy stack
+makes use of an ultra-wide view ooster
+lidar an intel realsense rgb depth
+camera wheel odometry gps and nvidia
+jetson xavier for data acquisition and
+perception the lidar system is used in
+conjunction with the wheel odometry and
+gps performs state estimation on the
+rover using a kalman filter and further
+data from the camera is used with
+computer vision algorithms to perform
+obstacle avoidance while controlling the
+emotion of the rover
+thank you for watching our sar and
+considering us for the urc 2022
+due to local and university regulations
+we have only been able to gather
+together for the past week or so
+but all of our subsystems have been
+designed and built individually remotely
+and we are working to integrate them
+onto the river platform
+lastly i would like to thank all of our
+sponsors and we look forward to
+competing in person once more

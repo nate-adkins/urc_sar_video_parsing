@@ -1,0 +1,70 @@
+[Music]
+hi we are team Bronco from the
+University of Lausanne BC in Bogota
+Colombia an amalgam of science and
+engineering students working together
+towards a single goal following the
+process from Roberto Kumari in the year
+C 2018 we present RAM you a revamped
+version with a more dexterous arm and
+improved traction control
+[Music]
+the robberies confirmed using an FPGA
+and are very high which communicates
+with the control module track access
+point the controller allows for precise
+movements such as power access panel
+indicative lining warns if the robber is
+performing a task in autonomous mode or
+idle and safely approachable
+no sleep control and a precision gripper
+providing hands dexterity and
+controllability with an 80 centimeter
+arm reach and 5 kilogram load capacity
+the six degree of freedom arm has wide
+dexterous workspace and can also fall
+back over itself for stability while
+traversing rough or difficult terrain
+the precision gripper has a self
+centering grip to pick up and use tools
+skillfully as well as perform a number
+of complex tasks the suspension
+arrangement is inspired on a
+rocker-bogie and is suitable for uneven
+terrain
+[Music]
+[Music]
+autonomous control is calculated in a
+Raspberry Pi tree and uses lobe level
+controls implemented in the FPA a basic
+go to go control following a linear
+trajectory is used to get close to each
+landmark when the robber is approaching
+a landmark the front high definition
+camera is unable to provide OpenCV color
+image processing to identify we propose
+the use of active sensors to detect
+environmental doses associated to the
+define the limits of human life make
+these parameters the temperature of the
+soul and the atmosphere pressure pH
+salinity and dissipation also the robot
+can carry out secondary analysis to
+deepen the determination of excellent
+life such as elemental analysis an
+analysis of activity in the soil on the
+other hand most of the passive sensors
+reducing the rubber our basic analysis
+of multispectral imagine so we will
+mostly be using my district programming
+which give us the possibility of
+identifying past and present
+characteristics of the environment by
+analyzing mineral composition which
+helps to the shed light on these
+accidents finally we are going to see
+our confidence because they are present
+in a vast majority
+beings and that is sweetly biotic
+therefore the presence of poor feelings
+might be a decisive indicator for life

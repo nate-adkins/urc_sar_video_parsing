@@ -1,0 +1,170 @@
+it's always inspiring
+we the team arastra from sairam
+institution Chennai joined together and
+accepted the challenge to change the way
+roversar the universal Rover challenge
+is a great opportunity to showcase our
+team skills and creativity by designing
+a robot that can explore outer space
+like Mars our team's hard work and
+designing autonomous
+a short way of
+dedicated mentors and a properly
+classified subsystems we are able to
+make our Dream Come True project and
+asked autonomous Rover is a
+well-designed and can be constructed
+agent that consists a range of
+specialized components to facilitate
+heat manipulation and movements
+for this Rover we have designed the
+chases considering basic Global load
+cases it is made in space frame
+configuration using aluminum Extrusion
+and compost kit panels This framework
+provides High structural Integrity
+without external panels being stressed
+the optimized dormitory are well
+distributed weights helps us to achieve
+a static stability factor of 1.3 The
+Rocker buggy system enables our Rover to
+transfer the challenging terrain on Moss
+myth easy me ensure a robot construction
+by using carbon fiber tubes and machined
+aluminum pots the differential driver
+system provides a simple and effective
+control for Rover movements enabling our
+Rover to turn and maneuver smoothly even
+in tight spaces we have designed and
+manufactured specialized dpu wheels too
+great various options
+[Music]
+operate for extended periods while still
+making a high level of performance the
+design of all the electrical systems
+using customers and the custom
+transplant here with the robotic arm a
+significant accomplishment through this
+we can have more precise control of the
+vertica and it is easy to operate in
+challenging environments
+we opted for stm32 controllers as these
+controllers are known for their
+reliability and versatility they provide
+an excellent platform for controlling
+complex systems and their High
+processing power will ensure that a
+Rover can perform a wide range of tasks
+efficiently the use of Stress Control
+Motion in the robotic arm which enable
+us to perform delicate operations
+accurately science teams are a great
+can't even various methods to find the
+possibility of life forms in motion soil
+we tried many sensors and the chemicals
+to design our own indigenous system to
+find the possibility of Cyclops up to 12
+soil samples can be collected by the
+vacuum pump and subject to an internet
+and test to detect the presence of
+amines and amino acid with the help of
+computer vision
+centers to measure nitrate phosphorus on
+potassium with pH levels in the soil is
+to check whether the soil has potential
+for life is also integrated within our
+system to get a better look at result we
+are using close-up imager to take
+detailed pictures of box up to close
+with sub millimeter resolutions by
+analyzing the crystal structures it is
+possible to determine even planetary
+level and any changes that has
+previously happened machine learning
+methods can help in the analysis of the
+crystal structures by identifying
+patterns and anomalies that will
+indicate change in the environmental
+condition therefore this approach can be
+an important role for further
+understanding of the potential
+habitability of Mars and possibility of
+extraterrestrial life
+autonomous River has been equipped with
+high Advanced artificial intelligence
+and communication capabilities
+leverage 2.1 gigahertz frequency via
+Army directional Direction at Mass these
+cutting-edge features are integrated
+within the robot to enable it to
+function autonomously and communicate
+seamlessly with other devices or systems
+within the range of operation it
+utilizes a combination of GPS and
+continuous 3D Point Cloud mapping to
+achieve independent navigation towards
+the destinated waypoints in Dynamic and
+unknown environments the point Cloud
+mapping algorithm enables the robot to
+determine its position in relation to
+its surrounding in tandem with GPS
+coordinates providing a systematic
+approach to its movement the robust
+motion is continuously monitored and
+controlled in real time through data
+collected from depth sensing stereo
+cameras the values from the odometry is
+processed using Ros to regulate the
+lower speed and direction based on GPS
+coordinates and stereo camera input
+whereas the LED strips are used to
+indicate a feedback of the Global
+successful education also incorporation
+of an interactive display within the
+Rover contribution to enhancing the
+level of interaction between the Rover
+and the astronaut relevancy Futures are
+Incorporated to provide backup
+mechanisms that can take over in case of
+failure a malfunctioning of critical
+components redundant systems such as the
+ability to activate a return to home
+mode in the event of communications
+class
+provide notifications to the operator if
+the vehicle becomes immobilized in
+challenging time
+and have the capability to dynamically
+configure Motor Performance in the event
+of motor failure with other Motors
+moreover following the analysis of
+geological data and ideal evolution of
+various elements and life forms machine
+learning algorithms are employed to
+scrutinize the data and identify
+locations that have a greater chance of
+containing fascinating geological
+formation source of water or indication
+of microbial life these areas are then
+automatically identified on a mark
+creating a heat map that serves as a
+foundation for future like personal
+solution in order to enhance the
+infraction on the enjoyment of the
+process we are currently in the process
+of developing method that will allow the
+Rover to control using VR technology
+this will enable gesture control to be
+implemented into our system and
+transform the Rover into a fully
+adaptive vehicle thereby providing us
+with the necessary confidence to explore
+outer space all the advanced artificial
+intelligence and the communication
+capabilities made possible throughout
+the high speed processing power of
+Judson azx orange this powerful platform
+enables a Rover to control and process
+data in real time making it a valuable
+tool for exploring understanding the
+mystery of outer space

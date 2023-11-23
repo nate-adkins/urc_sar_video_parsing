@@ -1,0 +1,91 @@
+Hi, we are Yıldız Rover Team and welcome to 
+Yıldız Technical University Istanbul, Turkiye.
+for University Rover Challange 2023 we excited to represent you our second generation rover Flame.
+The rover's chassis is made of lightweight 
+and durable T-slot aluminum profile that  
+facilitates easy modifications between missions. 
+The differential bar used in the rocker suspension system is constructed of carbon fiber profiles to ensure high bending strength and rigidity for the vehicle. 
+The rover is capable of climbing up to 45 degrees of the slope 
+by dint of brushed DC motors with 20 Nm torque and airless TPU tires with wave-shaped patterns.
+This drive system allows the rover conquer challenging terrain conditions.   
+A 41600 mAH 6S12P Li-ion battery pack has been preferred to provide the voltages of all equipment in Rover's E-Box safely and efficiently. 
+To protect this battery our team also designed Battery Management Board.
+External communication between the rover and the control station based on 5.8 GHz access points and an omnidirectional antenna with Lora Communication Module up to two kilometer range
+At the same time communication between electronic devices is 
+provided by CAN communication protocol 
+On the STM32 series microcontroller, we use Motor Driver, Encoder, Power Distribution, BMS, and Robotic arm in the rovers' electronic system.
+In addition, we designed Science PCBs that we used in this system.
+Our team designed the CAN Bus motor driver that allows us to control motors with PID.
+The Power Distribution Board converts 24V to 3, 5, or 12 volts via the high efficiency  required for Rover’s electronic components. 
+Easily accessible emergency stop button placed on the Rover that will shut it down under considering emergency scenarios.
+Zed2 Stereo camera utilized for ARuco marker) detection via Pyzed library. 
+To achieve the task, during the scanning environment Rover detects and determines the distance to the ARuco marker, then approaches markers and passes through the gates. In case that ARuco marker is located at such a long distance that ZED2 is not able
+to detect it the Rover attempts to turn in a 
+circle to get closer to the marker to increase the chance of detection  
+Our custom-designed mission planner uses various sensors such as IMU, 
+LIDAR, RTK GNNS, and WHEEL ENCODERS to allocate the Rover in the map. 
+Also, the mission planner connects to google maps API and gets the newest map. EKF is implemented into the mission planner to fuse all movement data from the rover.  
+into the mission planner to fuse all movement 
+data from the Rover we designed a very important  
+We designed RL based autonomous driving software, which includes a deep learning
+that's made by custom RND process this algorithm 
+includes a training environment that can simulate  
+real-life problems of the Rover thanks to all 
+this work less memory usage and lower response  
+times can be obtained than others such as move 
+base from ready-mates and alternative packages  
+this year six degrees of freedom robotic arm is 
+composed of  T-slot aluminum and 3D printed PLA 
+component. By dint of linear actuators, stepper motors, and magnetic encoders; the robotic arm operates
+via High precision and is capable of handling 
+a payload of up to 5 kilograms 
+A 2 finger adaptive gripper is designed to achieve a wide 
+range of gripping capabilities the gripper can  
+provide both parallel and rounded grip and its 
+gripping surfaces are covered with rubber to  
+increase the friction coefficients furthermore 
+the gripper's fingers can be replaced with spoon  
+shaped ones to collect samples during the science 
+Mission the inverse kinematic equations provide  
+Target angle values for a given Target position 
+therewithal current angle values are obtained  
+from high sensitivity magnetic encoders as5600 
+using PID algorithms targets and current angle  
+values are compared and then the robotic arm 
+is controlled we designed our live detection  
+mechanism with the motivation of exploring, extinct, 
+extant and no life by searching for  
+organic compounds and biochemical activities 
+in rock and soil samples the gripper takes the  
+soil sample from the surface and places it into the 
+science mechanism which is transferred to four cuvettes  
+and tubes with the robotic arm the peristaltic
+pump that we produced pours water into those  
+cuvettes and tubes soil sensor NPK determines 
+the presence of nitrogen phosphate and potassium  
+while pH sensor measures the pH for habitability 
+by interacting with soil samples in the science  
+mechanism after our revolver system mixes the soil 
+with distilled water the chemical tests liquids
+from the syringe system will be transferred we 
+use three biochemical tests to analyze the soil  
+samples By Bradford Test test we search for proteins and 
+with Sudan III test as we investigate the lipids  
+in soil we also use the Schiff test to determine 
+if the soil has aldehydes the custom made with  
+spectrophotometer detects compounds in the soil 
+such as chlorophyll and carotenoids among the  
+purpose of life detection our size mechanism have 
+components the examine suitability of environment  
+for living organisims the sensors detect carbon 
+monoxide ammonia hydrogen nitrogen dioxide  
+carbon dioxide methane temperature humidity and 
+pressure levels Vis/Near Infrared Reflectance Spectrometer that we also made; 
+identifies biominerals rocks analyzes a wide 
+range of inorganic and organic compounds we  
+interpret the color tones and sediment 
+shapes on the rocks and soil surface  
+using our sedimentology archive the interface we 
+developed at Munsel Color Chart we integrate  
+a digital microscope into our science mechanism 
+to trace forces for investigating Extinction

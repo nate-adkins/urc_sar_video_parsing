@@ -1,0 +1,130 @@
+[Music]
+we are our sorrow buttocks the robotics
+chapter of Army College of Engineering
+India we present you thoroughly our over
+for you RC 2019 we are a team of 40
+students passionately working towards
+building the next Mars rover we are
+dedicated to addressing the shortcomings
+of our previous attempt at you RC and
+meeting the new competition requirements
+we have been working on our over the
+past year performing research designing
+the systems fabricating the chassis and
+testing the individual subsystems as
+well as the integrated system we have
+structured our team into five sub
+systems namely mechanical design power
+systems science team communication and
+software and administration after
+considering various geometries we
+concluded that the a charm with Kimber
+link was best suited for the rigorous
+condition of URC
+also the Kimber link helps in
+withstanding any lateral loads acting on
+the wheels
+the design was fabricated using 6000
+series aluminum to significantly reduce
+the weight since the center of gravity
+of the vehicle is closer to the front
+wheels
+a stiffer spring is used in front as
+compared to the rear a compact and light
+five degree of freedom robotic arm has
+been employed to meet the requirements
+of the competition for the task of
+lifting and carrying objects a
+custom-built fourth prong gripper has
+been used
+we have extensively tested the robotic
+arm to meet the intricacies of the
+equipment servicing tasks we are using
+planetary gear motors operating at high
+torque which is well adapted to the
+undulating terrain in order for the
+rover to meet the demands of the extreme
+retrieval and delivery tasks we have
+tested its performance in conditions
+similar to that of the MDRS
+the planetary gate motors are driven by
+wiper 35 ampere motor drivers micro
+super drivers control the motors used to
+rotate the antennas as well as the base
+and the rest of the arm release have
+been used for controlling the actuators
+the rover is powered using a pair of 6s
+lithium polymer batteries the voltage
+current and temperature of the battery
+system is continuously monitored and
+sent to the base station in real-time we
+have integrated a kill switch in the
+rover and base station to cut off power
+completely in case of an emergency as
+specified in the science machine this
+year we have focused on finding extinct
+and extant life and also performing the
+dust completely onboard the rover we
+perform basic tests like temperature and
+humidity using sensor SST talent and
+soil color test based on the Munsell
+color chart the performer co2 test on
+the soil sample collected to measure the
+change in co2 concentration which can
+indicate the presence of aerobic life
+the pH and indicators help us identify
+suitable conditions for sustaining life
+this in conjunction with the
+cyanobacteria - we are looking into can
+help us draw a conclusion about extinct
+and extant life we have designed a
+compact system which will fit on both
+the rover this system will drill into
+the ground retrieve soil and prepare a
+soil solution which will be used for
+performing the aforementioned tests we
+will be analyzing composition of rocks
+using image processing we are using
+omnidirectional and directional antennas
+operating at 2.4 gigahertz the
+directional antennas are used for video
+streams while the omnidirectional setup
+is used for reliable control and
+telemetry
+including some non Aloise condition an
+antenna tracker is being tested for
+automatically rotating the directional
+antenna as the rover moves
+we have used our OS to implement
+reliable and simple communication
+between the nodes using a publisher
+subscriber architecture a live video
+stream and telemetry is continuously
+related to the base station the sensors
+mounted on the rover determine its
+current GPS position and the course of
+the rover is updated accordingly to
+steer it towards the destination using
+the hammers
+formula from the 3d point cloud
+extracted from the canet we to RGB D
+sensor any large obstacle is detected
+and consequently circumvented we use
+computer vision techniques implemented
+with open CV to detect the tennis-ball
+markers of the task the depth map can be
+used for performing simultaneous
+localization and mapping in order to
+meet the requirements of the autonomous
+terrain traversal tasks the Aussie has
+brought together a team of enthusiastic
+and committed students who oversee
+different aspects of this challenge our
+strength lies in recruiting people best
+suited for a sub task as well as
+meticulous planning throughout all the
+stages of system development and
+allocation of finances inclusive of our
+prospective trip to you now see you at
+MDRS
+you

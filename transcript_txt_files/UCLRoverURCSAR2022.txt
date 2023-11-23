@@ -1,0 +1,145 @@
+hi welcome to macspace and this is uclr
+this year's focus was to redesign the
+robot suspension as in previous years we
+have kept the rocket boogie system as
+versatile easy to maintain and
+relatively light
+the main changes are in structural
+structs which are now mean of the
+perpendicular aluminum tubes these
+lights be welded into elementary machine
+bushings the enemy in a baltimore
+assembly increases the strength and
+allows us to achieve a reduced weight of
+4 kilograms per second
+furthermore a complete redesign of the
+suspension differential was made in
+order to eliminate the spring converting
+the system from the motion limiting two
+pivot system into a one pivot system
+which allows the rover to correctly
+tackle up to 45 degrees inclines in
+every direction
+once again major weight savings were
+achieved thanks to the use of aluminum
+and topological analysis
+thus confirming a total weight of just
+under 10 kilograms rfa simulation was
+conducted for every part of the
+suspension in order to ensure it could
+withstand the weight of the rover with a
+minimum state factor of 2.5 a weight
+reduction of 33 was achieved if we
+continue working our way down the rover
+we'll find the motor casings which have
+been redesigned to fix the candidates
+found during earlier competitions and
+testing
+inside of them are two kilowatt motors
+with maximum rpm of 32 000 are housed
+they are connected to 74 to 1 planetary
+gearboxes which will increase the amount
+of torque our motors can deliver
+software changes were implemented to
+reduce skidding pid controllers ensure
+that the change in torque is not
+instantaneous which could damage the
+gearbox and result in complete loss of
+brick moreover torquers were used to
+reduce sensitivity and a new button has
+been added to half the speed of the
+motors which allows for precise control
+this has also been implemented in the
+robotic arm which now has three
+different speed modes allowing for
+various controls aiming for fast
+movement and correct precision our five
+axis arm is currently operated by two
+linear motors and three stepper motors
+the three millimeter aluminum structure
+was kept from previous years whilst our
+gripper has been completely redesigned
+it is now less bulky less heavy and
+stronger furthermore is more efficient
+due to the simplification of the
+mechanics and now uses the warm gear
+meaning that the safety gripper is now
+only determined by most
+the new addition to the mobility arm is
+our z2 camera
+stereo camera from its vision you can
+create a three-dimensional environment
+around the world
+making the manipulation much easier to
+accomplish
+the robotic arm can be controlled using
+reverse kinematics and of optical
+avoidance control performed by movement
+packages or by our rc controller our
+rover will be powered by six fourteen
+volts ten thousand milliampere graphene
+batteries which would efficiently power
+our motors and give them the
+capabilities to work at full throttle
+for more than three hours furthermore
+one last 12 volt 5000 millimeter battery
+will power our serial nx our science
+cache and also our robotic arm this
+science cache module consists of a mini
+lab equipped with the necessary
+mechanical system and chemical assays to
+collect soil samples and assess the
+presence of organic materials the mini
+lab is separated into two sections one
+on-board elevator equipped with a drill
+and another section containing the soil
+analysis equipment with these two
+sections the rover can retrieve source
+samples as well as autonomously prepare
+them for analysis
+once the rover reaches the desired
+location the drill sub-section of the
+science cache is activated and the lift
+carries a drilling subsystem to the
+ground and also retracts it back into
+the science cache
+the sample is deposited into the testing
+tray which is placed on the linear rail
+the tray is first moved under an array
+of sensors including ph temperature and
+humidity sensors for preliminary testing
+then it moves progressively into five
+burettes containing organic solvents to
+extract organic material and the soil
+would then be discarded vibration is
+induced on the tray to break up organics
+which will be then sent for analysis and
+their spectrometer
+two radio antennas will be used for
+communications
+one 2.4 gigahertz antenna will be used
+for video feed whilst the 900
+megahertz frequency will be used for
+telemetry and control
+as you can see our card design greatly
+differs from our current variable yet
+stay reassured despite delays in
+delivery manufacture we are striving to
+have a fully renewed rover before the
+end of march
+this will be done by our precision
+equipment
+available in our labs the toner's
+navigation test will source odometry
+from a gps receiver and our stair camera
+which has an accelerometer joined
+together with stereo slam capabilities
+that we have tested our rust navigation
+package should be able to perform
+greatly an autonomous navigation
+challenge we're using the justice
+algorithms an extended common filter for
+efficient pathfinding and noise
+resistant odometry
+this has been ucl rover team thanks for
+listening

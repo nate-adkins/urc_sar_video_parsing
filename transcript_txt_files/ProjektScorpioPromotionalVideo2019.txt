@@ -1,0 +1,120 @@
+[Music]
+hi we are project Scorpio which is part
+of scientific society off-road base of
+roots of university of science tech
+technology at the Faculty of mechanical
+engineering the team is supervised by
+Professor Nijinsky and dr. Cassavetes
+key the memory consists of mechanical
+electrical science and software
+engineers which are divided into three
+projects working at specific parts of
+the Rover we can define five product
+groups working on robotic arm effector
+optimization of Drabek unit rotor
+antennas and mobile laboratory previous
+versions of the skulker overs were
+characterized by a crude construction
+based on electromechanical actuators
+this year's manipulator has six degrees
+of freedom
+powered by 24 volt DC motors the biggest
+challenge this year is the use of
+cremona gears they have been used
+because of the high transmission ratio
+applauded overall dimensions and the
+possibility of better wiring of the
+electrical harness in order to reduce
+weight will limit the number of aluminum
+elements in favour of the carbon fiber
+for controlling a manipulator with their
+inverse kinematics in three dimensions
+scope the next construction is made
+mainly using aluminium and lightweight
+polyamide materials with very good
+mechanical properties many elements of
+their over a metal frame metal case that
+are made using aluminium and the drive
+module which is equipped with 1 kilowatt
+BLDC motors rubber suspension is called
+the rocker the rocker is a simplified
+version of rocker-bogie
+which is being used in Kruger City
+rather we decided not to change
+suspension and drive model from the ones
+used in previous year because they
+behaved very well in various conditions
+besides that they were tested in JPL and
+approved by NASA engineers to ensure
+that the rubbers construction won't be
+damaged during the competition we made a
+lot of Fe M durability analysis project
+is divided into modules connected using
+canvas at LAN as a rover main computing
+unit we are using NVIDIA GTX 2 which is
+coordinating all other module
+the most important components are my
+controls robotic arm control unit
+I am new and DGPS for RF Li we are using
+900 megahertz and 2.4 gigahertz
+frequencies uniform Hardware layer
+allows us to implement the common
+software layer used by all modules each
+electronic module is made of two parts
+first one is a universal logic board
+which contains communication interfaces
+and stable source of power for the whole
+module second one is a specific circuit
+which executes specific tasks depending
+on its purpose the Rovers vision is
+based on the main camera mounted on the
+mast its module is able to perform two
+axis rotations and contains a moto zoom
+lens rest of the cameras are mounted in
+the specific locations which allows us
+to get the vision of the surroundings
+all around the rover the task specifies
+to recognize a tennis ball for the image
+recognition task we used a conclusion of
+narrow Network real-time differential
+GPS is the measurement method which uses
+two stations bass and rover the genus s
+receiver uses more satellite positioning
+systems like GPS bado
+and GLONASS which simultaneously improve
+measurements accuracy differences
+between actual measurements for the base
+station and its real position are sent
+with the Wi-Fi or GSM courier to deliver
+the receiver gets those Corrections and
+sums them with a position measured by
+the own GNSS receiver on there over the
+science group is conducting and
+developing simple chemical analysis
+allowing to characterize the environment
+all data are measured on border over
+there are two types of sensors first
+group is located on the mass and capable
+of continuously measuring temperature
+humidity and UV index we also provide
+our rover with the set of sensors which
+allow a soil sample analysis the robotic
+arm is a special effect are designed to
+collect small amount of soil for further
+analysis of pH conductivity and humidity
+all sensors are placed in a special
+container isolated from the environment
+we also design and develop DIY UV
+spectrophotometer
+which provide us with valuable life
+science information the robotic arm is
+also capable of measuring environmental
+parameters of sample collecting sites
+like carbon dioxide and methane
+concentrations as well as temperature
+and predation lever to name a few
+this set of data allow us to describe
+the indian environment with respect to
+life science any chemicals or water used
+onboard are safe and will be not linked
+on the ground

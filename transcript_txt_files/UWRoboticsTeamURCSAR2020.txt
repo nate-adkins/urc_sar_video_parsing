@@ -1,0 +1,144 @@
+welcome to you Waterloo engineering my
+name is Tony and on behalf of the
+University of Waterloo Rover team I am
+proud to introduce you to our 2020 you
+RC Mars rover ye over 50 members for
+more than a dozen disciplines across
+various faculties have spent the past
+seven months designing building and
+programming our 2020 Rover our team is
+organized into five divisions being
+mechanical electrical software science
+and business over the past month the
+team has been busy conducting full
+system tests and tasks simulation in
+environments which are designed to
+closely mimic the competition our
+drivetrain features a four-wheel
+suspension system selected for its
+lightweight ability to overcome
+medium-sized obstacles and ease of
+maintenance the rover features 12 inch
+balloon tires and is able to overcome
+16-inch obstacles and has a top speed of
+6 miles per hour the newly designed
+robotic arm which has a maximum lifting
+capacity of 25 pounds is capable of
+holding 10 pounds at full extension we
+implemented linear actuators and worm
+driven joints to reduce backlash in
+doing so a lightened design was created
+and validated through FAA without
+compromising on performance
+this year's arm has 5 degrees of freedom
+and a continuous rotation wrist which
+interfaces with a new end effector
+design featuring load sensing
+capabilities achieved with a force
+sensitive resistor and attachments such
+as an allen key tool tip to simplify
+task completion the forearm and wrist
+assembly features a compact profile and
+half the weight of last season's design
+while the end effector has the same
+footprint but extends almost one and a
+half times as wide finally compared to
+last season's design dead shaft joints
+were used extensively to eliminate the
+need for keyed shafts on many joints
+easing manufacturing assembly and
+maintenance this season science module
+improves upon last year's sample
+extraction mechanism by creating a more
+precise soil extraction and deposition
+mechanism instead of an auger this
+seasons module utilizes a belt driven
+shovel system that lifts the collected
+sample up through a slot in the
+centrifuge and deposits the sample into
+one of eight test tubes the centrifuge
+is indexed by a Geneva Drive mechanism
+with the test tube sealed off using a
+sealing lid
+the samples are initially analyzed via
+temperature and humidity sensors which
+enter the soil sample during the
+extraction process finally the entire
+module has a footprint of under 1.5
+cubic feet and weighs less than 15
+pounds this year's electrical design
+focused on refining our existing designs
+and improving overall system reliability
+our new electrical box provides greater
+accessibility to the performance
+container thing which will no doubt be
+useful in the heat of the competition
+this is enabled by the fact that module
+specific boards arm and science are
+mounted onto their respective modules
+rather than in the electrical box itself
+the new addition to the rover this year
+is a safety board which water is the
+various voltage rails of the system as
+well as reads the output of six current
+sensors that monitor the current through
+the motors on the current module this
+year the team we are connected the rover
+software from the ground up with an
+emphasis on reliability and robustness
+we wanted to make sure that the Rovers
+performance across all the tops were
+stable and consistent implementing
+contingencies as countermeasures to
+potential system failures all of our
+custom boards are connected on two
+separate can networks running software
+that will automatically switch to the
+other network when it detects bus issues
+we also had a focus on improving
+teleoperation controls to make them
+simpler and more intuitive our
+drivetrain can be controlled through
+open-loop voltages closed-loop speeds or
+even commanded to maintain a certain
+position our arm can also be controlled
+in open-loop closed-loop speed and
+closed loop position modes as well we're
+also working on improving our inverse
+kinematics control so that the operator
+can command the arms end effector
+position the operator can quickly cycle
+through all of these control schemes and
+choose the one that's most appropriate
+for the task at hand our autonomy
+software is written within the flexp
+behavior engine framework to be able to
+organize and facilitate the various
+autonomy routines operators can adjust
+the level of autonomy which enables them
+to pause in between the autonomous tasks
+legs to enter or adjust GPS coordinates
+and ensure the system is working
+properly the rover navigates the targets
+based off a simple vector field approach
+that uses GPS fix and I'm you to compare
+its location in relation to the target
+this can be visualized in map is to
+ensure the system works properly we use
+open source packages to achieve reliable
+vision
+the vision system was initially tested
+on a Roomba robotics platform so we
+could quickly prototype and iterate on
+it this translated well into the rover
+where we tested it outdoors and
+conditions similar to a competition in
+terms of terrain our Rover also has
+access to a Zaid camera which provides
+real-time depth data which can be used
+for obstacle avoidance this year's Rover
+features comms running on 900 megahertz
+2.4 gigahertz and 5 gigahertz we have
+implemented automatic load balancing so
+that more network traffic goes through
+the frequencies with higher bandwidth

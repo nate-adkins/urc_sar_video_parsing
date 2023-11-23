@@ -1,0 +1,60 @@
+Hello, we are AGH Space Systems from the AGH university in Kraków, Poland.
+We are a team of 34 students from various fields of study, from robotics and computer science, up to chemistry and geology
+We are divided into 4 sub teams: mechanics, electronics, software and science
+Today, we would like to present an effect of over 5 years of development
+the planetary rover Kalman
+Our key design rule is high modularity
+This allows for iterative development and replacing entire subsystems, without suspending the rover’s operability
+The drive system is based on a rocker suspension and 4 independently turned and propelled wheels
+This allows us to drive sideways, diagonally and even turn in place
+This year we’re building a new, lighter suspension and more powerful propulsion modules
+to complement the 40% lighter and more spacious frame developed last year
+We have also developed a new iteration of 3D printed wheels, saving 3 kg
+and continue to work on improving their design
+The rover’s arm is a product of over 2 years of development
+It features 6 degrees of freedom, BLDC motors and a decentralized controller
+IK algorithms and predefined trajectories make it fast to carry out tasks
+Last year we focused on improving its reliability and developing a modular gripper
+It houses 3 perpendicular cameras and allows us to easily change claws for different missions
+or attach extensions, such as the macro camera for the Science Mission
+Good serviceability is one of our main design goals
+Batteries quickly slide in and out of 3D printed mountings outside the frame
+The arm is connected with just 4 screws and 2 cables
+Last year we even redesigned all crucial PCBs to have the same physical size
+Now they slide right into a single, 3D printed box
+Replacing PCBs for different missions or in case of failure has never been faster
+All of this allows us to switch the robot's configuration between Maintenance and Autonomous missions in under 10 minutes
+while staying under the 50 kg weight limit
+The rover has been fitted with an easily accessible red emergency button
+which physically breaks the connection to the batteries, completely and instantly shutting off power
+Communication between the rover and the ground station is ensured by 433 MHz full-duplex RF modules
+Video feedback is provided by a 5.8 GHz link
+This has been tested to provide comfortable control over the rover on distances reaching 1 km, with minimum video delay
+Our ground station application has been greatly improved over the last year
+It now features live visualization of wheels and arm position
+Localization of the robot is shown on a satellite map
+Operators can quickly switch between several modes of steering the rover or access predefined arm trajectories
+We use a classic gamepad for driving and a 3D manipulator for controlling the arm
+Our autonomous system is based on ROS packages that were adjusted to outdoor environments
+The localization algorithm is based on IMU and GPS RTK, which ensures up to 5 cm accuracy
+Data from the sensors is then merged by Extended Kalman Filter
+For mapping purposes, we use an IR based stereo camera, to generate a costmap
+Fast and robust computer vision algorithms are used for detecting and localizing aruco tags
+We test the autonomous traversal on bi-weekly basis in a variety of difficult, real-life environments
+to make sure that our system works irrespective of terrain type or weather and lighting conditions
+During Science Mission soil samples are collected with a dedicated scoop end-effector and placed in sealable containers
+The arm movement is automated in order to save time
+Soil solution is then prepared and exposed to a series of chemical tests
+which can detect the presence of various biomarkers
+To provide additional context of the sampling site, a wide-angle panorama is easily captured
+thanks to the rover’s ability to turn in place
+Chosen sample is placed in an additional container
+The onboard lab are easily detachable to save mass during other missions
+All of the rover’s subsystems have been thoroughly tested before integration
+while regular test drives allow operators to perfect their skills well before finals in Utah
+Each year we take part in numerous science fairs, to inspire future generations
+Last fall, our rover was also displayed at the International Astronautical Congress in Paris
+the biggest event of this kind
+None of this would be possible without support from our University, Ministry of Education and Science and private sponsors
+Thank you!
+see you in space

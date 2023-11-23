@@ -1,0 +1,66 @@
+welcome to Texas Mars robotics team in
+order to complete the extreme retrieval
+mission we decided it was important to
+be able to scale a 15-inch sheer wall as
+well so I have 100% great ability we
+thought the best way to accomplish this
+while staying within the size and weight
+constraints was a rocker-bogie mechanism
+we decided to stick with the classic
+rocker-bogie linkage while adding a few
+modifications to add a shock absorption
+through TPU bushings on many of the
+critical joints we've also decided to
+use minor gears instead of the classic
+kinematic linkage this makes the entire
+system smaller and more compact while
+giving a small downside of a little bit
+more backlash for a 5 degree of freedom
+arm we have upgraded our dynamic
+movement by using operational space
+control generated using Payne's method
+to improve how we drive our joints one
+of which is a powerful linear actuator
+to help lift loads exceeding 5 kilograms
+our team has equipped it with an array
+of potentiometers to save the absolute
+position of the arm at all times the
+gripper has a unique aluminum layer that
+assists in turning a screwdriver
+incorporates a solenoid to manipulate a
+keyboard and do the basics such as
+pulling ropes turning knobs flipping
+switches and pushing button on top of
+that we've strived to make it easily
+replaceable with no sample return so for
+this your science pushing we will be
+looking at byproducts of metabolism as
+well as conditions that are promising
+for extant life and the way we'll do
+this is through a color-changing
+tester which will hit things such as I
+tried pH absorb a glucose enters the
+base station utilizes an nvidia gtx 1060
+GPU and 2 monitors to accommodate two
+operators it communicates with the rover
+through our motorized 2.4 gigahertz
+Wi-Fi sector antenna
+our user interface is laid out so the
+operator can focus on the navigation of
+feedback they need communications are
+established as a client-server
+relationship
+which the rotors onboard server is the
+central communications hub for all of
+the rover systems phys-ed cameras
+spatial mapping capabilities will assist
+us in the autonomous traversal tasks as
+we locate our gates as well as the
+Arouca markers they've been a great
+resource to our team and I hope their
+work really shines through we show off
+our Rover this year they're fully
+prepared to succeed in this year's
+University Challenge you can free
+consideration we have to see you
+[Music]

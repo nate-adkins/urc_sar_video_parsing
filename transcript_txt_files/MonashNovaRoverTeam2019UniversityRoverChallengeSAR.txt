@@ -1,0 +1,146 @@
+[Music]
+today welcome to Nova robot we are a
+multidisciplinary student team based
+Monash University in Melbourne Australia
+since the 2018 USC we have expanded our
+team to 33 members covering chassis
+electrical arm software science
+logistics and communications sub teams
+all of our members have been hard at
+work designer whiter smarter over to
+compete in the 2019 competition
+[Music]
+the 2019 rover features a new custom
+suspension system designed in-house by
+the chassis team the focus was to ensure
+that the rover would maintain control
+over its position at all times over any
+of the anticipated terrain in order to
+achieve this we designed a custom bogie
+system which allows each of the six
+wheels to move independently with
+respect to the frame the flexible design
+provides even weight distribution and
+ensures all six drive wheels maintain
+contact with the ground at all times the
+large footprint six wheel design paired
+with a low center of gravity provides
+excellent stability and control on any
+incline we designed a modular frame with
+common drive wheel units to allow us to
+quickly and easily replace any of the
+six units with a common spare our new
+Rover custom six wheeled suspension
+system and frame has provided a highly
+controllable and stable platform for our
+2019 Rover
+building upon the previous mission
+success of the endeavor scientific
+payload an experimental portion of the
+2018 science cage task we are looking to
+integrate a suite of institut
+biochemical life detection assays and
+innovative mechanical systems into this
+year's Sagan scientific payload over the
+past two years we've explored a range of
+manufacturing methods to develop a
+custom drill to meet the demands of the
+science team and limitations of the
+robot adapting to this year's new
+ruleset we have developed a novel soil
+processing and analysis unit that
+extracts organics from soil samples and
+uses spectrophotometry to search for
+biosignatures Sagan will therefore have
+the capability to search for the
+presence of lipids proteins and enzyme
+activity as a proxy for cellular
+viability and therefore the presence of
+absence of life following from our
+experience in Russia's competition we
+have drastically increased the overall
+quality of parts with advanced
+fabrication techniques in the arms of
+assembly system allowing for better
+rigidity and management of stress
+concentrations the new construction of
+the arm linkages lowers weights and
+increases the range of motion of the arm
+belt drives are used to reduce motor
+backlash and 24-volt linear actuators
+provide robust lifting force the NF
+actor has been redesigned to better
+class 3-dimensional objects the spring
+loaded fingers provide an encompassing
+grip on the variety of shapes required
+this year we've completely redesigned
+the electrical system with the aim of
+making every subsystem as efficient and
+reliable as possible we've changed our
+approach to battery management
+incorporating voltage current and
+temperature monitoring and a safety shut
+down switch into a single modular unit
+the drive motors are controlled by six
+high performance talon SR X's utilizing
+their advanced onboard PID algorithms
+our various subsystems communicate via
+canvas which is a tough fast and
+reliable communication protocol
+originally designed for automotive
+applications we've designed and built
+our own custom PCBs including seven
+motor drivers for the arm with onboard
+microcontrollers enabling tight feedback
+loops and Institute diagnostics the
+brain of the system is the nvidia jetson
+tx2 a versatile computer powered by
+Nvidia's pascal architecture with
+powerful integrated deep learning
+capabilities and a platform
+purpose-built for AI tasks like computer
+vision and autonomous navigation this
+year software team have focused our
+efforts on addressing the shortfalls of
+last year's software system to allow for
+faster debugging and software
+development overall we have begun using
+them we bought simulated to test our
+code independently from the actual
+physical Rover and our new control
+center GUI will allow us to see the
+status of the rover and all peripherals
+attached such as senses camera needs and
+radio connectivity our primary
+navigation camera is a dual lens 180
+degree field of view camera mule through
+a VR headset which provides death
+procession to the driver and is
+important for spotting obstacles that
+might otherwise trip up the rover will
+also change the semi directional base
+station antennas which will improve
+signal strength and we will also be
+employing both a more reliable 900
+megahertz radio system as well as a
+higher bandwidth five-point Hertz system
+behind the scenes of all of these
+systems are state machines which manage
+the status of all parts of the software
+stack so that the river is able to adapt
+its behavior to whatever conditions it
+is currently experiencing
+for example switching states from the
+Traverse during the autonomous task to
+avoid when detecting an obstacle to
+search when the rover has reached its
+destination path planning is calculated
+based on real height map data to avoid
+any extreme slaves and to detect the
+tennis ball we have developed and
+trained our own neural network that has
+23 convolution and 2 detection layers
+these were enabled the network to detect
+the tennis ball regardless of distance
+or environmental interferences
+you

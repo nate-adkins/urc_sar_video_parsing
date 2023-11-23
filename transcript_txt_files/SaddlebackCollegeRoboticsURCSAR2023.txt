@@ -1,0 +1,147 @@
+hello Saddleback College robotics is
+proud to present our fifth generation
+Rover Helios our team is divided into
+five subsystems chassis Drive arm
+science and autonomy we constructed our
+chassis at a welded 6063 aluminum tubing
+and riveted floor pan ensuring high
+strength and rigidity while maintaining
+low weight to reduce chances of brownout
+or communication loss our Rover is
+powered by four high energy density
+Lithium-ion batteries with power split
+between a 48 volt battery power and
+Computing electronics and three 12 volt
+batteries connected in parallel powering
+the drive arm and sign systems
+additionally each battery is paired with
+a battery management system a custom PCB
+integrates both a hard and soft kill
+switch which allows us to cut all power
+while keeping Computing electronics
+online or cut all power in case of an
+emergency helios's five degree of
+Freedom R mounts two heavy duty linear
+actuators on a fiberglass frame making
+it strong rigid and lightweight at the
+bases in Azimuth turret whose
+hypocyclical cage pinion and ring gear
+mechanism produce high torque with zero
+backlash the turret is modular and the
+payload is swapped between arm and
+science missions our lead screw end
+effector is mounted on a series of gear
+trains for precise positioning it
+features textured neoprene grips to
+securely grasp various objects and it
+houses both a small linear actuator for
+pressing buttons as well as a hex key
+for tightening screws each axis of the
+arm is controlled with closed loop
+control for precise arm pose
+this year for our drive system we have
+designed a custom control arm suspension
+with an adjustable pneumatic shock that
+can provide sufficient dampening over
+extreme terrain and even further
+reinforcement and movement across all
+Mission operations our control arms are
+lightweight and modifiable allowing
+Helios to fit within the size and weight
+requirements 42 centimeter low pressure
+pneumatic tires are used to increase our
+ground contact patch to reinforce our
+Rover with improved climbing
+capabilities this is held together with
+a 3D printed bearing block and a
+clamshell Hub each wheel is powered by
+400 watt brushless DC motors using 80 to
+1 planetary gearboxes generating an
+overall output torque of 210 newton
+meters for our motor drivers we're using
+dual motor controllers with three-phase
+hall effect sensor feedback and
+integrated PID Loop controls capable of
+up to 120 amps of continuous current the
+science team has further developed our
+mission by improving sensitivity and
+efficiency our science package includes
+life detection via ATP chemical
+luminescence analysis capable of
+detecting and quantifying ATP and soil
+samples even at extremely low
+concentrations
+samples are vacuumed into a light seal
+testing chamber mounted onto the Rover
+for analysis
+they are filtered into cuvettes
+containing a chemical solution and
+luminescence is measured via a
+photomultiplier tube results are
+transmitted wirelessly back to the base
+station the testing chamber also
+contains a sealable compartment where a
+sample can be stored and retrieved after
+the mission with our enhanced UV
+fluorescence experiment we can detect
+past life and soil and rock samples
+specifically from mineral signatures and
+fossils we will use an original science
+team developed algorithm that examines
+RGB values pixel by pixel for spatial
+analysis of rock samples for this year
+communication with the Rover is the
+chief food ubiquities Air Max rocket 2
+AC prism radio and bullet AC IP67 on the
+2.4 gigahertz radio band which are
+optimized for non-line of sight
+communication and high bandwidth data
+streams the Taylor communication system
+is run across a point-to-point network
+connection where control commands an
+analog signals from the base station
+interface are sent Downstream while
+Telemetry is sent Upstream through rep
+ross2 notes the rost2 interface enables
+the user to to control Motors cameras
+and Status signal as well as monitors
+process indicators and video feeds to
+control the arm we are using a virtual
+twin simulation of the arm which an
+implementation of inverse kinematics for
+positioning a due shock PS4 controller
+is also utilized for Drive control
+providing more freedom of movement and
+enabling manual drive over Network all
+autonomy modules communicate onboard the
+Rover via ros2 nodes autonomous
+navigation is achieved using
+differential gnss to accurately
+determine the rubber's location a GPS
+Waypoint is then provided to guide the
+Rover to a Target location we are using
+the magnetometer on the navx IMU to
+orient the Rover according to its
+calculated travel Vector we use the z2i
+stereo camera as input for vslam
+additionally we are leveraging the nav2
+library with inputs from vslim lidar GPS
+and IMU and magnetometer for path
+planning obstacle avoidance and Waypoint
+mapping we are using nav2 search
+algorithms for search route optimization
+which includes dijkstra's a-star the
+opencv aruco tag detection module will
+also help us in determining the accurate
+location of a ruko tags placed on
+signposts throughout the field if a tag
+is found the Rover will Orient itself
+towards the tag and drive to a Target
+distance from the tag the aruko tag
+detection is pre-calibrated for distance
+estimation prior to the mission if a
+Gateway is created by two uruko tags the
+Rover will keep track of the distance of
+both arugo tags and drive between the
+Gateway
+[Music]

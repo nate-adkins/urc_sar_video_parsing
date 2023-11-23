@@ -1,0 +1,143 @@
+[Music]
+for this year's competition the York
+University Rover team has decided to
+completely revamp her approach to
+building the rover instead of designing
+the typical wheel based rover most teams
+favor we opted into a tread based design
+the treads allow for a lower surface
+pressure making it more effective when
+traversing rough terrain our design also
+features a lower center of gravity
+enabling the use of a larger arm this
+stronger arm can be used to clear
+obstacles as well as restabilized the
+rover should it ever fall over when the
+arm is unmounted the rover will be able
+to execute inverted operations the
+science team has been researching
+extensively for the past few months to
+investigate the best methods for
+determining the presence of light and
+regulate this Rover is a modular build
+so we can alter attachments depending on
+the task at hand this keeps the rover's
+weight down as well as protects the
+scientific instruments during other
+tasks the first step in any science plan
+is being able to locate a suitable
+sample to assess for this task we will
+be looking for a combination of
+indicators for the potential of life
+some of these include mud cracks which
+could indicate a previous presence of
+water and desert varnish which could
+indicate manganese excreting microbes we
+could further narrow down potential
+sites by locating the lowest altitudes
+as well as most likely to be found there
+the sample retrieval module includes a
+long augerin or retrieval tube which
+will pull up soil samples from 10
+centimeters down using a screw pump
+mechanism this sample is then deposited
+in a sterile container where it is
+stored it is then brought back to the
+lab further analysis such testing
+includes mass spectrometry analysis and
+pH testing
+once the auger is finished two probes
+humidity and sensor will be inserted
+into the sample hole to gather more data
+at a sample depth furthermore onboard
+sensors like the Geiger counter an
+atmospheric sensor will record data on
+the sample site finally the sample will
+be observed under a microscope we will
+be looking at the soil type as well as
+any possible microbial life all of these
+methods in conjunction should be enough
+to prove or at least strongly indicate
+whether or not life is or has been
+present at the site our electronics team
+has been hard at work converting our
+homegrown software packages to Ross the
+robotics operating system Ross as
+described by its developers is a
+collection of tools libraries and
+conventions that aim to simplify the
+task of creating complex and robust
+robotic behavior
+the chief benefits of Ross are the wide
+variety of open libraries available for
+the platform and the built-in WebSocket
+based networking which streamlines the
+communication between independent
+systems this built-in networking makes
+it simple to divide deployment efforts
+across many small teams drastically
+increasing our development throughout
+our software systems are divided into a
+collection of independent nodes
+governing actuation sensors and control
+most of our custom software is written
+in Python due to its compatibility with
+Ross and availability of the libraries
+and the team's overall familiarity with
+language the base station for our Rover
+consists of a 2.4 gigahertz router and
+associate moving parabolic antenna a
+desktop computer a monitor and two
+joysticks during the competition the
+parabolic antenna will continually
+update its bearings to point the rover's
+locations ensuring reliable
+communication over large distances the
+rover is governed by a centralized
+Odroid computer maintaining a core
+networking node and several independent
+subsystem notes an onboard router
+handles communication with the base
+station actuation is controlled by three
+independent arduino nano
+microcontrollers controlling the arm
+drive and scientific instruments
+respectively sensors are handled in a
+similar way to actuators with the
+independent microcontrollers handling
+regular input from an ultrasonic array
+and publishing it to the rover network
+cameras located on the arm effector and
+central chassis also published a
+compressed video stream to the base
+station and autonomous subsystems one of
+the two Arctic a GPS chips will provide
+a proximate look
+data went out of contact with the base
+station sensors are handled in a similar
+way to actuators with independent
+microcontrollers handling regular input
+from the ultrasonic array and publishing
+it to the rover network cameras located
+on the arm effector and central chassis
+also published a compressed video stream
+to the base station and autonomous
+subsystems one of two RTK GPS chips will
+provide approximate location data when
+out of contact with a base station and a
+centimeter level accuracy from
+differential GPS methods when the base
+station is in contact our rover will
+have a toggleable autonomous mode which
+fulfills two functions for autonomous
+traversal tasks it will take a set of
+GPS coordinates and attempt to navigate
+it to them for the path planning we are
+using a multipath adaptive a star if the
+rover is out of contact with the base
+station during Intel Operation session
+it will also attempt to return to the
+last-known location with a strong signal
+basic cue circle techniques and color
+filtering allow it to hone in on
+spherical targets at short range

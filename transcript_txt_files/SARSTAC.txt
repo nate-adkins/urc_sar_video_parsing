@@ -1,0 +1,53 @@
+[Music]
+hello everyone my name is David de Leon
+and I'm the mechanical lead for space
+Technologies at UC Berkeley and here I
+am uh I'm going to talk with you about
+the arm that we designed uh
+we began by creating a 3D model on
+SolidWorks we went through various
+models until we reached the desired
+width and height went through multiple
+changes and we ultimately decided on
+laser cutting it out of a quarter inch
+plywood
+oh this isn't the the final design we
+went this way we went this route just to
+test out its functionality and see if
+this design ultimately would work
+[Music]
+I'm the software lead over here at the
+space space Technologies at Cal and I'm
+here to talk about how the arm is going
+to work and how the
+um the entire Rover is actually going to
+be functioning and moving
+um so as David explained how they
+created the arm we have a gripper here
+which is not our final gripper but this
+gripper is actually basically being
+charged with a
+mg996r type Servo to open and close the
+gripper and we're using a Nema 23
+stepper motor and it is being charged
+with a
+yeah is he charged with the digital
+stepper driver
+um to move the Rover we are using four
+DC motors and
+these middle ones are going to need a
+free-floating wheel
+and the entire thing is being charged
+with a 12 volt car battery
+[Music]
+[Music]
+hi my name is pratik jatandra and I
+worked on the suspension system for Le
+Rover so for this Rover we chose a
+rocker bogey system which would help
+throw over uh maneuver over the complex
+motion surfaces
+we're going to do a quick demonstration
+for you right now
+foreign
+[Music]

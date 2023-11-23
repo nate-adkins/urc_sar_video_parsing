@@ -1,0 +1,154 @@
+the mars river design team at missouri
+snt has been hard at work over the last
+year developing the most advanced and
+capable rover we have ever built each
+system has been extensively tested
+through a combination of computer-aided
+design finite element analysis bench
+tests and task simulations the mars
+river design team is proud to present
+our 10th rover prometheus
+prometheus is controlled by a modular
+distributed electrical system composed
+of 14 custom pcbs powered by an 8s8p
+lithium ion battery which contains
+temperature current and voltage
+monitoring circuits to interact with the
+rover mrdt has written a custom gui
+application in which operators are able
+to see and easily switch between camera
+views monitor the reverse location on
+the map and view diagnostic data sent
+from the rover these systems provide
+operators with an insight into the
+rover's state while an attachments
+manager displays results from the
+science hardware and allows precise
+control of the arm
+to ensure safety all electrical and
+software components follow a rigorous
+system of reviews and tests before
+integration
+commands telemetry and video feeds are
+sent over the network using one of two
+radio stacks a 900 megahertz antenna for
+reliable long range low bandwidth
+applications and a 5 gigahertz incentive
+for short range high bandwidth
+applications prometheus utilizes the
+fifth iteration of our custom manta
+suspension due to its exceptional
+ability to traverse rough terrain it
+features a structural composite frame
+carbon kevlar wheels gimbal and
+suspension cams and a modular auxiliary
+mounting system the offset differential
+and 23 linkage structure provides seven
+degrees of freedom while commercial gas
+springs increase responsiveness and
+range of motion the robust drivetrain
+weighs in at 49 kilograms and folds
+inward using quick release pins
+prometheus was designed to withstand
+four simulated load cases a neutral
+position full speed collision one meter
+drop and wheels stuck while driving the
+wheels are powered by new motor
+brushless dc motors producing 522 watts
+of power with a max speed of 6 meters
+per second and a max torque of 13.2
+newton meters combined with a robotic
+arm and rigid gripper prometheus has the
+ability to pull lift and carry a large
+range of tools and objects while
+traveling over uneven terrain
+our new robotic arm is our longest
+fastest and most capable arm state it
+features a dual end effector system with
+an under actuated gripper and
+multi-functional utility end effector
+the gripper is capable of interacting
+with and lifting a variety of tools and
+mission articles within its 1.5 meter
+working envelope each joint has been
+individually optimized to be able to
+lift upwards of 10 kilograms exceeding
+competition requirements and ensuring
+that any lifting or pulling task will be
+completed swiftly the laser guided
+utility end effector is designed to be
+quickly and precisely positioned to turn
+a 5 16 hex bolt while the integrated
+solenoid can press keyboard keys
+effortlessly
+12-bit absolute encoders and limit
+switches allow precise positional
+control we are continuing to use and
+develop our closed-loop inverse
+kinematic control allowing for
+high-speed intuitive manipulation for
+the autonomous task prometheus utilizes
+our custom navigation board for precise
+point-to-point gps navigation during
+navigation prometheus uses our z2i
+stereo camera for two asynchronous
+computer vision algorithms the first
+detects ar tags using opencv's aruco
+library and the second allows us to
+avoid obstacles seen in the zed's 3d
+point cloud once successfully reaching a
+marker or a gate a rover will enter into
+a search pattern and spiral outward
+until the air attacks are found the
+rover will then enter into a new
+navigation routine to either approach a
+single marker or maneuver through a gate
+completion of the task will then be
+indicated using the led panel on the
+back of the rover all of our new
+features go through a rigorous amount of
+both bench and field tests before
+getting a final review and ultimately
+being pushed to dev this year we've been
+able to utilize the webots robot
+simulator to bench test many of our
+autonomous algorithms virtually allowing
+us to have more testing capabilities
+immediately available to us throughout
+development
+for the science mission mrdt is using a
+two-axis cartesian arm to lower a scoop
+into the soil sites to collect samples
+water will seep into the soil and
+through a filter that will allow
+biomolecules to pass allowing for more
+clear results
+firet dish diphenylamine and propatium
+iodine reagents sat in the test tubes
+will undergo reactions in the presence
+of proteins dna and dna from dead cells
+the uv led will allow us to view
+fluorescence when propidium iodide
+reacts this year we have introduced a
+novel heater system that will aid the
+disc reagent to produce a reaction
+a single axis cartesian arm lowers a box
+housing sensors a microscope and a
+custom built fluorometer the sensors
+will detect concentrations of oxygen
+carbon dioxide methane nitrogen dioxide
+and nitrogen monoxide near soil and rock
+sites
+the microscope's camera magnifies up to
+200 times allowing us to view in detail
+of the mineralogy and characteristics of
+each rock basestation will house a new
+custom rock database where users input
+features for it to output a confidence
+scale of the most probable type of rock
+lastly the fluorometer will not
+detect select biomarkers on the rocks
+thank you for your consideration the
+mars river design team looks forward to
+competing in the university river
+challenge this june

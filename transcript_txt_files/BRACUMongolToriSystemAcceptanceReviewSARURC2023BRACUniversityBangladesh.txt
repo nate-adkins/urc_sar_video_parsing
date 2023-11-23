@@ -1,0 +1,166 @@
+[Music]
+thank you
+hello this is team leader breaking
+mongolatory from break University it
+gives me a nice pleasure to introduce
+our latest Rover and to invite you to
+participate in the system acceptance
+review of USA 2023 our team is made up
+of 30 000 and dedicated undergraduate
+students who share a passion for
+engineering and Technology this year we
+have divided ourselves into nine
+specialized sub teams each with a
+specific Focus such as mechanical 3D
+design and simulation Electronics
+communication control science management
+publication Ai and autonomous and
+funding and Outreach
+learning from previous experiences we
+have adapted and modified hour over
+towards the more reliable and state of
+the art machine which can complete
+exploring any terrain with ease the Asia
+ladder shares erases any form of
+deformation when it transverses the
+heart of the Rover circuits and
+electrons is supported and secured over
+this Strat further improved stability
+and traction is achieved using modified
+stainless steel light wheels and thick
+rubber gripper to prevent flipping off
+the Rover a redesigned extender with
+which extends the base area to change
+the center of gravity for a stable
+descent moreover a 60 degree angular
+tilted wheel to frame orientation of the
+frame provides more stability in slow
+descent to support the asterisk with
+equipment servicing and various arduous
+experiments a 6 degree of Freedom arm is
+used our three finger clock and design
+can help with any difficulty also the
+excavator clock and the examples of soil
+that can be extracted with ease or
+underdevelopment adaptive two finger
+clock and pick and place objects
+precisely for extreme retrieval and
+delivery missions we have a modified
+rocker buggy mechanism to Traverse Rocky
+terrains to combat skating and to
+increase traction a custom lightweight
+wheel with a strong rubber gripper is
+used the suspension system is designed
+in such a way that it can endure sudden
+fall or vibration the custom extender
+helps climbing steep slopes easily
+ensuring stability during vertical drops
+our robotic arm can precisely lift heavy
+objects such as hammers toolboxes
+screwdrivers and rope noticeable changes
+have been done to the long range
+communication system this year we have
+shifted to only 5.8 gear system from
+previous years 2.4 gear system to
+communicate between the base station and
+the Rover along with the 5.8 gigahertz
+dedicated analog fpv system the
+omnidirectional antenna at the Rover
+site is paired with an Air Max SC light
+rocket router the directional sector
+antenna is also of 5.8 gigahertz and
+paired with the same model Pue switch
+has been installed this year and to get
+better area coverage up to 1 kilometer
+the sector antenna is moved 360 degrees
+with the help of an Azimuth controller
+5.8 gigahertz regular fuel system
+provides support as a backup surrounding
+viewer in terms of need this year's main
+upgrade is the custom printed circuit
+board which is designed to be accessible
+and easy to install thus ensures are
+modular and plug and play power system
+we are using Saturn motor drivers in the
+Rover and have Incorporated over current
+and under voltage protection along with
+reverse polarity production we also have
+a mushroom kill switch to stop the Rover
+in case of emergency this year we
+improved the stability of our Rover
+model and concentrated on smooth and
+ergonomic Rover operation Ross has been
+fully utilized allowing smooth
+communication and better control of our
+system a custom midweb GUI Ross node has
+been created to facilitate more
+intuitive and clean over our Rover
+system we have developed a new robust
+messaging format that implements error
+checking and correction we also included
+slow start and stop feature to prevent
+enrich current and create friction we
+have improved our autonomous navigation
+system by using a Json Nano along with
+the RDG GPS and a highly calibrated
+inclinometer well-tuned PID control has
+been implemented for smooth traversal
+through waypoints this year we have used
+a new and improved customized navigation
+algorithm which successfully detects and
+passes by error codex which performs
+significantly better than our previous
+system to detect the air tags opencv
+Oracle library has been used we have
+also used a depth camera for not only
+tracking distance but also for avoiding
+obstacles in the Rover's path three
+indicator LEDs have been installed on
+the outer part of the Rover body to show
+the control settings
+we have redesigned the science module to
+make it more Compact and efficient in
+order to turn our Rover into a fully
+automated plant and soil analyzer the
+science module will accumulate
+environmental data detect biosignature
+and Trust water an excavator Claw is
+used to dig and collect samples from a
+depth of 20 centimeters the samples then
+go to the downstream straps to perform
+starch and amino acid tests vocabulary
+and biomass tests are carried out in a
+different chamber a sensor box outfitted
+with various Gaslight ultraviolet
+pressure and other sensitivity sensors
+is also used to detect planetary
+conditions providing real-time data via
+customized GUI to analyze nitrogen
+phosphorus and potassium in the soil we
+are using our NPK probe with the help of
+artificial intelligence we can direct
+and classify rocks based on their major
+types all of these tests are managed by
+custom-made PCB specifically designed
+for the size module to achieve the best
+results in the equipment servicing test
+we simulated tasks on a dummy setup
+including pushing or toggling switches
+pulling dryers and pressing keyboards
+our current system uses the YOLO V5
+artificial intelligence model whose
+hyper parameters have been part of the
+tuned and trained on additional data for
+improved mechanical Tool and Equipment
+detection we are able to use inverse
+kinematics to move our end effector to
+any XYZ position and will pitch your
+orientation this year after the covet
+pandemic we have met several visits to
+schools and Technology fairs to spread
+the word about robotics amongst the
+younger audience to keep the team on
+track we have used a canva method on
+notion
+foreign
+[Music]

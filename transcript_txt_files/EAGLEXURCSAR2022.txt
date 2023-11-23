@@ -1,0 +1,95 @@
+hi i am alexis the current president of
+eagle aerobatics and my name is monica
+the current vice president
+and welcome to eaglex robotics
+roberto is a mars rover that consists of
+six wheels and a six dof robotic arm
+which makes it possible to deliver a
+wide variety of objects perform
+equipment servicing tests and carry out
+scientific procedures while having a
+strong perception system for autonomous
+navigation
+the software architecture used for the
+main transversal control is implemented
+in the ros melodic and the raw neurotic
+embedded and ubutu
+18.04 and umutu 20.04 respectively
+we used an nvidia jetson xavier as the
+main control unit which is connected to
+our motherboard that commands every
+model throughout a microcontroller on an
+internal network provided by the setup
+of ubiquiti antennas
+we implemented several manufacturing
+technologies such as 3d printing water
+jet cutting and cnc machining in order
+to develop accurately the physical parts
+of each task
+the implementation of the control system
+in a motherboard allows to reduce the
+space required to implement the
+different models which are related to
+the mechanical part
+with the help of simulations from past
+years we can precisely determine the
+robot's arm position direction and
+trajectory by using vision direct and
+inverse connects
+with this we solve past problems that we
+had with the depth of field perception
+based upon previous robot designs a new
+gripper design was chosen that is
+similar to the one currently being used
+this new gripper will have a more direct
+approach that will improve its mobility
+and reduce its weight with this gripper
+and the robotic arm we expect that the
+rover will be able to lift more than 8
+kilograms
+because of its simplicity we chose a
+shovel attached at the end of the
+robotic arm as the best way of
+collecting a sample we can inspect the
+soil with a microscope of changing
+lenses
+it will help us analyze the geological
+composition of the soil before taking a
+sample
+this in order to identify minerals rocky
+structures and components needed for
+organic life
+the sample will be collected and then
+dispatched to the centrifuge and the
+spectrophotometer
+both in the back of the rover
+the viability of soil to grow any life
+form will be determined through the
+analysis of ph nitrogen phosphorus and
+potassium content by using a soil
+testing kit to test the presence of an
+organism in the sample proteins will be
+analyzed as biosignatures through the
+bradford protein test which has a
+greater change of color in the
+dissolution as the concentration of
+proteins increases
+a two-phase algorithm for autonomous
+navigation is being developed in the
+first phase the rover is able to
+navigate from its current position to a
+desired gps coordinate the second phase
+will be activated when the rover is not
+able to find the aruka code and will
+therefore perform a sweep of its
+surroundings in order to find the
+desired target
+regardless of where the algorithm is at
+the river's top priority is to zone
+safety so if it encounters an obstacle
+or a dangerous terrain it will avoid it
+similarly when an article code is
+detected it will suspend gps navigation
+and approach the target until it's less
+than 50 centimeters away
+you

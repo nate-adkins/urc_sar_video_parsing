@@ -1,0 +1,106 @@
+[Music]
+the McGill robotics modular project is
+comprised of 75 members who've been
+working hard to engineer our upgraded
+Mars rover for the 2018 university Rover
+challenge but our combined knowledge of
+the pets experiences at competition
+we've put together a brand new Rover
+that integrates key aspects of the past
+as well as integrating new research and
+technologies we're proud to introduce to
+you our brand new Mars rover Dexter
+[Music]
+this year the mechanical division has
+been working on improving the Mars rover
+by analyzing and examine past systems
+first the Java system was aluminum
+Frankenstein for improve the rigidity
+and custom design wheels
+our system is people of traversing
+complex trees
+the four individual serie units allowing
+us to perform 360-degree wheel rotations
+next suspension after identifying the
+problems with existing rocker-bogie
+system we have increased stiffness and
+improved modularity this improvements
+allowed for easier conversion between
+six and a four-wheel drive configuration
+within a matter of seconds
+finally they are this state of a
+manipulator combines the harmonic drive
+and differential gears giving us a total
+of six degree of freedom and five
+program payload this is mainly possible
+with the new end effector with adaptive
+group in design to climb all types of
+objects
+[Music]
+the martyr over electrical team has been
+working hard in designing our new
+electrical systems that focus on
+improving mobility modularity and
+reliability for the river we use to
+local batteries that cook the village
+sharing an active trend monitoring to
+improve battery life and safety the Mars
+rover is equipped with omnidirectional
+antenna that operates at 2.4 gigahertz
+to both broadcast and receive
+information from the command station to
+better improve the video quality and
+reduce delay we replace our USB cameras
+with IP based camera the arm electrical
+team has been working on integrating SDI
+based encoders to give our control
+systems accurate absolute position
+readings at each joint of the arm to
+further improve the electrical system
+the drive team has integrated their
+control works directly into the steering
+house in addition the drive system is
+equipped with an active steering units
+that allow us to perform advanced
+steering configuration such as ackerman
+[Music]
+[Music]
+[Music]
+high-impact roll is integrated with a
+sampling system to break through the
+dense clay layers which allows us to
+reach up to 20 centimeters of depth the
+brand-new coring system uses a flexible
+membrane and closure mechanism which
+will twist to seal the soil sample while
+the auger is underground on the drill
+site the rover will take environmental
+measurements including atmospheric
+pressure humidity UV co2 and temperature
+it also interacts with different probes
+to measure wind speed sample weights
+soil moisture and soil temperature back
+in the command station test for
+macromolecules such as amino acids
+carbohydrates and lipids will be
+performed presence of macronutrients
+will also be tested and pH measurements
+will be taken a near IR spectrometer
+gathers information on mineral
+composition of the collected soil sample
+analysis on geological settings
+including sedimentation and surface soil
+patterns will be performed in order to
+make predictions on the soil properties
+and the presence of water
+now let my new factory and needed
+testing is complete we're looking to put
+together our final systems for a
+large-scale integration testing with the
+help of our sponsors we've been able to
+fully fund our project and keep it
+within the weight and budget limits we
+are thrilled to have the opportunity to
+compete in your seat once again
+[Music]
+[Music]

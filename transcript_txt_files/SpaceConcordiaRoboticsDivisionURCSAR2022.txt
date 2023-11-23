@@ -1,0 +1,89 @@
+space concordia robotics is proud to
+present our rover for the urc 2022
+competition
+the rover is designed primarily to be
+easily configured to best suit the
+requirements for each of the four
+missions
+we are able to operate the rover from a
+computer and ps4 controller using the
+900 megahertz band with two ubiquity
+radios a dual polarity yagi antenna and
+two omni antennas on the rover
+this allows us to operate the rover in
+non-line of sight conditions up to 1.5
+kilometers from the base station
+we have continued to focus on further
+optimizing the electronic system for
+ease of maintenance and troubleshooting
+as this has proven to be the main cause
+of delays
+the batteries are mounted outside the
+electronics bay to eliminate the need to
+open it outside of maintenance and
+troubleshooting
+this reduces the time required to power
+on or store the rover
+the base of the arm rotates with a slip
+ring to eliminate the risk of a wire
+getting caught or tangled we plan to
+also pass the wire leading to the arm
+camera through this so we can truly have
+continuous 360 degree rotation
+the operator makes use of three cameras
+for visual feedback during operation
+one is on the mast with pan and tilt
+functionality for an overview of the
+rover and its surroundings another is
+mounted on the arm to provide visual
+feedback when interacting with objects
+and the third is on the front of the
+rover for a clear view of the terrain in
+front while driving
+the mobile platform uses the three bogey
+suspension with the front two bogeys
+pivoting on four bar linkages for better
+performance over harsh terrain
+the rover has a 5r robotic arm with a
+gripper and defector to interact with
+its surroundings
+the team has been working on developing
+closed loop joint control along with
+inverse kinematics for more precise and
+intuitive control
+the rover is designed to lift loads up
+to 5 kilograms in a worst case scenario
+the gripper uses compliant digits to
+better grip objects with a regular shape
+the front two bogeys have two stoppers
+to prevent the rover from flipping
+forward when gripping heavy objects
+the digits can be replaced with scoops
+to pick up and deposit loose soil into
+our custom raman spectrometer's payload
+the ramen spec uses a ccd to record the
+resulting wavelength of a 532 nanometer
+laser after passing through a cuvette
+with the soil sample and buffer solution
+mixed in
+this in combination with mirrors filters
+and a diffraction grating is used to
+detect signs of life in the sample
+for non-invasive testing of the rock
+samples we use an off-the-shelf
+near-infrared spec mounted on the wrist
+of the arm
+currently the rover is capable of
+reading and displaying the readings from
+our 3d lidar allowing us to map
+surrounding environments
+slam is implemented in simulation on the
+husky rover using the 3d lidar for
+mapping and the odometry from the
+simulated rover for localization
+we use a gps sensor from sparkfun to
+obtain our global position within 3
+meters of accuracy
+the autonomy system will make use of ar
+tags spotted in camera feeds in order to
+be able to locate and identify goals

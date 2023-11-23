@@ -1,0 +1,104 @@
+[Music]
+adramal team is an entire disciplinary
+team of twenty undergraduate engineering
+students we have a team leader and five
+division leaders our divisions are
+mechanics electronics software science
+and management we also have subdivisions
+to divide the tasks to team members the
+rover team has existed for four years
+and has attended the ERC for two years
+achieving high ranks among the
+competitors this year the rover team
+built a completely new rubber in the
+design stage the problems and challenges
+that the rover is going to face well
+considered chesses was redesigned to
+overcome the obstacles this year Rover
+has six independent bicycle like design
+wheels that will move with a higher
+velocity and maneuver ideally each leg
+has its own suspension that can be tuned
+front and rear legs have additional
+degree of freedom to maintain stability
+in unpredictable terrain for additional
+traction an elastic 3d filament which is
+TPU 95 was utilized around two wheels
+Thea has a five degrees of freedom arm
+that was designed to manipulate several
+objects arm has three rotational motors
+and two servo motors to create motion it
+was designed to hold objects precisely
+such as a screw driver or a ranch in
+equipment servicing tasks in the gripper
+module the system is controlled by two
+servo motors one of the motors is used
+for rotation along its own axis whereas
+the other is used for closing the
+pincers to grasp objects the gripper is
+connected to the server through gears
+the mass of the grippers were also
+printed within
+6:3 diplomat to increase the grip
+electronics division focused on the
+modularity of the design while the
+safety compactness and the demand of the
+system were kept in constant check we
+designed our custom PCBs to carry out
+the tasks at hand on the communication
+front we have used an antenna that is
+only directional has five kilometers of
+range and uses 2.4 gigahertz to
+communicate with ground control software
+division mainly focused on the
+communication arm control of tia and
+autonomous traversal we created a
+complete anneal updatable system for Tia
+for communication we have decided to use
+robot operating system because it is
+easy to integrate different
+microcontrollers with our Raspberry Pi 3
+which provides us practical safe and
+fast data transmission the hardest task
+the division has faced was the control
+of the robotic arm the division decided
+to combine two complicated protocols to
+obtain a precise and safe control which
+are inverse kinematics and PID this year
+we worked very hard to make our
+autonomous by using a complete
+autonomous traversal algorithm and image
+processing which collects data from our
+sensors that provide acceleration
+compass gyroscope GPS and encoder in
+real-time and smoothes it out thanks to
+our Kalman filtering system at the same
+time Thea is able to avoid obstacles by
+making 3d mapping of the parameter using
+our lidar module furthermore we have
+used open CV Python and Rose to detect
+and track tennis balls for the science
+tasks we designed the drilling system we
+tapered the end of the Archimedes screw
+in the drilling system to drill even the
+hardest oil we also use a linear
+actuator and a spring for smoother
+vertical motion for the onboard analysis
+we use the deco con 5te sensor to
+analyze moisture temperature and
+conductivity of soil in the laboratory
+we will analyze soil geologically
+biologically and chemically we use a
+soil color chart and so you'll texture
+pyramids to examine the soil for
+geological evidence additionally we will
+analyze rocks for their physical
+appearances and textures we will use
+assets to identify the rock types you'll
+use a microscope to take
+microorganisms for the biological
+analysis we measure the pH level by
+using the soil analysis kit and the LED
+newspaper
+[Music]
+you

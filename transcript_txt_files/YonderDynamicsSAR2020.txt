@@ -1,0 +1,109 @@
+welcome to younger dynamics we are a
+student-run robotics organization at the
+University of California San Diego now
+we are competing in the 2020 University
+Rover challenge in this video we will
+detail the design and demonstrate the
+capabilities of our new Rover for the
+science mission our team has designed a
+modular drilling system consisting of a
+two inch auger mounted on a linear track
+actuator the drone auger are tested on
+hard rocky soil to simulate MBRs
+conditions the soil flows out of the top
+of the auger and it's collected in the
+sample cups in the carousel the sample
+carousel uses a servo motor to cycle
+through each of the collection cups
+allowing us a sample of six locations at
+a time to test for excellent life the
+cups are preloaded with the nutrient
+broth to simulate microbial growth
+arduino turbidity sensors are attached
+at the bottom of each cup to measure the
+turbidity over time we're employing an
+onboard Raman spectrometer to look for
+tracing nature's of carotenoids in our
+samples due to Martha's lack of
+magnetosphere life on Mars must have
+developed resistances to high levels of
+solar and cosmic radiation Carano have
+been theorized to be a byproduct of
+cyanobacteria radiation shielding and
+repair mechanisms so evidence of Kuran
+weeds in a sample might be an indication
+of extinct Martian life i'm brian pack
+i'm the armed team lead this year we've
+optimized our arm design for performance
+in the øresund missions this includes
+large improvements to the range of
+motion in both the arm and shoulder
+joints as well as a complete redesign of
+the hand by using 3d printed material
+for much of the hand and wrist we're
+able to make quick changes to the design
+and have tested various finger shapes to
+increase grip strength
+hi my name's Justin I'm on the motion
+team for Yonder dynamics the suspension
+of the rover is a rocker-bogie system
+with the new one-fifth scale RC car rear
+shock absorbers to allow a traversal of
+steep slopes there's a camera attached
+to the arm to facilitate the equipment
+servicing in the retrieval tasks and one
+camera is attached to the front of the
+rover for navigation each rubber tire is
+powered by a gear down 775 Pro motor
+with an output of 106 Newton millimeters
+each allowing it to get through sandy
+and rocky terrain the chassis is made of
+lightweight carbon fiber and 6061
+aluminium tubing and the arm is a
+combination of carbon fiber tubing
+Delrin and machined aluminum part
+ensuring proper resilience for MDRS
+conditions while remaining under the
+weight limit I'm Jason Roddy and I'm an
+engineer for the soft way team at Yonder
+dynamics we rebuilt our software stock
+from the ground up with the focus on
+robustness usability and safety controls
+are smooth intuitive and accessible
+through a web interface that enables any
+member of the team to use the rover and
+monitor the onboard systems we
+incorporate magic filtering to fuse our
+sensor data for autonomous navigation
+and paths following
+we've trained and utilized our own
+tensorflow our CNN model for air attack
+detection and test today with over 7,000
+augmentations
+our exploration stock has been child in
+an immersive our OS gazebo simulation of
+the URC environment we captured Death
+Maps through a Zed stereo camera and run
+our live slam methods on an Nvidia
+Xavier we are currently working towards
+completing an inverse kinematics model
+for a more precise control of the arm we
+have updated our systems from last year
+to improve reliability and have
+extensively tested our new systems our
+new system separates five volt and
+twelve electrons onto two layers to
+improve safety and organization several
+redundant systems to monitor battery
+voltages have been added to ensure
+visibility of the rover status for
+communication we have successfully
+tested our antenna up to one kilometer
+away
+finally to cap it all off we have
+developed protocols for preparations
+startup and shutdown to allow anyone to
+efficiently service the river we hope
+you've enjoyed seeing what our new Rover
+can do thank you for watching and we
+hope to see you at the 2020 URC

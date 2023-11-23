@@ -1,0 +1,134 @@
+[Music]
+welcome to the rock raiders an
+interdisciplinary team of about 15
+students from Rensselaer Polytechnic
+Institute in Troy New York this year
+we've worked hard to design and test new
+systems for our Rover we've incorporated
+feedback from previous years and grown
+as a team to create a rover we're
+excited to show you today the project
+management strategy this year was to
+head the coal Rover sub team deliver a
+rover with base functionality by the end
+of the fall semester as this was
+happening the mission sub team was
+focused on designing researching
+developing the techniques required to do
+well on the individual missions using
+the fully functioning Rover final
+implementation of a mission specific
+task takes place during the spring
+semester meanwhile the core Rover sub
+team will be focusing on testing and
+gathering feedback to deliver a final
+design optimized for weight performance
+and efficiency the Rovers mechanical
+systems have been redesigned this year
+with special attention placed on
+in-house manufacturing the overwhelming
+majority of chassis and drive parts can
+be machined using readily available
+methods the rover is built on a 4-wheel
+rocker type suspension with coupled
+articulation that aids in traversing
+difficult terrain this design offers an
+excellent balance between
+manufacturability performance and low
+complexity while meeting URC
+requirements this year the rover's Power
+Systems have seen a complete overhaul
+this includes switching our batteries to
+lift the in polymer chemistry for a
+nearly 50% reduction in battery mass as
+well as a new removable enclosure from
+proto case which allows for ease of
+access and repair while we're in the
+field the latest addition to the rock
+raiders Arsenal is our new base station
+antenna mount which can autonomously
+track the rover's position in
+combination with the superior object
+penetration capabilities of the 900
+megahertz band and a high gain sector
+antenna we were able to easily obtain
+optimal signal strength anywhere within
+the limits of the competition
+our Thomas traversal system is in a very
+strong position using a GPS IMU and
+magnetometer we can already navigate
+between GPS markers thanks to our use of
+the Ross nav stack this functionality is
+quite robust the rover localizes itself
+using the robot localization package
+obstacle avoidance will be done with the
+Zed stereo camera this has already been
+modeled in our simulation it is also
+capable of visual odometry we need tech
+tennis balls with the two-stage approach
+we first use HSB color filtering and a
+half-circle detective to find candidate
+tennis balls
+we then filter out false positives with
+a neural network near this year we've
+been doing most of our testing in a
+simulator of our own design
+it lets us very quickly test our
+algorithms regardless of the weather
+outside
+this year's chassis has been designed to
+handle any challenge the URC throws at
+us critical areas of the chassis have
+all gone through stress analysis to make
+sure that we're going to be able to hold
+up under the forces experienced during
+extreme navigation a rocker-bogie
+suspension for independent drive motors
+and sturdy aluminum wheels ensured that
+we're going to be able to handle any
+terrain for retrieving items during the
+extreme retrieval tasks we've tested the
+arm by lifting over twice the maximum
+weight we're going to be expected to
+lift at URC with our arm our drivetrain
+a tracking base station antenna and
+onboard GPS we're confident that the
+rover is going to be able to lift any
+item and deliver it anywhere we need to
+complement our three axis arm we've
+designed an end effector that is placed
+on a spherical wrist we use inverse
+kinematics to calculate drawing angles
+for the arm based on the desired
+position and orientation of the
+end-effector this allows for efficient
+manipulation of the rover's environment
+the fingers of the end effector are
+designed to curl around objects as they
+close this allows us to securely grabbed
+tools regardless of their shape or size
+the linear actuator operand the end
+effector has sufficient torque to lift
+and hold a three kilogram cache
+our science system has been redesigned
+in order to accommodate the new
+parameters of the URC science task due
+to the lack of pure chemicals on Mars
+our system utilizes analysis techniques
+that don't require chemical reactions
+such as spectrometers temperature gas
+and moisture sensors these four sensors
+give the team a good idea of the general
+chemical composition of the soil sample
+on board we utilize a microscope
+alongside a computer vision algorithm
+the team design in order to determine
+the relative eccentricity and size of
+the soil grains within the soil sample
+smooth and well rounded soil grains can
+indicate the past presence of water
+thank you for your time right now the
+team's hard at work finishing subsystems
+and getting our rover competition ready
+we hope to see you there
+[Music]

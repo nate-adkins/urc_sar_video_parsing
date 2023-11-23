@@ -1,0 +1,101 @@
+Hi! We are team R3 from Ryerson 
+University in Toronto, Canada.  
+Welcome to our 2022 System Acceptance Review. Our 
+diverse team of engineering, arts, business and  
+architecture students have been working diligently 
+to develop our Mars rover. Despite the challenges  
+faced by COVID-19, we have successfully recruited 
+and trained new members, and continued our work  
+all in a virtual environment. Our sheet metal 
+chassis is designed to be strong and durable  
+while being optimized for weight. For cooling, the 
+chassis has large ventilation openings and can be  
+covered with a heat reflective mylar composite 
+top. The wheels use BLDC motors with closed-loop  
+drivers to improve overall speed control. This 
+improves both precise and large scale movements.  
+New motor mounts were also made to 
+reduce weight while maintaining strength.  
+Our wheel design is optimized for shock absorption 
+and stability. The PETG hub has a slight flex and  
+the polyurethane treads are able to conform to 
+the terrain for a smoother ride. In addition, our  
+double-lambda-rocker-bogey suspension ensures that 
+the rover can traverse over any kind of terrain,  
+smooth or rough. The frame is manufactured from 
+carbon fiber tubing and aluminum linkages which  
+provide a high strength to weight ratio. To 
+fit the new 1.2-meter cubed deployment size  
+requirement, the rover's primary z-axis 
+was shortened. To compensate for this,  
+the secondary tube was lengthened, allowing the 
+end effector heights to be adjusted between tasks.  
+There are two end effectors on the rover; a rotary 
+tool on a linear rail and a two clawed gripper.  
+Each specializes in tasks such as interacting 
+with buttons, switches, drawers or payloads.
+A standard gamepad controller is used 
+for intuitive control of the rover  
+for both drive and arm manipulation. In 
+addition, the rover utilizes numerous  
+cameras and sensors which are streamed to 
+the driver via 900 MHz and 2.4 GHz bands.  
+This information is displayed on the GUI which 
+can stream multiple camera feeds simultaneously,  
+along with rover speed and the compass 
+bearing to aid the driver in navigation.  
+For the autonomous navigation task, a GPS 
+is used in conjunction with the compass  
+to create a vector between the rover's current 
+position and the desired destination. As the rover  
+traverses towards a post, the PID controller is 
+used to perform corrections when deviations occur.  
+In addition, our OpenCV-based image detection 
+algorithm is used to quickly detect the AR Tags  
+when the post is within range. An LCD display 
+is used to monitor aspects of the rover such  
+as current voltage values and mode of the rover 
+including driver mode or autonomous navigation.  
+The rover has also been outfitted with an e-stop 
+button which can be used in case control is lost.  
+The hardware team's focus was redesigning 
+the control system to be modular and  
+increase troubleshooting efficiency. The new power 
+distribution board was designed from the ground up  
+with custom buck and boost converters to improve 
+the overall power consumption of the rover,  
+including over-current and voltage 
+protection for all its components.  
+These converters are arranged to 
+be easily interchanged or replaced.  
+For soil analysis, a single life detection 
+protocol is used to detect the presence of DNA,  
+proteins and lipids. Soil is collected using 
+an auger and transferred to test tubes housed  
+in an indexable carousel where they are then 
+centrifuged. Cross-contamination prevention  
+was a key design focus, so each specimen has a 
+separate set of augers, test tubes and syringes.  
+A hematoxylin solution is used to detect 
+DNA, staining purple blue, and is analyzed  
+using a spectrophotometer probe at 450 nm. A 
+biuret reagent is used for detecting proteins,  
+staining mauve, and a nile blue solution is 
+used for detecting lipids, staining blue.  
+Both are analyzed with the probe at 540 nm. The 
+presence of these macromolecules, or lack thereof,  
+indicates whether life, accident life, or no 
+life is present. Since our process has been  
+proven successful in a lab environment, a similar 
+spectrophotometer is being implemented on rover.  
+Environmental conditions are measured using an 
+anemometer and a DHT22 temperature and humidity  
+sensor. For geological analysis, a camera 
+and microscope are used to observe rock and  
+fossil specimens, which are then identified 
+by comparison with a searchable database.  
+We believe our rover is ready to compete 
+in URC 2022 and would like to thank our  
+sponsors for all of their support and our 
+team members for all of their hard work.
+you

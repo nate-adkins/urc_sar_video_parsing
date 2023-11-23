@@ -1,0 +1,101 @@
+[Music]
+hello and fearo's are the team leader
+brocco Mangal three I'm delighted to
+welcome you to our this a review of your
+say 2020 our team is composed of 40
+undergraduate student divided into eight
+sub teams these are mechanical design
+electronics communication software
+science management and publications we
+have mainly focused on the iron based
+movement this year our newly designed
+and implemented an base can rotate 360
+degrees with the help of a warm BIA
+system we have a modified rocker-bogie
+suspension system for handling the
+extreme turn we have used a powerful one
+gear motor in the wheel which allows us
+to climb steep slopes and over obstacles
+the custom gripping system we have used
+will give extra traction on syllabi
+train our stainless is still met jess is
+powerful lightweight easily available
+and can be changed easily
+[Music]
+we organized a mock set up for extremely
+table for elementary living object like
+a screwdrivers pliers and toolbox we
+also practiced pulling a toolbox by a
+rope laid flat on the ground
+[Music]
+data flows from and to the base station
+using 2.4 gigahertz ubiquitous Akkad m2
+paired with a directional antenna the
+rover is installed with a beauty bullet
+m2 paired with omnidirectional antenna
+which ensures data connectivity for
+around 1 kilometers 5.8 giggles a PV
+system consisting of APB cameras are
+used the prime upgrade we are
+introducing this year is the easy
+installation of circuit box additionally
+we have added reverse to our D circuit
+protection and for equal power
+consumption a centrist power system has
+been implemented this year Pakistan is
+smooth and ergonomic control of the
+rover
+a multifunctional joystick is being used
+for a smooth PWM control of the wheels a
+user-friendly interface has been
+developed for easy control of the rover
+additionally we are using key mapping
+for manipulating the arm and arcing on
+the inverse kinematic algorithm the
+autonomous task has been accomplished
+using an advanced autopilot system
+integrated with image processing and
+obstacle avoidance and STM based
+processor guides the robot to the
+assigned waypoints with the help of GPS
+compass and accelerometer to detect the
+air tags we abused contour detection
+homography through open CV obstacles are
+avoided with the help of a lighter
+sensor additionally three indicator LEDs
+has been installed on the robot visible
+on the light in order to turn our robot
+into an automatic planet analyzer we
+have designed the science desk in such a
+manner that it can collect environmental
+data detect bio signature and water
+trace and excavator claw is used to dig
+samples at depth of 20 centimeter the
+sample is then poured into two separate
+funnels one takes the sample and
+conducts phosphorus potassium nitrogen
+an amino acid test for determining soil
+properties and bio signature in the
+other a water capillary biomass and
+microscopy test is conducted where
+employing a sensor box equipped with
+various gas sense while sensitivity
+sensors for detecting territory
+conditions that gives real-time data
+through a customized squeeze these 10
+have designs at our craft for multiple
+sampling
+[Music]
+for equipment servicing we have made a
+damaged set up higher we practiced acts
+like pushing toggle switches pulling
+jars and pressing keyboards using a two
+finger claw
+[Music]
+[Music]
+[Music]
+we have approached several companies for
+sponsorship and perform promotional
+activities on social media also we have
+participated in multiple tech
+exhibitions and took robotics workshops

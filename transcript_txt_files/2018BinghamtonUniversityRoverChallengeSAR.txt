@@ -1,0 +1,146 @@
+[Music]
+hello my name is brian and i'm the
+chairman of the mars rover society at
+binghamton
+this year we have collected a group of
+talented individuals in engineering
+biology and geophysics to help lead our
+team towards success
+by working in a tight schedule under
+strict administration
+we have worked non-stop to achieve our
+goals under requirements and standards
+that fit what we personally think is
+best for the competition
+the mechanical platform is composed of
+three major subsystems suspension frame
+and wheels
+after thorough research and comparison
+of alternative designs we implemented a
+simple yet robust six wheel rocker
+boogie design to climb obstacles up to
+two times a wheel diameter
+we optimized our suspension system using
+analysis tools to experience minimal
+deflection and straightforward driving
+as well as lateral turning
+the rover's frame was designed to be
+lightweight primarily to keep our center
+of mass low and remain stable at steep
+inclines coming in at only seven and a
+half kilograms we were able to utilize
+heavier and stronger parts for the
+suspension
+our custom sheet metal design made by
+protocase is also sealed off from the
+environment and provides active cooling
+to electrical components
+we are currently running the rover with
+low-cost rubber wheels and custom 3d
+printed hubs to fit our gearboxes and
+reduce weight for competition we have a
+custom 3d printed wheel design that will
+greatly improve our performance in sand
+and soft soil
+every goal of the electrical platform
+team is the safety and reliability of
+the subsystems two 8 000 milliamp hour
+lithium polymer batteries were selected
+and it's a hot swappable configuration
+to provide 1.5 hours of power each
+we picked 92 watt brushless dc motors
+with 1 in 20 gearboxes
+this allows the rover to move at nearly
+6 miles per hour and climb 45 degree
+inclines easily the power distribution
+for the rover is divided between the
+motor system and sensitive systems such
+as the computer and communications
+control logic in our converters allows
+easy switching in critical situations
+two stop switches are wired on the rover
+with the e-stop to power off adjust the
+motors during testing additional
+filtering and protection will be
+implemented to detect stalls
+the navigation team has been working on
+designing a computer system capable of
+processing all the sensor data for the
+science cache task and autonomous
+navigation the nvidia tx2 will be used
+to read data from the centers which
+includes lidar gps and imu we'll be
+utilizing raws to interpret the sensor
+data and implementing it with other
+subsystems within the rover for
+autonomous traversal tasks we'll be
+implementing visual based slam
+algorithms these algorithms will report
+specific landmarks in the rover's
+surroundings and help create a map for
+navigation purposes audiology and gps
+will be processed through an accepted
+calend filter to localize the rover
+within its own map
+our goal is to design a user interface
+and a series of network protocols that
+will allow for remote control of the
+rover through a wireless network as well
+as design the rover's autonomous
+navigation system
+after extensive research we decided to
+go with udp protocols and our results
+have been promising we have successfully
+tested connections between the rover and
+the base station that will allow for
+control and video feeds to be sent
+between the two systems
+while the rover is in manual mode an
+xbox controller is used to control the
+movements of the rover components when
+we flip a switch on the base station
+computer the rover will take over an
+autonomous mode and use data obtained
+from the z camera lidar and several
+other sensors to determine the best path
+while the autonomous system is not fully
+implemented yet the software team has
+completed several critical components
+already such as tennis ball detection we
+have been working with a quarter scale
+test rover to implement test and
+optimize our autonomous components
+using ubiquity's airlink simulation
+software we verified that we should be
+able to transfer five megabits per
+second at up to one kilometer which is
+enough to successfully communicate with
+the rover's main systems our field tests
+have promising results we have
+communicated at 300 meters successfully
+and expect to have it fully functional
+within a month
+using autodesk fusion we designed
+multiple arms and grippers each time we
+reiterated over our most promising
+features with the goal that it will be
+capable of lifting five kilograms and
+operate the equipment expected in the
+equipment servicing task we tested and
+altered our designs and cad until we
+felt confident enough to design a basic
+arm for testing we are currently working
+towards our final design and expect to
+be done within a month
+we have also taken the same approach for
+our end effector with our current design
+being an onyx printed gripper
+the sample collector will be tested for
+temperature and humidity onboard the
+roof we will conduct chemical and
+physical analysis on the sample to test
+for ph grain size and phosphorus content
+among other things these traces in turn
+hint at the potential presence of living
+organisms or the suitability for life of
+the sample

@@ -1,0 +1,172 @@
+International University welcomes you to
+the system acceptance review of our
+Maven for University local challenge
+2022 despite the challenges posed by
+Kobe restrictions our multidisciplinary
+team of 17 members from diverse
+backgrounds have been working hard
+remotely as well as on campus to develop
+Maven from absolute square with the
+division of six sub teams the team has
+followed a modified scrum methodology to
+develop reliable subsystems and ensure
+modularity we also evaluated truly in
+competition like environments to achieve
+the necessary evidence for ERC 2022
+suspension with a four level games
+differential mechanism has been
+implemented to observe both anterior and
+rare impact we conducted a finite limit
+analysis to check the stability of our
+chassis subsystem using Ace adaptivity
+machine topology the robot has been
+developed with the improved manual
+capability that include concrete
+horizontal movement and rotational
+accuracy on the export to evaluate the
+robot for the extreme retrable and
+delivery Mission we have designed
+multiple courses that include strain and
+objects similar to what we expect to see
+in the compression Justice going up a
+stripped incline traversing over brick
+rocks Gracie fields and sand surfaces
+rocky area yes step incline and particle
+drops the arm of the robot is also
+capable of quick and easy manipulation
+of both heavy and light object like
+throwing and lifting a 7kg payload with
+rope picking up a small object such as
+screwdriver hammer various shifts and
+drops six digit of Freedom arm is
+capable of opening a drawer and
+inserting a cache on it moreover it has
+gained the capability to profit
+sophisticated talks like inserting a USB
+drive handling electrical socket push
+button flip switch turning a knob typing
+on a keyboard and tightening of a screw
+the in-house Cyclone transmission along
+with a semi differential wrist mechanism
+have increased effective precision and
+reduce the overall mass of the arm our
+interfactor is capable of grabbing
+object of various mass and geometrical
+shapes successfully with extent and
+precision the arm has been evoluted
+slowly on a configurable render to acid
+compression Readiness in the equipment
+servicing machine the autonomous
+navigation system has been developed
+with the help of robotic operation
+systems Ross running on Nvidia Jetson NX
+by involving computer vision and GPS
+data the Rover makes strategic planning
+decisions to Traverse GPS waypoints
+using customized slam algorithm
+localization of the body alongside the
+global and local planner has been
+implemented using generated Cloud points
+of depth sensing camera to Traverse the
+objective GPS accuracy has been
+rigorously tested and extended Kalman
+filter has been implemented to filter
+the integrate the sensor data Maven can
+successfully identify the IDS and
+distances of air tags relative to the
+Rover and can determine the
+directionality and the center of the
+gate using carrot navigation approach
+Maven can align itself between the post
+and pass through the gates in current
+direction we have developed test courses
+that imitate the actual autonomous
+Mission and evaluate promise of the
+developed algorithm we build a 6 series
+high density pack using 80c56 to provide
+24 volts to the robot and a 120 minute
+operational time frame enhanced
+modularity is implemented using various
+S2 pcbs vs design and estimated the
+real-time electrical wiring of the Rover
+the electronic subsystems focus on the
+integration of the core electronics and
+embedded systems moreover our custom
+power distribution board also prevents
+issues such as mismatched battery
+voltage and subsystem level shots a kill
+switch has been provided for the
+Emergency stop of the Rover is equal to
+the 2.4 gigahertz
+radio communicates with three major
+registration antenna from up to three
+kilometers away a combination of
+omnidirectional and directional
+engineers in the base station transmits
+a wide range of network sense which is
+being received by the omnidirectional
+antennas on the Rover's body to
+facilitate with the robot's operation
+robot activities are being monitored
+from various angular perspectives so
+using four high resolution cameras and
+transmitted to base station with low
+latency with an ease to use interface
+all available feedback so data from the
+Rover can be with confidently with
+alternative controls in the developer we
+developed a scientific explosion
+subsystem that involves a 3dof secondary
+manipulator and Analysis chamber to
+categorize any soil and rock sample into
+extant accent or no present Supply mesh
+up multiple and effectors and a circular
+scope motion can effectively collect up
+to four soil samples preventing any
+cross contamination alongside the UV
+lights in the funnel the samples are
+deposited into three isolated beakers
+for the detection of biomolecules with
+chemical test which inbox protein using
+lean hand insulation lipid using student
+resolution and carbon foreign
+qualitative color changes are observed
+through a camera and the results are
+then streamed back to the base station
+for immediate evaluation and feedback as
+input to our algorithm classifying the
+sample into extent extreme and no
+present Supply USB microscope feedback
+along with the presence of MBS sensors
+have been used to detect whether a rock
+sample is extant we also developed a
+pipeline of multiple binary classified
+rock sample without any physical contact
+the outcomes of the sensor feedback and
+model prediction have been used to
+classify a rock sample a full mock test
+has been conducted to evaluate the
+performance of the sample acquisition
+and Analysis process we made in District
+timeline to finish early integration to
+quickly revised studies that it has been
+possible for the modular designs of the
+subsystem development goes to initial
+parallel unit testing of the code Rover
+subsystems we conducted a complete
+system verification through irrigation
+testing and emphasis mock missions and
+Operator Practice to develop a robust
+computation strategy several resources
+such as a market lenders simulated
+martial art has allowed testing the
+Rover in university-like conditions
+additionally low latency command and
+video transmission along with effective
+structural Freedom help the operator to
+precisely control the robot we are
+concerned with our ongoing progress and
+confident to demonstrate the capability
+of event to succeed in your c2022 thank
+you for your consideration on behalf of
+the Euro team

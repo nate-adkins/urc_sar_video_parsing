@@ -1,0 +1,163 @@
+we are wisconsin robotics and we are
+proud to present our 2022 rover daybreak
+our focus has been on increasing the
+reliability and robustness of our design
+this included creating stronger wheels
+redesigning our arm and developing new
+science tests
+we also made improvements to our chassis
+box and code quality to fully improve
+our rover for the university rover
+challenge the drive system utilizes a
+six rear design that has a rocker boogie
+mechanism with a vertical differential
+bar that allows the rover to navigate
+through rough terrain with relative ease
+this design is made to receive heavy
+impacts without needing heavy springs
+and dampers
+the rover's six wheels are made from a
+kevlar epoxy mister which is a stiff but
+also malleable enough to restrain large
+impact forces that will occur when
+driving the rover at full speed on the
+top of each wheel are grousers that are
+made of rubber and will provide traction
+when driving across rough terrain such
+as sand and locks
+these wheels are attached to the motors
+via lightroom spokes that are attached
+to a wheel hub
+each wheel is powered by a bag motor
+made by vex attached to a seven to one
+versa planetary gearbox that will
+provide the bot with a high torque ratio
+while still allowing the bot to reach
+high speeds
+daybreak has a six degree of freedom
+kinematically redundant arm
+the arm is designed to maximize joint
+efficiency and lifting while minimizing
+weight the arm can reach the full 1.5
+meter height range encoders will be
+integrated at each of the joints to
+allow the use of inverse kinematic
+control thus enhancing overall usability
+of the arm
+the arm features increased joint
+stability to reduce backlash and
+facilitate inverse kinematic control
+each current draw in the arm will be
+limited to reduce the chance of motor
+burnout during ik operation
+the end effector uses a high torque and
+zero back drive system the claws of the
+end effector can grasp more than the
+full five centimeters the tips of the
+claws are flexible allowing them to
+conform to the object they grab
+the end effector will be able to
+manipulate the full range of objects
+that it may encounter in the competition
+the electrical system of daybreak is
+improved from our previous rover designs
+for starters we have upgraded the
+cameras in order to improve our robot's
+vision this will help us when looking
+through the cameras and with lag
+reduction
+next we have upgraded our reaper board
+from last year with a new custom ordered
+pcb in order to optimize the
+distribution of power across daybreak
+another important change that we have
+made is the modification of the chassis
+box in order to support cooling and
+prevent the inside components from
+overheating
+for the autonomous portion we have
+upgraded our lidar to improve
+performance with less human input a new
+addition this year is that we have put a
+distance sensor on the front of the
+rover to help with cliff avoidance we
+believe that all these changes will
+improve our rover overall the focus for
+software this year was improving the
+robustness and functionality of
+daybreak's code using a four layer
+abstraction model we're able to
+compartmentalize program responsibility
+and develop highly modular reusable code
+the software is modeled in a building
+block approach where simple programs are
+written in c plus or python and linked
+together using the ros noetic framework
+we have developed a robust driving
+control system for the erdm challenges
+focusing on quick response times and
+safe operation
+we also adapted our serial communication
+software to provide extra motor
+functionality such as encoder and
+current feedback for safer and more
+intelligent motion control
+we are currently developing intuitive
+ik-based arm controls for better
+manipulation tuning our long and short
+range navigation algorithms and sensors
+for the autonomous driving challenge and
+creating a hardware layer program for
+our new drive motors to take advantage
+of their improvements while minimizing
+the impact on other software projects
+daybreak features a balanced array of
+tests for detecting life assessing
+habitability and analyzing rock samples
+our custom scoop mounted to a crossbar
+collects soil depositing each sample
+into a funnel system that distributes it
+evenly between our chemical tests
+on the turntable the rover tests for
+proteins and ammonia as prominent
+biosignatures and nitrogen phosphorus
+potassium and ph as indicators of
+habitability
+for geologic analysis a 300 times
+microscopic imager and moisture sensor
+are lowered into the ground by spring
+load linear actuator revealing signs of
+fossilization and the presence of water
+we've also been prototyping a raman
+spectrometer to search for organic
+molecules and a swappable scoop system
+to reduce cross-contamination
+the team leverages several testing
+platforms and environments to prepare
+daybreak and our operators for
+completing tasks in the competition for
+manipulation preparedness the team uses
+a test box that contains many of the
+equipment servicing and erdm challenges
+side panels of the box hold tasks such
+as switches usb port and the keyboard to
+practice fine manipulation the overall
+box weighs 5 kilograms and has a rope to
+test arm and grip strength the software
+team uses a miniaturized robot that
+contains identical hardware to the rover
+for writing and testing software this
+platform allows testing of autonomous
+teleoperator and drive system code
+without needing the entire rover to be
+operational
+the team will be using the campus for
+full system testing focusing on
+communications the drive system and tele
+operation practice
+with our system design our preparedness
+for the competition daybreak and
+wisconsin robotics will be more than
+ready to tackle the 2022 university of
+rover challenge thank you to our
+sponsors

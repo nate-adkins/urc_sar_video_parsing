@@ -1,0 +1,139 @@
+[Music]
+the Northeastern University Mars rover
+team is a diverse collection of 35
+members from across the universities
+colleges of engineering science and
+computer science we've approached the
+2019 URC with a systems-based strategy
+that breaks the Rover into five
+subsystems chassis mobility arm life
+detection and communications each of
+these systems has been optimized to
+complete specific parts of this year's
+competition the combination of the
+subsystems has culminated into our 2019
+rover Watney mark 1 we designed our
+rover to be a stable as possible notion
+we use the full 1.2 meter width
+allowance and a chassis height of 0.7
+meters to keep our center of gravity low
+and well supported in order to meet the
+requirements of the task we designed our
+Rover to be dn't robust and adaptive our
+arm and science payloads are
+interchangeable with common electrical
+and mechanical interfaces allowing us to
+quickly set up for new tasks the rover
+will have three main configurations
+manipulation which is used for any task
+requiring the arm live detection which
+replaces the arm with our science
+payload in autonomous which uses the arm
+and a stereo camera for navigation using
+lightweight metals and composite
+materials we are able to make our rover
+extremely light and strong the base
+configuration weighs 35 kilograms total
+weight including all of our subsystems
+is only 50 kilograms the structural
+integrity of the chassis is achieved
+through a custom welded aluminum frame
+with a factor of safety greater than
+three for all components a polycarbonate
+enclosure is also used to mount and
+protect all electronics the mobility
+system features a rocker-bogie
+suspension that was chosen for its
+stability and climbing capabilities each
+wheel is individually driven by a high
+torque motor in each hub with these
+motors our Rover can climb a 45-degree
+incline with only three wheels on the
+ground
+we've designed a sleek robust and
+maneuverable robotic arm to complete the
+competition tasks as efficiently as
+possible high specific strength carbon
+fiber tubing connects six gear motors
+enabling five degrees of freedom Plus
+gripper actuation
+each motor is connected to a gearbox
+assembly which amplifies torque and
+keeps the motors from back driving the
+wrist joint has been specifically
+designed to enable 360 degrees of
+rotation without compromising cable
+routing with the use of a slip ring the
+gripper fingers were designed to have
+pinned rubber fingertips to ensure a
+reliable grasp on any object we may
+encounter the life detection subsystem
+can identify life and determine if it is
+extinct or extant using n IR
+spectroscopy chemical test strips and an
+ATP assay we collect samples with our
+scoop and scan them with an adjustable
+height and IR module water is added to
+create a slurry which is filtered and
+separated into individual sample sight
+lines for enzymatic and paper tests we
+have successfully verified all critical
+components and the payload will be built
+by the end of March to allow time for
+system integration and testing onboard
+the rover the subsystem can distinguish
+between extant and extinct life through
+the detection of carbon nitrogen Sigma
+and carbon carbon PI bonds respectively
+the paper tests assay glucose and
+proteins to further support the presence
+of extant life
+the ATP assay provides strong evidence
+for extant life we optimized all of our
+tests to match the conditions
+anticipated the competition in Utah
+including the use of dirt shipped from
+the region we assigned three custom
+boards to interface with our jetson
+powered system for power management
+motor control and science data
+collection these boards contain 8-bit
+AVR microcontrollers that communicate
+with our sensors using AI to see and the
+Jetson over raw cereal to collect GPS
+IMU ultrasonic and motor current data a
+communication system uses Ubiquiti IP
+radios operating on the 2.4 gigahertz
+bands these radios offer complete
+control over transmission power and
+channel width at both the base station
+and the rover we've tested this radio
+system at a distance of one point two
+kilometers using directional antenna
+that tracks the rover using GPS data we
+operate the rover through two Xbox
+controllers one for arm and one for
+drive to set speed through adjustable
+joysticks since
+with additional support from
+command-line tools and macros
+end-effector control via the reverse
+kinematic movement library allows for
+intuitive and efficient use of the arms
+the autonomous system interfaces with
+the drive as an always-on navigation
+node with object detection and mapping
+for full autonomous the searching
+pattern for finding the tennis ball is a
+modified outward spiral originating from
+the given GPS point the autonomous
+system leverages several monocular
+cameras a stereo camera ultrasonic
+sensors and the on-board Jets in the
+provision processing and route
+generation none of this would have been
+possible without the hard work and
+dedication of our team members and the
+support of our sponsors we are confident
+that we have a fully functional Rover
+comeback

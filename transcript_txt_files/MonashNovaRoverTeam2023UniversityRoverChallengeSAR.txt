@@ -1,0 +1,138 @@
+foreign
+Monash Nova Rover a student team based
+in Melbourne Australia composed of 96
+students from engineering science I.T
+Commerce and design backgrounds
+Co we've maintained the chassis body's
+modularity accommodating interchangeable
+arm and science payloads the new body
+has reduced core weight and improved
+accessibility returning is our proven
+core backplane electrical system and
+compact Jetson tx2 carrier board with
+expanded USB interfaces and vertical
+connectors for improved accessibility
+the Jetson tx2 has been updated with
+Ubuntu 20 and ros2 Foxy giving us access
+to newer packages with more
+functionality our GUI displays Rover
+starter starter alongside embedded
+camera views with heads-up display
+overlays improving Rover operation the
+battery system Now features LiPO
+batteries with a high discharge rate to
+support brushless motors and reduce size
+an integrated battery management system
+improves the safety and reliability of
+the overall unit to overcome the
+challenges associated with long
+distances our communication system now
+has a low data mode that drops data
+throughput to the bare minimum
+requirements to operate
+foreign
+system has switched from brush to
+brushless motors allowing the Rover to
+overcome steeper obstacles through
+increased efficiency and torque our
+in-house driver boards Implement field
+orientated control enabling improved
+control of motor torque at a range of
+speeds while reducing the risk of motor
+burnout coupled with position and
+velocity feedback this creates an
+intuitive and smooth drive system our
+new rocker suspension system
+incorporates pivot steering alongside a
+robust radius-based turning package
+enhancing the maneuverability of the
+Rover
+slew drives designed and manufactured
+in-house deliver up to 49 Newton meters
+of torque to reorient the wheels even in
+bog conditions our new rematch a
+differential bar allows for 50 greater
+vertical displacement of the corner
+Wheels over our previous design a damper
+has been integrated into the suspension
+system to improve stability over bumpy
+terrain new composite Wheels combine a
+3D printed nylon tread with a novel
+bikespoke internal geometry to
+significantly reduce Mass while
+improving traction on both soft surfaces
+and gravel
+this year we've redesigned the arm for
+Speed and ease of operation while
+reducing weight and cost six redesigned
+gearboxes now use brushless motors for
+increased torque and Joint speed a
+cyclotal stage provides High reduction
+with frameless Motors enabling
+through-hole cable routing each gearbox
+is tightly integrated housing the motor
+custom controller and sensors our
+upgraded end effector halves the mass
+compared to last year with greater
+rigidity for gripping heavy loads to
+improve ease of operation we've
+redesigned our arm control law adding
+position feedback for increased accuracy
+the sixth degree of Freedom system
+supports control in joint space and in
+task space using inverse kinematics and
+allows operators to switch between
+multiple control spaces an articulated
+arm model using the unified robotics
+description format aids with Collision
+detection and improved Telemetry gives
+operators accurate feedback on the
+motion and loading of the arm joints
+after our reliable performance in UIC
+2022 our actuating platform system
+returns complete with four modular
+Scoops for collecting soil samples the
+platform also houses an additional scoop
+with a locking lead to Cache a sample
+from the site of high scientific value
+our custom peristaltic pumps and tiered
+series transport aqueous samples to our
+chemical analysis system the system
+consists of a carousel pre-filled with a
+suite of chemical assays including BCA
+linhydrin and luciferase that allow for
+detection of proteins in ATP
+to enhance a life analysis process we've
+included a Roman spectrometer designed
+and manufactured in-house this will Aid
+in the investigation of aqueous samples
+for a range of biosignatures such as
+kerogene lipids DNA and RNA working
+alongside our geologic catalog our
+microscope enables high resolution
+imaging of rock samples enabling
+operators to easily identify their Key
+properties and features
+foreign
+system has undergone a significant
+overhaul to better handle obstacle dance
+environments our new autonomous
+architecture incorporates the TF2 rods
+package allowing precise localization of
+Rover components and seamless
+Transformations between coordinate
+frames to overcome inaccurate
+magnetometers the Rover now has two
+differential GPS receivers providing
+centimeter accurate positioning and
+sub-degree precision for the Rover's
+heading statistical
+from two stereo cameras allows for 30
+and tracking of obstacle
+obstacle area tag detection system
+precisely locates AR tags from over 10
+meters away and our custom GPU
+accelerated implementation of the hybrid
+a-stop path planning algorithm allows us
+to plan curved trajectories to more
+accurately model the river's motion

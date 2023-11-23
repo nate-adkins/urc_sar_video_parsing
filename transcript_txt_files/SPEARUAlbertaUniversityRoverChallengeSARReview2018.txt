@@ -1,0 +1,129 @@
+my name is Mackenzie Hart and I'm the
+project manager of spear spear has
+existed now for two years we spent the
+first few months optimizing a team
+organization that was best for designing
+and building a competitive Rover for the
+you RC Spears flip and is design and
+administration teams administration
+organizes our academic outreach programs
+financials events website and social
+media accounts the design team is
+organized into mixed discipline teams
+that each work on a subsystem of the
+roller Spears been able to learn this
+board works community through
+sponsorships grants and funds we
+currently have more funding than
+necessary to finish building or over go
+through rigorous testing and be
+successful at competition we followed a
+modern design process where we spent the
+majority of our time ensuring our
+designs were well-thought-out
+with many internal critical design
+reviews each were assessed by our
+academic advisor each system and part of
+our rumor has been designed to perform
+every task in the URC of the reasonable
+factor of safety in preparation for the
+competition we're working with the U of
+A to use spaces on campus to test our
+Rover systems to the maximum potential
+we have accurate Martian soil for our
+probes and drill testing accurate
+Martian environment to test extreme
+driving capabilities a lab with rigs
+test each of our mechanical systems
+durability and different objects to test
+our arm and hands capabilities one of
+the major design decisions that we made
+with regards to the arm was the decision
+to use five rotational actuators for
+stepper motors and one brushed in order
+to provide us with more flexibility to
+move the arm another element that we
+introduced into the design was a hanging
+hook located partway between the elbow
+and the wrist which allows the arm to
+minimize the orthogonal distance between
+itself and a heavy load such as in the
+extreme retrieval tasks at the wrist
+there is an attachment that allows a
+hand or an auger to be switched using a
+chuck this allows the arm to accomplish
+both the soil extraction and equipment
+servicing tasks with minimal work
+required to switch between the two modes
+our big focus so far has been the
+suspension system specifically the
+differential bar we are in the process
+of testing its range of motion and its
+capabilities in helping the drive system
+overcome a variety of different terrain
+the rocker-bogie system is comprised of
+two links on either side of the chassis
+which acts as the legs of tars where the
+bogie link connects to the rocker link
+in such a way that the connection is a
+pivot for the two front legs and the top
+of the rocker link acts as a pivot for
+the rocker bovi assembly so we looked at
+lots of different designs for the
+differential and ended up coming up with
+a simplified design for the rocker
+police to be able to be linked together
+to have we're trying to make the chassis
+as simple and light as possible a while
+confirming to the rocker-bogie systems
+requirement of having the centre of mass
+at least 20 centimeters from the front
+of the roar we're getting that done by
+using tea started aluminum themes
+they're lightweight as well as
+inexpensive and really easy to
+disassemble and reassemble so that makes
+it early design is super easy we are
+designing the bearing mount on the
+chassis to extend at least 2,000 newtons
+pretty confident that it should be able
+to stand
+almost all the terrain traversal tasks
+of course we're gonna confirm that
+through casting so the biggest part that
+I wrote about in the SAR is that
+software is on board every part of the
+rover so this includes on board the arm
+on going to drive subsystems on the
+communication from our home base to the
+rover as well as the autonomous and
+science subsystem so this is a lot of
+software in a lot of different parts so
+essentially what we did is I are all of
+our software team we've worked
+flexibility throughout the team we use
+the Ross meta operating system as well
+as C++ and Python for all of our code
+and all this code kind of works together
+very well and is able to control all the
+operations of our Rover we identified
+the six major elements that are for the
+most part required for life and that is
+oxygen hydrogen
+nitrogen phosphate sulfur an organic
+carbon our bench tests are focused on
+locating these six elements so we're
+doing soil tests to look for nitrogen
+phosphorus pH and potassium we're going
+to locator our sample site by using
+temperature and moisture sensor a UV
+sensor and an IR camera by doing this we
+can find anomalies in the ground in
+order to figure out where bacteria is
+most likely to collect and taking a
+sample based on that we have a great
+group of people that are passionate
+about this project which is why we have
+been so successful for being a student
+group that just got started a year ago
+[Music]

@@ -1,0 +1,104 @@
+Welcome to Almost Heaven, West Virginia.
+We are Mountaineer robotics, a
+multidisciplinary team of undergraduates
+at West Virginia University. We are
+excited to unveil our 2020 University
+Rover challenge entry, MATEO - Mountaineer
+Autonomous Traversal and Environmental
+Operations. With our past Rovers as
+learning experiences, many of our design
+choices this year aim to minimize the
+number of moving parts onboard the rover. MATEO is built with a rigid aluminum
+chassis and trapezoidal shell. Each of
+MATEO's 49 centimeter tires is driven by
+a brushed DC motor. The tires are affixed
+directly to their motors by steel
+transmission shafts, giving MATEO an
+excellent skid steering system. For power
+MATEO uses three 40 volt batteries as well as two 12-volt batteries. Power to the
+entire system can be stopped at once by
+depressing the emergency stop button.
+Rover communications run on both 2.4
+gigahertz and 900 megahertz channels. A
+network is automatically configured when
+all four radios are powered by 24 volt
+power over Ethernet. At the base station
+a custom user interface allows operators
+to visualize the collected data in
+charts and graphs as well as switch
+between camera streams all from up to
+one kilometer away. For the equipment
+servicing mission we have constructed a
+1 meter lift at high precision arm.
+Controlled by a joystick and inverse
+kinematics, this arm provides operators
+with six degrees of freedom. This arm's
+end effector is a lead screw actuated
+four-bar gripper. The end effector
+complies around cylindrical objects, and
+its tips are coated in polyurethane to
+increase gripping force.
+In addition, a hook is attached to the
+base of the arm for lifting objects up
+to five kilograms. For the science
+mission we are reusing the lift system
+from our equipment servicing arm. The
+vertical lift deploys a linear actuated
+scoop into the soil, which is collected
+in a rotating carousel beneath the rover.
+The soil is first observed through a
+microscope then immediately tested for
+temperature and moisture to determine if
+simple organisms could survive. The
+samples pH level is also tested, as pH is
+a strong indicator of soil habitability.
+Acetic acid is then added to the sample
+which is monitored by a real-time CO2
+sensor. If carbonates are present in the
+sample the base station will observe a
+sharp increase in carbon dioxide
+emissions, indicating that neutral to
+alkaline water favorable to life was
+present. For large rocks, inspection under
+webcam and microscope could show colors, layers and other features that could
+help identify minerals present in the
+sample.
+If gypsum or halite is found, UV light
+may reveal the presence of organic
+materials within the mineral. For the
+extreme retrieval mission MATEO's lift
+system is swapped for a three degree of
+freedom arm. Controlled by two linear
+actuators and a DC worm motor, this arm
+is capable of reaching fifteen
+centimeters below and thirty centimeters
+in front of the chassis.
+This arm's end-effector is designed to
+maintain grip strength while traversing
+rugged terrain, and the rover's low
+center of gravity helps our main wheels
+down on steep inclines.
+MATEO is programmed primarily with C++
+and Python, running on Ubuntu in ROS.
+Individual services such as sensors and
+cameras run on their own Ross nodes
+During the autonomy mission, an operator inputs a GPS coordinate and its
+uncertainty into the base station
+computer. From there MATEO is controlled
+by a state machine. MATEO begins by
+driving toward the given coordinate,
+entering obstacle avoidance mode if
+triggered by LiDAR point cloud data. An
+EKF helps the rover maintain its heading
+even on rugged terrain. MATEO is
+outfitted with four wide-angle cameras,
+each of which can reliably detect AR
+tags up to 10 meters away. If the rover
+arrives at a GPS coordinate without
+detecting a marker, it uses a
+Gaussian function to generate a search
+path over the surrounding area.
+Mountaineer robotics is excited to
+unveil the progress we've made on MATEO
+and we hope country roads take us home to the Mars desert Research Station in May.
+Thank you for your consideration

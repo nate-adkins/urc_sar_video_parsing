@@ -1,0 +1,165 @@
+hello we are team interplanator and
+undergraduate student team from
+Bangladesh University of engineering and
+Technology we are participating in the
+University Rover challenge 2023 and we
+present to you our latest robot
+protester version 1.0 we implemented a
+four-wheel rocker suspension mechanism
+to keep the Rover lightweight wheels are
+attached to the Rockers on either side
+of the Rover chasing bar differential
+keeps the Rover chasing balanced at an
+average angle between the Rockers on
+either side this allows the Rover to
+climb over rocks on uneven ground while
+minimizing jerking of the chassis thus
+protecting sensitive electronic
+components inside we tested the Rover
+for traversal in extreme rocket terrain
+our Rover can climb steep slopes and
+withstand sudden Falls without any
+damage the Rover can also drive over
+Sandy ground this year a completely new
+chassis is designed and manufactured to
+reduce weight and ensure modulated this
+chassis is made of stainless steel
+square groups Oasis providing instance
+while being lightweight it provides more
+recipes for electronics arms and science
+payloads the suspension is made from
+stainless steel square tube this year we
+made a modification by Shifting the link
+by different shelf from the front of the
+chassis under the bottom this allowed us
+to mount the arm in front of the Rover
+for better maneuverability of the arm
+during several tasks learning from
+previous years we've signified the arm
+design and this lighter design is
+manufactured using teak welded SS Square
+cubes the six degree of Freedom arm
+stands on a tightly integrated warm
+gearbox Wrong by DC motor which provides
+base rotation this one gear reduces
+backlash of previous design
+this year we have modified the previous
+ND Factor by replacing most of the
+plastic parts with aluminum alloy this
+enables us to make the roll pitch and
+your mechanism 74 smaller in volume
+while still maintaining the similar
+strength the end effector can push
+buttons flip switches plug-in USB and
+type on keyboards with the 360 degree
+continuous rolling we can turn knobs and
+drive screws with a screwdriver the arm
+can pick up objects from the ground pull
+ropes open and close latches and drawers
+real self-depth camera is used for
+obstacle avoidance and Air Attack
+detection during autonomous inversion
+task alongside the camera or Rover uses
+a 9 degree of Freedom IMU and press
+module connected to a Jetson Xavier NX
+which is the same setup as the previous
+year the Jetson Javier NX acts as the
+Rover's main processing unit and takes
+the 3d plant code data from the camera
+and fuses it with the GPS and IMU data
+for Wi-Fi navigation using point out
+data from the depth camera a 3D map of
+the environment is generated this is
+then used to generate a 2d grid map
+where the obstacles are marked with
+black boxes the path planning algorithm
+uses these data to Traverse in an
+Optimum path for averting obstacle which
+is shown in the average window Martin
+group The reacted air tags also get
+marked on the map and camera window
+using GPS data real-time position data
+is shown on the map and weapon-based
+navigation is performed successfully for
+Effective task handling we have created
+a unique user interface that is
+connected to Ros which includes all
+manual Rover operation functions our
+robot operators May simply control a
+variety of rubber movements by
+depressing various buttons on the user
+interface and on the keyboard the robot
+sensor data and video feed can also be
+streamed through the user interface for
+monitoring purposes we've set up a 2.4
+gigahertz communication link between the
+PlayStation and the Rover using two
+rocket m2s base station uses 120 degree
+15 decibel sector antenna while the 13
+decibel Army directional antenna is
+mounted on the Rover these are both High
+Gain antennas and they ensure no line
+assert communication for a distance up
+to one and a half kilometers from the
+base station
+elliptical system of our Rover is
+separated in four different modes power
+arm wheel and signs for powering the
+Rover we are using Lithium Polymer
+batteries and two different power rails
+12 and 24 volts this year we design our
+power board with high fan consumption in
+mind and high and low power system is
+properly as well to remove any
+electrical noise we have redesigned our
+Arm Control Board to take the full
+advantage of 6gb of Freedom we have also
+introduced magnetic encoder to implement
+that
+electromagnet and vibrational motor for
+soil sample collection and analyzing
+and also that electrical components are
+choosing the manner that no
+contamination can occur safety of the
+robot and the crews are a top priority
+so we have installed an industry
+standard Cube switch to cut off the
+power from the batteries in case of an
+emergency also the power consumption of
+the Rover is heavily monitored this year
+we have redesigned NG model soil
+collection and scientific analysis
+device from scratch in more efficient
+way to collect the soil we use data
+table scopers which are collected by an
+overarm using electromagnetic effect the
+electromagnetic mechanism to pick and
+drop the scope or from funnel is still
+under manufacturing three different
+scoopers are used to avoid contamination
+the scoopers open and close itself by
+using linear actuator and elastic rubber
+fiber after connecting soil scoopers are
+placed on funnel opening and mixed with
+water solution using hydration motor
+peristaltic pumps are used to bring soil
+solution and chemicals in the tissue for
+onboard scientific analysis we use
+different chemicals to detect presence
+or absence of Life protein lipid
+carbohydrate and carbonate biomolecules
+will be detected through the color
+changing chemical reactions color change
+will be observed using microscope camera
+further development of ATP tests using
+luciferous enzyme is going on to detect
+extinct or extend life also for rock
+sample analysis we have developed a
+model using CNN and resnet which can
+process the data from real and augmented
+images we train the model using
+available rocks and gravel we also use
+temperature and humidity sensor to
+observe if soil sample is habitable for
+life or not
+we thank our sponsors and see you in URC

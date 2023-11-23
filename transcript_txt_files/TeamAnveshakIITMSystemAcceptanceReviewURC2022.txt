@@ -1,0 +1,120 @@
+We are Team Anveshak, a student 
+rover team from IIT Madras.  
+Our team consists of 25 students from various 
+engineering disciplines and has been hard at  
+work redesigning our rover system to increase 
+its capabilities in each of the missions.  
+Anveshak is proud to present you 
+our 2022 rover : 'Foresight'. 
+Our manipulator is a robust 5 degree of 
+freedom articulated arm that is capable  
+of performing a variety of tasks like 
+operating flip switches, turn knobs,  
+push buttons and typing on a keyboard. We have 
+elongated the slider of the linear actuator  
+to increase the overall range of the 
+arm. The gear ratio of the shoulder  
+worm gear has been increased to raise 
+the payload capacity of the manipulator. 
+The end effector of our manipulator is a 2 degree 
+of freedom underactuated gripper. It is capable  
+of executing pinch grasp and encompassing grasp 
+based on the point of contact with the object.  
+This year, we have modified the link lengths 
+of the 5 bar mechanism so as to increase the  
+opening range and to meet the force requirements 
+more effectively. The position of the torsional  
+springs used has been changed in such a way 
+that the power required for gripping is minimal. 
+We have made use of generative design to design 
+the plate of the wheel due to which its weight has  
+been reduced tremendously. This year, the string 
+differential mechanism has been developed to  
+stabilize the chassis during motion. It involves 
+2 strings that are connected to the shafts of the  
+rocker bogie on the either side of chassis using 
+pulleys. Using the strings we have been able  
+to drastically reduce the play that has been 
+associated with the bar differential earlier.  
+For the traversal mechanism we have continued 
+using rocker bogie as we have been able to gain  
+optimal results using it. The lengths of the 
+rocker and the bogie have been optimized using  
+Matlab to achieve the least vibration of the 
+chassis. We have continued using carbon fibre  
+for the rocker bogie mechanism because 
+of its high strength to weight ratio.
+The entire electronics system of our rover 
+is housed in a modular electronics box  
+which allows the easy servicing 
+and maintenance of the electronics. 
+The whole system is powered by a custom designed 
+power distribution board which converts 24 V to  
+12 and 5 V using DC buck to buck converters and 
+provides power to various subsystems. The Jetson  
+Nano forms the core of all the computations on 
+our rover. Using rosserial, control signals to  
+the motor drivers are sent via STM’s using I2C and 
+CAN protocols for Drive and Manipulator subsystems  
+respectively. The shift to CAN bus for the 
+manipulator reduces noise in the communication.
+  
+The PCBs were newly designed and optimized 
+this year to reduce the number of cables  
+and wires present along with an LED based 
+indication system for easy debugging. 
+  
+Our communication setup consists of a 
+directional antenna at the base station  
+and an omnidirectional antenna mounted on 
+the rover operating at 2.4 GHz. The setup  
+is capable of communicating over a distance of 
+1 km, even in the absence of a line of sight. 
+A readily accessible kill switch 
+is mounted on the rover to stop the  
+rover’s movement in case of an emergency.
+ 
+ 
+The rover was monitored and debugged using a  
+proprietary web-based GUI. The GUI is used 
+to handle information about the operation.
+This year we have developed robust and efficient 
+algorithms to do the autonomous task in URC.  
+We initially tested our algorithms 
+on a simulated environment before  
+testing it on Foresight. The robot then 
+navigates to the designated waypoint,  
+primarily using the map as a guide. However, 
+it continues to sense its surroundings,  
+even if its placement on the map is wrong or if 
+it is in danger of colliding with an obstruction. 
+We are using OpenCV aruco module for ARuCo 
+detection, the robot localization package  
+for implementing the extended Kalman 
+filter for fusing ZED odometry and GPS.
+We are using rtabmap for obstacle 
+detection and navigation stack for  
+path planning and building the 
+map of the external environment.
+We have completely redesigned 
+our Science module for URC 2022.  
+Our custom designed drill rotates at 
+high speeds to scoop soil into a bucket.  
+It is then dropped into the collector box which 
+is rotated using a stepper motor to collect parts  
+of the sample in each compartment. Bio signatures 
+like lipids, proteins and sugars are tested for,  
+using Sudan 3, Bradford's and Baye's tests. 
+The reagents are filled in each compartment  
+and closed with an acrylic lid to avoid spillage 
+or contamination. Extinct and extant life are  
+distinguished using the difference in the time 
+taken by the lipids and proteins to decompose.  
+The rover is equipped with various 
+sensors that read temperature,  
+humidity, luminosity, intensity of light rays and 
+the percentage of various gases in the atmosphere. 
+The microscope on-board identifies 
+the colour and texture of the rocks.  
+This is used to search a custom database 
+for the origin and type of the rocks.

@@ -1,0 +1,137 @@
+hi we are mitch rover from middle east
+technical university anchor turkey this
+is our second year on the university
+rover challenge with our first rover
+improviser
+square-shaped carbon fiber profiles are
+used for chassis structure connection
+points and bearing mounts of the chassis
+are supported with aluminium nodes
+along with a compact chassis design
+wide wheel spacing is adjusted to
+provide more secure drive on the terrain
+and prevent possible tipping rocker
+suspension system and rubber ties are
+designed for smooth ride differential
+motion between two rockers is provided
+by a differential barb with minimal
+backlash
+locomotion motors are placed into
+aluminium wheels to protect them from
+forcing environmental damage reaction
+forces and moments on the motor seat are
+eliminated by using double wearing
+support
+the robotic arm is designed to have five
+degrees of freedom operating the end
+effector the kinematical design of the
+arm is carefully tailored to have
+maximum functionality and ease of use on
+different urc missions the shoulder
+elevation and respite axis of our arms
+actuated via warm gear mechanism
+to ensure minimum system complexity
+multiple pcbs have been designed for
+each system rover control unit called
+rcu is designed to act as a getaway
+connecting different subsystems with
+each other
+a custom motor control unit is designed
+to distribute power and drive the
+brushless motors used for locomotion at
+the rpm desired by the json tx
+thanks to canvas interface mcu can be
+directly connected to rcu using just two
+cables and can endure a wide range of
+working voltages
+the robotic arm is still operated via
+rvs move it motion planning library is
+used to solve for inverse climatics and
+to plan a collision-free path through
+the environment the planning library has
+been tested on the arm
+and been put to use while accomplishing
+mission-like scenarios
+two 5.8 gigahertz fpv cameras will be
+placed on the robotic arm to provide low
+latency visual feedback arm control unit
+has been also designed to ensure the
+modularity of the robotic arm system and
+is directly connected to the rover
+control unit
+communication will be fascinated over
+2.4 gigahertz wi-fi network with
+ubiquiti nanostation mg booster for
+better long-distance performance custom
+communication protocol has been designed
+to reduce data transfer between roblox
+subsystems and ground station
+onboard communication will be
+implemented by a cambus network
+significantly reducing cable management
+related issues and providing an
+intuitive communication interface
+as a backup a lorem radio module will be
+used to send mission critical data or
+reset the whole system in case of issues
+related to the main wi-fi system
+istop button is placed on the chassis to
+be able to quickly respond in case of
+emergency power supply to all systems
+will be cut when it's pressed
+additionally such as indicator lights
+are used to display the state of the
+rope
+the robot operating system runs all the
+drivers of fairfield
+z2 camera is placed on the front side of
+the rover and it supplies a stereo video
+stream moreover's active rapper library
+publishes the stream as a ros message
+for the use of localization navigation
+detection and mapping applications
+rtapp map is used to generate point
+cloud maps to be used in autonomy of the
+rover's navigation
+similar to the panel used in the
+competition a panel to replicate the
+mission is used for training the machine
+learning model the operator on the base
+station will receive the stream
+augmented with the predictions of the
+model on board
+[Music]
+we created a custom weave with python in
+order to visualize and examine the
+science data graphical user interface
+also monitors the rover and robotic arm
+on operation it informs the team about
+the condition of the rover and helps to
+operate for better control
+science team aims to explore the site
+with an interdisciplinary approach
+meanwhile the cnn algorithm developed by
+the team is used to detect minerals the
+database created for the mineral
+recognition is also used to filter out
+certain properties such as water
+presence the biological activity will be
+assessed using automated sample testing
+system which houses two calorimetric
+assays for peptide bonds and
+polysaccharides and a luminescence assay
+is utilized to differentiate excellent
+from extinct life
+atmospheric data is acquired
+continuously with various sensors such
+as uv light dust temperature and
+humidity
+as our team is a part of the student
+society mate mac we hold online
+workshops that is accessible to all
+ranging from introduction to python to
+3d design
+hence training the team candidates with
+elementary skills while providing free
+resources across multiple online
+platforms such as youtube

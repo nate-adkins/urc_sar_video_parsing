@@ -1,0 +1,147 @@
+hello my name is gage Lochner and I'm
+the project lead for maverick the Mars
+analog vehicle for robotic inspection
+and construction in this video the team
+leads and I will be discussing the
+research work and testing we have done
+over the last year to ensure that our
+newest rover Phoenix is ready for the
+URC 2019 competition and why our modular
+reliable design is well suited to the
+challenges that URC presents Phoenix's
+chassis is a single quarter inch
+aluminum formed part which is
+lightweight and easy to work with
+mounting holes around the chassis allow
+for a modular Rover design enabling the
+team to easily upgrade various Rover
+components and test new designs without
+compromising the Rovers competition
+readiness a plate on top of the chassis
+provides mounting locations for the
+robotic arm and other subsystems the
+electronics box is mounted within the
+rear of the chassis and can easily be
+removed for modifications and bench
+testing the rover utilizes a wide stance
+rocker-bogie suspension the rocker has
+its range of motion partially limited to
+prevent it from flipping over in extreme
+terrain the rover's high traction 10 and
+1/2 inch wheels are individually driven
+by high power in hub motors which
+provide enough torque to tackle steep
+inclines and large obstacles while
+maintaining high ground clearance
+Phoenix's robotic arm has 5 degrees of
+freedom a motor controls the base
+rotation of the arm a second motor
+utilizes a worm drive to lift the upper
+arm and a linear actuator at the elbow
+adds precision for our movement a
+compact dual motor wrist joint offers
+both pitch and yaw the end effector is
+controlled by a mini linear actuator and
+has the ability to manipulate a wide
+variety of objects the end effector
+rotates on Center so turning knobs and
+using screwdrivers is straightforward
+overall the arm has a great range of
+motion and long reach there is no
+position the arm can move to which it
+cannot recover from since the shoulder
+and elbow cannot be back driven
+following mechanical development of the
+arm we've been working to add electrical
+feedback for fine arm movement this will
+allow us to control various devices
+including switches valves and other
+things that we may incur during the
+competition some improvement that we've
+been making on the rover include a
+battery setup which is separate for the
+control system and for the drive system
+this way we're able to control the rover
+with a system that avoids having brown
+on voltages whenever the rover goes to
+move forward due to the high current
+draw from the motors doing this we've
+also been able to increase the
+reliability and stability of our
+platform
+by properly sizing connectors and wires
+so that they're able to handle the large
+current draw but the motors may have
+whenever they go and move forwards or
+backwards at the same time we've been
+working a lot this spring to add
+autonomous features to our over we have
+a working IMU and GPS setup being able
+to give the rover at coordinate and it
+will actually drive to that GPS
+coordinate without any issues we're
+adding currently the ability for the
+rover to see in a way and adding
+computer vision features through the
+addition of a pixie cam for object
+detection and an intel realsense camera
+for stereo theory
+science team researched a variety of
+different tests we looked at different
+forms of spectroscopy epifluorescence
+microscopy co2 emission analysis and
+even agarose gel electrophoresis but in
+the end we chose to use a form of
+spectroscopy called Raman spectroscopy
+Raman spectroscopy just seemed to fit
+the mission perfectly because it
+requires little to no sample preparation
+there's an abundance of resources
+available for different biomarkers that
+we can test for and NASA is actually
+using similar technology on the Mars
+2020 Rover in the Sherlock system we
+have developed an optical system which
+fulfills all the requirements of Vermont
+spectroscopy and fitted it with a 3d
+printed housing to keep it safe from
+desert sand and from light that can
+contaminate our data collection to
+distinguish samples that show signs of
+life from those that do not we assemble
+list of why markers to be matched with
+Raman spectra data that will receive
+using a MATLAB code to show the likeness
+of the match currently we are working on
+identifying polystyrene with our system
+but soon we will be moving on to testing
+our biomarkers and then real-world tests
+Phoenix is very close to 50 kilogram a
+stone the team is actively pursuing what
+your options solutions to mitigate this
+risk this includes developing lighter 3d
+printed wheels removing unnecessary
+material from various locations in the
+rover nor pacing less critical aluminum
+components with plastic in the composite
+ones most of the competitions we've
+created mock trials based on the rules
+that given to us for example on the on
+Mina board though attest that different
+motions the arm soils test operators in
+their chemical skill we've also complete
+outdoor drive testing September 2018 the
+over suspension perform very well on
+uneven and steep terrain during the last
+six months the rubber team has presented
+a roughly 300 perspective ISU students
+during tours of our lab and other events
+on campus we have also presented a local
+elementary school letting nearly a
+hundred children drive the rover and
+operate the cameras and robotic arm as
+we have shown maverick has been able to
+produce our best Rover yet and we are
+looking forward to the work ahead of us
+to finish preparations for the URC
+competition

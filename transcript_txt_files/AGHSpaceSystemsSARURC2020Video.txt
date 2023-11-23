@@ -1,0 +1,107 @@
+hi-yah agh space systems from krakow
+poland our team consists of 22 members
+from various fields of study from
+mechanics biology today would like to
+present the project that we have been
+working on for the past four years the
+plan to overcome the Roper suspension is
+a rocker design made of aluminum alloys
+and composite materials the main drag
+motors are hidden inside the wheels
+which protect them from damage each will
+can be independently state which allows
+us to control the rover burn precisely
+including rotating in place driving in
+art slide waste and the analogy we rely
+heavily on 3d printing technology in
+composite materials which allows us to
+reduce weight while preserving
+durability most notably the wheels were
+printed from TPU
+which provide them along with the
+honeycomb structure with properties
+perfect for rough terrain the new power
+system allows us to instantly replace
+battery and monitor the condition
+similary a 3d printed rack system has
+been installed to make the most crucial
+economic boards easily accessible and
+improve heat management each PCB has its
+own backup tested and ready to be cooked
+mounted in case of an emergency the
+rover has been fitted with an easily
+accessible retina dress pattern which
+physically breaks the connection to the
+batteries completely and instantly
+shutting off power
+the arm is capable of lifting weights of
+refractor grams as well as very small
+tools and objects independently
+controlled turning wheels allow us to
+quickly reposition the entire rubber to
+reach different elements on the
+servicing panel
+[Music]
+[Music]
+the team has prepared a mocha Pal where
+operators are timed on completing a
+series of tasks such as placing objects
+in a drawer or typing on a keyboard it
+also allows us to fine-tune the
+positions of cameras used during these
+tasks the rover and arm can be
+controlled at the same time with the two
+standard game controllers both the
+control scheme and base station app have
+been tailored to suit operator's needs
+and let them focus exclusively on the
+given task a different driving modes can
+be accessed to a single push of a button
+our autonomous system is based on Ross
+packages done modified and adjusted to
+outdoor environments the localization
+system is based on GPS I am you as well
+as visual and wheel odometry
+data from the sensors is the murdered by
+extended Kalman filter for mapping
+purposes who use an IR based stereo
+camera we test the autonomous traversal
+in a variety of difficult real-life
+environments to make sure that our
+system works irrespective of terrain
+type or weather and lighting conditions
+and you know like neural network as well
+as a ross package are used for a Tartar
+detection and proved to be accurate on
+distances of over 12 meters we also make
+extensive use of gazebo simulations a
+continuous integration system
+significantly speed stop development by
+reporting most bugs before the software
+is deployed on the robot during science
+tests soil samples are collected with a
+dedicated scoop and a vector and placed
+in sealable containers the arm movement
+is automated in order to save time so a
+solution is then prepared and exposed to
+a series of chemical tests which can
+detect the presence of various
+bio-markers a wide-angle panorama of the
+sampling site is easily captured thanks
+to the reversed ability to turn in place
+[Music]
+all our subsistence were fully tested to
+ensure robustness and optimal
+performance after confirming that all
+modules are operational the rubber has
+undergone a series of end-to-end tests
+to ensure a readiness for tough desert
+conditions beside engineering our team
+had refocus on educational outreach and
+inspiring future generations to pursue
+their passion for science and technology
+now this would be possible with hard
+work and dedication of our team members
+as well as support for University
+Ministry of higher education and
+practice sponsors thank you saving space

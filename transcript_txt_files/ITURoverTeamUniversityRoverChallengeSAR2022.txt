@@ -1,0 +1,155 @@
+Greetings from Istanbul technical university,
+I am Burak team captain of the ITU Rover Team
+and here is our sixth-generation rover.
+Two different chassis design used in this
+year’s rover. 2 mm aluminum sheet metal
+body for easy production and carbon-fiber
+chassis for solidity and lightness.
+Differential bar and rocker suspension mechanism
+have chosen for raising field performance.
+The height of the rover from surface is 0.3m,
+including wheels the width is 1m and length
+is 1.1m.
+Steering mechanism is developed for superior
+movement capability.
+It provides us to steer every wheel independently
+and accurate control for rover’s motion.
+Brushless DC motors has been installed on
+each wheel’s hub for better protection from
+outer effects.
+Airless tiers that manufactured from TPU by
+3D printing are designed more dished to reduce
+contact with ground.
+In this year’s rover, we used STM32 microcontroller
+and VESC electric speed controllers on thrusting.
+As a result of using brushless DC motors with
+Hall Effect sensors, we can control the thrusting
+system more precisely; get important data
+such as RPM, power, and use it on the PID
+controller design.
+For the steering, TALON SRX motor drivers
+and magnetic absolute encoders are utilized.
+In the electronics box, 4 custom made PCB’s
+are designed, and implemented for the power
+and data distribution throughout the system
+to make the system as organized and modular
+as possible.
+Connection between microcontrollers and onboard
+computers is built with serial communication.
+Long-range communication between the ground
+station and the rover is established using
+2.4 GHz RF modules.
+Directional antenna is rotated according to
+the location of the rover for achieving more
+robust and longer range communication.
+To have a better perception on the rover,
+IP and FPV cameras are located on the different
+spots.
+Our algorithms are tested in the simulation
+which designed for the competition tasks.
+In this way, problems can be observed in advance.
+Complete control on the rover is provided
+during tests thanks to our new user-oriented
+interface.
+Our rover's 6-axis robotic arm is designed
+with a worm gear and cycloidal gearboxes mechanism
+that will provide the required torque and
+full rotation for each axis.
+The structural parts of the robotic arm are
+made of carbon fiber and aluminum to achieve
+maximum strength.
+The two-fingered adaptive gripper, consisting
+of PETG and aluminum parts, allows you to
+easily hold any shape of an object with the
+help of TPU pads used in the fingers.
+7 brushed DC motors are used to drive the
+robotic arm and gripper.
+Talon SRX motor drivers for each axis and
+precise encoders helps us to achieve accurate
+position control.
+Communication of the system is done via CAN-Bus
+which is a robust protocol.
+Additionally, in order to provide flexibility
+and safety, we took extra care to cable management.
+This year we made our robotic arm even more
+fail proof by improving the interface between
+hardware and software.
+For teleoperation, besides integrating industry-proven
+solutions into our system, we also developed
+our own inverse kinematics solutions as an
+alternative.
+As a result, we are capable of controlling
+the robotic manipulator precisely in both
+cartesian space and joint space.
+This way, optimum motion can be obtained for
+various tasks.
+In addition, we developed each of our systems
+by repeatedly testing them in simulation and
+performing drill missions in real-life.
+Steering system is configured for autonomous
+navigation and teleoperation.
+With the SLAM algorithm, a costmap is obtained
+using the 3D map constructed from the accumulated
+point cloud data.
+While orientation of the rover is consolidated
+by 2 IMUs, localization is improved using
+one GPS at the base station and another on
+the rover.
+By adding plug-ins and customizing the navigation
+stack, the autonomous movement is stabilized.
+AR Tags are found by a spiral searching algorithm.
+Tags are detected by the ArUco package in
+short range, and YOLO is used for extending
+the detection range.
+A concurrent state machine system is implemented
+in order to control the status of the rover
+and the sensors while simultaneously ensuring
+the autonomous navigation of the rover.
+In this new science system, we set out with
+the experience we gained from past years.
+While the soiling and transportation process
+was simplified and prevented from contamination
+with the drill mechanism, a complex system
+has been developed for the transformation
+and filtration of required chemicals.
+Also, the microscope was added to the spectrometer
+mechanism for increasing the accuracy of the
+result of the examination.
+DC and stepper motors are used together in
+the system that aims to increase strength
+by using Petg material.
+After the samples are taken to obtain the
+organic molecules, soil is filtered from Whatman
+paper.
+Schiff’s and Bradford reagents were used
+to detect the aldehyde and protein molecules.
+These assays only take a few minutes, and
+results are detected by IRSL.
+Glucose biosensor was produced to detect the
+glucose which is the main energy source for
+microbial life.
+Chitosan cryogel was produced in our laboratory
+and analyzed by SEM.
+GOx and POx enzymes were immobilized on the
+cryogel by cross-linking.
+Artificial intelligence algorithms were used
+to detect the rock samples.
+Rocks were photographed then examined with
+a microscope and a percentage of similarity
+was obtained.
+Atmospheric gas, humidity and temperature
+sensors were used to measure the habitability
+of the environment and they were compared
+with the reference datas from Earth and Mars
+atmosphere.
+Raman and Visible/NIR spectrometers are designed
+to identify the rock and soil samples.
+In the Raman spectrometer a 532 nm monochromatic
+light source is used.
+Limit switch was used to confirm the angle
+of the mirror which leads us to find the Raman
+Peaks in the spectrum which scanned by the
+photodiode.
+In the Visible spectrometer a polychromator
+light source is used and we prepared our own
+database.

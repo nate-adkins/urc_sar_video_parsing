@@ -1,0 +1,142 @@
+[Music]
+hi we're the michigan mars rover team
+and we're excited to introduce you to
+our 2022 rover our team of 80 members
+has been hard at work to build our best
+rover yet we've returned to in-person
+work by learning to use new machining
+equipment and extensively testing our
+previous rover
+our new rover is designed for optimum
+performance and manufacturability we've
+kept our aluminum chassis with rocker
+bogey suspension and are now using
+maximum brushless motors in our custom
+gearboxes
+3d printed wheels on the suspension
+provide robust climbing capabilities and
+precise steering
+this allows the rover to maneuver
+through a rock garden and climb slopes
+up to 45 degrees
+our 6 degree of freedom robotic arm is
+equipped with cycloidal gearboxes
+built-in house for strength and control
+allowing it to easily carry loads up to
+10 kilograms a lead screw driven end
+effector is capable of grasping objects
+up to 13 centimeters wide and
+dexterously completing servicing
+procedures
+additionally our inverse kinematics
+algorithm allows the operator to quickly
+move the end defector to a precise
+orientation and position pcbs along the
+arms simplify communication and wiring
+for modularity
+we now have a second arm configuration
+for the science mission
+the four degree of freedom science arm
+and end effector precisely manipulate a
+microscope and spectral sensor above
+rocks to look for microfossils and
+life-indicating materials
+a scoop collects and autonomously
+deposits soil to a single drop-off point
+using motion planning and closed-loop
+control
+to prevent cross-contamination between
+samples a carousel positions a new copy
+of each test at the drop-off and the uv
+led sterilizes the scoop in between
+sites
+chemical assays on the carousel search
+for amino acids chlorophyll ammonia and
+nitrates
+additionally our raman spectrometer
+analyzes soil for carogin and
+carotenoids
+this design allows us to efficiently
+analyze up to three soil samples and
+nine rocks for the science mission
+our electrical system has been
+streamlined to improve functionality and
+reduce failure points
+we designed custom pcbs embedded with
+scm32 processors to centralize devices
+in the e-box to simplify debugging the
+power and fuse boards continuously
+monitor and regulate current voltage and
+temperature of major power lines while
+the science board combines sensors and
+motor drivers for the science mission we
+have upgraded the firmware of all
+microcontrollers to interface with more
+hardware and provide data for
+sophisticated control algorithms
+a 36 volt battery provides two hours of
+continuous operation
+an accessible e-stop allows us to safely
+shut off the rover at a moment's notice
+the communication system uses radios in
+a 900 megahertz band to achieve
+connection at distances up to two
+kilometers we have conducted rigorous
+testing to determine appropriate
+parameters for anticipated challenges
+such as no line of sight or elevation
+changes
+our autonomous navigation system has
+been improved by conducting thorough
+testing on both our rover and in
+simulation
+the simulator has been upgraded to
+realistically mimic perception and
+odometry noise
+a brushless gimbal precisely controls
+the zed stereoscopic camera over can to
+increase its field of view
+point cloud-based obstacle and ar tag
+detection has been gpu accelerated to
+accurately find clear paths while
+improving processing speed
+we fuse imu encoder in real-time
+kinematic gps data in a common filter to
+provide us with exact localization
+this perception and odometry information
+is processed in a state machine to make
+navigation decisions and complete the
+autonomy mission
+the autonomy graphical user interface
+has been improved to allow us to easily
+switch control modes and log data for
+later analysis
+this year we focused on early
+integration and testing to quickly
+iterate on designs we designed
+development boards to separate our core
+rover systems for testing in parallel
+off-board testing of science devices
+streamlined mechanical electrical and
+software integration
+additionally we use a custom cart to
+test navigation and perception
+algorithms before final integration with
+the rover
+to develop competition strategy we
+prioritize mock missions and operator
+practice
+the mass gimbal camera and centering
+lasers on the arm help operators easily
+complete difficult tasks
+additional testing resources including a
+servicing lander robot playground and
+mars yard allows to test our rover in
+urc-like conditions
+we are thrilled about our team's
+continuing progress and confident in our
+ability to succeed at the university
+rover challenge thank you for your
+consideration
+[Music]
+[Applause]

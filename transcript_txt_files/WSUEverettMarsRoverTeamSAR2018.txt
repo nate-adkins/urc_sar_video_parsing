@@ -1,0 +1,111 @@
+[Music]
+[Music]
+hey everybody how's it going my name's
+Matt Miller I'm the president of the WCF
+engineering Club now in a six year that
+2018 mars rover team is a dedicated crew
+of mechanical electrical and software
+engineers with help from communication
+and hospitality business this year we
+are focused on improving the Rover on
+the task spec tasks basis making changes
+to account for each of its shortcomings
+that arose during last year's
+competition now let's go check out my
+favorite place to be engineering labs
+wcu at RIT we still manufacture all our
+own parts most of which come from this
+facility
+[Music]
+we have access to a CNC router manual
+mills and lathes
+[Music]
+variety of 3d printers
+[Music]
+CNC foam cutter and last but not least
+CNC mill
+[Music]
+this in conjunction with the Amtech
+gives us almost limitless possibilities
+for our machining capabilities
+[Music]
+and the previous year our brains
+performed as expected the only downside
+was when a rover flipped over during the
+extreme returnbook times this cost the
+contents of the bins to fall out and
+affect our score integrating a closed
+illicit system was a concept that was
+thought of last year but never became a
+reality due to time constraints this
+year we will design lids that remotely
+close and keep the contents aboard as
+the rover moves over the dream
+[Music]
+during the competition last year our
+solo collection was done by a shovel
+like attachment for the arm this was not
+the first choice for the selection as we
+had a working prototype to the awkard
+last year friday competition day the
+team realized that the auger system
+would not move deep enough to collect
+the soil which was 5-7 years due to the
+plastic framing around the auger not
+being able to work the ground as
+expected while it worked out the end the
+auger should be fully functional and be
+more efficient in last year's collection
+this year we plan on utilizing a solar
+collection bucket driven by a scissor
+lift to collect the soil below the
+designated depth of 10 centimetres which
+is new this year the top layer of soil
+will be discarded and the dirt
+underneath will be collected in the soil
+bin for experimentation
+[Music]
+to operate them over our pilots must
+obtain a ham radio license as well as to
+become familiar with the FCC part 97
+million speculations all pilots have
+taken a training course regarding radio
+theory proper operation practices and
+regulation is associated with receiving
+and transmitting signals with the
+license obtained upon completion of this
+course all drivers respect several hours
+a week piloting the rover to become
+fluent in all aspects of operation the
+testing platform also be constructed to
+prepare for the equipment servicing
+tasks
+[Music]
+last year our rover was only 50 grams
+we want to give ourselves a greater
+buffer for this competition there's
+several areas we can cut down on weight
+without decreasing the structural
+Integrity's and carbon players with
+these changes we hope to be well under
+our 50 kilogram
+[Music]
+the rover will be able to drive
+autonomously in two distinct scenarios
+the first scenario will allow for
+Waypoint following set by the battle
+station
+the second will allow for GPS tracking
+when available
+the first scenario will activate if
+called upon when GPS signal is lost in
+addition an accelerometer and sonar
+sensors will be added for collision and
+impartment detection if the sonar
+sensors trip the rover will stop and
+manual control will activate via a solid
+video link if the accelerometer detects
+extreme pitch the rover will reverse
+direction until a stable angle is
+achieved
+[Music]

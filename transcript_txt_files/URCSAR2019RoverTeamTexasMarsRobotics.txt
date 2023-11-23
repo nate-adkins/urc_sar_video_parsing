@@ -1,0 +1,126 @@
+[Music]
+hi I'm Christian Herman in the
+University of Texas at Arlington Rover
+team alternately known as a Texas Mars
+robotics team this year we've do up a
+six wheeled Rover for the exploration of
+a Mars lock environment on this Rover we
+have a complex robotic arm an inbuilt
+educational system and a terrain
+traversal system in this video we will
+be showing you how we created it what it
+does and a little bit about our team
+[Music]
+this year's Rover was built with
+simplicity in mind of course there is
+the issue of weight for the u RC and we
+have kept that in mind to produce a
+lightweight but robust design from top
+to bottom suspension has been redesigned
+to be modular facilitating quick and
+easy assembly and disassembly our arm
+design has been improved to be sturdier
+with a high level of performance and a
+wider range of application a previous
+sample return module design has served
+us well and we have since improved it to
+be more lightweight as well the 2019
+rover has received a complete redesign
+for the body and suspension systems this
+year the main goal since the early
+stages of development have been to
+reduce weight operational vibration and
+increase modularity the size of the body
+itself has been reduced by about 65%
+with all the components having a quick
+attachment to the casing for our new
+gear differential we have changed the
+suspension setup to a true rocker-bogie
+system that gives us a traverse ability
+of about 20 inches all the legs are made
+of aluminum and we've used the aluminum
+tubing where we can to reduce weight the
+new staggered wheel design gives a set
+of stability while climbing and the
+centered wheel mounts reduce stress on
+the joints one of the components were
+most excited about this year is our new
+compliant tire design they're currently
+being 3d printed by our newest sponsor
+big rep who specializes in large-scale
+3d printing the new tires play a large
+role in dampening the vibrations on the
+system and improving traction in the
+desert terrain the material has been
+thoroughly tested to stand up against
+thermal fatigue and the abrasive forces
+that we will face in competition
+/ the arm we've made numerous
+improvements and controlled stability
+and versatility by using advanced
+engineering dynamics to develop a new
+cutting edge technology we have
+revolutionized the arms motion the
+overall structure of the arm has also
+changed dramatically the new 5 axis
+build promises dexterity feedback and in
+turn more control new gripper designs
+promise to not only pick up objects but
+to use them like we do our team members
+have been working tirelessly researching
+analyzing designing and manufacturing
+parts to keep us in the competitive it
+hi I'm Christina wolf and I am the
+perfect life team lead for the Mars
+rover team at UTA this year we'll be
+testing for on vital macro nutrients in
+the soil
+he's an on-board instrumentation and
+indicator test strips like this right
+here we'll be looking for phosphorus
+nitrate and pH our team science module
+has been a reliable system in years past
+our drill is capable of a sample depth
+of 7 inches and we can accommodate up to
+six different samples for six different
+sites at the competition with our
+science teams new method of
+determination of life our partition bin
+was revised so that it can be easily
+seen from our camera view this revision
+allows the pH glucose and nitrate tests
+be better read so that the conclusions
+that the proof-of-life team makes about
+the terrain soil and rocks are more
+accurate for this URC 2019 season our
+controls team is focused mainly on
+quality of life improvements efficiency
+and compactness of design one way we're
+implementing these features is by
+reducing our footprint to a 10 inch by 7
+inch by 5 inch housing for this year's
+competition we're using a 2.4 gigahertz
+Wi-Fi antenna now allows us to
+communicate up to 2 kilometers away from
+our base station to our Rovers onboard
+server the server is then responsible
+for distributing that user data to the
+multiprocessor system spread throughout
+our Rover it then takes on the role
+during that that sensor data is
+protected stable and correct as it's
+passed back to the user as our closing
+statement although we have been hyper
+focused this year on developing a brand
+new system that is remarkable and his
+capabilities we have also retained our
+functional system from last year as
+backup in case any failures for the past
+masterpiece occurred
+additionally between now competition who
+will be developing brand new systems
+such as plantable signal relays and more
+capable arm with another link and a more
+advanced and lightweight sample return
+system thank you
+you

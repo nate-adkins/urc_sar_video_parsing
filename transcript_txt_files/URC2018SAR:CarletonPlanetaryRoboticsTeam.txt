@@ -1,0 +1,146 @@
+hi my name is Lucas Brewster and I'm the
+team lead for the Carlton plant a
+robotics team from Carleton University
+in Ottawa where a team of undergraduate
+students with the goal of annually
+designing building and programming a
+simulated Mars rover for competing in
+international competitions since August
+the team has been working hard to make
+this year's design a reality it's my
+pleasure to introduce to you Waldo this
+year's Rover has three main
+configurations using different
+subsystems optimized for each task the
+overuses 612 inch custom sheet aluminum
+and spring steel wheels to move the
+spring steel is coated with a layer of
+rubber to provide traction on tough
+terrain each we all uses of X DC motor
+connected to an 81 to 1 planetary gear
+box this gives us a top speed of 4.2 m/s
+and the ability to scale 30-degree
+slopes the Rover chassis features
+independent aluminum channel connected
+to air shocks and drives using skid
+steering this system allows us to scale
+stairs and cross over obstacles 12
+inches tall the rover uses a sheet metal
+and carbon fiber arm for the retrieval
+and equipment servicing tasks the arm
+uses three harmonic drives to move the
+turret shoulder and elbow and is capable
+of lifting six kilograms at a reach of
+1.2 meters it also gives the rover the
+capability to do push-ups a dexterous
+custom-designed gear system controls the
+pitch and roll of the claw together the
+five degrees of freedom provides us with
+precise control for manipulation during
+the equipment servicing tasks and
+retrieval tasks the science module
+mounts to the front of the frame and
+uses an earth augur to move dirt through
+a carbon fiber sleeve the science module
+then inserts a sensor into the hole it
+created to measure soil moisture and
+temperature this year the electrical
+team aided the mechanical team in
+reducing total Rover mass by changing
+from a 12 volt to a 24 volt power
+architecture this change allowed us to
+run thinner wire gauge throughout the
+rover reducing our total copper mass and
+aiding in cable management in order to
+be better prepared for the aspects of
+the competition that will take place out
+of line of sight we have transitioned
+our communication from 2.4 gigahertz to
+900 megahertz this was made possible
+with the use of a sector antenna at our
+base station and an omnidirectional
+antenna on our rover's mast another main
+focus of electi was the deep coupling of
+electrical and mechanical main you
+this was done through the use of three
+polycarbonate boxes which has clusters
+of electronics our battery box contains
+East stop current sensing and regulation
+our electronics box has this regulation
+computation locomotion arm train and
+sensor interfaces our science box
+contains our science center interfaces
+and arm locomotion once the frame was
+assembled be able to slide our boxes in
+and secure them we've also reduced our
+battery mass by approximately three
+kilograms while maintaining our previous
+designs capacity by changing from a
+lithium iron phosphate to a lithium
+polymer chemistry we've accounted for
+the increase in battery chemistry
+volatility by introducing an isolated
+emergency stop system powered by an
+independent battery octa-core Odroid Xu
+fours are used to control the major
+subsystems of our Rover stm32 embed
+microcontrollers will read data from the
+various sensors on the rover including
+the GPS the IMU and various sensors for
+the science cache task the GPS and IMU
+measurements are also used to control
+the orientation of our directional
+antenna to ensure that the antenna will
+track the position of the rover as it
+moves through the course our interface
+has been loaded with satellite imagery
+of our competition and training sites
+GPS and IMU data will be transmitted to
+the user interface where it is used to
+display the current position and heading
+of the rover on the map our navigator
+can place markers on the map to plan
+routes and goals which are shared with
+the driver to provide unambiguous
+planning the operator is able to
+dynamically turn cameras on/off as well
+as to control the resolution frame rate
+and quality of the mjpeg streams
+autonomous navigation is made possible
+with a stereo camera which contains two
+cameras separated by a known distance
+the overlay of these images is used to
+compute a disparity image and depth map
+for the environment allowing for
+obstacle detection and avoidance as the
+rover navigates towards its target using
+dirt samples from the area in and around
+MDRS we'll be able to calibrate our
+onboard temperature and soil moisture
+sensors while developing a baseline for
+in lab tests of pH ammonia acid right
+left-handed ratio salt content grain
+size and mineralogy breakdown additional
+mission planning used to create geology
+reference guides along with having
+science members within the operation
+station
+we'll allow for effective site selection
+aiding in the quality of samples and
+data that can be analyzed onboard the
+rover will be carrying a suite of gas
+sensors which will measure hydrogen
+methane and LPG known as Sun seeking we
+can analyze the atmospheric composition
+of our sample site further contributing
+to the search for water and suitability
+for supporting life during operator
+training
+we're running several missions with
+anticipated failure modes such as losing
+communications motors and various
+sensors this will ensure that our
+operations team have backup plans in
+place and know to adapt the system to
+ensure mission success
+[Music]

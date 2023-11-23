@@ -1,0 +1,145 @@
+[Music]
+hi my name is luis vest president
+project Leda Titan Rover Titan Rover
+acts as both an educational club and URC
+design team the design team sets out to
+design and manufacture a complete Rover
+for you RC previously our team developed
+calypso creating iterative design
+changes based off former competition
+platforms this year Titan Rovers design
+team elected to further improve Rover
+functionality identifying key systems
+based on testing and pass URC
+performances allowing for further
+iterative design changes to the Rovers
+core systems I am proud to present to
+you
+Odyssey based on the Calypso platform
+the mechanical team primarily focused on
+analyzing the strengths and identifying
+areas of failures of components using
+efi a software from this data we were
+able to determine key areas and all
+subsystems that need amanda redesigned
+weights reduction of the system and an
+increase in the overall performance of
+the platform Odysseys mobility system
+consists of a double wishbone pneumatic
+suspension powered by dual DC motors the
+rover traverses on large 18-inch wheels
+that provide an exceptional ride height
+and wide wheelbase to enhance traversal
+over hazardous terrain and minor
+obstacles Odyssey features five degree
+of freedom robotic arm whose
+carbon-fiber limbs act as structural
+members and internal channels for all
+wiring and control systems the arm
+contains an external belt truss system
+granting improved serviceability and an
+overall reduction in weight each joint
+is modularly designed to facilitate
+system integration and contains feedback
+enabling real-time position tracking
+from the base station
+[Music]
+this year for our soil extraction we're
+using a solid stem auger constructed out
+of a high-strength nylon polymer the
+auger will probe
+each test site and transport the soil to
+our distribution chamber a controlled
+volume of soil will then enter its
+respective test beaker for further
+scientific analysis the rover will
+characterize the soil samples to four
+distinct tests a UV sensor to classify
+microorganisms Starla each sites a test
+for organic compounds to compare the
+various sites potential for harboring
+life along with a chemical extraction
+process to quantify the presence of
+peptide bonds and a microscope to search
+for single-celled and multicellular
+organisms while exploiting the
+possibility of conversion evolutionary
+traits develop both between organisms at
+the mars-like environments and on earth
+by giving the science team specific
+operation of the science system separate
+from the rover drivers we increased our
+ability to simultaneously control both
+systems building a separate interface
+for the science team simplified the
+required user experience and optimize
+background data processing and data
+interpretation for this path our team
+has managed to implement numerous
+printed circuit boards each equipped to
+handle environmental conditions and
+traversal with the help of one of our
+sponsors all team you have been able to
+design what stray leaders within the
+structures also a powering signature
+vision board with to a pet connector on
+to our onboard computer to centralize
+all of our sensors and drivers into one
+system all functionality for the rover
+has been developed in the Ross
+environment using Python and C++
+programming languages we have created a
+multi raw score system allowing the
+rover to have independent functionality
+without the dependence of the base
+station operations with this
+independence the operating environment
+has become standardized enable multiple
+points of access control from direct
+joystick to autonomous navigation to our
+own mobile application and even multiple
+driver control from the base
+this year all necessary onboard
+processes on T X to communicate so
+centralized browser will to retrieve
+data and publish custom messages
+consisting of movement commands and
+sensor data the system also keeps track
+and periodically update the GPS tag to
+recover from unexpected communication
+laws by returning back to the prior CPS
+point until the communication is
+restored the autonomous system retrieves
+sent him in an accurate GNSS position
+along with I am in heading to proceed
+towards target using slam navigation
+integration with these frameworks we
+have seamlessly integrate across with
+our UI and plugins which create a
+central learning environment embedding
+considerable and optimized video feeds
+within the UI do these food network
+traffic and information delay the
+navigation system provides object
+avoidance running a slammed environment
+based on dead reckoning design using a
+solid state lighter the rover analyzes a
+3d point cloud at distance data and
+creates a geographical map to optimize
+the navigation system the Ainu adds
+additional sensor data to increase the
+accuracy of a geographical map for
+tennis ball recognition we have this
+region based convolutional neural
+network we are using a rotating camera
+to provide a 270 degree scanning area
+when navigating along the spiral search
+pattern to locate the tennis ball GPS
+coordinates of the ball are calculated
+based on the ball size and location
+offset within the image
+[Music]
+with past URC experience and development
+Titan Rover stands ready with a fully
+refined robust robotic platform thanks
+and I'll see you in Utah

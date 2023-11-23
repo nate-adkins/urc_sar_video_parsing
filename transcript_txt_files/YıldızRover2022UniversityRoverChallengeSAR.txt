@@ -1,0 +1,141 @@
+[Music]
+hi we are real sober team and welcome to
+ellis technical university istanbul we
+will introduce you our first generation
+rover sparkle
+[Music]
+our reverse modular chassis is made of
+t-cells aluminum which is durable
+reliable and allows us to make
+configurations between missions we have
+integrated a record suspension system
+with a differential bar mechanism to the
+chassis this system allows the rover to
+overcome high obstacles and keep the
+vehicle imbalanced in rough terrain
+conditions
+3d printed airless tpu tires features
+vertical and arrow-shaped horizontal
+threads to improve traction performance
+thanks to high-torque crushed dc motor
+we ensure the rover can climb up to 45
+degrees of slope without slipping over
+the rechargeable 18650 cell battery was
+preferred as the main power source
+considering the electronic equipment
+that require high current
+b designed battery management system
+power distribution motor driver encoder
+sensor peripheral and tcd 1304 pcbs to
+be used in the rover
+rover's internal communication consists
+of a special kian basanyward protocols
+the external communication between the
+rover and control station is based on
+5.8 gigahertz access points and an
+omnidirectional antenna up to one
+kilometer range
+in weekly locations of pcbs and other
+electronic equipment were decided by
+considering emergency scenarios
+in addition easily accessible an
+emergency stop button was placed on the
+rover that will shut down under any
+circumstances
+for the autonomous test we use various
+sensors on the road such as rtk gnss 3d
+lidar magnetic encoders and stereo
+camera
+we obtained a unique automata data by
+using multiple sensors data using this
+data in movies package we let the rover
+know its position and enable to reach
+the desired location precisely
+while reaching the given destination
+point drawer avoids all obstacles and
+create possible paths then it choose the
+least costly path
+a stereo camera was chosen for excellent
+observation
+also a micro camera was used to zoom
+image in science analysis and a camera
+was aimed at robotic arm to become
+focused in action
+when the rover reads the navigation zone
+it search for markers near them
+according to the count of markers it
+plans and executes motion successfully
+we combine detected microspeed depth
+from a stereo camera to obtain an
+accurate distance
+after the object to be reached by the
+robotic arm is determined a collusion
+free trajectory is created towards the
+object with the joystick or iris
+interface
+we emerged data from the stereo camera
+and lidar in harvest to create a
+collusion free trajectory and make the
+robotic arm gain perception
+we also use absolute encoders relative
+joint data to match it move its
+calculated data properly
+in our 6-axis robotic arm we use
+high-reduction dc motors and linear
+activators that provide smooth under
+vector sensitivity
+the arm also can easily handle a payload
+of up to 5 kilograms with end effector
+the carbon fiber tubes give us high
+durability and lightness
+the clamps connect in the linear
+activator to the carbon fiber tubes also
+offers an adjustable range of motion the
+end effector is a lead secure mechanism
+with a micro motor and two fingers
+moving parallel to each other
+the gripping surface of the end effector
+is caused by rubber to increase gripping
+capability
+carried out our studies on the
+distinction between extinct extant and
+non-life by following the biochemical
+activities of such as chemicals and
+phototrophs
+we analyze the environment's temperature
+humidity pressure and several gas levels
+such as carbon dioxide metal nitrogen
+dioxide and ammonia to absorb the
+suitability of the environment for
+extant life
+the digital microscope allows us to
+examine the traces of extinct life
+without sampling we interpret the color
+tones and settlement shapes on the rock
+and soil surface using our sedimentology
+archive and muscle color charts
+we use a drill mechanism to take soil
+samples from the surface
+the samples are transferred to designs
+mechanism with the transfer arm with our
+science mechanism we can take soil
+samples from four different locations
+and transfer them to correct cells then
+analyze the samples both with our
+analytical devices and chemical tests
+we examine the ph and temperature values
+of the sample to test the soil suits
+ability for the extent life conditions
+we are also investigating the presence
+of mpk elements in the environment which
+are necessary for the survival of
+photoautotrophs also a custom-made bis
+spectrophotometer is used to detect the
+compounds in the soil such as
+chlorophyll and carotenoid
+after the analytical devices
+measurements calorimetric tests are used
+to observe the presence of protein and
+lipid the spectrophotometer is then used
+to measure biomolecules after the tests
+are added into the cuvettes

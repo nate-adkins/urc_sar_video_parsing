@@ -1,0 +1,167 @@
+[Music]
+hi everyone welcome to the University of
+Toronto where we are thrilled to show
+you what robotics for space exploration
+has in store for the 2019 University
+Rover challenge after competing in the
+you receive for the past six years our
+team of over 40 undergraduate and
+graduate students have been constantly
+innovating and iterating on our new
+Rover designs with a dedicated executive
+team of mechanical electrical software
+science arm and communication sub team
+leads we are proud to present our latest
+Rovers functionalities as well as our
+testing plans the software system for
+this year will use robot operating
+system or Ross our hardware components
+include dry arm and science urdu nose
+the Nvidia Jason board Zed stereo camera
+360 degrees IP camera inertial
+navigation system in ground station
+computers all of our software subsystems
+are responsible for communication
+between each hardware components and
+their functionalities video and Telma
+tree are handled by a 2.4 gigahertz
+wireless connection between our
+parabolic dish and our Rovers antenna
+our autonomous system is built around
+both coarse and fine grain control for
+voiding obstacle we used the stereo
+camera for simple a simultaneous mapping
+localization planning given relative
+goal coordinates the algorithm will
+direct a path towards the goal while
+avoiding obstacles for verification
+purposes we are using gazebo which is an
+easy to use simulation environment that
+is compatible with Ross in bottles of
+our rover and terrain we can test the
+software functionalities without the
+need of a physical last year six degree
+of freedom arm design was our best yet
+meaning this year we are iterating on
+its success the two main projects taken
+on this year are to simplify the control
+system wiring and to design a memory
+control system to increase efficiency
+our team has designed PCBs to read and
+code information and relay the data
+through expert seed to our main arm
+control board this year we are
+implementing a mimicry control system
+with a half-scale arm this system will
+make large-scale movements much easier
+for the arm and we will use inverse
+kinematics for more precise motions the
+shoulder and elbow linear actuators can
+lift 181 kilograms and 122 kilograms
+respectively meaning our arm can easily
+lift five kilograms of weight our
+control system also allows us to have
+fine dextrous movement to flip switches
+and open doors the six degrees of
+freedom allows our arm to use an allen
+driver as well overall the arm this year
+will have a more efficient system than
+last years both in user control and
+communicate
+the science challenge this year was to
+detect for signs of life in situ on both
+rock and soil samples we decided our
+best approach was to use emission
+spectra analysis of biological
+substances our approach selectively
+excites flavin adenine dinucleotide
+molecules and searches for emissions to
+obtain concentrations of dislike
+essential substance in the soil the
+whole apparatus is fitted has the end
+effector on the arm and is repeatable
+non-contact and solid-state the systems
+have been iterated and improved from
+last year successful design in order to
+minimize weight and to allow for easier
+transport we have decided to scale down
+our six field rocker-bogie suspension
+system with a differential bar we have
+also decided to add a unique tread
+youngji to our poly urethane here which
+will be manufactured with a custom mold
+our modular chassis has been redesigned
+to have a more compact design to need
+more space for maneuvering in time and
+finally we have also displayed our power
+distribution boards with our battery bay
+through the use of custom 8 bus parts
+the custom-made PCBs enable us to use
+less wires and makes it easier to
+connect and disconnect the battery bay
+from the chassis in case of emergencies
+I lead several students in designing and
+cutting up PCBs for the escrow subsystem
+that ranges anywhere from the drive
+through the arm to the science
+subsystems this year the National Teams
+decided to further simplify our
+electoral designs we've decided to stick
+with our current designs and make the
+mobile robust and efficient to
+accomplish that goal we decided to unify
+all the components across all of the
+different subsystems so that includes
+all of our eye sees all of our motor
+drivers all of our interfaces so that
+will allow us to have quickly swappable
+and easily incorporate of all the
+components so the high power subsystem
+this year now incorporates all of its
+motor drivers directly into the PCB this
+saves a lot of weight in space that was
+used up by wires and connections between
+the two we've also gone through the
+power to the system directly from the
+batteries through a bus bar this safe
+space and way and allows us to have a
+more power efficient delivery system
+we've also added several key safety
+features like an emergency stop and
+individually control relays for each
+subsystem so it allows us to control
+these components and turn them on and
+off we've also added several monitoring
+and tracking components that was
+actually tracked our power usage and see
+how much power we have remaining in our
+substances with access to our new
+facility in the mine health center for
+engineering
+entrepreneurship for life fabrication as
+well as the Mars dome at the Institute
+for aerospace studies for on-site
+testing we have been privileged with all
+of the resources we need to conduct
+proper validation of our designs using
+our fully functional Phoenix 2.0 Rover
+from last year the software team has
+been busily preparing for the autonomous
+traversal and extreme retrieval tasks by
+running and evaluating its navigation
+algorithms in real-time the arm and
+mechanical team have collectively tested
+the rover's ability to carry a variety
+of objects of different shapes and sizes
+ensuring that the rover travels on
+terrain similar to those found in the
+euro seas desert regions before we go
+we'd like to take the time to thank all
+our sponsors for all of their support
+without our in-kind and monetary
+sponsorships from other university
+departments and industry collaborators
+we wouldn't be where we are today and
+most importantly thank you for watching
+and we can't wait to represent U of T at
+the your seat

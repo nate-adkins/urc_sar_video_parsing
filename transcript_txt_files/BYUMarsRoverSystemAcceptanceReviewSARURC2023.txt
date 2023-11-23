@@ -1,0 +1,142 @@
+[Music]
+the BYU 2023 Mars Rover team has
+improved our design from past years to
+create a Rover that can excel at
+competition missions while meeting
+design requirements at this year's for
+University Rover challenge the Rover's
+legs have a rocker bogey design with a
+joint allowing them to fold up and down
+while fitting within the 1.2 meter cube
+size requirement the legs and Chassis
+are made using aluminum while the arm
+utilizes carbon fiber tubing to ensure
+the Rover remains lightweight and
+capable of accomplishing difficult tasks
+through our optimization the Rover
+remains under 50 kilograms in any
+configuration and under 70 kilograms
+total power for the Rover comes from an
+integrated 48 volt battery with a
+voltage regulator to protect subsystems
+from overloading and failure all
+components are controlled through the
+custom PCB in the chassis of the Rover
+in the event of sudden failure or loss
+of Rover control an emergency kill
+switch is located on the back of the
+over for quick access
+the Rover connects to our base station
+through the use of an Air Max yagi 900
+megahertz directional antenna
+the antenna is capable of operating up
+to a range of one kilometer and Beyond
+[Music]
+an onboard Nvidia Jetson Xavier supports
+an array of HD cameras that give the
+operator an excellent view of the Rover
+surroundings BYU's Rover can Traverse a
+wide variety of environments negotiating
+extreme grades stably climbing over
+rocks
+and maneuvering around obstacles
+[Music]
+the Rover legs are made of aluminum
+tubing supporting the main body of the
+Rover and distributing the weight to
+while maintaining rigidity to improve
+River traction our team developed Treads
+out of a polyurethane rubber fiber mix
+which was poured into a custom mold and
+wrapped around the individual Wheels
+one of our main configurations involves
+a six degree of Freedom scarra type arm
+mounted on a vertical power screw for
+linear actuation this configuration
+gives the arm a large workspace
+including a vertical ranged motion from
+the ground to 1.2 meters high
+a robotic arm Works in Cartesian space
+using an inverse kinematic software
+package the ik method enables intuitive
+control of the arm allowing the operator
+fluid movement without sacrificing
+Precision it also has the capability to
+be controlled on a joint by joint basis
+for more specific movement as needed
+foreign
+some capabilities of the arm include
+lifting objects up to 5 kilograms in
+Mass
+opening and closing a drawer
+flipping toggle switches moving a
+joystick
+plugging in a USB
+tightening an allen head screw and
+typing on a keyboard
+our gripper allows the Rover to pick up
+a range of objects up to 15 centimeters
+wide its polyurethane gripping surface
+is made more compliant with a honeycomb
+pattern this means we can securely grasp
+tools scientific instruments Supply
+containers and even tow a wagon
+to complete tasks safely and efficiently
+the Rover is mounted with a variety of
+sensors such as GPS a depth sensing
+camera and satellite lidar BYU's Rover
+can drive autonomously to give in
+coordinates with a real-time kinematic
+GPS system we use public lidar data and
+a path planning algorithm to find the
+fastest path to a waypoint while
+avoiding difficult terrain once the path
+is found the Rover precisely navigates
+using the rtk system and an unscented
+Kalman filter to reach the Waypoint
+within 10 centimeters of accuracy the
+Rover is equipped with four cameras and
+a Z2 that allows us to easily operate
+well past the view of the control
+station the live feeds provided by the
+cameras give a variety of views which
+allow the Rover operators to precisely
+maneuver the Rover in any environment
+for autonomous traversal The Zed camera
+houses a built-in magnetometer to
+provide the Rover's heading once the
+Rover has completed navigating to a GPS
+location it uses the Zed's AR detection
+capabilities to locate ear tags within
+the vicinity an LED array on the Rover
+indicates the status of the Rover task
+green for light completion red when
+autonomous and blue when Intel operator
+this year's science team has created a
+robust module that has three light
+detection tests on board each test
+provides unique information regarding
+the possibility of Life the module uses
+buret reagent Flavin adenine di
+nucleotide detection and visual
+inspection using a microscope to
+identify extinct and extend life in
+regular samples we have four augers on
+board three for the burial test and the
+last for sample collection the buret
+reagent turns purple in the presence of
+peptide bonds which indicates life
+photosensors detect this change and send
+this information back to the base
+station for analysis we use a custom
+fluorescence microscope to detect any
+activity coenzyme present in the sample
+which is a strong indication of Life
+using generated graphs and confidence
+intervals from our test data we can
+determine the presence of life with
+above 99 accuracy as a result of our
+iterative improvements to the Rover
+design and extensive stress testing we
+are confident that we will excel at this
+year's University Rover challenge

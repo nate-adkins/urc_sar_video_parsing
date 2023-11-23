@@ -1,0 +1,133 @@
+pc0 per team is a team composed of new
+members we follow in the direction our
+predecessors have set constantly
+improving our Mars rover the team
+registered number to 10 people including
+eight new ones all our members are
+students of the Faculty of mechanical
+engineering and computer science at the
+just 1/2 University of Technology we are
+divided into four groups the most
+numerous group is the team of
+electronics engineers and programmers
+the other are mechanical engineers
+scientific team and PR our tasks are
+planned through the trailer
+internet-based
+tool thanks to the use of this program
+it is possible to quickly manage current
+work which enables efficient time
+management the gate version control
+system is a tool that simplifies the
+work for programmers it allows you to
+safely save programs in the cloud and
+share it with another programmer after
+setting goals we started the design
+process we call the new Rover modern hit
+3 we did not change the mechanical
+structure based on the rocker-bogie
+suspension because it caught well last
+year it was only adapted to the new
+dimensional regulations the construction
+is made of aluminum and polyamide and
+it's dimensions are 1.2 meter per 1.2
+meter with a maximum weight of 48
+kilograms its full speed is 10
+kilometers per hour our Rover is a six
+wheeled construction with 15-inch wheels
+over the period of their exploitation we
+have detected weak points such as -
+brittle material the configuration has
+been remodeled and made with greater
+accuracy of 3d printing there overs
+off-road capabilities have been
+increased and their service life of the
+tires is at much higher level each wheel
+has a motor set consisting of DC gear
+motor and encoders that map the position
+and speed of the rubber the manipulator
+is a well designed construction it
+consists of three parts and has five
+degrees of freedom it is able to lift
+over seven kilograms special jaws can
+pick up objects of various shapes even
+very small ones we have specially
+designed jaws to collect soil samples
+allowing you to collect a sufficient
+amount of soil for testing on one
+approach the basis directional antennas
+and the self guided system connected to
+them which allows to increase the
+communication
+range cameras place on there over a lot
+of starvation of its surroundings three
+of them are mounted on the regulator and
+can be rotated and directed because they
+were mounted on service the rest of the
+cameras just like a manipulator are able
+to move the core of our control system
+is NVDA Judson tx2 which communicates
+with the base by two ways the main one
+is Gigabit Ethernet and the second is
+Laura 433 megahertz system and the
+rs-422 protocol Nvidia jets on tx2
+communication with peripheral boards is
+carried out using the RS 488 interface
+enriched with the custom written
+protocol to detect errors and collisions
+peripheral boards have enough computing
+power due to the use of powerful stm32f4
+all seven processors we use 3 lithium
+polymer batteries to supply the systems
+2 of them give voltage of 25 volts and
+the third one the voltage of 19 volts
+due to the characteristics of LED added
+some tx2 this system removes the need to
+guard communication and gives time to
+perform the assigned tasks visualize
+coordinates of high-quality GPS improve
+access to targets and high resolution
+cameras speed up the search for items we
+use to controllers to operate the
+vehicle on joystick is used for driving
+the other one for steering the
+manipulator
+after being redesigned the robot has
+almost identical drivability and thanks
+to the reduction it has become more
+resistant to shocks and large obstacles
+new software functions automatically
+care for the quality of the
+communication and switch between
+themselves when one of them loses signal
+the manipulators as inverse kinematics
+and self leveling of components which
+have been updated and made on a more
+efficient stm32 processor which
+increased the efficiency and smoothness
+of movements the original control panel
+has been written from scratch the
+autonomic system is based on the edits
+on tx2 and the neural network the
+computer receives information such as
+GPS data from the 8hrs system and
+cameras the program traces their out
+then the camera and a hrs system provide
+data to the neural network so that it
+can secure
+the passage of our robot in front of the
+walls steep climbs and the descents in
+order to search for the final
+destination in search of a tennis ball
+we have prepared the module consisting
+of wide range of sensors to study soil
+samples in terms of eight geological
+parameters it has an additional
+laboratory system on the rover board
+which consists of six solenoid valves
+and one water pump the pump sucks the
+sample into the vials where it is tested
+biologically the results are interpreted
+by the computer and sensors as well as
+through the camera by the rubber
+operator to be sure of the results

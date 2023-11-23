@@ -1,0 +1,102 @@
+foreign
+ER Rover team a part of students
+robotics Association which operates at
+the faculty of power and Aeronautical
+Engineering at Warsaw University of
+Technology
+[Music]
+the Rover's components were designed and
+made entirely by team members including
+mechanical components electronics and
+software
+when constructing a robot we mainly
+focus on its stability and modularity at
+the front of the robot we placed a
+universal rail that allows to quickly
+Mount modules performing specific tasks
+[Music]
+a sixth degree of Freedom manipulator is
+used for most of tasks
+by using inverse kinematics the operator
+can conveniently perform all necessary
+operations
+in addition the robust control
+application is able to memorize current
+manipulator positions this makes the
+control partially automated and
+simplified for the operator
+foreign
+has been adapted to lift objects
+weighing up to 6 Kilograms
+the power source is Lithium-ion
+batteries which can last for more than
+an hour of continuous operation of the
+robot
+[Music]
+new updated desktop application software
+a new platform software allows precise
+control of the Rover
+a control panel supports the Rover
+operator
+the panel includes screens displaying
+Transmissions from analog cameras and
+joysticks for controlling the Rover and
+manipulator
+operator communicates with the robot via
+2.4 gigahertz Wi-Fi an analog cameras
+operating at 5.8 gigahertz
+using rocker buggy suspension along with
+bldc motors the Rover is able to
+overcome difficult terrain obstacles
+new body shell provides better Mass
+distribution which also contributes to
+enhanced stability of the Rover despite
+introduced modifications we managed to
+fit the requirements for the size and
+weight of a robot
+good off-road traction is provided by
+Reliable Tires designed by our team
+members
+the wheels consist of polyurethane Foams
+molded on 3D printed rims with aluminum
+spokes
+specialized bus was designed to enable
+the various modules of the Rover to
+communicate
+this solution allows to encapsulate the
+cables inside the body shell and provide
+adequate heat dissipation
+the modules are divided into those
+controlling the drivers which collect
+Elementary data and those responsible
+for communication with the operator
+[Music]
+to maintain safety the platform is
+equipped with an emergency stop switch
+however if the connection with the Rover
+is severed the Rover automatically stops
+another module is the autonomy module
+the autonomy was developed based on the
+Robot Operating System oros platform and
+gazebo
+the main computer is supported by a
+Jetson mini computer for calculations
+our solution combines data from GPS
+navigation IMU and stereoscopic Camera
+all of these elements allows to detect
+our talks avoid obstacles and plan the
+optimal route to the destination
+for science task a lightweight module
+comprised of trust like frame was built
+with aluminum profiles and 3D prints a
+chemical apparatus was developed and
+attached to the module
+live detection will start with cellular
+disintegration followed by mollusks and
+non-hitrus tests for determination of
+extinct life carbonates will be seeked
+with hydrochloric acid
+we think that our team and our Rover are
+ready for the challenges ahead at URC
+2023
+we hope to see you in May foreign

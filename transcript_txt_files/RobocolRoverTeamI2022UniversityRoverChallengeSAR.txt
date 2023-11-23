@@ -1,0 +1,145 @@
+hi we're
+a multi-disciplinary team from the
+university of los angeles
+currently we're more than 80 students
+from more than 10 different careers
+committed towards developing robotic
+engineering projects having learned from
+our mistakes and pass us we have
+developed and tested new rover core
+subsystem that allows us to transfer
+difficult terrain increases the handling
+for arm and grants a remote operating
+range of up to a kilometer to achieve a
+successful participation in this urc we
+set both the system engineering and
+co-designed lawsuits as such we read the
+requirements and met them with seven
+tango subsystems and two general markets
+system the rubrics chassis is made up
+from 2020 modular aluminum profiles
+which guarantee adaptability and
+structural integrity at all times
+for the rover to traverse uneven terrain
+we got inspiration on the mars rover
+rocker boogie system with the difference
+that ours only has four wheels
+furthermore our rockers were made up
+from aluminum arch tubes for optimal
+force distribution for transferring
+movement between brokers the rover has
+an aluminum differential bar under its
+chassis completely designed on autocad
+software it is also aided by a pulley
+system for improved stability
+the wheels were designed with a
+honeycomb pattern known for its
+exceptional strength to weight radio
+these wheels were simulated on ansi's
+deformation analysis software in
+robocall we have adjacent tx2 that works
+as a central axis of our entire current
+architecture which has been designed and
+manufactured by the motion control team
+also we have peripheral boards that are
+executing parallel tasks and
+communicating with our jetson these
+allow us to have a modulated and
+decentralized control of the rover's
+functionalities
+the communication system allows to
+connect with the router from long
+distances through antennas with 13 dba
+gain
+rockets that operate at 2.4 gigahertz
+and routers to which all of the devices
+are connected
+we have developed path planning
+algorithms based on dijkstra nas star
+control systems that use odometry given
+by an inter-real sense odometry camera
+and manual remote operation codes
+among others
+all of our algorithms works inside our
+ros melodic workspace which is the
+framework that match all of our
+subsystems
+to complete the task we developed a 6
+degree of freedom serial manipulator
+which can reach every position it is
+important to say that this robotic arm
+can be controlled with inverse
+kinematics during the equipment
+servicing which allows us to implement
+linear trajectories that position the
+end effector close to the panel and then
+operate by direct kinematics
+the arm is composed of separate motors
+whose drivers are controlled by
+mbijetson which runs the script that
+moved each motor independently to
+improve cable management we made use of
+the i square c protocol
+these aspects don't give us only
+precision but also the necessary
+strength to complete the stream
+retrieval task hence we're able to live
+5 kilograms and move the object to
+another position in the software team we
+are in charge of developing algorithms
+for image recognition and remote
+teleoperation for image analysis
+programs we use python with opencv aruco
+tensorflow and numpy libraries
+the user interface team developed a web
+application to allow easy access for
+monitoring and tracking the rover the
+web app implements the angular framework
+to provide the user friendly tool and
+implements websockets in django to
+exchange information between the web
+application and the ros nodes
+in addition we have five available
+cameras for the pilot which allows
+otometric estimation and depth
+calculation finally we fulfill the
+autonomous task detecting the ar tax and
+calculating the distance with our rover
+for the power subsystem we use six
+lithium polymer batteries symmetric
+custom pcbs allow for modularity and
+flexibility these enable two
+interruptions for each power outlet an
+enough switch and an emergency stop
+button furthermore it permits for ice
+core c communication with the jetson in
+the main electrical box and for an
+external power input that charges the
+batteries through a battery management
+system
+the science model of the rover is
+composed of two main subsystems a sample
+collector and an analyzer-denominated
+ramses and on-board lab-denominated eva
+ramses consist of a bucket wheel
+excavator that retrieves surface soil
+samples seize them to a specific grain
+size measures their temperature and
+humidity and transport them to the eva
+it is also equipped with a microscope
+there are several compartments for four
+distinct samples and six chemical texts
+to evaluate and conclude the existence
+of life throughout this process we have
+been supporting the development and
+progress of our team in the robot
+project
+this work goes from the management and
+organization of the other subsystems to
+communication and relationship that
+allow us to get sponsorship
+in the end big ideas need friends that's
+why sharing and helping with the design
+process of sending our rover to mars is
+a main objective
+you

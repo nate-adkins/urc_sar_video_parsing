@@ -1,0 +1,113 @@
+[Music]
+hello my name is Paloma Jacques and I am
+the technical coordinator of team agro
+first of all we extend designing and
+simulation part of preparations all of
+the mechanical parts of the rover we're
+at first made at the prototypes from
+formed PCV plywood MDF plates and 3d
+printed parts faculty of mechanical
+engineering also granted us full access
+to all premises and equipment such as
+water jet machine CNC machines lathers
+milling machines 3d printers or laser
+cutters the faculty provided us with our
+lab where we can work for 24 hours seven
+days a week we assumed construction that
+could overcome 16 degrees incline slopes
+and 1 meter high drops with almost
+vertical walls to achieve this goal we
+design and develop our own made
+rocker-bogie likes inspection system
+during tests we manufacture several
+generations of the prototype of it
+thanks to these we are able to check our
+every configuration between Swingle and
+the frame during robotic arm design
+stage we were evaluating different
+styles and options of the driving joints
+and use materials we also decided to
+develop two vibrators one main robotic
+arm and the second specialized to
+science cage task the mind manipulator
+is equipped with our designer sequencer
+drive each design is a self a closed
+package capable of supporting the entire
+weight of the robotic arm and in spite
+of with no additional external bearings
+require to improve the maneuverability
+of the end effector and reduce the time
+that is necessary for a process of
+manipulation during competition tasks we
+introduce
+pitch roll and a joke a pyro wrist at
+the end of the arm
+the Mahina sweet self consists of metal
+bevel gears as a differential and to
+several machines powering it depending
+on the combination of the server's
+working we can move the pitch up and
+down or row it the second manipulator
+that will be used during science cage
+tasks is similar to the mini accelerator
+we are also going to use our metal in
+our activators in order to provide a
+much needed feedback for teller operator
+we create a real-time manipulator
+visualization by gathering the
+information from each joint via the
+absolute encoders we are able to
+visualize the manipulator on the
+computer screen the application itself
+is written in C harsh language using
+OpenGL library it will also work
+together with inverse kinematics
+algorithms that provide alt enormous
+movement of the end effector
+moreover additional tabs designed for
+each task theoretically cut time that
+the operator spends to change
+configurations during field tasks it
+also gives us access to view from one of
+even up to six cameras electronics of
+our over are divided in the following
+model our system communication between
+models is realized via canvas each motor
+has a driver board that controls the
+speed position temperature allowed
+through PID control sensors have their
+own controllers that collect and process
+the data the required form all data is
+saved in the main controller which each
+turn calculates the motion of the robot
+and sends out control signals the main
+controller communicates with a base
+station through a redundant reader
+connection a 433 megahertz radio modem
+and 2.4 gigahertz Wi-Fi connection based
+network right now we achieve even 1,400
+meters of the operating range in the
+crowded city the autonomous drive system
+is connected to the main module via LAN
+network and it is based on Nvidia Jetson
+tx2 board this computer is the perfect
+choice for image analysis and parallel
+cut
+during autonomous traversal tasks the
+autonomous system used GPS module IP
+cameras and video recognition algorithm
+steer camera technique and 3d laser scan
+to find obstacles and markers right now
+we are able to precisely locate the
+markers that are within five meters
+radius and the obstacles in three meters
+radius from the robot we plan to examine
+science site in search for possible life
+indicators collected samples will be
+examined for possible residues of past
+and present life forms with an emphasis
+on amino acid building blocks of
+proteins
+[Music]
+see you soon during qrc 2018
+[Music]

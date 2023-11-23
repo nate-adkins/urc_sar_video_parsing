@@ -1,0 +1,141 @@
+[Music]
+the RAM Young University has competed in
+the URC for over a decade and this year
+we are about to compete with her best
+over yet our team has been dedicated to
+addressing the shortcomings of last
+year's Rover and improving it to meet
+the new requirements for this year's
+competition to accomplish this we have
+the largest team in our history with 33
+members divided into mechanical
+electrical and autonomy teams last
+year's Rover was overweight and almost
+every single task and that's hurt us in
+the competition so top priority for the
+mechanical team this year has been to
+reduce weight in as many ways as
+possible to accomplish this we have
+replaced our Drive motors this alone has
+saved us 4 kilograms and reduced power
+consumption while still providing
+adequate torque and speed our
+rocker-bogie system with inflated
+polyurethane wheels has proven itself in
+past years because of its exceptional
+ability to traverse difficult terrain so
+we will continue to use it for this
+year's Rover however we have improved
+the design by performing a center of
+gravity analysis to ensure that the
+rover won't tip while ascending or
+descending steep inclines this year's
+science module has been designed with an
+emphasis on reliability and robust
+sample collection and storage the linear
+actuator which drives our auger ensures
+that we can reach a depth of 15
+centimeters a six-piece tool changer
+allows the module to collect two
+separate soil samples and store them in
+air and watertight containers with
+minimal risk of contamination our new
+auger design retains regolith better and
+can penetrate both soft and hard ground
+easily with this cutting-edge design we
+have enlisted the help of student
+experts to select dig sites and
+interpret data our student experts have
+been trained to understand geologic
+structures and stratigraphy which in
+tandem with powerful optics helped us to
+select scientifically
+big sites visual analysis will allow us
+to review macro and micro soil
+structures preserved in the geologic
+record of the area observations such as
+preserved river channels soft
+sedimentary deformations smectic
+textures and pyroclastic tuff are a
+direct evidence of liquid water and
+possibly life once in the lab we will
+complete detailed lab analyses using
+x-ray fluorescence a magnetic
+susceptibility meter a pH probe and a
+variety of biologic tests looking for
+specific elements required for life our
+robot arm has been adapted to meet an
+increased need for precision and control
+and this year's equipment servicing
+tasks last year's arm design had only 5
+degrees of freedom so this year we've
+implemented a sixth degree of freedom in
+the wrist this allows the end effector
+to achieve almost any orientation within
+the reachable workspace and it speeds up
+operational time by allowing inverse
+kinematic control instead of individual
+joint control last year's gripper was
+too unwieldy to work in enclosed spaces
+as required by the sears competition
+rules so we design a more narrow gripper
+that still provides sufficient force the
+electrical team has been working to
+improve functionality reliability and
+robustness or a reducing complexity for
+all electrical components on the rover
+this goal has led to the development of
+a system level PCB and improvements to
+our power supply design we've decided to
+improve our out of line-of-sight
+communications by utilizing two
+different communication systems one will
+operate on 2.4 gigahertz for greater
+data throughput identical to what we
+used last year the second link will
+operate on 900 megahertz the larger
+wavelength allowing for better
+refraction around and penetration
+through large obstacles our plan is to
+implement real-time video and data
+transmission adjustment in order to
+reduce lag at weaker signal levels the
+autonomous traversal task has changed
+significantly this year but the autonomy
+sub-team is rising to meet the challenge
+last year the team had success tella
+operating the rover to chart its course
+before returning to the base station and
+switching to autonomous mode this year
+that strategy would only
+half the points so we're adding some
+features to make our world a more
+competitive with various maps of the
+area to guide us we plan to send
+waypoints directly to the rover from the
+base station since the maps are limited
+by resolution we will rely on a stereo
+camera an inertial measurement unit to
+identify obstacles and difficult terrain
+we're developing a state machine to
+handle the various types of obstacles
+the rover may encounter as well as a
+protocol to search out the tennis balls
+that will mark the goals recognizing
+tennis balls is important because
+without this ability our Rover will
+never complete a single leg of the
+autonomous traversal task therefore we
+have dedicated a lot of time to
+researching the most effective object
+recognition methods available with
+tensorflow and neural networks we have
+used our own captured images to train a
+program to recognize tennis balls in
+diverse surroundings by training our
+program with images that closely
+resemble the landscape of Hanksville we
+plan to increase our accuracy and range
+BYU Mars rover team is excited to
+compete in this year's University of
+over challenge

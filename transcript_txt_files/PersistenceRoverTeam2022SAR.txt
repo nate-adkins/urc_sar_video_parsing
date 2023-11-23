@@ -1,0 +1,58 @@
+We are the Persistence Rover Team 
+Our team is composed of electrical, computer and mechanical engineering students
+at Utah State University with the goal to build a rover that will compete in the University Rover Challenge.
+Along the way we have had the opportunity to learn about the engineering design life cycle,
+ participate in engineering community nights, and work in a multidisciplinary team to develop a product. 
+We are the Persistence Rover team, and this is the Persistence Rover.
+Affectionately named Perci, our rover fits within a 1.2m cube at deployment then stretches to 150 cm during operation.
+Perci has a top speed of 3 m/s, with a base mass of 35 kg.
+With removable modular subsystems, our rover is prepared to take on various missions.
+Lets take a closer look at how we got here.
+We first needed a framework to mount all of our communication, drive hardware and subsystems,
+this is where the chassis comes in.
+ To achieve the main goal of supporting these systems we opted to construct a configurable aluminum extrude design.
+For the suspension, we wanted to maximize the length of the wheelbase while still meeting the 1.2 m size constraint.
+We settled on a linkage system which can be folded inward to accomplish this.
+Each side of the suspension consists of 2 rockers which share a concentric pivot around the middle wheel.
+Each rocker attaches to the chassis with a short upright link.
+Our suspension system allows for up to 20 cm of articulation at each of it’s 6 points of contact.
+We experimented with many different wheel sizes and grips. Based on performance we elected to go with a 30 cm
+airless tire constructed from TPU. At the time of filming, only 2 wheels have finished production,
+but are performing as intended, with traction to drive forward and backward and enough lateral slip to allow for turning.
+Permanently fixed to the chassis is our communications and power hub.
+In addition to providing power to the whole rover and it's subsystems, this box houses the brains of the rover.
+A jetson Xavier receives commands and distributes them to the proper subsystem.
+The communications hub also sends sensor and visual feedback to the operators in using
+the 900 Mhz and 5.8Ghz bands respectively.
+The drive system is also housed here. Utilizing Talon SRX speed controllers and custom made rotary encoders
+each wheel has its own PID control system allowing for better traction control.
+The rover operator uses the command center to send instructions to the rover.
+A Pi4 utilizes ROS to collect and send commands to the rover, allowing multiple subsystems to operate and run at once.
+One such subsystem is the arm. The Persistence rover can be equipped with a 6 degree of freedom robotic arm.
+Movements are based around a 3-axis coordinate system with a control origin fixed at the base of the claw.
+A micro controller converts steps in this reference frame to a rover centric coordinate frame,
+and then inverse kinematics are performed to create commands to move the arm to that location.
+The resolution of these movements are as small as 2.5 mm.
+The operator is able to view the arm from both a third person perspective and the control origin.
+A claw is attached to the end of the arm to allow for fine motor tasks,
+such as button pushing, switch flipping and typing on a keyboard.
+A retractable hex driver is also attached to allow for tightening and loosening of screws.
+While the claw’s tip performs dexterous tasks, the thicker base enables the claw to handle greater loads.
+The persistence rover arm is able to lift 5kgs at full extension.
+With over a meter of reach the arm creates a significant moment on the rover,
+thus we have elected to mount the arm approximately 30 cm from the front of the rover to prevent tipping.
+We believe the arm to be capable of all required tasks for the extreme retrieval and delivery mission
+as well as the equipment servicing mission.
+For the science section of the competition we are tasked with creating a life detection module.
+To accomplish this we have opted to use ramen Spectroscopy.
+Soil samples are collected via a scoop which lowers from the bottom of the rover.
+This soil is then dissolved into solution to prepare it for exposure to a laser.
+By observing the scattered light after the laser hits the solution
+we can predict the absence or presence of life whether extant or extinct.
+The persistence rover is equipped with a rudimentary autonomous navigation system.
+Using a GPS and a magnetometer the rover plots a course to a desired destination and begins driving there.
+Sonic sensors attached around the rover map obstacles. If an obstacle is found to be in the rovers path,
+a new path is calculated which takes into account the presence of obstacles.
+Upon reaching a station where Arco tags are present, a secondary camera begins searching.
+After finding an Arco tag, the relative position is calculated then driving instructions are created and executed.
+We are The Persistence Rover Team, and this is Perci.

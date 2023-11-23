@@ -1,0 +1,133 @@
+[Music]
+we are knr rover team a part of students
+robotics association
+knr which operates at the faculty of
+power
+and aeronautical engineering at warsaw
+university of technology
+while designing our rover we focused on
+its modularity
+special mounts enable us to quickly swap
+the modules
+to ensure full task compliance
+in the rover we mostly utilize elements
+designed and constructed by team members
+from circuit boards to mechanical
+components such as hull's aluminum
+sheets or
+suspension shafts we decided to revamp
+the previously used rocker buggy
+suspension
+additionally we installed new more
+powerful
+and reliable drive modules coupled with
+our own proven wheel design
+the wheels consist of polyurethane foam
+molded on 3d printed rims with aluminum
+spokes
+field tests have shown their unmatched
+durability
+as well as very good traction in all
+conditions
+owing to those new solutions our robot
+is able to traverse demanding terrain
+and overcome steep obstacles
+[Music]
+we also managed to keep the rover
+compliant with the size
+and weight requirements we designed a
+power and communication rail with slots
+for mobile platforms control units
+to remove excess cables from the
+interior and
+in case of emergency allow for easy
+repairs
+we achieve around three hours of
+operating time
+and up to 10 kilometers of range on one
+charge
+we improved the functionality of certain
+modules by modifying their software
+thanks to the implementation of
+automatic regulators
+we achieved highly precise steering of
+the rover
+in order to provide safety of operation
+mobile platform is fitted with an
+emergency stop button
+the rover will also automatically stop
+after losing connection
+2.4 gigahertz wi-fi provides
+communication between the robot and the
+operator
+our new vision system consists of
+digital cameras
+as well as analog ones thanks to this
+upgrade we achieved high redundancy of
+the system
+analog cameras provide low latency
+stream
+while the digital ones give us high
+resolution video streams and over wifi
+for our operator's convenience we
+designed
+a specialized control panel to allow for
+precise steering of
+each of the rover's modules in most
+tasks
+we utilize a 6 degree of freedom
+manipulator
+thanks to the implementation of inverse
+kinematics
+the operator can intuitively perform
+desired movements
+the gripper allows the rover to grab and
+manipulate various objects
+weighing up to 6 kilograms finite
+element analyses
+enable thus to account for large parses
+acting on the assembly
+when designing its components ability to
+remember certain positions
+is another feature added to the
+manipulator's software that allows us to
+quickly automate and perform some
+repetitive tasks
+[Music]
+we have also designed a secondary
+gripper which provides the manipulator
+with the ability to extract a soil
+sample and store it in the laboratory
+module
+we designed the science module to
+prevent cross-contamination between the
+samples
+while performing the required
+experiments
+notable ones include a malicious test to
+detect carbohydrates
+as well as an hydrogen reaction to
+detect amino acids
+we also made sure neither the samples
+nor the reagents
+can spill outside the module
+the last of the rover's modules is the
+autonomy module
+it consists of various sensors providing
+data to a pc
+which performs the calculations on board
+the rover
+by placing the autonomy computer on the
+rover
+we reduced the wi-fi load and eliminated
+any delays caused by the transmission of
+camera feed
+and location data ar tag recognition
+will be provided by one wide angle and
+two narrow angle cameras
+this solution will ensure detection of
+the target from a large distance
+we believe our rover is more than ready
+to face the challenges of urc 2020
+and hope to see you there in may
+you

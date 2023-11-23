@@ -1,0 +1,136 @@
+we are Wisconsin robotics and this is
+our 2020 Rover tempest through
+continuous integration and testing we
+have developed tempest to handle the
+missions of the University Rover
+challenge this year we simplified driver
+controls and focused a modular design
+the drive system is comprised of a six
+wheel rocker-bogie and a differential
+bar the maneuverability and the
+structure of the rocker-bogie allows for
+continuous contact between the wheels
+and the ground even on the most rugged
+of surfaces the differential bar rotates
+in the vertical plane to efficiently use
+space we redesign the pivoting points of
+the frame to increase resistance to
+transverse loads the wheels are made of
+a combination of aluminum spokes and a
+Kevlar shell to make a sturdy and very
+lightweight design the V pattern rubber
+grousers are mounted onto the outside of
+the wheel to increase traction tempest
+features a kinematically redundant six
+degree of freedom manipulation system
+this allows for increased
+maneuverability and optimizes required
+joint energy in order to achieve this
+type of precision the arm uses various
+gear and belt drives supported by
+absolute position feedback a dual camera
+system provides depth perception to the
+arm operator a lead screw drives the
+unde effector to ensure stability and
+robustness swappable grippers are easily
+changed to adapt to each mission we are
+developing inverse kinematics to
+streamline operations this abstracts the
+complex control of the arm away from the
+user to enable precise movement the team
+is updated the rover's onboard
+electronics to primarily support
+off-the-shelf components which allows
+faster bring up and easier debugging an
+Nvidia Jetson nano provides necessary
+computational power in a compact form
+factor to securely connect peripherals
+to the Jetson we have designed a
+breakout board with controllable relays
+to reboot devices without the need of an
+intervention tempest features a wide
+view camera one meter above the ground
+it's camera mouse is tensioned by steel
+cables to avoid it stable video feed
+while traversing uneven to
+rain for long distance communication we
+are using two interchangeable radio
+systems one 2.4 gigahertz and one 900
+megahertz both proven to meet the harsh
+requirements of URC
+this year the software team has improved
+the robustness of the system by
+increasing the modularity of previous
+software designs the team sees in the
+newly released rows melodic and enable
+direct communication with the robbers
+motor controllers ba you are we have
+implemented code to detect
+malfunctioning sensors and update the
+robbers execution plan for example by
+recording right commands sent to the
+rubber pads can be plotted and
+automatically replay backwards in real
+time for image detection and autonomous
+navigation data from the supplier is
+used to generate an obstacle density
+history after applying a set of customs
+looting functions the robber combines
+the low-density locations in the
+histogram data from the GPS an IMU to
+calculate the best path towards the goal
+this approach guarantees an efficient
+and safe way for the robber to navigate
+autonomously in order to recognize gates
+we analyze high-definition video streams
+for shapes that resemble in their
+attacks
+Bunker's values of these images are then
+analyzed against the library to
+determine whether we have a match the
+Planetary Sciences team has developed a
+comprehensive environmental analysis
+system starting with a leadscrew guided
+soil scooping mechanism the soil is
+raised up by a crossbar through the
+chemical carousel and funneled into
+several onboard color changing tests
+high-definition cameras will allow us to
+detect with our vital nutrients like
+nitrogen and phosphorus are present in
+the sample to round out our planet's
+area analysis suite we have included a
+soil moisture and temperature sensor to
+gauge the presence of liquid water in
+addition to chemical testing our system
+includes a microscopic imager that will
+help us to identify morphologies and
+other significant geological indicators
+of life this combination of testing
+methods will grant an efficient reliable
+and diverse approach to analyzing soil
+and rock samples at the University Rover
+challenge in order to continue improving
+our competition ready Rover we have
+developed a number of testing methods
+for both the rover and our drive team
+and our testing suite combines almost
+all the manipulation tests into a 5
+kilogram box
+to test the functionality of our
+manipulation system for autonomous
+testing we have created a small hardware
+duplicate of the rover to allow her full
+algorithm testing in an indoor
+environment in the upcoming months we
+also plan to continue pushing the
+capabilities of our drive system to
+handle er diem as well as testing our
+planetary analysis suite with a variety
+of soil samples this combination of
+testing procedures will ensure that
+tempest is fully capable of completing
+all mission successfully Wisconsin
+robotics is excited and prepared to
+compete at this year's University Rover
+challenge

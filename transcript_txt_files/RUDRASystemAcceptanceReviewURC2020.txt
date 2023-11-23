@@ -1,0 +1,135 @@
+Team Rudra has been participating in the
+University Rover challenge since 2013.
+Since then our team has evolved in
+various technical aspects and lab has
+been fully equipped with latest
+equipments and technologies. This year
+rover has gone through massive
+transformation in all aspects. Prime goal
+was to make a robust system which can
+withstand the harsh terrain and is able
+to tackle all challenges during URC.
+Mechanical team has done R&D to develop
+a lighter and more reliable system this
+year. The rover weighs just 40 kgs with all
+equipments on board. Chassis is a closed frame made of hollow aluminum box channels to
+absorb the bending loads. This year's
+rover has a four-wheel drive with
+independent compression springs at each
+wheel. The suspension links and springs
+are designed in a way to prevent the
+impacts from hitting the chassis and is
+able to keep it almost parallel to the
+ground. The chassis provides enough room
+to install the electronics and mounting
+of different components. This is a jointed
+arm configuration with five degree of
+freedom and actuated by two linear and
+four rotary actuators. The links are made
+from the nylon rectangular beams with
+high section modulus to prevent bending.
+Pitch and roll motion are achieved by
+the different combination of bevel gear
+mechanism actuated by two servo motors.
+The gripper is a two-finger claw with
+four-bar mechanism to ensure the
+parallel motion of fingers and is
+capable of picking the things of five
+centimeter dia. with ease. It is actuated
+by a lead screw which is powered through
+the high torque DC motor. The maximum reach of the gripper is 1.6 meters from ground
+and is able to lift 5 kgs of weight with
+no effort. 12 inch wheels with a wider
+base provide enough traction to the
+rover and make it easy to maneuver
+through rocky terrain. Astronaut
+assistant box has two separate chambers
+which helps in easy deploying of the
+tools. This year the electronics of the
+rover has evolved and has been made
+highly reliable and modular making it
+easy to debug. The arm and the drive
+system have been kept completely
+independent which reduces the complexity
+of the system. A combination of four and
+five cell li-po batteries are being used to
+power the electronic subsystem of the
+rover whose power supply is being
+regulated by an array of
+buck boost dc-to-dc converters.For making the
+drive system robust, jetson tx2 is the
+primary master that communicates via
+serial bus with the two dual channel
+sabertooth motor drivers controlling four
+24 volt banebot geared DC motors for
+driving the rover. The central board of
+the rover has been custom designed to
+incorporate the STM32 micro
+controller, it communicates with the arm
+motor drivers for controlling the
+actuation of the arm and YPR system. It
+also manages the power distribution to
+the onboard POE and the motion of the
+camera system, astronaut assistance box
+is also controlled by the board. The
+rover also incorporates a kill switch
+that will terminate the entire power
+supply to the arm and drive control. For
+the communication, we are using 2.4
+GHz spectrum that is coupled with
+omni-directional antenna at the access
+point and direction sector antenna at
+the base station which gives us a range
+of 1.2 kilometres with low latency. We
+are using a 1.2 and a 5.8 GHz
+transmitters for the analog feed of the
+cameras. As to advance our system and
+make it flexible our team moved the
+conventional system to ROS. Internal
+communication of the rover subsystems is
+being handled by ROS serial. The
+communication from the central board to
+the robotic arm and other peripherals
+is done by a checksum based serial
+communication. The linear actuators
+comprise of highly precise potentiometers to facilitate feedback for the
+inverse kinematic algorithms, it also
+allows arm to move in a specific axis in
+space hence making it easier to grab and
+drop objects. The feedback from the rover
+is displayed in real time on the GUI
+aiding in secure operation. The speed
+acceleration and error offset can be
+dynamically modified to enhance
+performance significantly in extreme
+conditions. Team has also implemented a
+self-diagnostic system which helps in
+verification of all the peripherals
+prior to the task. For the autonomous task,
+we are using stereo camera to obtain
+point clouds and disparity maps to
+determine obstacle. On reaching the
+coordinate the rover uses a spiral scout algorithm and distance metric
+Euclidean algorithm to track AR tags and
+pass between the gates. An array of LEDs
+on the hind side of the rover depict
+different modes of the rover, in addition
+to which the rover also notifies the
+same to the base station GUI.
+The mission to find the proof of life on
+Mars demands the integration of diverse
+array of scientific techniques.
+Collection of soil samples is done by
+boring a hole of adequate depth using
+an auger. The rover uses a calorimetric
+assay to measure the presence of inter and
+intra-cellular carbohydrates. The science
+payload comprises of a high-speed
+centrifuge which is used to optimize the
+response of the assay. A maneuverable
+digital microscope is installed on the
+rover to search for bio signatures in
+rocks. A combination of various gas
+sensors will provide us with additional
+data to help us arrive at a correct
+conclusion.

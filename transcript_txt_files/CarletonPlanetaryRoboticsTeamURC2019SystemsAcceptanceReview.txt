@@ -1,0 +1,134 @@
+hi my name is yannick Brisebois and i am
+the team lead for the carlton planetary
+robotics team we are a team of
+undergraduate students from Carleton
+University in Ottawa Ontario with the
+goal of designing and building
+competitive Mars rovers I would like to
+now introduce to you this year's Rover
+Sammy our Chaffee platform has moved to
+a six wheeled rocker buoy which will
+increase stability while traversing
+rough terrain the rocker-bogie is
+constructed using cots rectangular
+carbon fiber tubing and milled aluminum
+hubs with the two legs connected using a
+transfer bar Sammis drivetrain consists
+of six vex bag motors each coupled to a
+hundred-to-one gear reduction and a
+custom quadrature encoder this year
+we've begun to design custom 3d printed
+TPU wheels which will provide us with a
+lightweight yet flexible rim this will
+be combined with a TPE tread which will
+provide traction over a simulated Mars
+environment the electronics are
+separated into two modular boxes the
+electronics box which houses all of our
+computation motor control power
+distribution regulation and telemetry
+sensors the battery box houses our
+batteries emergency stop system relay
+and trunk power fees the electronics box
+is designed with a standardized five
+centimeter by five centimeter grid and
+cutouts to allow for easy repairs
+rearrangements and expansion of
+electronics inside custom PCBs interface
+with any commercial electronics and
+features status LEDs for fast
+identification of electrical issues h6
+is powered with last year's 24 volt 30
+amp hour battery with a brand-new
+emergency stop system this new east up
+is equipped with under voltage lockout
+and a Deadman switch for faster and
+safer Rover recovery during testing
+we've also integrated a bypass for the
+Deadman switch for competition time
+these changes make h6 GPR T's safest
+most reliable Rover to date we will be
+using a 900 megahertz omnidirectional
+antenna based on last year's design due
+to its success at last year's
+competition this year the system has
+been optimized by using better suited
+antennas with the 900 megahertz link we
+will be able to talk through a large
+terrain such as hills and rocks that
+normally interfere with the higher
+frequency signal mechanical arm consists
+of four joints capable of lifting and
+maneuvering five kilograms of mass at
+full extension the motors are connected
+to harmonic or strain wave gears
+allowing for a high torque output as
+well as minimal backlash for degrees of
+freedom of the mechanical arm coupled
+with the two degrees of freedom of the
+end effector will allow us to use
+inverse kinematics which will be vital
+or tasks that require higher precision
+such as typing or using a screwdriver
+this year's end effector was designed
+with precision in mind the custom
+gearing system was machined of aluminum
+stock for a compact yet strong design
+the end effector has a 180 degree pitch
+control as well as 360 degree in
+continuous rotation the grippers of the
+end effector have been 3d printed of a
+special carbon fiber filament for its
+high strength and low mass properties
+last year we used OpenCV to detect and
+avoid obstacles as well as locating the
+tennis ball this seemed to work in a lab
+environment but failed to adapt to the
+unpredictable nature of the real world
+this year we plan to use a neural
+network as an end-to-end solution this
+will allow us to generalize safe driving
+conditions as well as how to avoid
+hazards as a safety measure we have
+built a secondary system to analyze the
+ground plane ahead of the rover knowing
+the size of our Rover we can determine
+if any patch of ground is large enough
+to fit on vetoing any decisions by the
+neural network if necessary we are also
+using deep learning to locate the tennis
+ball using a yellow algorithm this will
+allow us to generalize what a tennis
+ball looks like allowing us to deal with
+different color backgrounds debris on
+the tennis ball or even if the tennis
+ball is partially obstructed for the
+science mission we have built a Raman
+spectrometer to detect the presence of
+carotenoids pigments are widely
+considered to be strong indicators of
+life ace 532 nanometer laser is used to
+excite the sample and the peaks in the
+resulting spectra form a unique
+signature that can be used to identify
+the biomarker a motor and ballscrew
+are used to lower the probe to the
+ground so that measurements can be taken
+in situ
+as the weather starts to get a bit warm
+in Ottawa we're thrilled to be moving
+out of our build phase and into our
+mission planning and operator training
+our operations team is composed of
+specialists trained in a single role
+such as locomotion and defector or
+science during operations training we'll
+be conducting mock missions with
+simulated failure modes such as losing a
+motor various sensors or communications
+this gives our team experience
+troubleshooting in the field and allows
+us to develop backups and adaptations
+for mission success prior to competition
+[Music]
+[Music]

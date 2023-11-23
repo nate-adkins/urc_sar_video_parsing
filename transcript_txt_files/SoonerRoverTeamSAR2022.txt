@@ -1,0 +1,133 @@
+we are the sooner river team we are made
+up of 20 students from a variety of
+disciplines at the university of
+oklahoma we are excited to show you our
+best rover yet
+the rover communicates with mission
+control over a 2.4 gigahertz antenna
+capable of transmitting over a kilometer
+through obstructions using custom video
+streaming and control programs the
+operator can finally control the rover
+without any line of sight all missions
+in this video except for autonomous were
+completed without looking at the rover
+here the rover types out sorrow using an
+allen wrench that it previously picked
+up off the ground
+for the fine manipulation tasks the
+sooner rover arm utilizes a wrist
+capable of pitch and roll via two
+radially mounted motors and grasping
+tools through serpos this allows for the
+fine adjustments required for tasks such
+as typing and flipping switches
+the entire arm is mounted on a belt
+driven rotating base that allows for 360
+degree reach and repositioning without
+driving the rover
+each wheel contains its own embed
+microcontroller and other protective
+circuits for the wheel motor each embed
+is connected to a can transceiver that
+allows us to send and receive messages
+to a singular embed and electronics box
+this approach allows us to mitigate
+noise from the motors much more
+effectively than previous year's designs
+our unique marzicod design lowers the
+center of gravity of the rover as the
+conical volume allows each wheel to
+house its own motors and electronics
+fins on each conical wheel add traction
+and grip on steep surfaces
+each axle can rotate independently
+meaning that the rover can easily scale
+large obstacles and difficult terrain
+without high centering
+the independent axle rotation also
+allows each wheel to maintain nearly
+constant contact with the ground
+this coupled with the large wheels
+enables faster traversal speed than
+traditional rocker bogey designs
+a linear actuator provides extension
+forward and up and combined with hooks
+mounted on the forearm provides the bulk
+of the arm strength and lifting power as
+required for aspects of extreme
+traversal
+the mix of strength of the hooks and
+minute articulation at the wrist allows
+one arm to complete a variety of urc
+missions
+the science package consists of a drill
+and vacuum system with the samples
+loosened from soil or regolith via drill
+and placed via vacuum in tubes preloaded
+with hydrogen peroxide
+to test for the presence of organics a
+positive test is indicated by
+effervescence of the suspension of
+liquid sample
+sample 1 was obtained from a mole heal
+and was positive for organics as is seen
+in the image on the lower left
+sample 2 was obtained from yard
+sediments where insects were observed
+and was also positive as seen in the
+lower left image
+a sample of beach sand was observed to
+be negative for organics
+rock samples were analyzed via camera
+samples on the right indicated no life
+as seen in sandstone
+and mudstone
+samples on the left indicated extinct
+life
+including petrified wood and fossils
+including trilobites and stromatolites
+we start the autonomous mission by
+sending the rover a list of latitude and
+longitudinal coordinates that lead to
+the desire location for the river to
+drive along it uses gnss to calculate
+its current heading and distance from
+each gps coordinate
+pid is used to control the wheel speeds
+to ensure that it's driving with the
+correct heading for the first three legs
+once the rivet determines is within
+three meters of the final set of given
+coordinates for that leg it stops and
+turns its led's green we then give it
+another list of coordinates ellie to the
+next set point and restart the process
+for legs four through six while the
+driver is driving through the set of gps
+coordinates it is looking for an ar tag
+using arukko in the yellow object
+detection algorithm if he sees an ar tag
+the rover stops aligns itself with the
+center of the tag and then tracks it
+down using pid until it detects as
+within 3 meters of it
+our cameras can see tags from up to 12
+meters away to ensure that we can find
+tags that are 20 meters away from the
+given gps coordinates we give the river
+several set of coordinates around the
+given set point so i can drive along
+them while looking for the tag
+this creates an effective search
+algorithm that can find ar attacks from
+any distance away
+for the final leg the rover looks for
+two ar tags and once it sees them aligns
+itself to their center and determines
+how far away they are the river then
+drives the calculated distance plus an
+additional three meters to score here
+the river completed the full autonomous
+course thank you we are excited to
+compete at the 2022 urc

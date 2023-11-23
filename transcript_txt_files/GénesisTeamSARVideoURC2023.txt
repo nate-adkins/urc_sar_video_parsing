@@ -1,0 +1,95 @@
+[Music]
+we are high team Genesis and this is a
+robber
+[Applause]
+in this opportunity we developed a
+system using walls for control all of
+the rubber subsystems such as dormitory
+GPS computer vision autonomous
+navigation and motor control we also
+developed two computer vision
+applications the first one is based on
+the Deep perception of the physical
+world using an integral sense deep
+camera the second one uses 30
+perceptions with webcams and opencb to
+detect aruka makers for the autonomous
+mission
+furthermore we create a simulation using
+gazebo anaerobics to validate our
+autonomous navigation algorithm
+control all of the rubber subsistence we
+create a Rover control interface based
+on our application developed in the slot
+however is designed with Energy
+Efficiency and rarity in mind
+when we work on constructing our lithium
+ion batteries we are using lip acid
+batteries to power the rubber
+temporarily
+the rubber can function for Ops 1 hour
+with these batteries
+it has a kill button for emergencies and
+a LED indicator in real soon the
+operation mode
+the rubber designs allows for easy
+repairs with various microcontrollers
+and voltage converters
+protects against
+our temperature and short circuits
+these features make repairs average
+allowing the rest of the rubber to keep
+to keep functioning while the damage
+part is being fixed or replaced the
+science Mission will be approached using
+four main system first the rubber
+locates High biological industry science
+with the assistance of environmental
+sensors then the ground sample will be
+connected with an undefined Ramesh that
+will be refined with the assistance of
+the rubber integrated breaker
+our light detection process is divided
+intrusive systems nucleic acid and
+protein structure with an aspect of
+odometer reading it is about to we will
+have a sample that will help us with the
+services are together with glass dips
+these wavelengths were selected to
+warranty an addiction of a commercial
+under the Irreplaceable molecule that
+terminates the life DNA also proteins
+are amino acids are added to the list as
+by Young molecules of Interest due to
+air abundance and importance in
+organisms
+then the building Vortex system will
+change into a centrifield allow it to
+separate different components today it's
+a very effectiveness of the detection of
+DNA and proteins in soil under extreme
+conditions activity and minimal
+biological presence our methodology was
+tested during two sessions at The
+Institute of national of cardelohia
+Ignacio Charles A Rose in average areas
+are focused on creating educational
+content for social media inspiring kids
+and young people to take an interest in
+Space Engineering and science ranging
+from physics to biology we
+workshops and conferences to primary
+schools universities and even large
+media events giving us the opportunity
+to connect with people from diverse
+backgrounds and sharing knowledge and
+passion for science we're proud to say
+that for outreach efforts with gain
+enough financial backing allowing us to
+finance and be a little rubber we
+believe in sharing our knowledge and
+experience to throw and Inspire younger
+Generations that space in the space
+Explorations are not our concepts are
+within rich and accessible to everyone
+[Music]

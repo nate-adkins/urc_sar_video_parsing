@@ -1,0 +1,155 @@
+foreign
+Space Engineering team an undergraduate
+LED design team from Queens University
+located in Kingston Ontario Canada our
+Rover project team is comprised of 85
+students from the faculties of
+engineering and arts and science who
+contribute to technical development and
+team operations the Syracuse that has
+prioritized full system testing and
+competition Readiness in preparation for
+URC 2023
+this year we have manufactured a lighter
+Rover chassis that has additional
+capacity for our scientific payload
+enters arm implements The Rovers
+Implement Bay is capable of Hosting
+either the scientific payload or the
+Dexter's arm depending on the mission
+the Rover suspension uses a rocker
+differential system to Traverse uneven
+terrain and tight spaces a new flexible
+3D printed wheel design provides impact
+dampening and improved Traction in loose
+material each Drive motor uses PID
+control to Aid in turning and precise
+movement of the Rover in testing the
+Rover is capable of driving up 45 degree
+and a long 60 degree slopes
+our Dexter's arm is a five degree of
+Freedom system with a new Grabber
+capable of continuous role for
+interfacing with the Lander and lifting
+heavy loads the arm employs inverse
+kinematics to determine optimal joint
+Motion in The three principal axes it
+can perform tasks such as flipping a
+switch opening a latch typing on a
+keyboard and plugging in a USB like the
+drive system the arm uses PID control to
+assist in manipulation of a five
+kilogram load during the equipment
+servicing task all onboard systems are
+powered by a seven cell lipo battery
+allowing for a tested 1 hour and 15
+minutes of continuous Drive operation
+we're able to communicate with the Rover
+remotely using ubiquity rocket M2
+transceivers which operate on the 2.4
+gigahertz bandwidth with selectable
+frequency bands a new extendable mask
+design has been added to assist in
+operating the Rover from large distances
+improving our long range capabilities
+each wheel is driven by a brushed DC
+motor to allow for simple control and
+high reliability
+dual Channel motor drivers are used to
+control each motor individually allowing
+for enhanced traction control and
+improving the Rover's ability to
+Traverse uneven Terrain
+the Rover can be operated remotely using
+a custom control board as well as an
+analog joystick a newly implemented arm
+position visualizer AIDS the driver in
+completing dexterous arm tasks
+the camera system has been upgraded to
+include nine navigation and
+instrumentation cameras with onboard
+encoding to reduce computational load on
+the main computer
+custom current and voltage monitors
+allow for remote system Diagnostics the
+autonomous system uses a new dual
+antenna differential GPS providing
+highly accurate heading and location
+information to improve traversal of
+speed and accuracy this GPS data is
+fused with real odometry data to give a
+continuous and accurate position
+estimate the perception system uses two
+Intel d435 depth cameras and a new
+obstacle detection system to detect and
+avoid obstacles a new search pattern in
+git reversal system has been implemented
+this year increasing the efficiency of
+the search and traversal component and
+LED strip around the perimeter of the
+Rover provides a visual indication of
+the current autonomous state the science
+reactor uses a suite of four wet
+chemical tests to determine the presence
+or absence of extinct or extant life
+within soil samples paleo employs a
+lowering mechanism allowing it to
+collect soil samples without the need
+for an external robotic arm Four Scoops
+controlled by Servo Motors independently
+collect soil samples into the top of the
+reactor which are then saved in a
+pre-filled test cuvettes the chemical
+reaction is assessed using spectroscopic
+analysis using our onboard UV Vis
+spectrometer attached to 12 discrete
+Optical fibers one for each test cuvette
+four separated containers on the outside
+of the reactor store samples from each
+test site to be delivered to the judges
+an upgraded digital sensor Suite will be
+used to assess environmental
+habitability and site conditions the
+scientific payload will measure your
+temperature pressure humidity and VOC
+content the team has also further
+developed at soil and rock
+classification system to Aid in Rapid
+remote identification of samples using
+five onboard cameras the scientific
+payload performs all of its analysis in
+situ without expressing employed
+chemicals to the outside environment wet
+chemical tests will identify the
+presence of protein building blocks key
+macromolecules and reducing agents in
+situ the Bison conanic acid assay tests
+for amino acids were Lively indicating
+extant life at low concentrations in
+soil and iodine solution is used to test
+for starches and polysaccharides which
+can support evidence of microbial life
+results will be further validated by
+Benedict's reagent which will test for
+alcohols and reducing sugars a fourth
+chemical test for potential metabolic
+bio products will identify nitrates in
+situ which are indicative of extreme
+life this year kucer has placed
+significant emphasis on improvements to
+consistent composition Readiness with
+this in mind we have been running and
+will continue to run mock tasks for each
+of the four competition missions these
+mock tasks aim to replicate real
+competition scenarios these testing
+opportunities have been used to create
+and refine free task checklists to
+ensure a consistent Rover setup for each
+task this work has allowed us to improve
+our overall system reliability with
+frequent testing to find and fix
+integration bugs and to determine which
+parts might fail during competition
+thank you to our sponsors and thank you
+for watching

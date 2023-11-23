@@ -1,0 +1,110 @@
+hello my name is Pavel w'iskey and my
+role is to advise the impulse student
+research club our students have long
+been involved in the design and
+construction of Mars rovers our current
+project is a rover for the Mars
+society's 2019 University Rover
+challenge hello my name is Dasha and I'm
+the leader of the impulse team there are
+12 of us working on this project we are
+divided into five sub teams each
+responsible for a different aspect of
+the rover
+we've put every effort into making it as
+perfect as possible the key element of
+our robot is the six degree of freedom
+manipulator equipped with high quality
+strain wave gearing and PID controllers
+it is able to lift more than five
+kilograms and perform high-precision
+operations such as precision placement
+button pressing lever moving or knob
+turning the control system uses inverse
+kinematic algorithms for more advanced
+tasks including quick and easy
+manipulation of objects and even
+keyboard operation the gripper is
+designed to pick and place heavy loads
+as well as precisely operate small tools
+such as screwdriver with 300 millimeter
+diameter wheels and a torque of over 200
+Newton metres applied to each of them
+the rover is able to move through
+challenging terrain including sandy and
+stony areas it has a flexible suspension
+and low center of gravity which allow it
+to easily go up and down steep slopes
+with a tilt of up to 60 degrees and
+climb down one meter high vertical drops
+the rover is equipped with full HD
+cameras that provide information on the
+textures shapes and colors of all
+objects encounter it even very small in
+size the rover is able to differentiate
+between
+similar objects in a set and recognize
+the right one it can read small signs as
+well as commands from the display in the
+science desk there over will test
+samples of the surface soil and rocks to
+find out if there is or has been live at
+the site all the tests performed in situ
+will be recorded using a high-resolution
+camera providing high magnification
+images the rover will measure the
+temperature and moisture of the ambient
+soil and earth the atmospheric pressure
+the amounts of methane and carbon
+monoxide the level of UV radiation and
+the relative elevation of the site a
+weather station placed on the rover will
+also help to determinate the direction
+and speed of wind
+sample collection will be done
+autonomously and their sterile
+conditions the in situ tests will
+provide information on the chemical
+properties and organic content of the
+soil to determine the environment in
+which the sediments formed from the
+levels of nitrogen phosphorus and
+potassium it will be possible to specify
+the organic compounds and microorganisms
+likely to be found on the site the rover
+will also determine the amount of
+calcium carbonate and proteins one of
+the rover upgrades is a spectrometer for
+detecting the presence of chlorophyll
+over the last year we have improved the
+Rovers autonomous navigation system the
+system is divided into three subsystems
+positioning vision and routing the
+positioning system is very precise with
+errors not exceeding several centimeters
+the vehicle uses readings from the
+drives the compass the accelerometer and
+the differential GPS system it is able
+to replay its latest route by analyzing
+the recorded features in order to reach
+the predetermine height coordinates the
+vision subsystem with full HD cameras is
+able to recognize route markers in the
+form of tennis ball on the basis of
+their characteristic color and round
+we've also implemented an algorithm for
+determining the position of markers on
+the map so that a new route to the most
+probable destination can be created when
+the markers are out of sight their overs
+on board systems are able to produce
+visual signals and transmit messages to
+provide information about the autonomous
+mode or task competition real-time
+telemetric data such as a map with GPS
+coordinates the layout of markers found
+or their routes covered will be
+visualized on the screen
+[Music]
+[Music]
+you

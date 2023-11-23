@@ -1,0 +1,118 @@
+We are the OzU Rover team from Özyeğin University, 
+Istanbul, Turkey and we are excited to reveal our  
+new rover for the 2023 season. We are a team of 56 
+dedicated students who are pationate about space  
+exploration and robotics. Our team of engineers 
+designers and programmers work together to design  
+build and operate rovers for competitions. We 
+welcome you this year, as mechanical engineers  
+of OzU Rover team. With our new locomotion 
+system, suspension mechanism wheel design  
+and chasis design has changed completely. Our new 
+chassis has been designed by taking into account  
+the modularity for the electric equipment 
+and six-DOF robotic manipulator. At the same  
+time we integrated our new elastic-shaft rocker 
+suspension system on the chassis for a balanced  
+ride. This year we increased the diameter of our 
+new wheel from 20 centimeters to 30 centimeters in  
+order to overcome the obstacles to be encountered 
+while driving. Metal plates are used as threads to  
+maximize contact pressure and sinkage thereby 
+maximizing the grip. With our new brushless  
+hub motors we are able to control the velocity of 
+each wheel independently and accurately. Our six  
+degrees of freedom robotic manipulator controlled 
+by inverse kinematics has been optimally developed  
+to perform the necessary tasks. We have achieved 
+a more sensitive and effective robotic manipulator  
+thanks to our new differential wrist mechanism 
+and roll axis design. On robotic manipulator’s  
+electronic side, we have updated our design 
+of custom made control card “Armduino” with  
+feedbacks from the last year. Armduino v3 is 
+our main control card for the manipulation  
+which can read the data from the encoder, 
+activate the brakes and drive the manipulator.  
+This new design includes CAN BUS for better cable 
+management and easier communication with the new  
+brake controllers, which enables the team to 
+have better handling of the manipulator. This  
+year as electrical and electronics sub team we 
+have overhauled Energy Systems within the rover.  
+In response to changing power requirements we have 
+switched over from 4 Series 7 Parallel Lithium-ion  
+batteries to 7 series 8 Parallel Lithium-ion 
+batteries. The team has designed the batteries  
+with a modular approach where each of the series 
+can be connected and disconnected separately with  
+proper safety measurements installed. As a result 
+of this setup, the team has more flexibility  
+in terms of logistics and a modular approach 
+where systems can be differentiated. As a part  
+of this year's project, the team has designed and 
+manufactured its own power distribution board. Due  
+to different energy requirements within locomotion 
+the team decided to simplify the Power Electronics  
+by combining all of the converters onto one board, 
+where all of the power control elements can be  
+monitored and changed in real time. As a result 
+the team was able to make better decisions and  
+implement another safety system within the rover. 
+For URC 2023 we have designed and programmed an  
+entirely new autonomous navigation program. 
+Utilizing Robot Operating Software where we  
+have created three nodes, responsible for sensory 
+data processing pathfinding and delegation of  
+movement commands. ZED2 camera is used to extract 
+point cloud information that is then processed  
+to retain only the high slope regions the rover 
+cannot scale, which are then marked as obstacles.  
+in our Coastline the image data from zip2 is 
+used to identify rupertempts as well the camera  
+also contains an IMU sensor from which we generate 
+odometry data for localization. for pathfinding we  
+have written a randomly exploring three library. 
+We use this library to generate it to restructure  
+on our customer that is guaranteed to find a clear 
+path to the goal system can dynamically replies if  
+a collision course is detected upon new sensory 
+data. Our communication system consists of two  
+wireless routers which are TP-Link 2.4 gigahertz 
+omnidirectional antenna and another TP-Link  
+router. This year Pant-Tilt mechanism is 
+implemented to base antenna in order to  
+ensure that our system performs reliable 
+communication. Additionally two IP cameras  
+are utilized in order to get live stream view 
+around the rover. The science system consists  
+of primary objectives of collecting soil samples, 
+analyzing them and collecting environmental data.  
+To achieve this various sensors are strategically 
+positioned throughout the system to collect data  
+such as temperature humidity carbon monoxide 
+methane nitrogen and potassium. To determine  
+the presence of carbohydrates potassium iodide is 
+used, while methylene Orange is employed for pH  
+level determination. The Bradford test, a reliable 
+and accurate spectroscopic analytical approach,  
+is selected for protein indication. The 
+soil collection shovel is equipped with  
+a linear mechanism that allows it to descend 
+and rise, capturing and transferring samples  
+to test tubes. these test tubes are then placed 
+on a revolving plate that rotates to position  
+samples in the spectrometer for analysis. 
+With the introduction of a new spectrometer,  
+the overall measurement of absorbance 
+has significantly improved allowing the  
+system to detect absorption between 200 to 1000 
+nanometers. The spectrometer measures how much  
+light is absorbed by the sample at each wavelength 
+and the wavelength value that reaches the peak in  
+the graph is used to define the amounts of protein 
+within the sample. To facilitate control over the  
+science system we have designed a custom-made 
+GUI that allows users to operate the system and  
+simultaneously observe significant data coming 
+from the onboard science laboratory sensors.

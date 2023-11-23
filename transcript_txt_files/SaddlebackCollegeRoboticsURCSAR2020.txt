@@ -1,0 +1,145 @@
+hi my name is Margaret strong and I am
+SEO robotics team lead this year we are
+very excited to unveil our Rover Odin se
+robotics is a multidisciplinary team
+comprised of students from various
+disciplines of engineering and Sciences
+our team is made up of five sub teams
+the mechanical team programming team
+electrical team science team and
+business team Odin's frame consists of a
+welded aluminum chassis with an upper
+roll cage to protect critical electronic
+components such as the batteries and
+drive controls a large central payload
+Bay allows multiple experiments and
+hardware packages to be mounted
+simultaneously in order to stay within
+the size restrictions we've constructed
+a spring-loaded locking mechanism for
+the antenna allowing it to fold and lock
+into both the horizontal and vertical
+position a rover suspension system
+features a custom manufactured double
+wishbone design utilizing an adjustable
+pneumatic shock this allows us to modify
+the ride height of the rover for various
+tasks the angled suspension arms allow
+the tires and wheels to get ahead of the
+nose of the rover in order to clear
+obstacles before they can hit the frame
+Odin uses a wide wheel base occupying
+the 1.2 meter limit and a low center of
+mass in order to increase stability on
+uneven terrain our drivetrain consists
+of four DC motors utilizing a planetary
+gearbox in order to produce fifty-two
+foot-pounds of torque to clear smaller
+obstacles as well as summits steeper
+hill climbs 30 centimeter low-pressure
+air tires are used in conjunction with
+3d printed clamshell hub in order to
+maintain ground contact our arm features
+six degrees of freedom which allows it
+to manipulate both large and small
+objects with precision positioning and
+minimal backlash the arm utilizes two
+heavy-duty linear actuators capable of
+withstanding intense payloads the end
+effector features worm gears in order to
+passively maintain positions while
+holding dynamic loads we've built sub
+assembly modules from laser cut acrylic
+paneling to house our computer banks at
+the low level we establish a
+communications link with the rover via
+you big green networks radio equipment
+this provides us with a transparent
+Ethernet bridge which allows us to use
+modern Network protocols to communicate
+and manage the rover at high level the
+base station communicates with services
+running on the rover via g RPC every
+core module in the rover is exposed via
+a GRC service and these services may
+call them one another as appropriate for
+instance the autonomy service will pull
+data from the sensor service in the
+computer vision service and issue
+commands in autonomous mode to the
+command and control service these
+modules are deployed on Raspberry Pi
+model fours and in the case of computer
+vision it is instead deployed on an
+Nvidia eg Xavier to maximize the
+efficiency of our computer vision by
+using GRP see the rover systems are more
+modular than a monolithic API style
+application and this modularity allows
+it's easily redeploy individual services
+different onboard computers should the
+need arise such as in the instance of a
+partial hardware failure both the arm
+and the end-effector are implemented
+with closly motion align for precision
+control of the six degrees of freedom
+allowed by the arm and end effector
+assembly autonomy is achieved through a
+combination of sensors and computer
+vision the rover uses a GPS and an IMU
+to establish its relative position
+within the field and uses that to guide
+autonomous navigation additionally a
+high-resolution camera is used to scan
+for and detect the error attacks that
+mark the waypoints the gates and the
+endpoints in the mission applying a
+computer vision algorithm running on the
+HDX Xavier once the error types was
+detected the rover will move towards
+these detected tags providing the path
+is not obstructed our electrical system
+is powered by two independent lithium
+iron phosphate batteries one dedicated
+to the drive systems and the other
+dedicated to the processing and
+communication systems enabling us to
+isolate our core critical components for
+the drive system we are using 60 amp
+passively cooled speed controllers with
+quadrature feedback and for the arm we
+are using specialized closed-loop
+controllers that have integrated PID
+loops allowing for seamless integration
+and low processing expense most of the
+electrical subsystems are designed to be
+completely modular using several
+mounting panels and interconnects we
+have also designed custom printed
+circuit boards to assist with the
+rover's science experiments
+the science team will be implementing
+three distinct methods of soil analysis
+to determine the presence of current or
+passive life two of the methods include
+chemical analysis in search for ATP and
+organic compounds the organic
+composition of the samples will be found
+via paper strip tests and the color
+metric results will be analyzed through
+cameras and an interest of method will
+be applied to soil and locks
+ampuls to determine mineral composition
+grain size grain distribution and
+potential fossils will be analyzed using
+high magnification microscopy mineral
+assay is a reliable test for its
+independence of soil collection
+mechanism and for its retrieval of
+informative data
+lastly the soil collection mechanism
+involves gravity feeding of the soil
+into the filtering station the rover
+currently employs a prototype that will
+be replaced by a linear actuator
+[Music]

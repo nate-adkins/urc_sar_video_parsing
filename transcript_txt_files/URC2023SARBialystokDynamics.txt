@@ -1,0 +1,106 @@
+hello everyone we are bioristic dynamics
+from biowistic University of Technology
+in Poland we wanted to showcase the Argo
+free Rover which was designed and built
+by our team of electronics mechanics and
+software engineers
+the robot is based on a frame
+construction made of aluminum alloy
+profiles and uses a rocker buggy
+suspension the propulsion is provided by
+four wheels powered by brushed DC motors
+with planetary gearboxes
+Village style surface conforms to the
+ground providing film traction
+the tires also serve as shock absorbers
+for vibrations while driving on uneven
+Terrain
+numerical calculations and a card model
+were carried out using SolidWorks
+software
+by using the Ros environment along with
+the Gazebo simulator and RV's 3D
+visualizer we were able to keep working
+on the software for our Hardware before
+it even came into existence
+the robot model transferred from
+SolidWorks was the base for further work
+on suspension control and manipulator
+kinematics in Arvest we could command
+either the TCP position or the positions
+of individual joints without worrying
+about the safe trajectory
+the robot already equipped with
+controllers and this television camera
+is ready to handle with more demanding
+tasks such as a mapping and no terrain
+the manipulator is designed to lift
+loads up to 5 kilograms at full reach it
+is made of aluminum profiles linear
+actuators brush DC motors with gearboxes
+and belt drives used to move the
+manipulator's Rings
+our manipulator with an add effector
+make it possible to carry out operation
+requiring for example a specific
+approach to an object
+such a opening a cabinet or relying on
+Metallica the desired orientation when
+inserting a USB
+in addition with a narrow grip we are
+able to switch small switches and press
+keys on the keyboard
+simple kinematics are controlled by two
+analogs and the d-pad of the Xbox One
+controller
+with the ability to control all joints
+simultaneously even in a simple
+kinematic mode we are able to make more
+complex movements than setting up a
+single joint
+for the control of brushed DC motors we
+use custom design controllers called
+Argo drive S and Argo drive XL creating
+our own controllers allowed us to
+achieve smaller sizes while maintaining
+the necessary current per Channel
+performance and required functionality
+this allowed us to place the wheel
+control in the suspension
+Argo drive XL enables support for both
+incremental and absolute encoders while
+Argo drive S supports only absolute
+encoders both also supports
+communication via can bus we use this
+protocol for communication between
+controllers and the main on-board
+computer
+which is the Nvidia Jetson X2 for
+communication between the Rover and the
+base we use ubiquity rocket M2 radio
+models operating at the frequency of 2.4
+gigahertz
+[Music]
+foreign
+foreign
+[Music]
+fragment showed the process of
+collecting a selected soil sample which
+will then be transported to the
+laboratory area The Next Step will be to
+subject the soil sample to select a test
+in order to determine the presence of
+chosen substances finally identification
+of rock samples will take place through
+the use of gripper mounted a camera that
+allows capturing the required details
+needed to identify selected minerals
+both the laboratory and the camera with
+the adapted gripper allow for the very
+quick removal to reduce the weight of
+the Rover we believe that a Rover is
+ready to compete in this year's
+University Rover challenge we would like
+to express our gratitude to all sponsors
+and individuals involved in the project
+for the hard work and dedication

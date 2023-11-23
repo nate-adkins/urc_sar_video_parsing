@@ -1,0 +1,102 @@
+the Sooner rover team has submitted an
+application into the 2018 University
+Rover challenge to compete for our
+second year in a row seeing an exciting
+team growth this year the rover team has
+had on average 25 to 30 students
+actively involved across all subsystems
+the team this year represents over 10
+majors including most engineering and
+several science disciplines since August
+2017 the team has been evaluating last
+year's design developing solutions
+prototyping and testing we are pleased
+with our progress thus far and feel
+several problem points from last year
+have already been addressed an overall
+design focus for the team this year was
+put in place to combat a reoccurring
+issue we fell into last year the
+serviceability of subsystems with a much
+lower percentage of welds the entire
+2018 Rover will be much easier to
+perform maintenance and repairs on
+preventing the team from permanently
+losing any necessary subsystems this
+year the rover was designed with a 30%
+reduction in size from the 2017 Rover
+the larger size of last year's Rover
+increased the weight along with creating
+some difficulties turning while not
+providing much increase in driving
+performance the 30% smaller 2018 Rover
+is still larger than the original 2016
+sooner Rover which itself still had
+great maneuverability over fairly large
+obstacles the frame of the rover is also
+getting a reduction in the joint angles
+along with implementing a brake system
+these two efforts combined should reduce
+the motion where the middle wheels
+lifted off of the ground and caused a
+folding of the rover at the middle joint
+the wheel design has also changed quite
+a bit this year
+along with just a smaller overall wheel
+the primary contact portion of the wheel
+has been reduced even more to allow
+easier skid steering and a new rubber
+grouser design is being utilized this
+year to increase traction simplicity was
+priority when designing the manipulation
+package this year we opted for linear
+actuators in our design for stability
+rather than a change of an arm like last
+year
+the range of motion restrictions that
+the linear actuators resultant will be
+combated with the natural mobility of
+the rover being able to position the arm
+and the orientation it needs to be along
+with the two degrees of rotation that
+the bevel gear wrist joint will provide
+the simple u-shaped claw design also
+allows the fine manipulation needed to
+grip handles flip switches and press
+buttons while maintaining our design
+focus of serviceability and simplicity
+the computer science team has had a
+great advantage this year though we
+didn't have last year and that's a rover
+to test communications and other
+software functions early on while
+waiting on the new Rover to be complete
+[Music]
+using last year's Rover as a test
+platform for computer science we have
+already been able to showcase successful
+untethered communication tennis ball
+tracking calibration of the six wheeled
+body with the control system and
+autonomous traversal is in development
+now with a platform that is readily
+accessible to test with
+[Music]
+the science package has seen good
+progress so far the drill and vacuum
+mechanism has been constructed and
+tested both independently and mounted on
+a driving River both resulting in
+successful sample collections at the
+time of this video the soil moisture and
+temperature sensors are being added and
+tested once the required functions of
+the science package are complete and
+refined a gas sensor ring will be added
+to provide Mission Control with
+additional readings to further inform
+the science analysis team the Sooner
+Rover team has enjoyed participating in
+the University Rover challenge so far
+and eagerly hopes for the chance to
+compete again this summer

@@ -1,0 +1,105 @@
+We are the Pharaohs Rover team and this is our place , at which we share our knowledge.
+and prepare for the university rover challenge 2020.
+our team is split into three main groups;
+.
+Electrical group , Mechanical group , and
+Science group .
+ 
+ 
+Mechanical design .
+Rover chassis is made of carbon fiber rods
+assembled with screws
+Allowing for easy assembly and disassembly
+for shipping .
+It has three different configuration sets
+A double wishbone suspension configuration
+Either six by six or four by four and an Ackermann
+steering configuration giving us the ability
+to switch between different configurations
+according to the mission requirements .
+The suspension system is calculated by doing
+a mathematical model for the system to calculate
+required stiffness and fixation of springs
+Motion study is done on the new system to
+test it's ability to traverse hard and inclined
+terrain and carry the required load
+We are currently in the manufacturing phase
+and we're practicing on an old system to gain
+driving experience and train new members .
+A 6 degree of freedom robotic arm was designed
+with a maximum payload of 5 kg
+And a nearly spherical work-space
+It consists of three cascaded two degree of
+freedom joints, each implemented using a differential
+bevel gear set
+The first two joints are self- locked by worm
+gear reduction stage at each motor .
+To assure fail-safe operation while timing
+belts are used for the last joint .
+The structure were made of three millimeters
+aluminum trusses to maximize the strength
+to weight ratio.
+The control system consists of multiple inner-connected
+subsystems that achieve high integrity and reliability.
+Rover main controller consist of two redundant modules
+and supports multiple interfaces to
+enhance reliability .
+And provides 2 PID controllers on both linear
+and angular velocity
+We developed our custom dc smart drivers that
+provide PID control on both angular velocity and position .
+with feedback of angle,angular velocity , power,
+temperature and estimated torque
+We also designed our custom robotic arm controller
+for easy manipulation
+The rover is powered by 22 amp power Lipo batteries
+which are monitored by the main
+controller .
+Emergency power switches were added for safety
+.
+The external communication is based on 2.4
+Ghz wifi and 900 Mhz RF along with 5.8 Ghz
+RFD video link
+While internal communication consist of
+Ethernet,serial,UART, rs485 and usb connections.
+We implemented a video server which concatenate
+multiple video transmissions into a single
+video resulting in a fixed data rate .
+It supports up to six camera with bit rate
+of 5 M bits per second and allows for zooming without loosing quality.
+We are currently testing the rover capabilities
+to achieve the competition tasks
+We have trained to minimize setup time
+achieving a time of less than 3 minutes .
+For the extreme retrieval task we have built a field to test our rover
+on rough terrain
+and steep inclines.
+In order to test our arm we have built a panel
+similar to the URC panel .
+For the autonomous task localization is done
+through sensor fusion between lidar ,gps , IMU
+, and stereo vision .
+Using extended kalman filter the rover is
+then visualized on google maps using gps sensor
+to ensure the rover maintains it's path
+AR detection is implemented using convolutional
+neural network .
+The science box was designed with ability
+of testing up to four different samples
+It was designed specifically to fulfill the
+no-spill policy
+These samples are connected using our especially
+designed shovel .
+Providing more control for sample collection.
+ 
+Chemicals indicators such ad Iodine , Biuret
+and emulsion are used to detect the presence of life in a given sample.
+In which they have a rapid response and are easily detected.
+ 
+Machine learning specifically the convolutional
+neural network is being used to identify different
+types of rocks ,by comparing with the database
+of rock samples
+11 sensors are being used to measure changes
+in different gases to see if there is any
+sign of life in the surrounding environment.

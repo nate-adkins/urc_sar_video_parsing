@@ -1,0 +1,152 @@
+either team robotics bass decreasing
+lamps whether instead of technology
+india is a team of thirty undergrad
+students working on the Mashable Pro
+today they participate her the European
+River syringe twice and this is a first
+attempt at the university over charge
+after several months of hard work and
+dedication we are excited to unfurl our
+latest robot for you RC Hades the focus
+of this year was to simplify the design
+have onboard backup systems and ease of
+control to make sure tasks are completed
+with ease here's an overview of our
+overall system design and function the
+mechanical team together to design
+manufacture and assemble the external
+component of Ares the chassis has been
+designed with the factor of safety of
+about three to withstand the extreme
+loading conditions the suspension of the
+robot is a three rocker system
+consisting of three independent rockers
+with a six wheel drive the rockers are
+designed keeping in mind the conditions
+the rover will have to traverse through
+at the MDRS
+during the extreme retrieval and service
+task the 3 rocker design is simpler and
+optimized when compared to the
+rocker-bogie as it reduces chances of
+mechanical failure the base area is kept
+wide the ground clearance height however
+the center of gravity is kept low by
+using bass heavy motors to counter top
+link while climbing steep slopes and
+performing the 1.2 meter drop with the
+robotic arm mounted turning mechanism
+used is the
+system the rover turns by regulating the
+RPM of the wheels the robotic arm
+consists of a base plate assembly and
+two aluminum alloy tubes which make up
+the major links the base plate assembly
+is designed to withstand heavy loads and
+bending moments linear actuators and DC
+motors driving spur gear trains are used
+for actuation of the the focus of
+electrical subsystem this year was to
+reduce perfect complexity and the
+battery management keeping in mind that
+Rover should work for maximum of 70
+minutes during the extreme retrieval and
+delivery tossed the batteries on the
+rover can keep all the systems running
+for maximum of 90 minutes hence
+providing a buffer the decentralized
+power distribution on the rover helps in
+reducing the overall wiring throughout
+the rover this in turn makes other
+subsystems of the rover easier to debug
+and assemble at events act customize
+control boards using atmega328p are used
+include safety mechanism have been
+embedded which are not available on of
+the shelf control board selected the
+control boards give the necessary
+feedback to be of the rover status
+current and speed sensors on board send
+actuator configuration at all times
+in case of extreme malfunction
+particular subsystem can be
+electronically disabled by the driver in
+addition to an onboard construction or
+as will by is uses the main controller
+on the rover which communicates with the
+base station over the Ross framework the
+communication from the Raspberry Pi to
+the atmega328 beam control boards takes
+place over the i2c protocol we are using
+2.4 gigahertz to give you 2 Mbps
+off-the-shelf Wi-Fi routers to
+communicate with the rover a directional
+antenna is used on the base station and
+an omnidirectional antenna is placed on
+board it over the command station
+antenna tracks the position of the rover
+at all times and changes orientation to
+maintain connectivity rover vision also
+operates only 2.4 gigahertz bandwidth
+and provides that constant 24 FPS the
+stickler distance of one kilometer in
+case of interferences at the 2.4
+gigahertz bandwidth the rover self
+initializes and fpv camp placed on board
+which operates at a 5.8 gigahertz
+bandwidth which was supposed to complete
+the task successfully the normal
+navigation is achieved using sensor
+fusion event processing and neural
+networks
+long distance Waypoint navigation is
+done using a GPS module and three axis
+magnetometer obstacle avoidance is done
+using radar and neural networks are
+implemented using tensorflow
+and Karis marker detection is achieved
+using image processing and a camera
+module the image processing algorithms
+have been implemented using OpenCV and
+Python for the science caches tasks to
+determine the habitability of the site
+our strategy is divided into site
+selection documentation sensor data
+acquisition sample caching a laboratory
+analysis for accurate soil investigation
+we are using digital microscope which is
+mounted over the soil box the sample
+site selection images from the panoramic
+camera soil and clip images are examined
+using image processing algorithms our
+drill operates on Archimedes Q principle
+which displaces soil from ground to be
+stored in airtight cache the robotic arm
+can be moved to preset locations on the
+rover such as the soil box and tool
+storage box using forward kinematics
+amid samples are calibrated using
+spectroscopic data information regarding
+the site like temperature humidity wind
+speed pressure and gas composition the
+soil is analyzed using gas sensor
+digital pH probe and temperature and
+humidity sensors in the lab soil is
+tested for presence of life determining
+elements along with traces of microbial
+life the rover is a good with the - link
+and effector which will be used to
+complete the servicing as well as the
+retrieval tasks for sensors are placed
+on the links to obtain data regarding
+its configuration I am use an actuator
+feedback give arm configuration at all
+times these features make sure the
+object does not slip from the end
+effector and help the driver in
+completing tasks with even a distorted
+camera fee the management team is
+responsible for keeping the project on
+track the team will be starting its
+crowdfunding campaign in early mass
+should support its financial needs

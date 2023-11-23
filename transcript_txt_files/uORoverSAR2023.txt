@@ -1,0 +1,136 @@
+hello bonjour and welcome to the
+University of Ottawa Mars Rover team
+2023 system acceptance review
+our team is composed of over 25
+passionate students from a wide range of
+disciplines from science and engineering
+to business
+over the past year our team saw rapid
+expansion allowing us to improve various
+systems from our previous Rover this
+year our approach was to introduce new
+printed circuit boards for our
+subsystems the addition of custom pcb's
+minimized failure modes and provided
+additional redundancy over last year's
+design all while meeting the power
+delivery needs of our Rovers modules our
+communication setup leverages two 900
+megahertz radios to easily exceed
+competition requirements with over two
+kilometers of range our com system has
+been stress tested through line of sight
+obstructions and adverse weather
+conditions
+the Sears base station setup features a
+dashboard which provides a central Hub
+that displays four cameras in parallel
+sensor data a map and Ross node and
+topic data the dashboard has a react
+front end that connects to Ross through
+rosbridge server's websocket our
+distributed architecture separates nodes
+between the onboard computer and the
+base station our reference nodes that
+take operator input are run on the base
+station controller nodes on the pi
+process the reference signals and send
+commands to the arduinos which Drive
+Motors to actuate the Rover
+to complete dexterous tasks
+our robotic arm uses rear mounted linear
+actuators to optimize the range of
+motion a differential forms are wrist
+joints providing precise pitch and roll
+movement for our multi-purpose end
+vector the N effector's carbon fiber
+infused nylon body overdrive protection
+High friction grippers and non-back
+drivable mechanism provide strong stable
+grip strength for use during URC tasks
+by fully closing the N effector buttons
+and keys can be pressed with high
+Precision our 5 degree of Freedom arm
+uses three onboard cameras to provide
+visual feedback during geological
+identification of specimens and open
+loop operation We are continuing
+development of a closed-loop inverse
+kinematic control system and are on
+track to implemented by competition this
+this year's life detection module
+analyzes soil samples for extinct and
+extant life using various chemical
+assays using a vacuum system soil
+samples are collected and deposited into
+nine test tubes in the rotary array
+where they're analyzed by our sensor
+suite for evidence of Life the presence
+of soil organic matter is detected by a
+reaction with sodium hypochlorite that
+precipitates a foamy substance microbial
+activity is Quantified by dissolving
+soil in dimethyl sulfoxide and analyzing
+temperature variants from the resulting
+redox reaction finally our onboard
+microscopic camera allows us to examine
+regolith for fossilized organisms the
+raw data collected by the temperature
+sensors and cameras is then sent to the
+base station for interpretation by our
+science team
+our current plans for the Rover's
+autonomous systems involve feeding
+localization info from the Kalman filter
+into our tab map along with data from
+our realsense stereo camera
+we will then use this information along
+with our system that reads our UCO tags
+to determine our path and drive it
+autonomously
+we get our location from our GPS and
+additional positioning inputs which are
+then fed into a kelman filter along with
+IMU data to help clean up the signal for
+autonomous and extreme retrieval
+missions the robotic arm and life
+detection models are supported by an 80
+20 Exquisite aluminum frame that
+distributes the load throw the chassis
+and into the suspension our suspension
+uses a four-wheel rocker bulky system
+which mainly consists of carbon fiber
+tubes and connectors to optimize the
+strength to weight ratio this new
+four-wheel design lowers the center of
+gravity and reduces the mechanical
+complexity overall to maximize the
+stability the swim arm is mounted far
+from the pivot point which reduces
+oscillation in the chassis while
+ensuring Four Points of contact when
+traversing
+16-inch pneumatic balloon Wheels were
+selected for their ability to support
+heavy loads across loose and challenging
+terrain the rims were adapted to
+accommodate the motor assembly within
+the width of the wheel finally the
+motors actuate custom cnc'd rim faces
+which in turn Drive the wheel
+this year we got a head start on our
+design providing ample opportunity for
+testing and Analysis of our Rover each
+component on this year's Rover has
+undergone thorough testing to ensure
+optimal competition performance
+our team constructed a replica Lander to
+simulate URC equipment servicing tasks
+with the dual purpose of validating our
+systems and ensuring operator
+proficiency
+the Euro over team is absolutely
+confident in our ability to meet and
+exceed all URC competition requirements
+we hope to see you all in Utah thank you
+for your consideration

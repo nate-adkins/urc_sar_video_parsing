@@ -1,0 +1,132 @@
+hello we are team Mountaineers from West
+Virginia University and we are proud to
+present our Rover design and demonstrate
+our Readiness for the 2023 University
+Rover challenge meet our team's newest
+Rover Wanderer and our autonomous drone
+Cosmos
+the Rover's sheet metal chassis is
+supported by a differential double bogey
+system to maintain Four Points of
+contact on uneven terrain carbon fiber
+and Kevlar composite wheels are attached
+to in-hub brushless motors the composite
+construction allows an aggressive tread
+design which enables the Rover to
+Traverse a variety of terrains similar
+to those at the Mars desert research
+station the Rover is equipped with
+adequate payload and interfacing space
+to allow for easy integration All
+Electronics such as the custom power
+distribution payload control and Battery
+monitoring boards are centralized in the
+chassis to improve communication range
+under the size constraints a telescoping
+antenna mount is installed
+this year we will be using one four
+degree of Freedom hybrid palletizer
+style manipulator for both the equipment
+servicing and extreme retrieval and
+delivery missions the arm consists of
+machined aluminum components with
+composite linkages arranged in a
+parallel configuration actuated by two
+can controlled brushless motors at the
+base each payload contains the specifics
+for each task such as the arm and
+electronics
+pipicos are used on the custom payload
+pcbs with the main chassis able to
+distinguish between payloads by placing
+the motors at the base the masses of the
+manipulator's links are reduced
+decreasing the torque required to
+manipulate objects
+in this configuration the arm and motor
+combination is able to lift up to eight
+kilograms at full extension
+an additional degree of freedom is
+provided by a lead screw driven
+horizontal rail the rail allows the arm
+over 500 millimeters of travel
+the arm also features a two degree of
+Freedom differential giving the
+operators control over pitch and roll
+attached to the differential is a linear
+clamping end effector the clamping end
+effector provides the strength to
+tightly grasp large objects while being
+dexterous enough to manipulate features
+on the Lander
+for the equipment servicing Mission a
+screwdriver is attached to the end
+effector allowing the drivers to easily
+screw and unscrew a bolt as well as
+precisely type on a keyboard
+the Rover communicates with the base
+station using a 900 megahertz radio
+connected to two weap antennas on the
+Rover at the base station 120 degree
+sector antenna provides a wide region
+where communication is possible this
+communication system has been tested up
+to 850 meters and is able to maintain
+control and video link at that distance
+this year for the autonomous navigation
+Mission our team has been developing
+both autonomous drone and Rover systems
+with the intention to complete the
+mission with the Drone depending on
+environmental conditions
+both systems use a finite State machine
+to switch between navigation search
+approach and arrival States a pixhawk 6C
+provides our localization solution with
+accuracy of up to 1.5 meters which is
+sufficient to arrive at the GN SS only
+coordinates for the mission coordinates
+including fiducial markers Ross aruko
+detect is used on board both vehicles to
+provide the marker positions relative to
+the vehicle additionally a YOLO Vision
+model has been trained to detect a Roku
+markers from a greater distance in cases
+where the Rover isn't able to see the
+marker once arriving at a waypoint a
+surge pattern is planned and executed
+the science payload examines soil
+samples using a visible light
+spectrometer soil samples are collected
+and stored on the robot through the use
+of rotating drums
+these drums are lowered to ground level
+and rotate to collect soil using
+integrated Scoops ethanol is then pumped
+into the drums to create a solution
+rotating the drums mixes the ethanol and
+soil this solution is delivered to the
+onboard science laboratory by the same
+pump using a series of check valves the
+laboratory contains a centrifuge with 14
+cuvettes
+for each sample site the centrifuge
+contains two cuvettes one empty cuvette
+for detecting biological chromophores
+and one containing a chlorometric
+substrate to detect peroxidase activity
+sample solutions from each site are
+examined for organic compounds by the
+spectrometer and spectroscopy data is
+sent back to the base station and
+displayed on the GUI after determining
+the samples of scientific value the
+scoop drums can be easily removed from
+the collector mechanism for further
+testing
+several events in which in which
+freshman engineering and high school
+students build their own obstacle
+avoiding robots team Mountaineers is
+excited and ready to compete in the 2023
+University Rover challenge

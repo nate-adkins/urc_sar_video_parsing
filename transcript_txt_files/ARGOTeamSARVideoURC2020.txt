@@ -1,0 +1,131 @@
+this year algorithm Java is the most
+advanced robot we have ever made we
+focused on inland define and fixing the
+previous mistakes as well as further
+improving and developing our best
+systems to make it possible our members
+give the best making sure we are ready
+to compete in the USC the rocker-bogie
+suspension system makes it possible for
+the rover twisting inclines of over 30
+degrees and traverse difficult terrain
+[Music]
+for this year's competition we've
+designed a completely new mobility
+subsystem with four swivel wheels able
+to rotate for 360 degrees we've already
+completed testing the prototype and
+began manufacturing the final product
+the rover arms has six degrees of
+freedom
+and utilizes inverse kinematics to
+optimize its movements it can lift
+objects weighing over five kilograms as
+well as perform precise movements
+required to complete the equipment
+servicing mission furthermore it can be
+equipped with two different grippers
+based on the upcoming tasks it gives us
+more flexibility and adaptability and
+sure we are using the best possible
+configuration the rover is powered with
+a custom medley human phosphate battery
+pack hooked up to a custom-made PCB
+which handles power distribution and is
+equipped with an external kill switch in
+case of emergency
+this year our electron sub team members
+have found themselves contributing to
+some of the biggest changes in the rover
+design they designed and created several
+new PCBs at in terms of new functions to
+the robot and making servicing and
+troubleshooting much easier
+one of the new features are the PID
+controllers used to control the wheels
+the custom-made control station gives
+the operators access to real-time feeds
+from seven different cameras mounted on
+the rover it is the operator in grasping
+the situation which along with
+personalized graphical user interface
+makes controlling the rover more
+intuitive the software it uses was made
+from scratch by our programmers using
+C++ and Python to compete in the
+autonomous navigation mission we have
+developed a completely new autonomous
+navigation system Rover uses its onboard
+cameras to look for i/o talks and after
+finding and recognizing the pattern it
+executes the assigned algorithm the
+status of the task is signalized by a
+corresponding LED while moving towards
+Democritus constantly monitoring its API
+on angles and correct the path when they
+approach set thresholds
+[Music]
+to handle all the data processing we
+have equipped it over with T Nvidia
+Jason takes to run in robot operating
+system it's a big change from last
+year's design and it has heavily
+impacted the robots performance
+improvement process and speed as well as
+making the bargain and troubleshooting
+much easier now after building a strong
+foundation we are working on
+implementing and new solutions to
+achieve even better results to excel in
+the science tasks and meet this year's
+requirements the science team has
+created a completely new science module
+the system is designed to determine the
+presence or absence of life using three
+different methods it's made of two parts
+the unbought laboratory and the rotary
+tool selected lat it is equipped with
+three different instruments the first a
+portable high quality high resolution
+microscope with 500 times magnification
+allows us to analyze not only the sample
+but also the results of the other tests
+the next one is a philip entered soil
+collector able to collect and deliver
+the sample to the laboratory last but
+not least is a set of sensors which
+includes temperature sensor soil
+moisture sensor in pH sensor they all
+together provide valuable data used to
+analyze the soil a second part of the
+module is the unbought laboratory used
+to perform various tests and experiments
+in situ to determine the presence of
+life the delivered sample is evenly
+distributed to separate containers
+registered using a pirate test Ireland
+tests and protein detection method to
+see the Rovers ready to enter the
+competition we perform a set of tests
+communication was tested by measuring a
+signal strength and stability over
+various distances and during different
+weather we've created software that
+analyzes collected data
+he gave us important feedback we can use
+to find you our equipment we put the
+Robert suspension system under major
+stress by traversing difficult terrain
+making sure it's ready for the UIC harsh
+environment on top of that to train
+operators we have designed a mock lender
+making it possible for them to become
+more adept in controlling the rover's
+our movements and completing complex
+tests require both focus and extra
+reading after all the work we've done an
+experience we've gained from previous
+competitions we are confident we are
+ready to participate in USC and taken
+teams from all over the one
+[Music]

@@ -1,0 +1,151 @@
+we are Wisconsin Robotics and we are
+proud to present our 2023 URC Rover
+eclipse this year we increase
+functionality while maintaining our
+previous system's reliability this
+year's drive system consists of a
+returning six-wheel rocker bogey design
+with a
+vert The Rocker bogey system acts as an
+active suspension allowing for even
+distribution of Rover loads and impacts
+over bumpy surfaces and rough Terrain
+each wheel consists of aluminum spokes
+surrounded by a Kevlar shell with
+ingrained grousers that will allow for
+proper Traction in the Sandy competition
+environment
+this season each wheel has been
+redesigned with an upgraded assembly
+each wheel is now driven by a powerful
+brushless motor connected to a planetary
+gearbox that will allow for increased
+speed torque and efficiency of the drive
+system compared to previous years this
+robust design will ensure lasting
+durability throughout the competition
+challenges and Seasons ahead
+the arm provides a strong Dynamic and
+robust system for grasping
+it has a 6 degree of Freedom
+kinematically redundant design made to
+maximize joint efficiency while keeping
+the weight to a minimum
+the arm is more than capable of reaching
+the 1.5 meter height range and carrying
+5 kilograms of weight
+encodos are placed on each joint to
+allow the use of inverse camera control
+the end effector uses a high torque NCR
+backdrive system the Clause of the end
+effector can grasp more than the five
+centimeter of requirement in the tips of
+the clutch are flexible allowing them to
+conform to the object's shape this year
+Wisconsin robotics has decided to
+incorporate
+we control our drone with a pixhock
+flight controller and an Nvidia just a
+nano the pixhock is a reliable flight
+controller that we will use when we
+manually control the Drone and the
+Jetson Nano is used as our main
+processor for autonomous missions the
+Drone have several cameras that will
+help in detecting Naruto post during
+autonomous navigation Mission we use a
+stereo camera system in conjunction with
+computer vision techniques such as
+template matching algorithms found in
+the aruka library
+in addition to the cameras on a drone we
+will be using sensors like GPS Optical
+flow and lidar to improve the accuracy
+and reliability of our detection system
+furthermore the team is using gazebo a
+simulation environment that allows us to
+safely test our drone to make sure that
+our code works properly before taking it
+outside for outdoor testing this
+run are on board on world tests a scoop
+collects soil from test sites and
+deposits it into a funnel once the soil
+is deposited the funnel splits the soil
+into five colorimetric tests on board
+the science box which attaches the
+sample pH and look for ammonia proteins
+nitrogen phosphorus and potassium the
+modular turncable can also hold sample
+containers for further analysis of
+biologically significant samples a Raman
+spectrometer sits next to the turntable
+looking at the soil samples Raman
+Spectra allows us to determine what
+types of molecules are in the soil
+making the Raman spectrometer a powerful
+tool finally we have a USB microscope
+and a moisture sensor which are lowered
+To The Ground by a linear actuator
+Wisconsin robotics software team is
+focused on delivering reliable and
+robust software for all subsystems of
+the Rover the arm Now features an
+inverse kinematics control scheme which
+gives the drivers more reliable and
+intuitive control of the arm
+the Arm Control software also features
+control loop-based driving to hold the
+position of the arm and safety stops to
+prevent damage to the Rover arm or
+grasped objects the software has also
+been upgraded to support the new Drive
+Motors and take advantage of the
+advanced features in the new motor
+controllers Additionally the software
+team migrated or code to the Raspberry
+Pi to efficiently communicate with the
+new hardware and utilize the gpio
+capabilities of the pi we're also
+testing the autonomous navigation
+software and integrating our current
+driving algorithms with the Drone for
+the autonomous navigation mission
+chess's team has made several
+improvements to the Rover's electrical
+system including a new enclosure adding
+robust gpio capabilities and upgrading
+the power distribution board first we
+have designed a new enclosure this
+enclosure will have interchangeable
+layers so that we can have ease of
+access to each of the layers next we
+have switched our main onboard computer
+to a Raspberry Pi this will allow us to
+integrate many of our new sensors such
+as the time of flight sensor and an RP
+lighter module for autonomous navigation
+a new distribution board has also been
+integrated into the Rover system this
+board houses the IMU and GPS it is the
+entry between the pi and all onboard
+actuators allowing us for improved
+actuation and intelligence of our Rover
+the team leverages several testing
+platforms to ensure competition
+Readiness 4 Clips to test the dexterity
+of our arm our team uses a test box that
+contains many of the equipment surfacing
+and erdm challenges such as switches USB
+ports and a keyboard we use a five
+kilogram toolbox with a handle to ensure
+the arm has sufficient carrying strength
+for competition
+the team tests full system functionality
+on the snowy Hills and Fields of
+UW-Madison focusing on long distance
+Communications tele operation practice
+and multiple Drive environments with our
+system design in preparation for
+competition Wisconsin robotics is ready
+to tackle the 2023 University Rover
+challenge

@@ -1,0 +1,84 @@
+This will be Ohio University's debut in the rover robotics scene
+We have constructed our rover from the ground up, putting an emphasis
+on designing and building nearly all of the parts in house
+It is important to our team that the rover is designed not only for this
+year's competition, but for Russ College's continued efforts in the University Rover Challenge
+The wheels are designed with control in mind
+opting to put a heavier focus on traction rather than speed
+The width is equal to its height, at 7.5 inches and the rim is built
+from steel for structural integrity.
+The tire is designed to be airless and molded from shore A60 polyurethane rubber, yielding a
+similar consistency and stiffness to a standard car.
+Our unique wheel wraps allow us to have in-hub
+motors using direct drive.
+The rover is fitted with custom designed wheel wraps.This allows the rover to
+maintain its weight over the center of the wheel,
+helping to achieve a uniform spread along the surface
+area of the tread face.
+Similar to the suspension system, the carbon inserts are designed to have wire
+run through an internal channel instead of leaving it exposed on the outside.
+The Rover features a 6-wheel rocker-bogie style suspension system. The system has a
+differential bar that spans the width of the rover,
+balancing the chassis on the average pitch of both
+rockers.
+This design allows the rover to maintain all 6 wheels on the ground while maneuvering over
+difficult terrain.
+The suspension system is also designed to minimize exposed wires
+built with hallow aluminum pipes allowing the team to run wire inside of the suspension system.
+The chassis construction is important, as it is the core building block for the whole rover.
+It was important to the team that the chassis be designed to be modular
+and provide excellent protection to the systems
+The rover’s arm, or what we call the Robotics Manipulator, is designed to be mounted on the
+back of the rover rather than the front.
+Driving with the manipulator behind us makes pulling an object simpler.
+This also provides us with extra room on the front to mount
+sensors and other accessories.
+The manipulator features 3 different linear actuators and one main form of rotational movement
+The first linear actuator gives the system vertical about a fixed structure that extends 3.5 ft off of the rover's chassis
+The second linear actuator moves horizontally
+about a fixed structure and acts as our high-strength clamp.
+This clamp is designed to be as close to the vertical
+movement as possible.
+This will allow the system to lift heavy
+object without affecting the balance of the rover.
+the last linear actuator extends out like a boom up to 7.9 inches,
+Instead of moving about a fixed structure
+Mounted on the end of this boom is a small gimbal allowing us more precise movement of
+a smaller hand-like clamp,
+The Motion System controls overall movement of the rover.
+it will use a multi-loop
+PID controller that uses Angular velocity data from the
+onboard IMU to control wheel speeds on each
+side of the rover.
+Additionally, each wheel will control its own angular velocity by using a feedback loop
+from shaft encoders.
+The Hardware controlling the Drive system will consist of the Arduino Due microcontroller,
+whose 87 MHz,
+32-bit processor will grant us the processing power to accurately monitor each wheel speed through interrupts.
+All motors will be controlled over Pulse-width-modulation through H-Bridge
+motor drivers which can supply controlled voltage up to 20A continuously.
+The rover has two onboard unique pieces of software running: The Robotics Engine and the Api Gateway
+Both of these systems are
+implemented on top of a framework built from the ground up.
+The system is similar to ROS, designed with flexibility and stability at its core.
+The Robotics Engine is the proprietary high-level system of the rover.
+responsible for tasks such as interacting
+with microcontrollers, image recognition/processing.
+With the nature of these tasks, a high processing power is required.
+For this reason the system runs on an Nvidia Jetson Nano.
+The rover is controlled with a front-end “dashboard” application built using Angular.
+The dashboard is used for manual control of the rover’s systems through communication with the Api
+Gateway.
+The dashboard allows the team view, and monitor the engine in real time, by syncing chosen sets of data
+like RPM, connection latency, and other critical data
+The life detection subsystem utilizes pre-manufactured urine test strips to achieve the goal of
+verifying biosignatures.
+A urine test strip provides quick qualitative and/or quantitative tests of various
+chemicals in urine samples by changing color.
+However, we will be focusing on the presence of nitrite, protein, ketone, and glucose.
+The team will be using a 2.4 GHz connection amplifying for a maximum of 5 Watts
+for communication between the base station and the rover in the field
+The Ohio University Rover Team consists of team leader
+Logan Wielkiewicz
+and team members Nic Gill, Neco Lubuguin, Sean Jones
+Adam Kirby, Dylan Wright Gabby Miller, Corey Hanson, and Emily Sleeth

@@ -1,0 +1,118 @@
+we are eighty-eight spaces than steam
+from Krakow Poland consisting of over 20
+members with broad engineering and
+scientific backgrounds today we present
+to you , the rover we have been working
+on for the last one a half years the
+suspension is a simplified four wheels
+rocker-bogie design made of aluminum
+alloys and steel each of the rover's
+wheels is able to turn independently
+allowing for agile and precise traversal
+the main drive motors are hidden inside
+the wheels which protects them from the
+damage when moving through rough terrain
+we make extensive use of 3d printing
+technology the tires are fully printed
+out of elastic material the hexagonal
+internal structure allowed us to create
+a tire has all the properties needed in
+the desert electronic cases are also
+printed to reduce weight the manipulator
+has a 5 degrees of freedom structure
+with two of the most loaded joints
+driven by linear electric actuators
+providing satisfactory stiffness even
+add loads up to 5 kilograms every joint
+position is monitored by potentiometers
+and controls using inverse kinematics
+all the cabling is done through
+connectors and the manipulators can
+easily be removed for the time it's not
+in use parts exposed to high levels of
+stress were tracked using Fe M methods
+to ensure their durability the whole
+electronic system was designed from
+scratch
+based on stm32 architecture and canvas a
+proven and reliable solution using
+automotive industry it's modular
+structure allows for parallel
+development as well as easy expansion
+with additional subsystems every module
+is carefully protected against
+overloading voltage spikes and
+overheating the master module is
+responsible for communication between
+the main computer and the controller
+network to most crucial modules during
+the mission drive motor and arm
+controllers are also redundantly
+connected by rs-485 bus in the unlikely
+event of cannabis whether the individual
+functionality blocks such as motor
+controllers are unified for the sake of
+easy development and repairs and the
+communication between our rubber and
+ground station is provided using 868
+megahertz
+camera feed is done using 5.8 gigahertz
+analog transmission development of a
+self-sufficient navigation system takes
+time that is why we have created a
+simulation providing own sensory data
+and allowing us to develop the
+autonomous control software while the
+Rovers construction was still in its
+early stages a hardware in the loop
+simulation gave us insight into final
+system performance the NVIDIA jetsam tx1
+and TK 1 provide more than sufficient
+computing power to process all of the
+sensory data using the humble GPUs we
+have built by powerful genetic
+pathfinding algorithm able to guide the
+rover through difficult terrain based on
+a map created using lidar technology
+the GPUs also power stereo vision one of
+the most accurate data sources were used
+for odometry all that in real-time
+ground station software is crucial for
+communicating with the rover and remote
+control each of the applications layouts
+was tailored to fit specific needs of
+team members allowing the operators to
+focus completely on the task at hand our
+Rovers onboard laboratory is fitted with
+sensors which measure soil humidity and
+temperature as well as carbon monoxide
+and methane concentration the three
+module is able to reach depth of 20
+centimeters collecting sample from a
+desired range moving material into a
+syllable container then a probe is
+lowered into the hole providing
+information about the site a custom
+spectrometer allows us to determine many
+suitable chemical components of the
+sample trip and drop test kits as well
+as external sensors give us quantitative
+analysis of the solution we use the
+microscope and simple reagents to
+analyze the integral part of the sample
+our main method of life detection is the
+use of acridine orange which merged with
+RNA and DNA illuminates with certain
+colours when put under UV light
+we can see that using a high
+magnification microscope we also use
+ninhydrin to detect the presence of
+amino acids
+this project is possible thanks to huge
+support from our University the Ministry
+of Higher Education and private sponsors
+the team has already secured all the
+funds needed to participate in the
+finals we strongly believe that we are
+ready to compete with the best teams on
+the Mars desert Research Station

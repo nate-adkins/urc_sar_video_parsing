@@ -1,0 +1,140 @@
+[Music]
+hello my name is Chris como and I'm the
+team lead for the rose-hulman Institute
+of Technology University Rover challenge
+team I am excited to show you our
+progress for the system acceptance
+review
+our team is split up into three
+different groups mechanical electrical
+and software members from these groups
+are organized into 10 different
+multidisciplinary project teams based on
+interest and expertise these projects
+include the chassis drivetrain
+communications battery electronics
+rugged ization navigation target
+tracking controls user interface and
+science we iterated upon last year's
+design based on the committee's feedback
+these criteria included robustness and
+modularity to improve upon our chances
+of success at the competition in Utah
+[Music]
+the goal for this year's wheels was to
+optimize the weight strength and
+toughness we achieved this by creating
+an easily manufacturable infield
+serviceable design next we created a
+material index for each of the
+components and found that an aluminum
+polypropylene sandwich structure for the
+perimeter pieces and an ABS plastic for
+the sidewalls would give us the best
+performance the spaces between the
+perimeter sports would reduce weight
+relative to a solid wheel as well as
+provide more grip by catching the ground
+and other obstacles we encountered our
+[Music]
+goal for the rover's electronics is to
+assemble a robust and powerful power
+system that can supply our high torque
+motors with the power they need for
+extended use at the heart of this system
+lies four series connected three point
+two volts 72 amp iron lithium iron
+phosphate battery cells these batteries
+have the capacity to power the rover for
+over an hour of continuous drive time
+the lithium iron phosphate chemistry
+ensures the battery will function
+efficiently in the high heat of the
+Desert Sun
+[Music]
+the drive control in our Rover is
+managed on an independent
+microcontroller based system that
+communicates to our central processing
+unit through a USB serial connection
+this system uses victor SPX motor
+controllers on a pwm protocol the driver
+motors from the 12-volt power source
+communication to our rover from the base
+station is handled by multi-threaded
+Python sockets which receive and
+transmit data from the driver inputs
+over the long range antenna system our
+wireless communication system uses two
+off-the-shelf antennas the base station
+antenna is a motorized directional
+antenna to ensure long-range
+communications and the rover antenna is
+omnidirectional to prevent loss of
+communication these antennas have been
+tested at ranges of over half a
+kilometer and can easily transmit over
+the distances faced in the competition
+[Music]
+the arm is a six degree of freedom
+anthropomorphic arm with a spherical
+wrist linear actuators on joints 2 & 3
+provides sufficient joint torques for
+lifting objects joints 2 3 & 5 are non
+back drivable using a Worman wheel to
+reduce arm power consumption when
+statically holding objects our arm uses
+joint space rate control with the telly
+operator closing the loop the final
+control system will use inverse velocity
+kinematics to allow for rate control the
+end effector in Cartesian space the end
+effector features different contours for
+grasping objects of different sizes and
+geometries and opens and closes along a
+linear path similar to advice
+[Music]
+the autonomous navigation system is
+built on the Ross navigation stack the
+system applies sensor fusion on an IMU
+GPS and lidar to localize the robot
+position we have implemented the local
+planner to navigate between obstacles in
+a global planner to generate the optimal
+path between each GPS Waypoint once our
+autonomous traversal system successfully
+ruins our over to the given GPS
+coordinates our robot will then
+transition to the autonomous target
+tracking system to initially find either
+they are tagged post or gate the robot
+will slowly spin in place and scan the
+surrounding area using the onboard USB
+camera our system uses the air track out
+of our package from Ross to recognize
+the tags and calculate their pose we
+have thoroughly tested our target
+tracking software on scaled-down version
+of the robot there were set in different
+initial positions at varying distances
+and angles from either the individual
+post or gate and the scales Rover was
+able to successfully reach the post or
+pass through the gate of these initial
+positions we plan to conduct similar
+tests with our full-size Rover using the
+same software
+our strategy for the science task uses
+spectroscopy to identify key elements of
+interest in soil samples a 3 watt laser
+reflects off the soil passes through a
+lens to increase the intensity of the
+reflected light and is separated into
+its various wavelengths using the
+diffraction grating cameras are placed
+at specific locations to detect the
+wavelengths of light which correspond to
+carbon hydrogen and oxygen the presence
+of these elements suggests the existence
+of life in the soil
+you

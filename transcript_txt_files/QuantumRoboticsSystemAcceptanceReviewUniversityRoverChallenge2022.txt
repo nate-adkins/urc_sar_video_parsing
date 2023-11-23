@@ -1,0 +1,136 @@
+hi we are team quantum robotics and this
+is our 2022 system acceptance review for
+the university rover challenge
+this year we focused on the improvement
+of our rubber score systems as well as
+our plan to successfully accomplish the
+competition missions we implemented a
+suspension system inspired by a rocker
+bogey this arrangement allows the rover
+to maintain its wells in contact with
+the ground while passing through regular
+terrain such as inclined planes rocks
+sand and fragile structures without
+compromising the integrity of any
+subsystem
+furthermore the wheel placement enables
+the rover to easily rotate on its own
+axis
+the newly tpu design wheels provide
+outstanding traction and flexibility
+that contribute to stability in addition
+the improved mechanical design based on
+bearings eases the assembly process and
+focuses on protecting the motors from
+critical collisions
+we made several finite element analysis
+to guarantee that our designs and
+material selection were the most
+favorable
+by reinforcing critical areas with rigid
+materials and taking advantage of
+additive manufacturing it became
+possible to propose hybrid approaches
+that were structurally optimal
+this year light weighting technologies
+played a major role during the rover
+design in comparison with last year
+through topological optimization the
+total mass of the rover decreased by 20
+the rover has a complete control power
+system that allows to monitor and
+control the energy give it to each
+component all secure with dedicated
+fuses per actuator to ensure the
+integrity of the circuit we incorporate
+a safety kill switch a thermal circuit
+breaker that limits the flow of current
+to 120 bursts fraction is powered by
+falcon 100 that has a built-in encoder
+that improves the control motion in
+amsterdam's period we implemented a
+communication link made up of
+bidirectional antennas using the 900
+megahertz frequency taking advantage of
+its long range and performance of the
+mimo system antennas in our tests we
+were able to establish communication to
+transmit and receive packets over one
+kilometer away without line of sight in
+the same way it was possible to
+determine the channel with the least
+packet loss and noise interference
+talking about the robotic arm its five
+degrees of freedom allow us to fulfill
+tasks such as manipulating small objects
+typing operating on a joystick and
+current the five kilograms payload
+the gripper includes a preset of several
+modules that provide them fine movement
+and a tpu inner structure that deforms
+according to the object to be
+manipulated
+the gearbox and electronic system in our
+arm allow us to provide high efficiency
+pid control furthermore that are
+implemented with the cam protocol which
+helps us to reduce the wiring and
+provides an efficient energy supply
+we perform the forward and inverse
+kinematics for our five degrees of
+freedom robotic arm additionally we
+implemented a graphic interface arm
+control program which allows us to move
+each joint individually and trajectories
+planning
+with this we achieved a practical and
+efficient way to fulfill all the
+manipulation tasks by positioning the
+final effector at an optimal position
+additionally we implemented a pid
+control with absolute encoders for the
+arm in order to perform a high accuracy
+movement
+for autonomous navigation we implemented
+a closed loop spill control that uses
+encoders on each drive motor we also
+have an extended kalman filter which
+helps us merge the measurements of our
+imu sensor gps and odometry from our set
+camera to reach each ar code we have an
+algorithm that directs the rover to each
+specific gps coordinates likewise as it
+goes following the codes it also detects
+objectives that can avoid its passage
+but the depth sensing of the camera
+and also to decide which action a robot
+we take we have a multiplexer that helps
+us
+prioritize between avoiding obstacles
+and following the gps correctly
+we choose to have analyst methodology
+after life detection method our system
+collects a sample of the soil and then
+the sample travels across the lab until
+it meets its principal reactants those
+reactants will tell us if there are any
+biomolecules in our samples
+the sample and the reactions need to be
+centrifuged for the erection to occur
+the result of analysis will be observed
+as a change of color in the mixture
+therefore thanks to set polymeric
+changes we will be able to determine the
+presence or absence of light
+we've implemented a rose package with
+opencv to detect the colors in hsp scale
+avoiding the unwanted effects of natural
+light
+these colors are mapped to the chemistry
+results such as proteins and
+phospholipids for automatical analysis
+of multiple samples qr codes have been
+placed in qubits
+these qubits are rotated automatically
+in the base until the next qr is found
+you

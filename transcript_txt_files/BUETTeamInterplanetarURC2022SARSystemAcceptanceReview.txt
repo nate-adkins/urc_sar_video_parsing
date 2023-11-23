@@ -1,0 +1,170 @@
+we are team interplanetary and
+undergraduate student team from
+bangladesh university of engineering and
+technology we proudly present our new
+robot renaissance for university rover
+challenge 2022. this year we made a
+completely new rover from scratch we
+used a four-wheel rocker suspension with
+bar differential which is more
+lightweight than the six wheel mechanism
+the bar differential keeps the rover
+body balanced at an average angle
+between the two rocker suspension this
+minimizes the jerking of the body and
+protects the electrical components
+inside
+our rover easily traverses over extreme
+rocket terrain climb steep slopes
+withstand vertical drops and drive over
+sand dunes hub motor driven wheels was
+one of the best innovation this year
+planetary gear motor inside the wheel
+remain protected while delivering high
+torque for traveling extreme terrain
+modular design allows for ease of
+assembly and disassembly of wheel motor
+suspension so if any part is damaged we
+can replace them easily we use 12 mm
+tube and 2mm shield for our robot body
+all the parts are made with laser cut
+and electric welding for the design we
+get enough space for our electric part
+especially the body is fully detachable
+from suspension wheel and science tool
+we have developed a brand new section of
+freedom rover earned upgrading the
+design obviously from last year up until
+now we have implemented a high degree of
+freedom which is enough to complete all
+kinds
+we have achieved the best rotation using
+a dc motor in ip cyclic gear system the
+shoulder joint consists of a stepper
+motor with planetary gearbox with a
+chains pocket having a total of 1 is to
+192 torque increment to lift 5 kg easily
+the elbow joint works using a linear
+actuator the pitch motion is done by 3d
+printers per girl with one is to two
+ratio whereas the roll motion is
+attained by a dc motor connected to the
+gripper we have built a completely new
+end effector based on the tax of urc and
+the experience we gathered from
+previously competitions with our new two
+clock keeper system we maximize the uses
+of space by using one left and right
+hand leaf screw motor which drives the
+claws by achieving proper gripping force
+our end defector can turn off flip a
+switch open and close the dryer a 5 cm
+diameter handle and push the catch box
+into the door our keeper can also undo a
+latch tighten the screw pick up and
+insert a usb and operating joystick with
+ease a solenoidal actuator is attached
+with our claw with which we can type on
+keyboard with precision our rover can
+pick up an object and pull an object
+with a rope and place it to a perfect
+location for astronaut ease
+we have implemented our os connected
+custom user interface for both the rover
+arm and the science test allowing our
+operators to efficiently control the
+rover in any situation the electronic
+system of the rover is divided into four
+separate parts to keep modularity and
+upgrade on easily an industry standard
+kill switch is implemented and over
+current protection is enabled in power
+distribution board high current edge
+bridge motor driver is used for each
+wheel this year we have redesigned arm
+control circuit board and science
+equipment board and manufactured all
+printed circuit boards the arm control
+board consists of multiple drivers and
+encoders for accurate arm movement this
+allows option for autonomous arm control
+and inverse kinematics this here we have
+set up a 2.4 gigahertz communication
+link between rover and base station
+using two rocket m2s the base station
+uses a 15 dbi 120 degree sector antenna
+while a 13 dbi omnidirectional antenna
+is mounted on the rover white spatial
+coverage of base antenna and high gain
+of rover omni antenna ensures non line
+of sight communication for a wider area
+and distance of more than one kilometer
+from base station real sense depth
+camera is used for obstacle avoidance
+and air tech detection during autonomous
+navigation the datsun process 3d point
+cloud data from camera fuses it to gps
+and imo data for weapon navigation
+using point cloud data from depth camera
+a cd map of surrounding environment is
+generated this is then used to generate
+a 2d grid mapper obstacles get marked
+with black box that spanning algorithm
+uses this map to plan a suitable path
+avoiding obstacles which is shown in rbs
+window marked in blue detected air tags
+get marked on map and camera window
+using gps data real-time position of the
+rover is shown on map and weapon-based
+autonomous navigation is performed
+successfully science special will
+involve onboard testing of various
+biomolecules to assess the efficiency
+and presence of organic life in soil and
+roxanna's we are going to test for
+protein using bread food as a and buret
+reagent lipid using sudan 3 reagent and
+respective tests for collection
+carbonate carbohydrates and nucleic
+acids with fluorescence imaging
+we will also conduct a highly sensitive
+atp test using luciferan which will help
+us to detect if there is an extent or
+extinct life in a soil sample we will
+observe the color changes through a
+camera to determine the existence of
+organic life we have conducted a dozen
+of experiments in the lab to test our
+methodologies
+to examine rocks we will employ a
+digital microscope to look for signs of
+fossilized or living microbial
+communities we will look for endowed
+high polite and microbial colonies on
+rock surfaces to see whether there's an
+evidence of existing or extinct life
+during the onboard testing for the
+biomolecules low speed policy will be
+strictly followed we have completely
+redesigned our soil collection device to
+keep it simple and detachable it
+consists of three different scoopers for
+collecting at least 10 grams of soil
+each from different locations preventing
+any sort of contamination the scooper
+platform will move linearly with the
+help of an actuator of 300 millimeter
+stroke in order to bring it towards the
+mixing chambers and each screw mechanism
+has been created on either side using
+two stepper motors and five into ten
+couplers in a fully retracted position
+the scoopers can go up to a height of
+200 millimeter from the rubber body the
+scoopers will drop the soil into the
+chambers through furnace where they will
+be mixed with water in proper
+proportions using micro water pump
+motors which will then pass into the
+testing we are very hopeful our trade
+results see you at uberc

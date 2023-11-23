@@ -1,0 +1,140 @@
+hi I'm Victor welcome to the you over
+system acceptance review we are a first
+year robotics team from the University
+of Ottawa we first got interested in a
+challenge when we went to see the
+competition last year in Utah and over
+the past eight months we've been working
+hard on designing and manufacturing the
+various components of the rover and I'm
+proud to say we have moved on to testing
+to ensure Rover readiness for me in this
+review
+we'll be going over the hardware and
+software capabilities of a rover as well
+as how we plan to achieve the science
+mission hello my name is Adam design
+students for particle science mission is
+a tournament
+we will have four contributed text above
+it's a great presence about nitrogen
+potassium and sulfur hi my name is
+Michelle and I am a member of the
+science team we will collect the soil
+via vacuum these quantitative tests will
+consist of mixing the collected soil
+with a reactive powder and water and
+prefilled test tubes and will change
+colors according to the individual test
+the darker the pigment the more of that
+ion is present in the soil as you can
+see these experiments depend on visual
+observation and a color comparison chart
+we will observe the color change
+remotely through the camera
+we'll be fixed on our over the data
+collected will then be analyzed with our
+color comparison chart during our
+preliminary stages we tested known
+concentrations of nitrogen potassium and
+sulfate to correlate the color with the
+concentration of these ions this means
+that when distinguishing the color we
+can estimate the concentration of these
+ions in the sample as well the cameras
+will also be used to characterize the
+rocks in order to identify and determine
+if there are traces of my presence on
+the rocks in addition to that the air
+determines of the substrate is an
+optimal environment for a reason
+solution most plants require Sol to have
+a ph of 5.5 to 7 this is an indicated
+range where life-forms have surviving
+these the aged environments to the
+autonomous reversal mission the rover
+will use a mounted lidar system to
+perform simultaneous localization and
+mapping of the environment you've chosen
+to use lighter because it is more
+accurate than camera based sensing and
+is also much less computationally
+expensive as the roguish versus the
+environment the lighter will create a
+three-dimensional map published a large
+obstacles to the field if the rover
+encounters an obstacle in modifies its
+trajectory to avoid
+remaining on path to the checkpoint once
+they're over basic to the GPS checkpoint
+it will switch into vision mode the
+rover will use Python OpenCV library to
+locate the symbol the unmarked computer
+will use computer vision techniques to
+isolate the symbol from the surrounding
+image and then apply a gamma cross to it
+the river will then move in the
+direction to maximize the area of the
+backdrops finally the rover will report
+to the base station once it reached the
+symbol our motor takes advantage of two
+methods for communication the first uses
+the common to what employer has been
+protesting locally within our worth it
+our second uses the 900 acres
+long range connection to our base
+station a competition we will be
+planning to use an omnidirectional
+antenna upon aerobic and the directional
+antenna of their base station both being
+paired with a high of three foot
+transceiver hi my name is verdiana rover
+suspension is a double wishbone design
+we chose this configuration due to its
+compact design as well as his ability to
+maintain its camber angle during
+traversal chocolate overs are mounted to
+each wheel to dampen against any bumpy
+rise to over experiences throughout the
+missions and these shocks and also be
+replaced with certain fixed supports
+during missions over flat terrain each
+wheel is custom design and consists of
+two tires for fine handling over rough
+terrain and it's direct driven through a
+eight to one gear reduction that
+generates enough torque to translate
+over 30 degrees incline slopes but how
+do you orders inside each wheel we
+lowered those rover center mass reducing
+the possibility of tipping furthermore
+having four independent control wheels
+allows for a return in place which will
+prove advantageous during missions such
+as the extreme retrieval as well as the
+autonomous traversal the robotic arm
+using the rover is called the Anita era
+3 an open story six degree of freedom
+arm has been chosen for this project to
+reduce development time while all the
+cores are the components for the arm
+were are delayed out major mechanical
+changes for me to allow the earthly to
+handle a 5 kilogram load requirement
+each joint is actually using geared
+stepper motors and awful encoders new
+labeling the arm to perform of the seven
+or millimeters fear the modular design
+of the arm allows for it to adapt for
+each mission as well as breezy to Tasha
+our next step is to test the armor in
+the field and observe how many
+structural components babe under
+vibration monitoring temperatures and
+bearing load requirements in the final
+months leading up to you RC plan on
+stress testing the full system in
+providing a full array of training to
+our operators we have learned so much in
+the past eight months and I'm really an
+optimistic about our performance in 2020

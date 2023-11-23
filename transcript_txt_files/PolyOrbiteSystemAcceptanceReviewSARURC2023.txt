@@ -1,0 +1,153 @@
+Hi !
+We're PolyOrbite,
+a Canadian team of engineering
+students from Polytechnique Montreal.
+We're happy to present to you our SAR.
+It's our third iteration
+of our Mars rover.
+In our first iteration.
+We came second place in the
+Canadian Challenge.
+In our second iteration, so last year,
+we came first in our province.
+This year
+we're hoping to participate in the URC
+so we can continue succeeding
+internationally in the rover challenges.
+Our team is composed of students
+from 11 different engineering fields.
+They work together
+in order to create a new rover
+that will succeed
+in all the task of the URC.
+So my team was responsible for ensuring
+the proper integration
+of all the components together.
+So, we had to integrate the structural components
+along with the power distribution
+and with the control system
+so that everything can work together.
+On top of that,
+it also needed to be modular
+to attach to a robotic arm
+or science experiment.
+All of this had to work off
+our new 24 volts design
+with our custom batteries
+made to be easily swapped in and out.
+Last year we had many issues
+at the Canadian competition
+with the power distribution
+and mainly our terminal,
+which had too many screws
+and that was really finicky.
+And so this year
+we designed our own integrating
+proper power
+distribution, monitoring and safety
+such as fuses.
+The responsibilities of the control team
+this year were to improve
+the autonomous driving of the robot.
+In order to do this,
+we worked on a new interface
+which helped to visualize
+better
+the different sensors on the robot.
+For example,
+we improve the visualization
+of the batteries, the cameras,
+the GPS and encoders,
+and also the input of the joysticks
+in order to control the robot.
+In order to improve this,
+we took advantage
+of the differential driving system
+where each joystick controls
+one side of the robot's wheels.
+So we worked on the LIDAR
+independently from the robot
+and now all that is left
+is to test it
+while having it implemented
+on the robot itself.
+The structure team
+is primarily responsible
+for the primary
+mechanical systems of our rover,
+notably the structural integrity
+and propulsion parts of it.
+Well, this year
+we implemented
+new 3D printed wheels
+with a double layer dampening system
+that allows us to increase traction
+when rolling
+and also dissipate
+amounts of energy
+during high impact situations.
+This year
+we optimized the chassis of the rover,
+so we managed to reduce the footprint
+and thus the mass of the total rover.
+We also added polycarbonate shell
+that allows us to easily
+access the electronic components
+and also protect them from dust and wind.
+Our rover is capable of climbing
+hills up to 35 degrees
+and traversing obstacles
+are up to 52 centimeters in height.
+With all of these improvements
+and our classic rocker
+bogie suspension system,
+we are now better than ever
+equipped to navigate
+the difficult terrain to URC.
+The robotic arms’ team
+responsibility this year is to conceive
+and manufacture
+a new robotic arm of six axis,
+seven motors, five kilograms payloads
+and a one meter reach,
+and having a gripper
+that can adapt to the shapes
+of the different objects
+with their two fingers.
+It has to produce it from A to Z
+in all the fields necessary
+as the electrical, software
+and mechanical.
+The science team’s
+responsibility is to retrieve
+multiple samples
+from different soil types
+and analyze them
+to find life or determine
+if the life was extant,
+extinct or present.
+This year we built the onboard essay
+to be able
+to analyze the samples on the rover,
+whereas before
+we always did it outside of the Rover
+independently.
+We also need to align certain components
+that are underlined.
+For example,
+the drill isn't able to completely
+drop its sample into the lab efficiently
+so there is some optimization
+to do there.
+But other than that,
+most components are ready for use.
+At the moment,
+we can take 12 samples for analysis
+and 4 samples for further analysis
+outside of the rover.
+I'm extremely proud of my team
+and everything they have accomplished.
+I'm confident we can succeed in the URC
+given that we participate.
+Thank you for considering our application
+and we hope to see you in May.

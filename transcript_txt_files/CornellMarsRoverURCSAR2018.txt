@@ -1,0 +1,140 @@
+hi my name is James Hebert and we at
+Cornell Mars rover are excited to unveil
+this year's Rover Valkyrie
+oh no Mars rover is an interdisciplinary
+project team composed of over 40
+undergraduate members our team is put up
+into six different sub teams of members
+organized by discipline
+the task sub team is responsible for
+developing the rover's robotic arm and
+drill the tricep team overseas
+development of the rover suspension
+wheels frame and equal the electrical
+sub team works on all aspects of the
+ventricle pellets including the rover's
+communication electronics design and
+embedded firmware the software sub team
+operates Rover controls and designs the
+autonomous systems the science of team
+oversees Martian and MDRS research and
+onboard sensor section for the science
+tasks and finally the business sub team
+is in charge of team finances 11
+presentation design and the public and
+sponsor outreach we periodically review
+ur designs to ensure the battery follows
+your z mass and monetary brothers the
+academic year is split into three
+developing variants a design phase from
+August to November a manufacturing phase
+from November to February and a testing
+phase from February to May based on our
+performance in last year's extreme
+retrieval and delivery task and
+autonomous traversal tasks we have
+dramatically modified the mechanical
+design in order to excel in this year's
+competition the frame electronics core
+team has implemented a complete overhaul
+of the subsystem by drastically
+decreasing the size of the electronics
+core we were able to move towards a box
+frame design which allows increased
+strength of the system this also
+provides robustness to vibration while
+allowing significant mascots and
+increased flexibility of design both for
+the arm-based and the suspension systems
+the task top team has designed to meet
+all the requirements necessary to excel
+and the revamped equipment servicing
+task then defector joint uses belts to
+open and close the claw to ensure the
+motor and gears are not over torqued the
+claws also coated with neoprene tape to
+increase the grip which will be
+instrumental in Valkyrie is using the
+wrench and screwdrivers we're also using
+3d printed cloths deal with more complex
+geometries due to its six degrees of
+freedom
+knobs more dexterous and will be able to
+deal with the more complex tasks it has
+also been designed to reduce sloshing
+the joints in order to increase the
+accuracy of the sensor readings which
+will be important when using inverse
+kinematics this year we improved
+Valkyries electrical and software
+systems in order to make them more
+reliable and easier to operate on the
+rover each subsystem is controlled by a
+pic32 microcontroller which manages all
+sensors and motives for that subsystem
+and communicates with a central board
+using a canvas the central morgue
+receives commands from the rover's
+computer and video jets and TX to buy a
+UART connection the jetsam provides
+significant computing power in a small
+package
+it runs the robot operating system on
+top of Ubuntu our software handles
+camera streams tell operation as well as
+more advanced operations during the
+autonomous and equipment servicing tests
+for the autonomous test the rover uses
+GPS inertial measurements lidar and
+computer vision in order to reliably
+navigate rough terrain to the tennis
+ball marker for the equipment servicing
+tasks the rover uses inverse kinematics
+to automatically perform complex actions
+such as typing on the keyboard in order
+to make the rover easy to operate
+we've designed a brand new web-based
+interface which displays a live map of
+the Rovers position the rower
+communicates with the base station using
+a 2.4 gigahertz transceiver and 2
+omnidirectional antennas this system is
+capable of communicating over ranges in
+excess of 1 kilometer even when the line
+of sight is partially obstructed to
+determine the habitability of a site
+Valkyrie collects a soil sample and
+analyzes the surrounding environment for
+conditions favorable to life the onboard
+sensors to
+Herman the presence of water and the
+composition of the rock based on
+geologic structures and reflecting
+wavelengths the sensors also measure the
+soils temperature and humidity the rover
+uses ultraviolet light to preliminary
+identify minerals that could be present
+in the sample lab tests determine the
+composition of the soil and the presence
+of nutrients or organic compounds that
+may exhibit signs of the potential for
+life a polarizing microscope is used to
+analyze the mineralogical makeup of the
+sample from now until competition the
+team will focus on testing the rover
+each member is assigned to a testing
+team that prepares the rover for an
+individual URC task the team will
+additionally partake in three mock
+competitions at mock competitions we
+travel off-campus to simulate the
+entirety of the URC in one day these
+allow the competition teams to practice
+in time constraint competitions to fully
+prepare us to excel in the University
+rubber challenge
+[Music]
+Valkyrie and the rest of the team are
+just about ready for competition and we
+hope to see you in Utah
+[Music]

@@ -1,0 +1,98 @@
+West Virginia University the
+mountaineers name for the people the
+spirit of adventure and curiosity led
+them to chart the frontiers of the past
+today the West Virginia University team
+Mountaineers continues this tradition as
+we push forth to the frontiers of the
+future the mechanical system was
+designed to transport the other
+subsystems and interact with the
+environments to complete competition
+tasks the mechanical design is
+hallmarked by a triple bogey drivetrain
+that was selected through the
+prototyping of several preliminary
+designs the arm is five degrees of
+freedom consisting of a motor at the
+base rotational servo at the wrist and
+three linear actuators the arm is able
+to rotate a full 360 degrees and can
+lift a kilograms the end effector is
+interchangeable to various tasks such as
+a hook and a gripper 240 volt 40 amp
+hour batteries supply power to main rova
+systems where the 112 volt 3 amp hour
+battery dedicated to the arm and many
+players in order to navigate the rover
+features and kudos GPS and a9 access ime
+for telemetry the rover is to have both
+a mast mounted camera at an additional
+arm mounted camera to provide better
+perspective for interacting with
+environments a primary characteristic to
+the design is a 16-point solid-state
+lighter system this was chosen for
+obstacle avoidance due to its lower
+computational requirements
+the rover carries custom-made powerboard
+data acquisition board and motor control
+board all integrated into a computer
+communications will operate off two
+separate bags the primary band will be
+2.4 gigahertz which will stream video
+and control signals the secondary 900
+megahertz band is simultaneously
+transmitted lower quality video and
+redundant control 6 if 2.4 gigahertz
+becomes unreliable Communications will
+operate from the 900 megahertz bank if
+signal is lost entirely the rover will
+begin autonomous operation to regain
+Sigma programming of the rover thus far
+has been conducted on the proxy
+development platform provided by the WVU
+interactive robotics laboratory Rus the
+robot operating system is used for
+software development because of its
+modularity and large community this has
+allowed us to begin developing and
+testing of retail operations and
+autonomy functions including Waypoint
+navigation obstacle avoidance mission
+planning and application of computer
+vision techniques that will be
+implemented into the main rover during
+autonomous traversal tasks a
+notification of the target location will
+be transmitted to the rover the rover
+will follow a control policy math by
+reactively avoiding obstacles to reach
+the goal when the rover is in proximity
+of the goal it will begin driving in a
+randomized trajectory using computer
+vision to search for the monster after
+detection of the marker the rover will
+use visuals are going to drive towards
+the goal until the rover is within 2
+meters the rover will explore the
+potential of life as we know it how do
+we define life as we know it life is
+composed of four basic complex molecules
+nucleotides proteins carbohydrates and
+lipids all carbon-based environments
+suitable for life include moisture
+presence of certain minerals such as
+clay and loose material to allow for the
+growth of plants and microbes the rover
+is equipped with sensors to measure soil
+moisture and temperature and cameras to
+document geology if suitable conditions
+for life are determined team
+Mountaineers will proceed to analyze
+samples to detect the presence of
+proteins via an in hydron reagent test
+[Music]
+[Music]
+how do you zoom how do i zoom
+I got it I'm the best

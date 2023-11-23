@@ -1,0 +1,131 @@
+welcome to Waterloo engineering my name
+is Fraser and on behalf of the
+University of Waterloo robotics team we
+are proud to introduce you to our 2019
+URC Mars rover over 55 members from four
+faculties and more than 10 disciplines
+of putting countless hours designing
+building and programming our 2019 Rover
+these students are divided into five
+main sub teams being mechanical
+electrical software science and business
+since mid-february the team has been
+conducting system level testing and task
+simulation developing environments to
+mimic competition as closely as possible
+our drivetrain features a six wheel
+rocker-bogie suspension system it was
+selected for its ability to clear large
+obstacles and dampen frame movements
+each wheel is independently powered by
+an internal gearbox which allows for
+modular servicing the rover is able to
+overcome 12 inch obstacles and has a top
+speed of 10 feet per second three front
+facing cameras allow for an ultra wide
+field of view using image stitching that
+can be fine-tuned by changing outside
+camera angles a gimbal is also used on
+the back of the rover for a third-person
+view available during all challenges our
+Rover consists of a worm driven six
+degrees of freedom articulated robotic
+arm for fine-tune accuracy and a maximum
+payload of five kilograms due to
+backlash issues in previous years we
+have replaced D chefs and Sesker
+couplings with key chess and keyless
+bushings for maximum accuracy a
+multiaxial wrist was developed using a
+bevel gear differential and a slip ring
+to decrease the wrist length and enable
+the arm to reach in small spaces
+absolute encoders are mounted directly
+to every joint for inverse kinematics
+with limit switches for hard stops the
+rover's entire electrical system is
+powered by one 24 volt lithium ion
+battery which is capable of providing 15
+amps of continuous current draw for
+almost two hours
+there are two 24 to 12 volt converters
+on the rover one delivers power to the
+Jetson camera sensors and other digital
+peripherals while the other one
+power to the arm and science module
+motors we also monitor the voltage and
+current of the battery using our
+custom-designed safety board and current
+sensors for the rover's main PC we're
+using an Nvidia Jetson TX to do its
+processing power required for our
+algorithms and do - it can bus support
+required for our peripheral interfacing
+we're using Ross to break down the
+software stack into many sub components
+and to facilitate message passing
+between all these sub components we
+wanted the control of our new Rover to
+be simple and intuitive so we designed a
+brand new graphical user interface that
+supports viewing all important data
+coming from our Rover including multiple
+camera views important diagnostic info
+visualizers for the arm position
+localization and autonomy and controls
+information for the operator all Rover
+diagnostic and telemetry data as well as
+control commands from the base station
+to the Jetson will be transmitted over
+the 900 megahertz band to provide better
+performance over longer distances with
+limited line-of-sight the video feed and
+camera captures which are vital for
+navigation and the science tasks will be
+sent over the 2.4 gigahertz band both
+antennas on the rover are
+omnidirectional fill out the flexible
+control of the rover in any orientation
+on the base station side the 900
+megahertz transceiver is on the
+directional well that 2.4 gigahertz
+antenna is directional and tracks the
+rover autonomously using its GPS
+location for autonomy stock we are using
+a Z depth camera as well as ultrasonic
+sensors provision along with IMU GPS and
+wheel encoders for odometry we use the
+stereo imagery from the depth camera
+along with ultrasonic ranges at the
+corners of the rover to detect
+unforeseeable obstacles these obstacles
+are fed into our cost map module which
+tracks and filters nearby obstacles over
+time this cost map is used by our path
+planner which uses the dynamic window
+approach algorithm to select the optimal
+trajectory to advance towards the goal
+while avoiding the obstacles when in
+range of the goal we use another
+computer vision algorithm to detect the
+technical sciences aim is to use life
+detection instrumentation and analyses
+to determine whether extant extinct or
+no life exists in rock and soil samples
+we designed five onboard soil tests
+and we'll analyze rock samples to
+determine any forms of life or lack
+thereof soil protein analysis utilizes
+the reagent ninhydrin to detect amino
+acids by reacting with free amines to
+produce a deep blue or violet color rock
+sample analysis involves meticulous
+visual analysis starting with looking
+for evidence of life such as microbial
+mats and stromatolites the University of
+Waterloo robotics team would like to
+thank all of its hard-working members
+and dedicated sponsors for a great start
+to the season we look forward to
+continuing testing and integration in
+preparation for urc 2019

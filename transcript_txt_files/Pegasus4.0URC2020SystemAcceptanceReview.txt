@@ -1,0 +1,114 @@
+we're team Pegasus for representing the
+University of Southampton at the 2020
+University Rover challenge we remain the
+only team from the UK to have qualified
+having had the privilege of competing in
+the UFC for the past two years this year
+we intend to return with an improved
+Rover having redesigned some of the
+critical systems to make them more
+robust for the competition this year the
+wheels are getting an upgrade to reduce
+the slip from last year we are using the
+direct drive system with new wheels we
+also have a new airless deformable tire
+made of natural rubber it has the
+benefits of inflatable wheels of molding
+around small bumps it's also more
+resistant to scratches and there's no
+risk of getting a puncture the wheels
+have been made wider to increase grip
+and the motors are encased by the wheels
+to protect them from knocks we carried
+out a heat transfer analysis to ensure
+that the motors do not overheat as part
+of the extreme retrieval mission the
+rover will make use of a six degree of
+freedom robotic arm with a grip
+attachment the arm has been designed
+with the five kilogram max weight aspect
+of the challenge and can lift up to six
+and a half kilograms at full extension
+an innovative a 3d printed semi flexible
+rubber gripper provides excellent
+friction upon grasping an object's aided
+by the slight deformation around it with
+the camera pointed towards the end
+effector and the fine motor controls the
+arm is capable of picking up heavy
+weights grasping small objects
+and typing on a keyboard we are also
+implementing reverse kinematics to
+improve arm control and precision we
+upgraded the communication system to
+increase throughput received at the base
+station thus resulting in better rover
+video feedback quality this year for our
+electronic system we have improved
+reliability and the safety of all the
+circuitry inside our main computer is
+the Nvidia Jetson Eiji Xavier a computer
+specifically designed for computer
+vision applications the device will
+handle the high level functions of the
+software system such as route planning
+and a our code recognition for local
+route planning and obstacle avoidance we
+are using a set stereo camera for pose
+estimation we are fusing data from a GPS
+receiver an inertial measurement unit
+and odometry data from the wheel
+encoders using an extended Kalman filter
+the stereo camera also provides an
+additional odometry stream by tracking
+visual features in its frame we have
+implemented a our code recognition
+testing has shown that the system
+responds to a our codes enter in the
+camera frame the rover attempts to align
+itself with the AR code and move towards
+it this year we use MATLAB SAP designer
+to develop a graphical user interface
+that displays vital information about
+the status of the rover
+this gives the user better situational
+awareness than monitoring this
+information over command line also be a
+secondary input source to use as a
+backup should the primary input devices
+fail we have a two degree of freedom
+camera on the mast of the rover to give
+us a 360-degree view from the base the
+master camera drive system and robotic
+arm can be controlled with gaming
+controllers to identify the possible
+presence or traces of life we're using
+optical imaging the system utilizes
+reflectance values from any sample
+presented to us to match it to a
+specimen in the database the system is
+an interchangeable attachment for the
+robotic arm and includes 12 pairs of
+LEDs whose wavelength vary from
+ultraviolet to infrared
+they are sequentially active
+by a local microcontroller to illuminate
+the sample an unfiltered calibrated CMOS
+sensor images the samples at each
+wavelength so spectral graphs can be
+calculated the images are processed on
+board with a K nearest neighbor
+algorithm match to a manual database and
+those results are sent back to the base
+station at base their data will be
+evaluated for biological and geological
+indicators for life such as sulfates
+carbonate and chlorophyll we also plan
+to test our Rover in the Airbus Mars
+yard in April this is the same place
+that the ESA s ExoMars Rover is
+currently being tested this will give us
+experience testing the rover in a tough
+or an environment with a similar terrain
+to Mars itself thank you for watching we
+are team Pegasus

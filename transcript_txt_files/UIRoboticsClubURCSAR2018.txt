@@ -1,0 +1,111 @@
+[Music]
+we're the University of Iowa Vermont pub
+and we're proud to present our 2018 Mars
+rover
+in previous years we are part of the
+NASA robotics mining competition and
+recently we switched over to the u RC
+from those experiences of last year we
+have learned at the challengers that
+come in and do the overhaul our
+administration project management and
+manufacturing styles to accompany that
+view our secrets in order to keep our
+hearts economical
+utilize standard manufacturing processes
+for basic geometries of load-bearing
+devices and then combine that with
+Manufacturing for the complex geometries
+[Music]
+successful
+last year over
+and
+the rest of the frames
+we opted for increased mobility
+each child is independently driven by
+Stuber
+installed in the suspension the
+suspension arts are connected to the
+frame also fabricated by over large
+obstacles to be successful at the
+extremes Google and equipment servicing
+tasks we design unify the degree of
+freedom armed with some several key
+features the first one is our group will
+pick them off the shelf record of its
+our design our wrist motion is achieved
+by a bevel differential gear system that
+is powered by two planetary gear stepper
+motors this allows get two degrees of
+freedom both translation and rotation on
+them our frame design to the other was
+driven by a rich bubble to make sure the
+arm SMS motion can touch the ground we
+also included a swappable forearm so we
+can complete both these dust and the
+science can change all the components
+will be powered by inverse kinematics to
+achieve of precision and smoothness in
+control and our industry advisory firm
+world we've gotta consider that process
+the drill functions to be any
+combination of a feedback meter actuator
+and standard drill motor the feedback
+allows us to keep track of the depth
+that we're going into the ground and the
+motor has an auger style drill bit
+attached to it that allows us to collect
+and rise the dirt into our
+the system in our onboard analysis
+system we will be utilizing a microscope
+as well as a temperature and humidity
+sensor will also be running a UV
+analysis and determining the capacitance
+and resistance of the soil that we are
+collecting and while we are running this
+analysis we will be controlling what we
+are dumping versus collecting through
+the usage of a actuating flash in our
+collection system as part of our
+the weather station complete with
+sensors for temperature humidity
+pressure UV index wind speed and wind -
+this progress in life - won't forget
+various mineral available we are using C
+C++ and Python in an Intel look that
+tends to enhance the various on the
+notes than the Arduino control the motor
+controllers an interesting thing about
+our team is how we recognize tennis
+balls instead of using algorithmic based
+recognition we use machine learning we
+have cafe and Nvidia open source video
+library we have several FCC license
+members that develop three distinct
+communication
+the first communication protocol is over
+the 2-litre been for the utilizing plow
+fans and slow data connection our
+secondary and a communication protocol
+is open at 900 megahertz band for RC
+control and finally we're utilizing
+amateur television protocols over an SDR
+for video streaming this system coupled
+with a base station antenna that follows
+the brokers GPS bearings allows for
+robust communications
+to prepare for the competition we will
+put all components under rigorous
+testing and analysis to date this has
+included FBA models theoretical
+calculations variable environment drive
+adjust we will also train on the arm
+using a play board and outdoor tests the
+drill will be exposed to various soil
+environments and the control systems and
+autonomy will undergo simulated URC
+tasks all of our systems will be pushed
+to their limits so we can address issues
+now rather than in the desert
+[Music]
+you

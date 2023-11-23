@@ -1,0 +1,140 @@
+[Music]
+hello my name is Shay and this is the
+system acceptance review for the
+rose-hulman Rover team we represent
+rose-hulman Institute of Technology and
+Terre Haute Indiana
+we have about 15 members on the team
+we're split to two sub teams the first
+is the mechanical team and the second is
+the electronics or Controls team the
+mechanical team designs solutions for
+the physical problems presented by this
+challenge and fabricate parts for the
+rover electrical team handles the
+software and electronics that go into
+the rover the two sub teams meet
+independently during the week to work on
+their individual projects then come
+together for a full team meeting at the
+end of the week to discuss and integrate
+their work the main design philosophy
+behind the mechanical team was to keep
+the design choices simple and stick with
+concepts that were well proven and that
+we know we could work well with to this
+end the robot chassis is largely
+recycled from previous designs built at
+rose-hulman and uses aluminum tubing
+left over from a previous robot these
+choices have made modifying the chassis
+relatively simple to the point where we
+could easily invert the entire chassis
+and still run it normally for a
+drivetrain we chose to go with the
+rocker-bogie design with the passive
+differential gearbox to account for
+twisting well this design might be
+mechanically complex it limits the need
+for damping systems that we are not
+experienced with four-armed we chose to
+simplify the initial construction and
+final controls for the operator to do
+this we use linear actuators on the base
+of the arm do the ease at which we could
+move them around and modify the torque
+output by the arm and the spherical
+wrist the spherical wrist is a great
+asset for controls planning as it allows
+us to simplify the inverse kinematics
+and pre-programmed pathways that a robot
+operator would otherwise have trouble
+with such as rotating a crank
+our Rovers main computer is a Raspberry
+Pi 3 running Ubuntu we control the rover
+from a base station laptop that connects
+wirelessly to the rover via
+off-the-shelf Ubiquiti Networks routers
+the PI collects input from onboard
+sensors in the base station to control
+the rover's actuators the rover is
+powered by a single 12-volt lead acid
+battery and supplies ample power to the
+motors and actuators of the rover
+through the power distribution panel
+attach the power distribution panel as
+the voltage regulation module it
+supplies limited to amp power to the
+more sensitive electrical components of
+the rover the voltage regulation module
+provides 5 volts to the Raspberry Pi and
+12 volts of the power over ethernet
+injector used to power the onboard
+router and antenna we use for Victor SPX
+motor controllers to control all six of
+the drivetrain motors on the rover each
+motor is controlled by a PWM signal to
+create a PWM signal we output an analog
+voltage from our Raspberry Pi to an
+analog to PWM converter the linear
+actuators for the arm of the rover are
+controlled by applying 0 12 volts or
+negative 12 volts for stillness
+extension or attraction for each
+actuator we use two electrical relays
+with reverse polarity to achieve the
+possibility of negative polarity on the
+actuator
+our team utilizes Ross to control the
+software on the rover Ross allows us to
+organize our robots code into several
+small nodes whose outputs are only
+caught upon when needed this keeps our
+code organized and allows us to work in
+parallel to program different nodes
+using Ross we were able to call a Python
+script that automatically sets up a
+network connection between our Rover and
+our base station provided our base
+station is also running the necessary
+script once a connection is established
+we can remotely access the Raspberry Pi
+from the base station more importantly
+we can send and receive messages back
+and forth between the two routers
+allowing us to produce messages in the
+appropriate Ross node we can use the
+connection established between the rover
+and the base station to transmit
+messages to the rover at the base
+station we can run a Python script that
+reads user input from an Xbox 360
+controller the script puts the input
+data into a string which is set to the
+Raspberry Pi the Raspberry Pi then
+parses the string into data that
+represents the state of the controller
+it broadcasts this data to a Ross node
+where can be read and acted upon
+appropriately for example here the left
+joystick on the Xbox controller moves
+the left wheels of the rover this be
+proportional to the value of the
+joystick the rover is able to determine
+its current location at any time using
+the USB GPS onboard the rover we've
+written a Python script that reads data
+from the USB port as a comma delimited
+string and then parses the end of useful
+data we have verified that the
+coordinates produced match the rover's
+location within a few metres we are also
+able to transmit live video wirelessly
+from the Raspberry Pi to the base
+station using USB camera we can run a
+Python script on the Raspberry Pi that
+sets up the stream using the socket
+interface this video stream will provide
+visual feedback to the operator during
+the competition
+you

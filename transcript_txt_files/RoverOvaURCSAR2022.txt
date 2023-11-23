@@ -1,0 +1,106 @@
+hello
+we are the team roverova from vsb
+technical university of ostrava we are
+preparing our rover k3b4 for the
+university rover challenge 2022
+currently our team consists of eight
+students with each student being
+responsible for one subsystem
+we have worked on this rover for a
+couple of years and went through
+multiple versions of the design
+the rover's mobility system consists of
+an undercarriage with a rigid rocker
+suspension the four wheels have
+integrated hub motors and the ability to
+turn each one individually giving the
+rover the ability to drive using several
+configurations
+our 3d printed tires help the wheels get
+necessary traction and provide the rover
+with impact mitigation
+this along with the rocker suspension
+gives the rover good driving
+characteristics in terrain with
+relatively high maximum velocity
+multiple analog fpv cameras are used for
+low latency feedback
+those are complemented by ip cameras
+that are high definition and capable of
+four times optical zoom
+the cameras along with real-time 3d
+visualization provide good situational
+awareness for the rover operators
+the rover can be controlled with a 900
+megahertz rc transmitter or over wi-fi
+if a signal from the rc transmitter is
+not available the rover automatically
+switches to wifi thus providing control
+system redundancy
+the video from analog cameras is
+transmitted over 5.8 gigahertz band
+video from ip cameras and webcams is
+transmitted over wi-fi
+together these systems provide visual
+feedback redundancy
+therefore even if the system loses wi-fi
+signal we can still drive the rover with
+visual feedback
+the rover is equipped with a 5 degrees
+of freedom manipulator that can reach
+the ground on three sides of the rover
+which gives it versatility in terrain
+it can grasp and carry objects of
+various sizes weighting up to 5
+kilograms and pull heavier objects
+we have implemented three ways to
+control the manipulator
+a direct teleoperation joystick that can
+be used to intuitively control the arm
+with one hand
+automated mode can drive the manipulator
+to saved positions
+or we can switch to an inverse
+kinematics mode for precise control
+the arm is capable of pressing buttons
+operating switches inserting plugs
+opening drawers and more
+the autonomous navigation program uses a
+gps for global navigation and a z2
+camera for local obstacle avoidance
+two cameras with optical zoom are
+mounted on the chassis for visual tag
+detection with these cameras the rover
+can detect goal posts and gates up to 12
+meters away
+we are testing the navigation system in
+dynamic simulations and planned to test
+in real environments soon
+[Music]
+for the science task our team is
+preparing a laboratory module for sample
+analysis
+the module will perform four tests which
+will prove the presence of elements
+important for the origin of life and
+other essential compounds
+after the tests are done we will be able
+to tell whether there is life in the
+sample or if there was life or if the
+necessary compounds for life are present
+this is the first generation of our
+laboratory module and we are developing
+it as a rotating carousel a robotic arm
+scoops up the sample and places it in
+the lab module the lab has a volumetric
+hopper that allows the correct amount of
+sample material to enter the reaction
+the access material taken is then
+removed from the lab module
+due to the rotational layout of the
+laboratory the operations we need can be
+performed on three samples using one
+sensory suite
+[Music]
+our team may be small but our visions
+are big

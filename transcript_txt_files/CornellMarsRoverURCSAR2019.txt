@@ -1,0 +1,138 @@
+hi my name is Andrew royo and the
+Cornell Mars rover team is excited to
+unveil this year's Rover Artemis our
+team is split up into six different sub
+teams organized by discipline the task
+sub team is responsible for developing
+the rover's robotic arm and drill the
+drive sub team oversees the development
+of the rover suspension wheels frame and
+electronic housing the electrical sub
+team is responsible for all electrical
+components including the Rovers
+communication systems and embedded
+firmware the software sub team operates
+rover controls and designs the
+autonomous systems the science of team
+oversees Martian and NP RS research and
+develops the mechanism for onboard
+testing in the science tasks and finally
+the business sub team is in charge of
+team finances web and presentation
+designs and both public and sponsor
+outreach the academic year is divided
+into three phases a development phase
+from August to November a manufacturing
+phase from November to early February
+and a testing phase from February to May
+this year we have worked hard to finish
+the rover early to maximize testing time
+and deliver a more reliable Rover than
+ever before based on our performance in
+last year's competition we have improved
+Artemis's drive system we switch to
+brushless DC motors to get better
+performance and to reduce size and
+weight we redesign the tread system on
+the wheelies tires and optimize the
+profile of the optimal frame Artemis's
+suspension now features viscous dampers
+to improve vehicle dynamics and handling
+during the extreme retrieval and
+delivery mission the Box frame is more
+compact and lighter than last year's on
+the back sits a new carbon fiber
+composite mass to give us a better
+vantage point for the main drive camera
+and to give communication system a
+better line of sight Kiefer maintaining
+full bandwidth during a RDA
+the rover has a belt-driven base which
+minimizes the joints backlash the
+shoulder is stiffer smaller and lighter
+than last year's reducing flex
+throughout the arm the wrist is a
+compact joint with 3 degrees of freedom
+which provides the dexterity needed to
+succeed in the equipment servicing tasks
+the final joint on the wrist provides
+continuous rotation using a slip ring
+for power in conjunction with wireless
+links for control and camera feeds we
+optimize the end effector to ensure it
+can easily pick up objects push buttons
+flip switches turn knobs open drawers
+undo latches use a wrench and type on a
+keyboard we have also made the end
+effector compatible with two
+screwdrivers one hex and one Phillips
+which are mounted to the frame so they
+can be picked up in the correct
+orientation our software system utilizes
+the robot operating system running on an
+Nvidia justin tx2 it allows for tell
+operation and configuration of camera
+feeds as well as other operations to use
+throughout the different missions during
+the equipment servicing mission Artemis
+will use inverse kinematics to make
+complex movements easier to perform
+during the autonomous traversal mission
+we use a GPS system magnetic compass and
+inertial measurements to navigate
+towards the given GPS coordinates while
+relying on the lidar to avoid obstacles
+the rover uses computer vision to detect
+the tennis ball the Jetson communicates
+with the base station via a 2.4
+gigahertz transceiver and a 900
+megahertz transceiver with
+omnidirectional antennas we aggregate
+the 2 transceiver links into one
+fault-tolerant channel that allows for
+communication even when line-of-sight is
+obstructed low-level control of motors
+and sensors is provided by pic32
+microcontrollers acting as a distributed
+network connected by a canvas
+a central communication board provides
+the jetson access to the network via a
+UART connection the distributed network
+provides flexibility and redundancy by
+allowing boards to be added and removed
+and replaced freely this low collection
+system has been redesigned to collect
+saw using an auger and transport it to
+the top of the rover using a conveyor
+belt the conveyor belt feeds the soil
+into the automatic regular testing
+systems the testing system contains 36
+individual soil banks filled with water
+in a carousel like arrangement six boxes
+for each of the six sites a can drive
+system oscillates the carousel allowing
+for flocculation of the soil and water
+after flocculation chemical reactants
+are released into the sample containers
+to react with nutrients in organic
+compounds qualitative color changes
+observed through a camera determined the
+presence or absence of traces of organic
+life to analyze rocks we designed a 3d
+printed wheel with five slots that limit
+the passing of light to certain visible
+light wavelength ranges Artemis takes
+pictures of the rocks through these
+filters which based on the average
+reflectance values allow us to determine
+the rocks mineral composition with a
+focus on reliability we have a rigorous
+testing plan the team is divided into
+four testing teams one for each of the
+you RC missions towards the end of the
+semester we put both the rover and the
+competition team
+through to mount competitions Artemis
+and the rest of the team are just about
+ready for competition and we hope to see
+you in Utah

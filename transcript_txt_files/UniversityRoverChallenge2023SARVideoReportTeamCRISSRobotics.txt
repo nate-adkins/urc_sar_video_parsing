@@ -1,0 +1,100 @@
+we had to increase robotics from its
+Fellaini our game consists of around 50
+members working towards our vision of
+developing a Rover capable of operating
+in extreme environments with the
+experience and efforts of the whole crew
+and a memorable journey of over two
+years we are proud to present our Rover
+air hour
+while manufacturing area politically
+focused on keeping it economical which
+we have tried to achieve by using easily
+procurable items on in-house
+manufacturing whenever possible
+Division and smooth team functioning we
+have divided our team into six sub teams
+mechanical electrical software science
+operations and creative the mechanical
+team starts with the designing
+manufacturing and assembly of the Rover
+we have implemented a four wheel
+differential bus suspension mechanism to
+ensure traversal over uneven and Rocky
+terrain enabling us to climb slopes of
+30 degrees the Rover has a six degree of
+Freedom robotic arm with a two-finger
+and effector and can lift 6 Kilograms
+the arm can fold onto itself to minimize
+the space it consumes when not in use to
+harvest soil samples we have attached
+August to the back end of the road which
+drill into soil and transfer it to a
+turntable assembly designed to hold all
+the samples the assembly rotates to
+align with the drop points of different
+reagents the electrical is responsible
+for developing and designing the power
+architecture detention communication the
+interval communication and handling the
+onboard Electronics
+the voltage of 25.6 volts
+the batteries are coupled to a power
+decision system made up of converters
+that actually turn the voltage into
+three different voltage lines and only
+fixed sensors are used to shut down the
+system automatically as registered and
+encourages back to the base station is
+foreign
+[Music]
+foreign
+[Music]
+[Music]
+the fan stream works on the analysis and
+testing of samples of soil or
+biomolecules present in
+firstly we have a Ramen spectrometer
+which we have custom built all the
+components except the optical
+instruments such as the structuring and
+the internal framing are made by us
+while 3D printed it basically holds The
+Shining the laser and then analyzing how
+the light interacts with the chemical
+bonds of the compound we have also made
+a multi spectral camera which captures
+images using different colored lines
+using different color lines you can help
+measure absorption are different
+wavelengths has certain compounds tend
+to absorb Reflections a certain variance
+of color more rather than widely
+foreign
+[Music]
+carbon dioxide alcohol and methane along
+with this we also have some chemical
+tests which are specifically curated for
+biomolecules such as proteins
+carbohydrates and lipids the software
+team deals with the autonomy navigation
+and perception of the Rover it uses the
+Robot Operating System for overall
+control of all onboard components and
+the Ross navigation stack for path
+planet
+[Music]
+[Music]
+[Music]
+the data from cameras and sensors are
+processed on an array of Raspberry Pi
+modules as self to the base station for
+log we use raw cereal set control covers
+with manual control as a field safe we
+use traditional and deep learning
+computer vision using the GPU from the
+normal Jetson module for perception and
+mapping this helps in the accurate pose
+estimations of the arguments
+foreign
+[Music]

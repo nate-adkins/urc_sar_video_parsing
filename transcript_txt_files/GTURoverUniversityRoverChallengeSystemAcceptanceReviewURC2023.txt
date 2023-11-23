@@ -1,0 +1,44 @@
+[Reyhan]: Merhaba!
+We are GTU Rover Team of Gebze Technical University from Türkiye
+Our core rover improvements this year was to ensure both durability and modularity
+The modular designs make it easy for the rover  to prepare  for different tasks, making maintenance easier and faster.
+We made material and design changes to enhance the balance and maneuverability.
+While constantly improving our design and testing processes to ensure optimal performance.
+[Enes]: The mission of equipment servicing involves performing various tasks,
+including operating sample equipment systems, transferring scientific samples to the lander, and conducting maintenance on the rover.
+The sequential tasks begin with assigning a location for the robotic arm to relocate. 
+Then, the angles of the six axes of the robotic arm are calculated by a custom inverse kinematic solver to perform the intended movement.  
+Using these calculated angles, Roboclaw motor drivers adjust the speed of the DC motors in the axes, 
+allowing for accurate movement of the robotic arm.
+The transfer of motion between axes is provided by worm gear, differential wrist mechanism, and belt-driven.
+Incremental encoders are used to provide the precise feedback necessary for accurate and efficient movement and control.
+[Burak]: The extreme delivery mission involves navigating through diverse terrains, 
+while completing essential duties as gathering targeted objects and assisting astronauts.
+The wheel assembly consists of three main components:
+ the pneumatic tires, 3D-printed rim and the motor housing parts.
+Pneumatic tires absorb shocks from falls and impacts, preventing damage to electronic components and increasing traction.
+A high reduction ratio gearbox added to the DC motor helps the rover climb steeper terrain in challenging competition tasks. 
+The rocker suspension system and balance mechanism make it tough and capable of handling obstacles.
+ The connection between the drive system and the chassis is formed by aluminum linkage parts.
+Versatile antennas on the rover and ground station enable long-distance communication for autonomous driving, 
+while the ROS simple drive package allows manual driving of the rover, with speed data compared to encoder data to drive the DC motors.
+[Ömer]: Autonomous system has been designed to accurately calculate rover's position and avoid obstacles using the ROS Navigation Stack and various sensors.
+The Zed2 stereo camera are used to create a 2D global map and detect obstacles. 
+The A* algorithm calculate the most efficient path to the destination, ensuring that the rover could get to the goal as quickly and safely as possible. 
+The rover’s position can be accurately calculated through sensor fusion of GPS, encoder sensors, and data from the Zed2 camera.
+The magnetometer of Zed2 camera gives the absolute orientation of the rover according to the north magnetic pole.
+To approach gates and posts, aruco markers are detected using the Zed2 camera and OpenCV library.
+This enabled precise and accurate approach of targets, ensuring task completion.
+If the rover is unable to handle a situation, our drone is equipped to take over and detect Aruco markers to ensure that the mission is accomplished successfully.
+Task control and data visualisation is managed with our web-based React user interface application.
+There are customizable layouts according to the mission.
+The rover's position, waypoints, map, planned route, and sensor data and more are visualized in real-time at the base station.
+[Beyza]: The aim of the science mission is designing and integrating life detection systems on the rover. 
+A robotic arm is used to collect soil samples and claw fingers are sterilized with UV light after each sample to prevent contamination.
+ The samples are transferred into an analyze tube containing buffer and filter mechanisms. 
+This aims to extract biomolecules from the soil and facilitate control of experimental variables.
+The samples are transferred to the FTIR spectrometer for detection biomolecules 
+and the fluid chip for ATP detection by bioluminescence reactions.
+A range of sensors have been integrated to observe the environment and evaluate the test results obtained from soil analysis accurately
+The taken rock images will be examined to determine if they are related to biological or paleontological features.
+Finally, the data of all analyzes are transferred to the interface for interpretation.

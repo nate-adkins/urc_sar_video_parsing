@@ -1,0 +1,155 @@
+hello my name is Emma Boyle and I'm the
+president of the Michigan Mars rover
+team Emma Rover is the student-run
+robotics team with about 45 members this
+past year the team strove to create a
+Rover that will ensure M Rover is a top
+competitor at the 2018 University Rover
+challenge we are now pleased to showcase
+this year's design this year's Rover
+introduces an all-new mobility system
+the system features four wheels with
+reinforced in hub motors polyurethane
+treads and custom spring dampers all
+mounted on two rockers our dampers have
+been specifically designed and
+fabricated in-house providing the
+necessary shock absorption to keep other
+Rover systems isolated from the worst
+loads
+additionally the passively pivoting
+rockers are connected with the
+differential bar allowing for near
+constant ground contact and even weight
+distribution across the wheels while
+keeping the chassis stable the for
+competition tasks each require a
+different configuration of the rover
+necessitating a modular and accessible
+design to allow for a quick setup and
+teardown
+we have met these requirements by
+implementing a lightweight carbon fiber
+design that forms the three by three
+grid of squares for mounting all of our
+external systems the objectives
+presented in the extreme retrieval and
+delivery tasks and equipment servicing
+tasks required a robotic arm with high
+reach in dexterity to meet these
+requirements we've designed a six degree
+of freedom robotic arm with a 35 inch
+reach mounted at the front of our
+chassis with the flexibility to reach in
+front and below the rover with our end
+effector the end effector uses four
+fingers with silicone gripping surfaces
+at the furthest extension of the fingers
+a probe extends to press keyboard
+buttons and perform other high-precision
+operations from previous competition
+experience we know that the hard clay
+like soil that we are tasked to collect
+and test is difficult to retrieve this
+is why we've revamped our soil
+acquisition system with a more powerful
+drill enhanced with a rotary percussion
+action the rate and force of percussive
+strikes can be adjusted during operation
+to quickly adapt to soil conditions this
+augmented mechanism will allow the
+system to break through the ground and
+flex oil from up to 15 centimeters below
+the surface once collected internal
+doors shut to temporarily house the
+sample before the operator deposits them
+at our cash containers for further
+testing onboard and off-board the rover
+using satellite imagery we've analyzed
+the competition site to look for
+distinct geological features such as
+dried riverbeds and loamy soil on board
+analyses include soil moisture pH
+conductivity and temperature tests the
+results of these tests indicate the
+presence of key ingredients for
+sustainable life off board tests include
+a BCA assay and Sudan for dye to search
+for specific biomolecules that can
+provide a proof of life and validate our
+site selection the electrical Hardware
+is split into two custom electrical
+boxes the logic box houses the jetsam TX
+2 the Raspberry Pi zeroes and our custom
+PCBs these systems control the rover as
+well as collecting visual scientific and
+telemetry data the power box contains 10
+motor controllers and our power
+distribution system the Rovers lipo
+battery is external to these electrical
+boxes the team is printing its own
+custom PCBs they handle science data as
+well as data from sensors used for
+autonomy these PCBs allow us to save
+space that would be taken up by more
+traditional micro processors a hardware
+interface handles communication between
+our onboard computer and hardware
+peripherals it makes heavy use of the
+canvas to communicate between our
+onboard computers motor controllers and
+our microcontroller boards boards are
+designed to interface with science and
+odometry sensors using a canned protocol
+allowing for very low latency when
+handling controls and sensor data the
+teleoperated system communicates between
+the base station and the on-board
+computer this year the teleoperated
+system is designed with a focus on
+usability we have developed an efficient
+graphical user interface based on our
+experience of past you are seized it
+provides a map of the competition site
+with the rover's current location and
+allows the operator to enter GPS
+waypoints to track the rover's progress
+in each task for radio communications we
+have chosen to use the nine hundred
+megahertz is M band this band is able to
+penetrate objects more effectively than
+other is M options our operators are ham
+radio licensed which enables us to use
+an amplifier to extend the range of our
+900 megahertz radio the autonomous
+system reads from a perceptual sensor
+and determines how to traverse a course
+of GPS Waypoint our autonomy stack uses
+a layer design
+for ease of code maintainability at the
+most basic level of abstraction layer
+one we read odometry data from our RTK
+gps unit and nine axis IMU to direct the
+rover toward a target weight point layer
+two adds the ability to traverse a
+course consisting of multiple waypoints
+and methodically search around
+particular waypoints for a tennis ball
+our highest level of abstraction is our
+perception system which detects tennis
+balls using a color Augmented circle
+detector and analyzes contours from the
+stereoscopic camera to detect obstacles
+our team has manufactured and assembled
+the critical systems of the rover and
+achieved basic functionality we are on
+track to be competition ready well
+before June we will continue to test and
+tune our Rover during the months leading
+up to competition using environments we
+have designed to simulate the various
+competition tasks we will be prepared
+for anything the URC throws at us on
+behalf of the Michigan Mars rover team
+we thank you for your consideration and
+go blue

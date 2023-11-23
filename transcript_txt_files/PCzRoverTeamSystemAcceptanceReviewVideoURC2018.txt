@@ -1,0 +1,112 @@
+pc0 of our team has constructed five
+Rovers so far the best was modernity
+Rover which took third place during
+University Rover challenge 2017 the team
+consists of 11 students of faculty of
+mechanical engineering and computer
+science at Czestochowa University of
+Technology we are divided into five
+groups such as mechanical engineers
+electrical engineers software engineers
+science team and PR task management salt
+using a web-based tool called Strela
+which allows for assigning tasks to the
+teams quickly and efficiently in october
+we started constructing our new Rover it
+is called modern Institute new
+construction both many of aluminum and
+polyamide
+is 2 meters in length 1.35 metres in
+width
+weights 45 kilograms and its maximum
+velocity reaches 15 km/h laser cut
+technology was applied as well as
+milling plating bending and welding the
+suspension is of type rocker-bogie the
+frame is a truss made of durable
+aluminum 6061 tower and was cut from the
+three millimeters metal sheet there over
+is a six wheel two vehicle with
+custom-made 3d printed 14 inches wheels
+they improved fill capabilities while
+maintaining the same way of the drive
+module a DC brush motor is installed in
+each wheel the compact free part
+manipulator has five degrees of freedom
+and is able to lift the weight up to
+seven kilograms the jaws can lift items
+of various shapes and dimensions
+including very small ones laying on the
+hard ground we have specially designed
+jaws to collect soil samples
+allowing to collect a sufficient amount
+of soil for testing and one approach
+control and vision system is based upon
+Wi-Fi 2.4 gigahertz and 5.8 gigahertz
+wireless communication the base uses
+directional antennas in their homing
+system which allowed to increase the
+range of communication 6ip digital
+cameras allow for precise operation of
+the rover this year a stereo vision
+system was created combined with VR
+goggles
+three cameras are mounted from service
+so we can freely change their settings
+during tasks the core of the control
+system is at mega 2560 which
+communicates with the modules on the
+rover via rs-485 interface for power
+supply we use two polymer lithium
+batteries which give a total voltage of
+25 volts and had a capacity of 6 ampere
+hours age and which is managed by the
+power manager module a safety switch has
+been installed on the rover we use two
+controllers to operate the vehicle one
+joystick is for driving the other for
+controlling the manipulator the right
+ability of the rover has been improved
+thanks to which it can overcome larger
+turn obstacles
+the stabilization of the antennas on the
+rover has increased the range of
+communication and the new software
+functions will increase reliability in
+case of communication loss visualization
+of the GPS coordinates will improve
+reaching the target and high resolution
+IP cameras will speed up the search for
+objects in the field enhancement later
+with inverse kinematics and self
+leveling of parts will significantly
+accelerate the performance of precise
+tasks this year the origin of control
+panel has been expanded for
+visualization of the manipulator and
+signal strength which facilitates
+monitoring of parameters
+the autonomous system uses GPS a
+magnetometer and the camera that
+searches for the appropriate colors and
+shapes this year also lidar is going to
+be applied as well as image analysis
+from stereo vision cameras which allows
+neural networks to learn specific
+behaviors we have prepared a module
+consisting of white range of sensors to
+study soil samples in terms of eight
+geological parameters together with
+laboratory tests these measurements will
+allow to assess whether life can occur
+in a given area chromatic containers
+allow for transporting examples the
+tests which are a very important part of
+the project consists of five parts
+manipulator test suspension test
+communication test autonomous system
+test and final tests each of which has
+its own sub tests with given priorities
+the system is considered to be working
+if the weighted average result of the
+test exceeds 90%

@@ -1,0 +1,181 @@
+Hello. We are Team MIST 
+Mongol Barota from Bangladesh, 
+ready to jump into the 
+University Rover Challenge 2023 
+with our highly advanced rover - PHOENIX 3.0. 
+Welcome to our System 
+Acceptance Review for URC 2023.
+This year we have re-engineered 
+our previous rover PHOENIX 2.0 
+to accede to the provided competition missions,  
+incorporating newer technologies with 
+a workforce of more than 50 students.
+The core architecture of PHOENIX 
+3.0 is divided into three modules -
+Body, Arm, and Science.
+The rover's body consists of a modular 
+chassis made of stainless steel 
+and rocker-bogie suspension with a 
+bevel gear differential mechanism 
+to withstand both frontal and rear impacts 
+during its venture into the rocky terrains.
+The mobility system of PHOENIX 3.0 is 
+implemented using a steerable wheel system 
+composed of customized 3D 
+printed Honeycomb-structured,  
+non-pneumatic wheels made of 
+thermoplastic polyurethane material. 
+The 2 Degrees of Freedom (DOF) wheels are 
+capable of rotational and steering movement, 
+allowing comfortable movement through 
+tight spaces or along straight lines.
+Our PHOENIX 3.0 has a 5 Degrees 
+of Freedom (DOF) articulated arm 
+with the capability of performing a wide range of  
+dexterity tasks given in the 
+equipment servicing mission.
+Keeping in mind the weight 
+issues of our previous rover, 
+this year we have used a chain-driven base 
+instead of the belt-driven base in the arm gripper 
+and implemented four carbon fiber 
+links instead of two Aluminum links 
+due to its high strength-to-weight ratio.
+Moreover, to facilitate 
+pitching and rolling motion, 
+we have used a bevel gear mechanism 
+to actuate the end-effector grippers 
+and a worm gear mechanism to grip objects up to 
+5.12 inches wide with strength and precision.
+Our rover arm is not only capable of a 
+strict grip and easy maneuverability, 
+but also of performing equipment 
+servicing tasks such as 
+lifting payloads weighing more 
+than 8 Kilograms, opening drawers, 
+pushing buttons, switches, and knobs.
+The components of our rover are 
+controlled by new iterations of  
+our customized PCBs in the electrical subsystem.
+The chassis houses the modular 
+layout of the electrical components 
+which supplies ample power to the 
+core system using LiPo batteries.
+ 
+Other electrical components 
+integrated into the rover  
+include sensors to detect system 
+temperature and battery voltage.
+In the event of operational issues,  
+we have included a visible kill switch 
+for emergency shutdown of the rover, 
+as well as a fail-safe protocol 
+for remote deactivation.
+For autonomous navigation missions,  
+we have taken several steps to ensure 
+the precise orientation of our rover.
+This year we have used 
+odometry and computer vision 
+for strategic path planning 
+and smoother traversal.
+For improved navigation and 
+localization, we have integrated  
+10-DOF IMU sensors with the GPS module
+which provides reliable GPS streams.
+The data received by onboard IMU sensors 
+and GPS are fused by Kalman filter, 
+providing higher precision and accuracy 
+of the rover's actual location.
+A custom script publishes the sensor data in ROS
+to navigate to the visual markers.
+PHOENIX 3.0 uses LiDAR and ZED2 cameras 
+controlled through Jetson Xavier NX.
+For identification of AR Tags 
+up to 5-10 meter distance, 
+our rover uses a combination of 2D Pose 
+Estimation and Multimarker Detection.
+Three LEDs have been integrated into the rover 
+to indicate successful arrival to the 
+destination or completion of a mission.
+In order to ensure optimal communication 
+between the rover and the base station, 
+we have integrated multiple distinct channels for 
+control, backup control, and data transmission.
+Our primary control channel 
+operates on a 2.4 GHz band, 
+with a secondary 900 MHz 
+channel serving as a backup.
+To facilitate data transmission,
+we have allocated two independent channels  
+of 5 GHz and 1.2 GHz for the FPV cameras,
+while an additional three cameras for  
+science or sensory data feedback 
+utilize a common 5 GHz channel.
+This time, to collect soil samples 
+we have developed a suction module 
+that makes this task faster, more efficient, 
+and more precise than ever before.
+On the rear of the rover, there 
+is a testing chamber that is  
+equipped to identify biomolecules
+found in samples of rocks and soil.
+The suction module is composed of an actuator
+and three pumps that work  
+in perfect synchronization
+to extract soil samples from the ground.
+A drill is also attached in case 
+of hard soil samples to soften it. 
+The suctioned samples are 
+deposited through separate funnels 
+to the beakers attached to the customized 
+beaker tray in the testing chamber 
+for each of the corresponding soil 
+tests to avoid cross-contamination.
+A heating pad is also used 
+to provide heat to the beaker 
+for the necessary tests.
+The biomolecules in the sample are 
+identified through multiple chemical tests, 
+including Benedict's Solution 
+for carbohydrate test, 
+Biuret test for protein detection,
+and ion test for ammonia detection.
+And we are also working on the 
+Luciferin test to detect ATP.
+ 
+  
+The outcomes are instantly monitored through 
+the base station for prompt assessment 
+and fed into our personalized algorithm.
+Based on predetermined criteria,
+the samples are categorized as 
+"Extinct," "Extant," or "No presence of life."
+Using an USB microscope with MVOC sensors,
+we can detect even the smallest signs of life.
+Our custom database of nearly 1000 rock samples
+and a neural network model with Transfer Learning 
+has allowed us to predict and 
+identify fossilized samples 
+with 97.3% accuracy.
+We also used a Munsell chart 
+to estimate the levels of 
+organic carbons in the rocks.
+This year, we will expand our analysis 
+to a wider range of rock 
+samples compared to last year, 
+which will give us a larger 
+dataset with newer samples.
+As a part of our educational outreach plan,
+we have hosted several workshops 
+and plan to host more seminars and conferences
+in the near future.
+As the finals approach, we plan to 
+maintain our rover serviceability 
+by undergoing several mock missions 
+as we expect in the main competition.
+We, MIST Mongol Barota, are confident 
+in our capability and effort.
+Thank you for your consideration.
+MIST Mongol Barota wishes good luck 
+to all participating teams.
+Thank you.

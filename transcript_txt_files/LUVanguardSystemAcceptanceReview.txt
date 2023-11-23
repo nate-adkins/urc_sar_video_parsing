@@ -1,0 +1,129 @@
+Liberty University Vanguard projects
+mission for the Mars Society University
+Rover challenge
+the communication system for the rover
+is broken down into two main sections
+video transmission from the rover to the
+base station and a two-way channel for
+transmitting commands to the rover and
+receiving data from the rover the video
+transmission will be accomplished using
+a commercially available video
+transmitter and receiver such as the
+ones used for fpv drones the two-way
+control channel will be implemented
+using a custom radio designed and built
+by our team we will be using frequency
+shift keying to modulate binary data
+onto the carrier wave allowing us to
+directly transmit commands from the base
+station microcontroller to the
+microcontroller on the rover to ensure
+our signal has sufficient range we will
+design the FSK modules to operate using
+amateur radio frequencies preferably
+between 144 and 148 megahertz or 420 to
+450 megahertz
+since multiple of our team members hold
+amateur radio licenses using amateur
+frequencies is an acceptable option that
+should give us increased transmit range
+and reliability
+the programming team has worked closely
+with the electronics team to design the
+electronics in a very modular fashion
+this allows changes to the electronic
+subsystem of the rover if needed without
+significant changes in the code the
+system is broken down into one master
+and several subsystems with each
+subsystem handling all the details which
+are abstracted from master the
+subsystems will then interface directly
+with the sensors and motors allowing the
+master to solely focus on the task of
+controlling the entire rover as a
+singular system with the master
+subsystem communication taking place
+through an abstracted interface
+the mechanical system uses a partial
+rocker-bogie like system that is
+attached to an 80/20 aluminum extrusion
+frame the motors and gearboxes are then
+bolted directly to the legs allowing us
+to keep the highly inductive motors away
+from the more sensitive electrical
+equipment in the main body each motor
+ways 4.5 pounds with a 3.5 pound gearbox
+and a two-pound tire system using six
+legs this allows us to keep over 60% of
+the total weight in the bottom 1/3 of
+the rover the tire system is designed
+using off-the-shelf tires that were
+designed for Electric mini motorcycles
+allowing us to obtain high-performance
+tires at low cost
+they were then split in half and notched
+to fit around and our aluminum spoke and
+then filled with an open-cell foam for
+added rigidity and to keep the tires
+from filling with rocks the result was
+high traction low cost and low weight
+the arm was then mounted on a lazy susan
+bearing with two arm segments allowing
+it to reach down to the ground and up to
+a height of 1.5 meters
+on consideration when evaluating the
+rover design was that it must be modular
+reliable and functional the primary
+design choices for the Power
+Distribution and computational systems
+were driven by the need to
+compartmentalize the design across an
+entire team this allows us to have
+multiple people work in parallel
+secondary to this we stressed
+reliability and choosing components that
+are either designed for extreme
+conditions certified for use on the
+International Space Station or derating
+components far under the rated capacity
+the operating voltage of approximately
+21 volts allows for efficient power
+regulation but also the power required
+by the drive system our drive system
+consists of six 250 watt electric motors
+and pulls about nine amps at minimum
+power and about 60 amp at full power our
+battery system is capable of a hundred
+amps per battery at five point five amp
+hour we also plan to run six batteries
+in parallel for maximum runtime our
+motor controllers are automotive grade
+and certified for extreme environments
+and mechanical strain on the die of the
+chip they also include our voltage over
+current and over temperature protection
+the science plan for the rover is to
+switch out our main hand on the rover
+for a special Spade scoop shovel
+outfitted with a container for holding
+soil and a lidar sensor to test for
+proper depth candidate locations for
+soil sampling will be found by taking
+atmospheric readings for carbon dioxide
+temperature humidity and radiation after
+determining a suitable location we dig
+down and collect a sample and place it
+into individual soil containers that
+will be inside the testing unit on the
+rover this whole science unit can then
+be sealed off to direct
+cross-contamination once in the
+containers we can run the onboard tests
+for radiation pH and moisture because
+these tests don't contaminate the soil
+we have clean samples for base station
+testing where we can run more intensive
+tests
+you

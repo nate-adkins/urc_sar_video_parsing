@@ -1,0 +1,130 @@
+hi my name is nathan sue saddleback
+college robotics is proud to present our
+fourth generation rover osiris this year
+we organized our team by subsystem
+forming the chassis arm drive science
+and autonomy sub teams our riveted
+carbon fiber chassis houses a total of
+four lithium ion batteries chosen for
+the high energy density and discharge
+capabilities three 12 volt batteries are
+connected in parallel to provide 69 000
+milliamp hour capacity for the drive arm
+and science subsystems to protect
+against brownouts and power surge
+failure a separate 48 volt battery
+powers all computers and networking
+electronics onboard the rover
+each battery is connected to a battery
+management system that protects against
+overcharge and over discharge we have
+designed a kill switch pcb that uses
+relays and a logic gate providing both a
+hard stop and sub stop that can sever
+all electricity immediately or shut down
+all motors while preserving computer
+power
+our antenna includes a spring loaded
+folding mechanism to meet weight in size
+requirements
+osiris 5 degree of freedom arm utilizes
+two heavy duty linear actuators for
+strong lifting capabilities
+the tera azimuth rotation is a
+hypocycloidal cage pinion and ring gear
+mechanism that produces high torque with
+zero backlash the turret is modular in
+application and is reused on our science
+mission our two axis end effector
+actuates using a series of gear trains
+and worm drive powered by three high
+torque dc motors
+providing both fine positioning and
+gripping and heavy lifting capability
+we designed a custom pcb integrating six
+closed-loop motor controllers with power
+and data provisions mosaics features a
+rocker boogie suspension with a rear
+mounted differential bar giving the
+rovers stability over rough train
+the limbs are square carbon fiber tubes
+chosen for its high strength to weight
+ratio
+the front and back wheels are powered by
+400 watt brushless dc motors using 100
+to 1 gearboxes outputting 260 newton
+meters of torque
+the wheels are 3d printed thermoplastic
+polyurethane 250 millimeter tires for
+our motor drivers we are using dual
+motor controllers with three phase hall
+effect sensor feedback and integrated
+pid control loops capable of up to 120
+amps of continuous current our science
+apparatus features a suite of different
+tests to determine the presence of life
+on different sites
+the lowering platform mounted at the
+front of the chassis carries multiple
+non-intrusive sensors
+using a combination of infrared
+ultraviolet and optical imaging the
+fluorescence and spectra reflected off
+samples are studied for mineral
+composition and signs of life
+soil samples are vacuumed into a light
+isolated testing chamber
+after experiencing a chemical bath the
+sensor measures the luminescence of the
+atp in the soil samples
+across the entire science package two
+boards incorporate mosfet circuits to
+control the soil collection mechanism
+rotation of testing chambers
+in the rock sampling process
+for autonomy point clouds are generated
+using a sterolabs z2i and leveraged on
+an nvidia jetson agx xavier for gpu
+accelerated computing
+stereoscopic images are parsed for depth
+points that deviate from an estimated
+floor plan to detect objects in three
+dimensions
+detected objects and boundaries are then
+used in an a-star search algorithm to
+find the shortest path to a given gps
+waypoint
+autonomous motor control is facilitated
+by issuing rotation speed values to a
+ross to the service node
+alvar attack detection is implemented
+using opencv and it's built in our uco
+module
+each alvar tag has a hard-coded boolean
+checkpoint indicating if said tag has
+been found
+frames with detected tags are
+transmitted back to the base station for
+verification
+base station communications leveraged
+ubiquity's two ac prism radio and air
+max antenna on the 2.4 gigahertz radio
+band excellent for nine line of sight
+communication and high bandwidth data
+streams
+across this point-to-point network
+control commands are sent downstream and
+telemetry is sent upstream via nodes in
+the rost2 interface
+ros2's gui interface rqt is utilized for
+control buttons for motors and cameras
+and status signals process indicators
+and video feeds to control the arm we
+use a joystick to get precise pose
+estimation for the joints of the arm a
+warthog quality thrust master is used
+for the drive control to enable manual
+drive over the network and achieve
+trajectory motion of the rotor
+[Music]
+you

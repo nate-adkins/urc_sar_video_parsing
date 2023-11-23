@@ -1,0 +1,127 @@
+you a a robotics is proud to submit our
+system acceptance review video for
+consideration by the University of Rover
+challenge judges panel and during our
+fourth year with support from UAA and
+many professional organizations our team
+of over 15 students chose to iterate
+upon and optimize last year's design
+introducing iceberg 3.25 ue robotics is
+divided into teams dedicated to each
+Rover subsystem mechanical electrical
+software science and project management
+we developed a Gantt chart and tasks
+based on chance requirements and
+available resources by utilizing FAA on
+mechanical structures 3d printing and
+industrial machining equipment we
+rapidly prototype and optimized new
+design features as supplies were
+purchased we built trouble shut and
+tested systems in parallel for 3.5
+chassis was designed around the extreme
+retrieval tasks and remains largely
+unchanged from last year they consists
+of a main structural member cut from 2
+inch square tubing that runs the length
+of the chassis and two custom seat
+channel beams that contain suspension
+help the rover runs on a 720 watt hour
+lithium-ion battery pack providing ample
+power for each competition task 5
+cameras face in various directions to
+give the driver sufficient visibility at
+all times these provide multiple
+close-ups of the end effector and
+wide-angle views of the arm and rover
+the rover ease is a set of 900 megahertz
+Ubiquiti radios to provide multiple
+video streams as well as rover commands
+allowing maximum propagation across
+terrain a pair of five DVI dipole
+antennas are mounted high on the rover
+while the base station uses a one and
+twenty degree directional antenna with a
+13 decibel gain the base station runs a
+custom graphical application built with
+WX Python for viewing Rover camera
+streams and monitoring and controlling
+the rover it features a navigation
+system to display the position of the
+rover in real time from transmitted GPS
+coordinates and a configurable control
+system enabling operation of the rover
+with a pair of gamepad controllers we
+focused on improving our computer vision
+and navigation software for the
+travursel mission during navigation the
+rover uses an onboard GPS and
+accelerometer magnetometer to precisely
+determine its position and orientation
+OpenCV analyzes the image and depth data
+from a stereoscopic camera to determine
+obstacles in hazardous terrain and
+identify competition markers our
+pathfinding system uses a record of
+encountered obstacles to calculate the
+most direct path to a waypoint
+coordinate the arm design drew
+inspiration from a number of industrial
+sources the shoulder is powered by a
+200-pound linear actuator minimizing any
+moment forces in the upper arm the elbow
+uses a thirty to one or impaired
+transmission that provides smooth
+predictable motion this design allows
+the forum to be opposite from the upper
+arm to gain 360 degrees of freedom we
+elected to use a warm gear on the wrist
+along with a unique and effective design
+that is able to rotate continuously
+without the use of slip rings the end
+effector utilizes a gripper and a
+screwdriver system to accomplish the
+extreme retrieval and equipment
+servicing tasks 3 DC motors and a linear
+actuator provide a clamping force of 13
+pound-feet in a range of two and a half
+inches with precision control of nine
+hundredths of an inch paired with the
+robotic arm the end effector has a five
+axis range of motion the main axis is
+controlled via a worm drive gearbox
+minimizing power draw a 3d printed
+enclosure prevents dust from entering
+their gearbox and belt drive systems the
+replaceable pads on the turbo are
+designed for versatility allowing the
+rover to grow up items enter commands on
+a keyboard and operate a joystick both
+Philips head and allen key screwdrivers
+are mounted to the end effector and
+operated by the same motor to save
+weight two cameras provide first-person
+views of the jaws and screwdriver
+attachments with three laser pointers to
+aid in operator control a science plan
+encompasses a combined approach that
+includes visual observations an array of
+sensors and wet lab chemistry to
+identify signs of life a camera scans
+the area for presence of animals
+metabolic wastes tracks microbial mats I
+am standing on surfaces due to microbial
+metabolic
+tivities and fossils rocks and minerals
+are observed for signs of endo lithic
+organisms soil samples are analyzed with
+a variety of sensors including
+spectroscopy and gas detection and a tad
+aluminum mixture to observe luminescence
+levels to determine presence of
+oxidizers including hemoglobin proteins
+urine feces copper or iron this
+concludes our 2020 URC SAR submittal we
+appreciate your consideration and look
+forward to seeing you at the Mars desert
+Research Station

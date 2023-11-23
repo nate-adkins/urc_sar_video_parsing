@@ -1,0 +1,152 @@
+hi we're Creator caltech's first ever
+University Rover challenge team
+our team of 15 motivated undergraduate
+students has been hard at work designing
+building and testing the first edition
+of our Mars Rover and we're excited to
+share our progress with you
+the crater drive and Chassis sub teams
+main objective was to design manufacture
+and test a robust mechanical design
+capable of reliable performance across a
+wide variety of terrains to that end the
+tried and true rocker bogey system was
+selected due to its low mass and
+complexity increased stability across
+extreme terrains and flight Heritage our
+particular implementation further
+prioritizes reducing system Max and
+complexity being primarily constructed
+out of hollow aluminum 6061 tubing in
+plates
+finally with no permanent welds or
+rivets are over a simple simple to
+disassemble maintain and augment with
+new hardware and Novo capabilities a
+flexibility in design that Creator
+intends to explore further during future
+testing
+24 centimeter wheelies inflatable
+balloon Wheels provide traction even in
+Sandy environments and cushioning while
+traversing Roth Rocky Terrain
+the differential bar inverts the
+rotation of one rocker and transfers it
+to the opposite rocker increasing
+stability and allowing for the Rover to
+scale obstacles of height twice its
+wheel diameter
+coupled with its robust brushless DC
+motors our rower's mechanical design has
+optimized to power through and over even
+the most Locomotion impeding obstacles
+and provide a Dependable platform upon
+which the other Rover subsystems can
+confidently build off of
+our robotic arm uses a six-stop design
+to achieve full XYZ and rotational
+positioning of our end effector
+this end effector features a clock
+Ripper to operate controls such as
+switches and joysticks using a worm gear
+drive to maximize load holding ability
+while minimizing power consumption
+lastly a continuous rotation joint and
+linear actuator enable tasks such as
+pressing keys and tightening screws
+the first two joints on the arm are
+driven by stepper motors with worm gear
+reducers again minimizing holding torque
+and power consumption of the arm
+the next four joints and end effector
+are driven by servos with gear trains to
+minimize weight while providing
+sufficient torque to operate the arm and
+complete all required tasks
+the arm controls can be switched between
+end effector position control driven
+from inverse kinematics or direct
+control over the joint values
+additional features such as software
+bounds for joint angles and arm
+visualization in Ross allow for safe
+operation of the arm and intuitive user
+control our Electronics centered around
+supporting our numerous actuators and
+sensors on our Rover while delivering
+reliable power and signal throughout the
+system we also aimed to increase
+interchangeability for components within
+the system for easy repair and
+replacement we achieved this by
+designing a network of off-the-shelf
+power converters and motor controllers
+that minimize space and cost to increase
+power efficiency we implemented an
+active balancing BMS that ensures
+uniform discharge from each of the cells
+this specific battery management system
+has the capability to give us data about
+each of the cell States via Bluetooth or
+for longer ranges rs-485 additionally
+our single point grounding scheme makes
+signal propagation robust to Emi
+for communications we have two channels
+2.4 gigahertz for high bandwidth and 900
+megahertz for lower bandwidth without
+guaranteed line of sight this redundancy
+creates a robust communication system
+for the Rover
+we're using ross2 for the communication
+system we're us to communicates between
+the base station laptop and the NX on
+the Rover it also communicates between
+the annex and the feather radiolor as
+well as the Arduino on it Ross was not
+only utilized for the long-range
+Communications but was also utilized in
+connecting the Jetson Xavier NX to its
+many peripherals for both odometry and
+the manipulator arm the control Motors
+had to be connected to the gpio pins on
+an Arduino Mega which was connected to
+the Jetson NX over a raw serial bridge
+for the End effector dynamixel Motors
+were connected directly over USB as were
+the lidar and Zed camera are used for
+the autonomy mission for autonomy we
+used a combination of Point cloud and
+Laser scan data to create a
+comprehensive map of the Rover's
+environment along with the IMU this data
+allows us to create a map of the
+locations the Rover has been to while
+simultaneously deciphering the Rover's
+location relative to that map for
+identifying Signs of Life in soil
+samples we decided to primarily focus on
+the presence of carbohydrates and
+proteins within the samples
+we sample soil using a swappable scooper
+attachment on the manipulator arm and
+Defector for detecting extant life we
+decided to use the Bradford protein
+assay while for extinct left we decided
+on Benedict's reagent test for
+carbohydrates since these are both
+indicator tests we'll use a carousel of
+cuvettes built to function as a custom
+spectrophotometer measuring the
+absorbance of the samples for rock
+sampling we have an esp-i
+microcontroller which is placed at the
+end of the arm allowing us to send image
+data back to the base station for
+processing as well as to run a computer
+vision model on board to determine the
+type of rock sampled as this could be
+indicative of extinct life thanks for
+watching really proud of the effort that
+we put in over the past six months to
+get this Rover working and we thank you
+for your consideration

@@ -1,0 +1,120 @@
+hello I'm Sam dare the chief engineer of
+the Calvert Mars were designed to you
+I'm so proud of the thousands of hours
+our team members of putting over the
+last few months we have been hard at
+work over the past four months and our
+entirely student-led design team started
+from scratch we grew to around 25
+members as a rookie team we were able to
+design everything about our team from
+the ground up
+we designed a completely flat org chart
+with five sub teams programming business
+science mechanical and electrical we
+designed a Rover we believe will be a
+top competitor at the 2019 University
+Rover challenge I'm case Van Leer
+and I'm the mechanical lead our
+suspension system is a unique innovative
+design which utilizes eight independent
+linkages to improve flexibility and
+versatility our design has been dubbed
+at the hexapod because of its six wheels
+and independent linkages which give it a
+wide ranging versatility the wheels are
+3d printed from flexible filament all
+the components were designed and
+machined in our engineering building by
+the members of the mechanical team the
+equipment servicing task and the extreme
+retrieval and delivery tasks require an
+arm with a great deal of dexterity and
+reach
+we designed a fully custom arm with six
+degrees of freedom including a 360
+degree wrist for continuous rotation the
+end effector is a 3d printed claw
+capable of high precision maneuvers
+which will be crucial in order to
+perform well in these tasks the arm
+itself rotates on a custom turret which
+allows us to rotate to the nearest 1.5
+degrees very little backlash
+[Music]
+our goal for the electrical system this
+year was pretty simple yet effective
+design our custom battery pack consists
+of 70 21700 lithium-ion cells have our
+battery supply at twenty five point nine
+volts nominal and 50 amp hours battery
+connects to a bus bar which distributes
+power to all electronics on board our
+motor controllers are Rev spark max
+probe motor controllers which are wired
+to 11 Neil brushless motors six on the
+drive train and five on the arm all
+these motors are controlled over can bus
+by an Arduino mega the Arduino also
+connects to our main processor the
+Jetson TX to our live video feed is sent
+back through our AV comm system
+consisting of a eight channel 1.2
+gigahertz transmitter in a second 40
+channel 5.8 gigahertz transmitter for
+redundancy we're communicating with the
+rover through a 900 megahertz XP Pro to
+transmit our data we use a dipole
+antenna on a Rover and a yogi' antenna
+at our base station re Vikan uses
+cloverleaf antennas on both ends we are
+also utilizing a u-blox Neill m8 and GPS
+to identify our Rovers coordinates
+the programming the programming team is
+tasked with designing operating and
+integrating the individual software
+subsystems to keep our design modular
+simplistic and easy to debug we're using
+individual Arduino microcontrollers to
+operate each subsystem this offloads
+these tasks from our main computer
+Nvidia jetsam tx2 which is used for the
+main hub of our our OS integration as
+well as image processing with our intel
+realsense depth camera using OpenCV and
+Trane tensor phone models we were able
+to detect and navigate towards the
+tennis ball in the autonomous mode
+utilizing this along with arduino x' and
+our standardized motion systems over
+canvas we're able to drive autonomously
+with gps by means of the realsense
+camera and teleoperated using tank drive
+controls similarly we're able to
+precisely control the arm utilizing a
+combination of quadrature and absolute
+encoders with closed-loop control via
+pivots
+[Music]
+the science essay this year is split up
+into three distinct analysis sections
+first the environmental analysis we plan
+to use a temperature probe a moisture
+probe and a pH probe these three probes
+will establish base evidence that will
+determine the likelihood of life
+existing in a sample location the second
+part requires the analysis of the
+geological structures and this will be
+done using an imaging microscope
+specific minerals that we will be
+looking for include apatite and calcite
+as well as looking for micro fossils the
+third technique is Raman spectroscopy
+and this will help us get a better
+understanding of the chemicals present
+in the sample we are specifically
+looking for sp2 hybridized carbons that
+will lead us to conclude the presence of
+active natural chemical synthesis
+[Music]

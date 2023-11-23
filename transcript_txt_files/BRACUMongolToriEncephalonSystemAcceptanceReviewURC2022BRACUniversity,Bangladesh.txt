@@ -1,0 +1,170 @@
+[Music]
+hello everyone i am
+the chamber of banker 1.3 welcoming you
+to our sr video for university 2022 we
+are 40 undergraduate students from
+bracken university working on building
+this mars rover we are divided into nine
+subtypes which are designed mechanical
+electronics network cultural autonomous
+science research and management
+we have designed an arm that can rotate
+360 degrees with six degrees of freedom
+with the help of a warm gear mechanism
+the stainless steel chassis is strong
+lightweight and modified rocker body
+suspension helps to traverse through
+rocketeering for a height adjustment a
+bending mechanism is applied to the
+vermicelli antenna the three finger claw
+in our arm improves the gripping and
+precision custom-made drill machine
+under the waist helps break down topsoil
+we are planning to use jute fiber on the
+wheel surface to increase traction as
+the robot traverses through rocker
+plateau we are also planning to
+implement a custom double-sided linear
+actuator with a custom-made planetary
+gearbox for a modified extender to help
+the rover clamp steep slope i advocate
+for carrying out extreme retriple and
+data variation the suspension system is
+capable of absorbing unexpected jaws
+while crossing rocketeering the rover's
+expendable body helps it to maintain its
+ability during vertical drops the robust
+arm can lift large things like stool
+boxes and other equipment without any
+difficulties we have trained an
+artificial intelligence model for common
+mechanical tools classification such as
+hammers screwdrivers pliers etc we have
+created our own data set by collecting
+the images of different mechanical tools
+available in our lab in different
+environments
+the new three finger claw helps us to
+grip with greater control and precision
+which has substantially improved our
+performance during the equipment
+servicing task we have created a mock
+setup to test our system for the mission
+feedback actuators have been added for
+accuracy and movement and the required
+angle is obtained for inverse kinematics
+algorithms in the equipment servicing
+mission our artificial intelligence
+system assists the astronaut by
+detecting rocket lander elements such as
+toggle switch joystick keyboard first
+aid box etc and instructing the driver
+for the mission accordingly
+we have divided our entire electronic
+system into different parts having
+different purposes we have a power
+management board for controlling and
+maintaining the rover's power
+distribution from the primary source the
+power line uses a kill switch mechanism
+and passes through a protection mosfet
+the main pcb controls all the wheels and
+actuators in the robotic arm dual chair
+and monster motor driver is being used
+to control the arm and sight and motor
+driver for wheels lastly our debugging
+circuit helps to debug the problems on
+the pcb on board
+this year we have separated our
+communication system into two
+independent entities a peer-to-peer
+network architecture using two high-end
+2.4 gigahertz routers has been used for
+seamless data transmission rocket m2 has
+been used at the base station in
+addition to a directional sector antenna
+we utilized a 2.4 gigahertz
+omnidirectional antenna together with a
+ubiquiti bullet m2 router to achieve up
+to 360 degree signal coverage and more
+than one kilometer smooth drive for a
+compact network system we have used a pv
+network switch this year to link the
+rover's competing unit to the router
+which allows for flawless data
+connection between the base station and
+the rover for vision ip cameras are
+being strategically placed throughout
+the rover a parallel analog fpv 5.8
+gigahertz technology has been used for
+dealing with latencies this year we have
+shifted our robot robot operating system
+in short ross this helps the control of
+the rover to be more efficient we have
+operated the joypad in our control
+system to control the rover more
+smoothly for the lower level signal
+processing of the rover we have used
+arduino mega and for the higher level
+processing we have used raspberry pi 4b
+to control the full rover
+our science model is an automated
+onboard laboratory it has two parts soil
+analysis and atmospheric analysis our
+soil testing box spontaneously performs
+biomass amino acid starch and water
+capillary tests these also allow us to
+search for bio signatures which could
+tell us if life ever existed on mars
+we have used two probes that provide us
+with npk temperature moisture and ph
+data from the soil samples using modbus
+communication for atmospheric analysis
+we record data of different elements of
+the atmosphere a graphical user
+interface is designed for scientific
+data analysis we use the server based
+pen till fpv camera to process images
+and transform them into a panoramic
+image we have developed an artificial
+intelligence system for martian rock
+classification and a weather forecasting
+system for the martian atmosphere for
+our autonomous navigation system for the
+very first time our system design
+consists of an artificial gps for
+implementing differential venuses and
+the line axis imu to capture data of the
+robust movement of goodwill points for
+detecting the air techs we have used the
+specific dictionary of the opencv arco
+library as per the requirements the usb
+camera that we have used performs really
+well for our purpose we use the 2d
+lighter for our obstacle evidence and
+mapping the surrounding environment and
+nvidia gets advantageous for sensor data
+for additional estimation of air attacks
+we are using opencv we have elevated the
+camera by placing the tags at different
+distances from the camera and noted the
+measurements after calculating the
+distances between the starting and
+ending points later plotting the results
+in the y-axis and the distances in the
+x-axis and exit sheet we got our desired
+equation which resembles a third degree
+polynomial equation afterwards we use
+the equation in our code to find out the
+desired distance we have used the yellow
+v5 object direction algorithm for arrow
+identification it frames object
+detection as regression problem to
+specially separated boundary boxes and
+associated class probabilities we have
+trained our datasets in different
+classes and it details fast program
+distracted from full images in one
+evolution our unified architecture is
+extremely fast and processes images in
+real time up to 45 frames per second
