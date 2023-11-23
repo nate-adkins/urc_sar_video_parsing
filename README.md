@@ -1,4 +1,4 @@
-# Here are the 100 more frequently used words in URC SAR videos:
+# Here are the 100 mort frequently used words in URC SAR videos:
 
 ![](Top100.png)
 
